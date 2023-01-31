@@ -1,0 +1,89 @@
+{
+    "GBSeq_locus": "DY587910",
+    "GBSeq_length": "529",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "EST",
+    "GBSeq_update-date": "22-FEB-2011",
+    "GBSeq_create-date": "31-MAR-2007",
+    "GBSeq_definition": "SCE164 Snake venom gland SMART cDNA library Sistrurus catenatus edwardsi cDNA clone 164 5', mRNA sequence",
+    "GBSeq_primary-accession": "DY587910",
+    "GBSeq_accession-version": "DY587910.1",
+    "GBSeq_other-seqids": [
+        "gnl|dbEST|37015806",
+        "gb|DY587910.1|",
+        "gi|134768962"
+    ],
+    "GBSeq_keywords": [
+        "EST"
+    ],
+    "GBSeq_source": "Sistrurus catenatus edwardsi (desert massasauga)",
+    "GBSeq_organism": "Sistrurus catenatus edwardsi",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Viperidae; Crotalinae; Sistrurus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..529",
+            "GBReference_authors": [
+                "Pahari,S.",
+                "Mackessy,S.P.",
+                "Kini,R.M."
+            ],
+            "GBReference_title": "The venom gland transcriptome of the Desert Massasauga rattlesnake (Sistrurus catenatus edwardsii): towards an understanding of venom composition among advanced snakes (Superfamily Colubroidea)",
+            "GBReference_journal": "BMC Mol. Biol. 8, 115 (2007)",
+            "GBReference_pubmed": "18096037"
+        }
+    ],
+    "GBSeq_comment": "Contact: Kini RM~Department of Biological Sciences~National University of Singapore~14 Science Drive 4~Tel: +65-65165235~Fax: +65-67792486~Email: dbskinim@nus.edu.sg~Singleton~Seq primer: pTriplEx2.",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..529",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "529",
+                    "GBInterval_accession": "DY587910.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Sistrurus catenatus edwardsi"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "sub_species",
+                    "GBQualifier_value": "edwardsi"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8762"
+                },
+                {
+                    "GBQualifier_name": "clone",
+                    "GBQualifier_value": "164"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "Venom gland"
+                },
+                {
+                    "GBQualifier_name": "clone_lib",
+                    "GBQualifier_value": "SAMN00149894 Snake venom gland SMART cDNA library"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "ggggaacatttttcaggctgaagaggagattgcaagatgaaaactctgctgttgatcctgggggtggtggcattcgtgtacctggagccaggatactccctggaatgtcatacatgcaaaggactattgtgttttgatcctaagccatgtccagaaggtcttgatcaatgctttaagaatgtaactctctcgcttggtttaattcctgtacagacattcgaaagggggtgtactgcaaattgcactccgaatgcgcaaactaagtgttgcaagacaaacctgtgcaacgcttagctccaaaagtggctaatttctttgagttttgatctcatccatgatggaccttccttgaagatttacgcttctggcttttaccacaggacggtccataatcccctttctgttttccttgacacccctcaccctcttccccttttctctcgttccacaagcttctttctgctagttctgtagtttgagaatcaaataaacctcagcatccaaaaaaaaanaananaaanannnaaaa",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN00149894"
+        }
+    ]
+}

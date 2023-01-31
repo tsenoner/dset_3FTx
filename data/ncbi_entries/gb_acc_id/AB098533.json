@@ -1,0 +1,234 @@
+{
+    "GBSeq_locus": "AB098533",
+    "GBSeq_length": "2023",
+    "GBSeq_strandedness": "double",
+    "GBSeq_moltype": "DNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "25-JUL-2016",
+    "GBSeq_create-date": "21-JUN-2003",
+    "GBSeq_definition": "Laticauda laticaudata LlL gene for long chain neurotoxin, partial cds",
+    "GBSeq_primary-accession": "AB098533",
+    "GBSeq_accession-version": "AB098533.1",
+    "GBSeq_other-seqids": [
+        "dbj|AB098533.1|",
+        "gi|32140573"
+    ],
+    "GBSeq_source": "Laticauda laticaudata (blue-ringed sea krait)",
+    "GBSeq_organism": "Laticauda laticaudata",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Laticaudinae; Laticauda",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..2023",
+            "GBReference_authors": [
+                "Fujimi,T.J.",
+                "Nakajyo,T.",
+                "Nishimura,E.",
+                "Ogura,E.",
+                "Tsuchiya,T.",
+                "Tamiya,T."
+            ],
+            "GBReference_title": "Molecular evolution and diversification of snake toxin genes, revealed by analysis of intron sequences",
+            "GBReference_journal": "Gene 313, 111-118 (2003)",
+            "GBReference_pubmed": "12957382"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..2023",
+            "GBReference_authors": [
+                "Tamiya,T.",
+                "Fujimi,T.J."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (20-DEC-2002) Toru Tamiya, Sophia University, Dept. of Chemistry; Kioi-cho, Chiyoda-ku, Tokyo 102-8554, Japan (E-mail:t_tamiya@sophia.ac.jp, URL:http://pweb.sophia.ac.jp/~t_tamiya/, Tel:81-3-3238-3363, Fax:81-3-3238-3361)"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..2023",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "2023",
+                    "GBInterval_accession": "AB098533.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Laticauda laticaudata"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "genomic DNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8630"
+                },
+                {
+                    "GBQualifier_name": "clone",
+                    "GBQualifier_value": "LlL"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "gene",
+            "GBFeature_location": "join(<1..54,869..967,1503..1615)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "54",
+                    "GBInterval_accession": "AB098533.1"
+                },
+                {
+                    "GBInterval_from": "869",
+                    "GBInterval_to": "967",
+                    "GBInterval_accession": "AB098533.1"
+                },
+                {
+                    "GBInterval_from": "1503",
+                    "GBInterval_to": "1615",
+                    "GBInterval_accession": "AB098533.1"
+                }
+            ],
+            "GBFeature_operator": "join",
+            "GBFeature_partial5": "",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LlL"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "join(<1..54,869..967,1503..1615)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "54",
+                    "GBInterval_accession": "AB098533.1"
+                },
+                {
+                    "GBInterval_from": "869",
+                    "GBInterval_to": "967",
+                    "GBInterval_accession": "AB098533.1"
+                },
+                {
+                    "GBInterval_from": "1503",
+                    "GBInterval_to": "1615",
+                    "GBInterval_accession": "AB098533.1"
+                }
+            ],
+            "GBFeature_operator": "join",
+            "GBFeature_partial5": "",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LlL"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "3"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "long chain neurotoxin"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "BAC78205.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "KTLLLTLVVVTIICLDFGYTRICFKTPYVKSETCPPGQELCYTKTWCDRFCSIRGKVIELGCTATCPRAEPKEDTTCCSKDNCNPHP"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "exon",
+            "GBFeature_location": "<1..54",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "54",
+                    "GBInterval_accession": "AB098533.1"
+                }
+            ],
+            "GBFeature_partial5": "",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LlL"
+                },
+                {
+                    "GBQualifier_name": "number",
+                    "GBQualifier_value": "1"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "exon",
+            "GBFeature_location": "869..967",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "869",
+                    "GBInterval_to": "967",
+                    "GBInterval_accession": "AB098533.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LlL"
+                },
+                {
+                    "GBQualifier_name": "number",
+                    "GBQualifier_value": "2"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "exon",
+            "GBFeature_location": "1503..1815",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1503",
+                    "GBInterval_to": "1815",
+                    "GBInterval_accession": "AB098533.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "number",
+                    "GBQualifier_value": "3"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "regulatory",
+            "GBFeature_location": "1799..1805",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1799",
+                    "GBInterval_to": "1805",
+                    "GBInterval_accession": "AB098533.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "regulatory_class",
+                    "GBQualifier_value": "polyA_signal_sequence"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "tgaaaactctgctgctgaccttggtggtggtgacaatcatttgcctggacttcggtaaggccaccaaattttgatcttggtagcaatcaaatccaaaaccaaggggcagagtaagggagggtattagaggaagttgtggtccctttttttggtgggacattctcactgttctggtctgcataaggaggaagactttgggggagaagaggaggtctgcatttggagagaaacccatggctgagacaggtgttgttccaagctggcattctggggtagtttgcctctgaaagtcgtgagatctgcctgggattcctccagggaatgcgatgaaaaaagtttccactcacctgtctctggctttgccacccttcagtattttggatggtactgccaaaggggaccagtgatgcctctttcaagtcaaacatggagattcctcaacatcagccggtgaagcggcataaaattctaagtgtcatatatacaaatatagacatttgtaatgacccaaggaagcttagaaacttaatactccttcctcccattttccccacagcaacaaccctgtgaggaaggatgagcagagagagggtgaattgtccaaagttgctaagtttccttttatgccaaaagtgggactagaactcactgtctcctggtgttcggcccagagtcacccagatggctttcacgctgaaggtggtactagaactcaggtttcctatttctagaccatctgatctttcctaggaaattttcacagctgacctaagtgtgaaaagatcttttgtctaatatctaataagattagaagatcagaaaaataaatatcaaagtaatattaatatatatcatatctttcatccaggctacaccaggatatgcttcaaaacaccttatgttaaatctgagacttgtccacctgggcaggagctatgctatacaaagacttggtgtgatcgtttttgtaagtacagttctcatctttactcccagttttttttcttcttgatcccagactagagctcccaaacgcacctgagaactggaggtcacataggacttgtctgtgccctgcctgggttcccctcaggtcacattctgttgccggacactctaaacaatgcaaagaaaggggggtcttggactggggtaccccatctttctcagcaacagcccagacaggagggggaaacgttctttagagaaagggggagggaaatactgggagagctgtgggtttgttcaggaattgagggaaattggatgaagccattcaacatccaagaaaggtgtcattgtctctcagtcatgtcaaaacaggagactccctcagaaaattcttcttcattcatttactcctgagttttgagtagagaaggaaggaggtctgccttcctaatgggacaggatgcatgaatgtgttcaatgtgggtttaccagtttgttcatcaacagccacaggtctttggtattttttaaataatcattcttctgtgtaggttccatcagaggaaaggtaattgaattgggatgtactgctacttgccctcgagcggagccaaaagaggacactacctgttgctcaaaagacaattgcaacccacatccgtaacggaaacgtcgttgagtgttgctctcatctatcatggaccatccttgaaaattaatgcttgtggcttttaccacagatggtccatcatccccctactcccctgctgtctttgacatatcaacatctttcccttttctctctttctgtaaatttccttctgctagttctgtagtttgagaattgaataaaactcagcattcaattcaagtgtattgattttttaatccccccctcaaaacatccctttcacgaaacccacaggtagagagtctttctccaggtttcagcaggaagtgatgctgggatgagcaggattaggtccactccctgctgaatcatggcgaggattgcctaacaggtaataatataacattcagacagggtaaagaaaaaggagaaaccttaact"
+}

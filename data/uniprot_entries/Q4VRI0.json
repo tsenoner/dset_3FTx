@@ -1,0 +1,396 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q4VRI0",
+    "uniProtkbId": "3SXS_OXYSC",
+    "entryAudit": {
+        "firstPublicDate": "2008-01-15",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2005-07-05",
+        "entryVersion": 41,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 2.0,
+    "organism": {
+        "scientificName": "Oxyuranus scutellatus scutellatus",
+        "commonName": "Australian taipan",
+        "synonyms": [
+            "Coastal taipan"
+        ],
+        "taxonId": 8667,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Acanthophiinae",
+            "Oxyuranus"
+        ]
+    },
+    "proteinExistence": "3: Inferred from homology",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "Scutelatoxin"
+            }
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "value": "Three-finger toxin"
+                },
+                "shortNames": [
+                    {
+                        "value": "3FTx"
+                    }
+                ]
+            }
+        ],
+        "flag": "Precursor"
+    },
+    "comments": [
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 79,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Scutelatoxin",
+            "featureId": "PRO_0000316177"
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 41,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 34,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 59,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 63,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 71,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 72,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 77,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "CI-21DVSIMPMT5V7",
+                "citationType": "submission",
+                "authors": [
+                    "Welton R.E.",
+                    "Burnell J.N."
+                ],
+                "publicationDate": "JUL-2004",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom gland",
+                    "type": "TISSUE"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "AY691665",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAY47074.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "Q4VRI0",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "Q4VRI0",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKTLLLTLVVMTIMCLDLGYTLTCYMNPSGTMVCKEHETMCYQLIVWTFQYRVLYLKGCTSSCPEGNNRACCSTGLCNN",
+        "length": 79,
+        "molWeight": 8923,
+        "crc64": "B97FC5B19345AA9E",
+        "md5": "6760E9DCD911D021416499B69C034313"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Disulfide bond": 4
+        },
+        "uniParcId": "UPI0000520D68"
+    }
+}

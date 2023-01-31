@@ -1,0 +1,4089 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q8IV16",
+    "secondaryAccessions": [
+        "Q6P3T2",
+        "Q86W15"
+    ],
+    "uniProtkbId": "HDBP1_HUMAN",
+    "entryAudit": {
+        "firstPublicDate": "2008-02-05",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2022-02-23",
+        "entryVersion": 151,
+        "sequenceVersion": 3
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Homo sapiens",
+        "commonName": "Human",
+        "taxonId": 9606,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Eutheria",
+            "Euarchontoglires",
+            "Primates",
+            "Haplorrhini",
+            "Catarrhini",
+            "Hominidae",
+            "Homo"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "Glycosylphosphatidylinositol-anchored high density lipoprotein-binding protein 1"
+            },
+            "shortNames": [
+                {
+                    "value": "GPI-HBP1"
+                },
+                {
+                    "value": "GPI-anchored HDL-binding protein 1"
+                }
+            ]
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "value": "High density lipoprotein-binding protein 1"
+                }
+            }
+        ],
+        "flag": "Precursor"
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000312",
+                        "source": "HGNC",
+                        "id": "HGNC:24945"
+                    }
+                ],
+                "value": "GPIHBP1"
+            },
+            "synonyms": [
+                {
+                    "value": "HBP1"
+                }
+            ]
+        }
+    ],
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "Q9D1N2"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "17997385"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "19304573"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "21314738"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "27929370"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "29899144"
+                        }
+                    ],
+                    "value": "Mediates the transport of lipoprotein lipase LPL from the basolateral to the apical surface of endothelial cells in capillaries (By similarity). Anchors LPL on the surface of endothelial cells in the lumen of blood capillaries (By similarity). Protects LPL against loss of activity, and against ANGPTL4-mediated unfolding (PubMed:27929370, PubMed:29899144). Thereby, plays an important role in lipolytic processing of chylomicrons by LPL, triglyceride metabolism and lipid homeostasis (PubMed:19304573, PubMed:21314738). Binds chylomicrons and phospholipid particles that contain APOA5 (PubMed:17997385, PubMed:19304573). Binds high-density lipoprotein (HDL) and plays a role in the uptake of lipids from HDL (By similarity)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "Q9D1N2"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "17997385"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "19304573"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "25387803"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "26725083"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "27929370"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "29899144"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "30559189"
+                        }
+                    ],
+                    "value": "Mostly monomer, but also homodimer and homooligomer (PubMed:25387803). Interacts with lipoprotein lipase (LPL) with 1:1 stoichiometry (PubMed:17997385, PubMed:26725083, PubMed:27929370, PubMed:29899144, PubMed:30559189, PubMed:19304573, PubMed:25387803). Interacts with high affinity with high-density lipoprotein (HDL) (By similarity). Interacts with chylomicrons. Interacts with APOA5 (PubMed:17997385)"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "INTERACTION",
+            "interactions": [
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q8IV16",
+                        "intActId": "EBI-9080234"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P42858",
+                        "geneName": "HTT",
+                        "intActId": "EBI-466029"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q8IV16",
+                        "intActId": "EBI-9080234"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P06858",
+                        "geneName": "LPL",
+                        "intActId": "EBI-715909"
+                    },
+                    "numberOfExperiments": 7,
+                    "organismDiffer": false
+                }
+            ]
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "Q9D1N2"
+                            }
+                        ],
+                        "value": "Apical cell membrane",
+                        "id": "SL-0015"
+                    },
+                    "topology": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "Q9D1N2"
+                            }
+                        ],
+                        "value": "Lipid-anchor, GPI-anchor",
+                        "id": "SL-9902"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "Q9D1N2"
+                            }
+                        ],
+                        "value": "Basolateral cell membrane",
+                        "id": "SL-0026"
+                    },
+                    "topology": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "Q9D1N2"
+                            }
+                        ],
+                        "value": "Lipid-anchor, GPI-anchor",
+                        "id": "SL-9902"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "19304573"
+                            }
+                        ],
+                        "value": "Cell membrane",
+                        "id": "SL-0039"
+                    },
+                    "topology": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "Q9D1N2"
+                            }
+                        ],
+                        "value": "Lipid-anchor, GPI-anchor",
+                        "id": "SL-9902"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "26725083"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "27929370"
+                        }
+                    ],
+                    "value": "The N-terminal acidic region is intrinsically disordered (PubMed:26725083). This region contributes to LPL binding, stabilizes LPL and protects LPL against loss of activity (PubMed:26725083, PubMed:27929370)"
+                }
+            ],
+            "commentType": "DOMAIN"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "Q9D1N2"
+                        }
+                    ],
+                    "value": "Glycosylation of Asn-78 is critical for cell surface localization"
+                }
+            ],
+            "commentType": "PTM"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "29899144"
+                        }
+                    ],
+                    "value": "Sulfation of a Tyr in the N-terminal acidic region increases the affinity for LPL"
+                }
+            ],
+            "commentType": "PTM"
+        },
+        {
+            "texts": [
+                {
+                    "value": "The missense variant Arg-56 may be associated with severe hypertriglyceridemia and chylomicronemia"
+                }
+            ],
+            "commentType": "POLYMORPHISM"
+        },
+        {
+            "commentType": "DISEASE",
+            "disease": {
+                "diseaseId": "Hyperlipoproteinemia 1D",
+                "diseaseAccession": "DI-04193",
+                "acronym": "HLPP1D",
+                "description": "An autosomal recessive disorder characterized by hyperlipoproteinemia, decreased plasma LPL levels in some patients, high plasma triglyceride levels, and refractory fasting chylomicronemia.",
+                "diseaseCrossReference": {
+                    "database": "MIM",
+                    "id": "615947"
+                },
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000269",
+                        "source": "PubMed",
+                        "id": "19304573"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000269",
+                        "source": "PubMed",
+                        "id": "20026666"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000269",
+                        "source": "PubMed",
+                        "id": "21314738"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000269",
+                        "source": "PubMed",
+                        "id": "21816778"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000269",
+                        "source": "PubMed",
+                        "id": "22239554"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000269",
+                        "source": "PubMed",
+                        "id": "23831619"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000269",
+                        "source": "PubMed",
+                        "id": "25387803"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000269",
+                        "source": "PubMed",
+                        "id": "27578123"
+                    }
+                ]
+            },
+            "note": {
+                "texts": [
+                    {
+                        "value": "The disease is caused by variants affecting the gene represented in this entry"
+                    }
+                ]
+            }
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 20,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 151,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Glycosylphosphatidylinositol-anchored high density lipoprotein-binding protein 1",
+            "featureId": "PRO_0000318208"
+        },
+        {
+            "type": "Propeptide",
+            "location": {
+                "start": {
+                    "value": 152,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 184,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Removed in mature form",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "featureId": "PRO_0000429858"
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 63,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 148,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "UPAR/Ly6"
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 35,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26725083"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 50,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Important for LPL transport to the lumenal surface of endothelial cells",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "Q9D1N2"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 103,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 109,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Important for interaction with LPL",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26725083"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "30559189"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 50,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Acidic residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 38,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 38,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Sulfotyrosine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "29899144"
+                }
+            ]
+        },
+        {
+            "type": "Lipidation",
+            "location": {
+                "start": {
+                    "value": 151,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 151,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "GPI-anchor amidated glycine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "Q9D1N2"
+                }
+            ]
+        },
+        {
+            "type": "Glycosylation",
+            "location": {
+                "start": {
+                    "value": 78,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 78,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N-linked (GlcNAc...) asparagine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "29899144"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "30559189"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "6E7K"
+                }
+            ],
+            "featureId": ""
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 65,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 89,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "30559189"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "6E7K"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 68,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 77,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "30559189"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "6E7K"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 83,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 110,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "30559189"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "6E7K"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 114,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 130,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "30559189"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "6E7K"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 131,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 136,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "30559189"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "6E7K"
+                }
+            ]
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 14,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 14,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "it may act as a disease modifier preserving from severe HLPP1D when associated with R-68 or F-89; results in increased GPIHBP1 expression at the cell surface; does not affect interaction with LPL when associated in cis with R-68 in one individual; dbSNP:rs11538389",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs11538389"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "15489334"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "21816778"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23831619"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "Reference",
+                    "id": "Ref.1"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "Reference",
+                    "id": "Ref.2"
+                }
+            ],
+            "featureId": "VAR_044503",
+            "alternativeSequence": {
+                "originalSequence": "F",
+                "alternativeSequences": [
+                    "C"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 56,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 56,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "no discernible effect on interaction with LPL, chylomicrons or APOA5; dbSNP:rs587777636",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs587777636"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "17883852"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "17997385"
+                }
+            ],
+            "featureId": "VAR_044504",
+            "alternativeSequence": {
+                "originalSequence": "G",
+                "alternativeSequences": [
+                    "R"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 65,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 65,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in HLPP1D; does not affect protein expression at the cell surface; does not interact with LPL; promotes formation of dimers and oligomers severely reducing number of monomers; dbSNP:rs587777638",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs587777638"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "20026666"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "featureId": "VAR_071881",
+            "alternativeSequence": {
+                "originalSequence": "C",
+                "alternativeSequences": [
+                    "S"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 65,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 65,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in HLPP1D; does not interact with LPL; promotes formation of dimers and oligomers severely reducing number of monomers; dbSNP:rs587777638",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs587777638"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "22239554"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "featureId": "VAR_077634",
+            "alternativeSequence": {
+                "originalSequence": "C",
+                "alternativeSequences": [
+                    "Y"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 68,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 68,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in HLPP1D; does not affect protein expression at the cell surface; does not interact with LPL; promotes formation of dimers and oligomers reducing number of monomers; dbSNP:rs587777639",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs587777639"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "20026666"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "featureId": "VAR_071882",
+            "alternativeSequence": {
+                "originalSequence": "C",
+                "alternativeSequences": [
+                    "G"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 68,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 68,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in HLPP1D; unknown pathological significance; results in decreased GPIHBP1 expression; promotes formation of dimers and oligomers severely reducing number of monomers; does not affect interaction with LPL when associated in cis with F-14 in one individual; dbSNP:rs587777639",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs587777639"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23831619"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "featureId": "VAR_077635",
+            "alternativeSequence": {
+                "originalSequence": "C",
+                "alternativeSequences": [
+                    "R"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 68,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 68,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in HLPP1D; does not interact with LPL; promotes formation of dimers and oligomers severely reducing number of monomers",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "21314738"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "featureId": "VAR_077636",
+            "alternativeSequence": {
+                "originalSequence": "C",
+                "alternativeSequences": [
+                    "Y"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 83,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 83,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in HLPP1D",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27578123"
+                }
+            ],
+            "featureId": "VAR_077637",
+            "alternativeSequence": {
+                "originalSequence": "C",
+                "alternativeSequences": [
+                    "R"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 89,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 89,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in HLPP1D; drastically affects interaction with LPL; promotes formation of dimers and oligomers reducing number of monomers; dbSNP:rs587777640",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs587777640"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "21816778"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "featureId": "VAR_071883",
+            "alternativeSequence": {
+                "originalSequence": "C",
+                "alternativeSequences": [
+                    "F"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 108,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 108,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in HLPP1D; does not interact with LPL; promotes formation of dimers and oligomers reducing number of monomers",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "22239554"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "featureId": "VAR_077638",
+            "alternativeSequence": {
+                "originalSequence": "T",
+                "alternativeSequences": [
+                    "R"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 115,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 115,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in HLPP1D; a patient with chylomicronemia; no effect on protein expression at the cell surface; loss of interaction with LPL; loss of interaction with chylomicrons; promotes formation of dimers and oligomers reducing number of monomers; dbSNP:rs587777637",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs587777637"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "19304573"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "22239554"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "featureId": "VAR_058086",
+            "alternativeSequence": {
+                "originalSequence": "Q",
+                "alternativeSequences": [
+                    "P"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 144,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 144,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in HLPP1D; dbSNP:rs78367243",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs78367243"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "22239554"
+                }
+            ],
+            "featureId": "VAR_077639",
+            "alternativeSequence": {
+                "originalSequence": "S",
+                "alternativeSequences": [
+                    "F"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 175,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 175,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in HLPP1D; affects protein expression at the cell surface; reduces interaction with LPL; dbSNP:rs145844329",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs145844329"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "21816778"
+                }
+            ],
+            "featureId": "VAR_071884",
+            "alternativeSequence": {
+                "originalSequence": "G",
+                "alternativeSequences": [
+                    "R"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 38,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 38,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Loss of sulfotyrosine formation.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "29899144"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "Y",
+                "alternativeSequences": [
+                    "F"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 66,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 66,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Promotes formation of dimers and oligomers reducing number of monomers.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "Y",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 71,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 71,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Promotes formation of dimers and oligomers reducing number of monomers.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "L",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 91,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 91,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Promotes formation of dimers and oligomers reducing number of monomers.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "T",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 92,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 92,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Only slightly increased formation of dimers and oligomers. No effect on number of monomers. Loss of LPL interaction.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "L",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 93,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 93,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Promotes formation of dimers and oligomers reducing number of monomers.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "I",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 101,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 101,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Promotes formation of dimers and oligomers reducing number of monomers. Retained some interaction with LPL.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "G",
+                "alternativeSequences": [
+                    "S"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 104,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 104,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Promotes formation of dimers and oligomers reducing number of monomers. Retained some interaction with LPL.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "T",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 105,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 105,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Promotes formation of dimers and oligomers reducing number of monomers.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "T",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 106,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 106,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Promotes formation of dimers and oligomers severely reducing number of monomers.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "H",
+                "alternativeSequences": [
+                    "L"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 107,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 107,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Promotes formation of dimers and oligomers reducing number of monomers.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "S",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 108,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 108,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Retained some interaction with LPL. No effect on number of monomers.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "T",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 109,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 109,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Promotes formation of dimers and oligomers reducing number of monomers. Loss of LPL interaction.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "W",
+                "alternativeSequences": [
+                    "C",
+                    "P",
+                    "T"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 109,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 109,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Loss of interaction with LPL. Only slightly increased formation of dimers and oligomers. No effect on number of monomers.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26725083"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27811232"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "30559189"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "W",
+                "alternativeSequences": [
+                    "S",
+                    "Y",
+                    "H",
+                    "A",
+                    "F"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 115,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 115,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "No effect on number of monomers.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "Q",
+                "alternativeSequences": [
+                    "K"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 126,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 126,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Promotes formation of dimers and oligomers reducing number of monomers.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "25387803"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "V",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 64,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 66,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "6OAU"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 68,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 72,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "6OAU"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 80,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 82,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "6OAU"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 88,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 98,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "6OAU"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 101,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 113,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "6OAU"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 117,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 120,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "6OAU"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 122,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 131,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "6OAU"
+                }
+            ]
+        },
+        {
+            "type": "Turn",
+            "location": {
+                "start": {
+                    "value": 140,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 142,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "6OAU"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0002",
+            "category": "Technical term",
+            "name": "3D-structure"
+        },
+        {
+            "id": "KW-1003",
+            "category": "Cellular component",
+            "name": "Cell membrane"
+        },
+        {
+            "id": "KW-0225",
+            "category": "Disease",
+            "name": "Disease variant"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0325",
+            "category": "PTM",
+            "name": "Glycoprotein"
+        },
+        {
+            "id": "KW-0336",
+            "category": "PTM",
+            "name": "GPI-anchor"
+        },
+        {
+            "id": "KW-0446",
+            "category": "Ligand",
+            "name": "Lipid-binding"
+        },
+        {
+            "id": "KW-0449",
+            "category": "PTM",
+            "name": "Lipoprotein"
+        },
+        {
+            "id": "KW-0472",
+            "category": "Cellular component",
+            "name": "Membrane"
+        },
+        {
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        },
+        {
+            "id": "KW-0765",
+            "category": "PTM",
+            "name": "Sulfation"
+        },
+        {
+            "id": "KW-0813",
+            "category": "Biological process",
+            "name": "Transport"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "CI-F277GKBCDOES2",
+                "citationType": "submission",
+                "authors": [
+                    "Shan Y.X.",
+                    "Yu L."
+                ],
+                "title": "Isolation and characterization of human HBP1 gene.",
+                "publicationDate": "FEB-2003",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA]",
+                "VARIANT CYS-14"
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-5GBD0VIIJ7C63",
+                "citationType": "submission",
+                "authors": [
+                    "Mural R.J.",
+                    "Istrail S.",
+                    "Sutton G.G.",
+                    "Florea L.",
+                    "Halpern A.L.",
+                    "Mobarry C.M.",
+                    "Lippert R.",
+                    "Walenz B.",
+                    "Shatkay H.",
+                    "Dew I.",
+                    "Miller J.R.",
+                    "Flanigan M.J.",
+                    "Edwards N.J.",
+                    "Bolanos R.",
+                    "Fasulo D.",
+                    "Halldorsson B.V.",
+                    "Hannenhalli S.",
+                    "Turner R.",
+                    "Yooseph S.",
+                    "Lu F.",
+                    "Nusskern D.R.",
+                    "Shue B.C.",
+                    "Zheng X.H.",
+                    "Zhong F.",
+                    "Delcher A.L.",
+                    "Huson D.H.",
+                    "Kravitz S.A.",
+                    "Mouchard L.",
+                    "Reinert K.",
+                    "Remington K.A.",
+                    "Clark A.G.",
+                    "Waterman M.S.",
+                    "Eichler E.E.",
+                    "Adams M.D.",
+                    "Hunkapiller M.W.",
+                    "Myers E.W.",
+                    "Venter J.C."
+                ],
+                "publicationDate": "SEP-2005",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]",
+                "VARIANT CYS-14"
+            ]
+        },
+        {
+            "citation": {
+                "id": "15489334",
+                "citationType": "journal article",
+                "authoringGroup": [
+                    "The MGC Project Team"
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15489334"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1101/gr.2596504"
+                    }
+                ],
+                "title": "The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).",
+                "publicationDate": "2004",
+                "journal": "Genome Res.",
+                "firstPage": "2121",
+                "lastPage": "2127",
+                "volume": "14"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]",
+                "VARIANT CYS-14"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Brain",
+                    "type": "TISSUE"
+                },
+                {
+                    "value": "PNS",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "17997385",
+                "citationType": "journal article",
+                "authors": [
+                    "Gin P.",
+                    "Beigneux A.P.",
+                    "Davies B.",
+                    "Young M.F.",
+                    "Ryan R.O.",
+                    "Bensadoun A.",
+                    "Fong L.G.",
+                    "Young S.G."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "17997385"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.bbalip.2007.10.005"
+                    }
+                ],
+                "title": "Normal binding of lipoprotein lipase, chylomicrons, and apo-AV to GPIHBP1 containing a G56R amino acid substitution.",
+                "publicationDate": "2007",
+                "journal": "Biochim. Biophys. Acta",
+                "firstPage": "1464",
+                "lastPage": "1468",
+                "volume": "1771"
+            },
+            "referencePositions": [
+                "INTERACTION WITH APOA5 AND LPL",
+                "CHARACTERIZATION OF VARIANT ARG-56"
+            ]
+        },
+        {
+            "citation": {
+                "id": "21844202",
+                "citationType": "journal article",
+                "authors": [
+                    "Young S.G.",
+                    "Davies B.S.",
+                    "Voss C.V.",
+                    "Gin P.",
+                    "Weinstein M.M.",
+                    "Tontonoz P.",
+                    "Reue K.",
+                    "Bensadoun A.",
+                    "Fong L.G.",
+                    "Beigneux A.P."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "21844202"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1194/jlr.r018689"
+                    }
+                ],
+                "title": "GPIHBP1, an endothelial cell transporter for lipoprotein lipase.",
+                "publicationDate": "2011",
+                "journal": "J. Lipid Res.",
+                "firstPage": "1869",
+                "lastPage": "1884",
+                "volume": "52"
+            },
+            "referencePositions": [
+                "REVIEW"
+            ]
+        },
+        {
+            "citation": {
+                "id": "26725083",
+                "citationType": "journal article",
+                "authors": [
+                    "Mysling S.",
+                    "Kristensen K.K.",
+                    "Larsson M.",
+                    "Beigneux A.P.",
+                    "Gaardsvoll H.",
+                    "Fong L.G.",
+                    "Bensadouen A.",
+                    "Joergensen T.J.",
+                    "Young S.G.",
+                    "Ploug M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "26725083"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.7554/elife.12095"
+                    }
+                ],
+                "title": "The acidic domain of the endothelial membrane protein GPIHBP1 stabilizes lipoprotein lipase activity by preventing unfolding of its catalytic domain.",
+                "publicationDate": "2016",
+                "journal": "Elife",
+                "firstPage": "E12095",
+                "lastPage": "E12095",
+                "volume": "5"
+            },
+            "referencePositions": [
+                "DOMAIN",
+                "INTERACTION WITH LPL",
+                "MUTAGENESIS OF TRP-109"
+            ]
+        },
+        {
+            "citation": {
+                "id": "27929370",
+                "citationType": "journal article",
+                "authors": [
+                    "Mysling S.",
+                    "Kristensen K.K.",
+                    "Larsson M.",
+                    "Kovrov O.",
+                    "Bensadouen A.",
+                    "Joergensen T.J.",
+                    "Olivecrona G.",
+                    "Young S.G.",
+                    "Ploug M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "27929370"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.7554/elife.20958"
+                    }
+                ],
+                "title": "The angiopoietin-like protein ANGPTL4 catalyzes unfolding of the hydrolase domain in lipoprotein lipase and the endothelial membrane protein GPIHBP1 counteracts this unfolding.",
+                "publicationDate": "2016",
+                "journal": "Elife",
+                "firstPage": "0",
+                "lastPage": "0",
+                "volume": "5"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "INTERACTION WITH LPL"
+            ]
+        },
+        {
+            "citation": {
+                "id": "27811232",
+                "citationType": "journal article",
+                "authors": [
+                    "Allan C.M.",
+                    "Larsson M.",
+                    "Jung R.S.",
+                    "Ploug M.",
+                    "Bensadoun A.",
+                    "Beigneux A.P.",
+                    "Fong L.G.",
+                    "Young S.G."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "27811232"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1194/jlr.m072520"
+                    }
+                ],
+                "title": "Mobility of 'HSPG-bound' LPL explains how LPL is able to reach GPIHBP1 on capillaries.",
+                "publicationDate": "2017",
+                "journal": "J. Lipid Res.",
+                "firstPage": "216",
+                "lastPage": "225",
+                "volume": "58"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "INTERACTION WITH LPL",
+                "MUTAGENESIS OF TRP-109"
+            ]
+        },
+        {
+            "citation": {
+                "id": "29899144",
+                "citationType": "journal article",
+                "authors": [
+                    "Kristensen K.K.",
+                    "Midtgaard S.R.",
+                    "Mysling S.",
+                    "Kovrov O.",
+                    "Hansen L.B.",
+                    "Skar-Gislinge N.",
+                    "Beigneux A.P.",
+                    "Kragelund B.B.",
+                    "Olivecrona G.",
+                    "Young S.G.",
+                    "Joergensen T.J.D.",
+                    "Fong L.G.",
+                    "Ploug M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "29899144"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1073/pnas.1806774115"
+                    }
+                ],
+                "title": "A disordered acidic domain in GPIHBP1 harboring a sulfated tyrosine regulates lipoprotein lipase.",
+                "publicationDate": "2018",
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "firstPage": "E6020",
+                "lastPage": "E6029",
+                "volume": "115"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "INTERACTION WITH LPL",
+                "SULFATION AT TYR-38",
+                "GLYCOSYLATION AT ASN-78",
+                "IDENTIFICATION BY MASS SPECTROMETRY",
+                "MUTAGENESIS OF TYR-38"
+            ]
+        },
+        {
+            "citation": {
+                "id": "30559189",
+                "citationType": "journal article",
+                "authors": [
+                    "Birrane G.",
+                    "Beigneux A.P.",
+                    "Dwyer B.",
+                    "Strack-Logue B.",
+                    "Kristensen K.K.",
+                    "Francone O.L.",
+                    "Fong L.G.",
+                    "Mertens H.D.T.",
+                    "Pan C.Q.",
+                    "Ploug M.",
+                    "Young S.G.",
+                    "Meiyappan M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "30559189"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1073/pnas.1817984116"
+                    }
+                ],
+                "title": "Structure of the lipoprotein lipase-GPIHBP1 complex that mediates plasma triglyceride hydrolysis.",
+                "publicationDate": "2019",
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "firstPage": "1723",
+                "lastPage": "1732",
+                "volume": "116"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (2.80 ANGSTROMS) OF 21-151 IN COMPLEX WITH LPL",
+                "DISULFIDE BONDS",
+                "GLYCOSYLATION AT ASN-78",
+                "MUTAGENESIS OF TRP-109"
+            ]
+        },
+        {
+            "citation": {
+                "id": "17883852",
+                "citationType": "journal article",
+                "authors": [
+                    "Wang J.",
+                    "Hegele R.A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "17883852"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1186/1476-511x-6-23"
+                    }
+                ],
+                "title": "Homozygous missense mutation (G56R) in glycosylphosphatidylinositol-anchored high-density lipoprotein-binding protein 1 (GPI-HBP1) in two siblings with fasting chylomicronemia (MIM 144650).",
+                "publicationDate": "2007",
+                "journal": "Lipids Health Dis.",
+                "firstPage": "23",
+                "lastPage": "23",
+                "volume": "6"
+            },
+            "referencePositions": [
+                "VARIANT ARG-56"
+            ]
+        },
+        {
+            "citation": {
+                "id": "19304573",
+                "citationType": "journal article",
+                "authors": [
+                    "Beigneux A.P.",
+                    "Franssen R.",
+                    "Bensadoun A.",
+                    "Gin P.",
+                    "Melford K.",
+                    "Peter J.",
+                    "Walzem R.L.",
+                    "Weinstein M.M.",
+                    "Davies B.S.J.",
+                    "Kuivenhoven J.A.",
+                    "Kastelein J.J.P.",
+                    "Fong L.G.",
+                    "Dallinga-Thie G.M.",
+                    "Young S.G."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "19304573"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1161/atvbaha.109.186577"
+                    }
+                ],
+                "title": "Chylomicronemia with a mutant GPIHBP1 (Q115P) that cannot bind lipoprotein lipase.",
+                "publicationDate": "2009",
+                "journal": "Arterioscler. Thromb. Vasc. Biol.",
+                "firstPage": "956",
+                "lastPage": "962",
+                "volume": "29"
+            },
+            "referencePositions": [
+                "VARIANT HLPP1D PRO-115",
+                "CHARACTERIZATION OF VARIANT HLPP1D PRO-115",
+                "INTERACTION WITH LPL",
+                "SUBCELLULAR LOCATION",
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "20026666",
+                "citationType": "journal article",
+                "authors": [
+                    "Olivecrona G.",
+                    "Ehrenborg E.",
+                    "Semb H.",
+                    "Makoveichuk E.",
+                    "Lindberg A.",
+                    "Hayden M.R.",
+                    "Gin P.",
+                    "Davies B.S.",
+                    "Weinstein M.M.",
+                    "Fong L.G.",
+                    "Beigneux A.P.",
+                    "Young S.G.",
+                    "Olivecrona T.",
+                    "Hernell O."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "20026666"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1194/jlr.m002717"
+                    }
+                ],
+                "title": "Mutation of conserved cysteines in the Ly6 domain of GPIHBP1 in familial chylomicronemia.",
+                "publicationDate": "2010",
+                "journal": "J. Lipid Res.",
+                "firstPage": "1535",
+                "lastPage": "1545",
+                "volume": "51"
+            },
+            "referencePositions": [
+                "VARIANTS HLPP1D SER-65 AND GLY-68",
+                "CHARACTERIZATION OF VARIANTS HLPP1D SER-65 AND GLY-68"
+            ]
+        },
+        {
+            "citation": {
+                "id": "21816778",
+                "citationType": "journal article",
+                "authors": [
+                    "Charriere S.",
+                    "Peretti N.",
+                    "Bernard S.",
+                    "Di Filippo M.",
+                    "Sassolas A.",
+                    "Merlin M.",
+                    "Delay M.",
+                    "Debard C.",
+                    "Lefai E.",
+                    "Lachaux A.",
+                    "Moulin P.",
+                    "Marcais C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "21816778"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1210/jc.2011-1444"
+                    }
+                ],
+                "title": "GPIHBP1 C89F neomutation and hydrophobic C-terminal domain G175R mutation in two pedigrees with severe hyperchylomicronemia.",
+                "publicationDate": "2011",
+                "journal": "J. Clin. Endocrinol. Metab.",
+                "firstPage": "E1675",
+                "lastPage": "E1679",
+                "volume": "96"
+            },
+            "referencePositions": [
+                "VARIANTS HLPP1D PHE-89 AND ARG-175",
+                "VARIANT CYS-14",
+                "CHARACTERIZATION OF VARIANTS HLPP1D PHE-89 AND ARG-175",
+                "CHARACTERIZATION OF VARIANT CYS-14"
+            ]
+        },
+        {
+            "citation": {
+                "id": "21314738",
+                "citationType": "journal article",
+                "authors": [
+                    "Coca-Prieto I.",
+                    "Kroupa O.",
+                    "Gonzalez-Santos P.",
+                    "Magne J.",
+                    "Olivecrona G.",
+                    "Ehrenborg E.",
+                    "Valdivielso P."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "21314738"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1111/j.1365-2796.2011.02361.x"
+                    }
+                ],
+                "title": "Childhood-onset chylomicronaemia with reduced plasma lipoprotein lipase activity and mass: identification of a novel GPIHBP1 mutation.",
+                "publicationDate": "2011",
+                "journal": "J. Intern. Med.",
+                "firstPage": "224",
+                "lastPage": "228",
+                "volume": "270"
+            },
+            "referencePositions": [
+                "VARIANT HLPP1D TYR-68",
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "22239554",
+                "citationType": "journal article",
+                "authors": [
+                    "Surendran R.P.",
+                    "Visser M.E.",
+                    "Heemelaar S.",
+                    "Wang J.",
+                    "Peter J.",
+                    "Defesche J.C.",
+                    "Kuivenhoven J.A.",
+                    "Hosseini M.",
+                    "Peterfy M.",
+                    "Kastelein J.J.",
+                    "Johansen C.T.",
+                    "Hegele R.A.",
+                    "Stroes E.S.",
+                    "Dallinga-Thie G.M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "22239554"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1111/j.1365-2796.2012.02516.x"
+                    }
+                ],
+                "title": "Mutations in LPL, APOC2, APOA5, GPIHBP1 and LMF1 in patients with severe hypertriglyceridaemia.",
+                "publicationDate": "2012",
+                "journal": "J. Intern. Med.",
+                "firstPage": "185",
+                "lastPage": "196",
+                "volume": "272"
+            },
+            "referencePositions": [
+                "VARIANTS HLPP1D TYR-65; ARG-108; PRO-115 AND PHE-144"
+            ]
+        },
+        {
+            "citation": {
+                "id": "23831619",
+                "citationType": "journal article",
+                "authors": [
+                    "Yamamoto H.",
+                    "Onishi M.",
+                    "Miyamoto N.",
+                    "Oki R.",
+                    "Ueda H.",
+                    "Ishigami M.",
+                    "Hiraoka H.",
+                    "Matsuzawa Y.",
+                    "Kihara S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "23831619"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.5551/jat.18861"
+                    }
+                ],
+                "title": "Novel combined GPIHBP1 mutations in a patient with hypertriglyceridemia associated with CAD.",
+                "publicationDate": "2013",
+                "journal": "J. Atheroscler. Thromb.",
+                "firstPage": "777",
+                "lastPage": "784",
+                "volume": "20"
+            },
+            "referencePositions": [
+                "VARIANT CYS-14",
+                "VARIANT HLPP1D ARG-68",
+                "CHARACTERIZATION OF VARIANT CYS-14",
+                "CHARACTERIZATION OF VARIANT HLPP1D ARG-68"
+            ]
+        },
+        {
+            "citation": {
+                "id": "25387803",
+                "citationType": "journal article",
+                "authors": [
+                    "Beigneux A.P.",
+                    "Fong L.G.",
+                    "Bensadoun A.",
+                    "Davies B.S.",
+                    "Oberer M.",
+                    "Gaardsvoll H.",
+                    "Ploug M.",
+                    "Young S.G."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "25387803"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1161/circresaha.116.305085"
+                    }
+                ],
+                "title": "GPIHBP1 missense mutations often cause multimerization of GPIHBP1 and thereby prevent lipoprotein lipase binding.",
+                "publicationDate": "2015",
+                "journal": "Circ. Res.",
+                "firstPage": "624",
+                "lastPage": "632",
+                "volume": "116"
+            },
+            "referencePositions": [
+                "CHARACTERIZATION OF VARIANTS HLPP1D SER-65; TYR-65; ARG-68; GLY-68; TYR-68; PHE-89; ARG-108 AND PRO-115",
+                "SUBUNIT",
+                "INTERACTION WITH LPL",
+                "MUTAGENESIS OF TYR-66; LEU-71; THR-91; LEU-92; ILE-93; GLY-101; THR-104; THR-105; HIS-106; SER-107; THR-108; TRP-109; GLN-115 AND VAL-126"
+            ]
+        },
+        {
+            "citation": {
+                "id": "27578123",
+                "citationType": "journal article",
+                "authors": [
+                    "Rabacchi C.",
+                    "D'Addato S.",
+                    "Palmisano S.",
+                    "Lucchi T.",
+                    "Bertolini S.",
+                    "Calandra S.",
+                    "Tarugi P."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "27578123"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.jacl.2016.03.009"
+                    }
+                ],
+                "title": "Clinical and genetic features of 3 patients with familial chylomicronemia due to mutations in GPIHBP1 gene.",
+                "publicationDate": "2016",
+                "journal": "J. Clin. Lipidol.",
+                "firstPage": "915",
+                "lastPage": "921",
+                "volume": "10"
+            },
+            "referencePositions": [
+                "VARIANT HLPP1D ARG-83"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "AY245915",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAO86519.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "CH471162",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "EAW82276.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "BC035810",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAH35810.2"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "BC063857",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAH63857.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "CCDS",
+            "id": "CCDS34954.1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_001288701.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_001301772.1"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_835466.2",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_178172.5"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "6E7K",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "2.80 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "C/D=21-151"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "6OAU",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "2.48 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "C/D=21-151"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "6OAZ",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "3.04 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "E/F/G/H=21-151"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "6OB0",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "2.81 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "E/F/G/H=21-151"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "6E7K",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "6OAU",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "6OAZ",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "6OB0",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "Q8IV16",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SASBDB",
+            "id": "Q8IV16",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "Q8IV16",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioGRID",
+            "id": "130712",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "141"
+                }
+            ]
+        },
+        {
+            "database": "ComplexPortal",
+            "id": "CPX-6091",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LPL-GPIHBP1 triglyceride-rich lipoprotein processing complex"
+                }
+            ]
+        },
+        {
+            "database": "IntAct",
+            "id": "Q8IV16",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "9606.ENSP00000480053",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GlyGen",
+            "id": "Q8IV16",
+            "properties": [
+                {
+                    "key": "glycosylation",
+                    "value": "1 site"
+                }
+            ]
+        },
+        {
+            "database": "iPTMnet",
+            "id": "Q8IV16",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PhosphoSitePlus",
+            "id": "Q8IV16",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioMuta",
+            "id": "GPIHBP1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "DMDM",
+            "id": "74728020",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "MassIVE",
+            "id": "Q8IV16",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PaxDb",
+            "id": "Q8IV16",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PeptideAtlas",
+            "id": "Q8IV16",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Antibodypedia",
+            "id": "75628",
+            "properties": [
+                {
+                    "key": "antibodies",
+                    "value": "197 antibodies from 17 providers"
+                }
+            ]
+        },
+        {
+            "database": "DNASU",
+            "id": "338328",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENST00000622500.2",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSP00000480053.1"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSG00000277494.2"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "338328",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "hsa:338328",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "MANE-Select",
+            "id": "ENST00000622500.2",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSP00000480053.1"
+                },
+                {
+                    "key": "RefSeqNucleotideId",
+                    "value": "NM_178172.6"
+                },
+                {
+                    "key": "RefSeqProteinId",
+                    "value": "NP_835466.2"
+                }
+            ]
+        },
+        {
+            "database": "UCSC",
+            "id": "uc033cbs.1",
+            "properties": [
+                {
+                    "key": "OrganismName",
+                    "value": "human"
+                }
+            ]
+        },
+        {
+            "database": "AGR",
+            "id": "HGNC:24945",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "CTD",
+            "id": "338328",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "DisGeNET",
+            "id": "338328",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GeneCards",
+            "id": "GPIHBP1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HGNC",
+            "id": "HGNC:24945",
+            "properties": [
+                {
+                    "key": "GeneName",
+                    "value": "GPIHBP1"
+                }
+            ]
+        },
+        {
+            "database": "HPA",
+            "id": "ENSG00000277494",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Tissue enhanced (adipose tissue, breast)"
+                }
+            ]
+        },
+        {
+            "database": "MalaCards",
+            "id": "GPIHBP1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "MIM",
+            "id": "612757",
+            "properties": [
+                {
+                    "key": "Type",
+                    "value": "gene"
+                }
+            ]
+        },
+        {
+            "database": "MIM",
+            "id": "615947",
+            "properties": [
+                {
+                    "key": "Type",
+                    "value": "phenotype"
+                }
+            ]
+        },
+        {
+            "database": "neXtProt",
+            "id": "NX_Q8IV16",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OpenTargets",
+            "id": "ENSG00000277494",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Orphanet",
+            "id": "535458",
+            "properties": [
+                {
+                    "key": "Disease",
+                    "value": "Familial GPIHBP1 deficiency"
+                }
+            ]
+        },
+        {
+            "database": "PharmGKB",
+            "id": "PA162390135",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "VEuPathDB",
+            "id": "HostDB:ENSG00000277494",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "eggNOG",
+            "id": "ENOG502SVBD",
+            "properties": [
+                {
+                    "key": "ToxonomicScope",
+                    "value": "Eukaryota"
+                }
+            ]
+        },
+        {
+            "database": "GeneTree",
+            "id": "ENSGT00940000153378",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HOGENOM",
+            "id": "CLU_102231_0_0_1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "InParanoid",
+            "id": "Q8IV16",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "1415737at2759",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PhylomeDB",
+            "id": "Q8IV16",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "TreeFam",
+            "id": "TF338440",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PathwayCommons",
+            "id": "Q8IV16",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-HSA-163125",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Post-translational modification: synthesis of GPI-anchored proteins"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-HSA-8963889",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Assembly of active LPL and LIPC lipase complexes"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-HSA-8963901",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Chylomicron remodeling"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-HSA-975634",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Retinoid metabolism and transport"
+                }
+            ]
+        },
+        {
+            "database": "SignaLink",
+            "id": "Q8IV16",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioGRID-ORCS",
+            "id": "338328",
+            "properties": [
+                {
+                    "key": "hits",
+                    "value": "10 hits in 1062 CRISPR screens"
+                }
+            ]
+        },
+        {
+            "database": "ChiTaRS",
+            "id": "GPIHBP1",
+            "properties": [
+                {
+                    "key": "OrganismName",
+                    "value": "human"
+                }
+            ]
+        },
+        {
+            "database": "GenomeRNAi",
+            "id": "338328",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Pharos",
+            "id": "Q8IV16",
+            "properties": [
+                {
+                    "key": "DevelopmentLevel",
+                    "value": "Tbio"
+                }
+            ]
+        },
+        {
+            "database": "PRO",
+            "id": "PR:Q8IV16",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000005640",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 8"
+                }
+            ]
+        },
+        {
+            "database": "RNAct",
+            "id": "Q8IV16",
+            "properties": [
+                {
+                    "key": "moleculeType",
+                    "value": "protein"
+                }
+            ]
+        },
+        {
+            "database": "Bgee",
+            "id": "ENSG00000277494",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Expressed in apex of heart and 130 other tissues"
+                }
+            ]
+        },
+        {
+            "database": "Genevisible",
+            "id": "Q8IV16",
+            "properties": [
+                {
+                    "key": "OrganismId",
+                    "value": "HS"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016324",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:apical plasma membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:BHF-UCL"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "PubMed",
+                    "id": "20620994"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016323",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:basolateral plasma membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:BHF-UCL"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "PubMed",
+                    "id": "20620994"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:1902494",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:catalytic complex"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IPI:ComplexPortal"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000353",
+                    "source": "PubMed",
+                    "id": "30559189"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0009897",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:external side of plasma membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:BHF-UCL"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "17997385"
+                },
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "20124439"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "TAS:Reactome"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016020",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000318",
+                    "source": "PubMed",
+                    "id": "21873635"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005886",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:plasma membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000318",
+                    "source": "PubMed",
+                    "id": "21873635"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0035478",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:chylomicron binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:BHF-UCL"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "19304573"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0035473",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:lipase binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IPI:BHF-UCL"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000353",
+                    "source": "PubMed",
+                    "id": "20124439"
+                },
+                {
+                    "evidenceCode": "ECO:0000353",
+                    "source": "PubMed",
+                    "id": "29899144"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0008289",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:lipid binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0060230",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:lipoprotein lipase activator activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:ARUK-UCL"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "29899144"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0071813",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:lipoprotein particle binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:UniProtKB"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "17997385"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0140318",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:protein transporter activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:BHF-UCL"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "PubMed",
+                    "id": "20620994"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0042632",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:cholesterol homeostasis"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:BHF-UCL"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006886",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:intracellular protein transport"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:BHF-UCL"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "PubMed",
+                    "id": "20620994"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090321",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:positive regulation of chylomicron remnant clearance"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:BHF-UCL"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0051006",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:positive regulation of lipoprotein lipase activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:ARUK-UCL"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "29899144"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0017038",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:protein import"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:BHF-UCL"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "PubMed",
+                    "id": "20620994"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0034394",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:protein localization to cell surface"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:BHF-UCL"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "PubMed",
+                    "id": "20620994"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0050821",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:protein stabilization"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:ARUK-UCL"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "29899144"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0071503",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:response to heparin"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:BHF-UCL"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "20124439"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0045056",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:transcytosis"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:BHF-UCL"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "PubMed",
+                    "id": "20620994"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0019433",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:triglyceride catabolic process"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:ComplexPortal"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "30559189"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0070328",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:triglyceride homeostasis"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:BHF-UCL"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "20124439"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00117",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "DisProt",
+            "id": "DP01327",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR016054",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LY6_UPA_recep-like"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00021",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "UPAR_LY6"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKALGAVLLALLLFGRPGRGQTQQEEEEEDEDHGPDDYDEEDEDEVEEEETNRLPGGRSRVLLRCYTCKSLPRDERCNLTQNCSHGQTCTTLIAHGNTESGLLTTHSTWCTDSCQPITKTVEGTQVTMTCCQSSLCNVPPWQSSRVQDPTGKGAGGPRGSSETVGAALLLNLLAGLGAMGARRP",
+        "length": 184,
+        "molWeight": 19850,
+        "crc64": "8F22D5A4D9886D31",
+        "md5": "DA8D3736A8B107CE24BA1633DFD4EB39"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBUNIT": 1,
+            "INTERACTION": 2,
+            "SUBCELLULAR LOCATION": 1,
+            "DOMAIN": 1,
+            "PTM": 2,
+            "POLYMORPHISM": 1,
+            "DISEASE": 1
+        },
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Propeptide": 1,
+            "Domain": 1,
+            "Region": 3,
+            "Compositional bias": 1,
+            "Modified residue": 1,
+            "Lipidation": 1,
+            "Glycosylation": 1,
+            "Disulfide bond": 5,
+            "Natural variant": 13,
+            "Mutagenesis": 16,
+            "Beta strand": 7,
+            "Turn": 1
+        },
+        "uniParcId": "UPI00002283CA"
+    }
+}

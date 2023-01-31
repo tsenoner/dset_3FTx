@@ -1,0 +1,592 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P24777",
+    "uniProtkbId": "3SB3_HEMHA",
+    "entryAudit": {
+        "firstPublicDate": "1992-03-01",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "1992-03-01",
+        "entryVersion": 93,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 3.0,
+    "organism": {
+        "scientificName": "Hemachatus haemachatus",
+        "commonName": "Rinkhals",
+        "synonyms": [
+            "Sepedon haemachatus"
+        ],
+        "taxonId": 8626,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Hemachatus"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "Cytotoxin 3"
+            }
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "404150"
+                        }
+                    ],
+                    "value": "Toxin 11/11A"
+                }
+            }
+        ]
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "404150"
+                        }
+                    ],
+                    "value": "This protein lyses red blood cells and has cardiotoxic and hypotensive activities"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "404150"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "404150"
+                        }
+                    ],
+                    "value": "LD(50) is 2.5 mg/kg by intravenous injection into mice"
+                }
+            ],
+            "commentType": "TOXIC DOSE"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Is classified as a P-type cytotoxin, since a proline residue stands at position 31 (Pro-31 in standard classification)"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily. Type IB cytotoxin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 61,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Cytotoxin 3",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "404150"
+                }
+            ],
+            "featureId": "PRO_0000093478"
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 3,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 15,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 39,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 43,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 54,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 55,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 60,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 10,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 10,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in toxin 11A",
+            "featureId": "",
+            "alternativeSequence": {
+                "originalSequence": "F",
+                "alternativeSequences": [
+                    "Y"
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0123",
+            "category": "Molecular function",
+            "name": "Cardiotoxin"
+        },
+        {
+            "id": "KW-0204",
+            "category": "Biological process",
+            "name": "Cytolysis"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0354",
+            "category": "Biological process",
+            "name": "Hemolysis"
+        },
+        {
+            "id": "KW-0382",
+            "category": "Molecular function",
+            "name": "Hypotensive agent"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "404150",
+                "citationType": "journal article",
+                "authors": [
+                    "Joubert F.J."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "404150"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1111/j.1432-1033.1977.tb11403.x"
+                    }
+                ],
+                "title": "Snake venom toxins. The amino-acid sequences of three toxins (9B, 11 and 12A) from Hemachatus haemachatus (Ringhals) venom.",
+                "publicationDate": "1977",
+                "journal": "Eur. J. Biochem.",
+                "firstPage": "387",
+                "lastPage": "396",
+                "volume": "74"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE",
+                "FUNCTION",
+                "TOXIC DOSE",
+                "SUBCELLULAR LOCATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "AlphaFoldDB",
+            "id": "P24777",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P24777",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0044179",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:hemolysis in another organism"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0008217",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:regulation of blood pressure"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00206",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "snake_toxin"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003572",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Cytotoxin_Cobra"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003571",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_3FTx"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018354",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin_con_site"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR035076",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Toxin/TOLIP"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00087",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Toxin_TOLIP"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PRINTS",
+            "id": "PR00282",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CYTOTOXIN"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00272",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SNAKE_TOXIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "LKCHNKLVPFLSKTCPDGKNLCYKMSMEVTPMIPIKRGCTDTCPKSSLLVKVVCCKTDKCN",
+        "length": 61,
+        "molWeight": 6793,
+        "crc64": "3F73CC72588225EC",
+        "md5": "DE2A445E71D8F019F0342356BABF3E23"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "TOXIC DOSE": 1,
+            "MISCELLANEOUS": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Disulfide bond": 4,
+            "Natural variant": 1
+        },
+        "uniParcId": "UPI000012877B"
+    }
+}

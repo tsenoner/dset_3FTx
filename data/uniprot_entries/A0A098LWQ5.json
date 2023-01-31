@@ -1,0 +1,328 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A098LWQ5",
+    "uniProtkbId": "A0A098LWQ5_PYTRG",
+    "entryAudit": {
+        "firstPublicDate": "2015-01-07",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2015-01-07",
+        "entryVersion": 8,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+        "scientificName": "Python regius",
+        "commonName": "Ball python",
+        "synonyms": [
+            "Boa regia"
+        ],
+        "taxonId": 51751,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "JAC94907.1"
+            }
+        ],
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Henophidia",
+            "Pythonidae",
+            "Python"
+        ]
+    },
+    "proteinExistence": "2: Evidence at transcript level",
+    "proteinDescription": {
+        "submissionNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "JAC94907.1"
+                        }
+                    ],
+                    "value": "Three finger toxin"
+                }
+            }
+        ]
+    },
+    "comments": [
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "ARBA",
+                                "id": "ARBA00004613"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 82,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "featureId": "PRO_5001937390"
+        }
+    ],
+    "keywords": [
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00023157"
+                }
+            ],
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022525"
+                }
+            ],
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "25449103",
+                "citationType": "journal article",
+                "authors": [
+                    "Hargreaves A.D.",
+                    "Swain M.T.",
+                    "Logan D.W.",
+                    "Mulley J.F."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "25449103"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.toxicon.2014.10.004"
+                    }
+                ],
+                "title": "Testing the Toxicofera: comparative transcriptomics casts doubt on the single, early evolution of the reptile venom system.",
+                "publicationDate": "2014",
+                "journal": "Toxicon",
+                "firstPage": "140",
+                "lastPage": "156",
+                "volume": "92"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "JAC94907.1"
+                        }
+                    ],
+                    "value": "Salivary gland",
+                    "type": "TISSUE"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "EMBL",
+                    "id": "JAC94907.1"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "GBIC01000036",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "JAC94907.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "A0A098LWQ5",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "A0A098LWQ5",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKAWLLALVVVALVGTDPGHTLKCCTNLSCFPPVECAEGQDSCISVHVKGFERFRGCAQNCTYPEPFEKNCCCKTDKCNMLL",
+        "length": 82,
+        "molWeight": 9018,
+        "crc64": "898E18E0C7FC6734",
+        "md5": "25D0DC2F752D0451C5145C83F6AD4FE7"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "SUBCELLULAR LOCATION": 1
+        },
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1
+        },
+        "uniParcId": "UPI0005211C44"
+    }
+}

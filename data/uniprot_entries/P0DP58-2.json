@@ -1,0 +1,563 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P0DP58-2",
+    "uniProtkbId": "LYNX1_HUMAN",
+    "entryAudit": {
+        "firstPublicDate": "2017-07-05",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2017-07-05",
+        "entryVersion": 35,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 2.0,
+    "organism": {
+        "scientificName": "Homo sapiens",
+        "commonName": "Human",
+        "taxonId": 9606,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Eutheria",
+            "Euarchontoglires",
+            "Primates",
+            "Haplorrhini",
+            "Catarrhini",
+            "Hominidae",
+            "Homo"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000305"
+                    }
+                ],
+                "value": "Isoform 2 of Ly-6/neurotoxin-like protein 1"
+            }
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "21252236"
+                        }
+                    ],
+                    "value": "Endogenous prototoxin LYNX1"
+                }
+            },
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000312",
+                            "source": "EMBL",
+                            "id": "AEE61023.1"
+                        }
+                    ],
+                    "value": "Testicular tissue protein Li 112"
+                }
+            }
+        ],
+        "flag": "Precursor"
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000312",
+                        "source": "HGNC",
+                        "id": "HGNC:29604"
+                    }
+                ],
+                "value": "LYNX1"
+            }
+        }
+    ],
+    "comments": [
+        {
+            "commentType": "INTERACTION",
+            "interactions": [
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "P0DP58-2",
+                        "intActId": "EBI-21916939"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P55212",
+                        "geneName": "CASP6",
+                        "intActId": "EBI-718729"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "P0DP58-2",
+                        "intActId": "EBI-21916939"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q8NI60",
+                        "geneName": "COQ8A",
+                        "intActId": "EBI-745535"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "P0DP58-2",
+                        "intActId": "EBI-21916939"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P22607",
+                        "geneName": "FGFR3",
+                        "intActId": "EBI-348399"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "P0DP58-2",
+                        "intActId": "EBI-21916939"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P06396",
+                        "geneName": "GSN",
+                        "intActId": "EBI-351506"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "P0DP58-2",
+                        "intActId": "EBI-21916939"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P13473-2",
+                        "geneName": "LAMP2",
+                        "intActId": "EBI-21591415"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                }
+            ]
+        },
+        {
+            "commentType": "ALTERNATIVE PRODUCTS",
+            "events": [
+                "Alternative splicing"
+            ],
+            "isoforms": [
+                {
+                    "name": {
+                        "value": "1"
+                    },
+                    "synonyms": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000303",
+                                    "source": "Reference",
+                                    "id": "Ref.1"
+                                }
+                            ],
+                            "value": "LYNX1"
+                        }
+                    ],
+                    "isoformIds": [
+                        "P0DP58-1",
+                        "Q9BZG9-2"
+                    ],
+                    "isoformSequenceStatus": "Displayed"
+                },
+                {
+                    "name": {
+                        "value": "2"
+                    },
+                    "synonyms": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000303",
+                                    "source": "PubMed",
+                                    "id": "26033490"
+                                }
+                            ],
+                            "value": "LYNX1-SLURP2"
+                        }
+                    ],
+                    "isoformIds": [
+                        "P0DP58-2",
+                        "Q9BZG9-1"
+                    ],
+                    "sequenceIds": [
+                        "VSP_058978"
+                    ],
+                    "isoformSequenceStatus": "Described"
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305",
+                            "source": "PubMed",
+                            "id": "26033490"
+                        }
+                    ],
+                    "value": "Based on a naturally occurring readthrough transcript which produces a LYNX1-SLURP2 fusion protein"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "CI-9N94BFPJU3GS3",
+                "citationType": "submission",
+                "authors": [
+                    "Li J.Y."
+                ],
+                "title": "Human testis protein.",
+                "publicationDate": "MAR-2010",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2)"
+            ]
+        },
+        {
+            "citation": {
+                "id": "16421571",
+                "citationType": "journal article",
+                "authors": [
+                    "Nusbaum C.",
+                    "Mikkelsen T.S.",
+                    "Zody M.C.",
+                    "Asakawa S.",
+                    "Taudien S.",
+                    "Garber M.",
+                    "Kodira C.D.",
+                    "Schueler M.G.",
+                    "Shimizu A.",
+                    "Whittaker C.A.",
+                    "Chang J.L.",
+                    "Cuomo C.A.",
+                    "Dewar K.",
+                    "FitzGerald M.G.",
+                    "Yang X.",
+                    "Allen N.R.",
+                    "Anderson S.",
+                    "Asakawa T.",
+                    "Blechschmidt K.",
+                    "Bloom T.",
+                    "Borowsky M.L.",
+                    "Butler J.",
+                    "Cook A.",
+                    "Corum B.",
+                    "DeArellano K.",
+                    "DeCaprio D.",
+                    "Dooley K.T.",
+                    "Dorris L. III",
+                    "Engels R.",
+                    "Gloeckner G.",
+                    "Hafez N.",
+                    "Hagopian D.S.",
+                    "Hall J.L.",
+                    "Ishikawa S.K.",
+                    "Jaffe D.B.",
+                    "Kamat A.",
+                    "Kudoh J.",
+                    "Lehmann R.",
+                    "Lokitsang T.",
+                    "Macdonald P.",
+                    "Major J.E.",
+                    "Matthews C.D.",
+                    "Mauceli E.",
+                    "Menzel U.",
+                    "Mihalev A.H.",
+                    "Minoshima S.",
+                    "Murayama Y.",
+                    "Naylor J.W.",
+                    "Nicol R.",
+                    "Nguyen C.",
+                    "O'Leary S.B.",
+                    "O'Neill K.",
+                    "Parker S.C.J.",
+                    "Polley A.",
+                    "Raymond C.K.",
+                    "Reichwald K.",
+                    "Rodriguez J.",
+                    "Sasaki T.",
+                    "Schilhabel M.",
+                    "Siddiqui R.",
+                    "Smith C.L.",
+                    "Sneddon T.P.",
+                    "Talamas J.A.",
+                    "Tenzin P.",
+                    "Topham K.",
+                    "Venkataraman V.",
+                    "Wen G.",
+                    "Yamazaki S.",
+                    "Young S.K.",
+                    "Zeng Q.",
+                    "Zimmer A.R.",
+                    "Rosenthal A.",
+                    "Birren B.W.",
+                    "Platzer M.",
+                    "Shimizu N.",
+                    "Lander E.S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "16421571"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/nature04406"
+                    }
+                ],
+                "title": "DNA sequence and analysis of human chromosome 8.",
+                "publicationDate": "2006",
+                "journal": "Nature",
+                "firstPage": "331",
+                "lastPage": "335",
+                "volume": "439"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-5GBD0VIIJ7C63",
+                "citationType": "submission",
+                "authors": [
+                    "Mural R.J.",
+                    "Istrail S.",
+                    "Sutton G.G.",
+                    "Florea L.",
+                    "Halpern A.L.",
+                    "Mobarry C.M.",
+                    "Lippert R.",
+                    "Walenz B.",
+                    "Shatkay H.",
+                    "Dew I.",
+                    "Miller J.R.",
+                    "Flanigan M.J.",
+                    "Edwards N.J.",
+                    "Bolanos R.",
+                    "Fasulo D.",
+                    "Halldorsson B.V.",
+                    "Hannenhalli S.",
+                    "Turner R.",
+                    "Yooseph S.",
+                    "Lu F.",
+                    "Nusskern D.R.",
+                    "Shue B.C.",
+                    "Zheng X.H.",
+                    "Zhong F.",
+                    "Delcher A.L.",
+                    "Huson D.H.",
+                    "Kravitz S.A.",
+                    "Mouchard L.",
+                    "Reinert K.",
+                    "Remington K.A.",
+                    "Clark A.G.",
+                    "Waterman M.S.",
+                    "Eichler E.E.",
+                    "Adams M.D.",
+                    "Hunkapiller M.W.",
+                    "Myers E.W.",
+                    "Venter J.C."
+                ],
+                "publicationDate": "SEP-2005",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-1D3VO5EVUR0TP",
+                "citationType": "submission",
+                "authors": [
+                    "Southan C.",
+                    "Simms M.",
+                    "Narjis S."
+                ],
+                "publicationDate": "NOV-2000",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA] OF 1-80 (ISOFORM 1)"
+            ]
+        },
+        {
+            "citation": {
+                "id": "26033490",
+                "citationType": "journal article",
+                "authors": [
+                    "Moriwaki Y.",
+                    "Takada K.",
+                    "Tsuji S.",
+                    "Kawashima K.",
+                    "Misawa H."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "26033490"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.intimp.2015.05.030"
+                    }
+                ],
+                "title": "Transcriptional regulation of SLURP2, a psoriasis-associated gene, is under control of IL-22 in the skin: A special reference to the nested gene LYNX1.",
+                "publicationDate": "2015",
+                "journal": "Int. Immunopharmacol.",
+                "firstPage": "71",
+                "lastPage": "75",
+                "volume": "29"
+            },
+            "referencePositions": [
+                "ALTERNATIVE SPLICING (ISOFORMS 1 AND 2)"
+            ]
+        },
+        {
+            "citation": {
+                "id": "21252236",
+                "citationType": "journal article",
+                "authors": [
+                    "Lyukmanova E.N.",
+                    "Shenkarev Z.O.",
+                    "Shulepko M.A.",
+                    "Mineev K.S.",
+                    "D'Hoedt D.",
+                    "Kasheverov I.E.",
+                    "Filkin S.Y.",
+                    "Krivolapova A.P.",
+                    "Janickova H.",
+                    "Dolezal V.",
+                    "Dolgikh D.A.",
+                    "Arseniev A.S.",
+                    "Bertrand D.",
+                    "Tsetlin V.I.",
+                    "Kirpichnikov M.P."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "21252236"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m110.189100"
+                    }
+                ],
+                "title": "NMR structure and action on nicotinic acetylcholine receptors of water-soluble domain of human LYNX1.",
+                "publicationDate": "2011",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "10618",
+                "lastPage": "10627",
+                "volume": "286"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR OF 21-93 (ISOFORM 1)",
+                "FUNCTION",
+                "DISULFIDE BONDS",
+                "MISCELLANEOUS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "28100642",
+                "citationType": "journal article",
+                "authors": [
+                    "George A.A.",
+                    "Bloy A.",
+                    "Miwa J.M.",
+                    "Lindstrom J.M.",
+                    "Lukas R.J.",
+                    "Whiteaker P."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "28100642"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1096/fj.201600733r"
+                    }
+                ],
+                "title": "Isoform-specific mechanisms of alpha3beta4*-nicotinic acetylcholine receptor modulation by the prototoxin lynx1.",
+                "publicationDate": "2017",
+                "journal": "FASEB J.",
+                "firstPage": "1398",
+                "lastPage": "1420",
+                "volume": "31"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "RefSeq",
+            "id": "NP_076435.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_023946.3"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000005640",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 8"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MTPLLTLILVVLMGLPLAQALDCHVCAYNGDNCFNPMRCPAMVAYCMTTRTSAAEAIWCHQCTGFGGCSHGSRCLRDSTHCVTTATRVLSNTEDLPLVTKMCHIGCPDIPSLGLGPYVSIACCQTSLCNHD",
+        "length": 131,
+        "molWeight": 14026,
+        "crc64": "FAD1259D48A036D7",
+        "md5": "A42634C15B6D65469AF8D8FB4B1DAC51"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "INTERACTION": 5,
+            "ALTERNATIVE PRODUCTS": 2,
+            "MISCELLANEOUS": 1
+        },
+        "uniParcId": "UPI0000168665"
+    }
+}

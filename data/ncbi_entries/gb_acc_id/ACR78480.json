@@ -1,0 +1,191 @@
+{
+    "GBSeq_locus": "ACR78480",
+    "GBSeq_length": "92",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "16-JUN-2011",
+    "GBSeq_create-date": "16-JUN-2011",
+    "GBSeq_definition": "putative long chain neurotoxin 67 [Drysdalia coronoides]",
+    "GBSeq_primary-accession": "ACR78480",
+    "GBSeq_accession-version": "ACR78480.1",
+    "GBSeq_other-seqids": [
+        "gb|ACR78480.1|",
+        "gi|238928322"
+    ],
+    "GBSeq_source": "Drysdalia coronoides",
+    "GBSeq_organism": "Drysdalia coronoides",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Notechinae; Drysdalia",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..92",
+            "GBReference_authors": [
+                "Chatrath,S.T.",
+                "Chapeaurouge,A.",
+                "Lin,Q.",
+                "Lim,T.K.",
+                "Dunstan,N.",
+                "Mirtschin,P.",
+                "Kumar,P.P.",
+                "Kini,R.M."
+            ],
+            "GBReference_title": "Identification of novel proteins from the venom of a cryptic snake Drysdalia coronoides by a combined transcriptomics and proteomics approach",
+            "GBReference_journal": "J. Proteome Res. 10 (2), 739-750 (2011)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1021/pr1008916"
+                }
+            ],
+            "GBReference_pubmed": "21133350"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..92",
+            "GBReference_authors": [
+                "Chatrath,S.T.",
+                "Kumar,P.P.",
+                "Kini,R.M."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (11-FEB-2009) Department of Biological Sciences, National University of Singapore, 14, Science Drive 4, Singapore 117543, Singapore"
+        }
+    ],
+    "GBSeq_comment": "Method: conceptual translation supplied by author.",
+    "GBSeq_source-db": "accession FJ752458.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..92",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "92",
+                    "GBInterval_accession": "ACR78480.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Drysdalia coronoides"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:66186"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..92",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "92",
+                    "GBInterval_accession": "ACR78480.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "putative long chain neurotoxin 67"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "10031"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "22..84",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "22",
+                    "GBInterval_to": "84",
+                    "GBInterval_accession": "ACR78480.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "snake_toxin"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Snake toxin domain, present in short and long neurotoxins, cytotoxins and short toxins, and in other miscellaneous venom peptides. The toxin acts by binding to the nicotinic acetylcholine receptors in the postsynaptic membrane of skeletal muscles and...; cd00206"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "order(27,30,45..46,54..59)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "27",
+                    "GBInterval_accession": "ACR78480.1"
+                },
+                {
+                    "GBInterval_point": "30",
+                    "GBInterval_accession": "ACR78480.1"
+                },
+                {
+                    "GBInterval_from": "45",
+                    "GBInterval_to": "46",
+                    "GBInterval_accession": "ACR78480.1"
+                },
+                {
+                    "GBInterval_from": "54",
+                    "GBInterval_to": "59",
+                    "GBInterval_accession": "ACR78480.1"
+                }
+            ],
+            "GBFeature_operator": "order",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "active"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "receptor binding site [active]"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..92",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "92",
+                    "GBInterval_accession": "ACR78480.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "FJ752458.1:33..311"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mktllltlvvvtiacldlgdslicylgynnpqtcapgqnlcytkkwcdafclqrgkviqlgcaatcpttkpyeevtccsrdkcnphpaqrsr"
+}

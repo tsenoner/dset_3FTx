@@ -1,0 +1,181 @@
+{
+    "GBSeq_locus": "AKM28629",
+    "GBSeq_length": "78",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "21-JUN-2015",
+    "GBSeq_create-date": "21-JUN-2015",
+    "GBSeq_definition": "three-finger toxin precursor LB [Micrurus laticollaris]",
+    "GBSeq_primary-accession": "AKM28629",
+    "GBSeq_accession-version": "AKM28629.1",
+    "GBSeq_other-seqids": [
+        "gb|AKM28629.1|",
+        "gi|833662028"
+    ],
+    "GBSeq_source": "Micrurus laticollaris",
+    "GBSeq_organism": "Micrurus laticollaris",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Micrurus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..78",
+            "GBReference_authors": [
+                "Guerrero Garzon,J.F.",
+                "Olvera Rodriguez,A.",
+                "Restano Cassulini,R.",
+                "Zamudio,F.",
+                "Benard-Valle,M.",
+                "Possani,L.D.",
+                "Alagon,A."
+            ],
+            "GBReference_title": "Cloning, expression and characterization of an alpha-neurotoxin from the venom glands of the Mexican coral snake Micrurus diastema",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..78",
+            "GBReference_authors": [
+                "Guerrero Garzon,J.F.",
+                "Olvera Rodriguez,A.",
+                "Alagon Cano,A."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (14-JAN-2015) Medicina Molecular y Bioprocesos, Instituto de Biotecnologia, UNAM, Av. Universidad 2001, Cuernavaca, Morelos 62210, Mexico"
+        }
+    ],
+    "GBSeq_source-db": "accession KP636955.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..78",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "78",
+                    "GBInterval_accession": "AKM28629.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Micrurus laticollaris"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:1240351"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom glands"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..78",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "78",
+                    "GBInterval_accession": "AKM28629.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "three-finger toxin precursor LB"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "8461"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "23..77",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "23",
+                    "GBInterval_to": "77",
+                    "GBInterval_accession": "AKM28629.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "snake_toxin"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Snake toxin domain, present in short and long neurotoxins, cytotoxins and short toxins, and in other miscellaneous venom peptides. The toxin acts by binding to the nicotinic acetylcholine receptors in the postsynaptic membrane of skeletal muscles and...; cl11586"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:416329"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "order(27,34,46,49..54)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "27",
+                    "GBInterval_accession": "AKM28629.1"
+                },
+                {
+                    "GBInterval_point": "34",
+                    "GBInterval_accession": "AKM28629.1"
+                },
+                {
+                    "GBInterval_point": "46",
+                    "GBInterval_accession": "AKM28629.1"
+                },
+                {
+                    "GBInterval_from": "49",
+                    "GBInterval_to": "54",
+                    "GBInterval_accession": "AKM28629.1"
+                }
+            ],
+            "GBFeature_operator": "order",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "active"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "receptor binding site [active]"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..78",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "78",
+                    "GBInterval_accession": "AKM28629.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "KP636955.1:1..237"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mktllltlvvvtivcldfgytiicykkegsdpftttclsgicykkithgrfnpemgcgcpesrrgvqvsccmidkcng"
+}

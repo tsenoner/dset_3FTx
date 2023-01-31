@@ -1,0 +1,126 @@
+{
+    "GBSeq_locus": "GIJM01003390",
+    "GBSeq_length": "487",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "RNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "13-JUL-2020",
+    "GBSeq_create-date": "13-JUL-2020",
+    "GBSeq_definition": "TSA: Naja subfulva isolate Cameroon origin T3392_R_0.13_L_487, transcribed RNA sequence",
+    "GBSeq_primary-accession": "GIJM01003390",
+    "GBSeq_accession-version": "GIJM01003390.1",
+    "GBSeq_other-seqids": [
+        "gb|GIJM01003390.1|",
+        "gnl|TSA:GIJM01|T3392_R_0.13_L_487"
+    ],
+    "GBSeq_project": "PRJNA506018",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly"
+    ],
+    "GBSeq_source": "Naja subfulva",
+    "GBSeq_organism": "Naja subfulva",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Naja",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..487",
+            "GBReference_authors": [
+                "Kazandjian,T.",
+                "Petras,D.",
+                "Robinson,S.",
+                "Undheim,E.",
+                "Arbuckle,K.",
+                "Whiteley,G.",
+                "Albulescu,L.O.",
+                "Ainsworth,S.",
+                "Wagstaff,S.",
+                "Wuster,W.",
+                "Harrison,R.",
+                "Vetter,I.",
+                "Calvete,J.",
+                "Casewell,N."
+            ],
+            "GBReference_title": "Convergent evolution of defensive venom components in spitting cobras",
+            "GBReference_journal": "Toxicon 177 Suppl 1, S37 (2020)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/j.toxicon.2019.12.059"
+                }
+            ],
+            "GBReference_pubmed": "32635014"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..487",
+            "GBReference_authors": [
+                "Casewell,N.R.",
+                "Wagstaff,S.C.",
+                "Kazandjian,T.D."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (11-FEB-2020) Centre for Snakebite Research and Innovations, Liverpool School of Tropical Medicine, Pembroke Place, Liverpool L3 5QA, United Kingdom (Great Britain)"
+        }
+    ],
+    "GBSeq_comment": "The Naja subfulva sample represented 1/6th of a MiSeq sequencing lane and resulted in 5,664,906 reads. The ensuing read data was quality processed as previously described resulting in the removal of adapter sequences (Cutadapt; https://code.google.com/p/cutadapt/) and low quality bases (Sickle; https://github.com/najoshi/sickle). Paired-end read data were then assembled into contigs using VTBuilder with the following parameters: min. transcript length 150bp; min. read length 150bp; min. isoform similarity 96%. As part of this process, the VTBuilder algorithm also generates relative transcript expression data via a normalised read mapping approach.; ##Assembly-Data-START## ; Assembly Method :: VTBuilder 23/06/2016 ; Sequencing Technology :: Illumina MiSeq ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..487",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "487",
+                    "GBInterval_accession": "GIJM01003390.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Naja subfulva"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "transcribed RNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "T3392_R_0.13_L_487"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "Cameroon origin"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:2483192"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "adult"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "ggagttcttcatggaccaccatacaagtgaatgcctcttcattccaatcatccctggaaatagaaagtttgctcatggcaaagaaggaatcatcatgcttattcttcatagctggagtagtgtcaaagaaagcaggggagacggggattatggaccatctggtggtaaaggccacaagcataaattttcaaggatggtccaagatggatgagagcaaaactcaaggacatttctattatggatgtgggttgcaatcgtctgttgagcaacatttaatttctacacgggcattagaatccgtagggcaagtagcagcacatcccaattcgattctttttcctctgctgccacaccaagcatcacaccaagtctttgtaaagcatatgtcctccccactttgacaagtctcagaggtaacataaggtgttgtgaagcatgtcctggtgtatcctaagtccagggacacaattgtcaccaccaccaaggt",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA506018"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN13893943"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR11050888"
+        }
+    ]
+}

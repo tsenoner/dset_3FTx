@@ -1,0 +1,615 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P80548",
+    "secondaryAccessions": [
+        "Q9PRQ5"
+    ],
+    "uniProtkbId": "3S11_MICNI",
+    "entryAudit": {
+        "firstPublicDate": "1996-02-01",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "1996-02-01",
+        "entryVersion": 85,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 3.0,
+    "organism": {
+        "scientificName": "Micrurus nigrocinctus",
+        "commonName": "Central American coral snake",
+        "synonyms": [
+            "Gargantilla"
+        ],
+        "taxonId": 8635,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Micrurus"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "8665942"
+                    }
+                ],
+                "value": "Three-finger toxin Mnn I"
+            }
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "value": "Neurotoxin alpha"
+                }
+            },
+            {
+                "fullName": {
+                    "value": "Nicotinic acetylcholine receptor-binding protein Mnn-9"
+                }
+            },
+            {
+                "fullName": {
+                    "value": "Short neurotoxin 1"
+                }
+            }
+        ]
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P60775"
+                        }
+                    ],
+                    "value": "Binds to muscle nicotinic acetylcholine receptor (nAChR) and inhibit acetylcholine from binding to the receptor, thereby impairing neuromuscular transmission"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "8665942"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "8665942"
+                        }
+                    ],
+                    "value": "LD(50) is 65 ug/kg by intraperitoneal injection into mice (1.3 ug/mouse)"
+                }
+            ],
+            "commentType": "TOXIC DOSE"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily. Type I alpha-neurotoxin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 60,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Three-finger toxin Mnn I",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8665942"
+                }
+            ],
+            "featureId": "PRO_0000093590"
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 3,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P0C1Z0"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 17,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 39,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P0C1Z0"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 41,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 52,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P0C1Z0"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 58,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P0C1Z0"
+                }
+            ]
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 14,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 14,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 2; AA sequence",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "I",
+                "alternativeSequences": [
+                    "T"
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0008",
+            "category": "Molecular function",
+            "name": "Acetylcholine receptor inhibiting toxin"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0872",
+            "category": "Molecular function",
+            "name": "Ion channel impairing toxin"
+        },
+        {
+            "id": "KW-0528",
+            "category": "Molecular function",
+            "name": "Neurotoxin"
+        },
+        {
+            "id": "KW-0629",
+            "category": "Molecular function",
+            "name": "Postsynaptic neurotoxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "8665942",
+                "citationType": "journal article",
+                "authors": [
+                    "Rosso J.-P.",
+                    "Vargas-Rosso O.",
+                    "Gutierrez J.-M.",
+                    "Rochat H.",
+                    "Bougis P.E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8665942"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1111/j.1432-1033.1996.0231q.x"
+                    }
+                ],
+                "title": "Characterization of alpha-neurotoxin and phospholipase A2 activities from Micrurus venoms. Determination of the amino acid sequence and receptor-binding ability of the major alpha-neurotoxin from Micrurus nigrocinctus nigrocinctus.",
+                "publicationDate": "1996",
+                "journal": "Eur. J. Biochem.",
+                "firstPage": "231",
+                "lastPage": "239",
+                "volume": "238"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE",
+                "TOXIC DOSE",
+                "SUBCELLULAR LOCATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "8603741",
+                "citationType": "journal article",
+                "authors": [
+                    "Alape-Giron A.",
+                    "Persson B.",
+                    "Cedelund E.",
+                    "Flores-Diaz M.",
+                    "Gutierrez J.-M.",
+                    "Thelestam M.",
+                    "Bergman T.",
+                    "Joernvall H."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8603741"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0014-5793(95)01543-4"
+                    }
+                ],
+                "title": "Characterization of multiple nicotinic acetylcholine receptor-binding proteins and phospholipases A2 from the venom of the coral snake Micrurus nigrocinctus.",
+                "publicationDate": "1996",
+                "journal": "FEBS Lett.",
+                "firstPage": "29",
+                "lastPage": "32",
+                "volume": "380"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE OF 1-26"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "PIR",
+            "id": "S68641",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "S68641"
+                }
+            ]
+        },
+        {
+            "database": "PIR",
+            "id": "S68769",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "S68769"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "P80548",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P80548",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0030550",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:acetylcholine receptor inhibitor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0099106",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ion channel regulator activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00206",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "snake_toxin"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003571",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_3FTx"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018354",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin_con_site"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00272",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SNAKE_TOXIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MICHNQQSSQPPTIKTCSEGQCYKKTWRDHRGTISERGCGCPTVKPGIHISCCASDKCNA",
+        "length": 60,
+        "molWeight": 6583,
+        "crc64": "4E9580F886F0279C",
+        "md5": "D87CCC286C3E5600133F355EABAA8BCE"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "TOXIC DOSE": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Disulfide bond": 4,
+            "Sequence conflict": 1
+        },
+        "uniParcId": "UPI0000130AFB"
+    }
+}

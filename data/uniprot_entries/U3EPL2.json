@@ -1,0 +1,651 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "U3EPL2",
+    "uniProtkbId": "3SXB_MICFL",
+    "entryAudit": {
+        "firstPublicDate": "2019-12-11",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2013-11-13",
+        "entryVersion": 25,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 3.0,
+    "organism": {
+        "scientificName": "Micrurus fulvius",
+        "commonName": "Eastern coral snake",
+        "synonyms": [
+            "Coluber fulvius"
+        ],
+        "taxonId": 8637,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Micrurus"
+        ]
+    },
+    "proteinExistence": "3: Inferred from homology",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000312",
+                        "source": "EMBL",
+                        "id": "JAB52853.1"
+                    }
+                ],
+                "value": "Three-finger toxin 3b"
+            },
+            "shortNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "3FTx 3b"
+                }
+            ]
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "U3FAE1"
+                        }
+                    ],
+                    "value": "Micrurus fulvius dimeric neurotoxin b"
+                }
+            },
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "U3FAE1"
+                        }
+                    ],
+                    "value": "SIGMA-neurotoxin"
+                }
+            }
+        ],
+        "flag": "Precursor"
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "U3FAE1"
+                        }
+                    ],
+                    "value": "Postsynaptic neurotoxin that produces potent, and completely reversible, postsynaptic neuromuscular blockade, as well as broad spectrum inhibition of human muscle and neuronal nicotinic acetylcholine receptors (nAChRs). Inhibition is potent or moderate, depending on the receptor (alpha-1-beta-1-delta-epsilon/CHRNA1-CHRNB1-CHRND-CHRNE (IC(50)=2.56 uM), alpha-4-beta-2/CHRNA4-CHRNB2 (IC(50)=1.8 uM), alpha-7/CHRNA7 (IC(50)=7 uM), and alpha-3-beta-2/CHRNA3-CHRNB2 (IC(50)=12.6 uM)). Acts as a competitive antagonist of ACh. Binds to chicken muscle-type nicotinic acetylcholine receptor (AChR) with high potency compared with the cloned human receptor. Unlike short-chain alpha-3FTxs that only bind to muscle nAChRs, this toxin utilizes dimerization to expand its pharmacological targets to block neuronal nAChRs"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "U3FAE1"
+                        }
+                    ],
+                    "value": "Homodimer; non-covalently linked. Is able to form a tetramer of dimers in the presence of 2 zinc ions"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "U3FAE1"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "U3FAE1"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "U3FAE1"
+                        }
+                    ],
+                    "value": "Weakly inhibits human alpha-4-beta-4/CHRNA4-CHRNB4 and has no activity on human alpha-9-alpha-10/CHRNA9-CHRNA10 and human alpha-3-beta-4/CHRNA3-CHRNB4 nAChRs"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 84,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Three-finger toxin 3b",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "U3FAE1"
+                }
+            ],
+            "featureId": "PRO_5004640414"
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 50,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 50,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29105"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "U3FAE1"
+                }
+            ],
+            "ligand": {
+                "name": "Zn(2+)",
+                "id": "ChEBI:CHEBI:29105"
+            }
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 58,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 58,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Contributes to dimerization",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "U3FAE1"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 61,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 61,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Contributes to dimerization",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "U3FAE1"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 64,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 64,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Contributes to dimerization",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "U3FAE1"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 41,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "U3FAE1"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 34,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 59,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "U3FAE1"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 63,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 71,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "U3FAE1"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 72,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 77,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "U3FAE1"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0008",
+            "category": "Molecular function",
+            "name": "Acetylcholine receptor inhibiting toxin"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0479",
+            "category": "Ligand",
+            "name": "Metal-binding"
+        },
+        {
+            "id": "KW-0528",
+            "category": "Molecular function",
+            "name": "Neurotoxin"
+        },
+        {
+            "id": "KW-0629",
+            "category": "Molecular function",
+            "name": "Postsynaptic neurotoxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        },
+        {
+            "id": "KW-0862",
+            "category": "Ligand",
+            "name": "Zinc"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "23915248",
+                "citationType": "journal article",
+                "authors": [
+                    "Margres M.J.",
+                    "Aronow K.",
+                    "Loyacano J.",
+                    "Rokyta D.R."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "23915248"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1186/1471-2164-14-531"
+                    }
+                ],
+                "title": "The venom-gland transcriptome of the eastern coral snake (Micrurus fulvius) reveals high venom complexity in the intragenomic evolution of venoms.",
+                "publicationDate": "2013",
+                "journal": "BMC Genomics",
+                "firstPage": "531",
+                "lastPage": "531",
+                "volume": "14"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom gland",
+                    "type": "TISSUE"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "GAEP01001968",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "JAB52853.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "U3EPL2",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "U3EPL2",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0030550",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:acetylcholine receptor inhibitor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0046872",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:metal ion binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKTLLLTLVVVTIVCLDLGNSLKCYSSRTETMTCPEGEDKCEKYAAGLMHGSFFFIYTCTSKCHEGAYNVCCSTDLCNKSSTSG",
+        "length": 84,
+        "molWeight": 9155,
+        "crc64": "A65C29F1543952A9",
+        "md5": "3340597090B548F42E179EE58B52CA2A"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBUNIT": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "MISCELLANEOUS": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Binding site": 1,
+            "Site": 3,
+            "Disulfide bond": 4
+        },
+        "uniParcId": "UPI0003B260F0"
+    }
+}

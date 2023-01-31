@@ -1,0 +1,622 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "C1IC48",
+    "uniProtkbId": "3S14_WALAE",
+    "entryAudit": {
+        "firstPublicDate": "2012-10-03",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2009-05-26",
+        "entryVersion": 46,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 3.0,
+    "organism": {
+        "scientificName": "Walterinnesia aegyptia",
+        "commonName": "Desert black snake",
+        "taxonId": 64182,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Walterinnesia"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "960110"
+                    }
+                ],
+                "value": "Three-finger toxin W-IV"
+            }
+        },
+        "flag": "Precursor"
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "960110"
+                        }
+                    ],
+                    "value": "Binds to muscle nicotinic acetylcholine receptor (nAChR) and inhibit acetylcholine from binding to the receptor, thereby impairing neuromuscular transmission"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "960110"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "960110"
+                        }
+                    ],
+                    "value": "LD(50) is 0.14 mg/kg by intraperitoneal injection in mice"
+                }
+            ],
+            "commentType": "TOXIC DOSE"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily. Type I alpha-neurotoxin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9080571"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 83,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Three-finger toxin W-IV",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9080571"
+                }
+            ],
+            "featureId": "PRO_0000419225"
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 45,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P0C1Z0"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 38,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 62,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P0C1Z0"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 64,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 75,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P0C1Z0"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 76,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 81,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P0C1Z0"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0008",
+            "category": "Molecular function",
+            "name": "Acetylcholine receptor inhibiting toxin"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0872",
+            "category": "Molecular function",
+            "name": "Ion channel impairing toxin"
+        },
+        {
+            "id": "KW-0528",
+            "category": "Molecular function",
+            "name": "Neurotoxin"
+        },
+        {
+            "id": "KW-0629",
+            "category": "Molecular function",
+            "name": "Postsynaptic neurotoxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "18405934",
+                "citationType": "journal article",
+                "authors": [
+                    "Tsai H.-Y.",
+                    "Wang Y.M.",
+                    "Tsai I.-H."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "18405934"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.toxicon.2008.02.012"
+                    }
+                ],
+                "title": "Cloning, characterization and phylogenetic analyses of members of three major venom families from a single specimen of Walterinnesia aegyptia.",
+                "publicationDate": "2008",
+                "journal": "Toxicon",
+                "firstPage": "1245",
+                "lastPage": "1254",
+                "volume": "51"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom gland",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "9080571",
+                "citationType": "journal article",
+                "authors": [
+                    "Samejima Y.",
+                    "Aoki-Tomomatsu Y.",
+                    "Yanagisawa M.",
+                    "Mebs D."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9080571"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0041-0101(96)00138-9"
+                    }
+                ],
+                "title": "Amino acid sequence of two neurotoxins from the venom of the Egyptian black snake (Walterinnesia aegyptia).",
+                "publicationDate": "1997",
+                "journal": "Toxicon",
+                "firstPage": "151",
+                "lastPage": "157",
+                "volume": "35"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE OF 22-83"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "960110",
+                "citationType": "journal article",
+                "authors": [
+                    "Lee C.Y.",
+                    "Chen Y.M.",
+                    "Mebs D."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "960110"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0041-0101(76)90023-4"
+                    }
+                ],
+                "title": "Chromatographic separation of the venom of Egyptian black snake (Walterinnesia aegyptia) and pharmacological characterization of its components.",
+                "publicationDate": "1976",
+                "journal": "Toxicon",
+                "firstPage": "275",
+                "lastPage": "281",
+                "volume": "14"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "TOXIC DOSE",
+                "SUBCELLULAR LOCATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "EU196556",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ABX82865.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "C1IC48",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "C1IC48",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0030550",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:acetylcholine receptor inhibitor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0099106",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ion channel regulator activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00206",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "snake_toxin"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003571",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_3FTx"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018354",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin_con_site"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00272",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SNAKE_TOXIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKTLLLTLVVVTIVCLDLGHTLLCHNQQSSTSPTTTCCSGGESKCYKKRWPTHRGTITERGCGCPTVKKGIELHCCTTDQCNL",
+        "length": 83,
+        "molWeight": 9055,
+        "crc64": "B09FEE8924642C37",
+        "md5": "B5366F76D66C82D16B8F013B3019CA20"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "TOXIC DOSE": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Disulfide bond": 4
+        },
+        "uniParcId": "UPI000199752B"
+    }
+}

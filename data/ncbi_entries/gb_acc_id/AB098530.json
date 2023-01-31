@@ -1,0 +1,248 @@
+{
+    "GBSeq_locus": "AB098530",
+    "GBSeq_length": "1405",
+    "GBSeq_strandedness": "double",
+    "GBSeq_moltype": "DNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "03-SEP-2003",
+    "GBSeq_create-date": "21-JUN-2003",
+    "GBSeq_definition": "Laticauda semifasciata Etxc gene for erabutoxin c, complete cds, clone:5-2N",
+    "GBSeq_primary-accession": "AB098530",
+    "GBSeq_accession-version": "AB098530.1",
+    "GBSeq_other-seqids": [
+        "dbj|AB098530.1|",
+        "gi|32140568"
+    ],
+    "GBSeq_source": "Laticauda semifasciata (broad-banded blue sea krait)",
+    "GBSeq_organism": "Laticauda semifasciata",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Laticaudinae; Laticauda",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..1405",
+            "GBReference_authors": [
+                "Fujimi,T.J.",
+                "Nakajyo,T.",
+                "Nishimura,E.",
+                "Ogura,E.",
+                "Tsuchiya,T.",
+                "Tamiya,T."
+            ],
+            "GBReference_title": "Molecular evolution and diversification of snake toxin genes, revealed by analysis of intron sequences",
+            "GBReference_journal": "Gene 313, 111-118 (2003)",
+            "GBReference_pubmed": "12957382"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..1405",
+            "GBReference_authors": [
+                "Tamiya,T.",
+                "Fujimi,T.J."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (20-DEC-2002) Toru Tamiya, Sophia University, Dept. of Chemistry; Kioi-cho, Chiyoda-ku, Tokyo 102-8554, Japan (E-mail:t_tamiya@sophia.ac.jp, URL:http://pweb.sophia.ac.jp/~t_tamiya/, Tel:81-3-3238-3363, Fax:81-3-3238-3361)"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..1405",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "1405",
+                    "GBInterval_accession": "AB098530.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Laticauda semifasciata"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "genomic DNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8631"
+                },
+                {
+                    "GBQualifier_name": "clone",
+                    "GBQualifier_value": "5-2N"
+                },
+                {
+                    "GBQualifier_name": "clone_lib",
+                    "GBQualifier_value": "lambda FIXII L.semifasciata genomic DNA"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "regulatory",
+            "GBFeature_location": "146..151",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "146",
+                    "GBInterval_to": "151",
+                    "GBInterval_accession": "AB098530.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "regulatory_class",
+                    "GBQualifier_value": "TATA_box"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "exon",
+            "GBFeature_location": "179..262",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "179",
+                    "GBInterval_to": "262",
+                    "GBInterval_accession": "AB098530.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "number",
+                    "GBQualifier_value": "1"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "gene",
+            "GBFeature_location": "join(208..262,460..567,1105..1193)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "208",
+                    "GBInterval_to": "262",
+                    "GBInterval_accession": "AB098530.1"
+                },
+                {
+                    "GBInterval_from": "460",
+                    "GBInterval_to": "567",
+                    "GBInterval_accession": "AB098530.1"
+                },
+                {
+                    "GBInterval_from": "1105",
+                    "GBInterval_to": "1193",
+                    "GBInterval_accession": "AB098530.1"
+                }
+            ],
+            "GBFeature_operator": "join",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "Etxc"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "join(208..262,460..567,1105..1193)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "208",
+                    "GBInterval_to": "262",
+                    "GBInterval_accession": "AB098530.1"
+                },
+                {
+                    "GBInterval_from": "460",
+                    "GBInterval_to": "567",
+                    "GBInterval_accession": "AB098530.1"
+                },
+                {
+                    "GBInterval_from": "1105",
+                    "GBInterval_to": "1193",
+                    "GBInterval_accession": "AB098530.1"
+                }
+            ],
+            "GBFeature_operator": "join",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "Etxc"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "erabutoxin c"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "BAC78203.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGYTRICFNHQSSQPQTTKTCSPGESSCYHKQWSDFRGTIIERGCGCPTVKPGINLSCCESEVCNN"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "exon",
+            "GBFeature_location": "460..567",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "460",
+                    "GBInterval_to": "567",
+                    "GBInterval_accession": "AB098530.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "Etxc"
+                },
+                {
+                    "GBQualifier_name": "number",
+                    "GBQualifier_value": "2"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "exon",
+            "GBFeature_location": "1105..1405",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1105",
+                    "GBInterval_to": "1405",
+                    "GBInterval_accession": "AB098530.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "number",
+                    "GBQualifier_value": "3"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "regulatory",
+            "GBFeature_location": "1387..1392",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1387",
+                    "GBInterval_to": "1392",
+                    "GBInterval_accession": "AB098530.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "regulatory_class",
+                    "GBQualifier_value": "polyA_signal_sequence"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "cacctgatctgatctggctcccgttttggtgtcgggggcaaaaaggacacaccccctggccttcccttttccactgaatctccctgttcttctctctagacatcctagatatccattcccacccacccaccccatctcagaggggtataaataagtgtctgcttccatcctgggctacactttgcaggctccagaaaagatcgcaagatgaaaactctgctgctgaccttggtggtggtgacaatcgtgtgcctggacttaggtaaggccagcaaactttgatcttgggtgacaatcaaacccaaaacaaaggggcagagtaagggagggtatttgaggcagttgtggtcccatccttttggtgggactttctcacagttctggtctgcataaggagagtccatgggaacctttgggggagaagaggtcatgtttctatacattatatctttcatccaggatacaccaggatatgttttaaccatcagtcatcgcaaccgcaaaccactaaaacttgttcacctggggagagctcttgctatcacaagcaatggagcgatttccgtggtaagcacatttcttatcttcagtcacagctatttttcttcttgaacccagactagagctcccaaatgcaccagagagttggaagtaacgtaggacctatctgtgccctgcccaggttcccctgagttcatgtcctggtgctggacagtctaaggaatacaagggaagggggagcttgggctggggtgccccatctttctcagcaacagtccagactggagggggaaaccttctttcaagaaagggggagggaaatgctgggagagctgtgggtttgttcaggaattaagggaaattggatgaagtcatgaaacatccaagaaaggtgccattgcccctgagtcatgtcaaagcacagaaccttcttcattcatttactcctgagttttgagtagaggaggaaggagatctgccttcctaatgggacgggatgcatgaatgtattcagtgtgggtttaccagtttgttcagcaacagccacaggtctcttttttggtatttttaaaataatcattctgctttgtgcttccttcacaggaactataattgaaaggggatgtggttgccccacagtgaagcccggtattaaccttagttgttgcgaatcagaggtctgcaacaattagctctacgagtggctaaattccttgagttttactctcattcatcaaggaccatccttcaaaatgtatgcttctggcctttaccaccacatggtccatcatccccctctcccctgctgtctttgacacctcaacatctttcccttttctcttgatctgtaagtttccttctgctagttctgtagtttgagaatcaaataaacctcagcattcaa"
+}

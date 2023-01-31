@@ -1,0 +1,147 @@
+{
+    "GBSeq_locus": "XP_009934706",
+    "GBSeq_length": "188",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "28-OCT-2014",
+    "GBSeq_create-date": "28-OCT-2014",
+    "GBSeq_definition": "PREDICTED: ly6/PLAUR domain-containing protein 2 [Opisthocomus hoazin]",
+    "GBSeq_primary-accession": "XP_009934706",
+    "GBSeq_accession-version": "XP_009934706.1",
+    "GBSeq_other-seqids": [
+        "ref|XP_009934706.1|",
+        "gi|700388947"
+    ],
+    "GBSeq_project": "PRJNA263612",
+    "GBSeq_keywords": [
+        "RefSeq",
+        "includes ab initio"
+    ],
+    "GBSeq_source": "Opisthocomus hoazin",
+    "GBSeq_organism": "Opisthocomus hoazin",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda; Coelurosauria; Aves; Neognathae; Opisthocomiformes; Opisthocomidae; Opisthocomus",
+    "GBSeq_comment": "MODEL REFSEQ: This record is predicted by automated computational analysis. This record is derived from a genomic sequence (NW_009901675.1) annotated using gene prediction method: Gnomon.~Also see:~ Documentation of NCBI's Annotation Process; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI ; Annotation Status :: Full annotation ; Annotation Version :: Opisthocomus hoazin Annotation Release 100 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 6.1 ; Annotation Method :: Best-placed RefSeq; Gnomon ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; ##Genome-Annotation-Data-END##; ##RefSeq-Attributes-START## ; ab initio :: 42% of CDS bases ; ##RefSeq-Attributes-END##; COMPLETENESS: full length.",
+    "GBSeq_source-db": "REFSEQ: accession XM_009936404.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..188",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "188",
+                    "GBInterval_accession": "XP_009934706.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Opisthocomus hoazin"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "BGI_N306"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:30419"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "Unknown"
+                },
+                {
+                    "GBQualifier_name": "sex",
+                    "GBQualifier_value": "female"
+                },
+                {
+                    "GBQualifier_name": "country",
+                    "GBQualifier_value": "Venezuela"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..188",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "188",
+                    "GBInterval_accession": "XP_009934706.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "ly6/PLAUR domain-containing protein 2"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "20576"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "82..161",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "82",
+                    "GBInterval_to": "161",
+                    "GBInterval_accession": "XP_009934706.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "LU"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Ly-6 antigen / uPA receptor -like domain; occurs singly in GPI-linked cell-surface glycoproteins (Ly-6 family,CD59, thymocyte B cell antigen, Sgp-2) or as three-fold repeated domain in urokinase-type plasminogen activator receptor. Topology of these...; cd00117"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:238065"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..188",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "188",
+                    "GBInterval_accession": "XP_009934706.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LYPD2"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "XM_009936404.1:1..567"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:104331127"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "msgykvteestrrralldlifakkeelvgevkvggslgrsdekmvdfkilsmrnktkisiatpesawihkgetnyspdthtlqcytcreptavdkcltiqncaknetmckttmysledvypfigistvtkmcsaicvpsdvdgigmtrpvsccysdlcnadaaaslrisflpvgvlasslcalfwtrl",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA263612"
+        }
+    ]
+}

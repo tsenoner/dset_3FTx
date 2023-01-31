@@ -1,0 +1,152 @@
+{
+    "GBSeq_locus": "GAHB01000001",
+    "GBSeq_length": "279",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "08-APR-2013",
+    "GBSeq_create-date": "08-APR-2013",
+    "GBSeq_definition": "TSA: Cacophis squamulosus 3FTx-Cac-16 mRNA sequence",
+    "GBSeq_primary-accession": "GAHB01000001",
+    "GBSeq_accession-version": "GAHB01000001.1",
+    "GBSeq_other-seqids": [
+        "gb|GAHB01000001.1|",
+        "gnl|TSA:GAHB01|3FTx-Cac-16",
+        "gi|476538352"
+    ],
+    "GBSeq_project": "PRJNA189682",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly",
+        "Targeted"
+    ],
+    "GBSeq_source": "Cacophis squamulosus",
+    "GBSeq_organism": "Cacophis squamulosus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Cacophis",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..279",
+            "GBReference_authors": [
+                "Jackson,T.N.",
+                "Sunagar,K.",
+                "Undheim,E.A.",
+                "Koludarov,I.",
+                "Chan,A.H.",
+                "Sanders,K.",
+                "Ali,S.A.",
+                "Hendrikx,I.",
+                "Dunstan,N.",
+                "Fry,B.G."
+            ],
+            "GBReference_title": "Venom down under: dynamic evolution of Australian elapid snake toxins",
+            "GBReference_journal": "Toxins (Basel) 5 (12), 2621-2655 (2013)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.3390/toxins5122621"
+                }
+            ],
+            "GBReference_pubmed": "24351719",
+            "GBReference_remark": "Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..279",
+            "GBReference_authors": [
+                "Fry,B.G."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (09-MAR-2013) School of Biological Science, University of Queensland, Venom Evolution Lab, St Lucia, Queensland 4072, Australia"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: MIRA v. 3 ; Sequencing Technology :: 454 ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..279",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "279",
+                    "GBInterval_accession": "GAHB01000001.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Cacophis squamulosus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "3FTx-Cac-16"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:505434"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "maxillary venom gland"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..279",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "279",
+                    "GBInterval_accession": "GAHB01000001.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "three finger toxin"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "3FTx-Cac-16"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "JAA74719.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGDSLICYVGYNAPRTCPNGQKLCYKITSCVGVCPKRDQPIEMGCAATCPIRNRGVKVICCSTDRCNKLSNWERP"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctgaccttggtggtggtgacaatcgtgtgcctggacttaggtgacagcttgatatgctacgtgggatataatgcccctcggacttgtccaaatgggcagaagctatgctataaaattacttcgtgtgttggtgtttgtcccaagagagaccagccaatcgaaatgggatgtgctgctacttgcccgatacggaaccgcggtgtgaaagttatctgttgctcaacagacaggtgcaacaaattatcgaattgggaacgtccttga",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA189682"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN01922384"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR768909"
+        }
+    ]
+}

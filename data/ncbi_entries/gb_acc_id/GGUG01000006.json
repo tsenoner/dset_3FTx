@@ -1,0 +1,152 @@
+{
+    "GBSeq_locus": "GGUG01000006",
+    "GBSeq_length": "324",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "RNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "02-OCT-2018",
+    "GBSeq_create-date": "02-OCT-2018",
+    "GBSeq_definition": "TSA: Boiga trigonata Btrig_3FTx05 transcribed RNA sequence",
+    "GBSeq_primary-accession": "GGUG01000006",
+    "GBSeq_accession-version": "GGUG01000006.1",
+    "GBSeq_other-seqids": [
+        "gb|GGUG01000006.1|",
+        "gnl|TSA:GGUG01|Btrig_3FTx05"
+    ],
+    "GBSeq_project": "PRJNA483079",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly",
+        "Targeted"
+    ],
+    "GBSeq_source": "Boiga trigonata",
+    "GBSeq_organism": "Boiga trigonata",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Colubridae; Colubrinae; Boiga",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..324",
+            "GBReference_authors": [
+                "Dashevsky,D.",
+                "Debono,J.",
+                "Rokyta,D.",
+                "Nouwens,A.",
+                "Josh,P.",
+                "Fry,B.G."
+            ],
+            "GBReference_title": "Three-Finger Toxin Diversification in the Venoms of Cat-Eye Snakes (Colubridae: Boiga)",
+            "GBReference_journal": "J. Mol. Evol. (2018) In press",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1007/s00239-018-9864-6"
+                }
+            ],
+            "GBReference_pubmed": "30206667",
+            "GBReference_remark": "Publication Status: Available-Online prior to print"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..324",
+            "GBReference_authors": [
+                "Dashevsky,D.",
+                "Debono,J.",
+                "Rokyta,D.",
+                "Nouwens,A.",
+                "Josh,P.",
+                "Fry,B.G."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (03-AUG-2018) School of Biological Sciences, University of Queensland, The School of Biological Sciences, The University of Queensland, Brisbane, QLD 4072, Australia"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: SOAPdenovo 2.04; Trinity 2.4.0; Extender 1.04 ; Sequencing Technology :: Illumina MiSeq ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..324",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "324",
+                    "GBInterval_accession": "GGUG01000006.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Boiga trigonata"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "transcribed RNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "Btrig_3FTx05"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:1296666"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "Venom gland"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "adult"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..324",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "324",
+                    "GBInterval_accession": "GGUG01000006.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "Three-Finger Toxin 05"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "MCM20045.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLALVVVAFVCLGSADQLGLGRQLIDWGQGQAVGRAYTLCFKCNPSSDCSTAHRCYELLCYTLYKRDGNGGEKWAAKGCAKTCPTARPGERVKCCRAPRCNSD"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctggccttggtggtggtggcattcgtgtgcctgggctcagctgatcagctgggactcggaaggcagctaattgattggggacaaggccaagcagtaggtcgagcctacacactttgtttcaaatgcaatccttcttcggattgttcaaccgctcacagatgttacgaactattgtgctacactttgtacaaacgtgatgggaatggtggagagaaatgggctgccaagggatgtgctaaaacgtgcccgactgcgagacctggtgagagggtgaagtgttgcagggcaccaaggtgcaacagtgattga",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA483079"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN09725847"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR7609627"
+        }
+    ]
+}

@@ -1,0 +1,770 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "C0HJD7",
+    "uniProtkbId": "3L24_DENPO",
+    "entryAudit": {
+        "firstPublicDate": "2014-10-29",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2014-10-29",
+        "entryVersion": 27,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 4.0,
+    "organism": {
+        "scientificName": "Dendroaspis polylepis polylepis",
+        "commonName": "Black mamba",
+        "taxonId": 8620,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Dendroaspis"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "24867092"
+                    }
+                ],
+                "value": "Alpha-elapitoxin-Dpp2d"
+            },
+            "shortNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "24867092"
+                        }
+                    ],
+                    "value": "Alpha-EPTX-Dpp2d"
+                }
+            ]
+        }
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P60615"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "24867092"
+                        }
+                    ],
+                    "value": "Binds with high affinity to muscular (IC(50)=114 nM) and neuronal (alpha-7/CHRNA7) (IC(50)=58 nM) nicotinic acetylcholine receptor (nAChR) and inhibits acetylcholine from binding to the receptor, thereby impairing neuromuscular and neuronal transmission. Competitive radioligand binding assays also demonstrate that this toxin competes with epibatidine binding to the Lymnea stagnalis acetylcholine-binding protein (Ls-AChBP) (IC(50)=4.9 nM)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "24867092"
+                        }
+                    ],
+                    "value": "Monomer (predominant)"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "24867092"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305",
+                            "source": "PubMed",
+                            "id": "24867092"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "24867092"
+                        }
+                    ],
+                    "value": "Amidation does not significantly affect toxin selectivity, since the activity profile and binding data are reminiscent of classical long-chain 3-finger toxins with a free carboxyl termini"
+                }
+            ],
+            "commentType": "PTM"
+        },
+        {
+            "commentType": "MASS SPECTROMETRY",
+            "method": "Electrospray",
+            "molWeight": 7985.33,
+            "molWeightError": 0.4,
+            "note": "Monoisotopic mass.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24867092"
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "24867092"
+                        }
+                    ],
+                    "value": "Does not affect alpha-3/beta-2 (CHRNA3/CHRNB2) and alpha-3/beta-4 (CHRNA3/CHRNB4) nAChRs at 1 uM concentrations"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Long-chain subfamily. Type II alpha-neurotoxin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 72,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Alpha-elapitoxin-Dpp2d",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24867092"
+                }
+            ],
+            "featureId": "PRO_0000430751"
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 72,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 72,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Arginine amide",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24867092"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 3,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24867092"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "4LFT"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 14,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 42,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24867092"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "4LFT"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 31,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24867092"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "4LFT"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 46,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 57,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24867092"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "4LFT"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 58,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 63,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24867092"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "4LFT"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 20,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 26,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4LFT"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 31,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 34,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4LFT"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 37,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 45,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4LFT"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 54,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 58,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4LFT"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0002",
+            "category": "Technical term",
+            "name": "3D-structure"
+        },
+        {
+            "id": "KW-0008",
+            "category": "Molecular function",
+            "name": "Acetylcholine receptor inhibiting toxin"
+        },
+        {
+            "id": "KW-0027",
+            "category": "PTM",
+            "name": "Amidation"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0872",
+            "category": "Molecular function",
+            "name": "Ion channel impairing toxin"
+        },
+        {
+            "id": "KW-0528",
+            "category": "Molecular function",
+            "name": "Neurotoxin"
+        },
+        {
+            "id": "KW-0629",
+            "category": "Molecular function",
+            "name": "Postsynaptic neurotoxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "24867092",
+                "citationType": "journal article",
+                "authors": [
+                    "Wang C.I.",
+                    "Reeks T.",
+                    "Vetter I.",
+                    "Vergara I.",
+                    "Kovtun O.",
+                    "Lewis R.J.",
+                    "Alewood P.F.",
+                    "Durek T."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "24867092"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/bi5004475"
+                    }
+                ],
+                "title": "Isolation and structural and pharmacological characterization of alpha-elapitoxin-Dpp2d, an amidated three finger toxin from black mamba venom.",
+                "publicationDate": "2014",
+                "journal": "Biochemistry",
+                "firstPage": "3758",
+                "lastPage": "3766",
+                "volume": "53"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE",
+                "MASS SPECTROMETRY",
+                "FUNCTION",
+                "X-RAY CRYSTALLOGRAPHY (1.7 ANGSTROMS)",
+                "AMIDATION AT ARG-72",
+                "SUBCELLULAR LOCATION",
+                "SUBUNIT"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "PDB",
+            "id": "4LFT",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "1.70 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A/B=1-72"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "4LFT",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "C0HJD7",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "C0HJD7",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0030550",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:acetylcholine receptor inhibitor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0099106",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ion channel regulator activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00206",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "snake_toxin"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003571",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_3FTx"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018354",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin_con_site"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00272",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SNAKE_TOXIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "RTCNKTFSDQSKICPPGENICYTKTWCDAFCSQRGKRVELGCAATCPKVKAGVEIKCCSTDNCNKFQFGKPR",
+        "length": 72,
+        "molWeight": 8002,
+        "crc64": "849151F4633E3F5F",
+        "md5": "2185EF7C5B1251F621571F045C6A7972"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBUNIT": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "PTM": 1,
+            "MASS SPECTROMETRY": 1,
+            "MISCELLANEOUS": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Modified residue": 1,
+            "Disulfide bond": 5,
+            "Beta strand": 3,
+            "Helix": 1
+        },
+        "uniParcId": "UPI0005093967"
+    }
+}

@@ -1,0 +1,692 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P01469",
+    "uniProtkbId": "3SA2_NAJMO",
+    "entryAudit": {
+        "firstPublicDate": "1986-07-21",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "1986-07-21",
+        "entryVersion": 99,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 4.0,
+    "organism": {
+        "scientificName": "Naja mossambica",
+        "commonName": "Mozambique spitting cobra",
+        "taxonId": 8644,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Naja"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "Cytotoxin 2"
+            }
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "8182052"
+                        }
+                    ],
+                    "value": "CTX M2"
+                }
+            },
+            {
+                "fullName": {
+                    "value": "Cardiotoxin IIA"
+                },
+                "shortNames": [
+                    {
+                        "value": "CTX IIA"
+                    }
+                ]
+            },
+            {
+                "fullName": {
+                    "value": "Cytotoxin V(II)2"
+                }
+            }
+        ]
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P60301"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P60304"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "8182052"
+                        }
+                    ],
+                    "value": "Shows cytolytic activity on many different cells by forming pore in lipid membranes. In vivo, increases heart rate or kills the animal by cardiac arrest. In addition, it binds to heparin with high affinity, interacts with Kv channel-interacting protein 1 (KCNIP1) in a calcium-independent manner, and binds to integrin alpha-V/beta-3 (ITGAV/ITGB3) with moderate affinity"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P60301"
+                        }
+                    ],
+                    "value": "Monomer in solution; Homodimer and oligomer in the presence of negatively charged lipids forming a pore with a size ranging between 20 and 30 Angstroms"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "Reference",
+                                "id": "Ref.1"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P60301"
+                            }
+                        ],
+                        "value": "Target cell membrane",
+                        "id": "SL-0451"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "value": "LD(50) is 1.11 mg/kg by intravenous injection"
+                }
+            ],
+            "commentType": "TOXIC DOSE"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305",
+                            "source": "PubMed",
+                            "id": "8182052"
+                        }
+                    ],
+                    "value": "Is classified as a S-type cytotoxin, since a serine residue stands at position 30 (Ser-29 in standard classification). S-type are generally found to exhibit higher muscle cell depolarization than P-type"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily. Type IA cytotoxin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 60,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Cytotoxin 2",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "Reference",
+                    "id": "Ref.1"
+                }
+            ],
+            "featureId": "PRO_0000093506"
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 3,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "2822421"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 14,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 38,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "2822421"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 42,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "2822421"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 54,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 59,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "2822421"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0123",
+            "category": "Molecular function",
+            "name": "Cardiotoxin"
+        },
+        {
+            "id": "KW-0204",
+            "category": "Biological process",
+            "name": "Cytolysis"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0472",
+            "category": "Cellular component",
+            "name": "Membrane"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-1052",
+            "category": "Cellular component",
+            "name": "Target cell membrane"
+        },
+        {
+            "id": "KW-1053",
+            "category": "Cellular component",
+            "name": "Target membrane"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "CI-6JT37LOBVPGAI",
+                "citationType": "journal article",
+                "authors": [
+                    "Louw A.I."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0005-2795(74)90429-2"
+                    }
+                ],
+                "title": "Snake venom toxins. The amino acid sequences of three cytotoxin homologues from Naja mossambica mossambica venom.",
+                "publicationDate": "1974",
+                "journal": "Biochim. Biophys. Acta",
+                "firstPage": "481",
+                "lastPage": "495",
+                "volume": "336"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE",
+                "SUBCELLULAR LOCATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "8182052",
+                "citationType": "journal article",
+                "authors": [
+                    "Chien K.-Y.",
+                    "Chiang C.-M.",
+                    "Hseu Y.-C.",
+                    "Vyas A.A.",
+                    "Rule G.S.",
+                    "Wu W.-G."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8182052"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0021-9258(17)36647-4"
+                    }
+                ],
+                "title": "Two distinct types of cardiotoxin as revealed by the structure and activity relationship of their interaction with zwitterionic phospholipid dispersions.",
+                "publicationDate": "1994",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "14473",
+                "lastPage": "14483",
+                "volume": "269"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "APPARTENANCE TO S-TYPE CYTOTOXIN GROUP"
+            ]
+        },
+        {
+            "citation": {
+                "id": "2822421",
+                "citationType": "journal article",
+                "authors": [
+                    "Otting G.",
+                    "Steinmetz W.E.",
+                    "Bougis P.E.",
+                    "Rochat H.",
+                    "Wuethrich K."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "2822421"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1111/j.1432-1033.1987.tb13460.x"
+                    }
+                ],
+                "title": "Sequence-specific 1H-NMR assignments and determination of the secondary structure in aqueous solution of the cardiotoxins CTXIIa and CTXIIb from Naja mossambica mossambica.",
+                "publicationDate": "1987",
+                "journal": "Eur. J. Biochem.",
+                "firstPage": "609",
+                "lastPage": "620",
+                "volume": "168"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR",
+                "DISULFIDE BONDS"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "PIR",
+            "id": "A01729",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "H3NJ2M"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "P01469",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BMRB",
+            "id": "P01469",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P01469",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016020",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0044218",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:other organism cell membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0019835",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:cytolysis"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00206",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "snake_toxin"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003572",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Cytotoxin_Cobra"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003571",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_3FTx"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018354",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin_con_site"
+                }
+            ]
+        },
+        {
+            "database": "PRINTS",
+            "id": "PR00282",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CYTOTOXIN"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00272",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SNAKE_TOXIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "LKCNQLIPPFWKTCPKGKNLCYKMTMRGASKVPVKRGCIDVCPKSSLLIKYMCCNTDKCN",
+        "length": 60,
+        "molWeight": 6800,
+        "crc64": "42940F1996B02A4A",
+        "md5": "A021854583F9C0405D66F918E24EB255"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBUNIT": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "TOXIC DOSE": 1,
+            "MISCELLANEOUS": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Disulfide bond": 4
+        },
+        "uniParcId": "UPI000012876F"
+    }
+}

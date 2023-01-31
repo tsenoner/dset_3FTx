@@ -1,0 +1,117 @@
+{
+    "GBSeq_locus": "KY635903",
+    "GBSeq_length": "284",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "06-MAR-2018",
+    "GBSeq_create-date": "06-MAR-2018",
+    "GBSeq_definition": "Micrurus mipartitus mipartoxin-III mRNA, complete cds",
+    "GBSeq_primary-accession": "KY635903",
+    "GBSeq_accession-version": "KY635903.1",
+    "GBSeq_other-seqids": [
+        "gb|KY635903.1|",
+        "gi|1352195861"
+    ],
+    "GBSeq_source": "Micrurus mipartitus",
+    "GBSeq_organism": "Micrurus mipartitus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Micrurus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..284",
+            "GBReference_authors": [
+                "Torres-Lamus,U.D.",
+                "Nunez R,V.",
+                "Marin V,M."
+            ],
+            "GBReference_title": "Cloning and sequencing of three-finger toxins from the venom gland of Micrurus mipartitus (red tail coral snake) of Colombia",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..284",
+            "GBReference_authors": [
+                "Torres-Lamus,U.D.",
+                "Nunez R,V.",
+                "Marin V,M."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (17-FEB-2017) Universidad de Antioquia, Programa de Ofidismo/Escorpionismo, Calle 62 52-59 SIU Torre 2 Lab 631, Medellin, Antioquia 05001000, Colombia"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..284",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "284",
+                    "GBInterval_accession": "KY635903.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Micrurus mipartitus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:430902"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "Venom Gland"
+                },
+                {
+                    "GBQualifier_name": "country",
+                    "GBQualifier_value": "Colombia"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "22..261",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "22",
+                    "GBInterval_to": "261",
+                    "GBInterval_accession": "KY635903.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "three finger toxin"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "mipartoxin-III"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "AVI57322.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGNSLKCYDKLKKEVTCPEGMKFCHKDVLPATHGNSVLVMGCTYSCGLGPRNMCCSTDLCNK"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "ggctccagagaagatcacaagatgaaaactctgctgctgaccttggtggtggtgacaatcgtgtgcctggacttagggaacagcctaaaatgttacgataaactgaagaaggaggttacttgtccagaaggaatgaagttttgccataaagatgtgcttccggctacgcatggtaattcggtactcgtaatgggatgtacttatagttgcggtttaggaccacgtaatatgtgttgctcaacagacctctgcaacaagtagctctacgagtggctaaattcctt"
+}

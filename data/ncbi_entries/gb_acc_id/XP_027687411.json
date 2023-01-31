@@ -1,0 +1,166 @@
+{
+    "GBSeq_locus": "XP_027687411",
+    "GBSeq_length": "125",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "22-SEP-2021",
+    "GBSeq_create-date": "23-JAN-2019",
+    "GBSeq_definition": "lymphocyte antigen 6E [Chelonia mydas]",
+    "GBSeq_primary-accession": "XP_027687411",
+    "GBSeq_accession-version": "XP_027687411.1",
+    "GBSeq_other-seqids": [
+        "ref|XP_027687411.1|",
+        "gi|1561650393"
+    ],
+    "GBSeq_project": "PRJNA675851",
+    "GBSeq_keywords": [
+        "RefSeq"
+    ],
+    "GBSeq_source": "Chelonia mydas (Green sea turtle)",
+    "GBSeq_organism": "Chelonia mydas",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Archelosauria; Testudinata; Testudines; Cryptodira; Durocryptodira; Americhelydia; Chelonioidea; Cheloniidae; Chelonia",
+    "GBSeq_comment": "MODEL REFSEQ: This record is predicted by automated computational analysis. This record is derived from a genomic sequence (NC_057850.1) annotated using gene prediction method: Gnomon.~Also see:~ Documentation of NCBI's Annotation Process; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI ; Annotation Status :: Full annotation ; Annotation Name :: Chelonia mydas Annotation Release 103 ; Annotation Version :: 103 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 9.0 ; Annotation Method :: Best-placed RefSeq; Gnomon ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; ##Genome-Annotation-Data-END##; COMPLETENESS: full length.",
+    "GBSeq_source-db": "REFSEQ: accession XM_027831610.3",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..125",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "125",
+                    "GBInterval_accession": "XP_027687411.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Chelonia mydas"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "rCheMyd1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8469"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "2"
+                },
+                {
+                    "GBQualifier_name": "sex",
+                    "GBQualifier_value": "male"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "blood"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "adult"
+                },
+                {
+                    "GBQualifier_name": "country",
+                    "GBQualifier_value": "Israel: Mediterranean Sea"
+                },
+                {
+                    "GBQualifier_name": "lat_lon",
+                    "GBQualifier_value": "31.814194 N 34.753376 E"
+                },
+                {
+                    "GBQualifier_name": "collection_date",
+                    "GBQualifier_value": "2018-06-04"
+                },
+                {
+                    "GBQualifier_name": "collected_by",
+                    "GBQualifier_value": "Yaron Tikochinski"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..125",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "125",
+                    "GBInterval_accession": "XP_027687411.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "lymphocyte antigen 6E"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "12371"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "23..96",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "23",
+                    "GBInterval_to": "96",
+                    "GBInterval_accession": "XP_027687411.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "UPAR_LY6"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "u-PAR/Ly-6 domain; pfam00021"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:394978"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..125",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "125",
+                    "GBInterval_accession": "XP_027687411.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LOC102932022"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "XM_027831610.3:267..644"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:102932022"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mkafllallvavlsveqahslvcftctdassnwgclasticpsdanycvttyigagigghsgqsiskgcasvcpsgginigiaaasvsccssflcntsgassvkvsysvlamailasfvyiragl",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA675851"
+        }
+    ]
+}

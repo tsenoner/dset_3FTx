@@ -1,0 +1,124 @@
+{
+    "GBSeq_locus": "GFTV01000051",
+    "GBSeq_length": "343",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "RNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "04-DEC-2017",
+    "GBSeq_create-date": "04-DEC-2017",
+    "GBSeq_definition": "TSA: Malpolon insignitus Transcript_37714 transcribed RNA sequence",
+    "GBSeq_primary-accession": "GFTV01000051",
+    "GBSeq_accession-version": "GFTV01000051.1",
+    "GBSeq_other-seqids": [
+        "gb|GFTV01000051.1|",
+        "gnl|TSA:GFTV01|Transcript_37714"
+    ],
+    "GBSeq_project": "PRJNA395151",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly",
+        "Targeted"
+    ],
+    "GBSeq_source": "Malpolon insignitus (Eastern Montpellier snake)",
+    "GBSeq_organism": "Malpolon insignitus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Lamprophiidae; Psammophiinae; Malpolon",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..343",
+            "GBReference_authors": [
+                "Calvete,J.",
+                "Durban,J."
+            ],
+            "GBReference_title": "Malpolon insignitus venom gland transcriptome",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..343",
+            "GBReference_authors": [
+                "Calvete,J.",
+                "Durban,J."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (26-JUL-2017) Functional and Structural Venomics, Instituto de Biomedicina de Valencia, c/Jaume Roig, 11, Valencia 46010, Spain"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: Oases version 0.2.08; Trinity version 2.1.1 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..343",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "343",
+                    "GBInterval_accession": "GFTV01000051.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Malpolon insignitus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "transcribed RNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "Transcript_37714"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:292863"
+                },
+                {
+                    "GBQualifier_name": "sex",
+                    "GBQualifier_value": "male"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "adult"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "misc_feature",
+            "GBFeature_location": "1..342",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "342",
+                    "GBInterval_accession": "GFTV01000051.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "similar to Long Neurotoxin Three-finger toxin"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "agaaaagggaaagatgttgaggtgtcaaagacagcaggggagagggggatgatggaccatctgcggtaaaggccacaagcataaattttcaaggatggtccaacatggatgagagcaacactcaacgagatttccagttcgcaactgtgttgcaattgtctgttgcgcaacaggtaatacctataccgtgcttcactgtagggcatttagcagtacatcccagttcgattgcctttcttctgatggaacaaaaaccatcacaccgactctttttatagcataggctctgcccaggtggacaagtctcaggtttataaagaggtgttttgaagcatttcctgga",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA395151"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN07372104"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5852202"
+        }
+    ]
+}

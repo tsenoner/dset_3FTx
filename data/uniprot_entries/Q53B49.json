@@ -1,0 +1,615 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q53B49",
+    "uniProtkbId": "3SI35_OPHHA",
+    "entryAudit": {
+        "firstPublicDate": "2008-01-15",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2005-05-24",
+        "entryVersion": 56,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 2.0,
+    "organism": {
+        "scientificName": "Ophiophagus hannah",
+        "commonName": "King cobra",
+        "synonyms": [
+            "Naja hannah"
+        ],
+        "taxonId": 8665,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Ophiophagus"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "Short neurotoxin OH-35"
+            }
+        },
+        "flag": "Precursor"
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250"
+                        }
+                    ],
+                    "value": "Binds to the muscarinic acetylcholine receptor (CHRM)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250"
+                        }
+                    ],
+                    "value": "Monomer"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "24297900"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Is classified as a P-type cytotoxin, since a proline residue stands at position 54 (Pro-31 in standard classification)"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily. Aminergic toxin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 86,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Short neurotoxin OH-35",
+            "featureId": "PRO_5000093329"
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 45,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 38,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 63,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 67,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 78,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 79,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 84,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-1214",
+            "category": "Molecular function",
+            "name": "G-protein coupled acetylcholine receptor impairing toxin"
+        },
+        {
+            "id": "KW-1213",
+            "category": "Molecular function",
+            "name": "G-protein coupled receptor impairing toxin"
+        },
+        {
+            "id": "KW-0528",
+            "category": "Molecular function",
+            "name": "Neurotoxin"
+        },
+        {
+            "id": "KW-0629",
+            "category": "Molecular function",
+            "name": "Postsynaptic neurotoxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "15302536",
+                "citationType": "journal article",
+                "authors": [
+                    "He Y.-Y.",
+                    "Lee W.-H.",
+                    "Zhang Y."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15302536"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.toxicon.2004.06.003"
+                    }
+                ],
+                "title": "Cloning and purification of alpha-neurotoxins from king cobra (Ophiophagus hannah).",
+                "publicationDate": "2004",
+                "journal": "Toxicon",
+                "firstPage": "295",
+                "lastPage": "303",
+                "volume": "44"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom gland",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "24297900",
+                "citationType": "journal article",
+                "authors": [
+                    "Vonk F.J.",
+                    "Casewell N.R.",
+                    "Henkel C.V.",
+                    "Heimberg A.M.",
+                    "Jansen H.J.",
+                    "McCleary R.J.",
+                    "Kerkkamp H.M.",
+                    "Vos R.A.",
+                    "Guerreiro I.",
+                    "Calvete J.J.",
+                    "Wuster W.",
+                    "Woods A.E.",
+                    "Logan J.M.",
+                    "Harrison R.A.",
+                    "Castoe T.A.",
+                    "de Koning A.P.",
+                    "Pollock D.D.",
+                    "Yandell M.",
+                    "Calderon D.",
+                    "Renjifo C.",
+                    "Currier R.B.",
+                    "Salgado D.",
+                    "Pla D.",
+                    "Sanz L.",
+                    "Hyder A.S.",
+                    "Ribeiro J.M.",
+                    "Arntzen J.W.",
+                    "van den Thillart G.E.",
+                    "Boetzer M.",
+                    "Pirovano W.",
+                    "Dirks R.P.",
+                    "Spaink H.P.",
+                    "Duboule D.",
+                    "McGlinn E.",
+                    "Kini R.M.",
+                    "Richardson M.K."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "24297900"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1073/pnas.1314702110"
+                    }
+                ],
+                "title": "The king cobra genome reveals dynamic gene evolution and adaptation in the snake venom system.",
+                "publicationDate": "2013",
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "firstPage": "20651",
+                "lastPage": "20656",
+                "volume": "110"
+            },
+            "referencePositions": [
+                "IDENTIFICATION BY MASS SPECTROMETRY",
+                "SUBCELLULAR LOCATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "AY596937",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAT97259.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "Q53B49",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "Q53B49",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "TopDownProteomics",
+            "id": "Q53B49",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00206",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "snake_toxin"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003571",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_3FTx"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018354",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin_con_site"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR035076",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Toxin/TOLIP"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00087",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Toxin_TOLIP"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00272",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SNAKE_TOXIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKTLLLTLVVVTIVCLDLGHTLICVKQYTIFGVTPEICADGQNLCYKTWHMVYPGGYDHTRGCAATCPKMKNHDTVHCCTTDKCNL",
+        "length": 86,
+        "molWeight": 9564,
+        "crc64": "5B5F14392F3C959F",
+        "md5": "E6433AE5D9E95828C749805F6606FD27"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBUNIT": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "MISCELLANEOUS": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Disulfide bond": 4
+        },
+        "uniParcId": "UPI000050AF4B"
+    }
+}

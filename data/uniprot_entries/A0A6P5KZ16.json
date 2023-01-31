@@ -1,0 +1,477 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A6P5KZ16",
+    "uniProtkbId": "A0A6P5KZ16_PHACI",
+    "entryAudit": {
+        "firstPublicDate": "2020-12-02",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2020-12-02",
+        "entryVersion": 9,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+        "scientificName": "Phascolarctos cinereus",
+        "commonName": "Koala",
+        "taxonId": 38626,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Proteomes",
+                "id": "UP000515140"
+            },
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "RefSeq",
+                "id": "XP_020850662.1"
+            }
+        ],
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Metatheria",
+            "Diprotodontia",
+            "Phascolarctidae",
+            "Phascolarctos"
+        ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+        "submissionNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "RefSeq",
+                            "id": "XP_020850662.1"
+                        }
+                    ],
+                    "value": "ly-6/neurotoxin-like protein 1"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "RefSeq",
+                        "id": "XP_020850662.1"
+                    }
+                ],
+                "value": "LOC110214211"
+            }
+        }
+    ],
+    "comments": [
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "ARBA",
+                                "id": "ARBA00004589"
+                            }
+                        ],
+                        "value": "Membrane",
+                        "id": "SL-0162"
+                    },
+                    "topology": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "ARBA",
+                                "id": "ARBA00004589"
+                            }
+                        ],
+                        "value": "Lipid-anchor, GPI-anchor",
+                        "id": "SL-9902"
+                    }
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 117,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "featureId": "PRO_5027730714"
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 105,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "UPAR/Ly6",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000259",
+                    "source": "SMART",
+                    "id": "SM00134"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022475"
+                }
+            ],
+            "id": "KW-1003",
+            "category": "Cellular component",
+            "name": "Cell membrane"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022622"
+                }
+            ],
+            "id": "KW-0325",
+            "category": "PTM",
+            "name": "Glycoprotein"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022622"
+                }
+            ],
+            "id": "KW-0336",
+            "category": "PTM",
+            "name": "GPI-anchor"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022622"
+                }
+            ],
+            "id": "KW-0449",
+            "category": "PTM",
+            "name": "Lipoprotein"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00023136"
+                }
+            ],
+            "id": "KW-0472",
+            "category": "Cellular component",
+            "name": "Membrane"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000515140"
+                }
+            ],
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "CI-FT6AD0HQEK1C4",
+                "citationType": "submission",
+                "authoringGroup": [
+                    "RefSeq"
+                ],
+                "publicationDate": "APR-2022",
+                "submissionDatabase": "UniProtKB"
+            },
+            "referencePositions": [
+                "IDENTIFICATION"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "RefSeq",
+                            "id": "XP_020850662.1"
+                        }
+                    ],
+                    "value": "Spleen",
+                    "type": "TISSUE"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "RefSeq",
+                    "id": "XP_020850662.1"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "RefSeq",
+            "id": "XP_020850662.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "XM_020995003.1"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "A0A6P5KZ16",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "pcw:110214211",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OMA",
+            "id": "NAKVSCC",
+            "properties": [
+                {
+                    "key": "Fingerprint",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000515140",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Unplaced"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005886",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:plasma membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00117",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR016054",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LY6_UPA_recep-like"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR035076",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Toxin/TOLIP"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00087",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Toxin_TOLIP"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SMART",
+            "id": "SM00134",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKSFLVMFLVTIIMTKQLAQALDCHVCTANDNDCLNPVRCPGLVIYCKTIRAYSPAVVYKSCAASCTKDGVEEIQIKQNAKVSCCQTDLCNGAASRSSGLILTGLLSVFWGLFTLGL",
+        "length": 117,
+        "molWeight": 12617,
+        "crc64": "4CF1099662C4E019",
+        "md5": "6EED65603B0996903EB65493ABB3CC89"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "SUBCELLULAR LOCATION": 1
+        },
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Domain": 1
+        },
+        "uniParcId": "UPI000A284B33"
+    }
+}

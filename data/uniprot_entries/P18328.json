@@ -1,0 +1,1009 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P18328",
+    "secondaryAccessions": [
+        "Q9PRY3"
+    ],
+    "uniProtkbId": "3SIM2_DENAN",
+    "entryAudit": {
+        "firstPublicDate": "1990-11-01",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "1990-11-01",
+        "entryVersion": 112,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 3.0,
+    "organism": {
+        "scientificName": "Dendroaspis angusticeps",
+        "commonName": "Eastern green mamba",
+        "synonyms": [
+            "Naja angusticeps"
+        ],
+        "taxonId": 8618,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Dendroaspis"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "Muscarinic toxin 2"
+            },
+            "shortNames": [
+                {
+                    "value": "MT2"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "7778123"
+                        }
+                    ],
+                    "value": "MTx2"
+                }
+            ]
+        },
+        "flag": "Precursor"
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "7778123"
+                        }
+                    ],
+                    "value": "Binds irreversibly to M1 (CHRM1) muscarinic acetylcholine receptors, and reveals a slightly weaker effect on M3 (CHRM3) receptors. The mechanism of toxin-receptor interaction comprises at least two steps. The first step is fast with no competition between the toxin and the antagonist. The second step is slow with formation of a more stable toxin-receptor complex and inhibition of the antagonist binding"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250"
+                        }
+                    ],
+                    "value": "Monomer"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "1862525"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305",
+                            "source": "PubMed",
+                            "id": "7778123"
+                        }
+                    ],
+                    "value": "Has no effect on M2 (CHRM2) and M4 (CHRM4) receptors"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Is classified as a P-type cytotoxin, since a proline residue stands at position 54 (Pro-31 in standard classification)"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily. Aminergic toxin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1862525"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8154745"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 86,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Muscarinic toxin 2",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1862525"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8154745"
+                }
+            ],
+            "featureId": "PRO_0000035480"
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 45,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "7827075"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "Reference",
+                    "id": "Ref.7"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1FF4"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 38,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 63,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "7827075"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "Reference",
+                    "id": "Ref.7"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1FF4"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 67,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 78,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "7827075"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "Reference",
+                    "id": "Ref.7"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1FF4"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 79,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 84,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "7827075"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "Reference",
+                    "id": "Ref.7"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1FF4"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 23,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1FF4"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 31,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 37,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1FF4"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 44,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 55,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1FF4"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 57,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 66,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1FF4"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 76,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 79,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1FF4"
+                }
+            ]
+        },
+        {
+            "type": "Turn",
+            "location": {
+                "start": {
+                    "value": 82,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 85,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1FF4"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0002",
+            "category": "Technical term",
+            "name": "3D-structure"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-1214",
+            "category": "Molecular function",
+            "name": "G-protein coupled acetylcholine receptor impairing toxin"
+        },
+        {
+            "id": "KW-1213",
+            "category": "Molecular function",
+            "name": "G-protein coupled receptor impairing toxin"
+        },
+        {
+            "id": "KW-0528",
+            "category": "Molecular function",
+            "name": "Neurotoxin"
+        },
+        {
+            "id": "KW-0629",
+            "category": "Molecular function",
+            "name": "Postsynaptic neurotoxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "1862524",
+                "citationType": "journal article",
+                "authors": [
+                    "Ducancel F.",
+                    "Rowan E.G.",
+                    "Cassar E.",
+                    "Harvey A.L.",
+                    "Menez A.",
+                    "Boulain J.-C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "1862524"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0041-0101(91)90026-n"
+                    }
+                ],
+                "title": "Amino acid sequence of a muscarinic toxin deduced from the cDNA nucleotide sequence.",
+                "publicationDate": "1991",
+                "journal": "Toxicon",
+                "firstPage": "516",
+                "lastPage": "520",
+                "volume": "29"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom gland",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "1862525",
+                "citationType": "journal article",
+                "authors": [
+                    "Karlsson E.",
+                    "Risinger C.",
+                    "Jolkkonen M.",
+                    "Wernstedt C.",
+                    "Adem A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "1862525"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0041-0101(91)90027-o"
+                    }
+                ],
+                "title": "Amino acid sequence of a snake venom toxin that binds to the muscarinic acetylcholine receptor.",
+                "publicationDate": "1991",
+                "journal": "Toxicon",
+                "firstPage": "521",
+                "lastPage": "526",
+                "volume": "29"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE OF 22-86",
+                "SUBCELLULAR LOCATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "8154745",
+                "citationType": "journal article",
+                "authors": [
+                    "Karlsson E.",
+                    "Jolkkonen M.",
+                    "Satyapan N.",
+                    "Adem A.",
+                    "Kumlin E.",
+                    "Hellman U.",
+                    "Wernstedt C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8154745"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1111/j.1749-6632.1994.tb26623.x"
+                    }
+                ],
+                "title": "Protein toxins that bind to muscarinic acetylcholine receptors.",
+                "publicationDate": "1994",
+                "journal": "Ann. N. Y. Acad. Sci.",
+                "firstPage": "153",
+                "lastPage": "161",
+                "volume": "710"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE OF 22-86"
+            ]
+        },
+        {
+            "citation": {
+                "id": "7778123",
+                "citationType": "journal article",
+                "authors": [
+                    "Kornisiuk E.",
+                    "Jerusalinsky D.",
+                    "Cervenansky C.",
+                    "Harvey A.L."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "7778123"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0041-0101(94)00161-z"
+                    }
+                ],
+                "title": "Binding of muscarinic toxins MTx1 and MTx2 from the venom of the green mamba Dendroaspis angusticeps to cloned human muscarinic cholinoceptors.",
+                "publicationDate": "1995",
+                "journal": "Toxicon",
+                "firstPage": "11",
+                "lastPage": "18",
+                "volume": "33"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "7925953",
+                "citationType": "journal article",
+                "authors": [
+                    "Toomela T.",
+                    "Jolkkonen M.",
+                    "Rinken A.",
+                    "Jarv J.",
+                    "Karlsson E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "7925953"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0014-5793(94)00926-0"
+                    }
+                ],
+                "title": "Two-step binding of green mamba toxin to muscarinic acetylcholine receptor.",
+                "publicationDate": "1994",
+                "journal": "FEBS Lett.",
+                "firstPage": "95",
+                "lastPage": "97",
+                "volume": "352"
+            },
+            "referencePositions": [
+                "MECHANISM OF BINDING"
+            ]
+        },
+        {
+            "citation": {
+                "id": "7827075",
+                "citationType": "journal article",
+                "authors": [
+                    "Segalas I.",
+                    "Roumestand C.",
+                    "Zinn-Justin S.",
+                    "Gilquin B.",
+                    "Menez R.",
+                    "Menez A.",
+                    "Toma F."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "7827075"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/bi00004a019"
+                    }
+                ],
+                "title": "Solution structure of a green mamba toxin that activates muscarinic acetylcholine receptors, as studied by nuclear magnetic resonance and molecular modeling.",
+                "publicationDate": "1995",
+                "journal": "Biochemistry",
+                "firstPage": "1248",
+                "lastPage": "1260",
+                "volume": "34"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR",
+                "DISULFIDE BONDS",
+                "MODELING"
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-875IVCAA302G6",
+                "citationType": "submission",
+                "authors": [
+                    "Menez R.",
+                    "Le Du M.H.",
+                    "Gaucher J.F.",
+                    "Menez A."
+                ],
+                "title": "X-ray structure of muscarinic toxin 2.",
+                "publicationDate": "JUL-2000",
+                "submissionDatabase": "PDB data bank"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (1.5 ANGSTROMS) OF 1-65",
+                "DISULFIDE BONDS"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "X52292",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAA36541.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "PIR",
+            "id": "A37910",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "A37910"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1FF4",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "1.50 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-86"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1FF4",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "P18328",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P18328",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EvolutionaryTrace",
+            "id": "P18328",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00206",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "snake_toxin"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003571",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_3FTx"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018354",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin_con_site"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR035076",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Toxin/TOLIP"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00087",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Toxin_TOLIP"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00272",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SNAKE_TOXIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKTLLLTLVVVTIVCLDLGYTLTCVTTKSIGGVTTEDCPAGQNVCFKRWHYVTPKNYDIIKGCAATCPKVDNNDPIRCCGTDKCND",
+        "length": 86,
+        "molWeight": 9375,
+        "crc64": "6F062C970074D653",
+        "md5": "BE7B5354E667C57899457B3B2E178B87"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBUNIT": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "MISCELLANEOUS": 2,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Disulfide bond": 4,
+            "Beta strand": 5,
+            "Turn": 1
+        },
+        "uniParcId": "UPI000013782E"
+    }
+}

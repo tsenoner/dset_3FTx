@@ -1,0 +1,84 @@
+{
+    "GBSeq_locus": "JZ904898",
+    "GBSeq_length": "471",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "EST",
+    "GBSeq_update-date": "01-APR-2016",
+    "GBSeq_create-date": "01-APR-2016",
+    "GBSeq_definition": "XMERREMIAL03F08F Colubrid snake Xenodon merremi cDNA library Xenodon merremii cDNA 5', mRNA sequence",
+    "GBSeq_primary-accession": "JZ904898",
+    "GBSeq_accession-version": "JZ904898.1",
+    "GBSeq_other-seqids": [
+        "gnl|dbEST|79820168",
+        "gb|JZ904898.1|",
+        "gi|1013070808"
+    ],
+    "GBSeq_keywords": [
+        "EST"
+    ],
+    "GBSeq_source": "Xenodon merremii (Wagler's snake)",
+    "GBSeq_organism": "Xenodon merremii",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Dipsadidae; Xenodon",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..471",
+            "GBReference_authors": [
+                "Junqueira-de-Azevedo,I.L.M.",
+                "Campos,P.F.",
+                "Mackessy,S.P."
+            ],
+            "GBReference_title": "Colubrid venom composition from a omics perspective",
+            "GBReference_journal": "Unpublished"
+        }
+    ],
+    "GBSeq_comment": "Contact: Inacio de L. M. Junqueira-de-Azevedo~Centro de Biotecnologia~Instituto Butantan~Av. Vital Brazil, 1500, Sao Paulo SP, BRAZIL, 05503-900.~Tel: 55 11 37 26 7222 ext. 2244~Fax: 55 11 37 26 1505~Email: ijuncaze@butantan.gov.br~Seq primer: M13R.",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..471",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "471",
+                    "GBInterval_accession": "JZ904898.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Xenodon merremii"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:169861"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom glands"
+                },
+                {
+                    "GBQualifier_name": "clone_lib",
+                    "GBQualifier_value": "SAMN04457443 Colubrid snake Xenodon merremi cDNA library"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Organ: venom glands; Vector: pSPORT-1; Site_1: SalI; Site_2: NotI; 5ug of mRNA from X. merremi venom glands were primed with oligo-(dT) Not-I and reverse transcribed to cDNA using Superscript Plasmid System for cDNA Synthesis and Cloning (Invitrogen). The cDNAs were selected by size (350-600 pb and up 600 pb) in agarose gel electrophoresis, linked to Sal I adapters and directionally cloned in pSPORT-1 vector."
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "gattgaaagatgaaagctctgctattgtccttggcggtggtggcatttctgtactcaggatacactctgaactgccgaaaatgcgatccaacggtttgtgaactctattggacttgtccaaaaggggagactctttgctttatattgaagaataaaactgatacaatgggacttcaggctatccagggatgtgctgaaacctgccctattccagaaccagatcaagaagtgaagtgctgcaagacaaattattgcaatagcttcttctaaaactggcgaatcatttcgcttttctttcacctaacgtgaaccgtccttgatgatttatgcctctggcctttaccacaagggggtctgtagcccctcttctgcttcctcggacaccccaccatttctcccttttccctcgttccgcaacttcaatctgctacatctgtaataggatggttgaataaaattcagcattcaaaa",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN04457443"
+        }
+    ]
+}

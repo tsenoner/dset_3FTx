@@ -1,0 +1,171 @@
+{
+    "GBSeq_locus": "AB015513",
+    "GBSeq_length": "477",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "18-SEP-1998",
+    "GBSeq_create-date": "08-SEP-1998",
+    "GBSeq_definition": "Laticauda semifasciata mRNA for long chain alpha-neurotoxins (LsIII-isoform), complete cds",
+    "GBSeq_primary-accession": "AB015513",
+    "GBSeq_accession-version": "AB015513.1",
+    "GBSeq_other-seqids": [
+        "dbj|AB015513.1|",
+        "gi|3551477"
+    ],
+    "GBSeq_keywords": [
+        "long chain alpha-neurotoxins (LsIII-isoform)"
+    ],
+    "GBSeq_source": "Laticauda semifasciata (broad-banded blue sea krait)",
+    "GBSeq_organism": "Laticauda semifasciata",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Laticaudinae; Laticauda",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..477",
+            "GBReference_authors": [
+                "Tamiya,T.",
+                "Ohno,S.",
+                "Nishimura,E.",
+                "Fujimi,T.J.",
+                "Tsuchiya,T."
+            ],
+            "GBReference_title": "Complete nucleotide sequences of cDNAs encoding long chain alpha-neurotoxins from sea krait, Laticauda semifasciata",
+            "GBReference_journal": "Toxicon 37 (1), 181-185 (1999)",
+            "GBReference_pubmed": "9920490"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..477",
+            "GBReference_authors": [
+                "Tamiya,T."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (12-JUN-1998) Toru Tamiya, Sophia University, Department of Chemistry; 7-1, Kioi-cho, Chiyoda-ku, Tokyo 141-8554, Japan (E-mail:t_tamiya@hoffman.cc.sophia.ac.jp, Tel:81-3-3238-3363, Fax:81-3-3238-3361)"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..477",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "477",
+                    "GBInterval_accession": "AB015513.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Laticauda semifasciata"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8631"
+                },
+                {
+                    "GBQualifier_name": "clone",
+                    "GBQualifier_value": "pLSIII-5"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "15..278",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "15",
+                    "GBInterval_to": "278",
+                    "GBInterval_accession": "AB015513.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "long chain alpha-neurotoxins (LsIII-isoform)"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "BAA32992.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGYTRECYLNPHDTQTCPSGQEKCYVKSWCNAWCSSRGKVLEFGCAATCPSVNTGTEIKCCSADKCNTYP"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "15..77",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "15",
+                    "GBInterval_to": "77",
+                    "GBInterval_accession": "AB015513.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGYT"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "mat_peptide",
+            "GBFeature_location": "78..275",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "78",
+                    "GBInterval_to": "275",
+                    "GBInterval_accession": "AB015513.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "unnamed"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "RECYLNPHDTQTCPSGQEKCYVKSWCNAWCSSRGKVLEFGCAATCPSVNTGTEIKCCSADKCNTYP"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "polyA_site",
+            "GBFeature_location": "477",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "477",
+                    "GBInterval_accession": "AB015513.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "24 a nucleotides"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "gagaagatcgcaagatgaaaactctgctgctgaccttggtggtggtgacaatcgtgtgcctggacttaggatacaccagggaatgctacctgaatcctcatgacactcagacttgtccatctgggcaggaaaaatgctatgtaaagtcttggtgtaatgcttggtgtagcagcagaggaaaggtactcgaatttggatgtgcagctacttgcccttcagtgaacaccggaaccgaaattaaatgttgctcagcagacaagtgcaacacatatccgtaacagaaatgtcgttgagtgttgctctcatccatcatggaccttccttgaaaatttatgcttgtggcctttcccccagatagtccatcatccccctctcccctgctgtctttgacatatcaacatctttcccttttctcttgttctttaagtttccttctgctagttctgtagtttgagaatcgaataaaactcagcattc"
+}

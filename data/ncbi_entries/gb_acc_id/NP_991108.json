@@ -1,0 +1,394 @@
+{
+    "GBSeq_locus": "NP_991108",
+    "GBSeq_length": "125",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "PRI",
+    "GBSeq_update-date": "25-DEC-2022",
+    "GBSeq_create-date": "12-MAR-2004",
+    "GBSeq_definition": "ly6/PLAUR domain-containing protein 2 precursor [Homo sapiens]",
+    "GBSeq_primary-accession": "NP_991108",
+    "GBSeq_accession-version": "NP_991108.1",
+    "GBSeq_other-seqids": [
+        "ref|NP_991108.1|",
+        "gi|45387925"
+    ],
+    "GBSeq_secondary-accessions": [
+        "XP_070613"
+    ],
+    "GBSeq_keywords": [
+        "RefSeq",
+        "MANE Select"
+    ],
+    "GBSeq_source": "Homo sapiens (human)",
+    "GBSeq_organism": "Homo sapiens",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Homo",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..125",
+            "GBReference_authors": [
+                "Luck K",
+                "Kim DK",
+                "Lambourne L",
+                "Spirohn K",
+                "Begg BE",
+                "Bian W",
+                "Brignall R",
+                "Cafarelli T",
+                "Campos-Laborie FJ",
+                "Charloteaux B",
+                "Choi D",
+                "Cote AG",
+                "Daley M",
+                "Deimling S",
+                "Desbuleux A",
+                "Dricot A",
+                "Gebbia M",
+                "Hardy MF",
+                "Kishore N",
+                "Knapp JJ",
+                "Kovacs IA",
+                "Lemmens I",
+                "Mee MW",
+                "Mellor JC",
+                "Pollis C",
+                "Pons C",
+                "Richardson AD",
+                "Schlabach S",
+                "Teeking B",
+                "Yadav A",
+                "Babor M",
+                "Balcha D",
+                "Basha O",
+                "Bowman-Colin C",
+                "Chin SF",
+                "Choi SG",
+                "Colabella C",
+                "Coppin G",
+                "D'Amata C",
+                "De Ridder D",
+                "De Rouck S",
+                "Duran-Frigola M",
+                "Ennajdaoui H",
+                "Goebels F",
+                "Goehring L",
+                "Gopal A",
+                "Haddad G",
+                "Hatchi E",
+                "Helmy M",
+                "Jacob Y",
+                "Kassa Y",
+                "Landini S",
+                "Li R",
+                "van Lieshout N",
+                "MacWilliams A",
+                "Markey D",
+                "Paulson JN",
+                "Rangarajan S",
+                "Rasla J",
+                "Rayhan A",
+                "Rolland T",
+                "San-Miguel A",
+                "Shen Y",
+                "Sheykhkarimli D",
+                "Sheynkman GM",
+                "Simonovsky E",
+                "Tasan M",
+                "Tejeda A",
+                "Tropepe V",
+                "Twizere JC",
+                "Wang Y",
+                "Weatheritt RJ",
+                "Weile J",
+                "Xia Y",
+                "Yang X",
+                "Yeger-Lotem E",
+                "Zhong Q",
+                "Aloy P",
+                "Bader GD",
+                "De Las Rivas J",
+                "Gaudet S",
+                "Hao T",
+                "Rak J",
+                "Tavernier J",
+                "Hill DE",
+                "Vidal M",
+                "Roth FP",
+                "Calderwood MA"
+            ],
+            "GBReference_title": "A reference map of the human binary protein interactome",
+            "GBReference_journal": "Nature 580 (7803), 402-408 (2020)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1038/s41586-020-2188-x"
+                }
+            ],
+            "GBReference_pubmed": "32296183"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..125",
+            "GBReference_authors": [
+                "Oshikawa M",
+                "Tsutsui C",
+                "Ikegami T",
+                "Fuchida Y",
+                "Matsubara M",
+                "Toyama S",
+                "Usami R",
+                "Ohtoko K",
+                "Kato S"
+            ],
+            "GBReference_title": "Full-length transcriptome analysis of human retina-derived cell lines ARPE-19 and Y79 using the vector-capping method",
+            "GBReference_journal": "Invest Ophthalmol Vis Sci 52 (9), 6662-6670 (2011)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1167/iovs.11-7479"
+                }
+            ],
+            "GBReference_pubmed": "21697133",
+            "GBReference_remark": "Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "3",
+            "GBReference_position": "1..125",
+            "GBReference_authors": [
+                "Clark HF",
+                "Gurney AL",
+                "Abaya E",
+                "Baker K",
+                "Baldwin D",
+                "Brush J",
+                "Chen J",
+                "Chow B",
+                "Chui C",
+                "Crowley C",
+                "Currell B",
+                "Deuel B",
+                "Dowd P",
+                "Eaton D",
+                "Foster J",
+                "Grimaldi C",
+                "Gu Q",
+                "Hass PE",
+                "Heldens S",
+                "Huang A",
+                "Kim HS",
+                "Klimowski L",
+                "Jin Y",
+                "Johnson S",
+                "Lee J",
+                "Lewis L",
+                "Liao D",
+                "Mark M",
+                "Robbie E",
+                "Sanchez C",
+                "Schoenfeld J",
+                "Seshagiri S",
+                "Simmons L",
+                "Singh J",
+                "Smith V",
+                "Stinson J",
+                "Vagts A",
+                "Vandlen R",
+                "Watanabe C",
+                "Wieand D",
+                "Woods K",
+                "Xie MH",
+                "Yansura D",
+                "Yi S",
+                "Yu G",
+                "Yuan J",
+                "Zhang M",
+                "Zhang Z",
+                "Goddard A",
+                "Wood WI",
+                "Godowski P",
+                "Gray A"
+            ],
+            "GBReference_title": "The secreted protein discovery initiative (SPDI), a large-scale effort to identify novel human secreted and transmembrane proteins: a bioinformatics assessment",
+            "GBReference_journal": "Genome Res 13 (10), 2265-2270 (2003)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1101/gr.1293003"
+                }
+            ],
+            "GBReference_pubmed": "12975309",
+            "GBReference_remark": "Erratum:[Genome Res. 2003 Dec;13(12):2759]"
+        }
+    ],
+    "GBSeq_comment": "VALIDATED REFSEQ: This record has undergone validation or preliminary review. The reference sequence was derived from AY358432.1 and DA449804.1.; On Mar 22, 2004 this sequence version replaced XP_070613.1.; ##Evidence-Data-START## ; Transcript exon combination :: DA449804.1, DA458243.1 [ECO:0000332] ; RNAseq introns :: single sample supports all introns SAMEA2158800, SAMN03267771 [ECO:0000348] ; ##Evidence-Data-END##; ##RefSeq-Attributes-START## ; MANE Ensembl match :: ENST00000359228.4/ ENSP00000352163.3 ; RefSeq Select criteria :: based on single protein-coding transcript ; ##RefSeq-Attributes-END##",
+    "GBSeq_source-db": "REFSEQ: accession NM_205545.3",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..125",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "125",
+                    "GBInterval_accession": "NP_991108.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Homo sapiens"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:9606"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "8"
+                },
+                {
+                    "GBQualifier_name": "map",
+                    "GBQualifier_value": "8q24.3"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..125",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "125",
+                    "GBInterval_accession": "NP_991108.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "ly6/PLAUR domain-containing protein 2 precursor"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "RGTR430; ly6/PLAUR domain-containing protein 2"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "10923"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "1..22",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "22",
+                    "GBInterval_accession": "NP_991108.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "inference",
+                    "GBQualifier_value": "COORDINATES: ab initio prediction:SignalP:4.0"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "2211"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MRGTRLALLALVLAACGELAPA"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "23..102",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "23",
+                    "GBInterval_to": "102",
+                    "GBInterval_accession": "NP_991108.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "LU"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Ly-6 antigen / uPA receptor -like domain; occurs singly in GPI-linked cell-surface glycoproteins (Ly-6 family,CD59, thymocyte B cell antigen, Sgp-2) or as three-fold repeated domain in urokinase-type plasminogen activator receptor. Topology of these...; cd00117"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:238065"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "46",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "46",
+                    "GBInterval_accession": "NP_991108.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "glycosylation"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "N-linked (GlcNAc...) asparagine. /evidence=ECO:0000255; propagated from UniProtKB/Swiss-Prot (Q6UXB3.1)"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..125",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "125",
+                    "GBInterval_accession": "NP_991108.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LYPD2"
+                },
+                {
+                    "GBQualifier_name": "gene_synonym",
+                    "GBQualifier_value": "LYPDC2; UNQ430"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "NM_205545.3:82..459"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CCDS:CCDS6388.1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:137797"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "HGNC:HGNC:25215"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mrgtrlallalvlaacgelapalrcyvcpeptgvsdcvtiatcttnetmckttlysreivypfqgdstvtkscaskckpsdvdgigqtlpvsccntelcnvdgapalnslhcgaltllpllslrl"
+}

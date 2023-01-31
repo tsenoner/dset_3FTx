@@ -1,0 +1,156 @@
+{
+    "GBSeq_locus": "GDKU01029485",
+    "GBSeq_length": "312",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "RNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "01-SEP-2015",
+    "GBSeq_create-date": "01-SEP-2015",
+    "GBSeq_definition": "TSA: Thamnophis sirtalis c219768_g1_i3_m.59335 transcribed RNA sequence",
+    "GBSeq_primary-accession": "GDKU01029485",
+    "GBSeq_accession-version": "GDKU01029485.1",
+    "GBSeq_other-seqids": [
+        "gb|GDKU01029485.1|",
+        "gnl|TSA:GDKU01|c219768_g1_i3_m.59335"
+    ],
+    "GBSeq_project": "PRJNA290790",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly"
+    ],
+    "GBSeq_source": "Thamnophis sirtalis",
+    "GBSeq_organism": "Thamnophis sirtalis",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Colubridae; Natricinae; Thamnophis",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..312",
+            "GBReference_authors": [
+                "Warren,W.C."
+            ],
+            "GBReference_title": "The garter snake, Thamnophis sirtalis, genome assembly",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..312",
+            "GBReference_authors": [
+                "Warren,W.C."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (20-AUG-2015) Department of Medicine, McDonnell Genome Institute, 4444 Forest Park Ave, St. Louis, MO 63108, USA"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: Trinity August-2015 ; Assembly Name :: Thamnophis sirtalis transcriptome assembly ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..312",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "312",
+                    "GBInterval_accession": "GDKU01029485.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Thamnophis sirtalis"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "transcribed RNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "c219768_g1_i3_m.59335"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "EDBJR-23777"
+                },
+                {
+                    "GBQualifier_name": "specimen_voucher",
+                    "GBQualifier_value": "UTA R 62823"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:35019"
+                },
+                {
+                    "GBQualifier_name": "sex",
+                    "GBQualifier_value": "female"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "ovary, brain, digestive tract, liver, lung, kidney, salivary gland"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "adult"
+                },
+                {
+                    "GBQualifier_name": "ecotype",
+                    "GBQualifier_value": "concinnus"
+                },
+                {
+                    "GBQualifier_name": "country",
+                    "GBQualifier_value": "USA: Oregon, Benton Co., Coffin Butte Rd. Elevation 229 ft."
+                },
+                {
+                    "GBQualifier_name": "collection_date",
+                    "GBQualifier_value": "Jun-2010"
+                },
+                {
+                    "GBQualifier_name": "collected_by",
+                    "GBQualifier_value": "Brian Gall"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "ggtcaccaccaccaaggtcagcagcagagttttcatcttgagatcttctcttcagcttgcaatgtggtggtgacagtcgtgtgcctggactttggaaactccctgacgtgttgcacggacgcggcttgtgtgggtactgtgacctgtacaggaaccgacactcaatgctatctatcgtatgaagaagggctattcggtagccaaaaatgtcccattcggggatgtattactaattgtactacggagcaggcgagagttattcgatgttgctcgactgacaggtgcaaccgacttactataacgattgcctaa",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA290790"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN03897508"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR805129"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR805147"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR805148"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR805149"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR805150"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR805151"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR805153"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR869504"
+        }
+    ]
+}

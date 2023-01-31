@@ -1,0 +1,2176 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P0C1Z0",
+    "secondaryAccessions": [
+        "P01403"
+    ],
+    "uniProtkbId": "3SE2_DENAN",
+    "entryAudit": {
+        "firstPublicDate": "2006-10-17",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2006-10-17",
+        "entryVersion": 66,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Dendroaspis angusticeps",
+        "commonName": "Eastern green mamba",
+        "synonyms": [
+            "Naja angusticeps"
+        ],
+        "taxonId": 8618,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Dendroaspis"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "15299729"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "6530667"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "9013597"
+                    }
+                ],
+                "value": "Fasciculin-2"
+            },
+            "shortNames": [
+                {
+                    "value": "Fas-2"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "9013597"
+                        }
+                    ],
+                    "value": "Fas2"
+                }
+            ]
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "4123919"
+                        }
+                    ],
+                    "value": "Acetylcholinesterase toxin F-VII"
+                }
+            },
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "11053835"
+                        }
+                    ],
+                    "value": "Fasciculin-II"
+                },
+                "shortNames": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000303",
+                                "source": "PubMed",
+                                "id": "11053835"
+                            }
+                        ],
+                        "value": "FAS-II"
+                    }
+                ]
+            },
+            {
+                "fullName": {
+                    "value": "Toxin TA1"
+                }
+            }
+        ]
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "6530667"
+                        }
+                    ],
+                    "value": "Interferes with neuromuscular transmission by inhibiting the enzyme acetylcholinesterase (AChE) present at the neuromuscular junction. It selectively binds and inhibits with a 1:1 stoichiometry the mammalian and electric fish AChE at picomolar concentrations. It is highly specific for the peripheral site of AChE and blocks the entry of acetylcholine into the active site of the enzyme (through the Met-33 residue), thereby preventing its breakdown. It has been called fasciculin since after injection into mice it causes severe, generalized and long-lasting (5-7 hours) fasciculations"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "4123919"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "value": "LD(50) is >20 mg/kg by intravenous injection"
+                }
+            ],
+            "commentType": "TOXIC DOSE"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily. Acn-esterase inhibitor sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 61,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Fasciculin-2",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "4123919"
+                }
+            ],
+            "featureId": "PRO_0000253031"
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Blocks the entrance of the active site gorge of hAChE",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000303",
+                    "source": "PubMed",
+                    "id": "23679855"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 3,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "11053835"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "12505979"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "15299729"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "20408548"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23035744"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23679855"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8521480"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8747462"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1B41"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1F8U"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1FSC"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1FSS"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1KU6"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1MAH"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2X8B"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "4BDT"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "4EY8"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 17,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 39,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "11053835"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "12505979"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "15299729"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "20408548"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23035744"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23679855"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8521480"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8747462"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1B41"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1F8U"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1FSC"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1FSS"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1KU6"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1MAH"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2X8B"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "4BDT"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "4EY8"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 41,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 52,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "11053835"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "12505979"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "15299729"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "20408548"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23035744"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23679855"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8521480"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8747462"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1B41"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1F8U"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1FSC"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1FSS"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1KU6"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1MAH"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2X8B"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "4BDT"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "4EY8"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 59,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "11053835"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "12505979"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "15299729"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "20408548"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23035744"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23679855"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8521480"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8747462"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1B41"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1F8U"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1FSC"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1FSS"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1KU6"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1MAH"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2X8B"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "4BDT"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "4EY8"
+                }
+            ]
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 8,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 9,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "18-fold increase in inhibition potency.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9013597"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "TT",
+                "alternativeSequences": [
+                    "AA"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 8,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 8,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "2.5-fold increase in affinity for TcAChE. 2.1-fold decrease in affinity for TcAChE; when associated with N-9. 1.9-fold increase in affinity for TcAChE; when associated with N-9, K-11 and R-29 [FasDesK32]. 3.9-fold decrease in affinity for TcAChE; when associated with N-9, K-11, R-29 and R-32 [FasDes].",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "19643977"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "T",
+                "alternativeSequences": [
+                    "V"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 9,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 9,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "9.0-fold decrease in affinity for TcAChE. 2.1-fold decrease in affinity for TcAChE; when associated with V-8. 1.9-fold increase in affinity for TcAChE; when associated with V-8, K-11 and R-29 [FasDesK32]. 3.9-fold decrease in affinity for TcAChE; when associated with V-8, K-11, R-29 and R-32 [FasDes].",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "19643977"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "T",
+                "alternativeSequences": [
+                    "N"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 11,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 11,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "1.7-fold decrease in affinity for TcAChE. 1.9-fold increase in affinity for TcAChE; when associated with V-8, N-9 and R-29 [FasDesK32]. 3.9-fold decrease in affinity for TcAChE; when associated with V-8, N-9, R-29 and R-32 [FasDes].",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "19643977"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "K"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 11,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 11,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "6-fold increase in inhibition potency.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9013597"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "Q"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "13-fold decrease in inhibition potency.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9013597"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "T"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 25,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 25,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "No significant difference in inhibition potency.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9013597"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "K",
+                "alternativeSequences": [
+                    "L"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "49-fold decrease in inhibition potency.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9013597"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "W"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 28,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 28,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "No significant difference in inhibition potency.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9013597"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "D"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 29,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 29,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "73-fold increase in inhibition potency.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9013597"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "H",
+                "alternativeSequences": [
+                    "D"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 29,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 29,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "6.0-fold increase in affinity for TcAChE. 1.9-fold increase in affinity for TcAChE; when associated with V-8, N-9 and K-11 [FasDesK32]. 3.9-fold decrease in affinity for TcAChE; when associated with V-8, N-9, K-11 and R-32 [FasDes].",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "19643977"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "H",
+                "alternativeSequences": [
+                    "R"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 30,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 30,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "192-fold decrease in inhibition potency.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9013597"
+                }
+            ],
+            "alternativeSequence": {}
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 31,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 31,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "625-fold decrease in inhibition potency.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9013597"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "P",
+                "alternativeSequences": [
+                    "R"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 32,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 32,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "3-fold decrease in inhibition potency.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9013597"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "K",
+                "alternativeSequences": [
+                    "G"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 32,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 32,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "7.4-fold decrease in affinity for TcAChE. 3.9-fold decrease in affinity for TcAChE; when associated with V-8, N-9, K-11 and R-29 [FasDes].",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "19643977"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "K",
+                "alternativeSequences": [
+                    "R"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "8-fold decrease in inhibition potency.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9013597"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "M",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 34,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 35,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "No significant difference in inhibition potency.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9013597"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "VL",
+                "alternativeSequences": [
+                    "AA"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 45,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 45,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "No significant difference in inhibition potency.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9013597"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "D",
+                "alternativeSequences": [
+                    "K"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 51,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 51,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "No significant difference in inhibition potency.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9013597"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "K",
+                "alternativeSequences": [
+                    "S"
+                ]
+            }
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 2,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 6,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1FSC"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 8,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 10,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1FSC"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 13,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 16,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1FSC"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 31,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1FSC"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 34,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 40,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1FSC"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 46,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1FSC"
+                }
+            ]
+        },
+        {
+            "type": "Turn",
+            "location": {
+                "start": {
+                    "value": 57,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 60,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1FSC"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0002",
+            "category": "Technical term",
+            "name": "3D-structure"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "4123919",
+                "citationType": "journal article",
+                "authors": [
+                    "Viljoen C.C.",
+                    "Botes D.P."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "4123919"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0021-9258(19)43651-x"
+                    }
+                ],
+                "title": "Snake venom toxins. The purification and amino acid sequence of toxin F-VII from Dendroaspis angusticeps venom.",
+                "publicationDate": "1973",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "4915",
+                "lastPage": "4919",
+                "volume": "248"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE",
+                "SUBCELLULAR LOCATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "6530667",
+                "citationType": "journal article",
+                "authors": [
+                    "Karlsson E.",
+                    "Mbugua P.M.",
+                    "Rodriguez-Ithurralde D."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "6530667"
+                    }
+                ],
+                "title": "Fasciculins, anticholinesterase toxins from the venom of the green mamba Dendroaspis angusticeps.",
+                "publicationDate": "1984",
+                "journal": "J. Physiol. (Paris)",
+                "firstPage": "232",
+                "lastPage": "240",
+                "volume": "79"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "9013597",
+                "citationType": "journal article",
+                "authors": [
+                    "Marchot P.",
+                    "Prowse C.N.",
+                    "Kanter J.",
+                    "Camp S.",
+                    "Ackermann E.J.",
+                    "Radic Z.",
+                    "Bougis P.E.",
+                    "Taylor P."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9013597"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.272.6.3502"
+                    }
+                ],
+                "title": "Expression and activity of mutants of fasciculin, a peptidic acetylcholinesterase inhibitor from mamba venom.",
+                "publicationDate": "1997",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "3502",
+                "lastPage": "3510",
+                "volume": "272"
+            },
+            "referencePositions": [
+                "SYNTHESIS",
+                "MUTAGENESIS OF 8-THR-THR-9; ARG-11; ARG-24; LYS-25; ARG-27; ARG-28; HIS-29; PRO-30; PRO-31; LYS-32; MET-33; 34-VAL-LEU-35; ASP-45 AND LYS-51"
+            ]
+        },
+        {
+            "citation": {
+                "id": "19643977",
+                "citationType": "journal article",
+                "authors": [
+                    "Sharabi O.",
+                    "Peleg Y.",
+                    "Mashiach E.",
+                    "Vardy E.",
+                    "Ashani Y.",
+                    "Silman I.",
+                    "Sussman J.L.",
+                    "Shifman J.M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "19643977"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1093/protein/gzp045"
+                    }
+                ],
+                "title": "Design, expression and characterization of mutants of fasciculin optimized for interaction with its target, acetylcholinesterase.",
+                "publicationDate": "2009",
+                "journal": "Protein Eng. Des. Sel.",
+                "firstPage": "641",
+                "lastPage": "648",
+                "volume": "22"
+            },
+            "referencePositions": [
+                "MUTAGENESIS OF THR-8; THR-9; ARG-11; HIS-29 AND LYS-32"
+            ]
+        },
+        {
+            "citation": {
+                "id": "2592383",
+                "citationType": "journal article",
+                "authors": [
+                    "le Du M.H.",
+                    "Marchot P.",
+                    "Bougis P.E.",
+                    "Fontecilla-Camps J.-C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "2592383"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0021-9258(19)30094-8"
+                    }
+                ],
+                "title": "Crystals of fasciculin 2 from green mamba snake venom. Preparation and preliminary X-ray analysis.",
+                "publicationDate": "1989",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "21401",
+                "lastPage": "21402",
+                "volume": "264"
+            },
+            "referencePositions": [
+                "PRELIMINARY CRYSTALLIZATION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "15299729",
+                "citationType": "journal article",
+                "authors": [
+                    "le Du M.-H.",
+                    "Housset D.",
+                    "Marchot P.",
+                    "Bougis P.E.",
+                    "Navaza J.",
+                    "Fontecilla-Camps J.-C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15299729"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1107/s0907444995007517"
+                    }
+                ],
+                "title": "Structure of fasciculin 2 from green mamba snake venom: evidence for unusual loop flexibility.",
+                "publicationDate": "1996",
+                "journal": "Acta Crystallogr. D",
+                "firstPage": "87",
+                "lastPage": "92",
+                "volume": "52"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS)",
+                "DISULFIDE BONDS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "8747462",
+                "citationType": "journal article",
+                "authors": [
+                    "Harel M.",
+                    "Kleywegt G.J.",
+                    "Ravelli R.B.",
+                    "Silman I.",
+                    "Sussman J.L."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8747462"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0969-2126(01)00273-8"
+                    }
+                ],
+                "title": "Crystal structure of an acetylcholinesterase-fasciculin complex: interaction of a three-fingered toxin from snake venom with its target.",
+                "publicationDate": "1995",
+                "journal": "Structure",
+                "firstPage": "1355",
+                "lastPage": "1366",
+                "volume": "3"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (3.0 ANGSTROMS) IN COMPLEX WITH ACHE",
+                "DISULFIDE BONDS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "8521480",
+                "citationType": "journal article",
+                "authors": [
+                    "Bourne Y.",
+                    "Taylor P.",
+                    "Marchot P."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8521480"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0092-8674(95)90128-0"
+                    }
+                ],
+                "title": "Acetylcholinesterase inhibition by fasciculin: crystal structure of the complex.",
+                "publicationDate": "1995",
+                "journal": "Cell",
+                "firstPage": "503",
+                "lastPage": "512",
+                "volume": "83"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (3.2 ANGSTROMS) IN COMPLEX WITH ACHE",
+                "DISULFIDE BONDS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "11053835",
+                "citationType": "journal article",
+                "authors": [
+                    "Kryger G.",
+                    "Harel M.",
+                    "Giles K.",
+                    "Toker L.",
+                    "Velan B.",
+                    "Lazar A.",
+                    "Kronman C.",
+                    "Barak D.",
+                    "Ariel N.",
+                    "Shafferman A.",
+                    "Silman I.",
+                    "Sussman J.L."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11053835"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1107/s0907444900010659"
+                    }
+                ],
+                "title": "Structures of recombinant native and E202Q mutant human acetylcholinesterase complexed with the snake-venom toxin fasciculin-II.",
+                "publicationDate": "2000",
+                "journal": "Acta Crystallogr. D",
+                "firstPage": "1385",
+                "lastPage": "1394",
+                "volume": "56"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (2.76 ANGSTROMS) IN COMPLEX WITH ACHE",
+                "DISULFIDE BOND"
+            ]
+        },
+        {
+            "citation": {
+                "id": "12505979",
+                "citationType": "journal article",
+                "authors": [
+                    "Bourne Y.",
+                    "Taylor P.",
+                    "Radic Z.",
+                    "Marchot P."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "12505979"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1093/emboj/cdg005"
+                    }
+                ],
+                "title": "Structural insights into ligand interactions at the acetylcholinesterase peripheral anionic site.",
+                "publicationDate": "2003",
+                "journal": "EMBO J.",
+                "firstPage": "1",
+                "lastPage": "12",
+                "volume": "22"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS)",
+                "DISULFIDE BOND"
+            ]
+        },
+        {
+            "citation": {
+                "id": "20408548",
+                "citationType": "journal article",
+                "authors": [
+                    "Carletti E.",
+                    "Colletier J.P.",
+                    "Dupeux F.",
+                    "Trovaslet M.",
+                    "Masson P.",
+                    "Nachon F."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "20408548"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/jm901853b"
+                    }
+                ],
+                "title": "Structural evidence that human acetylcholinesterase inhibited by tabun ages through O-dealkylation.",
+                "publicationDate": "2010",
+                "journal": "J. Med. Chem.",
+                "firstPage": "4002",
+                "lastPage": "4008",
+                "volume": "53"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (2.95 ANGSTROMS) IN COMPLEX WITH ACHE",
+                "DISULFIDE BOND"
+            ]
+        },
+        {
+            "citation": {
+                "id": "23035744",
+                "citationType": "journal article",
+                "authors": [
+                    "Cheung J.",
+                    "Rudolph M.J.",
+                    "Burshteyn F.",
+                    "Cassidy M.S.",
+                    "Gary E.N.",
+                    "Love J.",
+                    "Franklin M.C.",
+                    "Height J.J."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "23035744"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/jm300871x"
+                    }
+                ],
+                "title": "Structures of human acetylcholinesterase in complex with pharmacologically important ligands.",
+                "publicationDate": "2012",
+                "journal": "J. Med. Chem.",
+                "firstPage": "10282",
+                "lastPage": "10286",
+                "volume": "55"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (2.60 ANGSTROMS) IN COMPLEX WITH ACHE",
+                "DISULFIDE BOND"
+            ]
+        },
+        {
+            "citation": {
+                "id": "23679855",
+                "citationType": "journal article",
+                "authors": [
+                    "Nachon F.",
+                    "Carletti E.",
+                    "Ronco C.",
+                    "Trovaslet M.",
+                    "Nicolet Y.",
+                    "Jean L.",
+                    "Renard P.Y."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "23679855"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1042/bj20130013"
+                    }
+                ],
+                "title": "Crystal structures of human cholinesterases in complex with huprine W and tacrine: elements of specificity for anti-Alzheimer's drugs targeting acetyl- and butyryl-cholinesterase.",
+                "publicationDate": "2013",
+                "journal": "Biochem. J.",
+                "firstPage": "393",
+                "lastPage": "399",
+                "volume": "453"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (3.10 ANGSTROMS) IN COMPLEX WITH ACHE",
+                "DISULFIDE BOND"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "PIR",
+            "id": "A01674",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "T4EP1A"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1B41",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "2.76 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "B=1-61"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1F8U",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "2.90 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "B=1-61"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1FSC",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "2.00 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=1-61"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1FSS",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "3.00 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "B=1-61"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1KU6",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "2.50 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "B=1-61"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1MAH",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "3.20 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "F=1-61"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "2X8B",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "2.95 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "B=1-61"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "4BDT",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "3.10 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "B=1-61"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "4EY8",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "2.60 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "B=1-61"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1B41",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1F8U",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1FSC",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1FSS",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1KU6",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1MAH",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "2X8B",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "4BDT",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "4EY8",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "P0C1Z0",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P0C1Z0",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EvolutionaryTrace",
+            "id": "P0C1Z0",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018354",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin_con_site"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00272",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SNAKE_TOXIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "TMCYSHTTTSRAILTNCGENSCYRKSRRHPPKMVLGRGCGCPPGDDNLEVKCCTSPDKCNY",
+        "length": 61,
+        "molWeight": 6758,
+        "crc64": "50A38EF3633C383F",
+        "md5": "BE74BE0E66CA7B4603630A5A17FEF2A4"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "TOXIC DOSE": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Site": 1,
+            "Disulfide bond": 4,
+            "Mutagenesis": 19,
+            "Beta strand": 6,
+            "Turn": 1
+        },
+        "uniParcId": "UPI0000110777"
+    }
+}

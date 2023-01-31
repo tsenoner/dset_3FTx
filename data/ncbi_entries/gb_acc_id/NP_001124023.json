@@ -1,0 +1,255 @@
+{
+    "GBSeq_locus": "NP_001124023",
+    "GBSeq_length": "97",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "ROD",
+    "GBSeq_update-date": "20-SEP-2022",
+    "GBSeq_create-date": "27-JUL-2008",
+    "GBSeq_definition": "secreted Ly-6/uPAR domain-containing protein 2 precursor [Rattus norvegicus]",
+    "GBSeq_primary-accession": "NP_001124023",
+    "GBSeq_accession-version": "NP_001124023.1",
+    "GBSeq_other-seqids": [
+        "ref|NP_001124023.1|",
+        "gi|194474066"
+    ],
+    "GBSeq_secondary-accessions": [
+        "XP_001073673",
+        "XP_235419"
+    ],
+    "GBSeq_keywords": [
+        "RefSeq"
+    ],
+    "GBSeq_source": "Rattus norvegicus (Norway rat)",
+    "GBSeq_organism": "Rattus norvegicus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae; Murinae; Rattus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..97",
+            "GBReference_authors": [
+                "Lyukmanova EN",
+                "Shulepko MA",
+                "Shenkarev ZO",
+                "Bychkov ML",
+                "Paramonov AS",
+                "Chugunov AO",
+                "Kulbatskii DS",
+                "Arvaniti M",
+                "Dolejsi E",
+                "Schaer T",
+                "Arseniev AS",
+                "Efremov RG",
+                "Thomsen MS",
+                "Dolezal V",
+                "Bertrand D",
+                "Dolgikh DA",
+                "Kirpichnikov MP"
+            ],
+            "GBReference_title": "Secreted Isoform of Human Lynx1 (SLURP-2): Spatial Structure and Pharmacology of Interactions with Different Types of Acetylcholine Receptors",
+            "GBReference_journal": "Sci Rep 6, 30698 (2016)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1038/srep30698"
+                }
+            ],
+            "GBReference_pubmed": "27485575",
+            "GBReference_remark": "Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..97",
+            "GBReference_authors": [
+                "Allan CM",
+                "Procaccia S",
+                "Tran D",
+                "Tu Y",
+                "Barnes RH 2nd",
+                "Larsson M",
+                "Allan BB",
+                "Young LC",
+                "Hong C",
+                "Tontonoz P",
+                "Fong LG",
+                "Young SG",
+                "Beigneux AP"
+            ],
+            "GBReference_title": "Palmoplantar Keratoderma in Slurp2-Deficient Mice",
+            "GBReference_journal": "J Invest Dermatol 136 (2), 436-443 (2016)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/j.jid.2015.11.003"
+                }
+            ],
+            "GBReference_pubmed": "26967477"
+        },
+        {
+            "GBReference_reference": "3",
+            "GBReference_position": "1..97",
+            "GBReference_authors": [
+                "Arredondo J",
+                "Chernyavsky AI",
+                "Jolkovsky DL",
+                "Webber RJ",
+                "Grando SA"
+            ],
+            "GBReference_title": "SLURP-2: A novel cholinergic signaling peptide in human mucocutaneous epithelium",
+            "GBReference_journal": "J Cell Physiol 208 (1), 238-245 (2006)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1002/jcp.20661"
+                }
+            ],
+            "GBReference_pubmed": "16575903"
+        }
+    ],
+    "GBSeq_comment": "PROVISIONAL REFSEQ: This record has not yet been subject to final NCBI review. The reference sequence was derived from CH473950.2.; On or before Jul 28, 2008 this sequence version replaced XP_001073673.1, XP_235419.1.; ##Evidence-Data-START## ; Transcript exon combination :: CB727142.1 [ECO:0000332] ; RNAseq introns :: single sample supports all introns SAMEA5760400, SAMN16676808 [ECO:0000348] ; ##Evidence-Data-END##",
+    "GBSeq_source-db": "REFSEQ: accession NM_001130551.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..97",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "97",
+                    "GBInterval_accession": "NP_001124023.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Rattus norvegicus"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:10116"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "7"
+                },
+                {
+                    "GBQualifier_name": "map",
+                    "GBQualifier_value": "7q34"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..97",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "97",
+                    "GBInterval_accession": "NP_001124023.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "secreted Ly-6/uPAR domain-containing protein 2 precursor"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "secreted Ly-6/uPAR domain-containing protein 2"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "8117"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "1..22",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "22",
+                    "GBInterval_accession": "NP_001124023.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "inference",
+                    "GBQualifier_value": "COORDINATES: ab initio prediction:SignalP:4.0"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "2538"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MRLLFWFLLAVVLSMELAVTQG"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "25..95",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "25",
+                    "GBInterval_to": "95",
+                    "GBInterval_accession": "NP_001124023.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "UPAR_LY6"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "u-PAR/Ly-6 domain; pfam00021"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:394978"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..97",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "97",
+                    "GBInterval_accession": "NP_001124023.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "Slurp2"
+                },
+                {
+                    "GBQualifier_name": "gene_synonym",
+                    "GBQualifier_value": "RGD1308195"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "NM_001130551.1:23..316"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:315074"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "RGD:1308195"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mrllfwfllavvlsmelavtqgmfchlckgfggcshpfrcpgntthcviiatrspisftdlplvtkmcyntcpdvpslglgphvsivccqsnlcnrd"
+}

@@ -1,0 +1,216 @@
+{
+    "GBSeq_locus": "GGIP01000025",
+    "GBSeq_length": "258",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "RNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "20-JUL-2018",
+    "GBSeq_create-date": "20-JUL-2018",
+    "GBSeq_definition": "TSA: Crotalus scutulatus Cscut_3FTx-2 transcribed RNA sequence",
+    "GBSeq_primary-accession": "GGIP01000025",
+    "GBSeq_accession-version": "GGIP01000025.1",
+    "GBSeq_other-seqids": [
+        "gb|GGIP01000025.1|",
+        "gnl|TSA:GGIP01|Cscut_3FTx-2"
+    ],
+    "GBSeq_project": "PRJNA88989",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly"
+    ],
+    "GBSeq_source": "Crotalus scutulatus (Mojave rattlesnake)",
+    "GBSeq_organism": "Crotalus scutulatus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Viperidae; Crotalinae; Crotalus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..258",
+            "GBReference_authors": [
+                "Strickland,J.L.",
+                "Mason,A.J.",
+                "Rokyta,D.R.",
+                "Parkinson,C.L."
+            ],
+            "GBReference_title": "Phenotypic Variation in Mojave Rattlesnake (Crotalus scutulatus) Venom Is Driven by Four Toxin Families",
+            "GBReference_journal": "Toxins (Basel) 10 (4) (2018)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.3390/toxins10040135"
+                }
+            ],
+            "GBReference_pubmed": "29570631",
+            "GBReference_remark": "Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..258",
+            "GBReference_authors": [
+                "Strickland,J.L.",
+                "Rokyta,D.R.",
+                "Mason,A.J.",
+                "Parkinson,C.L."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (24-FEB-2018) Biology, University of Central Florida, 4110 Libra Dr., Orlando, FL 32816, USA"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: SeqMan NGen v. 12.3.1; Extender Rokyta 2012 ; Sequencing Technology :: Illumina HiSeq ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..258",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "258",
+                    "GBInterval_accession": "GGIP01000025.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Crotalus scutulatus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "transcribed RNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "Cscut_3FTx-2"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8737"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "gene",
+            "GBFeature_location": "1..258",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "258",
+                    "GBInterval_accession": "GGIP01000025.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "3FTx-2"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..258",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "258",
+                    "GBInterval_accession": "GGIP01000025.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "3FTx-2"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "3FTx-2"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "MCH74546.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLILGVVAFVYLEPGYSLECFSCKGLFCFDPKPCPEGLDQCFKNKTLSLGLIPVTKIEKGCTTNCTQTSTLTCCETNKCNF"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgttgatcctgggggtggtggcatttgtgtacctggagccaggatactccctggaatgtttttcatgcaaaggactattctgttttgatcctaagccgtgtccagaaggtcttgatcaatgctttaaaaataaaactctctcgcttggtttaattcctgtaacgaagatcgaaaagggatgtactacaaattgcactcagacttcgacacttacctgttgcgagacaaacaagtgcaacttttag",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA88989"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596264"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596265"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596266"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596267"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596268"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596269"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596270"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596271"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596272"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596273"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596274"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596275"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596276"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596277"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596278"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR011323"
+        }
+    ]
+}

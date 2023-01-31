@@ -1,0 +1,122 @@
+{
+    "GBSeq_locus": "EU003092",
+    "GBSeq_length": "466",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "29-MAR-2008",
+    "GBSeq_create-date": "29-MAR-2008",
+    "GBSeq_definition": "Austrelaps labialis clone 651 putative long neurotoxin mRNA, complete cds",
+    "GBSeq_primary-accession": "EU003092",
+    "GBSeq_accession-version": "EU003092.1",
+    "GBSeq_other-seqids": [
+        "gb|EU003092.1|",
+        "gi|161138383"
+    ],
+    "GBSeq_source": "Austrelaps labialis",
+    "GBSeq_organism": "Austrelaps labialis",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Acanthophiinae; Austrelaps",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..466",
+            "GBReference_authors": [
+                "Doley,R.",
+                "Tram,N.N.",
+                "Reza,M.A.",
+                "Kini,R.M."
+            ],
+            "GBReference_title": "Unusual accelerated rate of deletions and insertions in toxin genes in the venom glands of the pygmy copperhead (Austrelaps labialis) from Kangaroo island",
+            "GBReference_journal": "BMC Evol. Biol. 8, 70 (2008)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1186/1471-2148-8-70"
+                }
+            ],
+            "GBReference_pubmed": "18307759",
+            "GBReference_remark": "Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..466",
+            "GBReference_authors": [
+                "Tram,N.B.",
+                "Doley,R.",
+                "Kini,R.M."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (19-JUN-2007) Department of Biological Sciences, National University of Singapore, 14 Science Drive 4 117543, Singapore"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..466",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "466",
+                    "GBInterval_accession": "EU003092.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Austrelaps labialis"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "isolation_source",
+                    "GBQualifier_value": "venom"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:471292"
+                },
+                {
+                    "GBQualifier_name": "clone",
+                    "GBQualifier_value": "651"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..267",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "267",
+                    "GBInterval_accession": "EU003092.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "putative long neurotoxin"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "ABX58158.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVAVTIVCLDLGNSFSCYKTPHVKSEPCAPGQNLCYTKTWCDRFCSIRGKVIELGCAATCPPAEPKKDITCCSTDNCNPHP"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctgaccttggtggcggtgacaatcgtgtgcctggacttaggtaacagcttctcatgctacaaaacacctcatgttaaatctgagccttgtgcacctgggcagaacctatgctatacaaagacttggtgtgatcgtttttgttccatcagaggaaaggtaatcgaactgggatgtgctgctacttgccctccagcggagccaaaaaaggatattacctgttgctcaacagacaattgcaacccacatccgtaacagaaaactcgttgagttttgctctcatccatcatggaccatccttgaaaatttatgcttgtggcctttaccgccagatggtccatcatccccctctcccctgctgtctttgacatctcaacatctttcccttttctctcgttctgtacgtttccttctgctagttctgtagtttgagaatcgaataaaactcagcaca"
+}

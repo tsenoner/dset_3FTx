@@ -1,0 +1,113 @@
+{
+    "GBSeq_locus": "FJ790454",
+    "GBSeq_length": "525",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "01-MAR-2012",
+    "GBSeq_create-date": "01-MAR-2012",
+    "GBSeq_definition": "Suta nigriceps short-chain neurotoxin isoform 8 mRNA, complete cds",
+    "GBSeq_primary-accession": "FJ790454",
+    "GBSeq_accession-version": "FJ790454.1",
+    "GBSeq_other-seqids": [
+        "gb|FJ790454.1|",
+        "gi|262479337"
+    ],
+    "GBSeq_source": "Parasuta nigriceps (Mallee black-backed snake)",
+    "GBSeq_organism": "Parasuta nigriceps",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Parasuta",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..525",
+            "GBReference_authors": [
+                "Lim,P.Y.",
+                "Doley,R.",
+                "Kini,R.M."
+            ],
+            "GBReference_title": "Venom Gland Transcriptome of Parasuta nigriceps - A Rare Australian Elapid",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..525",
+            "GBReference_authors": [
+                "Lim,P.Y.",
+                "Doley,R.",
+                "Kini,R.M."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (17-FEB-2009) Department of Biological Sciences, National University of Singapore, 14 Science Drive 4, Singapore, Singapore 117543, Singapore"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..525",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "525",
+                    "GBInterval_accession": "FJ790454.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Parasuta nigriceps"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:687874"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "organism name submitted as Parasuta nigriceps"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "33..278",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "33",
+                    "GBInterval_to": "278",
+                    "GBInterval_accession": "FJ790454.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "short-chain neurotoxin isoform 8"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "ACY68693.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVLVTIVCLDLGYTVTCCNQQSSQPKTTKTCAESTCYKKDLERSRGTIIERGCGCPKVKPGIKLECCKTDECNN"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "gacactttgcaggctccagagaagatcgcaagatgaaaactctgctgctgaccttggtgttggtgaccatcgtgtgcctggacttaggatacaccgtgacctgttgcaaccaacagtcatcgcaacctaaaaccactaaaacgtgtgcagagagcacttgctataaaaaagacttggaaagatcccgtggaactataattgaaaggggatgtggttgccctaaagtgaagcccggtattaaacttgaatgttgcaaaacagatgaatgcaacaattagctctaccagtggctaaaccccattgagtttcgctctcatccatcaaggaccatccttggaaatttatgcttctggcctttaccaccacatggtccatcatccccctctcccctgctgtctttgacacctcaacatctctcccttttctctcgttctgtaagtttccttctgctagttctgtagtttgagaatcaaataaacctcagcattcaattcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+}

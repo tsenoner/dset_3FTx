@@ -1,0 +1,414 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A803J2Q1",
+    "uniProtkbId": "A0A803J2Q1_XENTR",
+    "entryAudit": {
+        "firstPublicDate": "2021-06-02",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2021-06-02",
+        "entryVersion": 6,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+        "scientificName": "Xenopus tropicalis",
+        "commonName": "Western clawed frog",
+        "synonyms": [
+            "Silurana tropicalis"
+        ],
+        "taxonId": 8364,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Ensembl",
+                "id": "ENSXETP00000102091"
+            }
+        ],
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Amphibia",
+            "Batrachia",
+            "Anura",
+            "Pipoidea",
+            "Pipidae",
+            "Xenopodinae",
+            "Xenopus",
+            "Silurana"
+        ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+        "submissionNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSXETP00000102091"
+                        }
+                    ],
+                    "value": "Lymphocyte antigen 6E"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "Ensembl",
+                        "id": "ENSXETP00000102091"
+                    }
+                ],
+                "value": "LOC101732565"
+            }
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 18,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 19,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 126,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "featureId": "PRO_5031107822"
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 108,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "UPAR/Ly6",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000259",
+                    "source": "SMART",
+                    "id": "SM00134"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "20431018",
+                "citationType": "journal article",
+                "authors": [
+                    "Hellsten U.",
+                    "Harland R.M.",
+                    "Gilchrist M.J.",
+                    "Hendrix D.",
+                    "Jurka J.",
+                    "Kapitonov V.",
+                    "Ovcharenko I.",
+                    "Putnam N.H.",
+                    "Shu S.",
+                    "Taher L.",
+                    "Blitz I.L.",
+                    "Blumberg B.",
+                    "Dichmann D.S.",
+                    "Dubchak I.",
+                    "Amaya E.",
+                    "Detter J.C.",
+                    "Fletcher R.",
+                    "Gerhard D.S.",
+                    "Goodstein D.",
+                    "Graves T.",
+                    "Grigoriev I.V.",
+                    "Grimwood J.",
+                    "Kawashima T.",
+                    "Lindquist E.",
+                    "Lucas S.M.",
+                    "Mead P.E.",
+                    "Mitros T.",
+                    "Ogino H.",
+                    "Ohta Y.",
+                    "Poliakov A.V.",
+                    "Pollet N.",
+                    "Robert J.",
+                    "Salamov A.",
+                    "Sater A.K.",
+                    "Schmutz J.",
+                    "Terry A.",
+                    "Vize P.D.",
+                    "Warren W.C.",
+                    "Wells D.",
+                    "Wills A.",
+                    "Wilson R.K.",
+                    "Zimmerman L.B.",
+                    "Zorn A.M.",
+                    "Grainger R.",
+                    "Grammer T.",
+                    "Khokha M.K.",
+                    "Richardson P.M.",
+                    "Rokhsar D.S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "20431018"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1126/science.1183670"
+                    }
+                ],
+                "title": "The genome of the Western clawed frog Xenopus tropicalis.",
+                "publicationDate": "2010",
+                "journal": "Science",
+                "firstPage": "633",
+                "lastPage": "636",
+                "volume": "328"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSXETP00000102091"
+                        }
+                    ],
+                    "value": "Nigerian",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSXETP00000102091"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-20IMGCHMHMI40",
+                "citationType": "submission",
+                "authoringGroup": [
+                    "Ensembl"
+                ],
+                "publicationDate": "MAR-2021",
+                "submissionDatabase": "UniProtKB"
+            },
+            "referencePositions": [
+                "IDENTIFICATION"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSXETP00000102091"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "AlphaFoldDB",
+            "id": "A0A803J2Q1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENSXETT00000116920",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSXETP00000102091"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSXETG00000037934"
+                }
+            ]
+        },
+        {
+            "database": "Bgee",
+            "id": "ENSXETG00000037934",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Expressed in neurula embryo and 9 other tissues"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00117",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR016054",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LY6_UPA_recep-like"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00021",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "UPAR_LY6"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SMART",
+            "id": "SM00134",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MAALYVSLLLAALCIGTAVPLKCYTCTGESSNANCLNQTNCSDIDTSCQTFVASISLFGVSAKSITKSCTPSCTPGGASFAGATGTVSCCNTDLCNISGAPGVKYSYPALGLSLGFLLVLLRGSAL",
+        "length": 126,
+        "molWeight": 12652,
+        "crc64": "D808DF3889A92557",
+        "md5": "3217EB4B1505A39A8942297567427176"
+    },
+    "extraAttributes": {
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Domain": 1
+        },
+        "uniParcId": "UPI001B2FBE2C"
+    }
+}

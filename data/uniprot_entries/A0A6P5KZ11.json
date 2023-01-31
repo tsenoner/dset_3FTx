@@ -1,0 +1,299 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A6P5KZ11",
+    "uniProtkbId": "A0A6P5KZ11_PHACI",
+    "entryAudit": {
+        "firstPublicDate": "2020-12-02",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2020-12-02",
+        "entryVersion": 8,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+        "scientificName": "Phascolarctos cinereus",
+        "commonName": "Koala",
+        "taxonId": 38626,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Proteomes",
+                "id": "UP000515140"
+            },
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "RefSeq",
+                "id": "XP_020850657.1"
+            }
+        ],
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Metatheria",
+            "Diprotodontia",
+            "Phascolarctidae",
+            "Phascolarctos"
+        ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+        "submissionNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "RefSeq",
+                            "id": "XP_020850657.1"
+                        }
+                    ],
+                    "value": "secreted Ly-6/uPAR-related protein 1-like isoform X1"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "RefSeq",
+                        "id": "XP_020850657.1"
+                    }
+                ],
+                "value": "LOC110214208"
+            }
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 124,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "featureId": "PRO_5027605393"
+        }
+    ],
+    "keywords": [
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000515140"
+                }
+            ],
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "CI-FT6AD0HQEK1C4",
+                "citationType": "submission",
+                "authoringGroup": [
+                    "RefSeq"
+                ],
+                "publicationDate": "APR-2022",
+                "submissionDatabase": "UniProtKB"
+            },
+            "referencePositions": [
+                "IDENTIFICATION"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "RefSeq",
+                            "id": "XP_020850657.1"
+                        }
+                    ],
+                    "value": "Spleen",
+                    "type": "TISSUE"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "RefSeq",
+                    "id": "XP_020850657.1"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "RefSeq",
+            "id": "XP_020850657.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "XM_020994998.1"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "A0A6P5KZ11",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "pcw:110214208",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000515140",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Unplaced"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR040188",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LYPD2"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR10036:SF11",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LY6/PLAUR DOMAIN-CONTAINING PROTEIN 2"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MPRRVLAVLLLAAAALPLGGSLSCFSCSKPTALSLCTNVTNCSATEGWCKTTLLSLQTGYPFMEEKTVQRECVASCVPTDPDAIGEYQPILCCNTDRCVGNGAPVPQGSGLILTGFLSVLLSAG",
+        "length": 124,
+        "molWeight": 12857,
+        "crc64": "2E911395EF9F2DBC",
+        "md5": "5A752A8B19C6341B0FDAAC8F02464A12"
+    },
+    "extraAttributes": {
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1
+        },
+        "uniParcId": "UPI000A28C5ED"
+    }
+}

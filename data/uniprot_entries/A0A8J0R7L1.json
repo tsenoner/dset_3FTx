@@ -1,0 +1,292 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A8J0R7L1",
+    "uniProtkbId": "A0A8J0R7L1_XENTR",
+    "entryAudit": {
+        "firstPublicDate": "2022-05-25",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2022-05-25",
+        "entryVersion": 4,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+        "scientificName": "Xenopus tropicalis",
+        "commonName": "Western clawed frog",
+        "synonyms": [
+            "Silurana tropicalis"
+        ],
+        "taxonId": 8364,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Proteomes",
+                "id": "UP000008143"
+            },
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "RefSeq",
+                "id": "XP_004919284.1"
+            }
+        ],
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Amphibia",
+            "Batrachia",
+            "Anura",
+            "Pipoidea",
+            "Pipidae",
+            "Xenopodinae",
+            "Xenopus",
+            "Silurana"
+        ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+        "submissionNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "RefSeq",
+                            "id": "XP_004919284.1"
+                        }
+                    ],
+                    "value": "ly6/PLAUR domain-containing protein 2-like"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "RefSeq",
+                        "id": "XP_004919284.1"
+                    }
+                ],
+                "value": "LOC101731278"
+            }
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 20,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 118,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "featureId": "PRO_5035288347"
+        }
+    ],
+    "keywords": [
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000008143"
+                }
+            ],
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "CI-FT6AD0HQEK1C4",
+                "citationType": "submission",
+                "authoringGroup": [
+                    "RefSeq"
+                ],
+                "publicationDate": "APR-2022",
+                "submissionDatabase": "UniProtKB"
+            },
+            "referencePositions": [
+                "IDENTIFICATION"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "RefSeq",
+                            "id": "XP_004919284.1"
+                        }
+                    ],
+                    "value": "Nigerian",
+                    "type": "STRAIN"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "RefSeq",
+                            "id": "XP_004919284.1"
+                        }
+                    ],
+                    "value": "Liver and blood",
+                    "type": "TISSUE"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "RefSeq",
+                    "id": "XP_004919284.1"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "RefSeq",
+            "id": "XP_004919284.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "XM_004919227.3"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "101731278",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "xtr:101731278",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000008143",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 6"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MATLSIALIVTALCAGSALSLKCYTCTSQSTNANCKTEGSCNIYEVFCRTNVVSSTTGISITKSCATSCAPSSVETNTVACCSTDLCNLSGATGVSYSSALLALSLGFALVLVKNSLQ",
+        "length": 118,
+        "molWeight": 11958,
+        "crc64": "FC8B107209E192E2",
+        "md5": "EC39AFAECF8F8271A74C144D27FFC461"
+    },
+    "extraAttributes": {
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1
+        },
+        "uniParcId": "UPI00034F57E1"
+    }
+}

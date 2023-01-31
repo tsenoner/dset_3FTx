@@ -1,0 +1,140 @@
+{
+    "GBSeq_locus": "GAEP01002000",
+    "GBSeq_length": "487",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "30-AUG-2013",
+    "GBSeq_create-date": "30-AUG-2013",
+    "GBSeq_definition": "TSA: Micrurus fulvius Mfulv_LCN-5.seq mRNA sequence",
+    "GBSeq_primary-accession": "GAEP01002000",
+    "GBSeq_accession-version": "GAEP01002000.1",
+    "GBSeq_other-seqids": [
+        "gb|GAEP01002000.1|",
+        "gnl|TSA:GAEP01|Mfulv_LCN-5.seq",
+        "gi|537444885"
+    ],
+    "GBSeq_project": "PRJNA186685",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly"
+    ],
+    "GBSeq_source": "Micrurus fulvius (eastern coral snake)",
+    "GBSeq_organism": "Micrurus fulvius",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Micrurus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..487",
+            "GBReference_authors": [
+                "Margres,M.J.",
+                "Aronow,K.",
+                "Loyacano,J.",
+                "Rokyta,D.R."
+            ],
+            "GBReference_title": "The venom-gland transcriptome of the eastern coral snake (Micrurus fulvius) reveals high venom complexity in the intragenomic evolution of venoms",
+            "GBReference_journal": "BMC Genomics 14, 531 (2013)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1186/1471-2164-14-531"
+                }
+            ],
+            "GBReference_pubmed": "23915248",
+            "GBReference_remark": "Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..487",
+            "GBReference_authors": [
+                "Margres,M.J.",
+                "Aronow,K.",
+                "Loyacano,J.",
+                "Rokyta,D.R."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (30-JAN-2013) Department of Biological Science, Florida State University, 319 Stadium Drive, Tallahassee, FL 32306, USA"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: SeqMan NGen Version 3.1 ; Sequencing Technology :: Illumina HiSeq ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..487",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "487",
+                    "GBInterval_accession": "GAEP01002000.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Micrurus fulvius"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "Mfulv_LCN-5.seq"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8637"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "187..450",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "187",
+                    "GBInterval_to": "450",
+                    "GBInterval_accession": "GAEP01002000.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "long chain neurotoxin 5"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "JAB52821.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKALLLTLVVVTIVCLDLGYTRKCYEGKGTRKSVTCPKGEKVCYTTFLVGPSQPEKILKWGCAASCPKVGLGARITCCSTDHCKSHN"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "ggaggaagaagagctgacatgttgaaggaggaagaagagctgacacagtgggaggtagatggcacagatcctggcaagtaaccagtctggtggaaagggccaatgagaaaagagaagatcaacgcagacacttgaagtgccaggaactgttccggacactttgcaggctccagagaagatcgcaagatgaaagctctgctgctgaccttggtggtggtgacaatcgtgtgcctggacttaggatacacccgaaaatgttacgagggaaagggtactaggaaatctgtgacttgtccaaagggggagaaagtatgctataccacatttcttgtgggacctagtcaacctgaaaagatactcaaatggggatgtgctgcttcttgccctaaagtaggactcggtgcgcgtattacctgttgctcaacagaccattgcaaatcacataattgaaaatttaaggttctggattttaaataacactggggat",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA186685"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR630454"
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "GBSeq_locus": "DQ917515",
+    "GBSeq_length": "359",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "29-JUL-2008",
+    "GBSeq_create-date": "27-JUN-2007",
+    "GBSeq_definition": "Demansia vestigiata LNTX-1 precursor, mRNA, complete cds",
+    "GBSeq_primary-accession": "DQ917515",
+    "GBSeq_accession-version": "DQ917515.1",
+    "GBSeq_other-seqids": [
+        "gb|DQ917515.1|",
+        "gi|118151707"
+    ],
+    "GBSeq_source": "Demansia vestigiata (black whip snake)",
+    "GBSeq_organism": "Demansia vestigiata",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Notechinae; Demansia",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..359",
+            "GBReference_authors": [
+                "St Pierre,L.",
+                "Birrell,G.W.",
+                "Earl,S.T.",
+                "Wallis,T.P.",
+                "Gorman,J.J.",
+                "de Jersey,J.",
+                "Masci,P.P.",
+                "Lavin,M.F."
+            ],
+            "GBReference_title": "Diversity of toxic components from the venom of the evolutionarily distinct black whip snake, Demansia vestigiata",
+            "GBReference_journal": "J. Proteome Res. 6 (8), 3093-3107 (2007)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1021/pr0701613"
+                }
+            ],
+            "GBReference_pubmed": "17608513"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..359",
+            "GBReference_authors": [
+                "St Pierre,L."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (22-AUG-2006) Queensland Institute of Medical Research, 300 Herston Rd, Brisbane, QLD 4029, Australia"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..359",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "359",
+                    "GBInterval_accession": "DQ917515.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Demansia vestigiata"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:412038"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "black whip snake"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..267",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "267",
+                    "GBInterval_accession": "DQ917515.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "long chain alpha-neurotoxin"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "LNTX-1 precursor"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "ABK63544.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDFGYARTCLKTPEVKSEPCPPGQEVCYTKAWCDRMCSFRGKVIELGCAATCPRQEPGKEITCCSTDDCNTHP"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "1..63",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "63",
+                    "GBInterval_accession": "DQ917515.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDFGYA"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "mat_peptide",
+            "GBFeature_location": "64..264",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "64",
+                    "GBInterval_to": "264",
+                    "GBInterval_accession": "DQ917515.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "LNTX-1"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "RTCLKTPEVKSEPCPPGQEVCYTKAWCDRMCSFRGKVIELGCAATCPRQEPGKEITCCSTDDCNTHP"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "3'UTR",
+            "GBFeature_location": "268..359",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "268",
+                    "GBInterval_to": "359",
+                    "GBInterval_accession": "DQ917515.1"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctgaccttggtggtggtgaccatcgtgtgcctggactttggatatgccaggacatgcctcaaaacacctgaggttaaatctgagccttgtccacctgggcaggaggtatgctatacaaaggcttggtgtgatcgtatgtgttccttcagaggaaaggtaatcgaactgggatgtgctgctacttgccctcggcaggagccaggaaaggagattacctgttgctcaacagacgattgcaacacacatccgtaacagaaaacccgttgagttttgctctcatccctcatggaccatccttgaaaatttatgcttgtggcttttaccacagagggtccatcatcccc"
+}

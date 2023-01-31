@@ -1,0 +1,109 @@
+{
+    "GBSeq_locus": "GHUB01014927",
+    "GBSeq_length": "610",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "RNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "12-JAN-2021",
+    "GBSeq_create-date": "12-JAN-2021",
+    "GBSeq_definition": "TSA: Gloydius intermedius TR8189c0_g2_i2, transcribed RNA sequence",
+    "GBSeq_primary-accession": "GHUB01014927",
+    "GBSeq_accession-version": "GHUB01014927.1",
+    "GBSeq_other-seqids": [
+        "gb|GHUB01014927.1|",
+        "gnl|TSA:GHUB01|TR8189c0_g2_i2"
+    ],
+    "GBSeq_project": "PRJNA507957",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly"
+    ],
+    "GBSeq_source": "Gloydius intermedius (Central Asian pitviper)",
+    "GBSeq_organism": "Gloydius intermedius",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Viperidae; Crotalinae; Gloydius",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..610",
+            "GBReference_authors": [
+                "Lu,B.",
+                "Wang,X.",
+                "Fu,J.",
+                "Shi,J.",
+                "Wu,Y.",
+                "Qi,Y."
+            ],
+            "GBReference_title": "Genetic Adaptations of an Island Pit-Viper to a Unique Sedentary Life with Extreme Seasonal Food Availability",
+            "GBReference_journal": "G3 (Bethesda) 10 (5), 1639-1646 (2020)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1534/g3.120.401101"
+                }
+            ],
+            "GBReference_pubmed": "32184370",
+            "GBReference_remark": "Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..610",
+            "GBReference_authors": [
+                "Lu,B."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (07-AUG-2019) Herpetology, Chengdu Institute of Biology, CAS, Number 9, Seciton 4, Ren-min Nan Road, Chengdu Institute of Biology, Chinese Academy of Sciences, Chengdu, Sichuan 610041, China"
+        }
+    ],
+    "GBSeq_comment": "Trinity, developed at the Broad Institute and the Hebrew University of Jerusalem, represents a novel method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data. Trinity combines three independent software modules: Inchworm, Chrysalis, and Butterfly, applied sequentially to process large volumes of RNA-seq reads. Trinity partitions the sequence data into many individual de Bruijn graphs, each representing the transcriptional complexity at a given gene or locus, and then processes each graph independently to extract full-length splicing isoforms and to tease apart transcripts derived from paralogous genes.; ##Assembly-Data-START## ; Assembly Method :: Trinity MAY-2015 ; Sequencing Technology :: Illumina HiSeq ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..610",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "610",
+                    "GBInterval_accession": "GHUB01014927.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Gloydius intermedius"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "transcribed RNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "TR8189c0_g2_i2"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:44732"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "pooled brain, liver, heart, skeletal muscle, and gonad tissues"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "gtcgggggcaaaaaggccacacctgctgccctcccccttttctcctgaatctccctgttcttctctcttgatcctagatatccagccccccaaaggacgtcacctcagaggggtagaaataagcgcccgctgccttcctgggctacacattgcaggctgaagaggagattgcaagatgaaaactctgctgttgatcctgggggtggtggcatttgtgtacctggactcaggatactccactatgtgttatatatgcaaaggatttttgtgtctcaaacctaagccgtgtccagaaggtcttgatcaatgctttataaataaaactggcctttggggaatgatggtcgaaaggggatgtactgcaaattgcactcagacttcgacacttaaatgttgcagcatgaacgggtgcaactttccttgatctcatccatcatggaccttccttgaagatttacgcttctgcctttacaacaggatggcccataatcccccctcccctgctttctttgaccccctcatcctcttccccttttctcttgttccgcaagcttctttctgcgagttctgtagtttgagaatccaataaacctcagcattcaatccaaag",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA507957"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN10516946"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR8272683"
+        }
+    ]
+}

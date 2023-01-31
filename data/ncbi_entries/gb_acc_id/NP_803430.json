@@ -1,0 +1,429 @@
+{
+    "GBSeq_locus": "NP_803430",
+    "GBSeq_length": "116",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "PRI",
+    "GBSeq_update-date": "24-DEC-2022",
+    "GBSeq_create-date": "27-MAR-2003",
+    "GBSeq_definition": "ly-6/neurotoxin-like protein 1 precursor [Homo sapiens]",
+    "GBSeq_primary-accession": "NP_803430",
+    "GBSeq_accession-version": "NP_803430.1",
+    "GBSeq_other-seqids": [
+        "ref|NP_803430.1|",
+        "gi|29294645"
+    ],
+    "GBSeq_keywords": [
+        "RefSeq",
+        "MANE Select"
+    ],
+    "GBSeq_source": "Homo sapiens (human)",
+    "GBSeq_organism": "Homo sapiens",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Homo",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..116",
+            "GBReference_authors": [
+                "Mineev KS",
+                "Kryukova EV",
+                "Kasheverov IE",
+                "Egorova NS",
+                "Zhmak MN",
+                "Ivanov IA",
+                "Senko DA",
+                "Feofanov AV",
+                "Ignatova AA",
+                "Arseniev AS",
+                "Utkin YN",
+                "Tsetlin VI"
+            ],
+            "GBReference_title": "Spatial Structure and Activity of Synthetic Fragments of Lynx1 and of Nicotinic Receptor Loop C Models",
+            "GBReference_journal": "Biomolecules 11 (1), 1 (2020)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.3390/biom11010001"
+                }
+            ],
+            "GBReference_pubmed": "33374963",
+            "GBReference_remark": "GeneRIF: Spatial Structure and Activity of Synthetic Fragments of Lynx1 and of Nicotinic Receptor Loop C Models.; Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..116",
+            "GBReference_authors": [
+                "Liu H",
+                "Wang A",
+                "Ma Y"
+            ],
+            "GBReference_title": "Increased Expression of LYNX1 in Ovarian Serous Cystadenocarcinoma Predicts Poor Prognosis",
+            "GBReference_journal": "Biomed Res Int 2020, 1392674 (2020)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1155/2020/1392674"
+                }
+            ],
+            "GBReference_pubmed": "33299855",
+            "GBReference_remark": "GeneRIF: Increased Expression of LYNX1 in Ovarian Serous Cystadenocarcinoma Predicts Poor Prognosis.; Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "3",
+            "GBReference_position": "1..116",
+            "GBReference_authors": [
+                "Bychkov M",
+                "Shenkarev Z",
+                "Shulepko M",
+                "Shlepova O",
+                "Kirpichnikov M",
+                "Lyukmanova E"
+            ],
+            "GBReference_title": "Water-soluble variant of human Lynx1 induces cell cycle arrest and apoptosis in lung cancer cells via modulation of alpha7 nicotinic acetylcholine receptors",
+            "GBReference_journal": "PLoS One 14 (5), e0217339 (2019)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1371/journal.pone.0217339"
+                }
+            ],
+            "GBReference_pubmed": "31150435",
+            "GBReference_remark": "GeneRIF: The ability of ws-Lynx1 to regulate homeostasis of epithelial cancer cells.; Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "4",
+            "GBReference_position": "1..116",
+            "GBReference_authors": [
+                "Parker RL",
+                "O'Neill HC",
+                "Henley BM",
+                "Wageman CR",
+                "Drenan RM",
+                "Marks MJ",
+                "Miwa JM",
+                "Grady SR",
+                "Lester HA"
+            ],
+            "GBReference_title": "Deletion of lynx1 reduces the function of alpha6* nicotinic receptors",
+            "GBReference_journal": "PLoS One 12 (12), e0188715 (2017)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1371/journal.pone.0188715"
+                }
+            ],
+            "GBReference_pubmed": "29206881",
+            "GBReference_remark": "GeneRIF: results show that some functional and behavioral aspects of alpha6-nAChRs are modulated by lynx1; Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "5",
+            "GBReference_position": "1..116",
+            "GBReference_authors": [
+                "Loughner CL",
+                "Bruford EA",
+                "McAndrews MS",
+                "Delp EE",
+                "Swamynathan S",
+                "Swamynathan SK"
+            ],
+            "GBReference_title": "Organization, evolution and functions of the human and mouse Ly6/uPAR family genes",
+            "GBReference_journal": "Hum Genomics 10, 10 (2016)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1186/s40246-016-0074-2"
+                }
+            ],
+            "GBReference_pubmed": "27098205",
+            "GBReference_remark": "Review article; Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "6",
+            "GBReference_position": "1..116",
+            "GBReference_authors": [
+                "Moriwaki Y",
+                "Takada K",
+                "Tsuji S",
+                "Kawashima K",
+                "Misawa H"
+            ],
+            "GBReference_title": "Transcriptional regulation of SLURP2, a psoriasis-associated gene, is under control of IL-22 in the skin: A special reference to the nested gene LYNX1",
+            "GBReference_journal": "Int Immunopharmacol 29 (1), 71-75 (2015)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/j.intimp.2015.05.030"
+                }
+            ],
+            "GBReference_pubmed": "26033490",
+            "GBReference_remark": "GeneRIF: These findings provide new insights into the acetylcholine receptor-mediated regulatory mechanism of SLURP-2 expression in keratinocytes."
+        },
+        {
+            "GBReference_reference": "7",
+            "GBReference_position": "1..116",
+            "GBReference_authors": [
+                "Choi SH",
+                "Kong HK",
+                "Park SY",
+                "Park JH"
+            ],
+            "GBReference_title": "Metastatic effect of LY-6K gene in breast cancer cells",
+            "GBReference_journal": "Int J Oncol 35 (3), 601-607 (2009)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.3892/ijo_00000371"
+                }
+            ],
+            "GBReference_pubmed": "19639180",
+            "GBReference_remark": "GeneRIF: LY-6K meaningfully participates in breast cancer cell metastasis"
+        },
+        {
+            "GBReference_reference": "8",
+            "GBReference_position": "1..116",
+            "GBReference_authors": [
+                "Song P",
+                "Sekhon HS",
+                "Fu XW",
+                "Maier M",
+                "Jia Y",
+                "Duan J",
+                "Proskosil BJ",
+                "Gravett C",
+                "Lindstrom J",
+                "Mark GP",
+                "Saha S",
+                "Spindel ER"
+            ],
+            "GBReference_title": "Activated cholinergic signaling provides a target in squamous cell lung carcinoma",
+            "GBReference_journal": "Cancer Res 68 (12), 4693-4700 (2008)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1158/0008-5472.CAN-08-0183"
+                }
+            ],
+            "GBReference_pubmed": "18559515",
+            "GBReference_remark": "GeneRIF: decreased Lynx1 is associated with squamous cell lung carcinoma"
+        },
+        {
+            "GBReference_reference": "9",
+            "GBReference_position": "1..116",
+            "GBReference_authors": [
+                "Lee JW",
+                "Lee YS",
+                "Yoo KH",
+                "Lee KH",
+                "Park K",
+                "Ahn T",
+                "Ko C",
+                "Park JH"
+            ],
+            "GBReference_title": "LY-6K gene: a novel molecular marker for human breast cancer",
+            "GBReference_journal": "Oncol Rep 16 (6), 1211-1214 (2006)",
+            "GBReference_pubmed": "17089039",
+            "GBReference_remark": "GeneRIF: LY-6K,a novel member protein of the Ly-6/uPAR superfamily, is a significant new molecular marker for diagnosis and gene therapy in patients with breast cancer."
+        },
+        {
+            "GBReference_reference": "10",
+            "GBReference_position": "1..116",
+            "GBReference_authors": [
+                "Miwa JM",
+                "Ibanez-Tallon I",
+                "Crabtree GW",
+                "Sanchez R",
+                "Sali A",
+                "Role LW",
+                "Heintz N"
+            ],
+            "GBReference_title": "lynx1, an endogenous toxin-like modulator of nicotinic acetylcholine receptors in the mammalian CNS",
+            "GBReference_journal": "Neuron 23 (1), 105-114 (1999)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/s0896-6273(00)80757-6"
+                }
+            ],
+            "GBReference_pubmed": "10402197"
+        }
+    ],
+    "GBSeq_comment": "REVIEWED REFSEQ: This record has been curated by NCBI staff. The reference sequence was derived from HY110957.1, AC083841.9 and BU683767.1.; ~Summary: This gene encodes a GPI-anchored, cell membrane bound member of the Ly6/uPAR (LU) superfamily of proteins containing the unique three-finger LU domain. This protein interacts with nicotinic acetylcholine receptors (nAChRs), and is thought to function as a modulator of nAChR activity to prevent excessive excitation. Alternatively spliced transcript variants have been found for this gene. Read-through transcription between this gene and the neighboring downstream gene (SLURP2) generates naturally-occurring transcripts (LYNX1-SLURP2) that encode a fusion protein comprised of sequence sharing identity with each individual gene product. [provided by RefSeq, Sep 2017].; ~Transcript Variant: This variant (1) represents the longest transcript. Variants 1-4 encode the same protein.; ~Sequence Note: This RefSeq record was created from transcript and genomic sequence data to make the sequence consistent with the reference genome assembly. The genomic coordinates used for the transcript record were based on transcript alignments.; ~Publication Note: This RefSeq record includes a subset of the publications that are available for this gene. Please see the Gene record to access additional publications.; ##Evidence-Data-START## ; Transcript exon combination :: SRR1803615.89761.1, SRR1803616.220668.1 [ECO:0000332] ; RNAseq introns :: mixed sample support SAMEA1966682, SAMEA1968189 [ECO:0006172] ; ##Evidence-Data-END##; ##RefSeq-Attributes-START## ; MANE Ensembl match :: ENST00000652477.1/ ENSP00000498325.1 ; RefSeq Select criteria :: based on conservation, expression, longest protein ; ##RefSeq-Attributes-END##",
+    "GBSeq_source-db": "REFSEQ: accession NM_177477.4",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..116",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "116",
+                    "GBInterval_accession": "NP_803430.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Homo sapiens"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:9606"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "8"
+                },
+                {
+                    "GBQualifier_name": "map",
+                    "GBQualifier_value": "8q24.3"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..116",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "116",
+                    "GBInterval_accession": "NP_803430.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "ly-6/neurotoxin-like protein 1 precursor"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Ly-6 neurotoxin-like protein 1; ly-6/neurotoxin-like protein 1; testicular tissue protein Li 112; endogenous prototoxin LYNX1"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "10551"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "1..20",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "20",
+                    "GBInterval_accession": "NP_803430.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "inference",
+                    "GBQualifier_value": "COORDINATES: ab initio prediction:SignalP:4.0"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "2108"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MTPLLTLILVVLMGLPLAQA"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "21..93",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "21",
+                    "GBInterval_to": "93",
+                    "GBInterval_accession": "NP_803430.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "LU"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Ly-6 antigen / uPA receptor -like domain; occurs singly in GPI-linked cell-surface glycoproteins (Ly-6 family,CD59, thymocyte B cell antigen, Sgp-2) or as three-fold repeated domain in urokinase-type plasminogen activator receptor. Topology of these...; cd00117"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:238065"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "mat_peptide",
+            "GBFeature_location": "21..91",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "21",
+                    "GBInterval_to": "91",
+                    "GBInterval_accession": "NP_803430.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "Ly-6/neurotoxin-like protein 1. /evidence=ECO:0000255. /id=PRO_0000036154"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "propagated from UniProtKB/Swiss-Prot (P0DP58.1)"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "8107"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "LDCHVCAYNGDNCFNPMRCPAMVAYCMTTRTYYTPTRMKVSKSCVPRCFETVYDGYSKHASTTSCCQYDLC"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..116",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "116",
+                    "GBInterval_accession": "NP_803430.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LYNX1"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "NM_177477.4:262..612"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CCDS:CCDS6389.1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:66004"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "HGNC:HGNC:29604"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "MIM:606110"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mtplltlilvvlmglplaqaldchvcayngdncfnpmrcpamvaycmttrtyytptrmkvskscvprcfetvydgyskhasttsccqydlcngtglatpatlalapillatlwgll"
+}

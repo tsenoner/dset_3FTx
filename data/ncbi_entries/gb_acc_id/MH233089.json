@@ -1,0 +1,133 @@
+{
+    "GBSeq_locus": "MH233089",
+    "GBSeq_length": "252",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "18-AUG-2018",
+    "GBSeq_create-date": "18-AUG-2018",
+    "GBSeq_definition": "Spilotes sulphureus three-finger toxin 13 mRNA, partial cds",
+    "GBSeq_primary-accession": "MH233089",
+    "GBSeq_accession-version": "MH233089.1",
+    "GBSeq_other-seqids": [
+        "gb|MH233089.1|",
+        "gi|1446201931"
+    ],
+    "GBSeq_source": "Spilotes sulphureus (Amazon puffing snake)",
+    "GBSeq_organism": "Spilotes sulphureus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Colubridae; Colubrinae; Spilotes",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..252",
+            "GBReference_authors": [
+                "Modahl,C.M.",
+                "Mrinalini",
+                "Frietze,S.",
+                "Mackessy,S.P."
+            ],
+            "GBReference_title": "Adaptive evolution of distinct prey-specific toxin genes in rear-fanged snake venom",
+            "GBReference_journal": "Proc. Biol. Sci. 285 (1884), 20181003 (2018)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1098/rspb.2018.1003"
+                }
+            ],
+            "GBReference_pubmed": "30068680",
+            "GBReference_remark": "Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..252",
+            "GBReference_authors": [
+                "Modahl,C.M.",
+                "Mrinalini,M.",
+                "Frietze,S.",
+                "Mackessy,S.P."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (20-APR-2018) Department of Biological Sciences, National University of Singapore, Science Drive 4, Singapore 117543, Singapore"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: Trinity v. v2014-07-17; Extender v. 2016 ; Assembly Name :: Pseustes sulphureus venom gland transcriptome assembly ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..252",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "252",
+                    "GBInterval_accession": "MH233089.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Spilotes sulphureus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:1899469"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "adult"
+                },
+                {
+                    "GBQualifier_name": "country",
+                    "GBQualifier_value": "Suriname: South America"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..>252",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "252",
+                    "GBInterval_accession": "MH233089.1"
+                }
+            ],
+            "GBFeature_partial3": "",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "3FTx_13"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "three-finger toxin 13"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "AXL95272.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLSLVVVACVCLDSGYTIMCHSCTGRYCATFKNCLDAQACSQMWKDNDIFKLNVVKGCAENCSFPALGEQIQYCSKDNCN"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgttgctgtccttggtggtggtggcatgcgtgtgcctggactcaggatacaccattatgtgtcactcttgcaccggacggtattgtgctacctttaagaattgtttagatgcgcaggcatgctctcaaatgtggaaagataatgatatattcaaattgaatgtcgtcaagggatgtgctgagaactgctcttttccggcactcggtgagcaaattcaatattgctcaaaagacaactgcaac"
+}

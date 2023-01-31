@@ -1,0 +1,152 @@
+{
+    "GBSeq_locus": "GEXA01000001",
+    "GBSeq_length": "416",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "RNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "16-AUG-2016",
+    "GBSeq_create-date": "16-AUG-2016",
+    "GBSeq_definition": "TSA: Bothrops jararaca BJAR4543FTx1 transcribed RNA sequence",
+    "GBSeq_primary-accession": "GEXA01000001",
+    "GBSeq_accession-version": "GEXA01000001.1",
+    "GBSeq_other-seqids": [
+        "gb|GEXA01000001.1|",
+        "gnl|TSA:GEXA01|BJAR4543FTx1"
+    ],
+    "GBSeq_project": "PRJNA262899",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly"
+    ],
+    "GBSeq_source": "Bothrops jararaca (jararaca)",
+    "GBSeq_organism": "Bothrops jararaca",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Viperidae; Crotalinae; Bothrops",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..416",
+            "GBReference_authors": [
+                "Junqueira-de-Azevedo,I.L.",
+                "Bastos,C.M.",
+                "Ho,P.L.",
+                "Luna,M.S.",
+                "Yamanouye,N.",
+                "Casewell,N.R."
+            ],
+            "GBReference_title": "Venom-related transcripts from Bothrops jararaca tissues provide novel molecular insights into the production and evolution of snake venom",
+            "GBReference_journal": "Mol. Biol. Evol. 32 (3), 754-766 (2015)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1093/molbev/msu337"
+                }
+            ],
+            "GBReference_pubmed": "25502939"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..416",
+            "GBReference_authors": [
+                "Junqueira-de-Azevedo,I.L."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (12-AUG-2016) Lab. Especial de Toxinologia Aplicada, Instituto Butantan, Av Vital Brasil, 1500, Sao Paulo, SP 05503900, Brazil"
+        }
+    ],
+    "GBSeq_comment": "Reads from individual tissues were assembled with Newbler 2.7. Resulting contigs were merged and combined using CLC Genomics Workbench v5. Final contigs annotated as venom-related transcripts were manually curated by realigning the reads.; ##Assembly-Data-START## ; Assembly Method :: Newbler 2.7 ; Assembly Name :: BJARALL ; Sequencing Technology :: 454 ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..416",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "416",
+                    "GBInterval_accession": "GEXA01000001.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Bothrops jararaca"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "transcribed RNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "BJAR4543FTx1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8724"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "agaacatttgcaagatgaaagctttgttgctcacagtgatggtggcggtggtgcttgtgtgcatggacccagtgtgcaccctcgaatgttgctcaggtagaaggggtaggttctgtgcttccactgagacatgtcaaggacaagaggacatctgcattactgtgcataaagagggccatggatatggaggtccgatcagaggatgtgctgaaaattgcagttactcgggggcctatttgggcattaattgttgcaaatatgacaggtgcaacagttgggatgaagaatgtttacagttttgagatttgctgtcacccatcatggaccttctttgtagcttttaccataaacagctccataattccacctctgctttctttgaagcctcaccttctttcccctttctttcttttctg",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA262899"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN03092265"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN03092266"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN03092267"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN03092268"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN03092269"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN03092270"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR1596063"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR1596064"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR1596065"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR1596066"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR1596067"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR1596199"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR1596200"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR1596201"
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "GBSeq_locus": "XP_006152158",
+    "GBSeq_length": "97",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "MAM",
+    "GBSeq_update-date": "23-JAN-2019",
+    "GBSeq_create-date": "03-DEC-2013",
+    "GBSeq_definition": "secreted Ly-6/uPAR domain-containing protein 2 [Tupaia chinensis]",
+    "GBSeq_primary-accession": "XP_006152158",
+    "GBSeq_accession-version": "XP_006152158.1",
+    "GBSeq_other-seqids": [
+        "ref|XP_006152158.1|",
+        "gi|562846523"
+    ],
+    "GBSeq_project": "PRJNA221634",
+    "GBSeq_keywords": [
+        "RefSeq"
+    ],
+    "GBSeq_source": "Tupaia chinensis (Chinese tree shrew)",
+    "GBSeq_organism": "Tupaia chinensis",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Scandentia; Tupaiidae; Tupaia",
+    "GBSeq_comment": "MODEL REFSEQ: This record is predicted by automated computational analysis. This record is derived from a genomic sequence (NW_006159829.1) annotated using gene prediction method: Gnomon.~Also see:~ Documentation of NCBI's Annotation Process; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI ; Annotation Status :: Full annotation ; Annotation Name :: Tupaia chinensis Annotation Release 102 ; Annotation Version :: 102 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 8.1 ; Annotation Method :: Best-placed RefSeq; Gnomon ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; ##Genome-Annotation-Data-END##; COMPLETENESS: full length.",
+    "GBSeq_source-db": "REFSEQ: accession XM_006152096.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..97",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "97",
+                    "GBInterval_accession": "XP_006152158.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Tupaia chinensis"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:246437"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "Unknown"
+                },
+                {
+                    "GBQualifier_name": "sex",
+                    "GBQualifier_value": "male"
+                },
+                {
+                    "GBQualifier_name": "country",
+                    "GBQualifier_value": "China"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..97",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "97",
+                    "GBInterval_accession": "XP_006152158.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "secreted Ly-6/uPAR domain-containing protein 2"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "10005"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "25..95",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "25",
+                    "GBInterval_to": "95",
+                    "GBInterval_accession": "XP_006152158.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "UPAR_LY6"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "u-PAR/Ly-6 domain; pfam00021"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:394978"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..97",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "97",
+                    "GBInterval_accession": "XP_006152158.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "SLURP2"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "XM_006152096.1:1..294"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:114004421"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mrllaglllaaalslkiaasqamwchqckgfggcsqeascpqdtthciaiatpapinfpgvpvvtkmcyrgcpdshslglgpyvsiiccqaslcnhd",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA221634"
+        }
+    ]
+}

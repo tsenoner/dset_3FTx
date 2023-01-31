@@ -1,0 +1,783 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P86419",
+    "uniProtkbId": "3SI1B_DENAN",
+    "entryAudit": {
+        "firstPublicDate": "2010-10-05",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2010-10-05",
+        "entryVersion": 32,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 4.0,
+    "organism": {
+        "scientificName": "Dendroaspis angusticeps",
+        "commonName": "Eastern green mamba",
+        "synonyms": [
+            "Naja angusticeps"
+        ],
+        "taxonId": 8618,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Dendroaspis"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000305"
+                    }
+                ],
+                "value": "Rho-elapitoxin-Da1b"
+            },
+            "shortNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "20659106"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "21419153"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "24793485"
+                        }
+                    ],
+                    "value": "Rho-Da1b"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Rho-EPTX-Da1b"
+                }
+            ]
+        }
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "20659106"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "21419153"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "24793485"
+                        }
+                    ],
+                    "value": "Non-competitive antagonist of alpha-2 adrenergic receptors (ADRA2) in smooth muscles, and partial antagonist of D3 dopamine receptors (DRD3) (inhibits 25% of methylspiperone binding to this receptor) (PubMed:20659106). Also shows a low antagonism on D2 dopamine receptors (DRD2) (short isoform) (PubMed:24793485). Shows high affinity to adrenergic receptors (Ki=14 nM (ADRA2A), Ki=73 nM (ADRA2B), and Ki=38 nM (ADRA2C)) (PubMed:20659106). Increases heart rate and blood catecholamine concentrations (PubMed:21419153)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "20659106"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305",
+                            "source": "PubMed",
+                            "id": "20659106"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "commentType": "MASS SPECTROMETRY",
+            "method": "Electrospray",
+            "molWeight": 7507.51,
+            "molWeightError": 0.0,
+            "note": "Monoisotopic mass.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "20659106"
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "24793485"
+                        }
+                    ],
+                    "value": "Does not show interaction with adrenergic receptors (ADRA1A, ADRA1B, ADRA1D, ADRB1, ADRB2), dopaminergic receptors (DRD1, DRD2, DRD4, DRD5), histaminic receptors (HRH1, HRH3, HRH4), muscarinic receptors (CHRM1, CHRM2, CHRM3, CHRM4, CHRM5), and serotoninergic receptors (HTR1A, HTR2A, HTR2B, HTR2C, HTR5A, HTR6, HTR7)"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305",
+                            "source": "PubMed",
+                            "id": "24793485"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily. Aminergic toxin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 66,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Rho-elapitoxin-Da1b",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "20659106"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "21419153"
+                }
+            ],
+            "featureId": "PRO_0000398129"
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 3,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "Q8QGR0"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 17,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 42,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "Q8QGR0"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 46,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 58,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "Q8QGR0"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 59,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 64,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "Q8QGR0"
+                }
+            ]
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 7,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 7,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "In AncTx5; 3-4-fold increase in inhibition potency on alpha-2A adrenergic receptor and D3 dopamine receptor, 28-fold increase in inhibition potency on alpha-2B adrenergic receptor, and 10-fold increase in inhibition potency on ADRA2C adrenergic receptor.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "28578406"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "D",
+                "alternativeSequences": [
+                    "N"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 15,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 15,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "In AncTx5; 3-4-fold increase in inhibition potency on alpha-2A adrenergic receptor and D3 dopamine receptor, 28-fold increase in inhibition potency on alpha-2B adrenergic receptor, and 10-fold increase in inhibition potency on ADRA2C adrenergic receptor.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "28578406"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "Q",
+                "alternativeSequences": [
+                    "E"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 26,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 26,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "In AncTx5; 3-4-fold increase in inhibition potency on alpha-2A adrenergic receptor and D3 dopamine receptor, 28-fold increase in inhibition potency on alpha-2B adrenergic receptor, and 10-fold increase in inhibition potency on ADRA2C adrenergic receptor.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "28578406"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "I",
+                "alternativeSequences": [
+                    "K"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 28,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 28,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "In AncTx5; 3-4-fold increase in inhibition potency on alpha-2A adrenergic receptor and D3 dopamine receptor, 28-fold increase in inhibition potency on alpha-2B adrenergic receptor, and 10-fold increase in inhibition potency on ADRA2C adrenergic receptor.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "28578406"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "W"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 43,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 43,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "In AncTx5; 3-4-fold increase in inhibition potency on alpha-2A adrenergic receptor and D3 dopamine receptor, 28-fold increase in inhibition potency on alpha-2B adrenergic receptor, and 10-fold increase in inhibition potency on ADRA2C adrenergic receptor.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "28578406"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "T",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-1213",
+            "category": "Molecular function",
+            "name": "G-protein coupled receptor impairing toxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "20659106",
+                "citationType": "journal article",
+                "authors": [
+                    "Rouget C.",
+                    "Quinton L.",
+                    "Maiga A.",
+                    "Gales C.",
+                    "Masuyer G.",
+                    "Malosse C.",
+                    "Chamot-Rooke J.",
+                    "Thai R.",
+                    "Mourier G.",
+                    "De Pauw E.",
+                    "Gilles N.",
+                    "Servent D."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "20659106"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1111/j.1476-5381.2010.00966.x"
+                    }
+                ],
+                "title": "Identification of a novel snake peptide toxin displaying high affinity and antagonist behaviour for the alpha2-adrenoceptors.",
+                "publicationDate": "2010",
+                "journal": "Br. J. Pharmacol.",
+                "firstPage": "1361",
+                "lastPage": "1374",
+                "volume": "161"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE",
+                "SYNTHESIS",
+                "FUNCTION",
+                "SUBCELLULAR LOCATION",
+                "MASS SPECTROMETRY"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "21419153",
+                "citationType": "journal article",
+                "authors": [
+                    "Maiga A.",
+                    "Mourier G.",
+                    "Quinton L.",
+                    "Rouget C.",
+                    "Gales C.",
+                    "Denis C.",
+                    "Lluel P.",
+                    "Senard J.M.",
+                    "Palea S.",
+                    "Servent D.",
+                    "Gilles N."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "21419153"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.toxicon.2011.03.009"
+                    }
+                ],
+                "title": "G protein-coupled receptors, an unexploited animal toxin targets: exploration of green mamba venom for novel drug candidates active against adrenoceptors.",
+                "publicationDate": "2012",
+                "journal": "Toxicon",
+                "firstPage": "487",
+                "lastPage": "496",
+                "volume": "59"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE",
+                "FUNCTION",
+                "SYNTHESIS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "24793485",
+                "citationType": "journal article",
+                "authors": [
+                    "Blanchet G.",
+                    "Collet G.",
+                    "Mourier G.",
+                    "Gilles N.",
+                    "Fruchart-Gaillard C.",
+                    "Marcon E.",
+                    "Servent D."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "24793485"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.biochi.2014.04.009"
+                    }
+                ],
+                "title": "Polypharmacology profiles and phylogenetic analysis of three-finger toxins from mamba venom: case of aminergic toxins.",
+                "publicationDate": "2014",
+                "journal": "Biochimie",
+                "firstPage": "109",
+                "lastPage": "117",
+                "volume": "103"
+            },
+            "referencePositions": [
+                "SYNTHESIS",
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "28578406",
+                "citationType": "journal article",
+                "authors": [
+                    "Blanchet G.",
+                    "Alili D.",
+                    "Protte A.",
+                    "Upert G.",
+                    "Gilles N.",
+                    "Tepshi L.",
+                    "Stura E.A.",
+                    "Mourier G.",
+                    "Servent D."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "28578406"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/s41598-017-02953-0"
+                    }
+                ],
+                "title": "Ancestral protein resurrection and engineering opportunities of the mamba aminergic toxins.",
+                "publicationDate": "2017",
+                "journal": "Sci. Rep.",
+                "firstPage": "2701",
+                "lastPage": "2701",
+                "volume": "7"
+            },
+            "referencePositions": [
+                "MUTAGENESIS OF ASP-7; GLN-15; ILE-26; ARG-28 AND THR-43"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "AlphaFoldDB",
+            "id": "P86419",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P86419",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00206",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "snake_toxin"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003571",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_3FTx"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018354",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin_con_site"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00272",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SNAKE_TOXIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "LTCVTKDTIFGITTQNCPAGQNLCFIRRHYINHRYTEITRGCTATCPKPTNVRETIHCCNTDKCNE",
+        "length": 66,
+        "molWeight": 7521,
+        "crc64": "7C1BB301805EA667",
+        "md5": "888A9C06F1D8BD81AA99A0E2CEA1EF6C"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "MASS SPECTROMETRY": 1,
+            "MISCELLANEOUS": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Disulfide bond": 4,
+            "Mutagenesis": 5
+        },
+        "uniParcId": "UPI0001E07081"
+    }
+}

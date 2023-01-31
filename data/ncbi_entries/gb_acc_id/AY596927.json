@@ -1,0 +1,158 @@
+{
+    "GBSeq_locus": "AY596927",
+    "GBSeq_length": "495",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "02-APR-2009",
+    "GBSeq_create-date": "30-APR-2005",
+    "GBSeq_definition": "Ophiophagus hannah isolate OH-37 long chain neurotoxin precursor, mRNA, complete cds",
+    "GBSeq_primary-accession": "AY596927",
+    "GBSeq_accession-version": "AY596927.1",
+    "GBSeq_other-seqids": [
+        "gb|AY596927.1|",
+        "gi|51105370"
+    ],
+    "GBSeq_source": "Ophiophagus hannah (king cobra)",
+    "GBSeq_organism": "Ophiophagus hannah",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Ophiophagus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..495",
+            "GBReference_authors": [
+                "He,Y.Y.",
+                "Lee,W.H.",
+                "Zhang,Y."
+            ],
+            "GBReference_title": "Cloning and purification of alpha-neurotoxins from king cobra (Ophiophagus hannah)",
+            "GBReference_journal": "Toxicon 44 (3), 295-303 (2004)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/j.toxicon.2004.06.003"
+                }
+            ],
+            "GBReference_pubmed": "15302536"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..495",
+            "GBReference_authors": [
+                "He,Y.-Y.",
+                "Lee,W.-H.",
+                "Zhang,Y."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (10-APR-2004) Animal Toxinological Department, Kunming Institute of Zoology. Chinese Academy of Sciences, 32 East JiaoChang Road, Kunming, Yunnan 650223, China"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..495",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "495",
+                    "GBInterval_accession": "AY596927.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Ophiophagus hannah"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "OH-37"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8665"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "15..290",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "15",
+                    "GBInterval_to": "290",
+                    "GBInterval_accession": "AY596927.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "LNTX-2"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "long chain neurotoxin precursor"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "AAT97249.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVVMTIVCLDLGYSLICFISPHDSVTCAPGENVCFLKSWCDAWCGSRGKKLSFGCAATCPKVNPGIDIECCSTDNCNPHPKLRP"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "15..77",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "15",
+                    "GBInterval_to": "77",
+                    "GBInterval_accession": "AY596927.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MKTLLLTLVVMTIVCLDLGYS"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "mat_peptide",
+            "GBFeature_location": "78..287",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "78",
+                    "GBInterval_to": "287",
+                    "GBInterval_accession": "AY596927.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "long chain neurotoxin"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "LICFISPHDSVTCAPGENVCFLKSWCDAWCGSRGKKLSFGCAATCPKVNPGIDIECCSTDNCNPHPKLRP"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "gagaagaacgcaagatgaaaactctgctgctgaccttggtggtgatgacaatcgtgtgcctggacttaggatacagcttgatatgcttcatatctcctcatgactctgtgacttgcgcacctggggagaatgtatgctttttaaaatcgtggtgtgatgcttggtgtggcagcagaggaaagaaactctcctttggatgtgctgctacttgccctaaagtgaatcccggtatagatattgaatgttgctcaacagacaattgcaacccacatccaaaattgagaccttgaagtttgctctcatccatcatggaccatccttgaaaatgtatgcttgtggcctttaccaccagatggtccatcatccccttctcccctgctttctttgactcctcatcatctttcccttttctcttgttctgtatgtttccttctgctagttctgtagtttgagaatcaaataaacctcagcattcaaaaaaaaaaaaaaaaaaaa"
+}

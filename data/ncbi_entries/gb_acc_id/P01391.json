@@ -1,0 +1,1346 @@
+{
+    "GBSeq_locus": "3L21_NAJKA",
+    "GBSeq_length": "71",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "14-DEC-2022",
+    "GBSeq_create-date": "21-JUL-1986",
+    "GBSeq_definition": "RecName: Full=Alpha-cobratoxin; Short=Alpha-CT; Short=Alpha-CbT; Short=Alpha-Cbtx; Short=Alpha-Ctx; AltName: Full=Alpha-elapitoxin-Nk2a; Short=Alpha-EPTX-Nk2a; AltName: Full=Long neurotoxin 1; AltName: Full=Siamensis 3",
+    "GBSeq_primary-accession": "P01391",
+    "GBSeq_accession-version": "P01391.1",
+    "GBSeq_other-seqids": [
+        "sp|P01391.1|3L21_NAJKA",
+        "gi|128930"
+    ],
+    "GBSeq_keywords": [
+        "3D-structure",
+        "Acetylcholine receptor inhibiting toxin",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "Ion channel impairing toxin",
+        "Neurotoxin",
+        "Postsynaptic neurotoxin",
+        "Secreted",
+        "Toxin"
+    ],
+    "GBSeq_source": "Naja kaouthia (monocled cobra)",
+    "GBSeq_organism": "Naja kaouthia",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Naja",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Karlsson,E."
+            ],
+            "GBReference_title": "Chemistry of some potent animal toxins",
+            "GBReference_journal": "Experientia 29, 1319-1327 (1973)",
+            "GBReference_remark": "PROTEIN SEQUENCE, AND SUBCELLULAR LOCATION.;\nTISSUE=Venom"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Osipov,A.V.",
+                "Kasheverov,I.E.",
+                "Makarova,Y.V.",
+                "Starkov,V.G.",
+                "Vorontsova,O.V.",
+                "Ziganshin,R.Kh.",
+                "Andreeva,T.V.",
+                "Serebryakova,M.V.",
+                "Benoit,A.",
+                "Hogg,R.C.",
+                "Bertrand,D.",
+                "Tsetlin,V.I.",
+                "Utkin,Y.N."
+            ],
+            "GBReference_title": "Naturally occurring disulfide-bound dimers of three-fingered toxins: a paradigm for biological activity diversification",
+            "GBReference_journal": "J Biol Chem 283 (21), 14571-14580 (2008)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1074/jbc.M802085200"
+                }
+            ],
+            "GBReference_pubmed": "18381281",
+            "GBReference_remark": "PROTEIN SEQUENCE OF 1-17; 24-33 AND 36-68, IDENTIFICATION BY MASS SPECTROMETRY, FUNCTION, AND SUBUNIT.;\nTISSUE=Venom"
+        },
+        {
+            "GBReference_reference": "3",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Kang,S.",
+                "Maelicke,A."
+            ],
+            "GBReference_title": "Fluorescein isothiocyanate-labeled alpha-cobratoxin. Biochemical characterization and interaction with acetylcholine receptor from Electrophorus electricus",
+            "GBReference_journal": "J Biol Chem 255 (15), 7326-7332 (1980)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/s0021-9258(20)79707-3"
+                }
+            ],
+            "GBReference_pubmed": "6771288",
+            "GBReference_remark": "FUNCTION."
+        },
+        {
+            "GBReference_reference": "4",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Martin,B.M.",
+                "Chibber,B.A.",
+                "Maelicke,A."
+            ],
+            "GBReference_title": "The sites of neurotoxicity in alpha-cobratoxin",
+            "GBReference_journal": "J Biol Chem 258 (14), 8714-8722 (1983)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/s0021-9258(18)32115-x"
+                }
+            ],
+            "GBReference_pubmed": "6553056",
+            "GBReference_remark": "FUNCTION."
+        },
+        {
+            "GBReference_reference": "5",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Alkondon,M.",
+                "Albuquerque,E.X."
+            ],
+            "GBReference_title": "alpha-Cobratoxin blocks the nicotinic acetylcholine receptor in rat hippocampal neurons",
+            "GBReference_journal": "Eur J Pharmacol 191 (3), 505-506 (1990)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/0014-2999(90)94190-9"
+                }
+            ],
+            "GBReference_pubmed": "2086254",
+            "GBReference_remark": "FUNCTION."
+        },
+        {
+            "GBReference_reference": "6",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Apel,C.",
+                "Ricny,J.",
+                "Wagner,G.",
+                "Wessler,I."
+            ],
+            "GBReference_title": "alpha-Bungarotoxin, kappa-bungarotoxin, alpha-cobratoxin and erabutoxin-b do not affect [3H]acetylcholine release from the rat isolated left hemidiaphragm",
+            "GBReference_journal": "Naunyn Schmiedebergs Arch Pharmacol 352 (6), 646-652 (1995)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1007/BF00171324"
+                }
+            ],
+            "GBReference_pubmed": "9053737",
+            "GBReference_remark": "FUNCTION."
+        },
+        {
+            "GBReference_reference": "7",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Servent,D.",
+                "Winckler-Dietrich,V.",
+                "Hu,H.Y.",
+                "Kessler,P.",
+                "Drevet,P.",
+                "Bertrand,D.",
+                "Menez,A."
+            ],
+            "GBReference_title": "Only snake curaremimetic toxins with a fifth disulfide bond have high affinity for the neuronal alpha7 nicotinic receptor",
+            "GBReference_journal": "J Biol Chem 272 (39), 24279-24286 (1997)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1074/jbc.272.39.24279"
+                }
+            ],
+            "GBReference_pubmed": "9305882",
+            "GBReference_remark": "FUNCTION."
+        },
+        {
+            "GBReference_reference": "8",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Dajas-Bailador,F.",
+                "Costa,G.",
+                "Dajas,F.",
+                "Emmett,S."
+            ],
+            "GBReference_title": "Effects of alpha-erabutoxin, alpha-bungarotoxin, alpha-cobratoxin and fasciculin on the nicotine-evoked release of dopamine in the rat striatum in vivo",
+            "GBReference_journal": "Neurochem Int 33 (4), 307-312 (1998)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/s0197-0186(98)00033-3"
+                }
+            ],
+            "GBReference_pubmed": "9840221",
+            "GBReference_remark": "FUNCTION."
+        },
+        {
+            "GBReference_reference": "9",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Antil,S.",
+                "Servent,D.",
+                "Menez,A."
+            ],
+            "GBReference_title": "Variability among the sites by which curaremimetic toxins bind to torpedo acetylcholine receptor, as revealed by identification of the functional residues of alpha-cobratoxin",
+            "GBReference_journal": "J Biol Chem 274 (49), 34851-34858 (1999)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1074/jbc.274.49.34851"
+                }
+            ],
+            "GBReference_pubmed": "10574958",
+            "GBReference_remark": "FUNCTION, SYNTHESIS, MUTAGENESIS OF LYS-23; TRP-25; ASP-27; PHE-29; ARG-33; ARG-36; LYS-49 AND PHE-65, AND SITES LYS-23; TRP-25; ASP-27; PHE-29; ARG-33; ARG-36; LYS-49 AND PHE-65."
+        },
+        {
+            "GBReference_reference": "10",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Antil-Delbeke,S.",
+                "Gaillard,C.",
+                "Tamiya,T.",
+                "Corringer,P.J.",
+                "Changeux,J.P.",
+                "Servent,D.",
+                "Menez,A."
+            ],
+            "GBReference_title": "Molecular determinants by which a long chain toxin from snake venom interacts with the neuronal alpha 7-nicotinic acetylcholine receptor",
+            "GBReference_journal": "J Biol Chem 275 (38), 29594-29601 (2000)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1074/jbc.M909746199"
+                }
+            ],
+            "GBReference_pubmed": "10852927",
+            "GBReference_remark": "MUTAGENESIS OF TRP-25; ASP-27; ALA-28; PHE-29; ARG-33; LYS-35; ARG-36 AND PHE-65, AND SITES TRP-25; ASP-27; ALA-28; PHE-29; ARG-33; LYS-35; ARG-36 AND PHE-65."
+        },
+        {
+            "GBReference_reference": "11",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Kudryavtsev,D.S.",
+                "Shelukhina,I.V.",
+                "Son,L.V.",
+                "Ojomoko,L.O.",
+                "Kryukova,E.V.",
+                "Lyukmanova,E.N.",
+                "Zhmak,M.N.",
+                "Dolgikh,D.A.",
+                "Ivanov,I.A.",
+                "Kasheverov,I.E.",
+                "Starkov,V.G.",
+                "Ramerstorfer,J.",
+                "Sieghart,W.",
+                "Tsetlin,V.I.",
+                "Utkin,Y.N."
+            ],
+            "GBReference_title": "Neurotoxins from snake venoms and alpha-conotoxin ImI inhibit functionally active ionotropic gamma-aminobutyric acid (GABA) receptors",
+            "GBReference_journal": "J Biol Chem 290 (37), 22747-22758 (2015)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1074/jbc.M115.648824"
+                }
+            ],
+            "GBReference_pubmed": "26221036",
+            "GBReference_remark": "FUNCTION.;\nTISSUE=Venom"
+        },
+        {
+            "GBReference_reference": "12",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Yu,J.",
+                "Zhu,X.",
+                "Zhang,L.",
+                "Kudryavtsev,D.",
+                "Kasheverov,I.",
+                "Lei,Y.",
+                "Zhangsun,D.",
+                "Tsetlin,V.",
+                "Luo,S."
+            ],
+            "GBReference_title": "Species specificity of rat and human alpha7 nicotinic acetylcholine receptors towards different classes of peptide and protein antagonists",
+            "GBReference_journal": "Neuropharmacology 139, 226-237 (2018)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/j.neuropharm.2018.07.019"
+                }
+            ],
+            "GBReference_pubmed": "30025921",
+            "GBReference_remark": "FUNCTION ON ALPHA-7/CHRNA7 NACHR, AND SYNTHESIS."
+        },
+        {
+            "GBReference_reference": "13",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Fruchart-Gaillard,C.",
+                "Gilquin,B.",
+                "Antil-Delbeke,S.",
+                "Le Novere,N.",
+                "Tamiya,T.",
+                "Corringer,P.J.",
+                "Changeux,J.P.",
+                "Menez,A.",
+                "Servent,D."
+            ],
+            "GBReference_title": "Experimentally based model of a complex between a snake toxin and the alpha 7 nicotinic receptor",
+            "GBReference_journal": "Proc Natl Acad Sci U S A 99 (5), 3216-3221 (2002)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1073/pnas.042699899"
+                }
+            ],
+            "GBReference_pubmed": "11867717",
+            "GBReference_remark": "3D-STRUCTURE MODELING."
+        },
+        {
+            "GBReference_reference": "14",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Walkinshaw,M.D.",
+                "Saenger,W.",
+                "Maelicke,A."
+            ],
+            "GBReference_title": "Three-dimensional structure of the 'long' neurotoxin from cobra venom",
+            "GBReference_journal": "Proc Natl Acad Sci U S A 77 (5), 2400-2404 (1980)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1073/pnas.77.5.2400"
+                }
+            ],
+            "GBReference_pubmed": "6930640",
+            "GBReference_remark": "X-RAY CRYSTALLOGRAPHY (2.8 ANGSTROMS), AND DISULFIDE BONDS."
+        },
+        {
+            "GBReference_reference": "15",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Betzel,C.",
+                "Lange,G.",
+                "Pal,G.P.",
+                "Wilson,K.S.",
+                "Maelicke,A.",
+                "Saenger,W."
+            ],
+            "GBReference_title": "The refined crystal structure of alpha-cobratoxin from Naja naja siamensis at 2.4-A resolution",
+            "GBReference_journal": "J Biol Chem 266 (32), 21530-21536 (1991)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.2210/pdb2ctx/pdb"
+                }
+            ],
+            "GBReference_pubmed": "1939183",
+            "GBReference_remark": "X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS), AND DISULFIDE BONDS."
+        },
+        {
+            "GBReference_reference": "16",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Laplante,S.R.",
+                "Mikou,A.",
+                "Robin,M.",
+                "Guittet,E.",
+                "Delsuc,M.A.",
+                "Charpentier,I.",
+                "Lallemand,J.Y."
+            ],
+            "GBReference_title": "Rapid determination and NMR assignments of antiparallel sheets and helices of a scorpion and a cobra toxin",
+            "GBReference_journal": "Int J Pept Protein Res 36 (3), 227-230 (1990)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1111/j.1399-3011.1990.tb00971.x"
+                }
+            ],
+            "GBReference_pubmed": "2279844",
+            "GBReference_remark": "STRUCTURE BY NMR, AND DISULFIDE BONDS."
+        },
+        {
+            "GBReference_reference": "17",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Le Goas,R.",
+                "LaPlante,S.R.",
+                "Mikou,A.",
+                "Delsuc,M.A.",
+                "Guittet,E.",
+                "Robin,M.",
+                "Charpentier,I.",
+                "Lallemand,J.Y."
+            ],
+            "GBReference_title": "Alpha-cobratoxin: proton NMR assignments and solution structure",
+            "GBReference_journal": "Biochemistry 31 (20), 4867-4875 (1992)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1021/bi00135a018"
+                }
+            ],
+            "GBReference_pubmed": "1317211",
+            "GBReference_remark": "STRUCTURE BY NMR, AND DISULFIDE BONDS."
+        },
+        {
+            "GBReference_reference": "18",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Zeng,H.",
+                "Hawrot,E."
+            ],
+            "GBReference_title": "NMR-based binding screen and structural analysis of the complex formed between alpha-cobratoxin and an 18-mer cognate peptide derived from the alpha 1 subunit of the nicotinic acetylcholine receptor from Torpedo californica",
+            "GBReference_journal": "J Biol Chem 277 (40), 37439-37445 (2002)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1074/jbc.M205483200"
+                }
+            ],
+            "GBReference_pubmed": "12133834",
+            "GBReference_remark": "STRUCTURE BY NMR, AND DISULFIDE BONDS."
+        },
+        {
+            "GBReference_reference": "19",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Bourne,Y.",
+                "Talley,T.T.",
+                "Hansen,S.B.",
+                "Taylor,P.",
+                "Marchot,P."
+            ],
+            "GBReference_title": "Crystal structure of a Cbtx-AChBP complex reveals essential interactions between snake alpha-neurotoxins and nicotinic receptors",
+            "GBReference_journal": "EMBO J 24 (8), 1512-1522 (2005)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1038/sj.emboj.7600620"
+                }
+            ],
+            "GBReference_pubmed": "15791209",
+            "GBReference_remark": "X-RAY CRYSTALLOGRAPHY (4.2 ANGSTROMS), AND DISULFIDE BONDS.; Erratum:[EMBO J. 2006 Jan 11;25(1):266]"
+        },
+        {
+            "GBReference_reference": "20",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Bourne,Y.",
+                "Talley,T.T.",
+                "Hansen,S.B.",
+                "Taylor,P.",
+                "Marchot,P."
+            ],
+            "GBReference_journal": "EMBO J. 25, 266-266 (2006)",
+            "GBReference_remark": "ERRATUM OF PUBMED:15791209."
+        },
+        {
+            "GBReference_reference": "21",
+            "GBReference_position": "1..71",
+            "GBReference_authors": [
+                "Osipov,A.V.",
+                "Rucktooa,P.",
+                "Kasheverov,I.E.",
+                "Filkin,S.Y.",
+                "Starkov,V.G.",
+                "Andreeva,T.V.",
+                "Sixma,T.K.",
+                "Bertrand,D.",
+                "Utkin,Y.N.",
+                "Tsetlin,V.I."
+            ],
+            "GBReference_title": "Dimeric alpha-cobratoxin X-ray structure: localization of intermolecular disulfides and possible mode of binding to nicotinic acetylcholine receptors",
+            "GBReference_journal": "J Biol Chem 287 (9), 6725-6734 (2012)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1074/jbc.M111.322313"
+                }
+            ],
+            "GBReference_pubmed": "22223648",
+            "GBReference_remark": "X-RAY CRYSTALLOGRAPHY (1.94 ANGSTROMS), DISULFIDE BOND (HOMODIMER), FUNCTION, AND SUBUNIT.;\nTISSUE=Venom"
+        }
+    ],
+    "GBSeq_comment": "On Apr 26, 2005 this sequence version replaced gi:69423.; [FUNCTION] Monomer: binds with high affinity to muscular (alpha-1-beta-1-gamma-delta/CHRNA1-CHRNB1-CHRNG-CHRND) nAChR (tested on Torpedo californica, Kd=0.2-4.5 nM) and neuronal alpha-7/CHRNA7 nicotinic acetylcholine receptors (Kd=13-105 nM) (PubMed:18381281, PubMed:9305882, PubMed:22223648). Also inhibits GABA(A) channels (PubMed:26221036). Heteropentamer targets studied are composed of alpha-1-beta-3-gamma-2 (GABRA1-GABRB3-GABRG2) subunits (IC(50)=236 nM), alpha-1-beta-2-gamma-2 (GABRA1-GABRB2-GABRG2) subunits (IC(50)=469 nM), alpha-2-beta-2-gamma-2 (GABRA2-GABRB2-GABRG2) subunits (IC(50)=485 nM), alpha-5-beta-3-gamma-2 (GABRA5-GABRB3-GABRG2) subunits (IC(50)=635 nM), and alpha-2-beta-3-gamma-2 (GABRA2-GABRB3-GABRG2) subunits (IC(50)=1099 nM) (activated by 10 uM GABA) (PubMed:26221036). {ECO:0000269|PubMed:18381281, ECO:0000269|PubMed:22223648, ECO:0000269|PubMed:26221036, ECO:0000269|PubMed:30025921}.; [FUNCTION] Homodimer: binds with high affinity (but lower than the monomeric form) to muscular (IC(50)=9.7 nM) and with low affinity to neuronal alpha-7/CHRNA7 nAChRs (IC(50)=1370 nM) (PubMed:22223648). However, it acquires (compared to the monomeric form) the capacity to block alpha-3/beta-2 (CHRNA3/CHRNB2) nAChRs (PubMed:18381281). {ECO:0000269|PubMed:18381281, ECO:0000269|PubMed:22223648}.; [FUNCTION] Heterodimer with cytotoxin 3 (AC P01446): is slightly more active than the homodimer in inhibiting alpha-7/CHRNA7 nAChR and is considerably more active in blocking the alpha-3-beta-2/CHRNA3-CHRNB2 nAChR. {ECO:0000269|PubMed:22223648}.; [SUBUNIT] Monomer, homo- or heterodimer with cytotoxins 1 (P60305), 2 (AC P01445), and 3 (AC P01446); disulfide-linked. {ECO:0000269|PubMed:12133834, ECO:0000269|PubMed:1317211, ECO:0000269|PubMed:15791209, ECO:0000269|PubMed:18381281, ECO:0000269|PubMed:1939183, ECO:0000269|PubMed:22223648, ECO:0000269|PubMed:2279844, ECO:0000269|PubMed:6930640}.; [SUBCELLULAR LOCATION] Secreted {ECO:0000269|Ref.1}.; [TISSUE SPECIFICITY] Expressed by the venom gland. {ECO:0000305}.; [PTM] In homodimer alpha-cobratoxin, selective reduction of Cys(26)-Cys(30) in one subunit does not affect the activity against the alpha-7/CHRNA7 nAChR, whereas its reduction in both subunits almost prevents alpha-7/CHRNA7 nAChR recognition. On the contrary, reduction of one or both Cys(26)-Cys(30) disulfide bonds in the homodimer considerably potentiates inhibition of the alpha-3-beta-2/CHRNA3-CHRNB2 nAChR by the toxin. {ECO:0000269|PubMed:22223648}.; [MISCELLANEOUS] The monomeric form has no effect on alpha-3/beta-2 (CHRNA3/CHRNB2) nAChR (PubMed:18381281). It does not show any blockade of the nicotine-evoked release of dopamine (PubMed:9840221) and does not affect ACh release. {ECO:0000269|PubMed:18381281, ECO:0000269|PubMed:9840221}.; [MISCELLANEOUS] Exists in two forms, due to cis-trans isomerization at 6-Thr-Pro-7 (Probable). In the dimeric form, the Pro-7 is extended away from the toxin core whereas in the monomeric form, Pro-7 makes a turn (PubMed:22223648). {ECO:0000269|PubMed:22223648, ECO:0000305}.; [SIMILARITY] Belongs to the snake three-finger toxin family. Long-chain subfamily. Type II alpha-neurotoxin sub-subfamily. {ECO:0000305}.",
+    "GBSeq_source-db": "UniProtKB: locus 3L21_NAJKA, accession P01391;; class: standard.; created: Jul 21, 1986.; sequence updated: Jul 21, 1986.; annotation updated: Dec 14, 2022.; xrefs: N2NJ1S, 1CTX_A, 1LXG_A, 1LXH_A, 1YI5_F, 1YI5_G, 1YI5_H, 1YI5_I, 1YI5_J, 4AEA_A, 4AEA_B, 6ZFM_A, 6ZFM_B, 6ZFM_D, 6ZFM_E, 7PC0_K, 7PC0_L; xrefs (non-sequence databases): PDBsum:1CTX, PDBsum:1LXG, PDBsum:1LXH, PDBsum:1YI5, PDBsum:4AEA, PDBsum:6ZFM, PDBsum:7PC0, AlphaFoldDB:P01391, SMR:P01391, BindingDB:P01391, ChEMBL:CHEMBL4739673, EvolutionaryTrace:P01391, GO:0005576, GO:0030550, GO:0099106, GO:0090729, CDD:cd00206, Gene3D:2.10.60.10, InterPro:IPR003571, InterPro:IPR045860, InterPro:IPR018354, SUPFAM:SSF57302, PROSITE:PS00272",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..71",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "71",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Naja kaouthia"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8649"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..71",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "71",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "Alpha-cobratoxin"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Alpha-CT; Alpha-CbT; Alpha-Cbtx; Alpha-Ctx; Alpha-elapitoxin-Nk2a; Long neurotoxin 1; Siamensis 3; Alpha-EPTX-Nk2a"
+                },
+                {
+                    "GBQualifier_name": "UniProtKB_evidence",
+                    "GBQualifier_value": "Evidence at protein level"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "7831"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "1..71",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "71",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Mature chain"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Alpha-cobratoxin. /evidence=ECO:0000269|Ref.1. /id=PRO_0000093554."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "2..4",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "2",
+                    "GBInterval_to": "4",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Beta-strand region"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0007829|PDB:6ZFM."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "3..63",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "3",
+                    "GBInterval_to": "63",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "snake_toxin"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Snake toxin domain, present in short and long neurotoxins, cytotoxins and short toxins, and in other miscellaneous venom peptides. The toxin acts by binding to the nicotinic acetylcholine receptors in the postsynaptic membrane of skeletal muscles and...; cd00206"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(3,20)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "3",
+                    "GBInterval_accession": "P01391.1"
+                },
+                {
+                    "GBInterval_point": "20",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "In monomer, partial. /evidence=ECO:0000269|PubMed:12133834, ECO:0000269|PubMed:1317211, ECO:0000269|PubMed:15791209, ECO:0000269|PubMed:1939183, ECO:0000269|PubMed:2279844, ECO:0000269|PubMed:6930640, ECO:0007744|PDB:1CTX, ECO:0007744|PDB:1LXG, ECO:0007744|PDB:1LXH, ECO:0007744|PDB:1YI5."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(3)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "3",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Interchain (with C-20); in homodimer; partial. /evidence=ECO:0000269|PubMed:22223648, ECO:0007744|PDB:4AEA."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "order(6,10,24..25,33..38)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "6",
+                    "GBInterval_accession": "P01391.1"
+                },
+                {
+                    "GBInterval_point": "10",
+                    "GBInterval_accession": "P01391.1"
+                },
+                {
+                    "GBInterval_from": "24",
+                    "GBInterval_to": "25",
+                    "GBInterval_accession": "P01391.1"
+                },
+                {
+                    "GBInterval_from": "33",
+                    "GBInterval_to": "38",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_operator": "order",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "active"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "receptor binding site [active]"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "10..13",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "10",
+                    "GBInterval_to": "13",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Beta-strand region"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0007829|PDB:6ZFM."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(14,41)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "14",
+                    "GBInterval_accession": "P01391.1"
+                },
+                {
+                    "GBInterval_point": "41",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000269|PubMed:12133834, ECO:0000269|PubMed:1317211, ECO:0000269|PubMed:15791209, ECO:0000269|PubMed:1939183, ECO:0000269|PubMed:22223648, ECO:0000269|PubMed:2279844, ECO:0000269|PubMed:6930640, ECO:0007744|PDB:1CTX, ECO:0007744|PDB:1LXG, ECO:0007744|PDB:1LXH, ECO:0007744|PDB:1YI5, ECO:0007744|PDB:4AEA."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "19..25",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "19",
+                    "GBInterval_to": "25",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Beta-strand region"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0007829|PDB:6ZFM."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(20)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "20",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Interchain (with C-3); in homodimer; partial. /evidence=ECO:0000269|PubMed:22223648, ECO:0007744|PDB:4AEA."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "23",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "23",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "other"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Binds to Torpedo AChR. /evidence=ECO:0000269|PubMed:10574958."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "23",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "23",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "mutagenized"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "K->E: 2-fold and 28-fold decrease in affinity for Torpedo AChRs. /evidence=ECO:0000269|PubMed:10574958."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "25",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "25",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "other"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Binds to both neuronal alpha-7/CHRNA7 and Torpedo AChRs. /evidence=ECO:0000269|PubMed:10574958, ECO:0000269|PubMed:10852927."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "25",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "25",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "mutagenized"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "W->A: 11-fold decrease in affinity for Torpedo AChRs and 6-fold decrease in affinity for neuronal alpha-7/CHRNA7 AChR. /evidence=ECO:0000269|PubMed:10574958, ECO:0000269|PubMed:10852927."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(26,30)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "26",
+                    "GBInterval_accession": "P01391.1"
+                },
+                {
+                    "GBInterval_point": "30",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000269|PubMed:12133834, ECO:0000269|PubMed:1317211, ECO:0000269|PubMed:15791209, ECO:0000269|PubMed:1939183, ECO:0000269|PubMed:22223648, ECO:0000269|PubMed:2279844, ECO:0000269|PubMed:6930640, ECO:0007744|PDB:1CTX, ECO:0007744|PDB:1LXG, ECO:0007744|PDB:1LXH, ECO:0007744|PDB:1YI5, ECO:0007744|PDB:4AEA."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "27..29",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "27",
+                    "GBInterval_to": "29",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Hydrogen bonded turn"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0007829|PDB:1LXG."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "27",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "27",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "other"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Binds to both neuronal alpha-7/CHRNA7 and Torpedo AChRs. /evidence=ECO:0000269|PubMed:10574958, ECO:0000269|PubMed:10852927."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "27",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "27",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "mutagenized"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "D->R: 31-fold decrease in affinity for Torpedo AChRs and 50-fold decrease in affinity for neuronal alpha-7/CHRNA7 AChR. /evidence=ECO:0000269|PubMed:10574958, ECO:0000269|PubMed:10852927."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "28",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "28",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "mutagenized"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "A->G: 5-fold decrease in affinity for neuronal alpha-7/CHRNA7 AChR. /evidence=ECO:0000269|PubMed:10852927."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "28",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "28",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "other"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Binds to alpha-7/CHRNA7 AChR. /evidence=ECO:0000269|PubMed:10852927."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "29",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "29",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "other"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Binds to both neuronal alpha-7/CHRNA7 and Torpedo AChRs. /evidence=ECO:0000269|PubMed:10574958, ECO:0000269|PubMed:10852927."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "29",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "29",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "mutagenized"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "F->A: 12-fold decrease in affinity for Torpedo AChRs and 74-fold decrease in affinity for neuronal alpha-7/CHRNA7 AChR. /evidence=ECO:0000269|PubMed:10574958, ECO:0000269|PubMed:10852927."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "30..33",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "30",
+                    "GBInterval_to": "33",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Helical region"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0007829|PDB:6ZFM."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "33",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "33",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "other"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Binds to both neuronal alpha-7/CHRNA7 and Torpedo AChRs. /evidence=ECO:0000269|PubMed:10574958, ECO:0000269|PubMed:10852927."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "33",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "33",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "mutagenized"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "R->E: 767-fold decrease in affinity for Torpedo AChRs and 339-fold decrease in affinity for neuronal alpha-7/CHRNA7 AChR. /evidence=ECO:0000269|PubMed:10574958, ECO:0000269|PubMed:10852927."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "35",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "35",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "other"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Binds to alpha-7/CHRNA7 AChR. /evidence=ECO:0000269|PubMed:10852927."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "35",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "35",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "mutagenized"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "K->A: 11-fold decrease in affinity for neuronal alpha-7/CHRNA7 AChR. /evidence=ECO:0000269|PubMed:10852927."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "36..44",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "36",
+                    "GBInterval_to": "44",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Beta-strand region"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0007829|PDB:6ZFM."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "36",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "36",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "other"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Binds to both neuronal alpha-7/CHRNA7 and Torpedo AChRs, may be important for inhibition of GABA(A) receptors. /evidence=ECO:0000269|PubMed:10574958, ECO:0000269|PubMed:10852927, ECO:0000305|PubMed:26221036."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "36",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "36",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "mutagenized"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "R->A: 16-fold decrease in affinity for Torpedo AChRs. /evidence=ECO:0000269|PubMed:10574958, ECO:0000269|PubMed:10852927."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(45,56)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "45",
+                    "GBInterval_accession": "P01391.1"
+                },
+                {
+                    "GBInterval_point": "56",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000269|PubMed:12133834, ECO:0000269|PubMed:1317211, ECO:0000269|PubMed:15791209, ECO:0000269|PubMed:1939183, ECO:0000269|PubMed:22223648, ECO:0000269|PubMed:2279844, ECO:0000269|PubMed:6930640, ECO:0007744|PDB:1CTX, ECO:0007744|PDB:1LXG, ECO:0007744|PDB:1LXH, ECO:0007744|PDB:1YI5, ECO:0007744|PDB:4AEA."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "49",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "49",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "other"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Binds to Torpedo AChR. /evidence=ECO:0000269|PubMed:10574958."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "49",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "49",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "mutagenized"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "K->E: 3-fold and 53-fold decrease in affinity for Torpedo AChRs. /evidence=ECO:0000269|PubMed:10574958."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "52..57",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "52",
+                    "GBInterval_to": "57",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Beta-strand region"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0007829|PDB:6ZFM."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(57,62)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "57",
+                    "GBInterval_accession": "P01391.1"
+                },
+                {
+                    "GBInterval_point": "62",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000269|PubMed:12133834, ECO:0000269|PubMed:1317211, ECO:0000269|PubMed:15791209, ECO:0000269|PubMed:1939183, ECO:0000269|PubMed:22223648, ECO:0000269|PubMed:2279844, ECO:0000269|PubMed:6930640, ECO:0007744|PDB:1CTX, ECO:0007744|PDB:1LXG, ECO:0007744|PDB:1LXH, ECO:0007744|PDB:1YI5, ECO:0007744|PDB:4AEA."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "59..63",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "59",
+                    "GBInterval_to": "63",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Beta-strand region"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0007829|PDB:1LXG."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "65",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "65",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "other"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Binds to both neuronal alpha-7/CHRNA7 and Torpedo AChRs. /evidence=ECO:0000269|PubMed:10574958, ECO:0000269|PubMed:10852927."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "65",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "65",
+                    "GBInterval_accession": "P01391.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "mutagenized"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "F->A: 7-fold decrease in affinity for Torpedo AChRs and 15-fold decrease in affinity for neuronal alpha-7/CHRNA7 AChR. /evidence=ECO:0000269|PubMed:10574958, ECO:0000269|PubMed:10852927."
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "ircfitpditskdcpnghvcytktwcdafcsirgkrvdlgcaatcptvktgvdiqccstdncnpfptrkrp"
+}

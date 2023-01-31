@@ -1,0 +1,172 @@
+{
+    "GBSeq_locus": "DQ917503",
+    "GBSeq_length": "357",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "11-OCT-2007",
+    "GBSeq_create-date": "11-OCT-2007",
+    "GBSeq_definition": "Rhinoplocephalus nigrescens SNTX-2 precursor, mRNA, complete cds",
+    "GBSeq_primary-accession": "DQ917503",
+    "GBSeq_accession-version": "DQ917503.1",
+    "GBSeq_other-seqids": [
+        "gb|DQ917503.1|",
+        "gi|118151683"
+    ],
+    "GBSeq_source": "Cryptophis nigrescens",
+    "GBSeq_organism": "Cryptophis nigrescens",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Cryptophis",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..357",
+            "GBReference_authors": [
+                "St Pierre,L.",
+                "Fischer,H.",
+                "Adams,D.J.",
+                "Schenning,M.",
+                "Lavidis,N.",
+                "de Jersey,J.",
+                "Masci,P.P.",
+                "Lavin,M.F."
+            ],
+            "GBReference_title": "Distinct activities of novel neurotoxins from Australian venomous snakes for nicotinic acetylcholine receptors",
+            "GBReference_journal": "Cell. Mol. Life Sci. 64 (21), 2829-2840 (2007)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1007/s00018-007-7352-z"
+                }
+            ],
+            "GBReference_pubmed": "17906946"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..357",
+            "GBReference_authors": [
+                "St Pierre,L."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (22-AUG-2006) Queensland Institute of Medical Research, 300 Herston Rd, Brisbane, QLD 4029, Australia"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..357",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "357",
+                    "GBInterval_accession": "DQ917503.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Cryptophis nigrescens"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:292442"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "small eyed snake"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..246",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "246",
+                    "GBInterval_accession": "DQ917503.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "short chain alpha-neurotoxin"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "SNTX-2 precursor"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "ABK63532.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGYTMTCCNQQSSQPKTITTCAESSCYKKTWKDHHGTRIERGCGCPKVKPGVGLECCKTDECNN"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "1..63",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "63",
+                    "GBInterval_accession": "DQ917503.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGYT"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "mat_peptide",
+            "GBFeature_location": "64..243",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "64",
+                    "GBInterval_to": "243",
+                    "GBInterval_accession": "DQ917503.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "SNTX-2"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MTCCNQQSSQPKTITTCAESSCYKKTWKDHHGTRIERGCGCPKVKPGVGLECCKTDECNN"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "3'UTR",
+            "GBFeature_location": "247..357",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "247",
+                    "GBInterval_to": "357",
+                    "GBInterval_accession": "DQ917503.1"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctgaccttggtggtggtgacaatcgtgtgcctggacttaggatacaccatgacatgttgcaaccaacagtcatcgcaacctaaaaccattacaacttgtgcagagagctcttgctataaaaagacttggaaagatcaccatggaactagaattgaaaggggatgtggttgccctaaagtgaagcccggtgttggacttgaatgttgcaaaacagatgaatgcaataattagctctcccagtggctaaactccttgagtttcgctctcatccatcaaggaccatccttgaaaatttatgcttctggcctttaccaccacatggtccaccatccccctctcccc"
+}

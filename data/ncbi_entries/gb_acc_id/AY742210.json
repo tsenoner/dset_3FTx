@@ -1,0 +1,140 @@
+{
+    "GBSeq_locus": "AY742210",
+    "GBSeq_length": "246",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "21-DEC-2007",
+    "GBSeq_create-date": "25-OCT-2004",
+    "GBSeq_definition": "Acalyptophis peroni short neurotoxin isoform 1 precursor, mRNA, complete cds",
+    "GBSeq_primary-accession": "AY742210",
+    "GBSeq_accession-version": "AY742210.1",
+    "GBSeq_other-seqids": [
+        "gb|AY742210.1|",
+        "gi|54306411"
+    ],
+    "GBSeq_source": "Hydrophis peronii (Spiny-headed seasnake)",
+    "GBSeq_organism": "Hydrophis peronii",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Hydrophiidae; Hydrophis",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..246",
+            "GBReference_authors": [
+                "Pahari,S.",
+                "Bickford,D.",
+                "Fry,B.G.",
+                "Kini,R.M."
+            ],
+            "GBReference_title": "Expression pattern of three-finger toxin and phospholipase A2 genes in the venom glands of two sea snakes, Lapemis curtus and Acalyptophis peronii: comparison of evolution of these toxins in land snakes, sea kraits and sea snakes",
+            "GBReference_journal": "BMC Evol. Biol. 7, 175 (2007)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1186/1471-2148-7-175"
+                }
+            ],
+            "GBReference_pubmed": "17900344",
+            "GBReference_remark": "Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..246",
+            "GBReference_authors": [
+                "Kini,R.M.",
+                "Pahari,S."
+            ],
+            "GBReference_title": "Acalyptophis peronii neurotoxin",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "3",
+            "GBReference_position": "1..246",
+            "GBReference_authors": [
+                "Kini,R.M.",
+                "Pahari,S."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (01-SEP-2004) Biological Sciences, National University of Singapore, 14 Science Drive 4, Singapore 117543, Singapore"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..246",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "246",
+                    "GBInterval_accession": "AY742210.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Hydrophis peronii"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8676"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..246",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "246",
+                    "GBInterval_accession": "AY742210.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "short neurotoxin isoform 1 precursor"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "AAV33393.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLSPVVVTIVCLDLGYTMTCCNQQSSQPKTTTNCAGNSCYKKTWSDHRGTIIERGCGCPQVKSGIKLECCHTNECNN"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "1..63",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "63",
+                    "GBInterval_accession": "AY742210.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MKTLLLSPVVVTIVCLDLGYT"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctgtccccggtggtggtgacaatcgtgtgcctggacttaggatacaccatgacatgttgcaaccaacagtcatcgcaacctaaaaccactacaaattgtgcagggaactcttgctataaaaagacttggagcgatcaccgtggaactataattgaaaggggatgtggttgccctcaggtgaagagcggtattaaacttgaatgttgccatacaaacgaatgcaacaattag"
+}

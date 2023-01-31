@@ -1,0 +1,1539 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P82935",
+    "uniProtkbId": "3NO2_NAJKA",
+    "entryAudit": {
+        "firstPublicDate": "2001-06-01",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2010-11-02",
+        "entryVersion": 86,
+        "sequenceVersion": 2
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Naja kaouthia",
+        "commonName": "Monocled cobra",
+        "synonyms": [
+            "Naja siamensis"
+        ],
+        "taxonId": 8649,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Naja"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "11223079"
+                    }
+                ],
+                "value": "Tryptophan-containing weak neurotoxin"
+            },
+            "shortNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "15581687"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "19377518"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "19682302"
+                        }
+                    ],
+                    "value": "WTX"
+                }
+            ]
+        },
+        "flag": "Precursor"
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "11279130"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "15581687"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "17371532"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "19682302"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "26221036"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "27343701"
+                        }
+                    ],
+                    "value": "Neurotoxin that irreversibly inhibits nicotinic acetylcholine receptors (nAChR) and allosterically interacts with muscarinic acetylcholine receptors (mAChR) (PubMed:11279130, PubMed:19682302). The loop II is involved in the interaction of this toxin with nAChR and mAChR (PubMed:27343701, PubMed:26242733). On nAChR, it acts as a competitive antagonist (muscle-type and alpha-7/CHRNA7) with IC(50) values in the micromolar range (PubMed:11279130, PubMed:27343701). On mAChR, in presence of ACh, it partially inhibits the effect of acetylcholine (ACh) (allosteric antagonist), whereas in the absence of ACh, it activates the receptor (allosteric agonist) (PubMed:19682302). It also shows a very weak inhibition of GABA(A) receptor composed of alpha-1-beta-3-gamma-2 (GABRA1 and GABRB3 and GABRG2) subunits (10 uM inhibit 31% current) (PubMed:26221036). In vivo, is nonlethal to mice at concentrations up to 20 mg/kg, but exerts a myorelaxant effect, induces a dose-dependent decrease in blood pressure and an increase in heart rate in mice and rats (PubMed:15581687, PubMed:17371532)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "26242733"
+                        }
+                    ],
+                    "value": "Monomer in solution"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "11223079"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305",
+                            "source": "PubMed",
+                            "id": "11223079"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "27343701"
+                        }
+                    ],
+                    "value": "The disulfide bond Cys-27-Cys-32 is probably not needed for efficient interaction of the toxin with the target receptor (Torpedo muscle or alpha-7/CHRNA7 nAChR)"
+                }
+            ],
+            "commentType": "PTM"
+        },
+        {
+            "commentType": "MASS SPECTROMETRY",
+            "method": "MALDI",
+            "molWeight": 7613.0,
+            "molWeightError": 0.0,
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "11223079"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "11279130"
+                }
+            ]
+        },
+        {
+            "commentType": "MASS SPECTROMETRY",
+            "method": "MALDI",
+            "molWeight": 7615.0,
+            "molWeightError": 0.0,
+            "note": "Average mass.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "17371532"
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "26242733"
+                        }
+                    ],
+                    "value": "Exists in two form, due to cis-trans isomeriation of the peptide bond 53-Arg-Pro-54"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Ancestral subfamily. Orphan group II sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "11223079"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 86,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Tryptophan-containing weak neurotoxin",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "11223079"
+                }
+            ],
+            "featureId": "PRO_0000093632"
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 52,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 52,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Important for interaction with human M1/CHRM1 and M3/CHRM3 mAChR, and muscle (Torpedo) and neuronal (alpha-7/CHRNA7) nAChR",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26242733"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27343701"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Important for interaction with human M1/CHRM1 and M3/CHRM3 mAChR, and muscle (Torpedo) and neuronal (alpha-7/CHRNA7) nAChR",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26242733"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27343701"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 58,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 58,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Important for interaction with human M1/CHRM1 and M3/CHRM3 mAChR, and only weakly for muscle (Torpedo) nAChR",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26242733"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27343701"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 45,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26242733"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2MJ0"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 32,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26242733"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2MJ0"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 38,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 63,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26242733"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2MJ0"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 67,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 78,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26242733"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2MJ0"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 79,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 84,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26242733"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2MJ0"
+                }
+            ]
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "About 3-fold increase in inhibition potency toward both muscle (Torpedo) and neuronal (alpha-7/CHRNA7) nAChR; when associated with S-32.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27343701"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "C",
+                "alternativeSequences": [
+                    "S"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 28,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 28,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "No change in inhibition potency toward both muscle (Torpedo) and neuronal (alpha-7/CHRNA7) nAChR.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27343701"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "P",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 32,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 32,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "About 3-fold increase in inhibition potency toward both muscle (Torpedo) and neuronal (alpha-7/CHRNA7) nAChR; when associated with S-27.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27343701"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "C",
+                "alternativeSequences": [
+                    "S"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 52,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 52,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "About 3.5-fold decrease in inhibition potency toward both muscle (Torpedo) and neuronal (alpha-7/CHRNA7) nAChR. About 4-fold decrease in inhibition potency toward muscle (Torpedo) nAChR and complete loss of inhibition potency toward neuronal (alpha-7/CHRNA7) nAChR; when associated with A-53.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27343701"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "About 3-fold decrease in inhibition potency toward muscle (Torpedo) nAChR and 5-fold decrease in inhibition potency toward neuronal (alpha-7/CHRNA7) nAChR. About 4-fold decrease in inhibition potency toward muscle (Torpedo) nAChR and complete loss of inhibition potency toward neuronal (alpha-7/CHRNA7) nAChR; when associated with A-52.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27343701"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 54,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 54,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Weak decrease in inhibition potency toward muscle (Torpedo) and neuronal (alpha-7/CHRNA7) nAChR.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27343701"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "P",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 57,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 57,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "About 2.5-fold decrease in inhibition potency toward muscle (Torpedo) nAChR and no change in inhibition potency of neuronal (alpha-7/CHRNA7) nAChR.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27343701"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "W",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 58,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 58,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Weak increase in inhibition potency toward both muscle (Torpedo) and neuronal (alpha-7/CHRNA7) nAChR.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27343701"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 25,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "2MJ0"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 28,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 31,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "2MJ0"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 35,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 38,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "2MJ0"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 44,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 50,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "2MJ0"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 55,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 57,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "2MJ0"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 59,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 66,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "2MJ0"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 77,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 79,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "2MJ0"
+                }
+            ]
+        },
+        {
+            "type": "Turn",
+            "location": {
+                "start": {
+                    "value": 82,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 85,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "2MJ0"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0002",
+            "category": "Technical term",
+            "name": "3D-structure"
+        },
+        {
+            "id": "KW-0123",
+            "category": "Molecular function",
+            "name": "Cardiotoxin"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-1214",
+            "category": "Molecular function",
+            "name": "G-protein coupled acetylcholine receptor impairing toxin"
+        },
+        {
+            "id": "KW-1213",
+            "category": "Molecular function",
+            "name": "G-protein coupled receptor impairing toxin"
+        },
+        {
+            "id": "KW-0528",
+            "category": "Molecular function",
+            "name": "Neurotoxin"
+        },
+        {
+            "id": "KW-0629",
+            "category": "Molecular function",
+            "name": "Postsynaptic neurotoxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "12716062",
+                "citationType": "journal article",
+                "authors": [
+                    "Oustitch T.L.",
+                    "Peters L.E.",
+                    "Utkin Y.N.",
+                    "Tsetlin V.I."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "12716062"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1080/1521654021000061664"
+                    }
+                ],
+                "title": "Direct cloning of a target gene from a pool of homologous sequences: complete cDNA sequence of a weak neurotoxin from cobra Naja kaouthia.",
+                "publicationDate": "2003",
+                "journal": "IUBMB Life",
+                "firstPage": "43",
+                "lastPage": "47",
+                "volume": "55"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA]"
+            ]
+        },
+        {
+            "citation": {
+                "id": "11223079",
+                "citationType": "journal article",
+                "authors": [
+                    "Utkin Y.N.",
+                    "Kukhtina V.V.",
+                    "Maslennikov I.V.",
+                    "Eletsky A.V.",
+                    "Starkov V.G.",
+                    "Weise C.",
+                    "Franke P.",
+                    "Hucho F.",
+                    "Tsetlin V.I."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11223079"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0041-0101(00)00223-3"
+                    }
+                ],
+                "title": "First tryptophan-containing weak neurotoxin from cobra venom.",
+                "publicationDate": "2001",
+                "journal": "Toxicon",
+                "firstPage": "921",
+                "lastPage": "927",
+                "volume": "39"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE OF 22-86",
+                "MASS SPECTROMETRY",
+                "SUBCELLULAR LOCATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "19377518",
+                "citationType": "journal article",
+                "authors": [
+                    "Starkov V.G.",
+                    "Polyak Y.L.",
+                    "Vulfius E.A.",
+                    "Kryukova E.V.",
+                    "Tsetlin V.I.",
+                    "Utkin Y.N."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "19377518"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1134/s1068162009010026"
+                    }
+                ],
+                "title": "New weak toxins from the cobra venom.",
+                "publicationDate": "2009",
+                "journal": "Russ. J. Bioorg. Chem.",
+                "firstPage": "15",
+                "lastPage": "24",
+                "volume": "35"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE OF 22-37"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "11279130",
+                "citationType": "journal article",
+                "authors": [
+                    "Utkin Y.N.",
+                    "Kukhtina V.V.",
+                    "Kryukova E.V.",
+                    "Chiodini F.",
+                    "Bertrand D.",
+                    "Methfessel C.",
+                    "Tsetlin V.I."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11279130"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m100788200"
+                    }
+                ],
+                "title": "'Weak toxin' from Naja kaouthia is a nontoxic antagonist of alpha-7 and muscle-type nicotinic acetylcholine receptors.",
+                "publicationDate": "2001",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "15810",
+                "lastPage": "15815",
+                "volume": "276"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "MASS SPECTROMETRY"
+            ]
+        },
+        {
+            "citation": {
+                "id": "15581687",
+                "citationType": "journal article",
+                "authors": [
+                    "Ogay A.Y.",
+                    "Rzhevsky D.I.",
+                    "Murashev A.N.",
+                    "Tsetlin V.I.",
+                    "Utkin Y.N."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15581687"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.toxicon.2004.09.014"
+                    }
+                ],
+                "title": "Weak neurotoxin from Naja kaouthia cobra venom affects haemodynamic regulation by acting on acetylcholine receptors.",
+                "publicationDate": "2005",
+                "journal": "Toxicon",
+                "firstPage": "93",
+                "lastPage": "99",
+                "volume": "45"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "17371532",
+                "citationType": "journal article",
+                "authors": [
+                    "Mordvintsev D.Y.",
+                    "Rodionov D.I.",
+                    "Makarova M.V.",
+                    "Kamensky A.A.",
+                    "Levitskaya N.G.",
+                    "Ogay A.Y.",
+                    "Rzhevsky D.I.",
+                    "Murashev A.N.",
+                    "Tsetlin V.I.",
+                    "Utkin Y.N."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "17371532"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1111/j.1742-7843.2007.00045.x"
+                    }
+                ],
+                "title": "Behavioural effects in mice and intoxication symptomatology of weak neurotoxin from cobra Naja kaouthia.",
+                "publicationDate": "2007",
+                "journal": "Basic Clin. Pharmacol. Toxicol.",
+                "firstPage": "273",
+                "lastPage": "278",
+                "volume": "100"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "BIOASSAY",
+                "MASS SPECTROMETRY"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "19682302",
+                "citationType": "journal article",
+                "authors": [
+                    "Mordvintsev D.Y.",
+                    "Polyak Y.L.",
+                    "Rodionov D.I.",
+                    "Jakubik J.",
+                    "Dolezal V.",
+                    "Karlsson E.",
+                    "Tsetlin V.I.",
+                    "Utkin Y.N."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "19682302"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1111/j.1742-4658.2009.07203.x"
+                    }
+                ],
+                "title": "Weak toxin WTX from Naja kaouthia cobra venom interacts with both nicotinic and muscarinic acetylcholine receptors.",
+                "publicationDate": "2009",
+                "journal": "FEBS J.",
+                "firstPage": "5065",
+                "lastPage": "5075",
+                "volume": "276"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "26221036",
+                "citationType": "journal article",
+                "authors": [
+                    "Kudryavtsev D.S.",
+                    "Shelukhina I.V.",
+                    "Son L.V.",
+                    "Ojomoko L.O.",
+                    "Kryukova E.V.",
+                    "Lyukmanova E.N.",
+                    "Zhmak M.N.",
+                    "Dolgikh D.A.",
+                    "Ivanov I.A.",
+                    "Kasheverov I.E.",
+                    "Starkov V.G.",
+                    "Ramerstorfer J.",
+                    "Sieghart W.",
+                    "Tsetlin V.I.",
+                    "Utkin Y.N."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "26221036"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m115.648824"
+                    }
+                ],
+                "title": "Neurotoxins from snake venoms and alpha-conotoxin ImI inhibit functionally active ionotropic gamma-aminobutyric acid (GABA) receptors.",
+                "publicationDate": "2015",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "22747",
+                "lastPage": "22758",
+                "volume": "290"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "27343701",
+                "citationType": "journal article",
+                "authors": [
+                    "Lyukmanova E.N.",
+                    "Shulepko M.A.",
+                    "Shenkarev Z.O.",
+                    "Kasheverov I.E.",
+                    "Chugunov A.O.",
+                    "Kulbatskii D.S.",
+                    "Myshkin M.Y.",
+                    "Utkin Y.N.",
+                    "Efremov R.G.",
+                    "Tsetlin V.I.",
+                    "Arseniev A.S.",
+                    "Kirpichnikov M.P.",
+                    "Dolgikh D.A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "27343701"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.toxicon.2016.06.012"
+                    }
+                ],
+                "title": "Central loop of non-conventional toxin WTX from Naja kaouthia is important for interaction with nicotinic acetylcholine receptors.",
+                "publicationDate": "2016",
+                "journal": "Toxicon",
+                "firstPage": "274",
+                "lastPage": "279",
+                "volume": "119"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "MUTAGENESIS OF CYS-27; PRO-28; CYS-32; ARG-52; ARG-53; PRO-54; TRP-57 AND ARG-58",
+                "RECOMBINANT EXPRESSION",
+                "3D-STRUCTURE MODELING IN COMPLEX WITH ALPHA-7/CHRNA7 NICOTINIC ACETYLCHOLINE RECEPTOR"
+            ]
+        },
+        {
+            "citation": {
+                "id": "26242733",
+                "citationType": "journal article",
+                "authors": [
+                    "Lyukmanova E.N.",
+                    "Shenkarev Z.O.",
+                    "Shulepko M.A.",
+                    "Paramonov A.S.",
+                    "Chugunov A.O.",
+                    "Janickova H.",
+                    "Dolejsi E.",
+                    "Dolezal V.",
+                    "Utkin Y.N.",
+                    "Tsetlin V.I.",
+                    "Arseniev A.S.",
+                    "Efremov R.G.",
+                    "Dolgikh D.A.",
+                    "Kirpichnikov M.P."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "26242733"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m115.656595"
+                    }
+                ],
+                "title": "Structural insight into specificity of interactions between nonconventional three-finger weak toxin from Naja kaouthia (WTX) and muscarinic acetylcholine receptors.",
+                "publicationDate": "2015",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "23616",
+                "lastPage": "23630",
+                "volume": "290"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR OF 22-86 OF MUTANT ALA-54",
+                "DISULFIDE BOND",
+                "RECOMBINANT EXPRESSION",
+                "3D-STRUCTURE MODELING IN COMPLEX WITH M1 AND M3 MUSCARINIC ACETYLCHOLINE RECEPTORS"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "PDB",
+            "id": "2MJ0",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-86"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "2MJ0",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "P82935",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BMRB",
+            "id": "P82935",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P82935",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00206",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "snake_toxin"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003571",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_3FTx"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018354",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin_con_site"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00272",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SNAKE_TOXIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKTLLLTLVVVTIVCLDLGYTLTCLNCPEMFCGKFQICRNGEKICFKKLHQRRPLSWRYIRGCADTCPVGKPYEMIECCSTDKCNR",
+        "length": 86,
+        "molWeight": 9915,
+        "crc64": "FF92791A8794E7E3",
+        "md5": "583C8B365F40A2D86245A9FC613CD8E8"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBUNIT": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "PTM": 1,
+            "MASS SPECTROMETRY": 2,
+            "MISCELLANEOUS": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Site": 3,
+            "Disulfide bond": 5,
+            "Mutagenesis": 8,
+            "Beta strand": 6,
+            "Helix": 1,
+            "Turn": 1
+        },
+        "uniParcId": "UPI0000603320"
+    }
+}

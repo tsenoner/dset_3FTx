@@ -1,0 +1,176 @@
+{
+    "GBSeq_locus": "GEHL01006908",
+    "GBSeq_length": "240",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "RNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "16-JUN-2016",
+    "GBSeq_create-date": "02-JUN-2016",
+    "GBSeq_definition": "TSA: Phalotris mertensi PMER_3FTX02 transcribed RNA sequence",
+    "GBSeq_primary-accession": "GEHL01006908",
+    "GBSeq_accession-version": "GEHL01006908.1",
+    "GBSeq_other-seqids": [
+        "gb|GEHL01006908.1|",
+        "gnl|TSA:GEHL01|PMER_3FTX02",
+        "gi|1034053875"
+    ],
+    "GBSeq_project": "PRJNA310618",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly"
+    ],
+    "GBSeq_source": "Phalotris mertensi",
+    "GBSeq_organism": "Phalotris mertensi",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Dipsadidae; Phalotris",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..240",
+            "GBReference_authors": [
+                "Campos,P.F.",
+                "Silva,D.A.",
+                "Zelanis,A.",
+                "Paes Leme,A.F.",
+                "Rocha,M.M.",
+                "Menezes,M.C.",
+                "Serrano,S.M.",
+                "Junqueira de Azevedo,I.L."
+            ],
+            "GBReference_title": "Trends in the evolution of snake toxins underscored by an integrative omics approach to profile the venom of the colubrid Phalotris mertensi",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..240",
+            "GBReference_authors": [
+                "Campos,P.F.",
+                "Silva,D.A.",
+                "Zelanis,A.",
+                "Paes Leme,A.F.",
+                "Rocha,M.M.",
+                "Menezes,M.C.",
+                "Serrano,S.M.",
+                "Junqueira de Azevedo,I.L."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (16-MAR-2016) Laboratorio Especial de Toxinologia Aplicada, Instituto Butantan, Av Vital Brasil, 1500, Sao Paulo, Sao Paulo 05503-900, Brazil"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: seqMan NGen (DNAstar) v. 1 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..240",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "240",
+                    "GBInterval_accession": "GEHL01006908.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Phalotris mertensi"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "transcribed RNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "PMER_3FTX02"
+                },
+                {
+                    "GBQualifier_name": "strain",
+                    "GBQualifier_value": "eukaryotic"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:1260334"
+                },
+                {
+                    "GBQualifier_name": "sex",
+                    "GBQualifier_value": "pooled male and female"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "adult"
+                },
+                {
+                    "GBQualifier_name": "ecotype",
+                    "GBQualifier_value": "Sao Paulo - SP"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "PMERREF_3FTX02"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..240",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "240",
+                    "GBInterval_accession": "GEHL01006908.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "Three finger toxins"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "JAS03140.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLSLVVVAFVYLDSGHTITCCSRLVCFSSEYCPDATACYKKMSGLNVIGKGCAINCTFPAAGEKIEFCTEDYCNK"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctgtccttggtggtggtggcatttgtatacctggactcaggacacaccattacatgttgcagcagactggtttgttttagttctgagtattgtccagatgcaacagcatgctataaaaagatgtctggactgaacgtcatcggcaagggatgtgctattaattgcacttttccggcagctggtgagaaaattgaattttgcacagaagattattgcaacaagtag",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA310618"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN04450882"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR3141929"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR3141934"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR3141937"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR3141938"
+        }
+    ]
+}

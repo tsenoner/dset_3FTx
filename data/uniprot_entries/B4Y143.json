@@ -1,0 +1,306 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "B4Y143",
+    "uniProtkbId": "B4Y143_SISCA",
+    "entryAudit": {
+        "firstPublicDate": "2008-09-23",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2008-09-23",
+        "entryVersion": 24,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+        "scientificName": "Sistrurus catenatus edwardsii",
+        "commonName": "Desert massasauga",
+        "synonyms": [
+            "Crotalophorus edwardsii"
+        ],
+        "taxonId": 8762,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "ABZ89717.1"
+            }
+        ],
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Viperidae",
+            "Crotalinae",
+            "Sistrurus"
+        ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+        "submissionNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "ABZ89717.1"
+                        }
+                    ],
+                    "value": "Three finger toxin 2"
+                }
+            }
+        ]
+    },
+    "comments": [
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "ARBA",
+                                "id": "ARBA00004613"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 85,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "featureId": "PRO_5002827319"
+        }
+    ],
+    "keywords": [
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00023157"
+                }
+            ],
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022525"
+                }
+            ],
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "18606022",
+                "citationType": "journal article",
+                "authors": [
+                    "Doley R.",
+                    "Pahari S.",
+                    "Mackessy S.P.",
+                    "Kini R.M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "18606022"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1186/1471-2148-8-196"
+                    }
+                ],
+                "title": "Accelerated exchange of exon segments in Viperid three-finger toxin genes (Sistrurus catenatus edwardsii; Desert Massasauga).",
+                "publicationDate": "2008",
+                "journal": "BMC Evol. Biol.",
+                "firstPage": "196",
+                "lastPage": "196",
+                "volume": "8"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "EMBL",
+                    "id": "ABZ89717.1"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "EU293790",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ABZ89717.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "B4Y143",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKTLLVTVGVVAFVYLEPGYSLICEACNLPNCDFLPARPCPKGFNQCYKKWNLIGLSVMNIERGCTANCTPNAQTKCCKTNLCNA",
+        "length": 85,
+        "molWeight": 9324,
+        "crc64": "4CA98FC7B5D87319",
+        "md5": "C267D59519EEA1D305AFCB00A51C6F32"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "SUBCELLULAR LOCATION": 1
+        },
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1
+        },
+        "uniParcId": "UPI00017A9F7E"
+    }
+}

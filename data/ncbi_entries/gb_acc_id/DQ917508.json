@@ -1,0 +1,172 @@
+{
+    "GBSeq_locus": "DQ917508",
+    "GBSeq_length": "363",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "11-OCT-2007",
+    "GBSeq_create-date": "11-OCT-2007",
+    "GBSeq_definition": "Notechis scutatus LNTX-1 precursor, mRNA, complete cds",
+    "GBSeq_primary-accession": "DQ917508",
+    "GBSeq_accession-version": "DQ917508.1",
+    "GBSeq_other-seqids": [
+        "gb|DQ917508.1|",
+        "gi|118151693"
+    ],
+    "GBSeq_source": "Notechis scutatus (mainland tiger snake)",
+    "GBSeq_organism": "Notechis scutatus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Acanthophiinae; Notechis",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..363",
+            "GBReference_authors": [
+                "St Pierre,L.",
+                "Fischer,H.",
+                "Adams,D.J.",
+                "Schenning,M.",
+                "Lavidis,N.",
+                "de Jersey,J.",
+                "Masci,P.P.",
+                "Lavin,M.F."
+            ],
+            "GBReference_title": "Distinct activities of novel neurotoxins from Australian venomous snakes for nicotinic acetylcholine receptors",
+            "GBReference_journal": "Cell. Mol. Life Sci. 64 (21), 2829-2840 (2007)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1007/s00018-007-7352-z"
+                }
+            ],
+            "GBReference_pubmed": "17906946"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..363",
+            "GBReference_authors": [
+                "St Pierre,L."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (22-AUG-2006) Queensland Institute of Medical Research, 300 Herston Rd, Brisbane, QLD 4029, Australia"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..363",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "363",
+                    "GBInterval_accession": "DQ917508.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Notechis scutatus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8663"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "tiger snake"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..285",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "285",
+                    "GBInterval_accession": "DQ917508.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "long chain alpha-neurotoxin"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "LNTX-1 precursor"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "ABK63537.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGDSLICYMGPKTPRTCPRGQNLCYTKTWCDAFCSSRGKVVELGCAATCPIAKSYEDVTCCSTDNCNPFPVRPRPHP"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "1..63",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "63",
+                    "GBInterval_accession": "DQ917508.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGDS"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "mat_peptide",
+            "GBFeature_location": "64..282",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "64",
+                    "GBInterval_to": "282",
+                    "GBInterval_accession": "DQ917508.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "LNTX-1"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "LICYMGPKTPRTCPRGQNLCYTKTWCDAFCSSRGKVVELGCAATCPIAKSYEDVTCCSTDNCNPFPVRPRPHP"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "3'UTR",
+            "GBFeature_location": "286..363",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "286",
+                    "GBInterval_to": "363",
+                    "GBInterval_accession": "DQ917508.1"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctgaccttggtggtggtgacaatcgtgtgcctggacttaggtgacagcttgatatgctacatgggacctaaaacccctcggacttgtccacgtgggcagaacctatgctatacaaagacttggtgtgatgctttttgtagcagcagaggaaaggtagtcgaattgggatgtgctgctacttgccctatagcgaagtcctatgaggatgttacctgttgctcaacagacaattgcaacccatttccagtacgtcctagaccacatccttgagggttgctctcatccatcatggaccatccttgaaaatttatgcttgtggcctttaccaccagatggtccatcatcccc"
+}

@@ -1,0 +1,239 @@
+{
+    "GBSeq_locus": "ABW24175",
+    "GBSeq_length": "90",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "20-OCT-2007",
+    "GBSeq_create-date": "20-OCT-2007",
+    "GBSeq_definition": "LNTX-1 precursor [Austrelaps superbus]",
+    "GBSeq_primary-accession": "ABW24175",
+    "GBSeq_accession-version": "ABW24175.1",
+    "GBSeq_other-seqids": [
+        "gb|ABW24175.1|",
+        "gi|158262796"
+    ],
+    "GBSeq_source": "Austrelaps superbus (Australian copperhead)",
+    "GBSeq_organism": "Austrelaps superbus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Acanthophiinae; Austrelaps",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..90",
+            "GBReference_authors": [
+                "St Pierre,L.",
+                "Fischer,H.",
+                "Adams,D.J.",
+                "Schenning,M.",
+                "Lavidis,N.",
+                "de Jersey,J.",
+                "Masci,P.P.",
+                "Lavin,M.F."
+            ],
+            "GBReference_title": "Distinct activities of novel neurotoxins from Australian venomous snakes for nicotinic acetylcholine receptors",
+            "GBReference_journal": "Cell. Mol. Life Sci. 64 (21), 2829-2840 (2007)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1007/s00018-007-7352-z"
+                }
+            ],
+            "GBReference_pubmed": "17906946"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..90",
+            "GBReference_authors": [
+                "St Pierre,L."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (08-MAY-2007) Queensland Institute of Medical Technology, 300 Herston Rd, Brisbane, QLD 4006, Australia"
+        }
+    ],
+    "GBSeq_comment": "Method: conceptual translation supplied by author.",
+    "GBSeq_source-db": "accession EF599318.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..90",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "90",
+                    "GBInterval_accession": "ABW24175.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Austrelaps superbus"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:29156"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..90",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "90",
+                    "GBInterval_accession": "ABW24175.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "LNTX-1 precursor"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "7435"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "1..22",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "22",
+                    "GBInterval_accession": "ABW24175.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "propeptide leader sequence"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "2379"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDVGNSF"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "22..85",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "22",
+                    "GBInterval_to": "85",
+                    "GBInterval_accession": "ABW24175.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "snake_toxin"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Snake toxin domain, present in short and long neurotoxins, cytotoxins and short toxins, and in other miscellaneous venom peptides. The toxin acts by binding to the nicotinic acetylcholine receptors in the postsynaptic membrane of skeletal muscles and...; cd00206"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "mat_peptide",
+            "GBFeature_location": "23..90",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "23",
+                    "GBInterval_to": "90",
+                    "GBInterval_accession": "ABW24175.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "LNTX-1"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "7435"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "SCYKTPDVKSEPCAPGENLCYTKTWCDRFCSIRGKVIELGCAATCPPAEPRKDITCCSTDNCNPHPAH"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "order(24,31,46..47,55..60)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "24",
+                    "GBInterval_accession": "ABW24175.1"
+                },
+                {
+                    "GBInterval_point": "31",
+                    "GBInterval_accession": "ABW24175.1"
+                },
+                {
+                    "GBInterval_from": "46",
+                    "GBInterval_to": "47",
+                    "GBInterval_accession": "ABW24175.1"
+                },
+                {
+                    "GBInterval_from": "55",
+                    "GBInterval_to": "60",
+                    "GBInterval_accession": "ABW24175.1"
+                }
+            ],
+            "GBFeature_operator": "order",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "active"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "receptor binding site [active]"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..90",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "90",
+                    "GBInterval_accession": "ABW24175.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "EF599318.1:1..273"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "long chain alpha-neurotoxin family member"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mktllltlvvvtivcldvgnsfscyktpdvksepcapgenlcytktwcdrfcsirgkvielgcaatcppaeprkditccstdncnphpah"
+}

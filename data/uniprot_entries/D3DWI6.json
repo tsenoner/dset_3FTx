@@ -1,0 +1,797 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "D3DWI6",
+    "uniProtkbId": "D3DWI6_HUMAN",
+    "entryAudit": {
+        "firstPublicDate": "2010-03-23",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2010-03-23",
+        "entryVersion": 76,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+        "scientificName": "Homo sapiens",
+        "commonName": "Human",
+        "taxonId": 9606,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "EAW82313.1"
+            }
+        ],
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Eutheria",
+            "Euarchontoglires",
+            "Primates",
+            "Haplorrhini",
+            "Catarrhini",
+            "Hominidae",
+            "Homo"
+        ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+        "submissionNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "EAW82313.1"
+                        }
+                    ],
+                    "value": "Prostate stem cell antigen, isoform CRA_a"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "EMBL",
+                        "id": "EAW82313.1"
+                    }
+                ],
+                "value": "PSCA"
+            },
+            "orfNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "EAW82313.1"
+                        }
+                    ],
+                    "value": "hCG_38735"
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 12,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 98,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "UPAR/Ly6",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000259",
+                    "source": "SMART",
+                    "id": "SM00134"
+                }
+            ]
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "11181995",
+                "citationType": "journal article",
+                "authors": [
+                    "Venter J.C.",
+                    "Adams M.D.",
+                    "Myers E.W.",
+                    "Li P.W.",
+                    "Mural R.J.",
+                    "Sutton G.G.",
+                    "Smith H.O.",
+                    "Yandell M.",
+                    "Evans C.A.",
+                    "Holt R.A.",
+                    "Gocayne J.D.",
+                    "Amanatides P.",
+                    "Ballew R.M.",
+                    "Huson D.H.",
+                    "Wortman J.R.",
+                    "Zhang Q.",
+                    "Kodira C.D.",
+                    "Zheng X.H.",
+                    "Chen L.",
+                    "Skupski M.",
+                    "Subramanian G.",
+                    "Thomas P.D.",
+                    "Zhang J.",
+                    "Gabor Miklos G.L.",
+                    "Nelson C.",
+                    "Broder S.",
+                    "Clark A.G.",
+                    "Nadeau J.",
+                    "McKusick V.A.",
+                    "Zinder N.",
+                    "Levine A.J.",
+                    "Roberts R.J.",
+                    "Simon M.",
+                    "Slayman C.",
+                    "Hunkapiller M.",
+                    "Bolanos R.",
+                    "Delcher A.",
+                    "Dew I.",
+                    "Fasulo D.",
+                    "Flanigan M.",
+                    "Florea L.",
+                    "Halpern A.",
+                    "Hannenhalli S.",
+                    "Kravitz S.",
+                    "Levy S.",
+                    "Mobarry C.",
+                    "Reinert K.",
+                    "Remington K.",
+                    "Abu-Threideh J.",
+                    "Beasley E.",
+                    "Biddick K.",
+                    "Bonazzi V.",
+                    "Brandon R.",
+                    "Cargill M.",
+                    "Chandramouliswaran I.",
+                    "Charlab R.",
+                    "Chaturvedi K.",
+                    "Deng Z.",
+                    "Di Francesco V.",
+                    "Dunn P.",
+                    "Eilbeck K.",
+                    "Evangelista C.",
+                    "Gabrielian A.E.",
+                    "Gan W.",
+                    "Ge W.",
+                    "Gong F.",
+                    "Gu Z.",
+                    "Guan P.",
+                    "Heiman T.J.",
+                    "Higgins M.E.",
+                    "Ji R.R.",
+                    "Ke Z.",
+                    "Ketchum K.A.",
+                    "Lai Z.",
+                    "Lei Y.",
+                    "Li Z.",
+                    "Li J.",
+                    "Liang Y.",
+                    "Lin X.",
+                    "Lu F.",
+                    "Merkulov G.V.",
+                    "Milshina N.",
+                    "Moore H.M.",
+                    "Naik A.K.",
+                    "Narayan V.A.",
+                    "Neelam B.",
+                    "Nusskern D.",
+                    "Rusch D.B.",
+                    "Salzberg S.",
+                    "Shao W.",
+                    "Shue B.",
+                    "Sun J.",
+                    "Wang Z.",
+                    "Wang A.",
+                    "Wang X.",
+                    "Wang J.",
+                    "Wei M.",
+                    "Wides R.",
+                    "Xiao C.",
+                    "Yan C.",
+                    "Yao A.",
+                    "Ye J.",
+                    "Zhan M.",
+                    "Zhang W.",
+                    "Zhang H.",
+                    "Zhao Q.",
+                    "Zheng L.",
+                    "Zhong F.",
+                    "Zhong W.",
+                    "Zhu S.",
+                    "Zhao S.",
+                    "Gilbert D.",
+                    "Baumhueter S.",
+                    "Spier G.",
+                    "Carter C.",
+                    "Cravchik A.",
+                    "Woodage T.",
+                    "Ali F.",
+                    "An H.",
+                    "Awe A.",
+                    "Baldwin D.",
+                    "Baden H.",
+                    "Barnstead M.",
+                    "Barrow I.",
+                    "Beeson K.",
+                    "Busam D.",
+                    "Carver A.",
+                    "Center A.",
+                    "Cheng M.L.",
+                    "Curry L.",
+                    "Danaher S.",
+                    "Davenport L.",
+                    "Desilets R.",
+                    "Dietz S.",
+                    "Dodson K.",
+                    "Doup L.",
+                    "Ferriera S.",
+                    "Garg N.",
+                    "Gluecksmann A.",
+                    "Hart B.",
+                    "Haynes J.",
+                    "Haynes C.",
+                    "Heiner C.",
+                    "Hladun S.",
+                    "Hostin D.",
+                    "Houck J.",
+                    "Howland T.",
+                    "Ibegwam C.",
+                    "Johnson J.",
+                    "Kalush F.",
+                    "Kline L.",
+                    "Koduru S.",
+                    "Love A.",
+                    "Mann F.",
+                    "May D.",
+                    "McCawley S.",
+                    "McIntosh T.",
+                    "McMullen I.",
+                    "Moy M.",
+                    "Moy L.",
+                    "Murphy B.",
+                    "Nelson K.",
+                    "Pfannkoch C.",
+                    "Pratts E.",
+                    "Puri V.",
+                    "Qureshi H.",
+                    "Reardon M.",
+                    "Rodriguez R.",
+                    "Rogers Y.H.",
+                    "Romblad D.",
+                    "Ruhfel B.",
+                    "Scott R.",
+                    "Sitter C.",
+                    "Smallwood M.",
+                    "Stewart E.",
+                    "Strong R.",
+                    "Suh E.",
+                    "Thomas R.",
+                    "Tint N.N.",
+                    "Tse S.",
+                    "Vech C.",
+                    "Wang G.",
+                    "Wetter J.",
+                    "Williams S.",
+                    "Williams M.",
+                    "Windsor S.",
+                    "Winn-Deen E.",
+                    "Wolfe K.",
+                    "Zaveri J.",
+                    "Zaveri K.",
+                    "Abril J.F.",
+                    "Guigo R.",
+                    "Campbell M.J.",
+                    "Sjolander K.V.",
+                    "Karlak B.",
+                    "Kejariwal A.",
+                    "Mi H.",
+                    "Lazareva B.",
+                    "Hatton T.",
+                    "Narechania A.",
+                    "Diemer K.",
+                    "Muruganujan A.",
+                    "Guo N.",
+                    "Sato S.",
+                    "Bafna V.",
+                    "Istrail S.",
+                    "Lippert R.",
+                    "Schwartz R.",
+                    "Walenz B.",
+                    "Yooseph S.",
+                    "Allen D.",
+                    "Basu A.",
+                    "Baxendale J.",
+                    "Blick L.",
+                    "Caminha M.",
+                    "Carnes-Stine J.",
+                    "Caulk P.",
+                    "Chiang Y.H.",
+                    "Coyne M.",
+                    "Dahlke C.",
+                    "Mays A.",
+                    "Dombroski M.",
+                    "Donnelly M.",
+                    "Ely D.",
+                    "Esparham S.",
+                    "Fosler C.",
+                    "Gire H.",
+                    "Glanowski S.",
+                    "Glasser K.",
+                    "Glodek A.",
+                    "Gorokhov M.",
+                    "Graham K.",
+                    "Gropman B.",
+                    "Harris M.",
+                    "Heil J.",
+                    "Henderson S.",
+                    "Hoover J.",
+                    "Jennings D.",
+                    "Jordan C.",
+                    "Jordan J.",
+                    "Kasha J.",
+                    "Kagan L.",
+                    "Kraft C.",
+                    "Levitsky A.",
+                    "Lewis M.",
+                    "Liu X.",
+                    "Lopez J.",
+                    "Ma D.",
+                    "Majoros W.",
+                    "McDaniel J.",
+                    "Murphy S.",
+                    "Newman M.",
+                    "Nguyen T.",
+                    "Nguyen N.",
+                    "Nodell M.",
+                    "Pan S.",
+                    "Peck J.",
+                    "Peterson M.",
+                    "Rowe W.",
+                    "Sanders R.",
+                    "Scott J.",
+                    "Simpson M.",
+                    "Smith T.",
+                    "Sprague A.",
+                    "Stockwell T.",
+                    "Turner R.",
+                    "Venter E.",
+                    "Wang M.",
+                    "Wen M.",
+                    "Wu D.",
+                    "Wu M.",
+                    "Xia A.",
+                    "Zandieh A.",
+                    "Zhu X."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11181995"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1126/science.1058040"
+                    }
+                ],
+                "title": "The sequence of the human genome.",
+                "publicationDate": "2001",
+                "journal": "Science",
+                "firstPage": "1304",
+                "lastPage": "1351",
+                "volume": "291"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "EMBL",
+                    "id": "EAW82313.1"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-56FTJV1JKRRTT",
+                "citationType": "submission",
+                "authors": [
+                    "Mural R.J.",
+                    "Istrail S.",
+                    "Sutton G.",
+                    "Florea L.",
+                    "Halpern A.L.",
+                    "Mobarry C.M.",
+                    "Lippert R.",
+                    "Walenz B.",
+                    "Shatkay H.",
+                    "Dew I.",
+                    "Miller J.R.",
+                    "Flanigan M.J.",
+                    "Edwards N.J.",
+                    "Bolanos R.",
+                    "Fasulo D.",
+                    "Halldorsson B.V.",
+                    "Hannenhalli S.",
+                    "Turner R.",
+                    "Yooseph S.",
+                    "Lu F.",
+                    "Nusskern D.R.",
+                    "Shue B.C.",
+                    "Zheng X.H.",
+                    "Zhong F.",
+                    "Delcher A.L.",
+                    "Huson D.H.",
+                    "Kravitz S.A.",
+                    "Mouchard L.",
+                    "Reinert K.",
+                    "Remington K.A.",
+                    "Clark A.G.",
+                    "Waterman M.S.",
+                    "Eichler E.E.",
+                    "Adams M.D.",
+                    "Hunkapiller M.W.",
+                    "Myers E.W.",
+                    "Venter J.C."
+                ],
+                "publicationDate": "SEP-2005",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "EMBL",
+                    "id": "EAW82313.1"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "CH471162",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "EAW82312.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "CH471162",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "EAW82313.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_005663.2",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_005672.4"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "D3DWI6",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "D3DWI6",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Antibodypedia",
+            "id": "7385",
+            "properties": [
+                {
+                    "key": "antibodies",
+                    "value": "398 antibodies from 37 providers"
+                }
+            ]
+        },
+        {
+            "database": "DNASU",
+            "id": "8000",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "8000",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "hsa:8000",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "MANE-Select",
+            "id": "ENST00000301258.5",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSP00000301258.4"
+                },
+                {
+                    "key": "RefSeqNucleotideId",
+                    "value": "NM_005672.5"
+                },
+                {
+                    "key": "RefSeqProteinId",
+                    "value": "NP_005663.2"
+                }
+            ]
+        },
+        {
+            "database": "CTD",
+            "id": "8000",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "VEuPathDB",
+            "id": "HostDB:ENSG00000167653",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HOGENOM",
+            "id": "CLU_141358_1_0_1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OMA",
+            "id": "ISKGCTS",
+            "properties": [
+                {
+                    "key": "Fingerprint",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "1536888at2759",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioGRID-ORCS",
+            "id": "8000",
+            "properties": [
+                {
+                    "key": "hits",
+                    "value": "7 hits in 1065 CRISPR screens"
+                }
+            ]
+        },
+        {
+            "database": "ChiTaRS",
+            "id": "PSCA",
+            "properties": [
+                {
+                    "key": "OrganismName",
+                    "value": "human"
+                }
+            ]
+        },
+        {
+            "database": "GenomeRNAi",
+            "id": "8000",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005886",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:plasma membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:HPA"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00117",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR016054",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LY6_UPA_recep-like"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00021",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "UPAR_LY6"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SMART",
+            "id": "SM00134",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MAGLALQPGTALLCYSCKAQVSNEDCLQVENCTQLGEQCWTARIRAVGLLTVISKGCSLNCVDDSQDYYVGKKNITCCDTDLCNASGAHALQPAAAILALLPALGLLLWGPGQL",
+        "length": 114,
+        "molWeight": 11959,
+        "crc64": "65B3683767990740",
+        "md5": "B0D99364952524D35284A4B606962776"
+    },
+    "extraAttributes": {
+        "countByFeatureType": {
+            "Domain": 1
+        },
+        "uniParcId": "UPI000015B119"
+    }
+}

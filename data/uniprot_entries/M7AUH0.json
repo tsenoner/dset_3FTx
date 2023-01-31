@@ -1,0 +1,418 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "M7AUH0",
+    "uniProtkbId": "M7AUH0_CHEMY",
+    "entryAudit": {
+        "firstPublicDate": "2013-05-29",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2013-05-29",
+        "entryVersion": 21,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+        "scientificName": "Chelonia mydas",
+        "commonName": "Green sea-turtle",
+        "synonyms": [
+            "Chelonia agassizi"
+        ],
+        "taxonId": 8469,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "EMP26635.1"
+            },
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Proteomes",
+                "id": "UP000031443"
+            }
+        ],
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Archelosauria",
+            "Testudinata",
+            "Testudines",
+            "Cryptodira",
+            "Durocryptodira",
+            "Americhelydia",
+            "Chelonioidea",
+            "Cheloniidae",
+            "Chelonia"
+        ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+        "submissionNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "EMP26635.1"
+                        }
+                    ],
+                    "value": "Lymphocyte antigen 6E"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "orfNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "EMP26635.1"
+                        }
+                    ],
+                    "value": "UY3_16277"
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 20,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 203,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "featureId": "PRO_5004079502"
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 99,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 188,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "UPAR/Ly6",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000259",
+                    "source": "SMART",
+                    "id": "SM00134"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000031443"
+                }
+            ],
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "23624526",
+                "citationType": "journal article",
+                "authors": [
+                    "Wang Z.",
+                    "Pascual-Anaya J.",
+                    "Zadissa A.",
+                    "Li W.",
+                    "Niimura Y.",
+                    "Huang Z.",
+                    "Li C.",
+                    "White S.",
+                    "Xiong Z.",
+                    "Fang D.",
+                    "Wang B.",
+                    "Ming Y.",
+                    "Chen Y.",
+                    "Zheng Y.",
+                    "Kuraku S.",
+                    "Pignatelli M.",
+                    "Herrero J.",
+                    "Beal K.",
+                    "Nozawa M.",
+                    "Li Q.",
+                    "Wang J.",
+                    "Zhang H.",
+                    "Yu L.",
+                    "Shigenobu S.",
+                    "Wang J.",
+                    "Liu J.",
+                    "Flicek P.",
+                    "Searle S.",
+                    "Wang J.",
+                    "Kuratani S.",
+                    "Yin Y.",
+                    "Aken B.",
+                    "Zhang G.",
+                    "Irie N."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "23624526"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/ng.2615"
+                    }
+                ],
+                "title": "The draft genomes of soft-shell turtle and green sea turtle yield insights into the development and evolution of the turtle-specific body plan.",
+                "publicationDate": "2013",
+                "journal": "Nat. Genet.",
+                "firstPage": "701",
+                "lastPage": "706",
+                "volume": "45"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000031443"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "KB577332",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "EMP26635.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "M7AUH0",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000031443",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Unassembled WGS sequence"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0048856",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:anatomical structure development"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProt"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0030154",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:cell differentiation"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProt"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00117",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR016054",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LY6_UPA_recep-like"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00021",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "UPAR_LY6"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SMART",
+            "id": "SM00134",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKAFLLALLVAVLSVEQGNPEITDMGIGYLFSFKKLNYLDISETGLKDVKAVIQRLQTQISLVHSKVPLKEFDHSNCKTEGWAEQLKAAHTEAPASHSLVCFTCTDASSNWGCLASTICPSDANYCVTTYIGAGIGGHSGQSISKGCASVCPSGGINIGIAAASVSCCSSFLCNTSGASSVKVSYSVLAMAILASFVYIRAGL",
+        "length": 203,
+        "molWeight": 21201,
+        "crc64": "C3A3EEBFD7B3EC13",
+        "md5": "7B06DB8B3DE5AB633D7B6CAC9CFB9A78"
+    },
+    "extraAttributes": {
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Domain": 1
+        },
+        "uniParcId": "UPI0002C24F94"
+    }
+}

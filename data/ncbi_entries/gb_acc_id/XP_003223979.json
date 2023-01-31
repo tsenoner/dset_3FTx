@@ -1,0 +1,138 @@
+{
+    "GBSeq_locus": "XP_003223979",
+    "GBSeq_length": "134",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "31-MAY-2016",
+    "GBSeq_create-date": "30-MAR-2011",
+    "GBSeq_definition": "PREDICTED: ly6/PLAUR domain-containing protein 2 [Anolis carolinensis]",
+    "GBSeq_primary-accession": "XP_003223979",
+    "GBSeq_accession-version": "XP_003223979.1",
+    "GBSeq_other-seqids": [
+        "ref|XP_003223979.1|",
+        "gi|327278458"
+    ],
+    "GBSeq_project": "PRJNA60547",
+    "GBSeq_keywords": [
+        "RefSeq"
+    ],
+    "GBSeq_source": "Anolis carolinensis (green anole)",
+    "GBSeq_organism": "Anolis carolinensis",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Iguania; Dactyloidae; Anolis",
+    "GBSeq_comment": "MODEL REFSEQ: This record is predicted by automated computational analysis. This record is derived from a genomic sequence (NW_003338769.1) annotated using gene prediction method: Gnomon, supported by EST evidence.~Also see:~ Documentation of NCBI's Annotation Process; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI ; Annotation Status :: Full annotation ; Annotation Version :: Anolis carolinensis Annotation Release 102 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 7.0 ; Annotation Method :: Best-placed RefSeq; Gnomon ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; ##Genome-Annotation-Data-END##; COMPLETENESS: full length.",
+    "GBSeq_source-db": "REFSEQ: accession XM_003223931.3",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..134",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "134",
+                    "GBInterval_accession": "XP_003223979.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Anolis carolinensis"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:28377"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "Unknown"
+                },
+                {
+                    "GBQualifier_name": "country",
+                    "GBQualifier_value": "USA"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..134",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "134",
+                    "GBInterval_accession": "XP_003223979.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "ly6/PLAUR domain-containing protein 2"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "14600"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "28..107",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "28",
+                    "GBInterval_to": "107",
+                    "GBInterval_accession": "XP_003223979.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "LU"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Ly-6 antigen / uPA receptor -like domain; occurs singly in GPI-linked cell-surface glycoproteins (Ly-6 family,CD59, thymocyte B cell antigen, Sgp-2) or as three-fold repeated domain in urokinase-type plasminogen activator receptor. Topology of these...; cd00117"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:238065"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..134",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "134",
+                    "GBInterval_accession": "XP_003223979.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LOC100562566"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "XM_003223931.3:200..604"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:100562566"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "meknlarskmlfsvllaaisyttfvealqcysckelttasqcmtivncsaedtmckttmysledvypflgdstvtracstkcepsdvdgigttrpvtccftdlcnfdgatsiqmsyillgssiasffillgyqw",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA60547"
+        }
+    ]
+}

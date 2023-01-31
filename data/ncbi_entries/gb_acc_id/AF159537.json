@@ -1,0 +1,109 @@
+{
+    "GBSeq_locus": "AF159537",
+    "GBSeq_length": "496",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "31-DEC-2001",
+    "GBSeq_create-date": "31-DEC-2001",
+    "GBSeq_definition": "Lapemis hardwickii long neurotoxin isoform mRNA, complete cds",
+    "GBSeq_primary-accession": "AF159537",
+    "GBSeq_accession-version": "AF159537.1",
+    "GBSeq_other-seqids": [
+        "gb|AF159537.1|",
+        "gi|18000260"
+    ],
+    "GBSeq_source": "Hydrophis hardwickii (Hardwick's sea snake)",
+    "GBSeq_organism": "Hydrophis hardwickii",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Hydrophiidae; Hydrophis",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..496",
+            "GBReference_authors": [
+                "Wei,J.",
+                "Zhao,G.",
+                "Zhong,X.",
+                "Yang,W.",
+                "Xu,A."
+            ],
+            "GBReference_title": "A Novel Long Neurotoxin Isoform",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..496",
+            "GBReference_authors": [
+                "Wei,J.",
+                "Zhao,G.",
+                "Zhong,X.",
+                "Yang,W.",
+                "Xu,A."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (16-JUN-1999) Biochemistry, Xingang Road 135, Guangzhou, Guangdong 510275, China"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..496",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "496",
+                    "GBInterval_accession": "AF159537.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Hydrophis hardwickii"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8781"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "5..283",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "5",
+                    "GBInterval_to": "283",
+                    "GBInterval_accession": "AF159537.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "long neurotoxin isoform"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "AAL54892.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKILLLTLVVVTIVCLDLAYTRTCFRTPYKPETCPPGQNLCYKKSWCDAFCSSRGKVIELGCTAKCPTVKDGKDITCCATDNCNTVANWKSR"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "caagatgaaaattctgctgctgaccttggtggtggtgacaatcgtgtgcctggacttagcatacaccaggacatgcttcagaacaccttataaacctgagacttgtccacctgggcagaacctatgctataaaaagagttggtgtgatgctttttgttccagcagaggaaaggtaatcgaactgggatgtactgctaaatgccctacagtgaaggacggaaaagatattacctgttgcgcaacagacaattgcaacacagttgcgaactggaaatctcgttgagtgttgctctcatccatgttgcaccatccttgaaaatttatgcttgtggcctttaccgcagatggtccatcatccccctctcccctgctgtctttgacatctcaacatctttcccttttctctcgttctgtacgtttccttctgctagttctgtagtttgagaatcgaataaaactcagcattcaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+}

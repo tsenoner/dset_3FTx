@@ -1,0 +1,1709 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P0DKR6",
+    "secondaryAccessions": [
+        "B3EWQ5",
+        "K0C0K0"
+    ],
+    "uniProtkbId": "3SX1_DENPO",
+    "entryAudit": {
+        "firstPublicDate": "2012-11-28",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2012-11-28",
+        "entryVersion": 39,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Dendroaspis polylepis polylepis",
+        "commonName": "Black mamba",
+        "taxonId": 8620,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Dendroaspis"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "23034652"
+                    }
+                ],
+                "value": "Mambalgin-1"
+            },
+            "shortNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "23034652"
+                        }
+                    ],
+                    "value": "Mamb-1"
+                }
+            ]
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "23034652"
+                        }
+                    ],
+                    "value": "Pi-Dp1"
+                }
+            }
+        ],
+        "flag": "Precursor"
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "23034652"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "23624383"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "24619065"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "26680001"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "29872539"
+                        }
+                    ],
+                    "value": "This three-finger toxin inhibits ASIC channels. It acts as a gating modifier toxin by decreasing the apparent proton sensitivity of activation and by slightly increasing the apparent proton sensitivity for inactivation (PubMed:23034652). It binds more tightly to the closed state and to a much lesser extent the inactivated/desensitized state of ASIC1a isoform of ASIC1 (PubMed:23034652). It interacts directly with the outside surface of the thumb domain of chicken ASIC1a (ASIC1a), but does not insert into the acidic pocket as suggested for mambalgin-2 (PubMed:29872539). This binding leads to relocation of the thumb domain that could disrupt the acidic pocket of cASIC1a (PubMed:29872539). It reversibly inhibits rat ASIC1a (IC(50)=3.4-55 nM), rat ASIC1a-ASIC2b (IC(50)=61 nM), rat ASIC1a-ASIC1b (IC(50)=72 nM), human ASIC1a (IC(50)=127-580 nM), chicken ASIC1a (IC(50)=123.6 nM), rat ASIC1b (IC(50)=22.2-203 nM), rat ASIC1a-ASIC2a (IC(50)=152-252 nM) (PubMed:23034652, PubMed:23624383, PubMed:25873388, PubMed:24619065, PubMed:26680001, PubMed:29872539). In vivo, it shows a potent naloxone-resistant analgesic effect against acute and inflammatory pain upon central and peripheral injection (PubMed:23034652). In addition, it also has an opioid-independent effect on both thermal and mechanical inflammatory pain after systemic administration and is effective against neuropathic pain (PubMed:26680001)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "23034652"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "commentType": "MASS SPECTROMETRY",
+            "method": "MALDI",
+            "molWeight": 6555.7,
+            "molWeightError": 0.0,
+            "note": "Average mass.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23034652"
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305",
+                            "source": "PubMed",
+                            "id": "23034652"
+                        }
+                    ],
+                    "value": "Promising peptide that shows a potent analgesic effect against acute and inflammatory pain that can be as strong as morphine but resistant to naloxone, with much less tolerance and no respiratory distress"
+                }
+            ],
+            "commentType": "PHARMACEUTICAL"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "23034652"
+                        }
+                    ],
+                    "value": "Has no effect on rat ASIC2a, rat ASIC3, rat ASIC1a-ASIC3 and rat ASIC1b-ASIC3 channels, as well as on TRPV1, P2RX2 (P2X2), HTR3A (5-HT3A), Nav1.8 (SCN10A), Cav3.2 (CACNA1H) and Kv1.2 (KCNA2) channels (PubMed:23034652). Does not produce motor dysfunction, apathy, flaccid paralysis, convulsions or death upon central injections (intrathecal or intracerebroventricular) in mice (PubMed:23034652)"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily. Mambalgin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        },
+        {
+            "commentType": "WEB RESOURCE",
+            "resourceName": "The Electron Microscopy Data Bank",
+            "resourceUrl": "https://www.ebi.ac.uk/pdbe/entry/emdb/EMD-6900",
+            "ftp": false
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23034652"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 78,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Mambalgin-1",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23034652"
+                }
+            ],
+            "featureId": "PRO_0000420360"
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 48,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 48,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Important residue for inhibition of rat ASIC1a",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 49,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 49,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Important residue for inhibition of rat ASIC1a",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Key residue for inhibition of rat ASIC1a, probably binds to rat ASIC1a F-350",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 54,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 54,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Important residue for inhibition of rat ASIC1a",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 55,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 55,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Important residue for inhibition of rat ASIC1a",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 40,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24619065"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2MJY"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "5DO6"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "5DU1"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "5DZ5"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 58,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24619065"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2MJY"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "5DO6"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "5DU1"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "5DZ5"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 62,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 70,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24619065"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2MJY"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "5DO6"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "5DU1"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "5DZ5"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 71,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 76,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24619065"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2MJY"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "5DO6"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "5DU1"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "5DZ5"
+                }
+            ]
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 26,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 26,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Small increase in inhibitory potency on cASIC1a.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "29872539"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "Q",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Important decrease in inhibitory potency on cASIC1a.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "29872539"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "H",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 29,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 29,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "No change in inhibitory potency on cASIC1a.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "29872539"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "K",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 42,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 42,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "3.1-fold decrease in inhibitory potency of ASIC1a.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "H",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 44,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 44,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "3.9-fold decrease in inhibitory potency of ASIC1a.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "T",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 48,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 48,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Important (34-fold) decrease in inhibitory potency of ASIC1a.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "29872539"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "F",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 49,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 49,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Important (19-fold) decrease in inhibitory potency of ASIC1a.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "29872539"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 50,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 50,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "2.8-fold decrease in inhibitory potency of ASIC1a.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "N",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 51,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 51,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "5.1-fold decrease in inhibitory potency of ASIC1a.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "L",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 52,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 52,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "4.9-fold decrease in inhibitory potency of ASIC1a.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "K",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "2200-fold decrease in inhibitory potency of ASIC1a.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "L",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 54,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 54,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "16.3-fold decrease in inhibitory potency of ASIC1a.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "I",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 55,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 55,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "58-fold decrease in inhibitory potency of ASIC1a.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "L",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 78,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 78,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "1.5-fold decrease in inhibitory potency of ASIC1a.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "26680001"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "K",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 23,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 26,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5DO6"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 29,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 32,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5DO6"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 39,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 48,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5DO6"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 51,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 60,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5DO6"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 64,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 69,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5DO6"
+                }
+            ]
+        },
+        {
+            "type": "Turn",
+            "location": {
+                "start": {
+                    "value": 74,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 77,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5DO6"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0002",
+            "category": "Technical term",
+            "name": "3D-structure"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0872",
+            "category": "Molecular function",
+            "name": "Ion channel impairing toxin"
+        },
+        {
+            "id": "KW-0582",
+            "category": "Technical term",
+            "name": "Pharmaceutical"
+        },
+        {
+            "id": "KW-1275",
+            "category": "Molecular function",
+            "name": "Proton-gated sodium channel impairing toxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "23034652",
+                "citationType": "journal article",
+                "authors": [
+                    "Diochot S.",
+                    "Baron A.",
+                    "Salinas M.",
+                    "Douguet D.",
+                    "Scarzello S.",
+                    "Dabert-Gay A.-S.",
+                    "Debayle D.",
+                    "Friend V.",
+                    "Alloui A.",
+                    "Lazdunski M.",
+                    "Lingueglia E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "23034652"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/nature11494"
+                    }
+                ],
+                "title": "Black mamba venom peptides target acid-sensing ion channels to abolish pain.",
+                "publicationDate": "2012",
+                "journal": "Nature",
+                "firstPage": "552",
+                "lastPage": "555",
+                "volume": "490"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA]",
+                "PROTEIN SEQUENCE OF 22-78",
+                "FUNCTION",
+                "BIOASSAY",
+                "PHARMACEUTICAL",
+                "MASS SPECTROMETRY",
+                "3D-STRUCTURE MODELING",
+                "SUBCELLULAR LOCATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                },
+                {
+                    "value": "Venom gland",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "23624383",
+                "citationType": "journal article",
+                "authors": [
+                    "Baron A.",
+                    "Diochot S.",
+                    "Salinas M.",
+                    "Deval E.",
+                    "Noel J.",
+                    "Lingueglia E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "23624383"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.toxicon.2013.04.008"
+                    }
+                ],
+                "title": "Venom toxins in the exploration of molecular, physiological and pathophysiological functions of acid-sensing ion channels.",
+                "publicationDate": "2013",
+                "journal": "Toxicon",
+                "firstPage": "187",
+                "lastPage": "204",
+                "volume": "75"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "REVIEW"
+            ]
+        },
+        {
+            "citation": {
+                "id": "25873388",
+                "citationType": "journal article",
+                "authors": [
+                    "Wen M.",
+                    "Guo X.",
+                    "Sun P.",
+                    "Xiao L.",
+                    "Li J.",
+                    "Xiong Y.",
+                    "Bao J.",
+                    "Xue T.",
+                    "Zhang L.",
+                    "Tian C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "25873388"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1039/c5cc01418b"
+                    }
+                ],
+                "title": "Site-specific fluorescence spectrum detection and characterization of hASIC1a channels upon toxin mambalgin-1 binding in live mammalian cells.",
+                "publicationDate": "2015",
+                "journal": "Chem. Commun. (Camb.)",
+                "firstPage": "8153",
+                "lastPage": "8156",
+                "volume": "51"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "26492527",
+                "citationType": "journal article",
+                "authors": [
+                    "Diochot S.",
+                    "Alloui A.",
+                    "Rodrigues P.",
+                    "Dauvois M.",
+                    "Friend V.",
+                    "Aissouni Y.",
+                    "Eschalier A.",
+                    "Lingueglia E.",
+                    "Baron A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "26492527"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1097/j.pain.0000000000000397"
+                    }
+                ],
+                "title": "Analgesic effects of mambalgin peptide inhibitors of acid-sensing ion channels in inflammatory and neuropathic pain.",
+                "publicationDate": "2016",
+                "journal": "Pain",
+                "firstPage": "552",
+                "lastPage": "559",
+                "volume": "157"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "BIOASSAY"
+            ]
+        },
+        {
+            "citation": {
+                "id": "24619065",
+                "citationType": "journal article",
+                "authors": [
+                    "Pan M.",
+                    "He Y.",
+                    "Wen M.",
+                    "Wu F.",
+                    "Sun D.",
+                    "Li S.",
+                    "Zhang L.",
+                    "Li Y.",
+                    "Tian C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "24619065"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1039/c4cc00779d"
+                    }
+                ],
+                "title": "One-pot hydrazide-based native chemical ligation for efficient chemical synthesis and structure determination of toxin Mambalgin-1.",
+                "publicationDate": "2014",
+                "journal": "Chem. Commun. (Camb.)",
+                "firstPage": "5837",
+                "lastPage": "5839",
+                "volume": "50"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR OF 22-78",
+                "FUNCTION",
+                "DISULFIDE BOND",
+                "SYNTHESIS OF 22-78"
+            ]
+        },
+        {
+            "citation": {
+                "id": "26680001",
+                "citationType": "journal article",
+                "authors": [
+                    "Mourier G.",
+                    "Salinas M.",
+                    "Kessler P.",
+                    "Stura E.A.",
+                    "Leblanc M.",
+                    "Tepshi L.",
+                    "Besson T.",
+                    "Diochot S.",
+                    "Baron A.",
+                    "Douguet D.",
+                    "Lingueglia E.",
+                    "Servent D."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "26680001"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m115.702373"
+                    }
+                ],
+                "title": "Mambalgin-1 pain-relieving peptide, stepwise solid-phase synthesis, crystal structure, and functional domain for acid-sensing ion channel 1a inhibition.",
+                "publicationDate": "2016",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "2616",
+                "lastPage": "2629",
+                "volume": "291"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (1.8 ANGSTROMS) OF 22-78",
+                "X-RAY CRYSTALLOGRAPHY (1.7 ANGSTROMS) OF MUTANT T44A",
+                "FUNCTION",
+                "SYNTHESIS OF 22-78",
+                "DISULFIDE BOND",
+                "MUTAGENESIS OF HIS-42; THR-44; PHE-48; ARG-49; ASN-50; LEU-51; LYS-52; LEU-53; ILE-54; LEU-55 AND LYS-78"
+            ]
+        },
+        {
+            "citation": {
+                "id": "29872539",
+                "citationType": "journal article",
+                "authors": [
+                    "Sun D.",
+                    "Yu Y.",
+                    "Xue X.",
+                    "Pan M.",
+                    "Wen M.",
+                    "Li S.",
+                    "Qu Q.",
+                    "Li X.",
+                    "Zhang L.",
+                    "Li X.",
+                    "Liu L.",
+                    "Yang M.",
+                    "Tian C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "29872539"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/s41421-018-0026-1"
+                    }
+                ],
+                "title": "Cryo-EM structure of the ASIC1a-mambalgin-1 complex reveals that the peptide toxin mambalgin-1 inhibits acid-sensing ion channels through an unusual allosteric effect.",
+                "publicationDate": "2018",
+                "journal": "Cell Discov.",
+                "firstPage": "27",
+                "lastPage": "27",
+                "volume": "4"
+            },
+            "referencePositions": [
+                "STRUCTURE BY ELECTRON MICROSCOPY (5.4 ANGSTROMS) OF 22-78 IN COMPLEX WITH CHICKEN ASIC1A",
+                "SYNTHESIS OF 22-78",
+                "MUTAGENESIS OF GLN-26; HIS-27; LYS-29; PHE-48 AND ARG-49"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "JX428743",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AFT65615.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "2MJY",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-78"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "5DO6",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "1.70 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A/B=22-78"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "5DU1",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "1.80 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A/B/C/D=22-78"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "5DZ5",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "1.95 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A/B=22-78"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "7CFT",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "EM"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "3.90 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "D/E/F=22-78"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "2MJY",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "5DO6",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "5DU1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "5DZ5",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "7CFT",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "P0DKR6",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BMRB",
+            "id": "P0DKR6",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P0DKR6",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "TCDB",
+            "id": "8.B.23.1.1",
+            "properties": [
+                {
+                    "key": "FamilyName",
+                    "value": "the mambalgin (mambalgin) family"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0099106",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ion channel regulator activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKTLLLTLLVVTIVCLDLGYSLKCYQHGKVVTCHRDMKFCYHNTGMPFRNLKLILQGCSSSCSETENNKCCSTDRCNK",
+        "length": 78,
+        "molWeight": 8853,
+        "crc64": "CC140CD5D3CB14FC",
+        "md5": "6688F1CCB41687E2E591A84513553832"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "MASS SPECTROMETRY": 1,
+            "PHARMACEUTICAL": 1,
+            "MISCELLANEOUS": 1,
+            "SIMILARITY": 1,
+            "WEB RESOURCE": 1
+        },
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Site": 5,
+            "Disulfide bond": 4,
+            "Mutagenesis": 14,
+            "Beta strand": 4,
+            "Helix": 1,
+            "Turn": 1
+        },
+        "uniParcId": "UPI00028AD978"
+    }
+}

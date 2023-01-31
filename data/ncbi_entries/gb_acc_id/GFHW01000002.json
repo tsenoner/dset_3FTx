@@ -1,0 +1,256 @@
+{
+    "GBSeq_locus": "GFHW01000002",
+    "GBSeq_length": "258",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "RNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "12-APR-2017",
+    "GBSeq_create-date": "12-APR-2017",
+    "GBSeq_definition": "TSA: Crotalus adamanteus Cadam10_3FTx-2 transcribed RNA sequence",
+    "GBSeq_primary-accession": "GFHW01000002",
+    "GBSeq_accession-version": "GFHW01000002.1",
+    "GBSeq_other-seqids": [
+        "gb|GFHW01000002.1|",
+        "gnl|TSA:GFHW01|Cadam10_3FTx-2",
+        "gi|1178170285"
+    ],
+    "GBSeq_project": "PRJNA88989",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly"
+    ],
+    "GBSeq_source": "Crotalus adamanteus (eastern diamondback rattlesnake)",
+    "GBSeq_organism": "Crotalus adamanteus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Viperidae; Crotalinae; Crotalus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..258",
+            "GBReference_authors": [
+                "Rokyta,D.R.",
+                "Margres,M.J.",
+                "Ward,M.J.",
+                "Sanchez,E.E."
+            ],
+            "GBReference_title": "The genetics of venom ontogeny in the eastern diamondback rattlesnake (Crotalus adamanteus)",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..258",
+            "GBReference_authors": [
+                "Rokyta,D.R.",
+                "Margres,M.J.",
+                "Ward,M.J.",
+                "Sanchez,E.E."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (16-FEB-2017) Department of Biological Science, Florida State University, 319 Stadium Dr., Tallahassee, FL 32306, United State of America"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: SeqMan NGen v. 12.3.1 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..258",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "258",
+                    "GBInterval_accession": "GFHW01000002.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Crotalus adamanteus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "transcribed RNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "Cadam10_3FTx-2"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8729"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..258",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "258",
+                    "GBInterval_accession": "GFHW01000002.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "Cadam10_3FTx-2"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "JAV48446.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLILGVVAFVYLEPGYSLECEACNQPNCDFLPSIQCPKGFNQCYKKWNEIGLSVRTFERGCTANCTPNAQTQCCNTNLCNA"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgttgatcctgggggtggtggcattcgtgtacctggagccaggatactccctggaatgtgaagcatgcaatcaaccaaattgtgatttccttccttctatacagtgtccaaaaggttttaatcaatgctataaaaagtggaatgaaattggcttgtctgtacggacgttcgaaaggggatgtactgcaaattgcactccgaatgcgcaaactcagtgttgcaacacaaacctgtgcaacgcttag",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA88989"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN06338141"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN06338142"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN06338143"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN06338144"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN06338145"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN06338146"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN06338147"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN06338148"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN06338149"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN06338150"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN06338151"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN06338152"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN06338153"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259481"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259482"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259483"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259484"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259485"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259486"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259487"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259488"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259489"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259490"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259491"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259492"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259493"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259494"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259495"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259496"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259497"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259498"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259499"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5259500"
+        }
+    ]
+}

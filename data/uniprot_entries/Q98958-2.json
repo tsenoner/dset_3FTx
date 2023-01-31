@@ -1,0 +1,130 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q98958-2",
+    "uniProtkbId": "3SA1D_NAJAT",
+    "entryAudit": {
+        "firstPublicDate": "1997-11-01",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "1997-02-01",
+        "entryVersion": 85,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+        "scientificName": "Naja atra",
+        "commonName": "Chinese cobra",
+        "taxonId": 8656,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Naja"
+        ]
+    },
+    "proteinExistence": "2: Evidence at transcript level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "Isoform 2 of Cytotoxin 1d/1e"
+            }
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "value": "Cardiotoxin-1d/1e"
+                }
+            }
+        ],
+        "flag": "Precursor"
+    },
+    "comments": [
+        {
+            "commentType": "ALTERNATIVE PRODUCTS",
+            "events": [
+                "Alternative splicing"
+            ],
+            "isoforms": [
+                {
+                    "name": {
+                        "value": "1"
+                    },
+                    "synonyms": [
+                        {
+                            "value": "Cardiotoxin 1d"
+                        }
+                    ],
+                    "isoformIds": [
+                        "Q98958-1"
+                    ],
+                    "isoformSequenceStatus": "Displayed"
+                },
+                {
+                    "name": {
+                        "value": "2"
+                    },
+                    "synonyms": [
+                        {
+                            "value": "Cardiotoxin 1e"
+                        }
+                    ],
+                    "isoformIds": [
+                        "Q98958-2"
+                    ],
+                    "sequenceIds": [
+                        "VSP_009329"
+                    ],
+                    "isoformSequenceStatus": "Described"
+                }
+            ]
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "CI-3PBS1QVDUUT1O",
+                "citationType": "submission",
+                "authors": [
+                    "Chu R.C.",
+                    "Yang C.-C."
+                ],
+                "publicationDate": "MAY-1996",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2)"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom gland",
+                    "type": "TISSUE"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKTLLLTLVVVTIVCLDLGYTLKCNQLTIVCLDLGYTLKCNQLIPIASKTCPAGKNLCYKMFMMSDLTIPVKRGCIDVCPKNSLLVKYVCCNTDRCN",
+        "length": 97,
+        "molWeight": 10771,
+        "crc64": "B1A09A017A759188",
+        "md5": "248655AE420BBDBE5689B2A5AC07594E"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "ALTERNATIVE PRODUCTS": 2
+        },
+        "uniParcId": "UPI00000FDFE6"
+    }
+}

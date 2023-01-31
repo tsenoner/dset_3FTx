@@ -1,0 +1,563 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P22947",
+    "uniProtkbId": "3SLS_DENPO",
+    "entryAudit": {
+        "firstPublicDate": "1991-08-01",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "1991-08-01",
+        "entryVersion": 86,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 3.0,
+    "organism": {
+        "scientificName": "Dendroaspis polylepis polylepis",
+        "commonName": "Black mamba",
+        "taxonId": 8620,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Dendroaspis"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "Calciseptin"
+            }
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "value": "Calciseptine"
+                },
+                "shortNames": [
+                    {
+                        "value": "CaS"
+                    }
+                ]
+            },
+            {
+                "fullName": {
+                    "value": "L-type calcium channel blocker"
+                }
+            }
+        ]
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "1848702"
+                        }
+                    ],
+                    "value": "This specific blocker of the L-type calcium channel (Cav1/CACNA1) is a smooth muscle relaxant and an inhibitor of cardiac contractions"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "1848702"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "value": "The sensitivity is higher in cells of the cardiovascular system. Neuronal, and insulinoma cells L-type calcium channel are more resistant. A total resistance is found in skeletal muscle cells"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily. L-type calcium blocker sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 60,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Calciseptin",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1848702"
+                }
+            ],
+            "featureId": "PRO_0000093667"
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 41,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 48,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Important for binding to L-type calcium channels",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9636051"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 3,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P0C1Z0"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 17,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 39,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P0C1Z0"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 41,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 52,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P0C1Z0"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 58,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P0C1Z0"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0108",
+            "category": "Molecular function",
+            "name": "Calcium channel impairing toxin"
+        },
+        {
+            "id": "KW-0123",
+            "category": "Molecular function",
+            "name": "Cardiotoxin"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0872",
+            "category": "Molecular function",
+            "name": "Ion channel impairing toxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        },
+        {
+            "id": "KW-1218",
+            "category": "Molecular function",
+            "name": "Voltage-gated calcium channel impairing toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "1848702",
+                "citationType": "journal article",
+                "authors": [
+                    "de Weille J.R.",
+                    "Schweitz H.",
+                    "Maes P.",
+                    "Tartar A.",
+                    "Lazdunski M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "1848702"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1073/pnas.88.6.2437"
+                    }
+                ],
+                "title": "Calciseptine, a peptide isolated from black mamba venom, is a specific blocker of the L-type calcium channel.",
+                "publicationDate": "1991",
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "firstPage": "2437",
+                "lastPage": "2440",
+                "volume": "88"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE",
+                "FUNCTION",
+                "SUBCELLULAR LOCATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "1450521",
+                "citationType": "journal article",
+                "authors": [
+                    "Kuroda H.",
+                    "Chen Y.-N.",
+                    "Watanabe T.X.",
+                    "Kimura T.",
+                    "Sakakibara S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "1450521"
+                    }
+                ],
+                "title": "Solution synthesis of calciseptine, an L-type specific calcium channel blocker.",
+                "publicationDate": "1992",
+                "journal": "Pept. Res.",
+                "firstPage": "265",
+                "lastPage": "268",
+                "volume": "5"
+            },
+            "referencePositions": [
+                "SYNTHESIS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "9636051",
+                "citationType": "journal article",
+                "authors": [
+                    "Kini R.M.",
+                    "Caldwell R.A.",
+                    "Wu Q.Y.",
+                    "Baumgarten C.M.",
+                    "Feher J.J.",
+                    "Evans H.J."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9636051"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/bi9802723"
+                    }
+                ],
+                "title": "Flanking proline residues identify the L-type Ca2+ channel binding site of calciseptine and FS2.",
+                "publicationDate": "1998",
+                "journal": "Biochemistry",
+                "firstPage": "9058",
+                "lastPage": "9063",
+                "volume": "37"
+            },
+            "referencePositions": [
+                "SYNTHESIS OF 41-48"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "PIR",
+            "id": "A39165",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "A39165"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "P22947",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P22947",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005246",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:calcium channel regulator activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018354",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin_con_site"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00272",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SNAKE_TOXIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "RICYIHKASLPRATKTCVENTCYKMFIRTQREYISERGCGCPTAMWPYQTECCKGDRCNK",
+        "length": 60,
+        "molWeight": 7044,
+        "crc64": "2F14B05972A40FFF",
+        "md5": "57DF882A28A570023227F5BFECF2D9B4"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "MISCELLANEOUS": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Region": 1,
+            "Disulfide bond": 4
+        },
+        "uniParcId": "UPI000002D71A"
+    }
+}

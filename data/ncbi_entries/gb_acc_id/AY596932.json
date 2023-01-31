@@ -1,0 +1,142 @@
+{
+    "GBSeq_locus": "AY596932",
+    "GBSeq_length": "419",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "26-JUL-2016",
+    "GBSeq_create-date": "30-APR-2005",
+    "GBSeq_definition": "Ophiophagus hannah isolate OH-17 long chain neurotoxin precursor, mRNA, partial cds",
+    "GBSeq_primary-accession": "AY596932",
+    "GBSeq_accession-version": "AY596932.1",
+    "GBSeq_other-seqids": [
+        "gb|AY596932.1|",
+        "gi|51105380"
+    ],
+    "GBSeq_source": "Ophiophagus hannah (king cobra)",
+    "GBSeq_organism": "Ophiophagus hannah",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Ophiophagus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..419",
+            "GBReference_authors": [
+                "He,Y.Y.",
+                "Lee,W.H.",
+                "Zhang,Y."
+            ],
+            "GBReference_title": "Cloning and purification of alpha-neurotoxins from king cobra (Ophiophagus hannah)",
+            "GBReference_journal": "Toxicon 44 (3), 295-303 (2004)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/j.toxicon.2004.06.003"
+                }
+            ],
+            "GBReference_pubmed": "15302536"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..419",
+            "GBReference_authors": [
+                "He,Y.-Y.",
+                "Lee,W.-H.",
+                "Zhang,Y."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (10-APR-2004) Animal Toxinological Department, Kunming Institute of Zoology. Chinese Academy of Sciences, 32 East JiaoChang Road, Kunming, Yunnan 650223, China"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..419",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "419",
+                    "GBInterval_accession": "AY596932.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Ophiophagus hannah"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "OH-17"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8665"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "<1..219",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "219",
+                    "GBInterval_accession": "AY596932.1"
+                }
+            ],
+            "GBFeature_partial5": "",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "LNTX-6"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "long chain neurotoxin precursor"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "AAT97254.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "TKCYITPDVKSETCPDGENICYTKSWCDVFCTSRGKRIDLGCAATCPKVKPGVDIKCCSTDNCNPFTPWKRH"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "mat_peptide",
+            "GBFeature_location": "1..216",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "216",
+                    "GBInterval_accession": "AY596932.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "long chain neurotoxin"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "TKCYITPDVKSETCPDGENICYTKSWCDVFCTSRGKRIDLGCAATCPKVKPGVDIKCCSTDNCNPFTPWKRH"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "acgaaatgctacataacacctgatgttaagtctgagacttgtccagatggggagaacatatgctatacaaagtcttggtgtgatgttttttgtacctccagaggaaaaagaattgatttgggctgtgctgctacttgccctaaagtgaagcccggtgtggatattaaatgttgctcaacagacaattgcaacccatttacaccatggaaacgtcattgagttttgcactcatccatcatggaccatccttgaaaatttatgcttgtggcctttaccaccagatggtccatcatccccttctcccgtgctttctttgacatctcaacatctttcccttttctctcattctgtaagtttccttctgctagttctgtagtttgagaatcaaataaaaatcagcattcaaaaaaaaaaaaaaa"
+}

@@ -1,0 +1,124 @@
+{
+    "GBSeq_locus": "FJ752468",
+    "GBSeq_length": "518",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "HTC",
+    "GBSeq_update-date": "16-JUN-2011",
+    "GBSeq_create-date": "16-JUN-2011",
+    "GBSeq_definition": "Drysdalia coronoides putative long chain neurotoxin 98R mRNA, complete cds",
+    "GBSeq_primary-accession": "FJ752468",
+    "GBSeq_accession-version": "FJ752468.1",
+    "GBSeq_other-seqids": [
+        "gb|FJ752468.1|",
+        "gi|238928341"
+    ],
+    "GBSeq_keywords": [
+        "HTC"
+    ],
+    "GBSeq_source": "Drysdalia coronoides",
+    "GBSeq_organism": "Drysdalia coronoides",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Notechinae; Drysdalia",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..518",
+            "GBReference_authors": [
+                "Chatrath,S.T.",
+                "Chapeaurouge,A.",
+                "Lin,Q.",
+                "Lim,T.K.",
+                "Dunstan,N.",
+                "Mirtschin,P.",
+                "Kumar,P.P.",
+                "Kini,R.M."
+            ],
+            "GBReference_title": "Identification of novel proteins from the venom of a cryptic snake Drysdalia coronoides by a combined transcriptomics and proteomics approach",
+            "GBReference_journal": "J. Proteome Res. 10 (2), 739-750 (2011)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1021/pr1008916"
+                }
+            ],
+            "GBReference_pubmed": "21133350"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..518",
+            "GBReference_authors": [
+                "Chatrath,S.T.",
+                "Kumar,P.P.",
+                "Kini,R.M."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (11-FEB-2009) Department of Biological Sciences, National University of Singapore, 14, Science Drive 4, Singapore 117543, Singapore"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..518",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "518",
+                    "GBInterval_accession": "FJ752468.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Drysdalia coronoides"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:66186"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "34..312",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "34",
+                    "GBInterval_to": "312",
+                    "GBInterval_accession": "FJ752468.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "putative long chain neurotoxin 98R"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "ACR78490.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGDSLICYQAYNTPQTCAPGENLCYTKTWCDAFCSIRGRRVDLGCAATCPTAKPGVDITCCSTDKCNPHPAHQSR"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "gacactttgcaggctgcagagaagattcccaagatgaaaactctgctgctgaccttggtggtggtgacaatcgtgtgcctggacttaggtgacagcttgatatgctaccaggcatataatacacctcagacttgtgcacctggggagaacctatgctatacaaagacttggtgtgatgctttttgttccatcagaggaaggcgagtcgatttgggatgtgctgctacttgccctacagcgaagcccggtgtggatattacctgttgctcaacagacaagtgcaacccacatccggcacaccaatctcgttgagttttgctctcatccatcatggaccatcctttaaaatttatgcttgtggcctttaccgcagatggtccatcacccccctctcccctgctgtctttgacacctcaacatctttcccttttctctcgttctgtaagtttccttctgctagttctgtagtttgagaatcgaataaacctcagcatccaaaaaaaaaaaaaaaaaaaaaa"
+}

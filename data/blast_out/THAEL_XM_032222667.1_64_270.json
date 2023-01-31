@@ -1,0 +1,109 @@
+{
+    "program": "blastp",
+    "version": "BLASTP 2.12.0+",
+    "command": "$APPBIN/ncbi-blast-2.9.0+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-R20230130-032304-0642-89248020-p2m.sequence  -num_threads 32 -outfmt 11 -out ncbiblast-R20230130-032304-0642-89248020-p2m.archive -matrix BLOSUM62 -max_target_seqs 5 -seg no -ungapped -taxidlist ncbiblast-R20230130-032304-0642-89248020-p2m.taxidlist -comp_based_stats F",
+    "query_def": "EMBOSS_001",
+    "query_stype": "protein",
+    "query_len": 86,
+    "db_count": 1,
+    "db_num": 230190369,
+    "db_len": 81010115241,
+    "dbs": [
+        {
+            "name": "uniprotkb",
+            "stype": "protein",
+            "created": "2022-12-14T02:19:00+00:00"
+        }
+    ],
+    "alignments": 5,
+    "scores": 5,
+    "expect_upper": 10.0,
+    "filter": "F",
+    "gap_extend": 1.0,
+    "gap_open": 11.0,
+    "matrix": "BLOSUM62",
+    "start": "2023-01-30T03:23:04+00:00",
+    "end": "2023-01-30T03:25:43+00:00",
+    "search": "P0Y0M0DT0H0M159.000S",
+    "hits": [
+        {
+            "hit_num": 1,
+            "hit_def": "TR:C7AKA0 C7AKA0_THAEL Sodium channel protein OS=Thamnophis elegans OX=35005 GN=SCN4A PE=2 SV=1",
+            "hit_db": "TR",
+            "hit_id": "C7AKA0_THAEL",
+            "hit_acc": "C7AKA0",
+            "hit_desc": "Sodium channel protein OS=Thamnophis elegans OX=35005 GN=SCN4A PE=2 SV=1",
+            "hit_url": "https://www.uniprot.org/uniprot/C7AKA0",
+            "hit_xref_url": "https://www.ebi.ac.uk/ebisearch/search.ebi?db=uniprot&query=C7AKA0",
+            "hit_os": "Thamnophis elegans",
+            "hit_uni_de": "Sodium channel protein",
+            "hit_uni_os": "Thamnophis elegans",
+            "hit_uni_ox": "35005",
+            "hit_uni_gn": "SCN4A",
+            "hit_uni_pe": "2",
+            "hit_uni_sv": "1",
+            "hit_len": 1875,
+            "hit_hsps": [
+                {
+                    "hsp_num": 1,
+                    "hsp_score": 32,
+                    "hsp_bit_score": 17.8783,
+                    "hsp_expect": 2.8,
+                    "hsp_align_len": 15,
+                    "hsp_identity": 40.0,
+                    "hsp_positive": 73.3,
+                    "hsp_gaps": 0,
+                    "hsp_query_frame": "0",
+                    "hsp_hit_frame": "0",
+                    "hsp_strand": "none/none",
+                    "hsp_query_from": 41,
+                    "hsp_query_to": 55,
+                    "hsp_hit_from": 1050,
+                    "hsp_hit_to": 1064,
+                    "hsp_qseq": "CFKMYDVSSSESYII",
+                    "hsp_mseq": "CFK+ + +  E++II",
+                    "hsp_hseq": "CFKIVEHNWFETFII"
+                }
+            ]
+        },
+        {
+            "hit_num": 2,
+            "hit_def": "TR:J9ZZK2 J9ZZK2_THAEL HSP70A1 OS=Thamnophis elegans OX=35005 PE=2 SV=1",
+            "hit_db": "TR",
+            "hit_id": "J9ZZK2_THAEL",
+            "hit_acc": "J9ZZK2",
+            "hit_desc": "HSP70A1 OS=Thamnophis elegans OX=35005 PE=2 SV=1",
+            "hit_url": "https://www.uniprot.org/uniprot/J9ZZK2",
+            "hit_xref_url": "https://www.ebi.ac.uk/ebisearch/search.ebi?db=uniprot&query=J9ZZK2",
+            "hit_os": "Thamnophis elegans",
+            "hit_uni_de": "HSP70A1",
+            "hit_uni_os": "Thamnophis elegans",
+            "hit_uni_ox": "35005",
+            "hit_uni_pe": "2",
+            "hit_uni_sv": "1",
+            "hit_len": 648,
+            "hit_hsps": [
+                {
+                    "hsp_num": 1,
+                    "hsp_score": 31,
+                    "hsp_bit_score": 17.4093,
+                    "hsp_expect": 3.8,
+                    "hsp_align_len": 10,
+                    "hsp_identity": 60.0,
+                    "hsp_positive": 70.0,
+                    "hsp_gaps": 0,
+                    "hsp_query_frame": "0",
+                    "hsp_hit_frame": "0",
+                    "hsp_strand": "none/none",
+                    "hsp_query_from": 64,
+                    "hsp_query_to": 73,
+                    "hsp_hit_from": 468,
+                    "hsp_hit_to": 477,
+                    "hsp_qseq": "PETTPQIEVS",
+                    "hsp_mseq": "P   PQIEV+",
+                    "hsp_hseq": "PRGVPQIEVT"
+                }
+            ]
+        }
+    ]
+}

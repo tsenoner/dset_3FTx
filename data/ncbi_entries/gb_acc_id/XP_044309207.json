@@ -1,0 +1,150 @@
+{
+    "GBSeq_locus": "XP_044309207",
+    "GBSeq_length": "126",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "17-OCT-2021",
+    "GBSeq_create-date": "17-OCT-2021",
+    "GBSeq_definition": "lymphocyte antigen 6E-like [Varanus komodoensis]",
+    "GBSeq_primary-accession": "XP_044309207",
+    "GBSeq_accession-version": "XP_044309207.1",
+    "GBSeq_other-seqids": [
+        "ref|XP_044309207.1|",
+        "gi|2118031427"
+    ],
+    "GBSeq_project": "PRJNA771140",
+    "GBSeq_keywords": [
+        "RefSeq"
+    ],
+    "GBSeq_source": "Varanus komodoensis (Komodo dragon)",
+    "GBSeq_organism": "Varanus komodoensis",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Anguimorpha; Paleoanguimorpha; Varanoidea; Varanidae; Varanus",
+    "GBSeq_comment": "MODEL REFSEQ: This record is predicted by automated computational analysis. This record is derived from a genomic sequence (NW_025336455.1) annotated using gene prediction method: Gnomon.~Also see:~ Documentation of NCBI's Annotation Process; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI ; Annotation Status :: Full annotation ; Annotation Name :: Varanus komodoensis Annotation Release 100 ; Annotation Version :: 100 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 9.0 ; Annotation Method :: Best-placed RefSeq; Gnomon ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; ##Genome-Annotation-Data-END##; COMPLETENESS: full length.",
+    "GBSeq_source-db": "REFSEQ: accession XM_044453272.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..126",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "126",
+                    "GBInterval_accession": "XP_044309207.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Varanus komodoensis"
+                },
+                {
+                    "GBQualifier_name": "strain",
+                    "GBQualifier_value": "SLA01"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:61221"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "Unknown"
+                },
+                {
+                    "GBQualifier_name": "sex",
+                    "GBQualifier_value": "male"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "blood"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "adult"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..126",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "126",
+                    "GBInterval_accession": "XP_044309207.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "lymphocyte antigen 6E-like"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "13571"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "21..98",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "21",
+                    "GBInterval_to": "98",
+                    "GBInterval_accession": "XP_044309207.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "LU"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Ly-6 antigen / uPA receptor -like domain; occurs singly in GPI-linked cell-surface glycoproteins (Ly-6 family,CD59, thymocyte B cell antigen, Sgp-2) or as three-fold repeated domain in urokinase-type plasminogen activator receptor. Topology of these...; cd00117"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:238065"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..126",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "126",
+                    "GBInterval_accession": "XP_044309207.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LOC123035276"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "XM_044453272.1:1..381"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:123035276"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mktlltallvailcmgkvhalwcyrcenepsnwnciklvkcaetdsycsttvttsrqgkdtdyrlskgcaptctennmvtslgsvstsccqrygcnfsgatsvktssavmvvgilasffyifrsgl",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA771140"
+        }
+    ]
+}

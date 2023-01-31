@@ -1,0 +1,316 @@
+{
+    "GBSeq_locus": "NP_001124018",
+    "GBSeq_length": "116",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "ROD",
+    "GBSeq_update-date": "01-FEB-2021",
+    "GBSeq_create-date": "27-JUL-2008",
+    "GBSeq_definition": "ly-6/neurotoxin-like protein 1 precursor [Rattus norvegicus]",
+    "GBSeq_primary-accession": "NP_001124018",
+    "GBSeq_accession-version": "NP_001124018.1",
+    "GBSeq_other-seqids": [
+        "ref|NP_001124018.1|",
+        "gi|194474092"
+    ],
+    "GBSeq_secondary-accessions": [
+        "XP_001069286",
+        "XP_216965"
+    ],
+    "GBSeq_keywords": [
+        "RefSeq"
+    ],
+    "GBSeq_source": "Rattus norvegicus (Norway rat)",
+    "GBSeq_organism": "Rattus norvegicus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae; Murinae; Rattus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..116",
+            "GBReference_authors": [
+                "Thomsen MS",
+                "Arvaniti M",
+                "Jensen MM",
+                "Shulepko MA",
+                "Dolgikh DA",
+                "Pinborg LH",
+                "Hartig W",
+                "Lyukmanova EN",
+                "Mikkelsen JD"
+            ],
+            "GBReference_title": "Lynx1 and Abeta1-42 bind competitively to multiple nicotinic acetylcholine receptor subtypes",
+            "GBReference_journal": "Neurobiol. Aging 46, 13-21 (2016)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/j.neurobiolaging.2016.06.009"
+                }
+            ],
+            "GBReference_pubmed": "27460145",
+            "GBReference_remark": "GeneRIF: Lynx1 binds to multiple nAChR subtypes in the brain and that this interaction might have functional and pathophysiological implications in relation to Alzheimer's disease."
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..116",
+            "GBReference_authors": [
+                "Lyukmanova EN",
+                "Shulepko MA",
+                "Shenkarev ZO",
+                "Bychkov ML",
+                "Paramonov AS",
+                "Chugunov AO",
+                "Kulbatskii DS",
+                "Arvaniti M",
+                "Dolejsi E",
+                "Schaer T",
+                "Arseniev AS",
+                "Efremov RG",
+                "Thomsen MS",
+                "Dolezal V",
+                "Bertrand D",
+                "Dolgikh DA",
+                "Kirpichnikov MP"
+            ],
+            "GBReference_title": "Secreted Isoform of Human Lynx1 (SLURP-2): Spatial Structure and Pharmacology of Interactions with Different Types of Acetylcholine Receptors",
+            "GBReference_journal": "Sci Rep 6, 30698 (2016)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1038/srep30698"
+                }
+            ],
+            "GBReference_pubmed": "27485575",
+            "GBReference_remark": "Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "3",
+            "GBReference_position": "1..116",
+            "GBReference_authors": [
+                "Lyukmanova EN",
+                "Shenkarev ZO",
+                "Shulepko MA",
+                "Mineev KS",
+                "D'Hoedt D",
+                "Kasheverov IE",
+                "Filkin SY",
+                "Krivolapova AP",
+                "Janickova H",
+                "Dolezal V",
+                "Dolgikh DA",
+                "Arseniev AS",
+                "Bertrand D",
+                "Tsetlin VI",
+                "Kirpichnikov MP"
+            ],
+            "GBReference_title": "NMR structure and action on nicotinic acetylcholine receptors of water-soluble domain of human LYNX1",
+            "GBReference_journal": "J. Biol. Chem. 286 (12), 10618-10627 (2011)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1074/jbc.M110.189100"
+                }
+            ],
+            "GBReference_pubmed": "21252236"
+        },
+        {
+            "GBReference_reference": "4",
+            "GBReference_position": "1..116",
+            "GBReference_authors": [
+                "Tekinay AB",
+                "Nong Y",
+                "Miwa JM",
+                "Lieberam I",
+                "Ibanez-Tallon I",
+                "Greengard P",
+                "Heintz N"
+            ],
+            "GBReference_title": "A role for LYNX2 in anxiety-related behavior",
+            "GBReference_journal": "Proc. Natl. Acad. Sci. U.S.A. 106 (11), 4477-4482 (2009)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1073/pnas.0813109106"
+                }
+            ],
+            "GBReference_pubmed": "19246390"
+        },
+        {
+            "GBReference_reference": "5",
+            "GBReference_position": "1..116",
+            "GBReference_authors": [
+                "Arredondo J",
+                "Chernyavsky AI",
+                "Jolkovsky DL",
+                "Webber RJ",
+                "Grando SA"
+            ],
+            "GBReference_title": "SLURP-2: A novel cholinergic signaling peptide in human mucocutaneous epithelium",
+            "GBReference_journal": "J. Cell. Physiol. 208 (1), 238-245 (2006)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1002/jcp.20661"
+                }
+            ],
+            "GBReference_pubmed": "16575903"
+        },
+        {
+            "GBReference_reference": "6",
+            "GBReference_position": "1..116",
+            "GBReference_authors": [
+                "Ibanez-Tallon I",
+                "Miwa JM",
+                "Wang HL",
+                "Adams NC",
+                "Crabtree GW",
+                "Sine SM",
+                "Heintz N"
+            ],
+            "GBReference_title": "Novel modulation of neuronal nicotinic acetylcholine receptors by association with the endogenous prototoxin lynx1",
+            "GBReference_journal": "Neuron 33 (6), 893-903 (2002)",
+            "GBReference_pubmed": "11906696"
+        }
+    ],
+    "GBSeq_comment": "PROVISIONAL REFSEQ: This record has not yet been subject to final NCBI review. The reference sequence was derived from CH473950.2.; On or before Jul 28, 2008 this sequence version replaced XP_001069286.1, XP_216965.1.; ##Evidence-Data-START## ; Transcript exon combination :: CB717062.1, FM107114.1 [ECO:0000332] ; RNAseq introns :: single sample supports all introns SAMEA5760433, SAMEA5760494 [ECO:0000348] ; ##Evidence-Data-END##",
+    "GBSeq_source-db": "REFSEQ: accession NM_001130546.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..116",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "116",
+                    "GBInterval_accession": "NP_001124018.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Rattus norvegicus"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:10116"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "7"
+                },
+                {
+                    "GBQualifier_name": "map",
+                    "GBQualifier_value": "7q34"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..116",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "116",
+                    "GBInterval_accession": "NP_001124018.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "ly-6/neurotoxin-like protein 1 precursor"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "ly-6/neurotoxin-like protein 1"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "10728"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "1..20",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "20",
+                    "GBInterval_accession": "NP_001124018.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "inference",
+                    "GBQualifier_value": "COORDINATES: ab initio prediction:SignalP:4.0"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "2126"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MTHLLTVFLVALMGLPVAQA"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "21..94",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "21",
+                    "GBInterval_to": "94",
+                    "GBInterval_accession": "NP_001124018.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "LU"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Ly-6 antigen / uPA receptor -like domain; occurs singly in GPI-linked cell-surface glycoproteins (Ly-6 family,CD59, thymocyte B cell antigen, Sgp-2) or as three-fold repeated domain in urokinase-type plasminogen activator receptor. Topology of these...; cd00117"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:238065"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..116",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "116",
+                    "GBInterval_accession": "NP_001124018.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "Lynx1"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "NM_001130546.1:349..699"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:300018"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "RGD:1312017"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mthlltvflvalmglpvaqalechvcayngdncfkpmrcpamatycmttrtyftpyrmkvrkscvpscfetvydgyskhasatsccqyylcngagfatpvtlalvpallatfwsll"
+}

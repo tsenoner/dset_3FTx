@@ -1,0 +1,306 @@
+{
+    "GBSeq_locus": "3SX0_MICAT",
+    "GBSeq_length": "84",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "14-DEC-2022",
+    "GBSeq_create-date": "26-JUN-2013",
+    "GBSeq_definition": "RecName: Full=Three-finger toxin MALT0070C; Short=3FTx MALT0070C; Flags: Precursor",
+    "GBSeq_primary-accession": "F5CPE6",
+    "GBSeq_accession-version": "F5CPE6.1",
+    "GBSeq_other-seqids": [
+        "sp|F5CPE6.1|3SX0_MICAT",
+        "gi|519882279"
+    ],
+    "GBSeq_keywords": [
+        "Disulfide bond",
+        "Secreted",
+        "Signal",
+        "Toxin"
+    ],
+    "GBSeq_source": "Micrurus altirostris",
+    "GBSeq_organism": "Micrurus altirostris",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Micrurus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..84",
+            "GBReference_authors": [
+                "Correa-Netto,C.",
+                "Junqueira-de-Azevedo Ide,L.",
+                "Silva,D.A.",
+                "Ho,P.L.",
+                "Leitao-de-Araujo,M.",
+                "Alves,M.L.",
+                "Sanz,L.",
+                "Foguel,D.",
+                "Zingali,R.B.",
+                "Calvete,J.J."
+            ],
+            "GBReference_title": "Snake venomics and venom gland transcriptomic analysis of Brazilian coral snakes, Micrurus altirostris and M. corallinus",
+            "GBReference_journal": "J Proteomics 74 (9), 1795-1809 (2011)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/j.jprot.2011.04.003"
+                }
+            ],
+            "GBReference_pubmed": "21515432",
+            "GBReference_remark": "NUCLEOTIDE SEQUENCE [MRNA], IDENTIFICATION BY MASS SPECTROMETRY, AND SUBCELLULAR LOCATION.;\nTISSUE=Venom, and Venom gland"
+        }
+    ],
+    "GBSeq_comment": "[SUBCELLULAR LOCATION] Secreted {ECO:0000269|PubMed:21515432}.; [TISSUE SPECIFICITY] Expressed by the venom gland. {ECO:0000305}.; [SIMILARITY] Belongs to the snake three-finger toxin family. Short-chain subfamily. {ECO:0000305}.",
+    "GBSeq_source-db": "UniProtKB: locus 3SX0_MICAT, accession F5CPE6;; class: standard.; created: Jun 26, 2013.; sequence updated: Jun 28, 2011.; annotation updated: Dec 14, 2022.; xrefs: JF754484.1, AED89573.1; xrefs (non-sequence databases): AlphaFoldDB:F5CPE6, SMR:F5CPE6, GO:0005576, GO:0090729, Gene3D:2.10.60.10, InterPro:IPR045860, SUPFAM:SSF57302",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..84",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "84",
+                    "GBInterval_accession": "F5CPE6.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Micrurus altirostris"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:129457"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..84",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "84",
+                    "GBInterval_accession": "F5CPE6.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "Three-finger toxin MALT0070C"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "3FTx MALT0070C"
+                },
+                {
+                    "GBQualifier_name": "UniProtKB_evidence",
+                    "GBQualifier_value": "Evidence at protein level"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "8938"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "1..21",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "21",
+                    "GBInterval_accession": "F5CPE6.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Signal"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000255."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "22..84",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "22",
+                    "GBInterval_to": "84",
+                    "GBInterval_accession": "F5CPE6.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Mature chain"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Three-finger toxin MALT0070C. /id=PRO_0000422905."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "22..78",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "22",
+                    "GBInterval_to": "78",
+                    "GBInterval_accession": "F5CPE6.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "snake_toxin"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Snake toxin domain, present in short and long neurotoxins, cytotoxins and short toxins, and in other miscellaneous venom peptides. The toxin acts by binding to the nicotinic acetylcholine receptors in the postsynaptic membrane of skeletal muscles and...; cl11586"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:416329"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(24,43)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "24",
+                    "GBInterval_accession": "F5CPE6.1"
+                },
+                {
+                    "GBInterval_point": "43",
+                    "GBInterval_accession": "F5CPE6.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000250|UniProtKB:P60301."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "order(32,47..48,52..57)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "32",
+                    "GBInterval_accession": "F5CPE6.1"
+                },
+                {
+                    "GBInterval_from": "47",
+                    "GBInterval_to": "48",
+                    "GBInterval_accession": "F5CPE6.1"
+                },
+                {
+                    "GBInterval_from": "52",
+                    "GBInterval_to": "57",
+                    "GBInterval_accession": "F5CPE6.1"
+                }
+            ],
+            "GBFeature_operator": "order",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "active"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "receptor binding site [active]"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(36,60)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "36",
+                    "GBInterval_accession": "F5CPE6.1"
+                },
+                {
+                    "GBInterval_point": "60",
+                    "GBInterval_accession": "F5CPE6.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000250|UniProtKB:P60301."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(64,71)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "64",
+                    "GBInterval_accession": "F5CPE6.1"
+                },
+                {
+                    "GBInterval_point": "71",
+                    "GBInterval_accession": "F5CPE6.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000250|UniProtKB:P60301."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(72,77)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "72",
+                    "GBInterval_accession": "F5CPE6.1"
+                },
+                {
+                    "GBInterval_point": "77",
+                    "GBInterval_accession": "F5CPE6.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000250|UniProtKB:P60301."
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mktllltlvvvtivcldlgytlkcyvgrkpyklitcpegskkcatvplptrplpifskgcytscpsqyvkccstdlcngsptsg"
+}

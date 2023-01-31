@@ -1,0 +1,132 @@
+{
+    "GBSeq_locus": "EU029680",
+    "GBSeq_length": "279",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "03-OCT-2007",
+    "GBSeq_create-date": "01-SEP-2007",
+    "GBSeq_definition": "Telescopus dhara 3FTx-Tel3 mRNA, complete cds",
+    "GBSeq_primary-accession": "EU029680",
+    "GBSeq_accession-version": "EU029680.1",
+    "GBSeq_other-seqids": [
+        "gb|EU029680.1|",
+        "gi|156485237"
+    ],
+    "GBSeq_source": "Telescopus dhara",
+    "GBSeq_organism": "Telescopus dhara",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Colubridae; Colubrinae; Telescopus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..279",
+            "GBReference_authors": [
+                "Fry,B.G.",
+                "Scheib,H.",
+                "van der Weerd,L.",
+                "Young,B.",
+                "McNaughtan,J.",
+                "Ramjan,S.F.",
+                "Vidal,N.",
+                "Poelmann,R.E.",
+                "Norman,J.A."
+            ],
+            "GBReference_title": "Evolution of an arsenal: structural and functional diversification of the venom system in the advanced snakes (Caenophidia)",
+            "GBReference_journal": "Mol. Cell Proteomics 7 (2), 215-246 (2008)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1074/mcp.M700094-MCP200"
+                }
+            ],
+            "GBReference_pubmed": "17855442"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..279",
+            "GBReference_authors": [
+                "Fry,B.G.",
+                "Scheib,H.",
+                "van der Weerd,L.",
+                "Young,B.",
+                "McNaughtan,J.",
+                "Ramjan,R.",
+                "Vidal,N.",
+                "Poelmann,R.E.",
+                "Norman,J.A."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (12-JUL-2007) Department of Biochemistry & Molecular Biology, University of Melbourne, Bio21 Institute, Parkville, Victoria 3010, Australia"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..279",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "279",
+                    "GBInterval_accession": "EU029680.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Telescopus dhara"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:338837"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..279",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "279",
+                    "GBInterval_accession": "EU029680.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "three finger toxin"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "3FTx-Tel3"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "ABU68480.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLALAVVAFMCLGSGESSHCCFQCNHKTLQGCATPKPCKESYNTCYTVYVPEKNGELKWYMKACGRMCPTARYREIVKCCNTQECNND"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctggccttggcggtggtggcattcatgtgcctgggctcaggtgaatcctcccactgttgtttccaatgcaatcataagactctccagggctgtgcaacccctaagccgtgtaaggaatcttataacacgtgctacactgtgtacgtacctgagaagaatggtgaattgaaatggtatatgaaggcatgtggtagaatgtgccctaccgcgcgatatagagagattgtgaagtgttgcaatacacaagagtgcaacaatgactga"
+}

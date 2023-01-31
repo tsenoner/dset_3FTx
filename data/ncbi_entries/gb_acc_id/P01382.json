@@ -1,0 +1,597 @@
+{
+    "GBSeq_locus": "3L21_NAJOX",
+    "GBSeq_length": "73",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "14-DEC-2022",
+    "GBSeq_create-date": "21-JUL-1986",
+    "GBSeq_definition": "RecName: Full=Alpha-elapitoxin-Nno2a; Short=Alpha-EPTX-Nno2a; AltName: Full=Long neurotoxin 1; AltName: Full=Neurotoxin I; Short=NT I; Short=Ntx-1; Short=Toxin I; AltName: Full=NnoI",
+    "GBSeq_primary-accession": "P01382",
+    "GBSeq_accession-version": "P01382.1",
+    "GBSeq_other-seqids": [
+        "sp|P01382.1|3L21_NAJOX",
+        "gi|128934"
+    ],
+    "GBSeq_keywords": [
+        "3D-structure",
+        "Acetylcholine receptor inhibiting toxin",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "Ion channel impairing toxin",
+        "Neurotoxin",
+        "Postsynaptic neurotoxin",
+        "Secreted",
+        "Toxin"
+    ],
+    "GBSeq_source": "Naja oxiana (Central Asian cobra)",
+    "GBSeq_organism": "Naja oxiana",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Naja",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..73",
+            "GBReference_authors": [
+                "Grishin,E.V.",
+                "Sukhikh,A.P.",
+                "Slobodyan,L.N.",
+                "Ovchinnikov,Yu.A.",
+                "Sorokin,V.M."
+            ],
+            "GBReference_title": "Amino acid sequence of neurotoxin I from Naja naja oxiana venom",
+            "GBReference_journal": "FEBS Lett 45 (1), 118-121 (1974)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/0014-5793(74)80825-2"
+                }
+            ],
+            "GBReference_pubmed": "4411932",
+            "GBReference_remark": "PROTEIN SEQUENCE, TOXIC DOSE, AND SUBCELLULAR LOCATION.;\nTISSUE=Venom"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..73",
+            "GBReference_authors": [
+                "Servent,D.",
+                "Winckler-Dietrich,V.",
+                "Hu,H.Y.",
+                "Kessler,P.",
+                "Drevet,P.",
+                "Bertrand,D.",
+                "Menez,A."
+            ],
+            "GBReference_title": "Only snake curaremimetic toxins with a fifth disulfide bond have high affinity for the neuronal alpha7 nicotinic receptor",
+            "GBReference_journal": "J Biol Chem 272 (39), 24279-24286 (1997)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1074/jbc.272.39.24279"
+                }
+            ],
+            "GBReference_pubmed": "9305882",
+            "GBReference_remark": "FUNCTION.;\nTISSUE=Venom"
+        },
+        {
+            "GBReference_reference": "3",
+            "GBReference_position": "1..73",
+            "GBReference_authors": [
+                "Kudryavtsev,D.S.",
+                "Shelukhina,I.V.",
+                "Son,L.V.",
+                "Ojomoko,L.O.",
+                "Kryukova,E.V.",
+                "Lyukmanova,E.N.",
+                "Zhmak,M.N.",
+                "Dolgikh,D.A.",
+                "Ivanov,I.A.",
+                "Kasheverov,I.E.",
+                "Starkov,V.G.",
+                "Ramerstorfer,J.",
+                "Sieghart,W.",
+                "Tsetlin,V.I.",
+                "Utkin,Y.N."
+            ],
+            "GBReference_title": "Neurotoxins from snake venoms and alpha-conotoxin ImI inhibit functionally active ionotropic gamma-aminobutyric acid (GABA) receptors",
+            "GBReference_journal": "J Biol Chem 290 (37), 22747-22758 (2015)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1074/jbc.M115.648824"
+                }
+            ],
+            "GBReference_pubmed": "26221036",
+            "GBReference_remark": "FUNCTION."
+        },
+        {
+            "GBReference_reference": "4",
+            "GBReference_position": "1..73",
+            "GBReference_authors": [
+                "Mikhailov,A.M.",
+                "Nickitenko,A.V.",
+                "Trakhanov,S.D.",
+                "Vainshtein,B.K.",
+                "Chetverina,E.V."
+            ],
+            "GBReference_title": "Crystallization and preliminary x-ray diffraction study of neurotoxin-I from Naja naja oxiana venom",
+            "GBReference_journal": "FEBS Lett 269 (1), 255-257 (1990)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/0014-5793(90)81167-m"
+                }
+            ],
+            "GBReference_pubmed": "2387409",
+            "GBReference_remark": "X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS)."
+        },
+        {
+            "GBReference_reference": "5",
+            "GBReference_position": "1..73",
+            "GBReference_authors": [
+                "Nickitenko,A.V.",
+                "Michailov,A.M.",
+                "Betzel,C.",
+                "Wilson,K.S."
+            ],
+            "GBReference_title": "Three-dimensional structure of neurotoxin-1 from Naja naja oxiana venom at 1.9 A resolution",
+            "GBReference_journal": "FEBS Lett 320 (2), 111-117 (1993)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/0014-5793(93)80073-4"
+                }
+            ],
+            "GBReference_pubmed": "8458425",
+            "GBReference_remark": "X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS), AND DISULFIDE BONDS."
+        },
+        {
+            "GBReference_reference": "6",
+            "GBReference_position": "1..73",
+            "GBReference_authors": [
+                "Talebzadeh-Farooji,M.",
+                "Amininasab,M.",
+                "Elmi,M.M.",
+                "Naderi-Manesh,H.",
+                "Sarbolouki,M.N."
+            ],
+            "GBReference_title": "Solution structure of long neurotoxin NTX-1 from the venom of Naja naja oxiana by 2D-NMR spectroscopy",
+            "GBReference_journal": "Eur J Biochem 271 (23-24), 4950-4957 (2004)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1111/j.1432-1033.2004.04465.x"
+                }
+            ],
+            "GBReference_pubmed": "15606783",
+            "GBReference_remark": "STRUCTURE BY NMR, AND DISULFIDE BONDS."
+        }
+    ],
+    "GBSeq_comment": "On Apr 12, 2005 this sequence version replaced gi:69413.; [FUNCTION] Binds with high affinity to muscular (tested on Torpedo marmorata AChR, Kd=0.38 nM) and neuronal (tested on chimeric alpha-7/CHRNA7, Kd=12 nM) nicotinic acetylcholine receptor (nAChR) and inhibits acetylcholine from binding to the receptor, thereby impairing neuromuscular and neuronal transmission (PubMed:9305882). The toxin also shows a very weak inhibition of GABA(A) receptors composed of alpha-1-beta-3-gamma-2 (GABRA1-GABRB3-GABRG2) subunits (PubMed:26221036). {ECO:0000269|PubMed:26221036, ECO:0000269|PubMed:9305882}.; [SUBCELLULAR LOCATION] Secreted {ECO:0000269|PubMed:4411932}.; [TISSUE SPECIFICITY] Expressed by the venom gland. {ECO:0000305|PubMed:9305882}.; [TOXIC DOSE] LD(50) is 0.56 mg/kg by intraperitoneal injection into mice. {ECO:0000269|PubMed:4411932}.; [SIMILARITY] Belongs to the snake three-finger toxin family. Long-chain subfamily. Type II alpha-neurotoxin sub-subfamily. {ECO:0000305}.",
+    "GBSeq_source-db": "UniProtKB: locus 3L21_NAJOX, accession P01382;; class: standard.; created: Jul 21, 1986.; sequence updated: Jul 21, 1986.; annotation updated: Dec 14, 2022.; xrefs: N2NJ1R, 1NTN_A, 1W6B_A; xrefs (non-sequence databases): PDBsum:1NTN, PDBsum:1W6B, AlphaFoldDB:P01382, BMRB:P01382, SMR:P01382, TCDB:1.C.74.1.7, EvolutionaryTrace:P01382, GO:0005576, GO:0030550, GO:0099106, GO:0090729, CDD:cd00206, Gene3D:2.10.60.10, InterPro:IPR003571, InterPro:IPR045860, InterPro:IPR018354, InterPro:IPR035076, Pfam:PF00087, SUPFAM:SSF57302, PROSITE:PS00272",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..73",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "73",
+                    "GBInterval_accession": "P01382.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Naja oxiana"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8657"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..73",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "73",
+                    "GBInterval_accession": "P01382.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "Alpha-elapitoxin-Nno2a"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Alpha-EPTX-Nno2a; Long neurotoxin 1; Neurotoxin I; NnoI; NT I; Ntx-1; Toxin I"
+                },
+                {
+                    "GBQualifier_name": "UniProtKB_evidence",
+                    "GBQualifier_value": "Evidence at protein level"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "8031"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "1..73",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "73",
+                    "GBInterval_accession": "P01382.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Mature chain"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Alpha-elapitoxin-Nno2a. /evidence=ECO:0000269|PubMed:4411932. /id=PRO_0000093553."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "2..65",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "2",
+                    "GBInterval_to": "65",
+                    "GBInterval_accession": "P01382.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "snake_toxin"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Snake toxin domain, present in short and long neurotoxins, cytotoxins and short toxins, and in other miscellaneous venom peptides. The toxin acts by binding to the nicotinic acetylcholine receptors in the postsynaptic membrane of skeletal muscles and...; cd00206"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "2..5",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "2",
+                    "GBInterval_to": "5",
+                    "GBInterval_accession": "P01382.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Beta-strand region"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0007829|PDB:1NTN."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(3,22)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "3",
+                    "GBInterval_accession": "P01382.1"
+                },
+                {
+                    "GBInterval_point": "22",
+                    "GBInterval_accession": "P01382.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000269|PubMed:15606783, ECO:0000269|PubMed:8458425, ECO:0000312|PDB:1NTN, ECO:0000312|PDB:1W6B."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "order(6,11,26..27,35..40)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "6",
+                    "GBInterval_accession": "P01382.1"
+                },
+                {
+                    "GBInterval_point": "11",
+                    "GBInterval_accession": "P01382.1"
+                },
+                {
+                    "GBInterval_from": "26",
+                    "GBInterval_to": "27",
+                    "GBInterval_accession": "P01382.1"
+                },
+                {
+                    "GBInterval_from": "35",
+                    "GBInterval_to": "40",
+                    "GBInterval_accession": "P01382.1"
+                }
+            ],
+            "GBFeature_operator": "order",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "active"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "receptor binding site [active]"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "6..8",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "6",
+                    "GBInterval_to": "8",
+                    "GBInterval_accession": "P01382.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Hydrogen bonded turn"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0007829|PDB:1NTN."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "11..14",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "11",
+                    "GBInterval_to": "14",
+                    "GBInterval_accession": "P01382.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Beta-strand region"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0007829|PDB:1NTN."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(15,43)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "15",
+                    "GBInterval_accession": "P01382.1"
+                },
+                {
+                    "GBInterval_point": "43",
+                    "GBInterval_accession": "P01382.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000269|PubMed:15606783, ECO:0000269|PubMed:8458425, ECO:0000312|PDB:1NTN, ECO:0000312|PDB:1W6B."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "21..27",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "21",
+                    "GBInterval_to": "27",
+                    "GBInterval_accession": "P01382.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Beta-strand region"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0007829|PDB:1NTN."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(28,32)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "28",
+                    "GBInterval_accession": "P01382.1"
+                },
+                {
+                    "GBInterval_point": "32",
+                    "GBInterval_accession": "P01382.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000269|PubMed:15606783, ECO:0000269|PubMed:8458425, ECO:0000312|PDB:1NTN, ECO:0000312|PDB:1W6B."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "32..35",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "32",
+                    "GBInterval_to": "35",
+                    "GBInterval_accession": "P01382.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Helical region"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0007829|PDB:1NTN."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "38..46",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "38",
+                    "GBInterval_to": "46",
+                    "GBInterval_accession": "P01382.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Beta-strand region"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0007829|PDB:1NTN."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(47,58)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "47",
+                    "GBInterval_accession": "P01382.1"
+                },
+                {
+                    "GBInterval_point": "58",
+                    "GBInterval_accession": "P01382.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000269|PubMed:15606783, ECO:0000269|PubMed:8458425, ECO:0000312|PDB:1NTN, ECO:0000312|PDB:1W6B."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "54..59",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "54",
+                    "GBInterval_to": "59",
+                    "GBInterval_accession": "P01382.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Beta-strand region"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0007829|PDB:1NTN."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(59,64)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "59",
+                    "GBInterval_accession": "P01382.1"
+                },
+                {
+                    "GBInterval_point": "64",
+                    "GBInterval_accession": "P01382.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000269|PubMed:15606783, ECO:0000269|PubMed:8458425, ECO:0000312|PDB:1NTN, ECO:0000312|PDB:1W6B."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "62..64",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "62",
+                    "GBInterval_to": "64",
+                    "GBInterval_accession": "P01382.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Helical region"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0007829|PDB:1W6B."
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "itcyktpipitsetcapgqnlcytktwcdawcgsrgkvielgcaatcptvesyqdikccstddcnphpkqkrp"
+}

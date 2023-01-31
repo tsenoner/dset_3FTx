@@ -1,0 +1,134 @@
+{
+    "GBSeq_locus": "XP_045836073",
+    "GBSeq_length": "97",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "MAM",
+    "GBSeq_update-date": "04-MAR-2022",
+    "GBSeq_create-date": "20-JAN-2022",
+    "GBSeq_definition": "secreted Ly-6/uPAR domain-containing protein 2 isoform X2 [Meles meles]",
+    "GBSeq_primary-accession": "XP_045836073",
+    "GBSeq_accession-version": "XP_045836073.1",
+    "GBSeq_other-seqids": [
+        "ref|XP_045836073.1|",
+        "gi|2181270248"
+    ],
+    "GBSeq_project": "PRJNA796981",
+    "GBSeq_keywords": [
+        "RefSeq"
+    ],
+    "GBSeq_source": "Meles meles (Eurasian badger)",
+    "GBSeq_organism": "Meles meles",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Mustelidae; Melinae; Meles",
+    "GBSeq_comment": "MODEL REFSEQ: This record is predicted by automated computational analysis. This record is derived from a genomic sequence (NC_060066) annotated using gene prediction method: Gnomon.~Also see:~ Documentation of NCBI's Annotation Process; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI ; Annotation Status :: Full annotation ; Annotation Name :: Meles meles Annotation Release 100 ; Annotation Version :: 100 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 9.0 ; Annotation Method :: Best-placed RefSeq; Gnomon ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; ##Genome-Annotation-Data-END##; COMPLETENESS: full length.",
+    "GBSeq_source-db": "REFSEQ: accession XM_045980117.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..97",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "97",
+                    "GBInterval_accession": "XP_045836073.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Meles meles"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:9662"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "1"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..97",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "97",
+                    "GBInterval_accession": "XP_045836073.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "secreted Ly-6/uPAR domain-containing protein 2 isoform X2"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "10002"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "23..95",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "23",
+                    "GBInterval_to": "95",
+                    "GBInterval_accession": "XP_045836073.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "LU"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Ly-6 antigen / uPA receptor -like domain; occurs singly in GPI-linked cell-surface glycoproteins (Ly-6 family,CD59, thymocyte B cell antigen, Sgp-2) or as three-fold repeated domain in urokinase-type plasminogen activator receptor. Topology of these...; cd00117"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:238065"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..97",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "97",
+                    "GBInterval_accession": "XP_045836073.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "SLURP2"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "XM_045980117.1:136..429"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:123926342"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mrllpglllaaalslelgeskglnchqckgfggcthasrcprgsnycvsiatrvpfsvadlplvtkscysgcpdistlglgphvsivccqfslcntd",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA796981"
+        }
+    ]
+}

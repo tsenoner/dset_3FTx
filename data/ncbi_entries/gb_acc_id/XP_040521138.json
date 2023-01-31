@@ -1,0 +1,166 @@
+{
+    "GBSeq_locus": "XP_040521138",
+    "GBSeq_length": "127",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "01-MAR-2022",
+    "GBSeq_create-date": "10-APR-2021",
+    "GBSeq_definition": "ly6/PLAUR domain-containing protein 2 [Gallus gallus]",
+    "GBSeq_primary-accession": "XP_040521138",
+    "GBSeq_accession-version": "XP_040521138.1",
+    "GBSeq_other-seqids": [
+        "ref|XP_040521138.1|",
+        "gi|2024473328"
+    ],
+    "GBSeq_project": "PRJNA698614",
+    "GBSeq_keywords": [
+        "RefSeq"
+    ],
+    "GBSeq_source": "Gallus gallus (chicken)",
+    "GBSeq_organism": "Gallus gallus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda; Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes; Phasianidae; Phasianinae; Gallus",
+    "GBSeq_comment": "MODEL REFSEQ: This record is predicted by automated computational analysis. This record is derived from a genomic sequence (NC_052574.1) annotated using gene prediction method: Gnomon.~Also see:~ Documentation of NCBI's Annotation Process; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI ; Annotation Status :: Full annotation ; Annotation Name :: Gallus gallus Annotation Release 106 ; Annotation Version :: 106 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 9.0 ; Annotation Method :: Best-placed RefSeq; Gnomon ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; ##Genome-Annotation-Data-END##; COMPLETENESS: full length.",
+    "GBSeq_source-db": "REFSEQ: accession XM_040665204.2",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..127",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "127",
+                    "GBInterval_accession": "XP_040521138.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Gallus gallus"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "bGalGal1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:9031"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "2"
+                },
+                {
+                    "GBQualifier_name": "sex",
+                    "GBQualifier_value": "female"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "blood"
+                },
+                {
+                    "GBQualifier_name": "country",
+                    "GBQualifier_value": "USA: Fayetteville"
+                },
+                {
+                    "GBQualifier_name": "lat_lon",
+                    "GBQualifier_value": "36.0822 N 94.1719 W"
+                },
+                {
+                    "GBQualifier_name": "collection_date",
+                    "GBQualifier_value": "20-May-2019"
+                },
+                {
+                    "GBQualifier_name": "collected_by",
+                    "GBQualifier_value": "Nick Anthony"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..127",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "127",
+                    "GBInterval_accession": "XP_040521138.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "ly6/PLAUR domain-containing protein 2"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "13701"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "21..100",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "21",
+                    "GBInterval_to": "100",
+                    "GBInterval_accession": "XP_040521138.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "LU"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Ly-6 antigen / uPA receptor -like domain; occurs singly in GPI-linked cell-surface glycoproteins (Ly-6 family,CD59, thymocyte B cell antigen, Sgp-2) or as three-fold repeated domain in urokinase-type plasminogen activator receptor. Topology of these...; cd00117"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:238065"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..127",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "127",
+                    "GBInterval_accession": "XP_040521138.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LYPD2"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "XM_040665204.2:30..413"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:768929"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CGNC:66613"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mklflplllvaiagmefaqslkcytcheptasekcmkiqkcaknetmckttmysleevypfvglstvtkmcssvcspsdvdgigmtrpvsccysnlcnidgaaslrisfvpvgmlasvvcglfwsrl",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA698614"
+        }
+    ]
+}

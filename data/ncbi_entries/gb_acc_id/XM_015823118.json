@@ -1,0 +1,134 @@
+{
+    "GBSeq_locus": "XM_015823118",
+    "GBSeq_length": "222",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "23-MAY-2019",
+    "GBSeq_create-date": "02-MAR-2016",
+    "GBSeq_definition": "PREDICTED: Protobothrops mucrosquamatus toxin 3FTx-Thr5-like (LOC107293931), mRNA",
+    "GBSeq_primary-accession": "XM_015823118",
+    "GBSeq_accession-version": "XM_015823118.1",
+    "GBSeq_other-seqids": [
+        "ref|XM_015823118.1|",
+        "gi|1002599144"
+    ],
+    "GBSeq_project": "PRJNA313429",
+    "GBSeq_keywords": [
+        "RefSeq",
+        "includes ab initio"
+    ],
+    "GBSeq_source": "Protobothrops mucrosquamatus",
+    "GBSeq_organism": "Protobothrops mucrosquamatus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Viperidae; Crotalinae; Protobothrops",
+    "GBSeq_comment": "MODEL REFSEQ: This record is predicted by automated computational analysis. This record is derived from a genomic sequence (NW_015387915.1) annotated using gene prediction method: Gnomon.~Also see:~ Documentation of NCBI's Annotation Process; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI ; Annotation Status :: Full annotation ; Annotation Name :: Protobothrops mucrosquamatus Annotation Release 101 ; Annotation Version :: 101 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 8.2 ; Annotation Method :: Best-placed RefSeq; Gnomon ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; ##Genome-Annotation-Data-END##; ##RefSeq-Attributes-START## ; ab initio :: 49% of CDS bases ; ##RefSeq-Attributes-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..222",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "222",
+                    "GBInterval_accession": "XM_015823118.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Protobothrops mucrosquamatus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "PMUCROS"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:103944"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "Unknown"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "gene",
+            "GBFeature_location": "1..222",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "222",
+                    "GBInterval_accession": "XM_015823118.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LOC107293931"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Derived by automated computational analysis using gene prediction method: Gnomon. Supporting evidence includes similarity to: 1 Protein"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:107293931"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..222",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "222",
+                    "GBInterval_accession": "XM_015823118.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LOC107293931"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "toxin 3FTx-Thr5-like"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "XP_015678604.1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:107293931"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLALVVVAIVYLELFCDNVKKCAKGQKVCYINYIYSDIPKMEVIKGCAASCPTEGDYERVLCCPTDNCI"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctggccttggttgtggtggcaattgtgtacctggaattgttttgtgataacgttaagaaatgtgcaaaaggacagaaggtgtgctatataaactacatttacagtgatatacccaaaatggaagtcatcaagggatgtgctgcaagctgccctactgagggagactatgagagggttttgtgttgcccgacagacaactgcatctaa",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA313429"
+        }
+    ]
+}

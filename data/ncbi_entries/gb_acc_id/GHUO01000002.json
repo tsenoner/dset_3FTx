@@ -1,0 +1,140 @@
+{
+    "GBSeq_locus": "GHUO01000002",
+    "GBSeq_length": "261",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "RNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "09-DEC-2019",
+    "GBSeq_create-date": "09-DEC-2019",
+    "GBSeq_definition": "TSA: Thelotornis mossambicanus 01_3FTx_Thelotornis_mossambicanus, transcribed RNA sequence",
+    "GBSeq_primary-accession": "GHUO01000002",
+    "GBSeq_accession-version": "GHUO01000002.1",
+    "GBSeq_other-seqids": [
+        "gb|GHUO01000002.1|",
+        "gnl|TSA:GHUO01|01_3FTx_Thelotornis_mossambicanus"
+    ],
+    "GBSeq_project": "PRJNA561062",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly",
+        "Targeted"
+    ],
+    "GBSeq_source": "Thelotornis mossambicanus",
+    "GBSeq_organism": "Thelotornis mossambicanus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Colubridae; Colubrinae; Thelotornis",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..261",
+            "GBReference_authors": [
+                "Debono,J.",
+                "Dashevsky,D.",
+                "Nouwens,A.",
+                "Fry,B.G."
+            ],
+            "GBReference_title": "The sweet side of venom: differentially glycosylated prothrombin activating metalloproteases from Dispholidus typus (boomslang) and Thelotornis mossambicanus (twig snake)",
+            "GBReference_journal": "Comp. Biochem. Physiol. C Toxicol. Pharmacol. (2019) In press"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..261",
+            "GBReference_authors": [
+                "Debono,J.",
+                "Dashevsky,D.",
+                "Nouwens,A.",
+                "Fry,B.G."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (23-AUG-2019) School of Biological Sciences, University of Queensland, The School of Biological Sciences, The University of Queensland, Brisbane, QLD 4072, Australia"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: SOAPdenovo 2.04; Trinity 2.4.0; Extender 1.04 ; Sequencing Technology :: Illumina NextSeq ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..261",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "261",
+                    "GBInterval_accession": "GHUO01000002.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Thelotornis mossambicanus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "transcribed RNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "01_3FTx_Thelotornis_mossambicanus"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:1328036"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "adult"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..261",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "261",
+                    "GBInterval_accession": "GHUO01000002.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "three-finger toxin"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "MUP40149.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLSLVMVGFVYLVSGQNRTCRSCTGALCFKIQQCKEGQNLCFERKIKDDFFGRKTVRGCADTCANPGENEKVTYCSRDNCNF"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctgtccttggtgatggtgggatttgtgtacctggtctcaggacaaaaccggacgtgtcgttcatgcaccggagcactatgttttaagattcagcagtgtaaagaagggcagaacctatgctttgaaaggaaaattaaggatgatttcttcggaaggaaaaccgtcaggggatgtgctgacacctgtgctaatccaggagaaaatgagaaagttacatattgctcaagagacaactgcaacttctag",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA561062"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN12606129"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR9998225"
+        }
+    ]
+}

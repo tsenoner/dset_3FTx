@@ -1,0 +1,702 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P80494",
+    "uniProtkbId": "3SIMA_DENPO",
+    "entryAudit": {
+        "firstPublicDate": "1996-02-01",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "1996-02-01",
+        "entryVersion": 90,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 2.0,
+    "organism": {
+        "scientificName": "Dendroaspis polylepis polylepis",
+        "commonName": "Black mamba",
+        "taxonId": 8620,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Dendroaspis"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "8536706"
+                    }
+                ],
+                "value": "Muscarinic toxin alpha"
+            },
+            "shortNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "8536706"
+                        }
+                    ],
+                    "value": "MT-alpha"
+                }
+            ]
+        }
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "10978757"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "20466015"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "21557730"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "8536706"
+                        }
+                    ],
+                    "value": "Selectively binds with high-affinity to the a2B-adrenoceptor subtype (ADRA2B) (PubMed:20466015). The toxin reversibly binds to ADRA2B, and its mode of inhibition is non-competitive (PubMed:20466015). The toxin has also been described to bind with high affinity to all muscarinic receptor subtypes (Ki=23 nM (on CHRM1), Ki=44 nM (on CHRM2), Ki=3 nM (on CHRM3), Ki=5 nM (on CHRM4), and Ki=8 nM (on CHRM5)) but no other data support these affinity values (PubMed:8536706)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "8536706"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "20466015"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "21557730"
+                        }
+                    ],
+                    "value": "Does not affect most adrenoceptors (ADRA1A, ADRA1B, ADRA2A and ADRA2C) and muscarinic receptors (PubMed:20466015, PubMed:21557730). Does not affect beta-1 (ADRB1) and beta-2 (ADRB2) adrenoceptors (PubMed:21557730)"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily. Aminergic toxin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 66,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Muscarinic toxin alpha",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8536706"
+                }
+            ],
+            "featureId": "PRO_0000093648"
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 3,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 17,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 42,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 46,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 58,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 59,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 64,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 31,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 31,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "In AncTx6; 10-fold decrease in inhibition potency on adrenergic receptor ADRA2B.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "28578406"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "L",
+                "alternativeSequences": [
+                    "I"
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-1213",
+            "category": "Molecular function",
+            "name": "G-protein coupled receptor impairing toxin"
+        },
+        {
+            "id": "KW-0528",
+            "category": "Molecular function",
+            "name": "Neurotoxin"
+        },
+        {
+            "id": "KW-0629",
+            "category": "Molecular function",
+            "name": "Postsynaptic neurotoxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "8536706",
+                "citationType": "journal article",
+                "authors": [
+                    "Jolkkonen M.",
+                    "van Giersbergen P.L.M.",
+                    "Hellman U.",
+                    "Wernstedt C.",
+                    "Oras A.",
+                    "Satyapan N.",
+                    "Adem A.",
+                    "Karlsson E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8536706"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1111/j.1432-1033.1995.579_b.x"
+                    }
+                ],
+                "title": "Muscarinic toxins from the black mamba Dendroaspis polylepis.",
+                "publicationDate": "1995",
+                "journal": "Eur. J. Biochem.",
+                "firstPage": "579",
+                "lastPage": "585",
+                "volume": "234"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE",
+                "SUBCELLULAR LOCATION",
+                "FUNCTION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "10978757",
+                "citationType": "journal article",
+                "authors": [
+                    "Jolkkonen M.",
+                    "Oras A.",
+                    "Toomela T.",
+                    "Karlsson E.",
+                    "Jarv J.",
+                    "Akerman K.E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "10978757"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0041-0101(00)00141-0"
+                    }
+                ],
+                "title": "Kinetic evidence for different mechanisms of interaction of black mamba toxins MT alpha and MT beta with muscarinic receptors.",
+                "publicationDate": "2001",
+                "journal": "Toxicon",
+                "firstPage": "377",
+                "lastPage": "382",
+                "volume": "39"
+            },
+            "referencePositions": [
+                "MECHANISM OF BINDING",
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "20466015",
+                "citationType": "journal article",
+                "authors": [
+                    "Koivula K.",
+                    "Rondinelli S.",
+                    "Nasman J."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "20466015"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.toxicon.2010.05.001"
+                    }
+                ],
+                "title": "The three-finger toxin MTalpha is a selective alpha(2B)-adrenoceptor antagonist.",
+                "publicationDate": "2010",
+                "journal": "Toxicon",
+                "firstPage": "440",
+                "lastPage": "447",
+                "volume": "56"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "21557730",
+                "citationType": "journal article",
+                "authors": [
+                    "Naereoja K.",
+                    "Kukkonen J.P.",
+                    "Rondinelli S.",
+                    "Toivola D.M.",
+                    "Meriluoto J.",
+                    "Naesman J."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "21557730"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1111/j.1476-5381.2011.01468.x"
+                    }
+                ],
+                "title": "Adrenoceptor activity of muscarinic toxins identified from mamba venoms.",
+                "publicationDate": "2011",
+                "journal": "Br. J. Pharmacol.",
+                "firstPage": "538",
+                "lastPage": "550",
+                "volume": "164"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "28578406",
+                "citationType": "journal article",
+                "authors": [
+                    "Blanchet G.",
+                    "Alili D.",
+                    "Protte A.",
+                    "Upert G.",
+                    "Gilles N.",
+                    "Tepshi L.",
+                    "Stura E.A.",
+                    "Mourier G.",
+                    "Servent D."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "28578406"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/s41598-017-02953-0"
+                    }
+                ],
+                "title": "Ancestral protein resurrection and engineering opportunities of the mamba aminergic toxins.",
+                "publicationDate": "2017",
+                "journal": "Sci. Rep.",
+                "firstPage": "2701",
+                "lastPage": "2701",
+                "volume": "7"
+            },
+            "referencePositions": [
+                "MUTAGENESIS OF LEU-31"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "PIR",
+            "id": "S67984",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "S67984"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "P80494",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P80494",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00206",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "snake_toxin"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003571",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_3FTx"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018354",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin_con_site"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR035076",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Toxin/TOLIP"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00087",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Toxin_TOLIP"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00272",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SNAKE_TOXIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "LTCVTSKSIFGITTENCPDGQNLCFKKWYYLNHRYSDITWGCAATCPKPTNVRETIHCCETDKCNE",
+        "length": 66,
+        "molWeight": 7554,
+        "crc64": "EAA70BDFB3F0AD3E",
+        "md5": "30B839D5686E86F85FDF20E3EA719365"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "MISCELLANEOUS": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Disulfide bond": 4,
+            "Mutagenesis": 1
+        },
+        "uniParcId": "UPI0000137833"
+    }
+}

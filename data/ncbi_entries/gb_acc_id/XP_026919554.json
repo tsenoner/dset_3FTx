@@ -1,0 +1,150 @@
+{
+    "GBSeq_locus": "XP_026919554",
+    "GBSeq_length": "128",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "MAM",
+    "GBSeq_update-date": "13-NOV-2018",
+    "GBSeq_create-date": "13-NOV-2018",
+    "GBSeq_definition": "ly6/PLAUR domain-containing protein 2 [Acinonyx jubatus]",
+    "GBSeq_primary-accession": "XP_026919554",
+    "GBSeq_accession-version": "XP_026919554.1",
+    "GBSeq_other-seqids": [
+        "ref|XP_026919554.1|",
+        "gi|1511990737"
+    ],
+    "GBSeq_project": "PRJNA504297",
+    "GBSeq_keywords": [
+        "RefSeq"
+    ],
+    "GBSeq_source": "Acinonyx jubatus (cheetah)",
+    "GBSeq_organism": "Acinonyx jubatus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae; Acinonychinae; Acinonyx",
+    "GBSeq_comment": "MODEL REFSEQ: This record is predicted by automated computational analysis. This record is derived from a genomic sequence (NW_020834742.1) annotated using gene prediction method: Gnomon.~Also see:~ Documentation of NCBI's Annotation Process; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI ; Annotation Status :: Full annotation ; Annotation Name :: Acinonyx jubatus Annotation Release 101 ; Annotation Version :: 101 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 8.1 ; Annotation Method :: Best-placed RefSeq; Gnomon ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; ##Genome-Annotation-Data-END##; COMPLETENESS: full length.",
+    "GBSeq_source-db": "REFSEQ: accession XM_027063753.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..128",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "128",
+                    "GBInterval_accession": "XP_026919554.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Acinonyx jubatus"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "Rico"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:32536"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "Unknown"
+                },
+                {
+                    "GBQualifier_name": "sex",
+                    "GBQualifier_value": "male"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "blood"
+                },
+                {
+                    "GBQualifier_name": "country",
+                    "GBQualifier_value": "USA: National Zoological Park's Front Royal, Virginia"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..128",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "128",
+                    "GBInterval_accession": "XP_026919554.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "ly6/PLAUR domain-containing protein 2"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "13278"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "24..103",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "24",
+                    "GBInterval_to": "103",
+                    "GBInterval_accession": "XP_026919554.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "LU"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Ly-6 antigen / uPA receptor -like domain; occurs singly in GPI-linked cell-surface glycoproteins (Ly-6 family,CD59, thymocyte B cell antigen, Sgp-2) or as three-fold repeated domain in urokinase-type plasminogen activator receptor. Topology of these...; cd00117"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:238065"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..128",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "128",
+                    "GBInterval_accession": "XP_026919554.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LYPD2"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "XM_027063753.1:110..496"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:113600531"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mrgarpvllvlvlaacsgelvgalrcytcheptsvsscvtiatcgvnetmckttlysleivypflgdstvtkscsskcvpsdvdgigqtrpvsccnndlcnvggapaldgrrslafvlallllwsfgp",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA504297"
+        }
+    ]
+}

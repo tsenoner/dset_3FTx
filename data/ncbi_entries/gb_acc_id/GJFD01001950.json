@@ -1,0 +1,144 @@
+{
+    "GBSeq_locus": "GJFD01001950",
+    "GBSeq_length": "321",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "RNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "04-JAN-2022",
+    "GBSeq_create-date": "04-JAN-2022",
+    "GBSeq_definition": "TSA: Conophis lineatus voucher CHFCB-0406 isolate CLP2629 3FTx, transcribed RNA sequence",
+    "GBSeq_primary-accession": "GJFD01001950",
+    "GBSeq_accession-version": "GJFD01001950.1",
+    "GBSeq_other-seqids": [
+        "gb|GJFD01001950.1|",
+        "gnl|TSA:GJFD01|3FTx"
+    ],
+    "GBSeq_project": "PRJNA88989",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly"
+    ],
+    "GBSeq_source": "Conophis lineatus",
+    "GBSeq_organism": "Conophis lineatus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Dipsadidae; Conophis",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..321",
+            "GBReference_authors": [
+                "Schramer,T.D.",
+                "Rautsaw,R.M.",
+                "Bayona-Serrano,J.D.",
+                "Nystrom,G.S.",
+                "West,T.R.",
+                "Ortiz-Medina,J.A.",
+                "Sabido-Alpuche,B.",
+                "Meneses-Millan,M.",
+                "Borja,M.",
+                "Junqueira-de-Azevedo,I.L.",
+                "Rokyta,D.R.",
+                "Parkinson,C.L."
+            ],
+            "GBReference_title": "An integrative view of the toxic potential of Conophis lineatus (Dipsadidae: Xenodontinae), a medically relevant rear-fanged snake",
+            "GBReference_journal": "Toxicon 205, 38-52 (2022)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "https://doi.org/10.1016/j.toxicon.2021.11.009"
+                }
+            ]
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..321",
+            "GBReference_authors": [
+                "Schramer,T.D.",
+                "Rautsaw,R.M.",
+                "Rokyta,D.R.",
+                "Parkinson,C.L."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (21-MAY-2021) Biological Sciences, Clemson University, 190 Collings Street, Clemson, SC 29634, USA"
+        }
+    ],
+    "GBSeq_comment": "We first used the Illumina quality filter to remove low quality reads and because the insert sizes for cDNA libraries were approximately 370 bp (170bp without adapters), we were able to merge the remaining overlapping 150-nt paired-end reads at their 3' ends with PEAR v 0.9.6 (Zhang:2014). Merged reads were then used for subsequent assemblies and analyses. We assembled venom gland transcriptomes as described in Rokyta:2017. To maximize the number of transcripts recovered, we assembled the merged reads using DNAStar SeqMan NGen version 14 (DNASTAR Inc., Madison, Wisconsin, USA) and Trinity v 2.0.3 with default settings except that only contigs with >200 assembled reads were kept and Extender (Rokyta:2012).; ##Assembly-Data-START## ; Assembly Method :: Extender v01; SeqMan NGen v14; Trinity v2.9 ; Assembly Name :: Duvernoys (venom) gland RNA-Seq of Conophis lineatus: CLP2629 ; Sequencing Technology :: Illumina NovaSeq ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..321",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "321",
+                    "GBInterval_accession": "GJFD01001950.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Conophis lineatus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "transcribed RNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "3FTx"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "CLP2629"
+                },
+                {
+                    "GBQualifier_name": "specimen_voucher",
+                    "GBQualifier_value": "CHFCB-0406"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:666078"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "Duvernoy's (venom) gland"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "adult"
+                },
+                {
+                    "GBQualifier_name": "country",
+                    "GBQualifier_value": "Mexico: Yucatan, Sotuta"
+                },
+                {
+                    "GBQualifier_name": "lat_lon",
+                    "GBQualifier_value": "20.5943 N 89.0007 W"
+                },
+                {
+                    "GBQualifier_name": "collection_date",
+                    "GBQualifier_value": "2018-06"
+                },
+                {
+                    "GBQualifier_name": "collected_by",
+                    "GBQualifier_value": "Rhett Rautsaw"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctggctgtggtggtggtggcattcgtgtgcctgggctcagccaatcagctgggactcggaagggaagaagtagatcgggagcggcgccaagcagtaggtttacccttcggactttgtttccaatgcaatcgacagagttcctcggactgttcaaccgctaagaaatgtccggtgctgcatacaacgtgctacactttgtacaaaggaggggaatgggctgtcaagggatgtgctaaaacatgccctactgcgggacctggtgagagagtgaactgttgcagaggacgagagtgcaacaatgattga",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA88989"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN18863723"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR14319401"
+        }
+    ]
+}

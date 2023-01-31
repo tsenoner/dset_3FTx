@@ -1,0 +1,188 @@
+{
+    "GBSeq_locus": "GBIC01000038",
+    "GBSeq_length": "347",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "21-OCT-2014",
+    "GBSeq_create-date": "21-OCT-2014",
+    "GBSeq_definition": "TSA: Python regius 3ftx.2 mRNA sequence",
+    "GBSeq_primary-accession": "GBIC01000038",
+    "GBSeq_accession-version": "GBIC01000038.1",
+    "GBSeq_other-seqids": [
+        "gb|GBIC01000038.1|",
+        "gnl|TSA:GBIC01|3ftx.2",
+        "gi|698375238"
+    ],
+    "GBSeq_project": "PRJEB2884",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly",
+        "Targeted"
+    ],
+    "GBSeq_source": "Python regius",
+    "GBSeq_organism": "Python regius",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Henophidia; Pythonidae; Python",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..347",
+            "GBReference_authors": [
+                "Hargreaves,A.D.",
+                "Swain,M.T.",
+                "Logan,D.W.",
+                "Mulley,J.F."
+            ],
+            "GBReference_title": "Testing the Toxicofera: comparative transcriptomics casts doubt on the single, early evolution of the reptile venom system",
+            "GBReference_journal": "Toxicon 92, 140-156 (2014)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/j.toxicon.2014.10.004"
+                }
+            ],
+            "GBReference_pubmed": "25449103"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..347",
+            "GBReference_authors": [
+                "Hargreaves,A.D.",
+                "Swain,M.T.",
+                "Logan,D.W.",
+                "Mulley,J.F."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (17-JUL-2014) School of Biological Sciences, Bangor Univeristy, Deiniol Road, Bangor, Gwynedd LL57 2UW, United Kingdom"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: Trinity v. r2012-04-27 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..347",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "347",
+                    "GBInterval_accession": "GBIC01000038.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Python regius"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "3ftx.2"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:51751"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "scent gland"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "14..274",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "14",
+                    "GBInterval_to": "274",
+                    "GBInterval_accession": "GBIC01000038.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "3ftx.2"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "Three finger toxin"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "JAC94905.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLSLVVVAFVCLEPGDAVTCHSCNGTICLGSEQCADTQTTCFKKTVNGDFLGLQTVRGCADSCPTPGTNEIITCCGYDHCNH"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "agaagattgcaagatgaaaactctgctgctgtccttggtggtggtggcattcgtgtgcctggagccaggagatgccgtgacgtgtcactcatgcaatggaacaatatgtttggggagtgagcaatgtgcagatacccagacaacatgctttaaaaagacggttaatggtgatttcttgggattacaaaccgtcagaggatgtgctgactcctgccctactccaggaacaaatgagatcattacatgttgtggatatgaccattgcaaccactagatctacaaggggcaaaattccttgagttttgctctcatccaccatgggccatccttgaaaatttatgcttctg",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJEB2884"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMEA1689202"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMEA1689208"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMEA1689210"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMEA1689213"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMEA1689214"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMEA1689227"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "ERR216299"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "ERR216300"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "ERR216309"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "ERR216310"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "ERR216318"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "ERR216324"
+        }
+    ]
+}

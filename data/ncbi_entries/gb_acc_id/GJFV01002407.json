@@ -1,0 +1,145 @@
+{
+    "GBSeq_locus": "GJFV01002407",
+    "GBSeq_length": "324",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "RNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "14-JUN-2021",
+    "GBSeq_create-date": "14-JUN-2021",
+    "GBSeq_definition": "TSA: Tantilla nigriceps 3FTx-3, transcribed RNA sequence",
+    "GBSeq_primary-accession": "GJFV01002407",
+    "GBSeq_accession-version": "GJFV01002407.1",
+    "GBSeq_other-seqids": [
+        "gb|GJFV01002407.1|",
+        "gnl|TSA:GJFV01|3FTx-3"
+    ],
+    "GBSeq_project": "PRJNA88989",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly"
+    ],
+    "GBSeq_source": "Tantilla nigriceps (Plains blackhead snake)",
+    "GBSeq_organism": "Tantilla nigriceps",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Colubridae; Colubrinae; Tantilla",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..324",
+            "GBReference_authors": [
+                "Rasetti-Escargueil,C.",
+                "Popoff,M.R."
+            ],
+            "GBReference_title": "Engineering Botulinum Neurotoxins for Enhanced Therapeutic Applications and Vaccine Development",
+            "GBReference_journal": "Toxins (Basel) 13 (1), 1 (2020)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.3390/toxins13010001"
+                }
+            ],
+            "GBReference_pubmed": "33374954",
+            "GBReference_remark": "Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..324",
+            "GBReference_authors": [
+                "Hofmann,E.P.",
+                "Rautsaw,R.M.",
+                "Mason,A.J.",
+                "Strickland,J.L.",
+                "Parkinson,C.L."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (09-JUN-2021) Biological Sciences, Clemson University, 190 Collings Street, Clemson, SC 29634, USA"
+        }
+    ],
+    "GBSeq_comment": "We first used the Illumina quality filter to remove low quality reads and because the insert sizes for cDNA libraries were approximately 370 bp (170bp without adapters), we were able to merge the remaining overlapping 150-nt paired-end reads at their 3' ends with PEAR v 0.9.6 (Zhang:2014). Merged reads were then used for subsequent assemblies and analyses. We assembled venom gland transcriptomes as described in Rokyta:2017. To maximize the number of transcripts recovered, we assembled the merged reads using DNAStar SeqMan NGen version 14 (DNASTAR Inc., Madison, Wisconsin, USA) and Trinity v 2.0.3 with default settings except that only contigs with >200 assembled reads were kept and Extender (Rokyta:2012).; ##Assembly-Data-START## ; Assembly Method :: Extender v01; SeqMan NGen v14; Trinity 2.0.3 ; Assembly Name :: Duvernoys Gland Transcriptomics of the Plains Black-Headed the Venom of Small Rear-Fanged Snakes ; Sequencing Technology :: Illumina NovaSeq ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..324",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "324",
+                    "GBInterval_accession": "GJFV01002407.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Tantilla nigriceps"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "transcribed RNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "3FTx-3"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:1651152"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctggccttggcggtggtggcattcgtgtgcccggactcagccgatcagctgggacagcgaatagatcgtggacggcgccaagcaataggtccaacctccggactttgtttgcactgcattcgaagctcttcctcagactgttcaacctttcagacatgtccgttgtttcatacaatttgcttcactttctataaacctgatgggaatggtggagaggaatggactttcaagggatgtgctgcaagatgccctaccccaagacctggtgagatagtgaagtgttgcaatacaccagagtgcaacaaatga",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA88989"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN18863717"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN18863718"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN18863719"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN18863720"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN18863721"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN18863722"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR14319402"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR14319403"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR14319404"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR14319405"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR14319406"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR14319407"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "program": "blastp",
+    "version": "BLASTP 2.12.0+",
+    "command": "$APPBIN/ncbi-blast-2.9.0+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-R20230130-003617-0471-92997975-p1m.sequence  -num_threads 32 -outfmt 11 -out ncbiblast-R20230130-003617-0471-92997975-p1m.archive -matrix BLOSUM62 -max_target_seqs 5 -seg no -ungapped -taxidlist ncbiblast-R20230130-003617-0471-92997975-p1m.taxidlist -comp_based_stats F",
+    "query_def": "EMBOSS_001",
+    "query_stype": "protein",
+    "query_len": 88,
+    "db_count": 1,
+    "db_num": 230190369,
+    "db_len": 81010115241,
+    "dbs": [
+        {
+            "name": "uniprotkb",
+            "stype": "protein",
+            "created": "2022-12-14T02:19:00+00:00"
+        }
+    ],
+    "alignments": 5,
+    "scores": 5,
+    "expect_upper": 10.0,
+    "filter": "F",
+    "gap_extend": 1.0,
+    "gap_open": 11.0,
+    "matrix": "BLOSUM62",
+    "start": "2023-01-30T00:36:17+00:00",
+    "end": "2023-01-30T00:37:31+00:00",
+    "search": "P0Y0M0DT0H0M74.000S",
+    "hits": [
+        {
+            "hit_num": 1,
+            "hit_def": "TR:J9ZZN7 J9ZZN7_THAEL Glutathione peroxidase OS=Thamnophis elegans OX=35005 PE=2 SV=1",
+            "hit_db": "TR",
+            "hit_id": "J9ZZN7_THAEL",
+            "hit_acc": "J9ZZN7",
+            "hit_desc": "Glutathione peroxidase OS=Thamnophis elegans OX=35005 PE=2 SV=1",
+            "hit_url": "https://www.uniprot.org/uniprot/J9ZZN7",
+            "hit_xref_url": "https://www.ebi.ac.uk/ebisearch/search.ebi?db=uniprot&query=J9ZZN7",
+            "hit_os": "Thamnophis elegans",
+            "hit_uni_de": "Glutathione peroxidase",
+            "hit_uni_os": "Thamnophis elegans",
+            "hit_uni_ox": "35005",
+            "hit_uni_pe": "2",
+            "hit_uni_sv": "1",
+            "hit_len": 247,
+            "hit_hsps": [
+                {
+                    "hsp_num": 1,
+                    "hsp_score": 28,
+                    "hsp_bit_score": 16.3342,
+                    "hsp_expect": 8.5,
+                    "hsp_align_len": 14,
+                    "hsp_identity": 28.6,
+                    "hsp_positive": 50.0,
+                    "hsp_gaps": 0,
+                    "hsp_query_frame": "0",
+                    "hsp_hit_frame": "0",
+                    "hsp_strand": "none/none",
+                    "hsp_query_from": 41,
+                    "hsp_query_to": 54,
+                    "hsp_hit_from": 69,
+                    "hsp_hit_to": 82,
+                    "hsp_qseq": "DFGVICRKGSYFCY",
+                    "hsp_mseq": "D+G +   G Y  +",
+                    "hsp_hseq": "DYGALSITGEYIAF"
+                }
+            ]
+        }
+    ]
+}

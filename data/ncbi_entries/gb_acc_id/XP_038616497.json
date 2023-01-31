@@ -1,0 +1,162 @@
+{
+    "GBSeq_locus": "XP_038616497",
+    "GBSeq_length": "121",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "MAM",
+    "GBSeq_update-date": "06-JAN-2021",
+    "GBSeq_create-date": "06-JAN-2021",
+    "GBSeq_definition": "ly-6/neurotoxin-like protein 1 [Tachyglossus aculeatus]",
+    "GBSeq_primary-accession": "XP_038616497",
+    "GBSeq_accession-version": "XP_038616497.1",
+    "GBSeq_other-seqids": [
+        "ref|XP_038616497.1|",
+        "gi|1952371841"
+    ],
+    "GBSeq_project": "PRJNA687514",
+    "GBSeq_keywords": [
+        "RefSeq"
+    ],
+    "GBSeq_source": "Tachyglossus aculeatus (Australian echidna)",
+    "GBSeq_organism": "Tachyglossus aculeatus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Monotremata; Tachyglossidae; Tachyglossus",
+    "GBSeq_comment": "MODEL REFSEQ: This record is predicted by automated computational analysis. This record is derived from a genomic sequence (NC_052083.1) annotated using gene prediction method: Gnomon.~Also see:~ Documentation of NCBI's Annotation Process; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI ; Annotation Status :: Full annotation ; Annotation Name :: Tachyglossus aculeatus Annotation Release 100 ; Annotation Version :: 100 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 8.5 ; Annotation Method :: Best-placed RefSeq; Gnomon ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; ##Genome-Annotation-Data-END##; COMPLETENESS: full length.",
+    "GBSeq_source-db": "REFSEQ: accession XM_038760569.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..121",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "121",
+                    "GBInterval_accession": "XP_038616497.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Tachyglossus aculeatus"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "mTacAcu1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:9261"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "18"
+                },
+                {
+                    "GBQualifier_name": "sex",
+                    "GBQualifier_value": "male"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "liver"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "adult"
+                },
+                {
+                    "GBQualifier_name": "country",
+                    "GBQualifier_value": "Australia: Upper Barnard River, New South Wales"
+                },
+                {
+                    "GBQualifier_name": "lat_lon",
+                    "GBQualifier_value": "31.647305 S 151.500011 E"
+                },
+                {
+                    "GBQualifier_name": "collected_by",
+                    "GBQualifier_value": "Tasman Daish, Frank Grutzner"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..121",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "121",
+                    "GBInterval_accession": "XP_038616497.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "ly-6/neurotoxin-like protein 1"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "13193"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "22..94",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "22",
+                    "GBInterval_to": "94",
+                    "GBInterval_accession": "XP_038616497.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "LU"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Ly-6 antigen / uPA receptor -like domain; occurs singly in GPI-linked cell-surface glycoproteins (Ly-6 family,CD59, thymocyte B cell antigen, Sgp-2) or as three-fold repeated domain in urokinase-type plasminogen activator receptor. Topology of these...; cd00117"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:238065"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..121",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "121",
+                    "GBInterval_accession": "XP_038616497.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LOC119940344"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "XM_038760569.1:268..633"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:119940344"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mmrllfailllttaglqlvhalqchvcshpnncmqpmrcpalvthcmttrtyqtptrilvskscvpkcyptvediytkyathvtccqydlcngatpaqsspitlglgvftsllctllwagl",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA687514"
+        }
+    ]
+}

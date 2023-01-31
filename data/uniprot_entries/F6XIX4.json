@@ -1,0 +1,788 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "F6XIX4",
+    "uniProtkbId": "F6XIX4_ORNAN",
+    "entryAudit": {
+        "firstPublicDate": "2011-07-27",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2011-07-27",
+        "entryVersion": 64,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+        "scientificName": "Ornithorhynchus anatinus",
+        "commonName": "Duckbill platypus",
+        "taxonId": 9258,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Ensembl",
+                "id": "ENSOANP00000013721.1"
+            },
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Proteomes",
+                "id": "UP000002279"
+            }
+        ],
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Monotremata",
+            "Ornithorhynchidae",
+            "Ornithorhynchus"
+        ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+        "submissionNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSOANP00000013721.1"
+                        }
+                    ],
+                    "value": "Ly6/neurotoxin 1"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "Ensembl",
+                        "id": "ENSOANP00000013721.1"
+                    }
+                ],
+                "value": "LYNX1"
+            }
+        }
+    ],
+    "comments": [
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "ARBA",
+                                "id": "ARBA00004589"
+                            }
+                        ],
+                        "value": "Membrane",
+                        "id": "SL-0162"
+                    },
+                    "topology": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "ARBA",
+                                "id": "ARBA00004589"
+                            }
+                        ],
+                        "value": "Lipid-anchor, GPI-anchor",
+                        "id": "SL-9902"
+                    }
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 20,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 120,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "featureId": "PRO_5003346063"
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 98,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "UPAR/Ly6",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000259",
+                    "source": "SMART",
+                    "id": "SM00134"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022475"
+                }
+            ],
+            "id": "KW-1003",
+            "category": "Cellular component",
+            "name": "Cell membrane"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022622"
+                }
+            ],
+            "id": "KW-0325",
+            "category": "PTM",
+            "name": "Glycoprotein"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022622"
+                }
+            ],
+            "id": "KW-0336",
+            "category": "PTM",
+            "name": "GPI-anchor"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022622"
+                }
+            ],
+            "id": "KW-0449",
+            "category": "PTM",
+            "name": "Lipoprotein"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00023136"
+                }
+            ],
+            "id": "KW-0472",
+            "category": "Cellular component",
+            "name": "Membrane"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000002279"
+                }
+            ],
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "18464734",
+                "citationType": "journal article",
+                "authors": [
+                    "Warren W.C.",
+                    "Hillier L.W.",
+                    "Marshall Graves J.A.",
+                    "Birney E.",
+                    "Ponting C.P.",
+                    "Grutzner F.",
+                    "Belov K.",
+                    "Miller W.",
+                    "Clarke L.",
+                    "Chinwalla A.T.",
+                    "Yang S.P.",
+                    "Heger A.",
+                    "Locke D.P.",
+                    "Miethke P.",
+                    "Waters P.D.",
+                    "Veyrunes F.",
+                    "Fulton L.",
+                    "Fulton B.",
+                    "Graves T.",
+                    "Wallis J.",
+                    "Puente X.S.",
+                    "Lopez-Otin C.",
+                    "Ordonez G.R.",
+                    "Eichler E.E.",
+                    "Chen L.",
+                    "Cheng Z.",
+                    "Deakin J.E.",
+                    "Alsop A.",
+                    "Thompson K.",
+                    "Kirby P.",
+                    "Papenfuss A.T.",
+                    "Wakefield M.J.",
+                    "Olender T.",
+                    "Lancet D.",
+                    "Huttley G.A.",
+                    "Smit A.F.",
+                    "Pask A.",
+                    "Temple-Smith P.",
+                    "Batzer M.A.",
+                    "Walker J.A.",
+                    "Konkel M.K.",
+                    "Harris R.S.",
+                    "Whittington C.M.",
+                    "Wong E.S.",
+                    "Gemmell N.J.",
+                    "Buschiazzo E.",
+                    "Vargas Jentzsch I.M.",
+                    "Merkel A.",
+                    "Schmitz J.",
+                    "Zemann A.",
+                    "Churakov G.",
+                    "Kriegs J.O.",
+                    "Brosius J.",
+                    "Murchison E.P.",
+                    "Sachidanandam R.",
+                    "Smith C.",
+                    "Hannon G.J.",
+                    "Tsend-Ayush E.",
+                    "McMillan D.",
+                    "Attenborough R.",
+                    "Rens W.",
+                    "Ferguson-Smith M.",
+                    "Lefevre C.M.",
+                    "Sharp J.A.",
+                    "Nicholas K.R.",
+                    "Ray D.A.",
+                    "Kube M.",
+                    "Reinhardt R.",
+                    "Pringle T.H.",
+                    "Taylor J.",
+                    "Jones R.C.",
+                    "Nixon B.",
+                    "Dacheux J.L.",
+                    "Niwa H.",
+                    "Sekita Y.",
+                    "Huang X.",
+                    "Stark A.",
+                    "Kheradpour P.",
+                    "Kellis M.",
+                    "Flicek P.",
+                    "Chen Y.",
+                    "Webber C.",
+                    "Hardison R.",
+                    "Nelson J.",
+                    "Hallsworth-Pepin K.",
+                    "Delehaunty K.",
+                    "Markovic C.",
+                    "Minx P.",
+                    "Feng Y.",
+                    "Kremitzki C.",
+                    "Mitreva M.",
+                    "Glasscock J.",
+                    "Wylie T.",
+                    "Wohldmann P.",
+                    "Thiru P.",
+                    "Nhan M.N.",
+                    "Pohl C.S.",
+                    "Smith S.M.",
+                    "Hou S.",
+                    "Nefedov M.",
+                    "de Jong P.J.",
+                    "Renfree M.B.",
+                    "Mardis E.R.",
+                    "Wilson R.K."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "18464734"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/nature06936"
+                    }
+                ],
+                "title": "Genome analysis of the platypus reveals unique signatures of evolution.",
+                "publicationDate": "2008",
+                "journal": "Nature",
+                "firstPage": "175",
+                "lastPage": "183",
+                "volume": "453"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSOANP00000013721.1"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Proteomes",
+                            "id": "UP000002279"
+                        }
+                    ],
+                    "value": "Glennie",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSOANP00000013721.1"
+                },
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000002279"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-20IMDPQG5Q1VJ",
+                "citationType": "submission",
+                "authoringGroup": [
+                    "Ensembl"
+                ],
+                "publicationDate": "AUG-2022",
+                "submissionDatabase": "UniProtKB"
+            },
+            "referencePositions": [
+                "IDENTIFICATION"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSOANP00000013721.1"
+                        }
+                    ],
+                    "value": "Glennie",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSOANP00000013721.1"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "AlphaFoldDB",
+            "id": "F6XIX4",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "9258.ENSOANP00000013721",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENSOANT00000013724.2",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSOANP00000013721.1"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSOANG00000008610.3"
+                }
+            ]
+        },
+        {
+            "database": "eggNOG",
+            "id": "ENOG502SD2S",
+            "properties": [
+                {
+                    "key": "ToxonomicScope",
+                    "value": "Eukaryota"
+                }
+            ]
+        },
+        {
+            "database": "GeneTree",
+            "id": "ENSGT00730000111571",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HOGENOM",
+            "id": "CLU_161471_0_1_1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "InParanoid",
+            "id": "F6XIX4",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OMA",
+            "id": "YTPYRMK",
+            "properties": [
+                {
+                    "key": "Fingerprint",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "1593386at2759",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "TreeFam",
+            "id": "TF336080",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000002279",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 4"
+                }
+            ]
+        },
+        {
+            "database": "Bgee",
+            "id": "ENSOANG00000008610",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Expressed in cerebellum and 7 other tissues"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016020",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000318",
+                    "source": "PubMed",
+                    "id": "21873635"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005886",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:plasma membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000318",
+                    "source": "PubMed",
+                    "id": "21873635"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0033130",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:acetylcholine receptor binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:Ensembl"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0030550",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:acetylcholine receptor inhibitor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000318",
+                    "source": "PubMed",
+                    "id": "21873635"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0099601",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:regulation of neurotransmitter receptor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:Ensembl"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00117",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR016054",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LY6_UPA_recep-like"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR035076",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Toxin/TOLIP"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00087",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Toxin_TOLIP"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SMART",
+            "id": "SM00134",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MRLLLTIFLGAAAGLQLAHALQCHVCSHPNNCMQPMRCPALVTHCMTTRTYQTPTRILVSKSCVPKCYPTVEDIYTKYATHVTCCQYDLCNGATPAQSSPVTLGLGVFASLLCTLLWAGQ",
+        "length": 120,
+        "molWeight": 13049,
+        "crc64": "FCDD6B1E83387C4F",
+        "md5": "5A0876B44F0F7DBA85822379E4691B9B"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "SUBCELLULAR LOCATION": 1
+        },
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Domain": 1
+        },
+        "uniParcId": "UPI0000EDD28A"
+    }
+}

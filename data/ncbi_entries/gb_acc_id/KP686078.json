@@ -1,0 +1,113 @@
+{
+    "GBSeq_locus": "KP686078",
+    "GBSeq_length": "246",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "06-JUL-2015",
+    "GBSeq_create-date": "06-JUL-2015",
+    "GBSeq_definition": "Micrurus browni short chain alpha neurotoxin B.D mRNA, complete cds",
+    "GBSeq_primary-accession": "KP686078",
+    "GBSeq_accession-version": "KP686078.1",
+    "GBSeq_other-seqids": [
+        "gb|KP686078.1|",
+        "gi|859131353"
+    ],
+    "GBSeq_source": "Micrurus browni (Brown's coral snake)",
+    "GBSeq_organism": "Micrurus browni",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Micrurus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..246",
+            "GBReference_authors": [
+                "Guerrero Garzon,J.F.",
+                "Olvera Rodriguez,A.",
+                "Restano Cassulini,R.",
+                "Zamudio,F.",
+                "Benard-Valle,M.",
+                "Possani,L.D.",
+                "Alagon,A."
+            ],
+            "GBReference_title": "Cloning, expression and characterization of an alpha-neurotoxin from the venom glands of the Mexican coral snake Micrurus diastema",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..246",
+            "GBReference_authors": [
+                "Guerrero Garzon,J.F.",
+                "Olvera Rodriguez,A.",
+                "Alagon Cano,A."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (20-JAN-2015) Medicina Molecular y Bioprocesos, Instituto de Biotecnologia, UNAM, Av. Universidad 2001, Cuernavaca, Morelos 62210, Mexico"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..246",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "246",
+                    "GBInterval_accession": "KP686078.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Micrurus browni"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:1675716"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom glands"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..246",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "246",
+                    "GBInterval_accession": "KP686078.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "short chain alpha neurotoxin B.D"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "AKO63242.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDFGHTMICYNQQTLQPPTTITCSEGQCYRKFWSDHRGTIIERGCGCPNLKLGIKIRCCTSDKCNY"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctgaccttggtggtggtgacaatcgtgtgcctggacttcggacacaccatgatatgttacaaccaacagacattgcaacctccaaccactataacttgttcagaagggcagtgctatagaaagttttggagtgatcaccgtggaactataatcgaaaggggatgtggttgccctaacttgaagctcggtattaaaattaggtgttgcacatcagacaaatgcaactactag"
+}

@@ -1,0 +1,125 @@
+{
+    "GBSeq_locus": "DQ835582",
+    "GBSeq_length": "261",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "14-JAN-2007",
+    "GBSeq_create-date": "14-JAN-2007",
+    "GBSeq_definition": "Bungarus fasciatus VIIIa venom three finger toxin mRNA, complete cds",
+    "GBSeq_primary-accession": "DQ835582",
+    "GBSeq_accession-version": "DQ835582.1",
+    "GBSeq_other-seqids": [
+        "gb|DQ835582.1|",
+        "gi|113203522"
+    ],
+    "GBSeq_source": "Bungarus fasciatus (banded krait)",
+    "GBSeq_organism": "Bungarus fasciatus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Bungarinae; Bungarus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..261",
+            "GBReference_authors": [
+                "Tsai,I.H.",
+                "Tsai,H.Y.",
+                "Saha,A.",
+                "Gomes,A."
+            ],
+            "GBReference_title": "Sequences, geographic variations and molecular phylogeny of venom phospholipases and threefinger toxins of eastern India Bungarus fasciatus and kinetic analyses of its Pro31 phospholipases A2",
+            "GBReference_journal": "FEBS J. 274 (2), 512-525 (2007)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1111/j.1742-4658.2006.05598.x"
+                }
+            ],
+            "GBReference_pubmed": "17166178"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..261",
+            "GBReference_authors": [
+                "Tsai,I.-H.",
+                "Tsai,H.-Y.",
+                "Wang,Y.-M."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (03-JUL-2006) Institute of Biological Chemistry, Academia Sinica, Taipei 23-106, Taiwan"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..261",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "261",
+                    "GBInterval_accession": "DQ835582.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Bungarus fasciatus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "isolation_source",
+                    "GBQualifier_value": "venom"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8613"
+                },
+                {
+                    "GBQualifier_name": "clone",
+                    "GBQualifier_value": "VIIIa"
+                },
+                {
+                    "GBQualifier_name": "country",
+                    "GBQualifier_value": "India: Kolkota"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..261",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "261",
+                    "GBInterval_accession": "DQ835582.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "three finger toxin"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "ABI33870.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGYTLTCLICPERYCQKVHTCRGEEKLCVKRFYDEKALGWRAKRGCAATCPEAKPKETVECCSTDKCNK"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctgaccttggtggtggtgacaattgtgtgcctggacttaggatacactttgacatgtctaatttgcccagaaaggtattgtcaaaaggttcacacttgtcgaggagaggagaagctatgcgttaaaaggttttatgatgaaaaagcattaggatggagggccaagaggggatgtgctgctacttgccctgaagcaaaacccaaagagaccgttgagtgttgctcaacagacaaatgcaacaaatag"
+}

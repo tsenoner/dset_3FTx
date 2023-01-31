@@ -1,0 +1,145 @@
+{
+    "GBSeq_locus": "AB851958",
+    "GBSeq_length": "546",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "10-DEC-2013",
+    "GBSeq_create-date": "28-SEP-2013",
+    "GBSeq_definition": "Protobothrops flavoviridis mRNA for three-finger toxin, complete cds, note: comp72_c0_seq1_Pf",
+    "GBSeq_primary-accession": "AB851958",
+    "GBSeq_accession-version": "AB851958.1",
+    "GBSeq_other-seqids": [
+        "dbj|AB851958.1|",
+        "gi|547223048"
+    ],
+    "GBSeq_source": "Protobothrops flavoviridis",
+    "GBSeq_organism": "Protobothrops flavoviridis",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Viperidae; Crotalinae; Protobothrops",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..546",
+            "GBReference_authors": [
+                "Aird,S.D.",
+                "Watanabe,Y.",
+                "Villar-Briones,A.",
+                "Roy,M.C.",
+                "Terada,K.",
+                "Mikheyev,A.S."
+            ],
+            "GBReference_title": "Quantitative high-throughput profiling of snake venom gland transcriptomes and proteomes (Ovophis okinavensis and Protobothrops flavoviridis)",
+            "GBReference_journal": "BMC Genomics 14 (1), 790 (2013)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1186/1471-2164-14-790"
+                }
+            ],
+            "GBReference_pubmed": "24224955",
+            "GBReference_remark": "Publication Status: Available-Online prior to print"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..546",
+            "GBReference_authors": [
+                "Watanabe,Y.",
+                "Mikheyev,A.S.",
+                "Aird,S.D."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (06-SEP-2013) Contact:Yutaka Watanabe Okinawa Institute of Science and Technology, Ecology and Evolution Unit; 1919-1 Tancha, Onna-son, Okinawa 904-0495, Japan URL :http://www.oist.jp/"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..546",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "546",
+                    "GBInterval_accession": "AB851958.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Protobothrops flavoviridis"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:88087"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "comp72_c0_seq1_Pf"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "52..321",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "52",
+                    "GBInterval_to": "321",
+                    "GBInterval_accession": "AB851958.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "three-finger toxin"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "BAN89397.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLILGVVAFVYLEPGYTRKCCIYPKWTLFCREVQICPADEGMCFKMWNSTDRLMERTYVRGCAAACPNPVGDEEVYCCVTDNCNK"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "52..114",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "52",
+                    "GBInterval_to": "114",
+                    "GBInterval_accession": "AB851958.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "putative"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MKTLLLILGVVAFVYLEPGYT"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "tcaacgcagagtacatggggacactttgcaggctgaagaggagattgcaaaatgaaaactctgctgttgatcctgggggtggtggcattcgtgtacctggagccaggatacaccaggaagtgttgcatataccccaagtggactctgttttgtagagaggttcagatttgtccagctgatgaaggaatgtgctttaaaatgtggaattctactgacaggttgatggaaaggacgtacgtcaggggatgtgctgcagcgtgccctaatccggttggcgatgaagaagtttactgttgtgtaacagacaactgcaacaaatagttctaaaagtggctaatttctttgagttttgatctcatccatcatggaccttccttgaagattgatgcttctggctttacaacaggatggtccataatcccccctcccctgctttctttgacccctcaccctctttcccttttctcttgttccgcaagctctttctgctagttctgtagtttgagaatccaataaacctcagcattcaaaaaagaaaaaagtacc"
+}

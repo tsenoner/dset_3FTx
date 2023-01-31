@@ -1,0 +1,174 @@
+{
+    "GBSeq_locus": "X13372",
+    "GBSeq_length": "349",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "27-JUN-2018",
+    "GBSeq_create-date": "08-NOV-1988",
+    "GBSeq_definition": "Aipysurus laevis mRNA for toxin D",
+    "GBSeq_primary-accession": "X13372",
+    "GBSeq_accession-version": "X13372.1",
+    "GBSeq_other-seqids": [
+        "emb|X13372.1|",
+        "gi|62409"
+    ],
+    "GBSeq_keywords": [
+        "toxin D"
+    ],
+    "GBSeq_source": "Aipysurus laevis (olive-brown sea snake)",
+    "GBSeq_organism": "Aipysurus laevis",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Hydrophiidae; Aipysurus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..349",
+            "GBReference_authors": [
+                "Ducancel,F.",
+                "Guignery-Frelat,G.",
+                "Boulain,J.C.",
+                "Menez,A."
+            ],
+            "GBReference_title": "Nucleotide sequence and structure analysis of cDNAs encoding short-chain neurotoxins from venom glands of a sea snake (Aipysurus laevis)",
+            "GBReference_journal": "Toxicon 28 (1), 119-123 (1990)",
+            "GBReference_pubmed": "2330602"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..349",
+            "GBReference_authors": [
+                "Ducancel,F."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (29-OCT-1988) Ducancel F., Commissariat a l'Energie Atomique, Service de Biochimie, Bat 152, CEN Saclay, 91191 Gif-sur-Yvette, France"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..349",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "349",
+                    "GBInterval_accession": "X13372.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Aipysurus laevis"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8678"
+                },
+                {
+                    "GBQualifier_name": "clone",
+                    "GBQualifier_value": "99"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "32..277",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "32",
+                    "GBInterval_to": "277",
+                    "GBInterval_accession": "X13372.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "toxin D"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "CAA31747.1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GOA:P19960"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "InterPro:IPR003571"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "InterPro:IPR018354"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "UniProtKB/Swiss-Prot:P19960"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGYTLTCCNQQSSQPKTTTDCADDSCYKKTWKDHRGTRIERGCGCPQVKPGIKLECCKTNECNN"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "32..94",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "32",
+                    "GBInterval_to": "94",
+                    "GBInterval_accession": "X13372.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "signal peptide (AA -21 to -1)"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGYT"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "mat_peptide",
+            "GBFeature_location": "95..274",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "95",
+                    "GBInterval_to": "274",
+                    "GBInterval_accession": "X13372.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "toxin D (AA 1 - 60)"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "LTCCNQQSSQPKTTTDCADDSCYKKTWKDHRGTRIERGCGCPQVKPGIKLECCKTNECNN"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "acactttgcaggctccagagaagattgcaagatgaaaactctgctgctgaccttggtggtggtgaccatcgtgtgcctggacttaggatacaccttgacatgttgcaaccaacagtcatcgcaacctaaaaccactacagattgtgcagatgactcttgctataaaaagacttggaaggatcaccgtggaactagaattgaaaggggatgtggttgccctcaggtgaagcccggtattaaacttgaatgttgcaaaacaaacgaatgcaacaattagctctacgaatggctaaattccttgagttttgctctcatccatcaaggaccatccttgaaaatttatgcttct"
+}

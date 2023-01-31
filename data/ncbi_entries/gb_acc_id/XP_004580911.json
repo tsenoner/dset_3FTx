@@ -1,0 +1,163 @@
+{
+    "GBSeq_locus": "XP_004580911",
+    "GBSeq_length": "113",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "MAM",
+    "GBSeq_update-date": "09-OCT-2020",
+    "GBSeq_create-date": "18-MAY-2013",
+    "GBSeq_definition": "ly-6/neurotoxin-like protein 1 [Ochotona princeps]",
+    "GBSeq_primary-accession": "XP_004580911",
+    "GBSeq_accession-version": "XP_004580911.1",
+    "GBSeq_other-seqids": [
+        "ref|XP_004580911.1|",
+        "gi|504136892"
+    ],
+    "GBSeq_project": "PRJNA666703",
+    "GBSeq_keywords": [
+        "RefSeq",
+        "includes ab initio"
+    ],
+    "GBSeq_source": "Ochotona princeps (American pika)",
+    "GBSeq_organism": "Ochotona princeps",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha; Ochotonidae; Ochotona",
+    "GBSeq_comment": "MODEL REFSEQ: This record is predicted by automated computational analysis. This record is derived from a genomic sequence (NW_023435663.1) annotated using gene prediction method: Gnomon.~Also see:~ Documentation of NCBI's Annotation Process; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI ; Annotation Status :: Full annotation ; Annotation Name :: Ochotona princeps Annotation Release 102 ; Annotation Version :: 102 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 8.5 ; Annotation Method :: Best-placed RefSeq; Gnomon ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; ##Genome-Annotation-Data-END##; ##RefSeq-Attributes-START## ; ab initio :: 8% of CDS bases ; ##RefSeq-Attributes-END##; COMPLETENESS: full length.",
+    "GBSeq_source-db": "REFSEQ: accession XM_004580854.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..113",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "113",
+                    "GBInterval_accession": "XP_004580911.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Ochotona princeps"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "UAM:Mamm:113957"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:9978"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "Unknown"
+                },
+                {
+                    "GBQualifier_name": "sex",
+                    "GBQualifier_value": "male"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "liver"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "adult"
+                },
+                {
+                    "GBQualifier_name": "country",
+                    "GBQualifier_value": "USA: Beaverhead-Deerlodge National Forest, Montana"
+                },
+                {
+                    "GBQualifier_name": "lat_lon",
+                    "GBQualifier_value": "45.34309 N 113.67609 W"
+                },
+                {
+                    "GBQualifier_name": "collection_date",
+                    "GBQualifier_value": "2010-06-19"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..113",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "113",
+                    "GBInterval_accession": "XP_004580911.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "ly-6/neurotoxin-like protein 1"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "12153"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "20..89",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "20",
+                    "GBInterval_to": "89",
+                    "GBInterval_accession": "XP_004580911.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "LU"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Ly-6 antigen / uPA receptor -like domain; occurs singly in GPI-linked cell-surface glycoproteins (Ly-6 family,CD59, thymocyte B cell antigen, Sgp-2) or as three-fold repeated domain in urokinase-type plasminogen activator receptor. Topology of these...; cd00117"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:238065"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..113",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "113",
+                    "GBInterval_accession": "XP_004580911.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LYNX1"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "XM_004580854.1:1..342"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:101516976"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mallllaallglplaqaldchvcayhgdncfnpmrcpdmvrycmttrtyytptkmkvskscvpscfetvydgyskhasttsccqydlcntaglavpsalsllvallaalralf",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA666703"
+        }
+    ]
+}

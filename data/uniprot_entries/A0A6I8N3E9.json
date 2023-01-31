@@ -1,0 +1,464 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A6I8N3E9",
+    "uniProtkbId": "A0A6I8N3E9_ORNAN",
+    "entryAudit": {
+        "firstPublicDate": "2020-08-12",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2020-08-12",
+        "entryVersion": 6,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+        "scientificName": "Ornithorhynchus anatinus",
+        "commonName": "Duckbill platypus",
+        "taxonId": 9258,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Ensembl",
+                "id": "ENSOANP00000035422.1"
+            },
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Proteomes",
+                "id": "UP000002279"
+            }
+        ],
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Monotremata",
+            "Ornithorhynchidae",
+            "Ornithorhynchus"
+        ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000259",
+                        "source": "SMART",
+                        "id": "SM00134"
+                    }
+                ],
+                "value": "UPAR/Ly6 domain-containing protein"
+            }
+        }
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "Ensembl",
+                        "id": "ENSOANP00000035422.1"
+                    }
+                ],
+                "value": "PSCA"
+            }
+        }
+    ],
+    "features": [
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 73,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 157,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "UPAR/Ly6",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000259",
+                    "source": "SMART",
+                    "id": "SM00134"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000002279"
+                }
+            ],
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "18464734",
+                "citationType": "journal article",
+                "authors": [
+                    "Warren W.C.",
+                    "Hillier L.W.",
+                    "Marshall Graves J.A.",
+                    "Birney E.",
+                    "Ponting C.P.",
+                    "Grutzner F.",
+                    "Belov K.",
+                    "Miller W.",
+                    "Clarke L.",
+                    "Chinwalla A.T.",
+                    "Yang S.P.",
+                    "Heger A.",
+                    "Locke D.P.",
+                    "Miethke P.",
+                    "Waters P.D.",
+                    "Veyrunes F.",
+                    "Fulton L.",
+                    "Fulton B.",
+                    "Graves T.",
+                    "Wallis J.",
+                    "Puente X.S.",
+                    "Lopez-Otin C.",
+                    "Ordonez G.R.",
+                    "Eichler E.E.",
+                    "Chen L.",
+                    "Cheng Z.",
+                    "Deakin J.E.",
+                    "Alsop A.",
+                    "Thompson K.",
+                    "Kirby P.",
+                    "Papenfuss A.T.",
+                    "Wakefield M.J.",
+                    "Olender T.",
+                    "Lancet D.",
+                    "Huttley G.A.",
+                    "Smit A.F.",
+                    "Pask A.",
+                    "Temple-Smith P.",
+                    "Batzer M.A.",
+                    "Walker J.A.",
+                    "Konkel M.K.",
+                    "Harris R.S.",
+                    "Whittington C.M.",
+                    "Wong E.S.",
+                    "Gemmell N.J.",
+                    "Buschiazzo E.",
+                    "Vargas Jentzsch I.M.",
+                    "Merkel A.",
+                    "Schmitz J.",
+                    "Zemann A.",
+                    "Churakov G.",
+                    "Kriegs J.O.",
+                    "Brosius J.",
+                    "Murchison E.P.",
+                    "Sachidanandam R.",
+                    "Smith C.",
+                    "Hannon G.J.",
+                    "Tsend-Ayush E.",
+                    "McMillan D.",
+                    "Attenborough R.",
+                    "Rens W.",
+                    "Ferguson-Smith M.",
+                    "Lefevre C.M.",
+                    "Sharp J.A.",
+                    "Nicholas K.R.",
+                    "Ray D.A.",
+                    "Kube M.",
+                    "Reinhardt R.",
+                    "Pringle T.H.",
+                    "Taylor J.",
+                    "Jones R.C.",
+                    "Nixon B.",
+                    "Dacheux J.L.",
+                    "Niwa H.",
+                    "Sekita Y.",
+                    "Huang X.",
+                    "Stark A.",
+                    "Kheradpour P.",
+                    "Kellis M.",
+                    "Flicek P.",
+                    "Chen Y.",
+                    "Webber C.",
+                    "Hardison R.",
+                    "Nelson J.",
+                    "Hallsworth-Pepin K.",
+                    "Delehaunty K.",
+                    "Markovic C.",
+                    "Minx P.",
+                    "Feng Y.",
+                    "Kremitzki C.",
+                    "Mitreva M.",
+                    "Glasscock J.",
+                    "Wylie T.",
+                    "Wohldmann P.",
+                    "Thiru P.",
+                    "Nhan M.N.",
+                    "Pohl C.S.",
+                    "Smith S.M.",
+                    "Hou S.",
+                    "Nefedov M.",
+                    "de Jong P.J.",
+                    "Renfree M.B.",
+                    "Mardis E.R.",
+                    "Wilson R.K."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "18464734"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/nature06936"
+                    }
+                ],
+                "title": "Genome analysis of the platypus reveals unique signatures of evolution.",
+                "publicationDate": "2008",
+                "journal": "Nature",
+                "firstPage": "175",
+                "lastPage": "183",
+                "volume": "453"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSOANP00000035422.1"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Proteomes",
+                            "id": "UP000002279"
+                        }
+                    ],
+                    "value": "Glennie",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSOANP00000035422.1"
+                },
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000002279"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-20IMDPQG5Q1VJ",
+                "citationType": "submission",
+                "authoringGroup": [
+                    "Ensembl"
+                ],
+                "publicationDate": "AUG-2022",
+                "submissionDatabase": "UniProtKB"
+            },
+            "referencePositions": [
+                "IDENTIFICATION"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSOANP00000035422.1"
+                        }
+                    ],
+                    "value": "Glennie",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSOANP00000035422.1"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "AlphaFoldDB",
+            "id": "A0A6I8N3E9",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENSOANT00000047234.1",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSOANP00000035422.1"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSOANG00000042432.1"
+                }
+            ]
+        },
+        {
+            "database": "GeneTree",
+            "id": "ENSGT00940000153378",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000002279",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 4"
+                }
+            ]
+        },
+        {
+            "database": "Bgee",
+            "id": "ENSOANG00000042432",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Expressed in adult mammalian kidney and 5 other tissues"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00117",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR016054",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LY6_UPA_recep-like"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00021",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "UPAR_LY6"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SMART",
+            "id": "SM00134",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "HPPPNLAYPLLSCHPNTWHRLVLVFGSYVYFCLNTCIRQLPKRGGGCIFSLFRRALRNGNLHSERFNADGGSLQCYKCTGQTNNKNCQTVQPCRHEEKVCKTELTTAAGLVRFITKSCVESCQEETNNYHVGFRNVTCCRSDLCNVNGARGLSPSPAAILSASLLGLFGALLRTPL",
+        "length": 176,
+        "molWeight": 19436,
+        "crc64": "58AD6F9FF26AF3E6",
+        "md5": "045F4CC33B4DC39BAA02444ABC2F3207"
+    },
+    "extraAttributes": {
+        "countByFeatureType": {
+            "Domain": 1
+        },
+        "uniParcId": "UPI0014623DC5"
+    }
+}

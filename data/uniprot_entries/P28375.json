@@ -1,0 +1,1227 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P28375",
+    "uniProtkbId": "3SPM_DENJA",
+    "entryAudit": {
+        "firstPublicDate": "1992-12-01",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "1992-12-01",
+        "entryVersion": 101,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Dendroaspis jamesoni kaimosae",
+        "commonName": "Eastern Jameson's mamba",
+        "taxonId": 8619,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Dendroaspis"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "16798616"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "7634091"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "7813476"
+                    }
+                ],
+                "value": "Dendroaspin"
+            }
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "value": "Glycoprotein IIb-IIIa antagonist"
+                }
+            },
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "1591238"
+                        }
+                    ],
+                    "value": "Mambin"
+                }
+            },
+            {
+                "fullName": {
+                    "value": "Platelet aggregation inhibitor"
+                }
+            }
+        ]
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "11336631"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "1591238"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "16798616"
+                        }
+                    ],
+                    "value": "Inhibits ADP-induced platelet aggregation and inhibits the binding of purified platelet fibrinogen receptor alpha-IIb/beta-3 (ITGA2B/ITGB3) to immobilized fibrinogen (PubMed:1591238). Has also been described to inhibit cell adhesion to fibrinogen, fibronectin, laminin and collagen (PubMed:16798616, PubMed:11336631)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "1591238"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily. Antiplatelet toxin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 59,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Dendroaspin",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1591238"
+                }
+            ],
+            "featureId": "PRO_0000093659"
+        },
+        {
+            "type": "Motif",
+            "location": {
+                "start": {
+                    "value": 43,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 45,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Cell attachment site",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 3,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "7634091"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "7813476"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1DRS"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2LA1"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 17,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 37,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "7634091"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "7813476"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1DRS"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2LA1"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 39,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 51,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "7634091"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "7813476"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1DRS"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2LA1"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 52,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 57,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "7634091"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "7813476"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1DRS"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2LA1"
+                }
+            ]
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 42,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 47,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "7-fold loss of ability to inhibit ADP-induced platelet aggregation.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "11311124"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "PRGDMP",
+                "alternativeSequences": [
+                    "ARGDMA"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 42,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 42,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "No change in ability to inhibit ADP-induced platelet aggregation.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "11311124"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "P",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 43,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 43,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "This mutation alters integrin binding selectivity. It provokes 95-fold loss of ability to inhibit ADP-induced platelet aggregation, 71-fold loss of ability to inhibit A375 cell adhesion to fibrinogen, and almost complete loss of ability to inhibit HEL cell adhesion to fibrinogen.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "16798616"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 43,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 43,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "This mutation alters integrin binding selectivity. It provokes 14-fold loss of ability to inhibit ADP-induced platelet aggregation, 3-fold loss of ability to inhibit A375 cell adhesion to fibrinogen, 8-fold loss of ability to inhibit HEL cell adhesion to fibrinogen.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "16798616"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "H"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 43,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 43,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "This mutation alters integrin binding selectivity. It provokes 1.4-fold loss of ability to inhibit ADP-induced platelet aggregation, 6-fold loss of ability to inhibit A375 cell adhesion to fibrinogen and 8-fold loss of ability to inhibit HEL cell adhesion to fibrinogen.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "16798616"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "K"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 43,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 43,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "This mutation alters integrin binding selectivity. It provokes 33-fold loss of ability to inhibit ADP-induced platelet aggregation, 5-fold loss of ability to inhibit A375 cell adhesion to fibrinogen, and almost complete loss of ability to inhibit HEL cell adhesion to fibrinogen.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "16798616"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "Q"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 44,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 44,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "This mutation promotes selective inhibition of beta-3 integrin; it provokes 1.8-fold loss of ability to inhibit ADP-induced platelet aggregation, 6-fold loss of ability to inhibit A375 cell adhesion to fibrinogen and 330-fold loss of ability to inhibit K562 cell adhesion to fibrinogen.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "11336631"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "G",
+                "alternativeSequences": [
+                    "C"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 44,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 44,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "This mutation promotes selective inhibition of beta-1 integrin; provokes 1.2-fold loss of ability to inhibit ADP-induced platelet aggregation, 11-fold loss of ability to inhibit A375 cell adhesion to fibrinogen and 75-fold loss of ability to inhibit K562 cell adhesion to fibrinogen.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "11336631"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "G",
+                "alternativeSequences": [
+                    "Y"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 47,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 49,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "8.5-fold loss of ability to inhibit ADP-induced platelet aggregation.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "11311124"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "PGP",
+                "alternativeSequences": [
+                    "AGA"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 47,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 47,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "No change in ability to inhibit ADP-induced platelet aggregation.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "11311124"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "P",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 49,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 49,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "No change in ability to inhibit ADP-induced platelet aggregation.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "11311124"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "P",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 2,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 4,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1DRS"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 14,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 16,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1DRS"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1DRS"
+                }
+            ]
+        },
+        {
+            "type": "Turn",
+            "location": {
+                "start": {
+                    "value": 28,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 31,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1DRS"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 44,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 47,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "2LA1"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 50,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 57,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1DRS"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0002",
+            "category": "Technical term",
+            "name": "3D-structure"
+        },
+        {
+            "id": "KW-1217",
+            "category": "Molecular function",
+            "name": "Cell adhesion impairing toxin"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-1199",
+            "category": "Molecular function",
+            "name": "Hemostasis impairing toxin"
+        },
+        {
+            "id": "KW-1201",
+            "category": "Molecular function",
+            "name": "Platelet aggregation inhibiting toxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "1591238",
+                "citationType": "journal article",
+                "authors": [
+                    "McDowell R.S.",
+                    "Dennis M.S.",
+                    "Louie A.",
+                    "Shuster M.",
+                    "Mulkerrin M.G.",
+                    "Lazarus R.A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "1591238"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/bi00135a004"
+                    }
+                ],
+                "title": "Mambin, a potent glycoprotein IIb-IIIa antagonist and platelet aggregation inhibitor structurally related to the short neurotoxins.",
+                "publicationDate": "1992",
+                "journal": "Biochemistry",
+                "firstPage": "4766",
+                "lastPage": "4772",
+                "volume": "31"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE",
+                "FUNCTION",
+                "SUBCELLULAR LOCATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "11311124",
+                "citationType": "journal article",
+                "authors": [
+                    "Lu X.",
+                    "Sun Y.",
+                    "Shang D.",
+                    "Wattam B.",
+                    "Egglezou S.",
+                    "Hughes T.",
+                    "Hyde E.",
+                    "Scully M.",
+                    "Kakkar V."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11311124"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1042/bj3550633"
+                    }
+                ],
+                "title": "Evaluation of the role of proline residues flanking the RGD motif of dendroaspin, an inhibitior of platelet aggregation and cell adhesion.",
+                "publicationDate": "2001",
+                "journal": "Biochem. J.",
+                "firstPage": "633",
+                "lastPage": "638",
+                "volume": "355"
+            },
+            "referencePositions": [
+                "MUTAGENESIS OF PRO-42; PRO-47; PRO-49; 42-PRO--PRO-47 AND 47-PRO--PRO-49",
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "11336631",
+                "citationType": "journal article",
+                "authors": [
+                    "Wattam B.",
+                    "Shang D.",
+                    "Rahman S.",
+                    "Egglezou S.",
+                    "Scully M.",
+                    "Kakkar V.",
+                    "Lu X."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11336631"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1042/0264-6021:3560011"
+                    }
+                ],
+                "title": "Arg-Tyr-Asp (RYD) and Arg-Cys-Asp (RCD) motifs in dendroaspin promote selective inhibition of beta1 and beta3 integrins.",
+                "publicationDate": "2001",
+                "journal": "Biochem. J.",
+                "firstPage": "11",
+                "lastPage": "17",
+                "volume": "356"
+            },
+            "referencePositions": [
+                "MUTAGENESIS OF GLY-44",
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "16798616",
+                "citationType": "journal article",
+                "authors": [
+                    "Lu X.",
+                    "Davies J.",
+                    "Lu D.",
+                    "Xia M.",
+                    "Wattam B.",
+                    "Shang D.",
+                    "Sun Y.",
+                    "Scully M.",
+                    "Kakkar V."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "16798616"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1080/15419060600726183"
+                    }
+                ],
+                "title": "The effect of the single substitution of arginine within the RGD tripeptide motif of a modified neurotoxin dendroaspin on its activity of platelet aggregation and cell adhesion.",
+                "publicationDate": "2006",
+                "journal": "Cell Commun. Adhes.",
+                "firstPage": "171",
+                "lastPage": "183",
+                "volume": "13"
+            },
+            "referencePositions": [
+                "MUTAGENESIS OF ARG-43",
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "7634091",
+                "citationType": "journal article",
+                "authors": [
+                    "Sutcliffe M.J.",
+                    "Jaseja M.",
+                    "Hyde E.I.",
+                    "Lu X.",
+                    "Williams J.A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "7634091"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/nsb1194-802"
+                    }
+                ],
+                "title": "Three-dimensional structure of the RGD-containing neurotoxin homologue dendroaspin.",
+                "publicationDate": "1994",
+                "journal": "Nat. Struct. Biol.",
+                "firstPage": "802",
+                "lastPage": "807",
+                "volume": "1"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR",
+                "DISULFIDE BONDS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "7813476",
+                "citationType": "journal article",
+                "authors": [
+                    "Jaseja M.",
+                    "Lu X.",
+                    "Williams J.A.",
+                    "Sutcliffe M.J.",
+                    "Kakkar V.V.",
+                    "Parslow R.A.",
+                    "Hyde E.I."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "7813476"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1111/j.1432-1033.1994.00861.x"
+                    }
+                ],
+                "title": "1H-NMR assignments and secondary structure of dendroaspin, an RGD-containing glycoprotein IIb-IIIa (alpha IIb-beta 3) antagonist with a neurotoxin fold.",
+                "publicationDate": "1994",
+                "journal": "Eur. J. Biochem.",
+                "firstPage": "861",
+                "lastPage": "868",
+                "volume": "226"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR",
+                "DISULFIDE BONDS"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "PIR",
+            "id": "A42561",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "T6EP5J"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1DRS",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=1-59"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "2LA1",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=1-59"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1DRS",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "2LA1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "P28375",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BMRB",
+            "id": "P28375",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P28375",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EvolutionaryTrace",
+            "id": "P28375",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "RICYNHLGTKPPTTETCQEDSCYKNIWTFDNIIRRGCGCFTPRGDMPGPYCCESDKCNL",
+        "length": 59,
+        "molWeight": 6754,
+        "crc64": "20DDC6A5D9DF9E41",
+        "md5": "7B5D7324DEA928F2717AD523134EE9DC"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Motif": 1,
+            "Disulfide bond": 4,
+            "Mutagenesis": 11,
+            "Beta strand": 5,
+            "Turn": 1
+        },
+        "uniParcId": "UPI00000304DF"
+    }
+}

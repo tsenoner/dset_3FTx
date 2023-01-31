@@ -1,0 +1,168 @@
+{
+    "GBSeq_locus": "AF026893",
+    "GBSeq_length": "480",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "07-NOV-2003",
+    "GBSeq_create-date": "27-NOV-1997",
+    "GBSeq_definition": "Naja sputatrix clone LNTX long neurotoxin isoform precursor, mRNA, complete cds",
+    "GBSeq_primary-accession": "AF026893",
+    "GBSeq_accession-version": "AF026893.1",
+    "GBSeq_other-seqids": [
+        "gb|AF026893.1|",
+        "gi|2645540"
+    ],
+    "GBSeq_source": "Naja sputatrix",
+    "GBSeq_organism": "Naja sputatrix",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Naja",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..480",
+            "GBReference_authors": [
+                "Jeyaseelan,K.",
+                "Poh,S.L.",
+                "Nair,R.",
+                "Armugam,A."
+            ],
+            "GBReference_title": "Structurally conserved alpha-neurotoxin genes encode functionally diverse proteins in the venom of Naja sputatrix",
+            "GBReference_journal": "FEBS Lett. 553 (3), 333-341 (2003)",
+            "GBReference_pubmed": "14572646"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..480",
+            "GBReference_authors": [
+                "Poh,S.L.",
+                "Armugam,A.",
+                "Jeyaseelan,K."
+            ],
+            "GBReference_title": "Cloning, sequencing and expression of weak and long neurotoxins from Naja naja sputatrix",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "3",
+            "GBReference_position": "1..480",
+            "GBReference_authors": [
+                "Poh,S.L.",
+                "Armugam,A.",
+                "Jeyaseelan,K."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (26-SEP-1997) Biochemistry, National University of Singapore, 10 Kent Ridge Crescent, Singapore 119260, Singapore"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..480",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "480",
+                    "GBInterval_accession": "AF026893.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Naja sputatrix"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:33626"
+                },
+                {
+                    "GBQualifier_name": "clone",
+                    "GBQualifier_value": "LNTX"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "adult"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "19..291",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "19",
+                    "GBInterval_to": "291",
+                    "GBInterval_accession": "AF026893.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "long neurotoxin isoform precursor"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "AAB87417.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVLVTIMCLDLGYTIRCFITPDVTSTDCPNGHVCYTKTWCDGFCSSRGRRVELGCAATCPTVKPGVDIQCCSTDNCNPFPTRP"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "19..81",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "19",
+                    "GBInterval_to": "81",
+                    "GBInterval_accession": "AF026893.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MKTLLLTLVLVTIMCLDLGYT"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "mat_peptide",
+            "GBFeature_location": "82..288",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "82",
+                    "GBInterval_to": "288",
+                    "GBInterval_accession": "AF026893.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "long neurotoxin isoform"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "IRCFITPDVTSTDCPNGHVCYTKTWCDGFCSSRGRRVELGCAATCPTVKPGVDIQCCSTDNCNPFPTRP"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "tccgaaaaagatggcaagatgaaaactctgctgctgaccttggtgctggtgacaatcatgtgcctggacttaggatacaccataagatgcttcataacacctgatgttacctctacggattgtccaaatgggcatgtatgctatacaaagacttggtgtgatggtttctgtagcagcagaggaagaagagtcgagttgggatgtgctgctacttgccctacagtgaagcccggtgtggatattcaatgttgttcaacagacaattgcaacccatttccaacacgtccttgagttttgctctcatccatcatggaccatccttgaaaatttatgcttgtggcttttaccatcagatggtccatcacccccctctcccctgctttctttgacacctcatcgtctttcccttttctcttcttctgtaagtttccttctgctagttctgtagtttgagaatcaaataattcattttgaagcgca"
+}

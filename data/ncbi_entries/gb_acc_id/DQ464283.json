@@ -1,0 +1,125 @@
+{
+    "GBSeq_locus": "DQ464283",
+    "GBSeq_length": "270",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "14-MAY-2008",
+    "GBSeq_create-date": "31-MAY-2007",
+    "GBSeq_definition": "Sistrurus catenatus edwardsi three finger toxin 3 mRNA, complete cds",
+    "GBSeq_primary-accession": "DQ464283",
+    "GBSeq_accession-version": "DQ464283.1",
+    "GBSeq_other-seqids": [
+        "gb|DQ464283.1|",
+        "gi|109255015"
+    ],
+    "GBSeq_source": "Sistrurus catenatus edwardsi (desert massasauga)",
+    "GBSeq_organism": "Sistrurus catenatus edwardsi",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Viperidae; Crotalinae; Sistrurus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..270",
+            "GBReference_authors": [
+                "Pahari,S.",
+                "Mackessy,S.P.",
+                "Kini,R.M."
+            ],
+            "GBReference_title": "The venom gland transcriptome of the Desert Massasauga rattlesnake (Sistrurus catenatus edwardsii): towards an understanding of venom composition among advanced snakes (Superfamily Colubroidea)",
+            "GBReference_journal": "BMC Mol. Biol. 8, 115 (2007)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1186/1471-2199-8-115"
+                }
+            ],
+            "GBReference_pubmed": "18096037",
+            "GBReference_remark": "Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..270",
+            "GBReference_authors": [
+                "Kini,R.M.",
+                "Mackessy,S.P.",
+                "Pahari,S."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (28-MAR-2006) Biological Sciences, National University of Singapore, 14 Science Drive 4, Singapore 117543, Singapore"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..270",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "270",
+                    "GBInterval_accession": "DQ464283.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Sistrurus catenatus edwardsi"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "sub_species",
+                    "GBQualifier_value": "edwardsi"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8762"
+                },
+                {
+                    "GBQualifier_name": "clone",
+                    "GBQualifier_value": "C3"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..270",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "270",
+                    "GBInterval_accession": "DQ464283.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "TFT3"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "three finger toxin 3"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "ABG27006.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLILGVVAFVYLEPGYTTNCFTCTTWTLSCREFEKCPPDKGTCFKRWNSTGIAIRRRYTRGCAAACPNPVGNEKVFCCVTDNCNK"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgttgatcctgggggtggtggcattcgtgtacctggagccaggatacaccacaaactgtttcacatgtaccacttggactttgtcttgtagagagtttgagaaatgtccacctgataaaggaacatgctttaaaaggtggaattctactggcatagcaataagaaggaggtacaccaggggatgtgccgcagcttgccctaatccggttggcaatgagaaagttttctgttgtgtaacagacaactgcaacaaatag"
+}

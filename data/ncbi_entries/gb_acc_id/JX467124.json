@@ -1,0 +1,145 @@
+{
+    "GBSeq_locus": "JX467124",
+    "GBSeq_length": "249",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "15-APR-2013",
+    "GBSeq_create-date": "15-APR-2013",
+    "GBSeq_definition": "TSA: Cylindrophis ruffus 3FTxCrufc750 mRNA sequence",
+    "GBSeq_primary-accession": "JX467124",
+    "GBSeq_accession-version": "JX467124.1",
+    "GBSeq_other-seqids": [
+        "gnl|bpid:PRJNA189580|3FTxCrufc750",
+        "gb|JX467124.1|",
+        "gi|478414794"
+    ],
+    "GBSeq_project": "PRJNA189580",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly"
+    ],
+    "GBSeq_source": "Cylindrophis ruffus",
+    "GBSeq_organism": "Cylindrophis ruffus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Henophidia; Cylindrophiidae; Cylindrophis",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..249",
+            "GBReference_authors": [
+                "Fry,B.G.",
+                "Undheim,E.A.B.",
+                "Ali,S.A.",
+                "Debono,J.",
+                "Scheib,H.",
+                "Ruder,T.",
+                "Jackson,T.N.W.",
+                "Morgenstern,D.",
+                "Cadwallader,L.",
+                "Whitehead,D.",
+                "Nabuurs,R.",
+                "van der Weerd,L.",
+                "Vidal,N.",
+                "Roelants,K.",
+                "Hendrikx,I.",
+                "Pineda Gonzalez,S.",
+                "Jones,A.",
+                "King,G.F.",
+                "Antunes,A.",
+                "Sunagar,K."
+            ],
+            "GBReference_title": "Squeezers and leaf-cutters: differential diversification and degeneration of the venom system in toxicoferan reptiles",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..249",
+            "GBReference_authors": [
+                "Fry,B.G."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (06-AUG-2012) School of Biological Sciences, University of Queensland, Venom Evolution Laboratory, St Lucia, Qld 4072, Australia"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: MIRA v. 3.4.0 ; Sequencing Technology :: 454 ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..249",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "249",
+                    "GBInterval_accession": "JX467124.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Cylindrophis ruffus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:186578"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..249",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "249",
+                    "GBInterval_accession": "JX467124.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "three finger toxin"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "3FTx-Cyl-1"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "AGI97156.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKAWLLALVVVAFVCTDPVYSLKCCSKLFCVESETCQEGQDTCYNAFNSSSGIPFAKGCAQKCNYLEPYNTICCCTKDNCNI"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaagcttggcttctcgccttggtggtggtggcatttgtgtgcaccgacccagtgtacagcctgaaatgttgcagtaaattattttgtgtagaatcagagacatgtcaagaaggacaggacacctgctataatgcgtttaacagttcatcgggtattccatttgccaagggatgtgctcaaaagtgcaattacctggaaccttataatactatttgttgctgtacaaaagacaactgcaatatttga",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA189580"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN01922059"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR770188"
+        }
+    ]
+}

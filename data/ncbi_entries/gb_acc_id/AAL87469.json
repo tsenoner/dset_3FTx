@@ -1,0 +1,185 @@
+{
+    "GBSeq_locus": "AAL87469",
+    "GBSeq_length": "90",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "07-NOV-2003",
+    "GBSeq_create-date": "01-APR-2003",
+    "GBSeq_definition": "long chain neurotoxin 7 precursor [Naja sputatrix]",
+    "GBSeq_primary-accession": "AAL87469",
+    "GBSeq_accession-version": "AAL87469.1",
+    "GBSeq_other-seqids": [
+        "gb|AAL87469.1|",
+        "gi|29465644"
+    ],
+    "GBSeq_source": "Naja sputatrix",
+    "GBSeq_organism": "Naja sputatrix",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Naja",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..90",
+            "GBReference_authors": [
+                "Jeyaseelan,K.",
+                "Poh,S.L.",
+                "Nair,R.",
+                "Armugam,A."
+            ],
+            "GBReference_title": "Structurally conserved alpha-neurotoxin genes encode functionally diverse proteins in the venom of Naja sputatrix",
+            "GBReference_journal": "FEBS Lett. 553 (3), 333-341 (2003)",
+            "GBReference_pubmed": "14572646"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..90",
+            "GBReference_authors": [
+                "Poh,L.S.",
+                "Armugam,A.",
+                "Jeyaseelan,K."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (04-MAR-2002) Biochemistry, National University of Singapore, 8 Medical Drive, Singapore 117597, Singapore"
+        }
+    ],
+    "GBSeq_comment": "Method: conceptual translation supplied by author.",
+    "GBSeq_source-db": "accession AY081763.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..90",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "90",
+                    "GBInterval_accession": "AAL87469.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Naja sputatrix"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:33626"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..90",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "90",
+                    "GBInterval_accession": "AAL87469.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "long chain neurotoxin 7 precursor"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "9709"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "24..84",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "24",
+                    "GBInterval_to": "84",
+                    "GBInterval_accession": "AAL87469.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "snake_toxin"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Snake toxin domain, present in short and long neurotoxins, cytotoxins and short toxins, and in other miscellaneous venom peptides. The toxin acts by binding to the nicotinic acetylcholine receptors in the postsynaptic membrane of skeletal muscles and...; cd00206"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "order(27,31,45..46,54..59)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "27",
+                    "GBInterval_accession": "AAL87469.1"
+                },
+                {
+                    "GBInterval_point": "31",
+                    "GBInterval_accession": "AAL87469.1"
+                },
+                {
+                    "GBInterval_from": "45",
+                    "GBInterval_to": "46",
+                    "GBInterval_accession": "AAL87469.1"
+                },
+                {
+                    "GBInterval_from": "54",
+                    "GBInterval_to": "59",
+                    "GBInterval_accession": "AAL87469.1"
+                }
+            ],
+            "GBFeature_operator": "order",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "active"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "receptor binding site [active]"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..90",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "90",
+                    "GBInterval_accession": "AAL87469.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LNTX7"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "join(AY081763.1:19..73,AY081763.1:1410..1505,AY081763.1:2044..2165)"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Lntx-7"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mktllltlvlvtimcldlgytircfitpdvtstdcpnghvcytktwcdgfcssrgrrvelgcaatcptvkpgvdiqccstdncnpfptrp"
+}

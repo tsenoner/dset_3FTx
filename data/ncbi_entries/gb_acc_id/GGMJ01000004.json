@@ -1,0 +1,170 @@
+{
+    "GBSeq_locus": "GGMJ01000004",
+    "GBSeq_length": "300",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "RNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "15-JAN-2019",
+    "GBSeq_create-date": "15-JAN-2019",
+    "GBSeq_definition": "TSA: Crotalus cerastes 3FTx-1, transcribed RNA sequence",
+    "GBSeq_primary-accession": "GGMJ01000004",
+    "GBSeq_accession-version": "GGMJ01000004.1",
+    "GBSeq_other-seqids": [
+        "gb|GGMJ01000004.1|",
+        "gnl|TSA:GGMJ01|3FTx-1"
+    ],
+    "GBSeq_project": "PRJNA88989",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly"
+    ],
+    "GBSeq_source": "Crotalus cerastes",
+    "GBSeq_organism": "Crotalus cerastes",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Viperidae; Crotalinae; Crotalus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..300",
+            "GBReference_authors": [
+                "Hofmann,E.P.",
+                "Rautsaw,R.M.",
+                "Strickland,J.L.",
+                "Holding,M.L.",
+                "Hogan,M.P.",
+                "Mason,A.J.",
+                "Rokyta,D.R.",
+                "Parkinson,C.L."
+            ],
+            "GBReference_title": "Comparative venom-gland transcriptomics and venom proteomics of four Sidewinder Rattlesnake (Crotalus cerastes) lineages reveal little differential expression despite individual variation",
+            "GBReference_journal": "Sci Rep 8 (1), 15534 (2018)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1038/s41598-018-33943-5"
+                }
+            ],
+            "GBReference_pubmed": "30341342",
+            "GBReference_remark": "Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..300",
+            "GBReference_authors": [
+                "Hofmann,E.P.",
+                "Rautsaw,R.M.",
+                "Strickland,J.L.",
+                "Holding,M.L.",
+                "Hogan,M.P.",
+                "Mason,A.J.",
+                "Rokyta,D.R.",
+                "Parkinson,C.L."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (19-APR-2018) Biological Sciences, Clemson University, 190 Collings Street, Clemson, SC 29634, USA"
+        }
+    ],
+    "GBSeq_comment": "We first used the Illumina quality filter to remove low quality reads and because the insert sizes for cDNA libraries were approximately 370 bp (170bp without adapters), we were able to merge the remaining overlapping 150-nt paired-end reads at their 3' ends with PEAR v 0.9.6 (Zhang:2014). Merged reads were then used for subsequent assemblies and analyses. We assembled venom gland transcriptomes as described in Rokyta:2017. To maximize the number of transcripts recovered, we assembled the merged reads using DNAStar SeqMan NGen version 12.3.1 (DNASTAR Inc., Madison, Wisconsin, USA) with default settings except that only contigs with >200 assembled reads were kept and Extender (Rokyta:2012).; ##Assembly-Data-START## ; Assembly Method :: Extender Rokyta 2012; SeqMan NGen 12.3.1 ; Sequencing Technology :: Illumina HiSeq ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..300",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "300",
+                    "GBInterval_accession": "GGMJ01000004.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Crotalus cerastes"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "transcribed RNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "3FTx-1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8746"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgttgatcctgggggtggtggcatttgtgtacctggacccaggatactccctggaatgtttttcatgcaataagactactatggatattttaaagccgtgtatgactgttgtgtgtccagaaggtcttgatcaatgctatacaactaaaactctctcgcttggtttaatttctgtactgaagatcgaaaagggatgtactacaaattgcactcagactttgacacgtagatgttgcgagacaaacaagtgcaacaatttgatctcatccacgatggaccttccttga",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA88989"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN06345864"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596405"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596406"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596407"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596408"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596409"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596410"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN08596411"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR6768682"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR6768683"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR6768684"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR6768685"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR6768686"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR6768687"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR6768688"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR6768689"
+        }
+    ]
+}

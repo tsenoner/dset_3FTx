@@ -1,0 +1,145 @@
+{
+    "GBSeq_locus": "JX467122",
+    "GBSeq_length": "246",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "15-APR-2013",
+    "GBSeq_create-date": "15-APR-2013",
+    "GBSeq_definition": "TSA: Aspidites melanocephalus 3FTxASLOC1 mRNA sequence",
+    "GBSeq_primary-accession": "JX467122",
+    "GBSeq_accession-version": "JX467122.1",
+    "GBSeq_other-seqids": [
+        "gnl|bpid:PRJNA189575|3FTxASLOC1",
+        "gb|JX467122.1|",
+        "gi|478414790"
+    ],
+    "GBSeq_project": "PRJNA189575",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly"
+    ],
+    "GBSeq_source": "Aspidites melanocephalus (Black-headed python)",
+    "GBSeq_organism": "Aspidites melanocephalus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Henophidia; Pythonidae; Aspidites",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..246",
+            "GBReference_authors": [
+                "Fry,B.G.",
+                "Undheim,E.A.B.",
+                "Ali,S.A.",
+                "Debono,J.",
+                "Scheib,H.",
+                "Ruder,T.",
+                "Jackson,T.N.W.",
+                "Morgenstern,D.",
+                "Cadwallader,L.",
+                "Whitehead,D.",
+                "Nabuurs,R.",
+                "van der Weerd,L.",
+                "Vidal,N.",
+                "Roelants,K.",
+                "Hendrikx,I.",
+                "Pineda Gonzalez,S.",
+                "Jones,A.",
+                "King,G.F.",
+                "Antunes,A.",
+                "Sunagar,K."
+            ],
+            "GBReference_title": "Squeezers and leaf-cutters: differential diversification and degeneration of the venom system in toxicoferan reptiles",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..246",
+            "GBReference_authors": [
+                "Fry,B.G."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (06-AUG-2012) School of Biological Sciences, University of Queensland, Venom Evolution Laboratory, St Lucia, Qld 4072, Australia"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: MIRA v. 3.4.0 ; Sequencing Technology :: 454 ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..246",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "246",
+                    "GBInterval_accession": "JX467122.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Aspidites melanocephalus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:51883"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..246",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "246",
+                    "GBInterval_accession": "JX467122.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "three finger toxin"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "3FTx-Asp-1"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "AGI97154.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKAWLLALVVVALVGTDPGHTLTCCTSVFCNPKECAEGQDSCITVHTMGLKVIQQCAQNCTYPGPYKKICCCTDNNCNTLV"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaagcttggctgctcgccttggtggtggtggccctggtgggcacggacccggggcacaccctgacatgctgcacatcagttttttgtaaccctaaggagtgtgcagaaggacaggactcctgcattactgttcacacaatgggtctgaaggtgatccaacaatgtgctcaaaactgcacttacccaggaccctataagaaaatatgttgttgcactgacaacaactgcaacacgttggtataa",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA189575"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN01922054"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR770183"
+        }
+    ]
+}

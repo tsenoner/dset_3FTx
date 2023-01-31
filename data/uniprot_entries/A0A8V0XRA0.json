@@ -1,0 +1,403 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A8V0XRA0",
+    "uniProtkbId": "A0A8V0XRA0_CHICK",
+    "entryAudit": {
+        "firstPublicDate": "2022-12-14",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2022-12-14",
+        "entryVersion": 1,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+        "scientificName": "Gallus gallus",
+        "commonName": "Chicken",
+        "taxonId": 9031,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Ensembl",
+                "id": "ENSGALP00010010743.1"
+            },
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Proteomes",
+                "id": "UP000000539"
+            }
+        ],
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Archelosauria",
+            "Archosauria",
+            "Dinosauria",
+            "Saurischia",
+            "Theropoda",
+            "Coelurosauria",
+            "Aves",
+            "Neognathae",
+            "Galloanserae",
+            "Galliformes",
+            "Phasianidae",
+            "Phasianinae",
+            "Gallus"
+        ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+        "submissionNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSGALP00010010743.1"
+                        }
+                    ],
+                    "value": "Uncharacterized protein"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "Ensembl",
+                        "id": "ENSGALP00010010743.1"
+                    }
+                ],
+                "value": "LY6EL"
+            }
+        }
+    ],
+    "keywords": [
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000000539"
+                }
+            ],
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "15592404",
+                "citationType": "journal article",
+                "authoringGroup": [
+                    "International Chicken Genome Sequencing Consortium"
+                ],
+                "authors": [
+                    "Hillier L.W.",
+                    "Miller W.",
+                    "Birney E.",
+                    "Warren W.",
+                    "Hardison R.C.",
+                    "Ponting C.P.",
+                    "Bork P.",
+                    "Burt D.W.",
+                    "Groenen M.A.M.",
+                    "Delany M.E.",
+                    "Dodgson J.B.",
+                    "Chinwalla A.T.",
+                    "Cliften P.F.",
+                    "Clifton S.W.",
+                    "Delehaunty K.D.",
+                    "Fronick C.",
+                    "Fulton R.S.",
+                    "Graves T.A.",
+                    "Kremitzki C.",
+                    "Layman D.",
+                    "Magrini V.",
+                    "McPherson J.D.",
+                    "Miner T.L.",
+                    "Minx P.",
+                    "Nash W.E.",
+                    "Nhan M.N.",
+                    "Nelson J.O.",
+                    "Oddy L.G.",
+                    "Pohl C.S.",
+                    "Randall-Maher J.",
+                    "Smith S.M.",
+                    "Wallis J.W.",
+                    "Yang S.-P.",
+                    "Romanov M.N.",
+                    "Rondelli C.M.",
+                    "Paton B.",
+                    "Smith J.",
+                    "Morrice D.",
+                    "Daniels L.",
+                    "Tempest H.G.",
+                    "Robertson L.",
+                    "Masabanda J.S.",
+                    "Griffin D.K.",
+                    "Vignal A.",
+                    "Fillon V.",
+                    "Jacobbson L.",
+                    "Kerje S.",
+                    "Andersson L.",
+                    "Crooijmans R.P.",
+                    "Aerts J.",
+                    "van der Poel J.J.",
+                    "Ellegren H.",
+                    "Caldwell R.B.",
+                    "Hubbard S.J.",
+                    "Grafham D.V.",
+                    "Kierzek A.M.",
+                    "McLaren S.R.",
+                    "Overton I.M.",
+                    "Arakawa H.",
+                    "Beattie K.J.",
+                    "Bezzubov Y.",
+                    "Boardman P.E.",
+                    "Bonfield J.K.",
+                    "Croning M.D.R.",
+                    "Davies R.M.",
+                    "Francis M.D.",
+                    "Humphray S.J.",
+                    "Scott C.E.",
+                    "Taylor R.G.",
+                    "Tickle C.",
+                    "Brown W.R.A.",
+                    "Rogers J.",
+                    "Buerstedde J.-M.",
+                    "Wilson S.A.",
+                    "Stubbs L.",
+                    "Ovcharenko I.",
+                    "Gordon L.",
+                    "Lucas S.",
+                    "Miller M.M.",
+                    "Inoko H.",
+                    "Shiina T.",
+                    "Kaufman J.",
+                    "Salomonsen J.",
+                    "Skjoedt K.",
+                    "Wong G.K.-S.",
+                    "Wang J.",
+                    "Liu B.",
+                    "Wang J.",
+                    "Yu J.",
+                    "Yang H.",
+                    "Nefedov M.",
+                    "Koriabine M.",
+                    "Dejong P.J.",
+                    "Goodstadt L.",
+                    "Webber C.",
+                    "Dickens N.J.",
+                    "Letunic I.",
+                    "Suyama M.",
+                    "Torrents D.",
+                    "von Mering C.",
+                    "Zdobnov E.M.",
+                    "Makova K.",
+                    "Nekrutenko A.",
+                    "Elnitski L.",
+                    "Eswara P.",
+                    "King D.C.",
+                    "Yang S.-P.",
+                    "Tyekucheva S.",
+                    "Radakrishnan A.",
+                    "Harris R.S.",
+                    "Chiaromonte F.",
+                    "Taylor J.",
+                    "He J.",
+                    "Rijnkels M.",
+                    "Griffiths-Jones S.",
+                    "Ureta-Vidal A.",
+                    "Hoffman M.M.",
+                    "Severin J.",
+                    "Searle S.M.J.",
+                    "Law A.S.",
+                    "Speed D.",
+                    "Waddington D.",
+                    "Cheng Z.",
+                    "Tuzun E.",
+                    "Eichler E.",
+                    "Bao Z.",
+                    "Flicek P.",
+                    "Shteynberg D.D.",
+                    "Brent M.R.",
+                    "Bye J.M.",
+                    "Huckle E.J.",
+                    "Chatterji S.",
+                    "Dewey C.",
+                    "Pachter L.",
+                    "Kouranov A.",
+                    "Mourelatos Z.",
+                    "Hatzigeorgiou A.G.",
+                    "Paterson A.H.",
+                    "Ivarie R.",
+                    "Brandstrom M.",
+                    "Axelsson E.",
+                    "Backstrom N.",
+                    "Berlin S.",
+                    "Webster M.T.",
+                    "Pourquie O.",
+                    "Reymond A.",
+                    "Ucla C.",
+                    "Antonarakis S.E.",
+                    "Long M.",
+                    "Emerson J.J.",
+                    "Betran E.",
+                    "Dupanloup I.",
+                    "Kaessmann H.",
+                    "Hinrichs A.S.",
+                    "Bejerano G.",
+                    "Furey T.S.",
+                    "Harte R.A.",
+                    "Raney B.",
+                    "Siepel A.",
+                    "Kent W.J.",
+                    "Haussler D.",
+                    "Eyras E.",
+                    "Castelo R.",
+                    "Abril J.F.",
+                    "Castellano S.",
+                    "Camara F.",
+                    "Parra G.",
+                    "Guigo R.",
+                    "Bourque G.",
+                    "Tesler G.",
+                    "Pevzner P.A.",
+                    "Smit A.",
+                    "Fulton L.A.",
+                    "Mardis E.R.",
+                    "Wilson R.K."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15592404"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/nature03154"
+                    }
+                ],
+                "title": "Sequence and comparative analysis of the chicken genome provide unique perspectives on vertebrate evolution.",
+                "publicationDate": "2004",
+                "journal": "Nature",
+                "firstPage": "695",
+                "lastPage": "716",
+                "volume": "432"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSGALP00010010743.1"
+                        }
+                    ],
+                    "value": "Red jungle fowl",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSGALP00010010743.1"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-20IMDPQG5Q1VJ",
+                "citationType": "submission",
+                "authoringGroup": [
+                    "Ensembl"
+                ],
+                "publicationDate": "AUG-2022",
+                "submissionDatabase": "UniProtKB"
+            },
+            "referencePositions": [
+                "IDENTIFICATION"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSGALP00010010743.1"
+                        }
+                    ],
+                    "value": "Red jungle fowl",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSGALP00010010743.1"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "Ensembl",
+            "id": "ENSGALT00010019195.1",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSGALP00010010743.1"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSGALG00010008048.1"
+                }
+            ]
+        },
+        {
+            "database": "GeneTree",
+            "id": "ENSGT00940000153378",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000000539",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 2"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "TKNGQALEQTVHGGGGDTVPRGFQELWRCGTEEHGLAASSLFCYTCENEHSNWNCLKTYKCEDHEKYCTTTYSAAGFGKDMGYRITKKCSADCPETNTDFGVVAISTKCCKTSLCNFSGANSVKLSYAVMFLGTVASLICVIRAGL",
+        "length": 146,
+        "molWeight": 15812,
+        "crc64": "FCAA71A4DD7C0380",
+        "md5": "1A0855317EE4D82B1FA62670B60FB2F8"
+    },
+    "extraAttributes": {
+        "uniParcId": "UPI0020B06C9A"
+    }
+}

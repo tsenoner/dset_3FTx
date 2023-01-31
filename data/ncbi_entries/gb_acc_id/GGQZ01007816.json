@@ -1,0 +1,125 @@
+{
+    "GBSeq_locus": "GGQZ01007816",
+    "GBSeq_length": "462",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "RNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "11-JUN-2019",
+    "GBSeq_create-date": "11-JUN-2019",
+    "GBSeq_definition": "TSA: Tretanorhinus variabilis Tv_Contig9052, transcribed RNA sequence",
+    "GBSeq_primary-accession": "GGQZ01007816",
+    "GBSeq_accession-version": "GGQZ01007816.1",
+    "GBSeq_other-seqids": [
+        "gb|GGQZ01007816.1|",
+        "gnl|TSA:GGQZ01|Tv_Contig9052"
+    ],
+    "GBSeq_project": "PRJNA382075",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly"
+    ],
+    "GBSeq_source": "Tretanorhinus variabilis",
+    "GBSeq_organism": "Tretanorhinus variabilis",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Dipsadidae; Tretanorhinus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..462",
+            "GBReference_authors": [
+                "Dominguez-Perez,D.",
+                "Durban,J.",
+                "Aguero-Chapin,G.",
+                "Lopez,J.T.",
+                "Molina-Ruiz,R.",
+                "Almeida,D.",
+                "Calvete,J.J.",
+                "Vasconcelos,V.",
+                "Antunes,A."
+            ],
+            "GBReference_title": "The Harderian gland transcriptomes of Caraiba andreae, Cubophis cantherigerus and Tretanorhinus variabilis, three colubroid snakes from Cuba",
+            "GBReference_journal": "Genomics (2018) In press",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/j.ygeno.2018.11.026"
+                }
+            ],
+            "GBReference_pubmed": "30508561",
+            "GBReference_remark": "Publication Status: Available-Online prior to print"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..462",
+            "GBReference_authors": [
+                "Perez,D.",
+                "Durban,J."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (26-JUN-2018) LEGE, CIIMAR/CIMAR, Av. General Norton de Matos, Matosinhos, Porto 4450-208, Portugal"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: multi-assembler assembly approach version trinityrnaseq_r20131110, Oases (version 0.2.08),CAP3 (Version Date: 08/06/2013) ; Assembly Name :: multi-assembler assembly approach ; Sequencing Technology :: Illumina HiSeq ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..462",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "462",
+                    "GBInterval_accession": "GGQZ01007816.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Tretanorhinus variabilis"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "transcribed RNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "Tv_Contig9052"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:121374"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "Harderian gland"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "adult"
+                },
+                {
+                    "GBQualifier_name": "ecotype",
+                    "GBQualifier_value": "aquatic"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "genotype: Wild type (WT)"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "ctccagagaagatcgcaagatgaaaactctgctgctgtgcttgatggtggtggcatttgtgtacctggaatcaggacacaccataacatgttgcatagatggactttgtattcacaaaaccaattgtccagatggaaatatatgctataaaaagtcatctggcggactgaaggtggtcaggggatgtgctgctaattgcactcttccggcagccagggagacaattacatattgcaaagaaaacaattgcaacaatatactgaaaggggcctaaataccttgagtttgggcgtcatctatcatgggccatccttgaaaatttatgcttctggcctttaccaccagatggtccacaatccccctccccctgctgtctttgacacctcatcctccctcccttttctcttgttctgtaagtttccttctgctagttctgtagtttgagaatcaaataaaccttag",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA382075"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN06706898"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5440420"
+        }
+    ]
+}

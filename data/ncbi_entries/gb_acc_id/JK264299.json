@@ -1,0 +1,93 @@
+{
+    "GBSeq_locus": "JK264299",
+    "GBSeq_length": "505",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "EST",
+    "GBSeq_update-date": "01-SEP-2011",
+    "GBSeq_create-date": "01-SEP-2011",
+    "GBSeq_definition": "TSAL01A02.F Colubrid snake Thamnodynastes strigatus cDNA library Thamnodynastes strigatus cDNA 5', mRNA sequence",
+    "GBSeq_primary-accession": "JK264299",
+    "GBSeq_accession-version": "JK264299.1",
+    "GBSeq_other-seqids": [
+        "gnl|dbEST|74912237",
+        "gb|JK264299.1|",
+        "gi|345194513"
+    ],
+    "GBSeq_keywords": [
+        "EST"
+    ],
+    "GBSeq_source": "Thamnodynastes strigatus (Coastal house snake)",
+    "GBSeq_organism": "Thamnodynastes strigatus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Dipsadidae; Thamnodynastes",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..505",
+            "GBReference_authors": [
+                "Ching,A.T.C.",
+                "Paes-Leme,A.F.",
+                "Zelanis,A.",
+                "Rocha,M.M.T.",
+                "Furtado,M.F.D.",
+                "Silva,D.A.",
+                "Trugilho,M.R.O.",
+                "Rocha,S.L.G.",
+                "Perales,J.",
+                "Ho,P.L.",
+                "Serrano,S.M.T.",
+                "Junqueira-de-Azevedo,I.L.M."
+            ],
+            "GBReference_title": "Venomics profiling of Thamnodynastes strigatus unveils matrix metalloproteinases and other novel proteins recruited to the toxin arsenal of rear fanged snakes",
+            "GBReference_journal": "Unpublished"
+        }
+    ],
+    "GBSeq_comment": "Contact: Inacio de L. M. Junqueira-de-Azevedo~Centro de Biotecnologia~Instituto Butantan~Av. Vital Brazil, 1500, Sao Paulo SP, BRAZIL, 05503-900.~Tel: 55 11 37 26 7222 ext. 2244~Fax: 55 11 37 26 1505~Email: ijuncaze@butantan.gov.br~Seq primer: M13R.",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..505",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "505",
+                    "GBInterval_accession": "JK264299.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Thamnodynastes strigatus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:758883"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom glands"
+                },
+                {
+                    "GBQualifier_name": "clone_lib",
+                    "GBQualifier_value": "SAMN00672514 Colubrid snake Thamnodynastes strigatus cDNA library"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Organ: venom glands; Vector: pSPORT-1; Site_1: SalI; Site_2: NotI; 5ug of mRNA from T. strigatus venom glands were primed with oligo-(dT) Not-I and reverse transcribed to cDNA using Superscript Plasmid System for cDNA Synthesis and Cloning (Invitrogen). The cDNAs were selected by size (350-600 pb and up 600 pb) in agarose gel electrophoresis, linked to Sal I adapters and directionally cloned in pSPORT-1 vector."
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "tcctgctgtcggggtccagggaagatctcaagatgaaaactctgctgctgtccttggtggtggtggcatttgtgtacctggactcaggatacagcctggaatgtcacacatgcggtgaattactttgtatttttccagagaaatgtctggcagaagagaagtactgcattgctgtgcatgtacatggaaatgaacggatcagaagatgtgctaacaattgcacttacacggaacccaatctgaattttaagtgctgctcagagaacgggtgcaataacgtcatctaagaagtggctaattgctttgattatattgctcccctccatcatggaccttccttgcaaatttatgatgcttctggctttgacctgaagctggtccataatctctaatttgctttgttcgacccctcaccatctttcttctgttctgcgaatttgtttctgccctttcagtactgtgtcaattgaataaacctctgcatttaaattcnnaaaaaaaaaaa",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN00672514"
+        }
+    ]
+}

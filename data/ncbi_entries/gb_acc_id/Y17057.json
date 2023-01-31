@@ -1,0 +1,213 @@
+{
+    "GBSeq_locus": "Y17057",
+    "GBSeq_length": "316",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "27-JUN-2018",
+    "GBSeq_create-date": "02-AUG-1999",
+    "GBSeq_definition": "Bungarus multicinctus mRNA for alpha-bungarotoxin (V31)",
+    "GBSeq_primary-accession": "Y17057",
+    "GBSeq_accession-version": "Y17057.1",
+    "GBSeq_other-seqids": [
+        "emb|Y17057.1|",
+        "gi|5689595"
+    ],
+    "GBSeq_keywords": [
+        "alpha-bungarotoxin"
+    ],
+    "GBSeq_source": "Bungarus multicinctus (many-banded krait)",
+    "GBSeq_organism": "Bungarus multicinctus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Bungarinae; Bungarus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..316",
+            "GBReference_authors": [
+                "Chang,L.",
+                "Lin,S.",
+                "Huang,H.",
+                "Hsiao,M."
+            ],
+            "GBReference_title": "Genetic organization of alpha-bungarotoxins from Bungarus multicinctus (Taiwan banded krait): evidence showing that the production of alpha-bungarotoxin isotoxins is not derived from edited mRNAs",
+            "GBReference_journal": "Nucleic Acids Res. 27 (20), 3970-3975 (1999)",
+            "GBReference_pubmed": "10497260"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..316",
+            "GBReference_authors": [
+                "Chang,L."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (03-APR-1998) L. Chang, Department of Biochemistry, Kaohsiung Medical College, Kaohsiung 807, Taiwan, TAIWAN"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..316",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "316",
+                    "GBInterval_accession": "Y17057.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Bungarus multicinctus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8616"
+                },
+                {
+                    "GBQualifier_name": "clone",
+                    "GBQualifier_value": "TA-BGTX(V31)"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "adult"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..288",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "288",
+                    "GBInterval_accession": "Y17057.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "alpha-bungarotoxin (V31)"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "CAB51841.1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GOA:P60616"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "InterPro:IPR003571"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "InterPro:IPR018354"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "InterPro:IPR035076"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1HC9"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:2QC1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:4HQP"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:4UY2"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:5HBT"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:5HBV"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "UniProtKB/Swiss-Prot:P60616"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGYTIVCHTTATSPISAVTCPPGENLCYRKMWCDVFCSSRGKVVELGCAATCPSKKPYEEVTCCSTDKCNPHPKQRPG"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "1..63",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "63",
+                    "GBInterval_accession": "Y17057.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGYT"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "mat_peptide",
+            "GBFeature_location": "64..285",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "64",
+                    "GBInterval_to": "285",
+                    "GBInterval_accession": "Y17057.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "alpha-bungarotoxin (V31)"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "IVCHTTATSPISAVTCPPGENLCYRKMWCDVFCSSRGKVVELGCAATCPSKKPYEEVTCCSTDKCNPHPKQRPG"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "3'UTR",
+            "GBFeature_location": "289..316",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "289",
+                    "GBInterval_to": "316",
+                    "GBInterval_accession": "Y17057.1"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctgaccttggtggtggtgacaatcgtgtgcctggacttaggatataccatcgtatgccacacaacagctacttcgcctattagcgctgtgacttgtccacctggggagaacctatgctatagaaagatgtggtgtgatgtattctgttccagcagaggaaaggtagtcgaattggggtgtgctgctacttgcccttcaaagaagccctatgaggaagttacctgttgctcaacagacaagtgcaacccacatccgaaacagagacctggttgagttttgctctcatcatcaaggaccatcc"
+}

@@ -1,0 +1,3213 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P60615",
+    "secondaryAccessions": [
+        "P01378",
+        "Q9PRI6",
+        "Q9YGD1",
+        "Q9YI06",
+        "Q9YI07",
+        "Q9YI09",
+        "Q9YI10",
+        "Q9YI11",
+        "Q9YI12",
+        "Q9YI13"
+    ],
+    "uniProtkbId": "3L21A_BUNMU",
+    "entryAudit": {
+        "firstPublicDate": "1986-07-21",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2004-03-15",
+        "entryVersion": 107,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Bungarus multicinctus",
+        "commonName": "Many-banded krait",
+        "taxonId": 8616,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Bungarinae",
+            "Bungarus"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "5027709"
+                    }
+                ],
+                "value": "Alpha-bungarotoxin"
+            },
+            "shortNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "3507686"
+                        }
+                    ],
+                    "value": "Alpha-Bgtx"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "16549768"
+                        }
+                    ],
+                    "value": "Alpha-Btx"
+                }
+            ]
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Alpha-bungarotoxin, isoform A31"
+                },
+                "shortNames": [
+                    {
+                        "value": "Alpha-BTX A31"
+                    },
+                    {
+                        "value": "Alpha-BgTx(A31)"
+                    },
+                    {
+                        "value": "Alpha-bungarotoxin (A31)"
+                    },
+                    {
+                        "value": "BGTX A31"
+                    }
+                ]
+            },
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Alpha-elapitoxin-Bm2a"
+                },
+                "shortNames": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000305"
+                            }
+                        ],
+                        "value": "Alpha-EPTX-Bm2a"
+                    }
+                ]
+            },
+            {
+                "fullName": {
+                    "value": "Long neurotoxin 1"
+                }
+            }
+        ],
+        "flag": "Precursor"
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "16549768"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "25634239"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "9305882"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "9840221"
+                        }
+                    ],
+                    "value": "Binds with high affinity to muscular (tested on Torpedo marmorata, Kd=0.4 nM) and neuronal (tested on chimeric alpha-7/CHRNA7, Kd=0.95 nM) nicotinic acetylcholine receptor (nAChR) and inhibits acetylcholine from binding to the receptor, thereby impairing neuromuscular and neuronal transmission (PubMed:9305882). It also shows an activity on GABA(A) receptors (PubMed:16549768, PubMed:25634239). It antagonises GABA-activated currents with high potency when tested on primary hippocampal neurons (PubMed:25634239). It inhibits recombinantly expressed GABA(A) receptors composed of alpha-2-beta-2-gamma-2 (GABRA2-GABRB2-GABRG2) subunits with high potency (62.3% inhibition at 20 uM of toxin) (PubMed:25634239). It also shows a weaker inhibition on GABA(A) receptors composed of alpha-1-beta-2-gamma-2 (GABRA1-GABRB2-GABRG2) subunits, alpha-4-beta-2-gamma-2 (GABRA4-GABRB2-GABRG2) subunits, and alpha-5-beta-2-gamma-2 (GABRA5-GABRB2-GABRG2) subunits (PubMed:25634239). A very weak inhibition is also observed on GABA(A) receptor composed of alpha-1-beta-3-gamma-2 (GABRA1-GABRB3-GABRG2) (PubMed:26221036). It has also been shown to bind and inhibit recombinant GABA(A) receptor beta-3/GABRB3 subunit (Kd=about 50 nM) (PubMed:16549768). In addition, it blocks the extracellular increase of dopamine evoked by nicotine only at the higher dose (4.2 uM) (PubMed:9840221). In vivo, when intraperitoneally injected into mice, induces flaccid paralysis of the limbs and respiratory distress, and causes death in a dose-dependent manner"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "11312275"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "11381118"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "11790782"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "11814338"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "12160749"
+                        }
+                    ],
+                    "value": "Monomer in solution, homodimer in crystal state"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "INTERACTION",
+            "interactions": [
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "P60615",
+                        "intActId": "EBI-7516391"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q05941",
+                        "geneName": "Chrna7",
+                        "intActId": "EBI-79422"
+                    },
+                    "numberOfExperiments": 4,
+                    "organismDiffer": true
+                }
+            ]
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "5027709"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "value": "LD(50) is 0.3 mg/kg by subcutaneous injection"
+                }
+            ],
+            "commentType": "TOXIC DOSE"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Is identical to Alpha-bungarotoxin (A31) from B.candidus (AC Q7T3J2)"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Long-chain subfamily. Type II alpha-neurotoxin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "PubMed:9837992 indicates that a number of mRNA with sequence conflict(s) are produced by RNA editing. This seems not to be the case as discussed in PubMed:10497260"
+                }
+            ],
+            "commentType": "CAUTION"
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "2458724"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "5027709"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 95,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Alpha-bungarotoxin",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "2458724"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "5027709"
+                }
+            ],
+            "featureId": "PRO_0000035406"
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 44,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "3507686"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2ABX"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 37,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 65,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "3507686"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2ABX"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 50,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 54,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "3507686"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2ABX"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 69,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 80,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "3507686"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2ABX"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 81,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 86,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "3507686"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2ABX"
+                }
+            ]
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 48,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 48,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 1; AAC83985",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "M",
+                "alternativeSequences": [
+                    "V"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 1; AAC83996",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "F",
+                "alternativeSequences": [
+                    "S"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 56,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 56,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 1; AAC83986",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "S",
+                "alternativeSequences": [
+                    "N"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 57,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 57,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 1; AAC83982/AAC83983/AAC83984/AAC83985/AAC83986/AAC83987/AAC83988/AAC83989",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "K"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 68,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 68,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 1; AAC83996",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "T",
+                "alternativeSequences": [
+                    "P"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 70,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 70,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 1; AAC83987",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "P",
+                "alternativeSequences": [
+                    "S"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 72,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 72,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 1; AAC83996/AAC83997",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "K",
+                "alternativeSequences": [
+                    "E"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 73,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 73,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 1; AAC83988",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "K",
+                "alternativeSequences": [
+                    "R"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 79,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 79,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 1; AAC83996/AAC83997",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "T",
+                "alternativeSequences": [
+                    "S"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 85,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 85,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 1; AAC83990",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "K",
+                "alternativeSequences": [
+                    "Q"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 87,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 87,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 1; AAC83990",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "N",
+                "alternativeSequences": [
+                    "H"
+                ]
+            }
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 23,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 26,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1HC9"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 29,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 31,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1HC9"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 36,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1HC9"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 38,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 42,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "2ABX"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 43,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 49,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1HC9"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 51,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1IDH"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 54,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 57,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1HC9"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 59,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 68,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1HC9"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 71,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 75,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1ABT"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 77,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 81,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1HC9"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 83,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 85,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1ABT"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 91,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 93,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1IDH"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0002",
+            "category": "Technical term",
+            "name": "3D-structure"
+        },
+        {
+            "id": "KW-0008",
+            "category": "Molecular function",
+            "name": "Acetylcholine receptor inhibiting toxin"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0872",
+            "category": "Molecular function",
+            "name": "Ion channel impairing toxin"
+        },
+        {
+            "id": "KW-0528",
+            "category": "Molecular function",
+            "name": "Neurotoxin"
+        },
+        {
+            "id": "KW-0629",
+            "category": "Molecular function",
+            "name": "Postsynaptic neurotoxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "9837992",
+                "citationType": "journal article",
+                "authors": [
+                    "Liu L.-F.",
+                    "Chang C.-C.",
+                    "Liau M.-Y.",
+                    "Kuo K.-W."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9837992"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1093/nar/26.24.5624"
+                    }
+                ],
+                "title": "Genetic characterization of the mRNAs encoding alpha-bungarotoxin: isoforms and RNA editing in Bungarus multicinctus gland cells.",
+                "publicationDate": "1998",
+                "journal": "Nucleic Acids Res.",
+                "firstPage": "5624",
+                "lastPage": "5629",
+                "volume": "26"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                },
+                {
+                    "value": "Venom gland",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "10497260",
+                "citationType": "journal article",
+                "authors": [
+                    "Chang L.-S.",
+                    "Lin S.-K.",
+                    "Huang H.-B.",
+                    "Hsiao M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "10497260"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1093/nar/27.20.3970"
+                    }
+                ],
+                "title": "Genetic organization of alpha-bungarotoxins from Bungarus multicinctus (Taiwan banded krait): evidence showing that the production of alpha-bungarotoxin isotoxins is not derived from edited mRNAs.",
+                "publicationDate": "1999",
+                "journal": "Nucleic Acids Res.",
+                "firstPage": "3970",
+                "lastPage": "3975",
+                "volume": "27"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Liver",
+                    "type": "TISSUE"
+                },
+                {
+                    "value": "Venom gland",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "5027709",
+                "citationType": "journal article",
+                "authors": [
+                    "Mebs D.",
+                    "Narita K.",
+                    "Iwanaga S.",
+                    "Samejima Y.",
+                    "Lee C.Y."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "5027709"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1515/bchm2.1972.353.1.243"
+                    }
+                ],
+                "title": "Purification, properties and amino acid sequence of alpha-bungarotoxin from the venom of Bungarus multicinctus.",
+                "publicationDate": "1972",
+                "journal": "Hoppe-Seyler's Z. Physiol. Chem.",
+                "firstPage": "243",
+                "lastPage": "262",
+                "volume": "353"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE OF 22-95",
+                "SUBCELLULAR LOCATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "3653402",
+                "citationType": "journal article",
+                "authors": [
+                    "Ohta M.",
+                    "Ohta K.",
+                    "Nishitani H.",
+                    "Hayashi K."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "3653402"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0014-5793(87)80195-3"
+                    }
+                ],
+                "title": "Primary structure of alpha-bungarotoxin. Six amino acid residues differ from the previously reported sequence.",
+                "publicationDate": "1987",
+                "journal": "FEBS Lett.",
+                "firstPage": "79",
+                "lastPage": "82",
+                "volume": "222"
+            },
+            "referencePositions": [
+                "SEQUENCE REVISION TO 30-32; 88-89 AND 92-93"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "2458724",
+                "citationType": "journal article",
+                "authors": [
+                    "Chuang L.Y.",
+                    "Chang C.-C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "2458724"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0006-291x(88)80576-x"
+                    }
+                ],
+                "title": "Isolation of antigenically reactive peptide fragments and localization of antigenic regions of alpha-bungarotoxin.",
+                "publicationDate": "1988",
+                "journal": "Biochem. Biophys. Res. Commun.",
+                "firstPage": "870",
+                "lastPage": "876",
+                "volume": "155"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE OF 22-95"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "7488184",
+                "citationType": "journal article",
+                "authors": [
+                    "Kuo K.-W.",
+                    "Chen Y.C.",
+                    "Chang C.-C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "7488184"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1006/bbrc.1995.2732"
+                    }
+                ],
+                "title": "cDNA sequence analysis and expression of alpha-bungarotoxin from Taiwan banded krait (Bungarus multicinctus).",
+                "publicationDate": "1995",
+                "journal": "Biochem. Biophys. Res. Commun.",
+                "firstPage": "1088",
+                "lastPage": "1094",
+                "volume": "216"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA] OF 22-95"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom gland",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "3401449",
+                "citationType": "journal article",
+                "authors": [
+                    "Kosen P.A.",
+                    "Finer-Moore J.",
+                    "McCarthy M.P.",
+                    "Basus V.J."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "3401449"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/bi00408a018"
+                    }
+                ],
+                "title": "Structural studies of alpha-bungarotoxin. 3. Corrections in the primary sequence and X-ray structure and characterization of an isotoxic alpha-bungarotoxin.",
+                "publicationDate": "1988",
+                "journal": "Biochemistry",
+                "firstPage": "2775",
+                "lastPage": "2781",
+                "volume": "27"
+            },
+            "referencePositions": [
+                "SEQUENCE REVISION TO 30-32 AND 88-89"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "2476330",
+                "citationType": "journal article",
+                "authors": [
+                    "Kase R.",
+                    "Kitagawa H.",
+                    "Hayashi K.",
+                    "Tanoue K.",
+                    "Inagaki F."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "2476330"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0014-5793(89)81018-x"
+                    }
+                ],
+                "title": "Neutralizing monoclonal antibody specific for alpha-bungarotoxin: preparation and characterization of the antibody, and localization of antigenic region of alpha-bungarotoxin.",
+                "publicationDate": "1989",
+                "journal": "FEBS Lett.",
+                "firstPage": "106",
+                "lastPage": "110",
+                "volume": "254"
+            },
+            "referencePositions": [
+                "EPITOPE MAPPING"
+            ]
+        },
+        {
+            "citation": {
+                "id": "9305882",
+                "citationType": "journal article",
+                "authors": [
+                    "Servent D.",
+                    "Winckler-Dietrich V.",
+                    "Hu H.-Y.",
+                    "Kessler P.",
+                    "Drevet P.",
+                    "Bertrand D.",
+                    "Menez A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9305882"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.272.39.24279"
+                    }
+                ],
+                "title": "Only snake curaremimetic toxins with a fifth disulfide bond have high affinity for the neuronal alpha7 nicotinic receptor.",
+                "publicationDate": "1997",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "24279",
+                "lastPage": "24286",
+                "volume": "272"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "9840221",
+                "citationType": "journal article",
+                "authors": [
+                    "Dajas-Bailador F.",
+                    "Costa G.",
+                    "Dajas F.",
+                    "Emmett S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9840221"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0197-0186(98)00033-3"
+                    }
+                ],
+                "title": "Effects of alpha-erabutoxin, alpha-bungarotoxin, alpha-cobratoxin and fasciculin on the nicotine-evoked release of dopamine in the rat striatum in vivo.",
+                "publicationDate": "1998",
+                "journal": "Neurochem. Int.",
+                "firstPage": "307",
+                "lastPage": "312",
+                "volume": "33"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "16549768",
+                "citationType": "journal article",
+                "authors": [
+                    "McCann C.M.",
+                    "Bracamontes J.",
+                    "Steinbach J.H.",
+                    "Sanes J.R."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "16549768"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1073/pnas.0600847103"
+                    }
+                ],
+                "title": "The cholinergic antagonist alpha-bungarotoxin also binds and blocks a subset of GABA receptors.",
+                "publicationDate": "2006",
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "firstPage": "5149",
+                "lastPage": "5154",
+                "volume": "103"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "26221036",
+                "citationType": "journal article",
+                "authors": [
+                    "Kudryavtsev D.S.",
+                    "Shelukhina I.V.",
+                    "Son L.V.",
+                    "Ojomoko L.O.",
+                    "Kryukova E.V.",
+                    "Lyukmanova E.N.",
+                    "Zhmak M.N.",
+                    "Dolgikh D.A.",
+                    "Ivanov I.A.",
+                    "Kasheverov I.E.",
+                    "Starkov V.G.",
+                    "Ramerstorfer J.",
+                    "Sieghart W.",
+                    "Tsetlin V.I.",
+                    "Utkin Y.N."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "26221036"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m115.648824"
+                    }
+                ],
+                "title": "Neurotoxins from snake venoms and alpha-conotoxin ImI inhibit functionally active ionotropic gamma-aminobutyric acid (GABA) receptors.",
+                "publicationDate": "2015",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "22747",
+                "lastPage": "22758",
+                "volume": "290"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "25634239",
+                "citationType": "journal article",
+                "authors": [
+                    "Hannan S.",
+                    "Mortensen M.",
+                    "Smart T.G."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "25634239"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.neuropharm.2015.01.001"
+                    }
+                ],
+                "title": "Snake neurotoxin alpha-bungarotoxin is an antagonist at native GABA(A) receptors.",
+                "publicationDate": "2015",
+                "journal": "Neuropharmacology",
+                "firstPage": "28",
+                "lastPage": "40",
+                "volume": "93"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "3507686",
+                "citationType": "journal article",
+                "authors": [
+                    "Love R.A.",
+                    "Stroud R.M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "3507686"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1093/protein/1.1.37"
+                    }
+                ],
+                "title": "The crystal structure of alpha-bungarotoxin at 2.5-A resolution: relation to solution structure and binding to acetylcholine receptor.",
+                "publicationDate": "1986",
+                "journal": "Protein Eng.",
+                "firstPage": "37",
+                "lastPage": "46",
+                "volume": "1"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS) OF 22-95",
+                "DISULFIDE BOND"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "2ABX"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "3401447",
+                "citationType": "journal article",
+                "authors": [
+                    "Basus V.J.",
+                    "Billeter M.",
+                    "Love R.A.",
+                    "Stroud R.M.",
+                    "Kuntz I.D."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "3401447"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/bi00408a016"
+                    }
+                ],
+                "title": "Structural studies of alpha-bungarotoxin. 1. Sequence-specific 1H NMR resonance assignments.",
+                "publicationDate": "1988",
+                "journal": "Biochemistry",
+                "firstPage": "2763",
+                "lastPage": "2771",
+                "volume": "27"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR OF 22-95"
+            ]
+        },
+        {
+            "citation": {
+                "id": "3401448",
+                "citationType": "journal article",
+                "authors": [
+                    "Basus V.J.",
+                    "Scheek R.M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "3401448"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/bi00408a017"
+                    }
+                ],
+                "title": "Structural studies of alpha-bungarotoxin. 2. 1H NMR assignments via an improved relayed coherence transfer nuclear overhauser enhancement experiment.",
+                "publicationDate": "1988",
+                "journal": "Biochemistry",
+                "firstPage": "2772",
+                "lastPage": "2775",
+                "volume": "27"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR OF 22-95"
+            ]
+        },
+        {
+            "citation": {
+                "id": "8241115",
+                "citationType": "journal article",
+                "authors": [
+                    "Basus V.J.",
+                    "Song G.",
+                    "Hawrot E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8241115"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/bi00097a004"
+                    }
+                ],
+                "title": "NMR solution structure of an alpha-bungarotoxin/nicotinic receptor peptide complex.",
+                "publicationDate": "1993",
+                "journal": "Biochemistry",
+                "firstPage": "12290",
+                "lastPage": "12298",
+                "volume": "32"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR OF 22-95"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1ABT"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "9177168",
+                "citationType": "journal article",
+                "authors": [
+                    "Scherf T.",
+                    "Balass M.",
+                    "Fuchs S.",
+                    "Katchalski-Katzir E.",
+                    "Anglister J."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9177168"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1073/pnas.94.12.6059"
+                    }
+                ],
+                "title": "Three-dimensional solution structure of the complex of alpha-bungarotoxin with a library-derived peptide.",
+                "publicationDate": "1997",
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "firstPage": "6059",
+                "lastPage": "6064",
+                "volume": "94"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR OF 22-95"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1BXP"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "2BTX"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "11312275",
+                "citationType": "journal article",
+                "authors": [
+                    "Zeng H.",
+                    "Moise L.",
+                    "Grant M.A.",
+                    "Hawrot E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11312275"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m102300200"
+                    }
+                ],
+                "title": "The solution structure of the complex formed between alpha-bungarotoxin and an 18-mer cognate peptide derived from the alpha 1 subunit of the nicotinic acetylcholine receptor from Torpedo californica.",
+                "publicationDate": "2001",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "22930",
+                "lastPage": "22940",
+                "volume": "276"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR OF 22-95 IN COMPLEX WITH A 18-RESIDUE PEPTIDE HOMOLOGOUS TO THE BINDING REGION OF THE ALPHA-1 SUBUNIT OF ACETYLCHOLINE RECEPTOR"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1IDG"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1IDH"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1IDI"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1IDL"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "11381118",
+                "citationType": "journal article",
+                "authors": [
+                    "Scherf T.",
+                    "Kasher R.",
+                    "Balass M.",
+                    "Fridkin M.",
+                    "Fuchs S.",
+                    "Katchalski-Katzir E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11381118"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1073/pnas.111164298"
+                    }
+                ],
+                "title": "A beta -hairpin structure in a 13-mer peptide that binds alpha -bungarotoxin with high affinity and neutralizes its toxicity.",
+                "publicationDate": "2001",
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "firstPage": "6629",
+                "lastPage": "6634",
+                "volume": "98"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR OF 22-95 IN COMPLEX WITH A 13-RESIDUE PEPTIDE HOMOLOGOUS TO THE BINDING REGION OF THE ALPHA SUBUNIT OF ACETYLCHOLINE RECEPTOR"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1HAA"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1HAJ"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "11814338",
+                "citationType": "journal article",
+                "authors": [
+                    "Scarselli M.",
+                    "Spiga O.",
+                    "Ciutti A.",
+                    "Bernini A.",
+                    "Bracci L.",
+                    "Lelli B.",
+                    "Lozzi L.",
+                    "Calamandrei D.",
+                    "Di Maro D.",
+                    "Klein S.",
+                    "Niccolai N."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11814338"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/bi011012f"
+                    }
+                ],
+                "title": "NMR structure of alpha-bungarotoxin free and bound to a mimotope of the nicotinic acetylcholine receptor.",
+                "publicationDate": "2002",
+                "journal": "Biochemistry",
+                "firstPage": "1457",
+                "lastPage": "1463",
+                "volume": "41"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR OF 22-95 IN COMPLEX WITH A 13-RESIDUE PEPTIDE INHIBITING BINDING WITH ACETYLCHOLINE RECEPTOR"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1HOY"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1IK8"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1IKC"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1JBD"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "11790782",
+                "citationType": "journal article",
+                "authors": [
+                    "Moise L.",
+                    "Piserchio A.",
+                    "Basus V.J.",
+                    "Hawrot E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11790782"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m110320200"
+                    }
+                ],
+                "title": "NMR structural analysis of alpha-bungarotoxin and its complex with the principal alpha-neurotoxin-binding sequence on the alpha 7 subunit of a neuronal nicotinic acetylcholine receptor.",
+                "publicationDate": "2002",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "12406",
+                "lastPage": "12417",
+                "volume": "277"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR OF 22-95 IN COMPLEX WITH A 19-RESIDUE PEPTIDE HOMOLOGOUS TO THE BINDING REGION OF THE ALPHA-7 SUBUNIT OF ACETYLCHOLINE RECEPTOR"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1KC4"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1KFH"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1KL8"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "12160749",
+                "citationType": "journal article",
+                "authors": [
+                    "Samson A.O.",
+                    "Scherf T.",
+                    "Eisenstein M.",
+                    "Chill J.H.",
+                    "Anglister J."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "12160749"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0896-6273(02)00773-0"
+                    }
+                ],
+                "title": "The mechanism for acetylcholine receptor inhibition by alpha-neurotoxins and species-specific resistance to alpha-bungarotoxin revealed by NMR.",
+                "publicationDate": "2002",
+                "journal": "Neuron",
+                "firstPage": "319",
+                "lastPage": "332",
+                "volume": "35"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR OF 22-95 IN COMPLEX WITH A 21-RESIDUE PEPTIDE HOMOLOGOUS TO THE BINDING REGION OF THE ALPHA-1 SUBUNIT OF ACETYLCHOLINE RECEPTOR"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1L4W"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1LJZ"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "AF056400",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC83981.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AF056401",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC83982.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AF056402",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC83983.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AF056403",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC83984.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AF056404",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC83985.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AF056405",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC83986.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AF056406",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC83987.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AF056407",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC83988.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AF056408",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC83989.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AF056409",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC83990.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AF056410",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC83991.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AF056411",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC83992.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AF056412",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC83993.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AF056413",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC83994.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AF056415",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC83996.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AF056416",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC83997.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "Y17694",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAB51844.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "Y17058",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAB51842.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "X91990",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAA63045.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "PIR",
+            "id": "A31519",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "N2KF1U"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1ABT",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1BXP",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1HAA",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1HAJ",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1HC9",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "1.80 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "B=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1HOY",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1IDG",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1IDH",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1IDI",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1IDL",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1IK8",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1IKC",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1JBD",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1KC4",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1KFH",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1KL8",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1L4W",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1LJZ",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1RGJ",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "2ABX",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "2.50 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A/B=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "2BTX",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "6UWZ",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "EM"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "2.69 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "F/G=22-95"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1ABT",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1BXP",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1HAA",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1HAJ",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1HC9",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1HOY",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1IDG",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1IDH",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1IDI",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1IDL",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1IK8",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1IKC",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1JBD",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1KC4",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1KFH",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1KL8",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1L4W",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1LJZ",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1RGJ",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "2ABX",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "2BTX",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "6UWZ",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "P60615",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BMRB",
+            "id": "P60615",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P60615",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "IntAct",
+            "id": "P60615",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "database": "MINT",
+            "id": "P60615",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BindingDB",
+            "id": "P60615",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "TCDB",
+            "id": "1.C.74.1.2",
+            "properties": [
+                {
+                    "key": "FamilyName",
+                    "value": "the snake cytotoxin (sct) family"
+                }
+            ]
+        },
+        {
+            "database": "EvolutionaryTrace",
+            "id": "P60615",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0030550",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:acetylcholine receptor inhibitor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0099106",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ion channel regulator activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00206",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "snake_toxin"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003571",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_3FTx"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018354",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin_con_site"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR035076",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Toxin/TOLIP"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00087",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Toxin_TOLIP"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00272",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SNAKE_TOXIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKTLLLTLVVVTIVCLDLGYTIVCHTTATSPISAVTCPPGENLCYRKMWCDAFCSSRGKVVELGCAATCPSKKPYEEVTCCSTDKCNPHPKQRPG",
+        "length": 95,
+        "molWeight": 10285,
+        "crc64": "589B26743ABBA5E4",
+        "md5": "B03B30851BF7BAB785DE3C3297696005"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBUNIT": 1,
+            "INTERACTION": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "TOXIC DOSE": 1,
+            "MISCELLANEOUS": 1,
+            "SIMILARITY": 1,
+            "CAUTION": 1
+        },
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Disulfide bond": 5,
+            "Sequence conflict": 11,
+            "Beta strand": 11,
+            "Helix": 1
+        },
+        "uniParcId": "UPI00000FC639"
+    }
+}

@@ -1,0 +1,1240 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P62375",
+    "secondaryAccessions": [
+        "P14554"
+    ],
+    "uniProtkbId": "3SOF5_NAJAT",
+    "entryAudit": {
+        "firstPublicDate": "2004-07-05",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2004-07-05",
+        "entryVersion": 79,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 4.0,
+    "organism": {
+        "scientificName": "Naja atra",
+        "commonName": "Chinese cobra",
+        "taxonId": 8656,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Naja"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000305"
+                    }
+                ],
+                "value": "Cytotoxin A5"
+            }
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "8182052"
+                        }
+                    ],
+                    "value": "CTX A5"
+                },
+                "shortNames": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000303",
+                                "source": "PubMed",
+                                "id": "14743531"
+                            }
+                        ],
+                        "value": "CT A5"
+                    }
+                ]
+            },
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "14743531"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "8182052"
+                        }
+                    ],
+                    "value": "Cardiotoxin A5"
+                }
+            },
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "8347605"
+                        }
+                    ],
+                    "value": "Cardiotoxin V"
+                },
+                "shortNames": [
+                    {
+                        "value": "CTX V"
+                    },
+                    {
+                        "value": "CTXV"
+                    }
+                ]
+            },
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "4091854"
+                        }
+                    ],
+                    "value": "Cardiotoxin-like basic polypeptide"
+                },
+                "shortNames": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000303",
+                                "source": "PubMed",
+                                "id": "4091854"
+                            }
+                        ],
+                        "value": "CLBP"
+                    }
+                ]
+            }
+        ],
+        "flag": "Precursor"
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "14743531"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "16407244"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "8182052"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "8703922"
+                        }
+                    ],
+                    "value": "Non-cytotoxic protein that does not show lytic and hemolytic activities, but can induce aggregation and fusion of sphingomyelin vesicles (PubMed:8182052). It binds to integrin alpha-V/beta-3 (ITGAV/ITGB3) with high affinity, and it inhibits osteoclast differentiation and bone resorption in mice, probably due to binding to integrin alpha-V/beta-3 (PubMed:16407244)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "4091854"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "8703922"
+                            }
+                        ],
+                        "value": "Target cell membrane",
+                        "id": "SL-0451"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305",
+                            "source": "PubMed",
+                            "id": "8182052"
+                        }
+                    ],
+                    "value": "Is classified as a P-type cytotoxin, since a proline residue stands at position 52 (Pro-31 in standard classification)"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily. Orphan group XV sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "4091854"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 83,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Cytotoxin A5",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305",
+                    "source": "PubMed",
+                    "id": "4091854"
+                }
+            ],
+            "featureId": "PRO_0000035404"
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 43,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8347605"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9054545"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1CVO"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1KXI"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 36,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 61,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8347605"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9054545"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1CVO"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1KXI"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 65,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 76,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8347605"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9054545"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1CVO"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1KXI"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 77,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 82,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8347605"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "9054545"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1CVO"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1KXI"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 23,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 25,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1KXI"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 31,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1KXI"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 35,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1KXI"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 42,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 51,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1KXI"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 57,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 64,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1KXI"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 70,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 77,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1KXI"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0002",
+            "category": "Technical term",
+            "name": "3D-structure"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0472",
+            "category": "Cellular component",
+            "name": "Membrane"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        },
+        {
+            "id": "KW-1052",
+            "category": "Cellular component",
+            "name": "Target cell membrane"
+        },
+        {
+            "id": "KW-1053",
+            "category": "Cellular component",
+            "name": "Target membrane"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "8679666",
+                "citationType": "journal article",
+                "authors": [
+                    "Chang L.-S.",
+                    "Lin J.",
+                    "Wu P.F."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8679666"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0167-4838(96)00047-7"
+                    }
+                ],
+                "title": "cDNA sequence analysis and expression of cardiotoxin V and a new cardiotoxin VII from Naja naja atra (Taiwan cobra).",
+                "publicationDate": "1996",
+                "journal": "Biochim. Biophys. Acta",
+                "firstPage": "1",
+                "lastPage": "4",
+                "volume": "1295"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom gland",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "4091854",
+                "citationType": "journal article",
+                "authors": [
+                    "Takechi M.",
+                    "Tanaka Y.",
+                    "Hayashi K."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "4091854"
+                    }
+                ],
+                "title": "Amino acid sequence of a cardiotoxin-like basic polypeptide (CLBP) with low cytotoxic activity isolated from the venom of the Formosan cobra (Naja naja atra).",
+                "publicationDate": "1985",
+                "journal": "Biochem. Int.",
+                "firstPage": "795",
+                "lastPage": "802",
+                "volume": "11"
+            },
+            "referencePositions": [
+                "PRELIMINARY PROTEIN SEQUENCE OF 22-83",
+                "SUBCELLULAR LOCATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "8182052",
+                "citationType": "journal article",
+                "authors": [
+                    "Chien K.-Y.",
+                    "Chiang C.-M.",
+                    "Hseu Y.-C.",
+                    "Vyas A.A.",
+                    "Rule G.S.",
+                    "Wu W.-G."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8182052"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0021-9258(17)36647-4"
+                    }
+                ],
+                "title": "Two distinct types of cardiotoxin as revealed by the structure and activity relationship of their interaction with zwitterionic phospholipid dispersions.",
+                "publicationDate": "1994",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "14473",
+                "lastPage": "14483",
+                "volume": "269"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "P-TYPE CYTOTOXIN GROUP MISASSIGNATION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "8703922",
+                "citationType": "journal article",
+                "authors": [
+                    "Chiang C.-M.",
+                    "Chien K.-Y.",
+                    "Lin H.-J.",
+                    "Lin J.-F.",
+                    "Yeh H.-C.",
+                    "Ho P.-L.",
+                    "Wu W.-G."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8703922"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/bi952823k"
+                    }
+                ],
+                "title": "Conformational change and inactivation of membrane phospholipid-related activity of cardiotoxin V from Taiwan cobra venom at acidic pH.",
+                "publicationDate": "1996",
+                "journal": "Biochemistry",
+                "firstPage": "9167",
+                "lastPage": "9176",
+                "volume": "35"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "INACTIVATION BY ACIDIC PH"
+            ]
+        },
+        {
+            "citation": {
+                "id": "8703923",
+                "citationType": "journal article",
+                "authors": [
+                    "Chiang C.-M.",
+                    "Chang S.-L.",
+                    "Lin H.-J.",
+                    "Wu W.-G."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8703923"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/bi960077t"
+                    }
+                ],
+                "title": "The role of acidic amino acid residues in the structural stability of snake cardiotoxins.",
+                "publicationDate": "1996",
+                "journal": "Biochemistry",
+                "firstPage": "9177",
+                "lastPage": "9186",
+                "volume": "35"
+            },
+            "referencePositions": [
+                "ROLE OF ACIDIC AMINO ACID RESIDUES"
+            ]
+        },
+        {
+            "citation": {
+                "id": "14743531",
+                "citationType": "journal article",
+                "authors": [
+                    "Konshina A.G.",
+                    "Volynskii P.E.",
+                    "Arsen'ev A.S.",
+                    "Efremov R.G."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "14743531"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1023/b:rubi.0000008892.75272.ab"
+                    }
+                ],
+                "title": "Interaction of cardiotoxin A5 with a membrane: role of conformational heterogeneity and hydrophilic properties.",
+                "publicationDate": "2003",
+                "journal": "Bioorg. Khim.",
+                "firstPage": "577",
+                "lastPage": "588",
+                "volume": "29"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "16407244",
+                "citationType": "journal article",
+                "authors": [
+                    "Wu P.-L.",
+                    "Lee S.-C.",
+                    "Chuang C.-C.",
+                    "Mori S.",
+                    "Akakura N.",
+                    "Wu W.-G.",
+                    "Takada Y."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "16407244"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m513035200"
+                    }
+                ],
+                "title": "Non-cytotoxic cobra cardiotoxin A5 binds to alpha(v)beta3 integrin and inhibits bone resorption. Identification of cardiotoxins as non-RGD integrin-binding proteins of the Ly-6 family.",
+                "publicationDate": "2006",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "7937",
+                "lastPage": "7945",
+                "volume": "281"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "BINDING TO INTEGRIN ALPHA-V/BETA-3"
+            ]
+        },
+        {
+            "citation": {
+                "id": "8347605",
+                "citationType": "journal article",
+                "authors": [
+                    "Singhal A.K.",
+                    "Chien K.-Y.",
+                    "Wu W.-G.",
+                    "Rule G.S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8347605"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/bi00082a026"
+                    }
+                ],
+                "title": "Solution structure of cardiotoxin V from Naja naja atra.",
+                "publicationDate": "1993",
+                "journal": "Biochemistry",
+                "firstPage": "8036",
+                "lastPage": "8044",
+                "volume": "32"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR OF 22-83",
+                "DISULFIDE BONDS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "9054545",
+                "citationType": "journal article",
+                "authors": [
+                    "Sun Y.-J.",
+                    "Wu W.-G.",
+                    "Chiang C.-M.",
+                    "Hsin A.-Y.",
+                    "Hsiao C.-D."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9054545"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/bi962594h"
+                    }
+                ],
+                "title": "Crystal structure of cardiotoxin V from Taiwan cobra venom: pH-dependent conformational change and a novel membrane-binding motif identified in the three-finger loops of P-type cardiotoxin.",
+                "publicationDate": "1997",
+                "journal": "Biochemistry",
+                "firstPage": "2403",
+                "lastPage": "2413",
+                "volume": "36"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (2.19 ANGSTROMS) OF 22-83",
+                "DISULFIDE BONDS"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "Z54228",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAA90964.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1CVO",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-83"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1KXI",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "2.19 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A/B=22-83"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1CVO",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1KXI",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "P62375",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BMRB",
+            "id": "P62375",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P62375",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EvolutionaryTrace",
+            "id": "P62375",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016020",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0044218",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:other organism cell membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00206",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "snake_toxin"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003572",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Cytotoxin_Cobra"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003571",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_3FTx"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018354",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin_con_site"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR035076",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Toxin/TOLIP"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00087",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Toxin_TOLIP"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PRINTS",
+            "id": "PR00282",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CYTOTOXIN"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00272",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SNAKE_TOXIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKTLLLTMVVVTIVCLDLGYTLKCHNTQLPFIYKTCPEGKNLCFKATLKKFPLKFPVKRGCADNCPKNSALLKYVCCSTDKCN",
+        "length": 83,
+        "molWeight": 9323,
+        "crc64": "5FA396A4808D5099",
+        "md5": "C62BBCD92C2C5D9A46ECA4171110378D"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "MISCELLANEOUS": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Disulfide bond": 4,
+            "Beta strand": 6
+        },
+        "uniParcId": "UPI0000128801"
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "GBSeq_locus": "XM_034420112",
+    "GBSeq_length": "388",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "15-MAY-2020",
+    "GBSeq_create-date": "15-MAY-2020",
+    "GBSeq_definition": "PREDICTED: Pantherophis guttatus toxin 3FTx-Dis4-like (LOC117666991), mRNA",
+    "GBSeq_primary-accession": "XM_034420112",
+    "GBSeq_accession-version": "XM_034420112.1",
+    "GBSeq_other-seqids": [
+        "ref|XM_034420112.1|",
+        "gi|1841898342"
+    ],
+    "GBSeq_project": "PRJNA632598",
+    "GBSeq_keywords": [
+        "RefSeq"
+    ],
+    "GBSeq_source": "Pantherophis guttatus",
+    "GBSeq_organism": "Pantherophis guttatus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Colubridae; Colubrinae; Pantherophis",
+    "GBSeq_comment": "MODEL REFSEQ: This record is predicted by automated computational analysis. This record is derived from a genomic sequence (NW_023010727.1) annotated using gene prediction method: Gnomon.~Also see:~ Documentation of NCBI's Annotation Process; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI ; Annotation Status :: Full annotation ; Annotation Name :: Pantherophis guttatus Annotation Release 100 ; Annotation Version :: 100 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 8.4 ; Annotation Method :: Best-placed RefSeq; Gnomon ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; ##Genome-Annotation-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..388",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "388",
+                    "GBInterval_accession": "XM_034420112.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Pantherophis guttatus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "EG266"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:94885"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "Unknown"
+                },
+                {
+                    "GBQualifier_name": "sex",
+                    "GBQualifier_value": "male"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "blood"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "gene",
+            "GBFeature_location": "1..388",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "388",
+                    "GBInterval_accession": "XM_034420112.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LOC117666991"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Derived by automated computational analysis using gene prediction method: Gnomon. Supporting evidence includes similarity to: 6 Proteins, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 1 sample with support for all annotated introns"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:117666991"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "20..343",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "20",
+                    "GBInterval_to": "343",
+                    "GBInterval_accession": "XM_034420112.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LOC117666991"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "toxin 3FTx-Dis4-like"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "XP_034276003.1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:117666991"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKALPLLLVVVTFMYMDPVCTRFCFLCSGFVCFYPEECPKGQDVCFMIYERLTFTNKDDLYGVKIIRGCAEKCPDMGHHEFIECCTIDTCNNIGFLPVFLPGRKTIP"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "ctgcagagaagattgcaagatgaaggctttaccgctcctgttggtggtggtgacatttatgtacatggacccagtgtgcacccggttttgtttcttgtgcagtggattcgtttgtttttatcctgaagagtgtccaaaagggcaggacgtatgctttatgatatatgaacgtttgactttcacaaataaggatgatctatatggagtgaagataatcaggggatgtgctgaaaagtgccctgacatgggacaccatgagtttatcgaatgttgcaccatagacacttgcaacaatattggtttccttcctgtttttttgcctggtcgtaaaaccataccttaaaagccatgcagatttattcttctagcctctattaaaggctggtca",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA632598"
+        }
+    ]
+}

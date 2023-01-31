@@ -1,0 +1,411 @@
+{
+    "GBSeq_locus": "NP_002337",
+    "GBSeq_length": "131",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "PRI",
+    "GBSeq_update-date": "25-DEC-2022",
+    "GBSeq_create-date": "19-MAR-1999",
+    "GBSeq_definition": "lymphocyte antigen 6E precursor [Homo sapiens]",
+    "GBSeq_primary-accession": "NP_002337",
+    "GBSeq_accession-version": "NP_002337.1",
+    "GBSeq_other-seqids": [
+        "ref|NP_002337.1|",
+        "gi|4505049"
+    ],
+    "GBSeq_keywords": [
+        "RefSeq",
+        "MANE Select"
+    ],
+    "GBSeq_source": "Homo sapiens (human)",
+    "GBSeq_organism": "Homo sapiens",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Homo",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..131",
+            "GBReference_authors": [
+                "Liu D",
+                "Zhu M",
+                "Lin Y",
+                "Li M",
+                "Huang R",
+                "Yang L",
+                "Song Y",
+                "Diao Y",
+                "Yang C"
+            ],
+            "GBReference_title": "LY6E protein facilitates adeno-associated virus crossing in a biomimetic chip model of the human blood-brain barrier",
+            "GBReference_journal": "Lab Chip 22 (21), 4180-4190 (2022)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1039/d2lc00698g"
+                }
+            ],
+            "GBReference_pubmed": "36165190",
+            "GBReference_remark": "GeneRIF: LY6E protein facilitates adeno-associated virus crossing in a biomimetic chip model of the human blood-brain barrier.; Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..131",
+            "GBReference_authors": [
+                "Zhang Q",
+                "Jia Y",
+                "Pan P",
+                "Zhang X",
+                "Jia Y",
+                "Zhu P",
+                "Chen X",
+                "Jiao Y",
+                "Kang G",
+                "Zhang L",
+                "Ma X"
+            ],
+            "GBReference_title": "alpha5-nAChR associated with Ly6E modulates cell migration via TGF-beta1/Smad signaling in non-small cell lung cancer",
+            "GBReference_journal": "Carcinogenesis 43 (4), 393-404 (2022)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1093/carcin/bgac003"
+                }
+            ],
+            "GBReference_pubmed": "34994389",
+            "GBReference_remark": "GeneRIF: alpha5-nAChR associated with Ly6E modulates cell migration via TGF-beta1/Smad signaling in non-small cell lung cancer."
+        },
+        {
+            "GBReference_reference": "3",
+            "GBReference_position": "1..131",
+            "GBReference_authors": [
+                "Li T",
+                "Liu W",
+                "Wang C",
+                "Wang M",
+                "Hui W",
+                "Lu J",
+                "Gao F"
+            ],
+            "GBReference_title": "Multidimension Analysis of the Prognostic Value, Immune Regulatory Function, and ceRNA Network of LY6E in Individuals with Colorectal Cancer",
+            "GBReference_journal": "J Immunol Res 2022, 5164265 (2022)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1155/2022/5164265"
+                }
+            ],
+            "GBReference_pubmed": "35310607",
+            "GBReference_remark": "GeneRIF: Multidimension Analysis of the Prognostic Value, Immune Regulatory Function, and ceRNA Network of LY6E in Individuals with Colorectal Cancer.; Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "4",
+            "GBReference_position": "1..131",
+            "GBReference_authors": [
+                "Nandi S",
+                "Roy H",
+                "Gummadi A",
+                "Saxena AK"
+            ],
+            "GBReference_title": "Exploring Spike Protein as Potential Target of Novel Coronavirus and to Inhibit the Viability Utilizing Natural Agents",
+            "GBReference_journal": "Curr Drug Targets 22 (17), 2006-2020 (2021)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.2174/1389450122666210309105820"
+                }
+            ],
+            "GBReference_pubmed": "33687893",
+            "GBReference_remark": "Review article"
+        },
+        {
+            "GBReference_reference": "5",
+            "GBReference_position": "1..131",
+            "GBReference_authors": [
+                "Ille AM",
+                "Kishel E",
+                "Bodea R",
+                "Ille A",
+                "Lamont H",
+                "Amico-Ruvio S"
+            ],
+            "GBReference_title": "Protein LY6E as a candidate for mediating transport of adeno-associated virus across the human blood-brain barrier",
+            "GBReference_journal": "J Neurovirol 26 (5), 769-778 (2020)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1007/s13365-020-00890-9"
+                }
+            ],
+            "GBReference_pubmed": "32839948",
+            "GBReference_remark": "GeneRIF: Protein LY6E as a candidate for mediating transport of adeno-associated virus across the human blood-brain barrier."
+        },
+        {
+            "GBReference_reference": "6",
+            "GBReference_position": "1..131",
+            "GBReference_authors": [
+                "Kosugi A",
+                "Saitoh S",
+                "Noda S",
+                "Miyake K",
+                "Yamashita Y",
+                "Kimoto M",
+                "Ogata M",
+                "Hamaoka T"
+            ],
+            "GBReference_title": "Physical and functional association between thymic shared antigen-1/stem cell antigen-2 and the T cell receptor complex",
+            "GBReference_journal": "J Biol Chem 273 (20), 12301-12306 (1998)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1074/jbc.273.20.12301"
+                }
+            ],
+            "GBReference_pubmed": "9575182"
+        },
+        {
+            "GBReference_reference": "7",
+            "GBReference_position": "1..131",
+            "GBReference_authors": [
+                "Shan X",
+                "Bourdeau A",
+                "Rhoton A",
+                "Wells DE",
+                "Cohen EH",
+                "Landgraf BE",
+                "Palfree RG"
+            ],
+            "GBReference_title": "Characterization and mapping to human chromosome 8q24.3 of Ly-6-related gene 9804 encoding an apparent homologue of mouse TSA-1",
+            "GBReference_journal": "J Immunol 160 (1), 197-208 (1998)",
+            "GBReference_pubmed": "9551972"
+        },
+        {
+            "GBReference_reference": "8",
+            "GBReference_position": "1..131",
+            "GBReference_authors": [
+                "Brakenhoff RH",
+                "van Dijk M",
+                "Rood-Knippels EM",
+                "Snow GB"
+            ],
+            "GBReference_title": "A gain of novel tissue specificity in the human Ly-6 gene E48",
+            "GBReference_journal": "J Immunol 159 (10), 4879-4886 (1997)",
+            "GBReference_pubmed": "9366413"
+        },
+        {
+            "GBReference_reference": "9",
+            "GBReference_position": "1..131",
+            "GBReference_authors": [
+                "Capone MC",
+                "Gorman DM",
+                "Ching EP",
+                "Zlotnik A"
+            ],
+            "GBReference_title": "Identification through bioinformatics of cDNAs encoding human thymic shared Ag-1/stem cell Ag-2. A new member of the human Ly-6 family",
+            "GBReference_journal": "J Immunol 157 (3), 969-973 (1996)",
+            "GBReference_pubmed": "8757598"
+        },
+        {
+            "GBReference_reference": "10",
+            "GBReference_position": "1..131",
+            "GBReference_authors": [
+                "Mao M",
+                "Yu M",
+                "Tong JH",
+                "Ye J",
+                "Zhu J",
+                "Huang QH",
+                "Fu G",
+                "Yu L",
+                "Zhao SY",
+                "Waxman S",
+                "Lanotte M",
+                "Wang ZY",
+                "Tan JZ",
+                "Chan SJ",
+                "Chen Z"
+            ],
+            "GBReference_title": "RIG-E, a human homolog of the murine Ly-6 family, is induced by retinoic acid during the differentiation of acute promyelocytic leukemia cell",
+            "GBReference_journal": "Proc Natl Acad Sci U S A 93 (12), 5910-5914 (1996)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1073/pnas.93.12.5910"
+                }
+            ],
+            "GBReference_pubmed": "8650192"
+        }
+    ],
+    "GBSeq_comment": "REVIEWED REFSEQ: This record has been curated by NCBI staff. The reference sequence was derived from AC083982.13.; ~Summary: This gene belongs to the human Ly6 gene family and encodes a glycosylphosphatidyl-inositol (GPI)-anchored cell surface protein. The protein plays an important role in T cell physiology, oncogenesis and immunological regulation. The protein is also involved in modulation of viral infection by coronaviruses, SARS-CoV, MERS-CoV and SARS-CoV-2. [provided by RefSeq, Aug 2021].; ~Transcript Variant: This variant (1) represents the longer transcript. Variants 1 and 2 encode the same protein.; ~Publication Note: This RefSeq record includes a subset of the publications that are available for this gene. Please see the Gene record to access additional publications.; ##Evidence-Data-START## ; Transcript exon combination :: AK223074.1, SRR5189658.54327.1 [ECO:0000332] ; RNAseq introns :: single sample supports all introns SAMEA1965299, SAMEA1966682 [ECO:0000348] ; ##Evidence-Data-END##; ##RefSeq-Attributes-START## ; coronavirus related :: involved in immune response or antiviral activity ; MANE Ensembl match :: ENST00000292494.11/ ENSP00000292494.6 ; RefSeq Select criteria :: based on conservation, expression, longest protein ; ##RefSeq-Attributes-END##",
+    "GBSeq_source-db": "REFSEQ: accession NM_002346.3",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..131",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "131",
+                    "GBInterval_accession": "NP_002337.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Homo sapiens"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:9606"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "8"
+                },
+                {
+                    "GBQualifier_name": "map",
+                    "GBQualifier_value": "8q24.3"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..131",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "131",
+                    "GBInterval_accession": "NP_002337.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "lymphocyte antigen 6E precursor"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "retinoic acid induced gene E; lymphocyte antigen 6E; ly-6E; stem cell antigen 2; thymic shared antigen 1; retinoic acid-induced gene E protein; lymphocyte antigen 6 complex, locus E"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "11396"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "1..20",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "20",
+                    "GBInterval_accession": "NP_002337.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "inference",
+                    "GBQualifier_value": "COORDINATES: ab initio prediction:SignalP:4.0"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "2129"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MKIFLPVLLAALLGVERASS"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "21..105",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "21",
+                    "GBInterval_to": "105",
+                    "GBInterval_accession": "NP_002337.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "LU"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Ly-6 antigen / uPA receptor -like domain; smart00134"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:214530"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "99",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "99",
+                    "GBInterval_accession": "NP_002337.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "glycosylation"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "N-linked (GlcNAc...) asparagine. /evidence=ECO:0000255; propagated from UniProtKB/Swiss-Prot (Q16553.1)"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..131",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "131",
+                    "GBInterval_accession": "NP_002337.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LY6E"
+                },
+                {
+                    "GBQualifier_name": "gene_synonym",
+                    "GBQualifier_value": "RIG-E; RIGE; SCA-2; SCA2; TSA-1"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "NM_002346.3:116..511"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CCDS:CCDS6394.1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:4061"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "HGNC:HGNC:6727"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "MIM:601384"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mkiflpvllaallgverasslmcfsclnqksnlyclkpticsdqdnycvtvsasagignlvtfghslsktcspacpipegvnvgvasmgisccqsflcnfsaadgglrasvtllgaglllsllpallrfgp"
+}

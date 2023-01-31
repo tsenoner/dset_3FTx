@@ -1,0 +1,206 @@
+{
+    "GBSeq_locus": "QSI83945",
+    "GBSeq_length": "81",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "08-MAR-2021",
+    "GBSeq_create-date": "08-MAR-2021",
+    "GBSeq_definition": "three-finger toxin [Calliophis bivirgatus]",
+    "GBSeq_primary-accession": "QSI83945",
+    "GBSeq_accession-version": "QSI83945.1",
+    "GBSeq_other-seqids": [
+        "gb|QSI83945.1|",
+        "gi|1996370567"
+    ],
+    "GBSeq_project": "PRJNA698476",
+    "GBSeq_source": "Calliophis bivirgatus (Blue Malaysian coral snake)",
+    "GBSeq_organism": "Calliophis bivirgatus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Calliophis",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..81",
+            "GBReference_authors": [
+                "Dashevsky,D.",
+                "Rokyta,D.",
+                "Frank,N.",
+                "Nouwens,A.",
+                "Fry,B.G."
+            ],
+            "GBReference_title": "Electric Blue: Molecular Evolution of Three-Finger Toxins in the Long-Glanded Coral Snake Species Calliophis bivirgatus",
+            "GBReference_journal": "Toxins (Basel) 13 (2), 124 (2021)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.3390/toxins13020124"
+                }
+            ],
+            "GBReference_pubmed": "33567660",
+            "GBReference_remark": "Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..81",
+            "GBReference_authors": [
+                "Dashevsky,D.",
+                "Rokyta,D.",
+                "Frank,N.",
+                "Nouwens,A.",
+                "Fry,B.G."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (04-FEB-2021) School of Biological Sciences, The University of Queensland, Goddard Building, St Lucia, QLD 4072, Australia"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: SOAPdenovo v. 2.04; Trinity v. 2.4.0; Extender v. 1.04 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##",
+    "GBSeq_source-db": "accession MW575041.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..81",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "81",
+                    "GBInterval_accession": "QSI83945.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Calliophis bivirgatus"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8633"
+                },
+                {
+                    "GBQualifier_name": "clone",
+                    "GBQualifier_value": "3FTx_046"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..81",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "81",
+                    "GBInterval_accession": "QSI83945.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "three-finger toxin"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "9111"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "22..80",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "22",
+                    "GBInterval_to": "80",
+                    "GBInterval_accession": "QSI83945.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "snake_toxin"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Snake toxin domain, present in short and long neurotoxins, cytotoxins and short toxins, and in other miscellaneous venom peptides. The toxin acts by binding to the nicotinic acetylcholine receptors in the postsynaptic membrane of skeletal muscles and...; cl11586"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:416329"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "order(27,32,47..48,53..58)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "27",
+                    "GBInterval_accession": "QSI83945.1"
+                },
+                {
+                    "GBInterval_point": "32",
+                    "GBInterval_accession": "QSI83945.1"
+                },
+                {
+                    "GBInterval_from": "47",
+                    "GBInterval_to": "48",
+                    "GBInterval_accession": "QSI83945.1"
+                },
+                {
+                    "GBInterval_from": "53",
+                    "GBInterval_to": "58",
+                    "GBInterval_accession": "QSI83945.1"
+                }
+            ],
+            "GBFeature_operator": "order",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "active"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "receptor binding site [active]"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..81",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "81",
+                    "GBInterval_accession": "QSI83945.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "MW575041.1:1..246"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mktllltlvvvtivcldlgdtlicyktkspevfvtckgrekycykesymvfplvysyhrgcteycsnpnssqccatdkcnk",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA698476"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN17720600"
+        }
+    ]
+}

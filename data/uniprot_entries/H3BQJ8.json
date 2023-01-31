@@ -1,0 +1,914 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "H3BQJ8",
+    "uniProtkbId": "LY6L_HUMAN",
+    "entryAudit": {
+        "firstPublicDate": "2016-11-02",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2012-04-18",
+        "entryVersion": 66,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 2.0,
+    "organism": {
+        "scientificName": "Homo sapiens",
+        "commonName": "Human",
+        "taxonId": 9606,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Eutheria",
+            "Euarchontoglires",
+            "Primates",
+            "Haplorrhini",
+            "Catarrhini",
+            "Hominidae",
+            "Homo"
+        ]
+    },
+    "proteinExistence": "3: Inferred from homology",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000305"
+                    }
+                ],
+                "value": "Lymphocyte antigen 6L"
+            }
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000312",
+                            "source": "HGNC",
+                            "id": "HGNC:52284"
+                        }
+                    ],
+                    "value": "Lymphocyte antigen 6 complex locus protein L"
+                }
+            }
+        ],
+        "flag": "Precursor"
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000312",
+                        "source": "HGNC",
+                        "id": "HGNC:52284"
+                    }
+                ],
+                "value": "LY6L"
+            }
+        }
+    ],
+    "comments": [
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000255"
+                            }
+                        ],
+                        "value": "Cell membrane",
+                        "id": "SL-0039"
+                    },
+                    "topology": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000255"
+                            }
+                        ],
+                        "value": "Lipid-anchor, GPI-anchor",
+                        "id": "SL-9902"
+                    }
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 16,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 17,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 117,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Lymphocyte antigen 6L",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "featureId": "PRO_5008163148"
+        },
+        {
+            "type": "Propeptide",
+            "location": {
+                "start": {
+                    "value": 118,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 138,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Removed in mature form",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "featureId": "PRO_0000438094"
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 28,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 122,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "UPAR/Ly6",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ]
+        },
+        {
+            "type": "Lipidation",
+            "location": {
+                "start": {
+                    "value": 117,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 117,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "GPI-anchor amidated glycine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ]
+        },
+        {
+            "type": "Glycosylation",
+            "location": {
+                "start": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N-linked (GlcNAc...) asparagine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ],
+            "featureId": ""
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 30,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 47,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "Q03405"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 103,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 108,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "Q03405"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-1003",
+            "category": "Cellular component",
+            "name": "Cell membrane"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0325",
+            "category": "PTM",
+            "name": "Glycoprotein"
+        },
+        {
+            "id": "KW-0336",
+            "category": "PTM",
+            "name": "GPI-anchor"
+        },
+        {
+            "id": "KW-0449",
+            "category": "PTM",
+            "name": "Lipoprotein"
+        },
+        {
+            "id": "KW-0472",
+            "category": "Cellular component",
+            "name": "Membrane"
+        },
+        {
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "16421571",
+                "citationType": "journal article",
+                "authors": [
+                    "Nusbaum C.",
+                    "Mikkelsen T.S.",
+                    "Zody M.C.",
+                    "Asakawa S.",
+                    "Taudien S.",
+                    "Garber M.",
+                    "Kodira C.D.",
+                    "Schueler M.G.",
+                    "Shimizu A.",
+                    "Whittaker C.A.",
+                    "Chang J.L.",
+                    "Cuomo C.A.",
+                    "Dewar K.",
+                    "FitzGerald M.G.",
+                    "Yang X.",
+                    "Allen N.R.",
+                    "Anderson S.",
+                    "Asakawa T.",
+                    "Blechschmidt K.",
+                    "Bloom T.",
+                    "Borowsky M.L.",
+                    "Butler J.",
+                    "Cook A.",
+                    "Corum B.",
+                    "DeArellano K.",
+                    "DeCaprio D.",
+                    "Dooley K.T.",
+                    "Dorris L. III",
+                    "Engels R.",
+                    "Gloeckner G.",
+                    "Hafez N.",
+                    "Hagopian D.S.",
+                    "Hall J.L.",
+                    "Ishikawa S.K.",
+                    "Jaffe D.B.",
+                    "Kamat A.",
+                    "Kudoh J.",
+                    "Lehmann R.",
+                    "Lokitsang T.",
+                    "Macdonald P.",
+                    "Major J.E.",
+                    "Matthews C.D.",
+                    "Mauceli E.",
+                    "Menzel U.",
+                    "Mihalev A.H.",
+                    "Minoshima S.",
+                    "Murayama Y.",
+                    "Naylor J.W.",
+                    "Nicol R.",
+                    "Nguyen C.",
+                    "O'Leary S.B.",
+                    "O'Neill K.",
+                    "Parker S.C.J.",
+                    "Polley A.",
+                    "Raymond C.K.",
+                    "Reichwald K.",
+                    "Rodriguez J.",
+                    "Sasaki T.",
+                    "Schilhabel M.",
+                    "Siddiqui R.",
+                    "Smith C.L.",
+                    "Sneddon T.P.",
+                    "Talamas J.A.",
+                    "Tenzin P.",
+                    "Topham K.",
+                    "Venkataraman V.",
+                    "Wen G.",
+                    "Yamazaki S.",
+                    "Young S.K.",
+                    "Zeng Q.",
+                    "Zimmer A.R.",
+                    "Rosenthal A.",
+                    "Birren B.W.",
+                    "Platzer M.",
+                    "Shimizu N.",
+                    "Lander E.S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "16421571"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/nature04406"
+                    }
+                ],
+                "title": "DNA sequence and analysis of human chromosome 8.",
+                "publicationDate": "2006",
+                "journal": "Nature",
+                "firstPage": "331",
+                "lastPage": "335",
+                "volume": "439"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "AC083982",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "-"
+                },
+                {
+                    "key": "Status",
+                    "value": "NOT_ANNOTATED_CDS"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AC236721",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "-"
+                },
+                {
+                    "key": "Status",
+                    "value": "NOT_ANNOTATED_CDS"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "XP_016869619.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "XM_017014130.1"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "XP_016885686.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "XM_017030197.1"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "XP_016885962.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "XM_017030473.1"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "H3BQJ8",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "9606.ENSP00000455811",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GlyGen",
+            "id": "H3BQJ8",
+            "properties": [
+                {
+                    "key": "glycosylation",
+                    "value": "1 site"
+                }
+            ]
+        },
+        {
+            "database": "BioMuta",
+            "id": "LY6L",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "MassIVE",
+            "id": "H3BQJ8",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PaxDb",
+            "id": "H3BQJ8",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PeptideAtlas",
+            "id": "H3BQJ8",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENST00000562505.2",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSP00000455811.1"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSG00000261667.2"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENST00000631950.1",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSP00000487842.1"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSG00000282693.1"
+                }
+            ]
+        },
+        {
+            "database": "MANE-Select",
+            "id": "ENST00000562505.2",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSP00000455811.1"
+                },
+                {
+                    "key": "RefSeqNucleotideId",
+                    "value": "NM_001368160.2"
+                },
+                {
+                    "key": "RefSeqProteinId",
+                    "value": "NP_001355089.1"
+                }
+            ]
+        },
+        {
+            "database": "UCSC",
+            "id": "uc064qwu.1",
+            "properties": [
+                {
+                    "key": "OrganismName",
+                    "value": "human"
+                }
+            ]
+        },
+        {
+            "database": "AGR",
+            "id": "HGNC:52284",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GeneCards",
+            "id": "LY6L",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HGNC",
+            "id": "HGNC:52284",
+            "properties": [
+                {
+                    "key": "GeneName",
+                    "value": "LY6L"
+                }
+            ]
+        },
+        {
+            "database": "HPA",
+            "id": "ENSG00000261667",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Tissue enhanced (brain, kidney)"
+                }
+            ]
+        },
+        {
+            "database": "neXtProt",
+            "id": "NX_H3BQJ8",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "VEuPathDB",
+            "id": "HostDB:ENSG00000261667",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "eggNOG",
+            "id": "ENOG502TM7T",
+            "properties": [
+                {
+                    "key": "ToxonomicScope",
+                    "value": "Eukaryota"
+                }
+            ]
+        },
+        {
+            "database": "GeneTree",
+            "id": "ENSGT00940000154560",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HOGENOM",
+            "id": "CLU_106772_1_0_1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "InParanoid",
+            "id": "H3BQJ8",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OMA",
+            "id": "TECPPTW",
+            "properties": [
+                {
+                    "key": "Fingerprint",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "1592016at2759",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PhylomeDB",
+            "id": "H3BQJ8",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioGRID-ORCS",
+            "id": "101928108",
+            "properties": [
+                {
+                    "key": "hits",
+                    "value": "0 hits in 11 CRISPR screens"
+                }
+            ]
+        },
+        {
+            "database": "Pharos",
+            "id": "H3BQJ8",
+            "properties": [
+                {
+                    "key": "DevelopmentLevel",
+                    "value": "Tdark"
+                }
+            ]
+        },
+        {
+            "database": "PRO",
+            "id": "PR:H3BQJ8",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000005640",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 8"
+                }
+            ]
+        },
+        {
+            "database": "RNAct",
+            "id": "H3BQJ8",
+            "properties": [
+                {
+                    "key": "moleculeType",
+                    "value": "protein"
+                }
+            ]
+        },
+        {
+            "database": "Bgee",
+            "id": "ENSG00000261667",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Expressed in adult mammalian kidney and 11 other tissues"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005886",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:plasma membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000318",
+                    "source": "PubMed",
+                    "id": "21873635"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR016054",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LY6_UPA_recep-like"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00021",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "UPAR_LY6"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SMART",
+            "id": "SM00134",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MERLVLTLCTLPLAVASAGCATTPARNLSCYQCFKVSSWTECPPTWCSPLDQVCISNEVVVSFKWSVRVLLSKRCAPRCPNDNMKFEWSPAPMVQGVITRRCCSWALCNRALTPQEGRWALRGGLLLQVGLSLLRALL",
+        "length": 138,
+        "molWeight": 15317,
+        "crc64": "6CFCA3A34C01248C",
+        "md5": "5871A195061763D57FF44ED1711E1FEA"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "SUBCELLULAR LOCATION": 1
+        },
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Propeptide": 1,
+            "Domain": 1,
+            "Lipidation": 1,
+            "Glycosylation": 1,
+            "Disulfide bond": 2
+        },
+        "uniParcId": "UPI00003E7DCC"
+    }
+}

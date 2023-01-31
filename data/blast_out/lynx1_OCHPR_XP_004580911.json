@@ -1,0 +1,110 @@
+{
+    "program": "blastp",
+    "version": "BLASTP 2.12.0+",
+    "command": "$APPBIN/ncbi-blast-2.9.0+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-R20230130-020000-0663-76876498-p1m.sequence  -num_threads 32 -outfmt 11 -out ncbiblast-R20230130-020000-0663-76876498-p1m.archive -matrix BLOSUM62 -max_target_seqs 5 -seg no -ungapped -taxidlist ncbiblast-R20230130-020000-0663-76876498-p1m.taxidlist -comp_based_stats F",
+    "query_def": "EMBOSS_001",
+    "query_stype": "protein",
+    "query_len": 113,
+    "db_count": 1,
+    "db_num": 230190369,
+    "db_len": 81010115241,
+    "dbs": [
+        {
+            "name": "uniprotkb",
+            "stype": "protein",
+            "created": "2022-12-14T02:19:00+00:00"
+        }
+    ],
+    "alignments": 5,
+    "scores": 5,
+    "expect_upper": 10.0,
+    "filter": "F",
+    "gap_extend": 1.0,
+    "gap_open": 11.0,
+    "matrix": "BLOSUM62",
+    "start": "2023-01-30T02:00:00+00:00",
+    "end": "2023-01-30T02:01:05+00:00",
+    "search": "P0Y0M0DT0H0M65.000S",
+    "hits": [
+        {
+            "hit_num": 1,
+            "hit_def": "TR:A0A0B6CC29 A0A0B6CC29_OCHPR Atypical chemokine receptor 1 (Fragment) OS=Ochotona princeps OX=9978 GN=DARC PE=3 SV=1",
+            "hit_db": "TR",
+            "hit_id": "A0A0B6CC29_OCHPR",
+            "hit_acc": "A0A0B6CC29",
+            "hit_desc": "Atypical chemokine receptor 1 (Fragment) OS=Ochotona princeps OX=9978 GN=DARC PE=3 SV=1",
+            "hit_url": "https://www.uniprot.org/uniprot/A0A0B6CC29",
+            "hit_xref_url": "https://www.ebi.ac.uk/ebisearch/search.ebi?db=uniprot&query=A0A0B6CC29",
+            "hit_os": "Ochotona princeps",
+            "hit_uni_de": "Atypical chemokine receptor 1 (Fragment)",
+            "hit_uni_os": "Ochotona princeps",
+            "hit_uni_ox": "9978",
+            "hit_uni_gn": "DARC",
+            "hit_uni_pe": "3",
+            "hit_uni_sv": "1",
+            "hit_len": 302,
+            "hit_hsps": [
+                {
+                    "hsp_num": 1,
+                    "hsp_score": 46,
+                    "hsp_bit_score": 24.654,
+                    "hsp_expect": 0.15,
+                    "hsp_align_len": 19,
+                    "hsp_identity": 52.6,
+                    "hsp_positive": 73.7,
+                    "hsp_gaps": 0,
+                    "hsp_query_frame": "0",
+                    "hsp_hit_frame": "0",
+                    "hsp_strand": "none/none",
+                    "hsp_query_from": 1,
+                    "hsp_query_to": 19,
+                    "hsp_hit_from": 140,
+                    "hsp_hit_to": 158,
+                    "hsp_qseq": "MALLLLAALLGLPLAQALD",
+                    "hsp_mseq": "+ L ++AALLGLP+  A D",
+                    "hsp_hseq": "VGLWVVAALLGLPITLASD"
+                }
+            ]
+        },
+        {
+            "hit_num": 2,
+            "hit_def": "TR:Q6X878 Q6X878_OCHPR V(D)J recombination-activating protein 1 (Fragment) OS=Ochotona princeps OX=9978 GN=RAG1 PE=3 SV=1",
+            "hit_db": "TR",
+            "hit_id": "Q6X878_OCHPR",
+            "hit_acc": "Q6X878",
+            "hit_desc": "V(D)J recombination-activating protein 1 (Fragment) OS=Ochotona princeps OX=9978 GN=RAG1 PE=3 SV=1",
+            "hit_url": "https://www.uniprot.org/uniprot/Q6X878",
+            "hit_xref_url": "https://www.ebi.ac.uk/ebisearch/search.ebi?db=uniprot&query=Q6X878",
+            "hit_os": "Ochotona princeps",
+            "hit_uni_de": "V(D)J recombination-activating protein 1 (Fragment)",
+            "hit_uni_os": "Ochotona princeps",
+            "hit_uni_ox": "9978",
+            "hit_uni_gn": "RAG1",
+            "hit_uni_pe": "3",
+            "hit_uni_sv": "1",
+            "hit_len": 268,
+            "hit_hsps": [
+                {
+                    "hsp_num": 1,
+                    "hsp_score": 34,
+                    "hsp_bit_score": 18.9749,
+                    "hsp_expect": 7.8,
+                    "hsp_align_len": 20,
+                    "hsp_identity": 25.0,
+                    "hsp_positive": 50.0,
+                    "hsp_gaps": 0,
+                    "hsp_query_frame": "0",
+                    "hsp_hit_frame": "0",
+                    "hsp_strand": "none/none",
+                    "hsp_query_from": 6,
+                    "hsp_query_to": 25,
+                    "hsp_hit_from": 102,
+                    "hsp_hit_to": 121,
+                    "hsp_qseq": "LAALLGLPLAQALDCHVCAY",
+                    "hsp_mseq": "LA     P  +++ C +C +",
+                    "hsp_hseq": "LAVDFPAPFVKSISCQICEH"
+                }
+            ]
+        }
+    ]
+}

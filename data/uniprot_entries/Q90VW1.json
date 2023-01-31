@@ -1,0 +1,1991 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q90VW1",
+    "secondaryAccessions": [
+        "P01435"
+    ],
+    "uniProtkbId": "3S1EB_LATSE",
+    "entryAudit": {
+        "firstPublicDate": "1986-07-21",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2001-12-01",
+        "entryVersion": 98,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 4.0,
+    "organism": {
+        "scientificName": "Laticauda semifasciata",
+        "commonName": "Black-banded sea krait",
+        "synonyms": [
+            "Pseudolaticauda semifasciata"
+        ],
+        "taxonId": 8631,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Laticaudinae",
+            "Laticauda"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "4941832"
+                    }
+                ],
+                "value": "Erabutoxin b"
+            },
+            "shortNames": [
+                {
+                    "value": "ETXB"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "12957382"
+                        }
+                    ],
+                    "value": "Eb"
+                }
+            ]
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "value": "Short neurotoxin 1b"
+                }
+            }
+        ],
+        "flag": "Precursor"
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "9305882"
+                        }
+                    ],
+                    "value": "Binds with high affinity to muscular nicotinic acetylcholine receptors (nAChRs) (tested on Torpedo marmorata, Kd=0.07 nM), and with low affinity to neuronal alpha-7/CHRNA7 nAChRs (tested on chimeric alpha-7/CHRNA7, Kd=22 uM) and inhibit acetylcholine from binding to the receptor, thereby impairing neuromuscular transmission (PubMed:7721859). Produces peripheral paralysis by blocking neuromuscular transmission at the postsynaptic site"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "4941832"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305",
+                            "source": "PubMed",
+                            "id": "4941832"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily. Type I alpha-neurotoxin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "4941832"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 83,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Erabutoxin b",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "4941832"
+                }
+            ],
+            "featureId": "PRO_0000035447"
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 38,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Loop I",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 39,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 44,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Stretch between loop I and loop II",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 45,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 62,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Loop II",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 64,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 75,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Loop III",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Moderately important residue for binding to acetylcholine receptor",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 28,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 28,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Very important residue for binding to acetylcholine receptor",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 29,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 29,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Key residue for binding to acetylcholine receptor",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 30,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 30,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Moderately important residue for binding to acetylcholine receptor",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 31,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 31,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Key residue for binding to acetylcholine receptor",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 46,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 46,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Moderately important residue for binding to acetylcholine receptor",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 48,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 48,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Key residue for binding to acetylcholine receptor",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 50,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 50,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Very important residue for binding to acetylcholine receptor",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 52,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 52,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Very important residue for binding to acetylcholine receptor",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Moderately important residue for binding to acetylcholine receptor",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 54,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 54,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Key residue for binding to acetylcholine receptor",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 55,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 55,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Moderately important residue for binding to acetylcholine receptor",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 57,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 57,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Very important residue for binding to acetylcholine receptor",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 59,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 59,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Very important residue for binding to acetylcholine receptor",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 68,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 68,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Very important residue for binding to acetylcholine receptor",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60775"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 45,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1418823"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "2431905"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "465091"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "683181"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8027999"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1ERA"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1FRA"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1NXB"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "3EBX"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 38,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 62,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1418823"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "2431905"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "465091"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "683181"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8027999"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1ERA"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1FRA"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1NXB"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "3EBX"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 64,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 75,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1418823"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "2431905"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "465091"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "683181"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8027999"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1ERA"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1FRA"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1NXB"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "3EBX"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 76,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 81,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1418823"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "2431905"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "465091"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "683181"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "8027999"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1ERA"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1FRA"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "1NXB"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "3EBX"
+                }
+            ]
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 80,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 80,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "may be a real difference between the Philippine and Japanese populations",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "588261"
+                }
+            ],
+            "featureId": "",
+            "alternativeSequence": {
+                "originalSequence": "V",
+                "alternativeSequences": [
+                    "R"
+                ]
+            }
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 23,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 25,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1NXB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 29,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 31,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1ERA"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 35,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 37,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1NXB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 45,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 52,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1NXB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 55,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 63,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1NXB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 73,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 76,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1NXB"
+                }
+            ]
+        },
+        {
+            "type": "Turn",
+            "location": {
+                "start": {
+                    "value": 79,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 82,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1NXB"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0002",
+            "category": "Technical term",
+            "name": "3D-structure"
+        },
+        {
+            "id": "KW-0008",
+            "category": "Molecular function",
+            "name": "Acetylcholine receptor inhibiting toxin"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0872",
+            "category": "Molecular function",
+            "name": "Ion channel impairing toxin"
+        },
+        {
+            "id": "KW-0528",
+            "category": "Molecular function",
+            "name": "Neurotoxin"
+        },
+        {
+            "id": "KW-0629",
+            "category": "Molecular function",
+            "name": "Postsynaptic neurotoxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "2602157",
+                "citationType": "journal article",
+                "authors": [
+                    "Obara K.",
+                    "Fuse N.",
+                    "Tsuchiya T.",
+                    "Nonomura Y.",
+                    "Menez A.",
+                    "Tamiya T."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "2602157"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1093/nar/17.24.10490"
+                    }
+                ],
+                "title": "Sequence analysis of a cDNA encoding a erabutoxin b from the sea-snake Laticauda semifasciata.",
+                "publicationDate": "1989",
+                "journal": "Nucleic Acids Res.",
+                "firstPage": "10490",
+                "lastPage": "10490",
+                "volume": "17"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom gland",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-4B4EGBQVS50P8",
+                "citationType": "submission",
+                "authors": [
+                    "Kariya Y.",
+                    "Araki S.",
+                    "Agu H.",
+                    "Tamiya T.",
+                    "Tsuchiya T."
+                ],
+                "title": "Classification of sea snakes in genus Laticauda by nucleotide sequences encoding short chain neurotoxins.",
+                "publicationDate": "SEP-1998",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom gland",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "12957382",
+                "citationType": "journal article",
+                "authors": [
+                    "Fujimi T.J.",
+                    "Nakajyo T.",
+                    "Nishimura E.",
+                    "Ogura E.",
+                    "Tsuchiya T.",
+                    "Tamiya T."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "12957382"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0378-1119(03)00637-1"
+                    }
+                ],
+                "title": "Molecular evolution and diversification of snake toxin genes, revealed by analysis of intron sequences.",
+                "publicationDate": "2003",
+                "journal": "Gene",
+                "firstPage": "111",
+                "lastPage": "118",
+                "volume": "313"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Liver",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "4941832",
+                "citationType": "journal article",
+                "authors": [
+                    "Sato S.",
+                    "Tamiya N."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "4941832"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1042/bj1220453"
+                    }
+                ],
+                "title": "The amino acid sequences of erabutoxins, neurotoxic proteins of sea-snake (Laticauda semifasciata) venom.",
+                "publicationDate": "1971",
+                "journal": "Biochem. J.",
+                "firstPage": "453",
+                "lastPage": "461",
+                "volume": "122"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE OF 22-83",
+                "SUBCELLULAR LOCATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "588261",
+                "citationType": "journal article",
+                "authors": [
+                    "Maeda N.",
+                    "Tamiya N."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "588261"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1042/bj1670289"
+                    }
+                ],
+                "title": "Correction of partial amino acid sequence of erabutoxins.",
+                "publicationDate": "1977",
+                "journal": "Biochem. J.",
+                "firstPage": "289",
+                "lastPage": "291",
+                "volume": "167"
+            },
+            "referencePositions": [
+                "SEQUENCE REVISION",
+                "VARIANT ARG-80"
+            ]
+        },
+        {
+            "citation": {
+                "id": "857910",
+                "citationType": "journal article",
+                "authors": [
+                    "Tsernoglou D.",
+                    "Petsko G.A.",
+                    "Tu A.T."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "857910"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0005-2795(77)90309-9"
+                    }
+                ],
+                "title": "Protein sequencing by computer graphics.",
+                "publicationDate": "1977",
+                "journal": "Biochim. Biophys. Acta",
+                "firstPage": "605",
+                "lastPage": "608",
+                "volume": "491"
+            },
+            "referencePositions": [
+                "PRELIMINARY PROTEIN SEQUENCE OF 22-83"
+            ]
+        },
+        {
+            "citation": {
+                "id": "7721859",
+                "citationType": "journal article",
+                "authors": [
+                    "Tremeau O.",
+                    "Lemaire C.",
+                    "Drevet P.",
+                    "Pinkasfeld S.",
+                    "Ducancel F.",
+                    "Boulain J.-C.",
+                    "Menez A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "7721859"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.270.16.9362"
+                    }
+                ],
+                "title": "Genetic engineering of snake toxins. The functional site of Erabutoxin a, as delineated by site-directed mutagenesis, includes variant residues.",
+                "publicationDate": "1995",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "9362",
+                "lastPage": "9369",
+                "volume": "270"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "9305882",
+                "citationType": "journal article",
+                "authors": [
+                    "Servent D.",
+                    "Winckler-Dietrich V.",
+                    "Hu H.-Y.",
+                    "Kessler P.",
+                    "Drevet P.",
+                    "Bertrand D.",
+                    "Menez A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9305882"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.272.39.24279"
+                    }
+                ],
+                "title": "Only snake curaremimetic toxins with a fifth disulfide bond have high affinity for the neuronal alpha7 nicotinic receptor.",
+                "publicationDate": "1997",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "24279",
+                "lastPage": "24286",
+                "volume": "272"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "964372",
+                "citationType": "journal article",
+                "authors": [
+                    "Tsernoglou D.",
+                    "Petsko G.A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "964372"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0014-5793(76)80390-0"
+                    }
+                ],
+                "title": "The crystal structure of a post-synaptic neurotoxin from sea snake at 2.2-A resolution.",
+                "publicationDate": "1976",
+                "journal": "FEBS Lett.",
+                "firstPage": "1",
+                "lastPage": "4",
+                "volume": "68"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (2.2 ANGSTROMS) OF 22-83"
+            ]
+        },
+        {
+            "citation": {
+                "id": "683181",
+                "citationType": "journal article",
+                "authors": [
+                    "Tsernoglou D.",
+                    "Petsko G.A.",
+                    "Hudson R.A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "683181"
+                    }
+                ],
+                "title": "Structure and function of snake venom curarimimetic neurotoxins.",
+                "publicationDate": "1978",
+                "journal": "Mol. Pharmacol.",
+                "firstPage": "710",
+                "lastPage": "716",
+                "volume": "14"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (1.38 ANGSTROMS) OF 22-83",
+                "DISULFIDE BONDS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "465091",
+                "citationType": "journal article",
+                "authors": [
+                    "Kimball M.R.",
+                    "Sato A.",
+                    "Richardson J.S.",
+                    "Rosen L.S.",
+                    "Low B.W."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "465091"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0006-291x(79)91500-6"
+                    }
+                ],
+                "title": "Molecular conformation of erabutoxin b; atomic coordinates at 2.5-A resolution.",
+                "publicationDate": "1979",
+                "journal": "Biochem. Biophys. Res. Commun.",
+                "firstPage": "950",
+                "lastPage": "959",
+                "volume": "88"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS) OF 22-83",
+                "DISULFIDE BONDS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "2431905",
+                "citationType": "journal article",
+                "authors": [
+                    "Low B.W.",
+                    "Corfield P.W."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "2431905"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1111/j.1432-1033.1986.tb10481.x"
+                    }
+                ],
+                "title": "Erabutoxin b. Structure/function relationships following initial protein refinement at 0.140-nm resolution.",
+                "publicationDate": "1986",
+                "journal": "Eur. J. Biochem.",
+                "firstPage": "579",
+                "lastPage": "587",
+                "volume": "161"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (1.4 ANGSTROMS) OF 22-83",
+                "DISULFIDE BONDS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "1418823",
+                "citationType": "journal article",
+                "authors": [
+                    "Saludjian P.",
+                    "Prange T.",
+                    "Navaza J.",
+                    "Menez R.",
+                    "Guilloteau J.P.",
+                    "Ries-Kautt M.",
+                    "Ducruix A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "1418823"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1107/s010876819200096x"
+                    }
+                ],
+                "title": "Structure determination of a dimeric form of erabutoxin-b, crystallized from a thiocyanate solution.",
+                "publicationDate": "1992",
+                "journal": "Acta Crystallogr. B",
+                "firstPage": "520",
+                "lastPage": "531",
+                "volume": "48"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (1.7 ANGSTROMS) OF 22-83",
+                "DISULFIDE BONDS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "8027999",
+                "citationType": "journal article",
+                "authors": [
+                    "Hatanaka H.",
+                    "Oka M.",
+                    "Kohda D.",
+                    "Tate S.",
+                    "Suda A.",
+                    "Tamiya N.",
+                    "Inagaki F."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8027999"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1006/jmbi.1994.1429"
+                    }
+                ],
+                "title": "Tertiary structure of erabutoxin b in aqueous solution as elucidated by two-dimensional nuclear magnetic resonance.",
+                "publicationDate": "1994",
+                "journal": "J. Mol. Biol.",
+                "firstPage": "155",
+                "lastPage": "166",
+                "volume": "240"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR OF 22-83",
+                "DISULFIDE BONDS"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "X16950",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAA34824.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AB017929",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "BAA75749.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AB017930",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "BAA75750.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AB017931",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "BAA75751.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AB098528",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "BAC78201.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AB098529",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "BAC78202.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "PIR",
+            "id": "S06931",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "S06931"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1ERA",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-83"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1FRA",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-83"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1NXB",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "1.38 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-83"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "3EBX",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "1.40 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=22-83"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "6EBX",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "1.70 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A/B=22-83"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1ERA",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1FRA",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1NXB",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "3EBX",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "6EBX",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "Q90VW1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BMRB",
+            "id": "Q90VW1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "Q90VW1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EvolutionaryTrace",
+            "id": "Q90VW1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0030550",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:acetylcholine receptor inhibitor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0099106",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ion channel regulator activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00206",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "snake_toxin"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003571",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_3FTx"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018354",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin_con_site"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00272",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SNAKE_TOXIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKTLLLTLVVVTIVCLDLGYTRICFNHQSSQPQTTKTCSPGESSCYHKQWSDFRGTIIERGCGCPTVKPGIKLSCCESEVCNN",
+        "length": 83,
+        "molWeight": 9160,
+        "crc64": "BBB499DA36BE50E4",
+        "md5": "F44FFA17688AEDC8D9211E35476FEC15"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Region": 4,
+            "Site": 15,
+            "Disulfide bond": 4,
+            "Natural variant": 1,
+            "Beta strand": 6,
+            "Turn": 1
+        },
+        "uniParcId": "UPI00000FE04E"
+    }
+}

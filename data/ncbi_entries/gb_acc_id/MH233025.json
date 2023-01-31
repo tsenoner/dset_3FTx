@@ -1,0 +1,126 @@
+{
+    "GBSeq_locus": "MH233025",
+    "GBSeq_length": "285",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "18-AUG-2018",
+    "GBSeq_create-date": "18-AUG-2018",
+    "GBSeq_definition": "Ahaetulla prasina three-finger toxin 3 mRNA, partial cds",
+    "GBSeq_primary-accession": "MH233025",
+    "GBSeq_accession-version": "MH233025.1",
+    "GBSeq_other-seqids": [
+        "gb|MH233025.1|",
+        "gi|1446208352"
+    ],
+    "GBSeq_source": "Ahaetulla prasina",
+    "GBSeq_organism": "Ahaetulla prasina",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Colubridae; Ahaetuliinae; Ahaetulla",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..285",
+            "GBReference_authors": [
+                "Modahl,C.M.",
+                "Frietze,S.E.",
+                "Mackessy,S.P."
+            ],
+            "GBReference_title": "Transcriptome-facilitated proteomic characterization of rear-fanged snake venoms reveal abundant metalloproteinases with enhanced activity",
+            "GBReference_journal": "J Proteomics (2018) In press",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/j.jprot.2018.08.004"
+                }
+            ],
+            "GBReference_pubmed": "30092380",
+            "GBReference_remark": "Publication Status: Available-Online prior to print"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..285",
+            "GBReference_authors": [
+                "Modahl,C.M.",
+                "Mackessy,S.P."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (05-APR-2018) Department of Biological Sciences, National University of Singapore, Science Drive 4, Singapore 117543, Singapore"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: Trinity v. v2014-07-17; Extender v. 2016 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..285",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "285",
+                    "GBInterval_accession": "MH233025.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Ahaetulla prasina"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:499056"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "adult"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..>285",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "285",
+                    "GBInterval_accession": "MH233025.1"
+                }
+            ],
+            "GBFeature_partial3": "",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "3FTx_3"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "three-finger toxin 3"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "AXL96612.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLALAVVAFVCPDSVNPVVCLQCNSKTYWKCLSPKNCPAGENICYFLWKYEGTLITDWVRGCASECPIPKAGETVECCKKNECIVKCSEAE"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctggccttggcggtggtggccttcgtgtgcccggactcagtcaatcccgtggtgtgtctccaatgcaattcaaagacttactggaagtgtttgtcccctaagaattgtccagctggggagaacatctgctattttttgtggaaatatgaaggcacattaataacggattgggtcaggggatgtgcttcagagtgccctatcccgaaagctggtgagactgtggagtgttgcaagaaaaatgagtgcatcgttaaatgctctgaagcggaa"
+}

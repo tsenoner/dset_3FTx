@@ -1,0 +1,138 @@
+{
+    "GBSeq_locus": "XP_016818891",
+    "GBSeq_length": "136",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "ROD",
+    "GBSeq_update-date": "10-JUL-2020",
+    "GBSeq_create-date": "27-MAY-2016",
+    "GBSeq_definition": "lymphocyte antigen 6E [Cricetulus griseus]",
+    "GBSeq_primary-accession": "XP_016818891",
+    "GBSeq_accession-version": "XP_016818891.1",
+    "GBSeq_other-seqids": [
+        "ref|XP_016818891.1|",
+        "gi|1032922651"
+    ],
+    "GBSeq_project": "PRJNA72741",
+    "GBSeq_keywords": [
+        "RefSeq"
+    ],
+    "GBSeq_source": "Cricetulus griseus (Chinese hamster)",
+    "GBSeq_organism": "Cricetulus griseus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Cricetidae; Cricetinae; Cricetulus",
+    "GBSeq_comment": "MODEL REFSEQ: This record is predicted by automated computational analysis. This record is derived from a genomic sequence (NW_003616333.1) annotated using gene prediction method: Gnomon.~Also see:~ Documentation of NCBI's Annotation Process; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI ; Annotation Status :: Full annotation ; Annotation Name :: Cricetulus griseus Annotation Release 104 ; Annotation Version :: 104 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 8.4 ; Annotation Method :: Best-placed RefSeq; Gnomon ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; ##Genome-Annotation-Data-END##; COMPLETENESS: full length.",
+    "GBSeq_source-db": "REFSEQ: accession XM_016963402.3",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..136",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "136",
+                    "GBInterval_accession": "XP_016818891.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Cricetulus griseus"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:10029"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "Unknown"
+                },
+                {
+                    "GBQualifier_name": "cell_line",
+                    "GBQualifier_value": "CHO-K1"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..136",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "136",
+                    "GBInterval_accession": "XP_016818891.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "lymphocyte antigen 6E"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "14286"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "27..111",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "27",
+                    "GBInterval_to": "111",
+                    "GBInterval_accession": "XP_016818891.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "LU"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Ly-6 antigen / uPA receptor -like domain; smart00134"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:214530"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..136",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "136",
+                    "GBInterval_accession": "XP_016818891.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "Ly6e"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "XM_016963402.3:181..591"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:100768302"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "msatfnmrvflpvllaallgveqahslicfsctdqksnmkclwptvcpssdnycvtvsaaagfgnvnlgytlnkgcseicpreninvnlgvasinsyccqhsfcnistaglglrasipllglglllsllallqldp",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA72741"
+        }
+    ]
+}

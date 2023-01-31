@@ -1,0 +1,520 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q17RY6-2",
+    "uniProtkbId": "LY6K_HUMAN",
+    "entryAudit": {
+        "firstPublicDate": "2008-05-20",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2008-05-20",
+        "entryVersion": 123,
+        "sequenceVersion": 2
+    },
+    "annotationScore": 1.0,
+    "organism": {
+        "scientificName": "Homo sapiens",
+        "commonName": "Human",
+        "taxonId": 9606,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Eutheria",
+            "Euarchontoglires",
+            "Primates",
+            "Haplorrhini",
+            "Catarrhini",
+            "Hominidae",
+            "Homo"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000305"
+                    }
+                ],
+                "value": "Isoform 2 of Lymphocyte antigen 6K"
+            },
+            "shortNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "12516096"
+                        }
+                    ],
+                    "value": "Ly-6K"
+                }
+            ]
+        },
+        "flag": "Precursor"
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000312",
+                        "source": "HGNC",
+                        "id": "HGNC:24225"
+                    }
+                ],
+                "value": "LY6K"
+            },
+            "synonyms": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "Reference",
+                            "id": "Ref.1"
+                        }
+                    ],
+                    "value": "CO16"
+                }
+            ]
+        }
+    ],
+    "comments": [
+        {
+            "commentType": "ALTERNATIVE PRODUCTS",
+            "events": [
+                "Alternative splicing"
+            ],
+            "isoforms": [
+                {
+                    "name": {
+                        "value": "1"
+                    },
+                    "isoformIds": [
+                        "Q17RY6-1"
+                    ],
+                    "isoformSequenceStatus": "Displayed"
+                },
+                {
+                    "name": {
+                        "value": "2"
+                    },
+                    "isoformIds": [
+                        "Q17RY6-2"
+                    ],
+                    "sequenceIds": [
+                        "VSP_045602",
+                        "VSP_045603"
+                    ],
+                    "isoformSequenceStatus": "Described"
+                }
+            ]
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "CI-E8HQ85IHEI59P",
+                "citationType": "submission",
+                "authors": [
+                    "Machl A.W.",
+                    "Planitzer S.A.",
+                    "Rueckels M.",
+                    "Kubbies M."
+                ],
+                "title": "Identification and characterization of a novel cDNA not expressed in Fanconi anemia fibroblasts and B-cell lines.",
+                "publicationDate": "SEP-1997",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Fibroblast",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "16421571",
+                "citationType": "journal article",
+                "authors": [
+                    "Nusbaum C.",
+                    "Mikkelsen T.S.",
+                    "Zody M.C.",
+                    "Asakawa S.",
+                    "Taudien S.",
+                    "Garber M.",
+                    "Kodira C.D.",
+                    "Schueler M.G.",
+                    "Shimizu A.",
+                    "Whittaker C.A.",
+                    "Chang J.L.",
+                    "Cuomo C.A.",
+                    "Dewar K.",
+                    "FitzGerald M.G.",
+                    "Yang X.",
+                    "Allen N.R.",
+                    "Anderson S.",
+                    "Asakawa T.",
+                    "Blechschmidt K.",
+                    "Bloom T.",
+                    "Borowsky M.L.",
+                    "Butler J.",
+                    "Cook A.",
+                    "Corum B.",
+                    "DeArellano K.",
+                    "DeCaprio D.",
+                    "Dooley K.T.",
+                    "Dorris L. III",
+                    "Engels R.",
+                    "Gloeckner G.",
+                    "Hafez N.",
+                    "Hagopian D.S.",
+                    "Hall J.L.",
+                    "Ishikawa S.K.",
+                    "Jaffe D.B.",
+                    "Kamat A.",
+                    "Kudoh J.",
+                    "Lehmann R.",
+                    "Lokitsang T.",
+                    "Macdonald P.",
+                    "Major J.E.",
+                    "Matthews C.D.",
+                    "Mauceli E.",
+                    "Menzel U.",
+                    "Mihalev A.H.",
+                    "Minoshima S.",
+                    "Murayama Y.",
+                    "Naylor J.W.",
+                    "Nicol R.",
+                    "Nguyen C.",
+                    "O'Leary S.B.",
+                    "O'Neill K.",
+                    "Parker S.C.J.",
+                    "Polley A.",
+                    "Raymond C.K.",
+                    "Reichwald K.",
+                    "Rodriguez J.",
+                    "Sasaki T.",
+                    "Schilhabel M.",
+                    "Siddiqui R.",
+                    "Smith C.L.",
+                    "Sneddon T.P.",
+                    "Talamas J.A.",
+                    "Tenzin P.",
+                    "Topham K.",
+                    "Venkataraman V.",
+                    "Wen G.",
+                    "Yamazaki S.",
+                    "Young S.K.",
+                    "Zeng Q.",
+                    "Zimmer A.R.",
+                    "Rosenthal A.",
+                    "Birren B.W.",
+                    "Platzer M.",
+                    "Shimizu N.",
+                    "Lander E.S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "16421571"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/nature04406"
+                    }
+                ],
+                "title": "DNA sequence and analysis of human chromosome 8.",
+                "publicationDate": "2006",
+                "journal": "Nature",
+                "firstPage": "331",
+                "lastPage": "335",
+                "volume": "439"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-5GBD0VIIJ7C63",
+                "citationType": "submission",
+                "authors": [
+                    "Mural R.J.",
+                    "Istrail S.",
+                    "Sutton G.G.",
+                    "Florea L.",
+                    "Halpern A.L.",
+                    "Mobarry C.M.",
+                    "Lippert R.",
+                    "Walenz B.",
+                    "Shatkay H.",
+                    "Dew I.",
+                    "Miller J.R.",
+                    "Flanigan M.J.",
+                    "Edwards N.J.",
+                    "Bolanos R.",
+                    "Fasulo D.",
+                    "Halldorsson B.V.",
+                    "Hannenhalli S.",
+                    "Turner R.",
+                    "Yooseph S.",
+                    "Lu F.",
+                    "Nusskern D.R.",
+                    "Shue B.C.",
+                    "Zheng X.H.",
+                    "Zhong F.",
+                    "Delcher A.L.",
+                    "Huson D.H.",
+                    "Kravitz S.A.",
+                    "Mouchard L.",
+                    "Reinert K.",
+                    "Remington K.A.",
+                    "Clark A.G.",
+                    "Waterman M.S.",
+                    "Eichler E.E.",
+                    "Adams M.D.",
+                    "Hunkapiller M.W.",
+                    "Myers E.W.",
+                    "Venter J.C."
+                ],
+                "publicationDate": "SEP-2005",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ]
+        },
+        {
+            "citation": {
+                "id": "15489334",
+                "citationType": "journal article",
+                "authoringGroup": [
+                    "The MGC Project Team"
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15489334"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1101/gr.2596504"
+                    }
+                ],
+                "title": "The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).",
+                "publicationDate": "2004",
+                "journal": "Genome Res.",
+                "firstPage": "2121",
+                "lastPage": "2127",
+                "volume": "14"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Brain",
+                    "type": "TISSUE"
+                },
+                {
+                    "value": "Cervix",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-8IEE9IIUINUL2",
+                "citationType": "submission",
+                "authoringGroup": [
+                    "The Cancer Genome Anatomy Project (CGAP) at the National Cancer Institute"
+                ],
+                "publicationDate": "JUN-1999",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 1-104 (ISOFORM 2)"
+            ]
+        },
+        {
+            "citation": {
+                "id": "12516096",
+                "citationType": "journal article",
+                "authors": [
+                    "de Nooij-van Dalen A.G.",
+                    "van Dongen G.A.M.S.",
+                    "Smeets S.J.",
+                    "Nieuwenhuis E.J.C.",
+                    "Stigter-van Walsum M.",
+                    "Snow G.B.",
+                    "Brakenhoff R.H."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "12516096"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1002/ijc.10903"
+                    }
+                ],
+                "title": "Characterization of the human Ly-6 antigens, the newly annotated member Ly-6K included, as molecular markers for head-and-neck squamous cell carcinoma.",
+                "publicationDate": "2003",
+                "journal": "Int. J. Cancer",
+                "firstPage": "768",
+                "lastPage": "774",
+                "volume": "103"
+            },
+            "referencePositions": [
+                "TISSUE SPECIFICITY"
+            ]
+        },
+        {
+            "citation": {
+                "id": "18089789",
+                "citationType": "journal article",
+                "authors": [
+                    "Ishikawa N.",
+                    "Takano A.",
+                    "Yasui W.",
+                    "Inai K.",
+                    "Nishimura H.",
+                    "Ito H.",
+                    "Miyagi Y.",
+                    "Nakayama H.",
+                    "Fujita M.",
+                    "Hosokawa M.",
+                    "Tsuchiya E.",
+                    "Kohno N.",
+                    "Nakamura Y.",
+                    "Daigo Y."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "18089789"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1158/0008-5472.can-07-3243"
+                    }
+                ],
+                "title": "Cancer-testis antigen lymphocyte antigen 6 complex locus K is a serologic biomarker and a therapeutic target for lung and esophageal carcinomas.",
+                "publicationDate": "2007",
+                "journal": "Cancer Res.",
+                "firstPage": "11601",
+                "lastPage": "11611",
+                "volume": "67"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "SUBCELLULAR LOCATION",
+                "TISSUE SPECIFICITY"
+            ]
+        },
+        {
+            "citation": {
+                "id": "21269460",
+                "citationType": "journal article",
+                "authors": [
+                    "Burkard T.R.",
+                    "Planyavsky M.",
+                    "Kaupe I.",
+                    "Breitwieser F.P.",
+                    "Buerckstuemmer T.",
+                    "Bennett K.L.",
+                    "Superti-Furga G.",
+                    "Colinge J."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "21269460"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1186/1752-0509-5-17"
+                    }
+                ],
+                "title": "Initial characterization of the human central proteome.",
+                "publicationDate": "2011",
+                "journal": "BMC Syst. Biol.",
+                "firstPage": "17",
+                "lastPage": "17",
+                "volume": "5"
+            },
+            "referencePositions": [
+                "IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "CCDS",
+            "id": "CCDS59114.1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_001153827.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_001160355.1"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENST00000519387.1",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSP00000429695.1"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSG00000160886.13"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000005640",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 8"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MALLALLLVVALPRVWTDANLTARQRDPEDSQRTDEGDNRVWCHVCERENTFECQNPRRCKWTEPYCVIAAVTVLRWLCSDGETQARGEAVSPGRAHALLLPQVL",
+        "length": 105,
+        "molWeight": 11902,
+        "crc64": "D2FEF4616469798C",
+        "md5": "5F16D872BD532E27AA18D7F6875D5E42"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "ALTERNATIVE PRODUCTS": 2
+        },
+        "uniParcId": "UPI0000E5AF83"
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "GBSeq_locus": "KU666936",
+    "GBSeq_length": "336",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "HTC",
+    "GBSeq_update-date": "27-JUN-2016",
+    "GBSeq_create-date": "27-JUN-2016",
+    "GBSeq_definition": "Trimorphodon lambda three finger toxin 2 mRNA, complete cds",
+    "GBSeq_primary-accession": "KU666936",
+    "GBSeq_accession-version": "KU666936.1",
+    "GBSeq_other-seqids": [
+        "gb|KU666936.1|",
+        "gi|1039726084"
+    ],
+    "GBSeq_keywords": [
+        "HTC"
+    ],
+    "GBSeq_source": "Trimorphodon lambda (Sonoran lyre snake)",
+    "GBSeq_organism": "Trimorphodon lambda",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Colubridae; Colubrinae; Trimorphodon",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..336",
+            "GBReference_authors": [
+                "Modahl,C.M.",
+                "Mackessy,S.P."
+            ],
+            "GBReference_title": "Full-Length Venom Protein cDNA Sequences from Venom-Derived mRNA: Exploring Compositional Variation and Adaptive Multigene Evolution",
+            "GBReference_journal": "PLoS Negl Trop Dis 10 (6), E0004587 (2016)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1371/journal.pntd.0004587"
+                }
+            ],
+            "GBReference_pubmed": "27280639",
+            "GBReference_remark": "Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..336",
+            "GBReference_authors": [
+                "Modahl,C.M.",
+                "Mackessy,S.P."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (03-FEB-2016) School of Biological Sciences, University of Northern Colorado, 501 20th St., Greeley, CO 80639, USA"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..336",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "336",
+                    "GBInterval_accession": "KU666936.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Trimorphodon lambda"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:356346"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..336",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "336",
+                    "GBInterval_accession": "KU666936.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "three finger toxin 2"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "ANN23945.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLALVVVAFMCLGSADEVGLGKEQIDRGRRQAIGPPFTRCSKCNRNRSPHCFIEDRCPPHHFTCYTVYKPNGNGGEDWVVKGCAKTCPNAGPGERVKCCYSSRCNKN"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctggccttggtggtggtggcattcatgtgcctgggctcagctgatgaggtgggactcggaaaggagcaaatagatcgggggcggcgccaagcaataggtccacccttcacacgttgttccaaatgcaatcgaaataggtctccacactgttttatcgaagacagatgtcctccgcatcattttacgtgctacactgtgtacaaacctaatgggaatggtggagaggattgggttgtcaaggggtgtgctaaaacatgccctaatgcaggacctggtgagagagtgaagtgttgctattcatcacggtgcaacaagaattga"
+}

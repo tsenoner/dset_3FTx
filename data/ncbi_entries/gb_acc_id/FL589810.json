@@ -1,0 +1,85 @@
+{
+    "GBSeq_locus": "FL589810",
+    "GBSeq_length": "449",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "EST",
+    "GBSeq_update-date": "18-MAR-2009",
+    "GBSeq_create-date": "14-AUG-2008",
+    "GBSeq_definition": "MCAL01A06.F Coral snake Micrurus corallinus cDNA library Micrurus corallinus cDNA 5', mRNA sequence",
+    "GBSeq_primary-accession": "FL589810",
+    "GBSeq_accession-version": "FL589810.1",
+    "GBSeq_other-seqids": [
+        "gnl|dbEST|60026478",
+        "gb|FL589810.1|",
+        "gi|196120726"
+    ],
+    "GBSeq_keywords": [
+        "EST"
+    ],
+    "GBSeq_source": "Micrurus corallinus (painted coral snake)",
+    "GBSeq_organism": "Micrurus corallinus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Micrurus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..449",
+            "GBReference_authors": [
+                "Leao,L.I.",
+                "Ho,P.L.",
+                "Junqueira-de-Azevedo,I.L.M."
+            ],
+            "GBReference_title": "Transcriptomic basis for an antiserum against Micrurus corallinus (coral snake) venom",
+            "GBReference_journal": "BMC Genomics 10 (1), 112 (2009)",
+            "GBReference_pubmed": "19291316"
+        }
+    ],
+    "GBSeq_comment": "Contact: Inacio de L. M. Junqueira-de-Azevedo~Centro de Biotecnologia~Instituto Butantan~Av. Vital Brazil, 1500, Sao Paulo SP, BRAZIL, 05503-900.~Tel: 55 11 37 26 7222 ext. 2244~Fax: 55 11 37 26 1505~Email: ijuncaze@butantan.gov.br~Seq primer: M13F.",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..449",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "449",
+                    "GBInterval_accession": "FL589810.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Micrurus corallinus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:54390"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom glands"
+                },
+                {
+                    "GBQualifier_name": "clone_lib",
+                    "GBQualifier_value": "SAMN00166466 Coral snake Micrurus corallinus cDNA library"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Organ: venom glands; Vector: Lambda GT11; Site_1: EcoRI; Site_2: NotI"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctgaccttggtggtggtgacaatcgtgtgcctggacttagggaacagcctaatatgttacaatacaatgatgcagaaggtgacttgtccagaagggaaggacaaatgcgagaaatatgcggttccggttatgcgtggtaaattttatttctcatatcaatgtacttctaaatgccatgaaggagcatatgatgtgtgttgctcaacagacctctgcaacaaaagctctacgagtggctaaatttcttgaattttgttctcatccatcatggaccatccttgaaaatttacgcttgttgcctttaccaccagatggtccatcatccccctctcccctgctgtctttgacacctcaacatctttcccttttctcttgttctgtaagtttccttctgctagttctgtagtttgagaatcgaataaaactcagcattc",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN00166466"
+        }
+    ]
+}

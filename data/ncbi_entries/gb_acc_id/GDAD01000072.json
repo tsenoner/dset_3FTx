@@ -1,0 +1,129 @@
+{
+    "GBSeq_locus": "GDAD01000072",
+    "GBSeq_length": "664",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "RNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "19-JUN-2015",
+    "GBSeq_create-date": "19-JUN-2015",
+    "GBSeq_definition": "TSA: Pseudonaja textilis isotig00072 transcribed RNA sequence",
+    "GBSeq_primary-accession": "GDAD01000072",
+    "GBSeq_accession-version": "GDAD01000072.1",
+    "GBSeq_other-seqids": [
+        "gb|GDAD01000072.1|",
+        "gnl|TSA:GDAD01|isotig00072",
+        "gi|837773405"
+    ],
+    "GBSeq_project": "PRJNA274608",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly"
+    ],
+    "GBSeq_source": "Pseudonaja textilis",
+    "GBSeq_organism": "Pseudonaja textilis",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Acanthophiinae; Pseudonaja",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..664",
+            "GBReference_authors": [
+                "Viala,V.L.",
+                "Hildebrand,D.",
+                "Trusch,M.",
+                "Fucase,T.M.",
+                "Sciani,J.M.",
+                "Pimenta,D.C.",
+                "Arni,R.K.",
+                "Schluter,H.",
+                "Betzel,C.",
+                "Mirtschin,P.",
+                "Dunstan,N.",
+                "Spencer,P.J."
+            ],
+            "GBReference_title": "Venomics of the Australian eastern brown snake (Pseudonaja textilis): Detection of new venom proteins and splicing variants",
+            "GBReference_journal": "Toxicon (2015) In press",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/j.toxicon.2015.06.005"
+                }
+            ],
+            "GBReference_pubmed": "26079951",
+            "GBReference_remark": "Publication Status: Available-Online prior to print"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..664",
+            "GBReference_authors": [
+                "Viala,V.L.",
+                "Spencer,P.J."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (11-MAY-2015) Centro de Biotecnologia, Instituto de Pesquisas Energeticas e Nucleares, Av. Prof. Lineu Prestes, 2242, Sao Paulo, SP 05508000, Brasil"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: Newbler v. April-2013 ; Sequencing Technology :: 454 ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..664",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "664",
+                    "GBInterval_accession": "GDAD01000072.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Pseudonaja textilis"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "transcribed RNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "isotig00072"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "BarossaValley01"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8673"
+                },
+                {
+                    "GBQualifier_name": "sex",
+                    "GBQualifier_value": "male"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "Adult"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "aggtgcccaggttttggatgcagaatagaagggtcttccttgaagtcggggaatggttggttcttcacctgatctgatctggcttccgttttggtgttgggggcaaaaaagccacatccccggccttcccctttcccactgaatctccctgtcactctctagatatcctagatatctagccccactcacccacctcgatctcagaggggtataaataagtgtctgcttccatcctgggctacattttgcaggttccagagaagatcgcaagatgaaaactctactgctgaccttggtgatggtgacaatcatgtgcctggacttaggatacaccctaacatgttacaagggttatcatgatactgtggtttgtaaaccacacgagaccatttgctatcgatatgctcttcctgcaactcatggtaatgcggtaaccctcaggggatgtggtacttcttgccctgagggaatccgccctgtgtgttgcagtacggacctatgcaacaagtagctctacaagtggctaaattccttgagatttgctctcatccatcatggaccatccttgaaaatttatgattgtggcctttaccaccagatgatccatcatccctctctcctctgctgtctttgacacctcaacatcttccccttttcgcagtga",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA274608"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN03329627"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR1791676"
+        }
+    ]
+}

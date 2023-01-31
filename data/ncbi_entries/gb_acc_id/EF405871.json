@@ -1,0 +1,128 @@
+{
+    "GBSeq_locus": "EF405871",
+    "GBSeq_length": "496",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "20-FEB-2007",
+    "GBSeq_create-date": "20-FEB-2007",
+    "GBSeq_definition": "Lapemis hardwickii long chain neurotoxin isoform 2 precursor, mRNA, complete cds",
+    "GBSeq_primary-accession": "EF405871",
+    "GBSeq_accession-version": "EF405871.1",
+    "GBSeq_other-seqids": [
+        "gb|EF405871.1|",
+        "gi|125744596"
+    ],
+    "GBSeq_source": "Hydrophis hardwickii (Hardwick's sea snake)",
+    "GBSeq_organism": "Hydrophis hardwickii",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Hydrophiidae; Hydrophis",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..496",
+            "GBReference_authors": [
+                "Tan,T.",
+                "Bi,Q.",
+                "Xiang,X.",
+                "Zhu,S."
+            ],
+            "GBReference_title": "The study of the neurotoxins in sea snake using cDNA phage display technology",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..496",
+            "GBReference_authors": [
+                "Tan,T.",
+                "Bi,Q.",
+                "Xiang,X.",
+                "Zhu,S."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (27-JAN-2007) Department of Biochemistry and Molecular Biology, Life Science College, Peking University, 5 Yiheyuan Road, Haidian District, Beijing, Beijing 100871, P.R. China"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..496",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "496",
+                    "GBInterval_accession": "EF405871.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Hydrophis hardwickii"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8781"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "16..297",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "16",
+                    "GBInterval_to": "297",
+                    "GBInterval_accession": "EF405871.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "long chain neurotoxin isoform 2 precursor"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "ABN54806.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKILLLTLVVVTIVCLDLAYTRTCYRTHPYKPETCPPGQNLCYKKSWCDAFCSSRGKVIELGCTAKCPTVKHGKDINCCATDNCNTVANWKSR"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "16..78",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "16",
+                    "GBInterval_to": "78",
+                    "GBInterval_accession": "EF405871.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MKILLLTLVVVTIVCLDLAYT"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "agcagaagtcccaagatgaaaattctgctgctgaccttggtggtggtgacaatcgtgtgcctggacttagcatacaccaggacatgctacagaacacatccttataaacctgagacttgtccacctgggcagaacctatgctataaaaagagttggtgtgatgctttttgttccagcagaggaaaggtaatcgaactgggatgtactgctaaatgccctacagtgaagcacggaaaagatattaactgttgcgcaacagacaattgcaacacagttgcgaactggaaatctcgttgagtgttgctctcatccatgttgcaccatccttgaaaatttatgcttgtggcctttaccgcagatggtccatcatccccctctcccctgctgtctttgacatctcaacatctttcccttttctctcgttctgtacgtttccttctgctagttctgtagtttgagaatcgaataaaactcagcattcaaaaaaaaaaaaaaa"
+}

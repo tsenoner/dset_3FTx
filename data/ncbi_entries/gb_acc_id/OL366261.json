@@ -1,0 +1,102 @@
+{
+    "GBSeq_locus": "OL366261",
+    "GBSeq_length": "249",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "13-MAR-2022",
+    "GBSeq_create-date": "13-MAR-2022",
+    "GBSeq_definition": "Helicops leopardinus three-finger toxin mRNA, complete cds",
+    "GBSeq_primary-accession": "OL366261",
+    "GBSeq_accession-version": "OL366261.1",
+    "GBSeq_other-seqids": [
+        "gb|OL366261.1|",
+        "gi|2205501340"
+    ],
+    "GBSeq_source": "Helicops leopardinus (Leopard keelback)",
+    "GBSeq_organism": "Helicops leopardinus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Dipsadidae; Helicops",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..249",
+            "GBReference_authors": [
+                "Xie,B."
+            ],
+            "GBReference_title": "The dynamic genetic evolutions underpinning the widespread structural and functional convergences of snake venom proteinaceous toxins",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..249",
+            "GBReference_authors": [
+                "Xie,B."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (05-NOV-2021) Birney Group, European Bioinformatics Institute, Wellcome Genome Campus, Cambridge CB10 1SD, United Kingdom"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: Trinity v. 2.5.0; SoapDenovo-trans v. 1.03; Extender v. 1.0; BinPacker v. 1.0 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..249",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "249",
+                    "GBInterval_accession": "OL366261.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Helicops leopardinus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:2202396"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..249",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "249",
+                    "GBInterval_accession": "OL366261.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "three-finger toxin"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "UMW88050.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLSLVMVAFMYLDSGHTIKCRSYNEFFSFDSENCPNATACYTKRSGLWGLIVVKGCATNCIFPAPGETIQYCVGDKCN"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctgtccttggtgatggtggcattcatgtacctggactcaggacacaccattaaatgtcgctcttacaatgaattctttagttttgactctgagaattgtccaaatgcaacggcatgctatacaaagagatctggtctatggggactgattgtcgtcaagggatgtgctactaattgcatttttccggcacccggtgagacaattcaatattgtgttggagacaagtgcaactag"
+}

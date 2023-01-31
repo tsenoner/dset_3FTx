@@ -1,0 +1,344 @@
+{
+    "GBSeq_locus": "3L22_BUNCA",
+    "GBSeq_length": "75",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "14-DEC-2022",
+    "GBSeq_create-date": "03-MAY-2011",
+    "GBSeq_definition": "RecName: Full=Alpha-elapitoxin-Bc2b; Short=Alpha-EPTX-Bc2b; AltName: Full=Alpha-delta-Bgt-2; AltName: Full=Alpha/delta-bungarotoxin-2; Short=Alpha/delta-BgTx-2; Flags: Precursor",
+    "GBSeq_primary-accession": "A1IVR9",
+    "GBSeq_accession-version": "A1IVR9.1",
+    "GBSeq_other-seqids": [
+        "sp|A1IVR9.1|3L22_BUNCA",
+        "gi|332319761"
+    ],
+    "GBSeq_keywords": [
+        "Acetylcholine receptor inhibiting toxin",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "Ion channel impairing toxin",
+        "Neurotoxin",
+        "Postsynaptic neurotoxin",
+        "Secreted",
+        "Signal",
+        "Toxin"
+    ],
+    "GBSeq_source": "Bungarus candidus",
+    "GBSeq_organism": "Bungarus candidus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Bungarinae; Bungarus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..75",
+            "GBReference_authors": [
+                "Utkin,Y.N.",
+                "Kuch,U.",
+                "Kasheverov,I.E.",
+                "Lebedev,D.S.",
+                "Cederlund,E.",
+                "Molles,B.E.",
+                "Polyak,I.",
+                "Ivanov,I.A.",
+                "Prokopev,N.A.",
+                "Ziganshin,R.H.",
+                "Jornvall,H.",
+                "Alvelius,G.",
+                "Chanhome,L.",
+                "Warrell,D.A.",
+                "Mebs,D.",
+                "Bergman,T.",
+                "Tsetlin,V.I."
+            ],
+            "GBReference_title": "Novel long-chain neurotoxins from Bungarus candidus distinguish the two binding sites in muscle-type nicotinic acetylcholine receptors",
+            "GBReference_journal": "Biochem J 476 (8), 1285-1302 (2019)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1042/BCJ20180909"
+                }
+            ],
+            "GBReference_pubmed": "30944155",
+            "GBReference_remark": "NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 3-37 AND 40-71, FUNCTION, AND MASS SPECTROMETRY.;\nTISSUE=Venom; Publication Status: Online-Only"
+        }
+    ],
+    "GBSeq_comment": "[FUNCTION] Binds to muscular and neuronal nicotinic acetylcholine receptor (nAChR) and inhibits acetylcholine from binding to the receptor, thereby impairing neuromuscular and neuronal transmission (PubMed:30944155). Blocks muscle type nAChR (PubMed:30944155). Also binds with high affinity to alpha-7/CHRNA7 nAChRs (By similarity). In addition, shows a weak inhibition of neuronal alpha-3-beta-2/CHRNA3-CHRNB2 nAChR (By similarity). Selectively binds to alpha-1-delta subunit interface of the mouse muscle nicotinic acetylcholine receptor, with a 10-fold higher affinity for the adult than for the fetal receptors (By similarity). In vivo, when intraperitoneally injected into mice, causes flaccid paralysis and respiratory distress, followed by death within 2-4 hours (By similarity). {ECO:0000250|UniProtKB:A1IVR8, ECO:0000269|PubMed:30944155}.; [SUBUNIT] Monomer in solution, homodimer in crystal state. {ECO:0000250|UniProtKB:P60615}.; [SUBCELLULAR LOCATION] Secreted {ECO:0000250|UniProtKB:A1IVR8}.; [TISSUE SPECIFICITY] Expressed by the venom gland. {ECO:0000305}.; [MASS SPECTROMETRY] Mass=8143.5; Method=MALDI; Evidence={ECO:0000269|PubMed:30944155}.; [SIMILARITY] Belongs to the snake three-finger toxin family. Long-chain subfamily. Type II alpha-neurotoxin sub-subfamily. {ECO:0000305}.",
+    "GBSeq_source-db": "UniProtKB: locus 3L22_BUNCA, accession A1IVR9;; class: standard.; created: May 3, 2011.; sequence updated: Feb 6, 2007.; annotation updated: Dec 14, 2022.; xrefs: AM231682.1, CAJ77820.1; xrefs (non-sequence databases): AlphaFoldDB:A1IVR9, SMR:A1IVR9, GO:0005576, GO:0030550, GO:0099106, GO:0090729, CDD:cd00206, Gene3D:2.10.60.10, InterPro:IPR003571, InterPro:IPR045860, InterPro:IPR018354, InterPro:IPR035076, Pfam:PF00087, SUPFAM:SSF57302, PROSITE:PS00272",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..75",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "75",
+                    "GBInterval_accession": "A1IVR9.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Bungarus candidus"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:92438"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "<1..75",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "75",
+                    "GBInterval_accession": "A1IVR9.1"
+                }
+            ],
+            "GBFeature_partial5": "",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "Alpha-elapitoxin-Bc2b"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Alpha-EPTX-Bc2b; Alpha-delta-Bgt-2; Alpha/delta-bungarotoxin-2; Alpha/delta-BgTx-2"
+                },
+                {
+                    "GBQualifier_name": "UniProtKB_evidence",
+                    "GBQualifier_value": "Evidence at protein level"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "<1..2",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "2",
+                    "GBInterval_accession": "A1IVR9.1"
+                }
+            ],
+            "GBFeature_partial5": "",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Signal"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000269|PubMed:30944155."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "3..75",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "3",
+                    "GBInterval_to": "75",
+                    "GBInterval_accession": "A1IVR9.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Mature chain"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Alpha-elapitoxin-Bc2b. /evidence=ECO:0000305|PubMed:30944155. /id=PRO_5000189421."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "3..67",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "3",
+                    "GBInterval_to": "67",
+                    "GBInterval_accession": "A1IVR9.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "snake_toxin"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Snake toxin domain, present in short and long neurotoxins, cytotoxins and short toxins, and in other miscellaneous venom peptides. The toxin acts by binding to the nicotinic acetylcholine receptors in the postsynaptic membrane of skeletal muscles and...; cd00206"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(5,24)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "5",
+                    "GBInterval_accession": "A1IVR9.1"
+                },
+                {
+                    "GBInterval_point": "24",
+                    "GBInterval_accession": "A1IVR9.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000250|UniProtKB:P60615."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "order(8,13,28..29,37..42)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "8",
+                    "GBInterval_accession": "A1IVR9.1"
+                },
+                {
+                    "GBInterval_point": "13",
+                    "GBInterval_accession": "A1IVR9.1"
+                },
+                {
+                    "GBInterval_from": "28",
+                    "GBInterval_to": "29",
+                    "GBInterval_accession": "A1IVR9.1"
+                },
+                {
+                    "GBInterval_from": "37",
+                    "GBInterval_to": "42",
+                    "GBInterval_accession": "A1IVR9.1"
+                }
+            ],
+            "GBFeature_operator": "order",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "active"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "receptor binding site [active]"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(17,45)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "17",
+                    "GBInterval_accession": "A1IVR9.1"
+                },
+                {
+                    "GBInterval_point": "45",
+                    "GBInterval_accession": "A1IVR9.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000250|UniProtKB:P60615."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(30,34)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "30",
+                    "GBInterval_accession": "A1IVR9.1"
+                },
+                {
+                    "GBInterval_point": "34",
+                    "GBInterval_accession": "A1IVR9.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000250|UniProtKB:P60615."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(49,60)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "49",
+                    "GBInterval_accession": "A1IVR9.1"
+                },
+                {
+                    "GBInterval_point": "60",
+                    "GBInterval_accession": "A1IVR9.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000250|UniProtKB:P60615."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(61,66)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "61",
+                    "GBInterval_accession": "A1IVR9.1"
+                },
+                {
+                    "GBInterval_point": "66",
+                    "GBInterval_accession": "A1IVR9.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000250|UniProtKB:P60615."
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "ytllcyktpipinaetcppgenlcytkmwcdiwcssrgkvvelgcaatcpskkpyeevtccstdkcnphpkqrpd"
+}

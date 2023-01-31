@@ -1,0 +1,478 @@
+{
+    "GBSeq_locus": "NP_803253",
+    "GBSeq_length": "97",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "PRI",
+    "GBSeq_update-date": "25-DEC-2022",
+    "GBSeq_create-date": "27-MAR-2003",
+    "GBSeq_definition": "secreted Ly-6/uPAR domain-containing protein 2 isoform 1 precursor [Homo sapiens]",
+    "GBSeq_primary-accession": "NP_803253",
+    "GBSeq_accession-version": "NP_803253.1",
+    "GBSeq_other-seqids": [
+        "ref|NP_803253.1|",
+        "gi|29294643"
+    ],
+    "GBSeq_keywords": [
+        "RefSeq",
+        "MANE Select"
+    ],
+    "GBSeq_source": "Homo sapiens (human)",
+    "GBSeq_organism": "Homo sapiens",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Homo",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..97",
+            "GBReference_authors": [
+                "Lyukmanova EN",
+                "Bychkov ML",
+                "Sharonov GV",
+                "Efremenko AV",
+                "Shulepko MA",
+                "Kulbatskii DS",
+                "Shenkarev ZO",
+                "Feofanov AV",
+                "Dolgikh DA",
+                "Kirpichnikov MP"
+            ],
+            "GBReference_title": "Human secreted proteins SLURP-1 and SLURP-2 control the growth of epithelial cancer cells via interactions with nicotinic acetylcholine receptors",
+            "GBReference_journal": "Br J Pharmacol 175 (11), 1973-1986 (2018)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1111/bph.14194"
+                }
+            ],
+            "GBReference_pubmed": "29505672",
+            "GBReference_remark": "GeneRIF: SLURPs inhibit growth of epithelial cancer cells in vitro and merit further investigation as potential agents for anticancer therapy"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..97",
+            "GBReference_authors": [
+                "Lyukmanova EN",
+                "Shulepko MA",
+                "Shenkarev ZO",
+                "Bychkov ML",
+                "Paramonov AS",
+                "Chugunov AO",
+                "Kulbatskii DS",
+                "Arvaniti M",
+                "Dolejsi E",
+                "Schaer T",
+                "Arseniev AS",
+                "Efremov RG",
+                "Thomsen MS",
+                "Dolezal V",
+                "Bertrand D",
+                "Dolgikh DA",
+                "Kirpichnikov MP"
+            ],
+            "GBReference_title": "Secreted Isoform of Human Lynx1 (SLURP-2): Spatial Structure and Pharmacology of Interactions with Different Types of Acetylcholine Receptors",
+            "GBReference_journal": "Sci Rep 6, 30698 (2016)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1038/srep30698"
+                }
+            ],
+            "GBReference_pubmed": "27485575",
+            "GBReference_remark": "GeneRIF: Computer modeling revealed possible SLURP-2 binding to the 'classical' orthosteric agonist/antagonist binding sites at alpha7 and alpha3beta2-nAChRs.; Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "3",
+            "GBReference_position": "1..97",
+            "GBReference_authors": [
+                "Loughner CL",
+                "Bruford EA",
+                "McAndrews MS",
+                "Delp EE",
+                "Swamynathan S",
+                "Swamynathan SK"
+            ],
+            "GBReference_title": "Organization, evolution and functions of the human and mouse Ly6/uPAR family genes",
+            "GBReference_journal": "Hum Genomics 10, 10 (2016)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1186/s40246-016-0074-2"
+                }
+            ],
+            "GBReference_pubmed": "27098205",
+            "GBReference_remark": "Review article; Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "4",
+            "GBReference_position": "1..97",
+            "GBReference_authors": [
+                "Moriwaki Y",
+                "Takada K",
+                "Tsuji S",
+                "Kawashima K",
+                "Misawa H"
+            ],
+            "GBReference_title": "Transcriptional regulation of SLURP2, a psoriasis-associated gene, is under control of IL-22 in the skin: A special reference to the nested gene LYNX1",
+            "GBReference_journal": "Int Immunopharmacol 29 (1), 71-75 (2015)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/j.intimp.2015.05.030"
+                }
+            ],
+            "GBReference_pubmed": "26033490"
+        },
+        {
+            "GBReference_reference": "5",
+            "GBReference_position": "1..97",
+            "GBReference_authors": [
+                "Chernyavsky AI",
+                "Galitovskiy V",
+                "Shchepotin IB",
+                "Grando SA"
+            ],
+            "GBReference_title": "Anti-inflammatory effects of the nicotinergic peptides SLURP-1 and SLURP-2 on human intestinal epithelial cells and immunocytes",
+            "GBReference_journal": "Biomed Res Int 2014, 609086 (2014)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1155/2014/609086"
+                }
+            ],
+            "GBReference_pubmed": "24877120"
+        },
+        {
+            "GBReference_reference": "6",
+            "GBReference_position": "1..97",
+            "GBReference_authors": [
+                "Arredondo J",
+                "Chernyavsky AI",
+                "Grando SA"
+            ],
+            "GBReference_title": "Overexpression of SLURP-1 and -2 alleviates the tumorigenic action of tobacco-derived nitrosamine on immortalized oral epithelial cells",
+            "GBReference_journal": "Biochem Pharmacol 74 (8), 1315-1319 (2007)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/j.bcp.2007.06.026"
+                }
+            ],
+            "GBReference_pubmed": "17643396"
+        },
+        {
+            "GBReference_reference": "7",
+            "GBReference_position": "1..97",
+            "GBReference_authors": [
+                "Arredondo J",
+                "Chernyavsky AI",
+                "Jolkovsky DL",
+                "Webber RJ",
+                "Grando SA"
+            ],
+            "GBReference_title": "SLURP-2: A novel cholinergic signaling peptide in human mucocutaneous epithelium",
+            "GBReference_journal": "J Cell Physiol 208 (1), 238-245 (2006)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1002/jcp.20661"
+                }
+            ],
+            "GBReference_pubmed": "16575903"
+        },
+        {
+            "GBReference_reference": "8",
+            "GBReference_position": "1..97",
+            "GBReference_authors": [
+                "Nusbaum C",
+                "Mikkelsen TS",
+                "Zody MC",
+                "Asakawa S",
+                "Taudien S",
+                "Garber M",
+                "Kodira CD",
+                "Schueler MG",
+                "Shimizu A",
+                "Whittaker CA",
+                "Chang JL",
+                "Cuomo CA",
+                "Dewar K",
+                "FitzGerald MG",
+                "Yang X",
+                "Allen NR",
+                "Anderson S",
+                "Asakawa T",
+                "Blechschmidt K",
+                "Bloom T",
+                "Borowsky ML",
+                "Butler J",
+                "Cook A",
+                "Corum B",
+                "DeArellano K",
+                "DeCaprio D",
+                "Dooley KT",
+                "Dorris L 3rd",
+                "Engels R",
+                "Glockner G",
+                "Hafez N",
+                "Hagopian DS",
+                "Hall JL",
+                "Ishikawa SK",
+                "Jaffe DB",
+                "Kamat A",
+                "Kudoh J",
+                "Lehmann R",
+                "Lokitsang T",
+                "Macdonald P",
+                "Major JE",
+                "Matthews CD",
+                "Mauceli E",
+                "Menzel U",
+                "Mihalev AH",
+                "Minoshima S",
+                "Murayama Y",
+                "Naylor JW",
+                "Nicol R",
+                "Nguyen C",
+                "O'Leary SB",
+                "O'Neill K",
+                "Parker SC",
+                "Polley A",
+                "Raymond CK",
+                "Reichwald K",
+                "Rodriguez J",
+                "Sasaki T",
+                "Schilhabel M",
+                "Siddiqui R",
+                "Smith CL",
+                "Sneddon TP",
+                "Talamas JA",
+                "Tenzin P",
+                "Topham K",
+                "Venkataraman V",
+                "Wen G",
+                "Yamazaki S",
+                "Young SK",
+                "Zeng Q",
+                "Zimmer AR",
+                "Rosenthal A",
+                "Birren BW",
+                "Platzer M",
+                "Shimizu N",
+                "Lander ES"
+            ],
+            "GBReference_title": "DNA sequence and analysis of human chromosome 8",
+            "GBReference_journal": "Nature 439 (7074), 331-335 (2006)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1038/nature04406"
+                }
+            ],
+            "GBReference_pubmed": "16421571"
+        },
+        {
+            "GBReference_reference": "9",
+            "GBReference_position": "1..97",
+            "GBReference_authors": [
+                "Tsuji H",
+                "Okamoto K",
+                "Matsuzaka Y",
+                "Iizuka H",
+                "Tamiya G",
+                "Inoko H"
+            ],
+            "GBReference_title": "SLURP-2, a novel member of the human Ly-6 superfamily that is up-regulated in psoriasis vulgaris",
+            "GBReference_journal": "Genomics 81 (1), 26-33 (2003)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/s0888-7543(02)00025-3"
+                }
+            ],
+            "GBReference_pubmed": "12573258"
+        }
+    ],
+    "GBSeq_comment": "REVIEWED REFSEQ: This record has been curated by NCBI staff. The reference sequence was derived from AB081838.1, AC083841.9 and AY358417.1.; ~Summary: This gene encodes a novel, secreted member of the Ly6/uPAR (LU) superfamily of proteins containing the unique three-finger LU domain. This gene is mainly expressed in epithelial cells, including skin and keratinocytes, and is up-regulated in psoriatic skin lesions, suggesting its involvement in the pathophysiology of psoriasis. Alternatively spliced transcript variants have been found for this gene. Read-through transcription from the neighboring upstream gene (LYNX1) generates naturally-occurring transcripts (LYNX1-SLURP2) that encode a fusion protein comprised of sequence sharing identity with each individual gene product. [provided by RefSeq, Sep 2017].; ~Transcript Variant: This variant (1) represents the predominant transcript and encodes the longer isoform (1).; ##Evidence-Data-START## ; Transcript exon combination :: AB081838.1, AY358417.1 [ECO:0000332] ; RNAseq introns :: single sample supports all introns SAMEA2145893, SAMEA2147975 [ECO:0000348] ; ##Evidence-Data-END##; ##RefSeq-Attributes-START## ; MANE Ensembl match :: ENST00000317543.12/ ENSP00000319846.7 ; RefSeq Select criteria :: based on conservation, expression, longest protein ; ##RefSeq-Attributes-END##",
+    "GBSeq_source-db": "REFSEQ: accession NM_177458.3",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..97",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "97",
+                    "GBInterval_accession": "NP_803253.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Homo sapiens"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:9606"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "8"
+                },
+                {
+                    "GBQualifier_name": "map",
+                    "GBQualifier_value": "8q24.3"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..97",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "97",
+                    "GBInterval_accession": "NP_803253.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "secreted Ly-6/uPAR domain-containing protein 2 isoform 1 precursor"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "secreted Ly6/uPAR related protein 2; secreted Ly-6/uPAR-related protein 2; secreted LY6/PLAUR domain-containing protein 2; secreted Ly-6/uPAR domain-containing protein 2"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "8023"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "1..22",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "22",
+                    "GBInterval_accession": "NP_803253.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "inference",
+                    "GBQualifier_value": "COORDINATES: ab initio prediction:SignalP:4.0"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "2155"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MQLGTGLLLAAVLSLQLAAAEA"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "mat_peptide",
+            "GBFeature_location": "23..97",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "23",
+                    "GBInterval_to": "97",
+                    "GBInterval_accession": "NP_803253.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "Secreted Ly-6/uPAR domain-containing protein 2. /id=PRO_0000440646"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "propagated from UniProtKB/Swiss-Prot (P0DP57.1)"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "8023"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "IWCHQCTGFGGCSHGSRCLRDSTHCVTTATRVLSNTEDLPLVTKMCHIGCPDIPSLGLGPYVSIACCQTSLCNHD"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "24..97",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "24",
+                    "GBInterval_to": "97",
+                    "GBInterval_accession": "NP_803253.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "LU"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Ly-6 antigen / uPA receptor -like domain; occurs singly in GPI-linked cell-surface glycoproteins (Ly-6 family,CD59, thymocyte B cell antigen, Sgp-2) or as three-fold repeated domain in urokinase-type plasminogen activator receptor. Topology of these...; cd00117"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:238065"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..97",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "97",
+                    "GBInterval_accession": "NP_803253.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "SLURP2"
+                },
+                {
+                    "GBQualifier_name": "gene_synonym",
+                    "GBQualifier_value": "SLURP-2"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "NM_177458.3:23..316"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "isoform 1 precursor is encoded by transcript variant 1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CCDS:CCDS34952.1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:432355"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "HGNC:HGNC:25549"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mqlgtglllaavlslqlaaaeaiwchqctgfggcshgsrclrdsthcvttatrvlsntedlplvtkmchigcpdipslglgpyvsiaccqtslcnhd"
+}

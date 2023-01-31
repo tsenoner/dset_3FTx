@@ -1,0 +1,787 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A1D5P7D9",
+    "uniProtkbId": "A0A1D5P7D9_CHICK",
+    "entryAudit": {
+        "firstPublicDate": "2016-11-30",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2016-11-30",
+        "entryVersion": 25,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 2.0,
+    "organism": {
+        "scientificName": "Gallus gallus",
+        "commonName": "Chicken",
+        "taxonId": 9031,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Ensembl",
+                "id": "ENSGALP00000048628"
+            }
+        ],
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Archelosauria",
+            "Archosauria",
+            "Dinosauria",
+            "Saurischia",
+            "Theropoda",
+            "Coelurosauria",
+            "Aves",
+            "Neognathae",
+            "Galloanserae",
+            "Galliformes",
+            "Phasianidae",
+            "Phasianinae",
+            "Gallus"
+        ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+        "submissionNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSGALP00000048628"
+                        }
+                    ],
+                    "value": "Lymphocyte antigen 6E"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "Ensembl",
+                        "id": "ENSGALP00000048628"
+                    }
+                ],
+                "value": "LY6E"
+            }
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 20,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 126,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "featureId": "PRO_5008927199"
+        },
+        {
+            "type": "Transmembrane",
+            "location": {
+                "start": {
+                    "value": 105,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 122,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Helical",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "Phobius"
+                }
+            ]
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 110,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "UPAR/Ly6",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000259",
+                    "source": "SMART",
+                    "id": "SM00134"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "Phobius"
+                }
+            ],
+            "id": "KW-0472",
+            "category": "Cellular component",
+            "name": "Membrane"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "Phobius"
+                }
+            ],
+            "id": "KW-0812",
+            "category": "Domain",
+            "name": "Transmembrane"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "Phobius"
+                }
+            ],
+            "id": "KW-1133",
+            "category": "Domain",
+            "name": "Transmembrane helix"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "15592404",
+                "citationType": "journal article",
+                "authoringGroup": [
+                    "International Chicken Genome Sequencing Consortium"
+                ],
+                "authors": [
+                    "Hillier L.W.",
+                    "Miller W.",
+                    "Birney E.",
+                    "Warren W.",
+                    "Hardison R.C.",
+                    "Ponting C.P.",
+                    "Bork P.",
+                    "Burt D.W.",
+                    "Groenen M.A.M.",
+                    "Delany M.E.",
+                    "Dodgson J.B.",
+                    "Chinwalla A.T.",
+                    "Cliften P.F.",
+                    "Clifton S.W.",
+                    "Delehaunty K.D.",
+                    "Fronick C.",
+                    "Fulton R.S.",
+                    "Graves T.A.",
+                    "Kremitzki C.",
+                    "Layman D.",
+                    "Magrini V.",
+                    "McPherson J.D.",
+                    "Miner T.L.",
+                    "Minx P.",
+                    "Nash W.E.",
+                    "Nhan M.N.",
+                    "Nelson J.O.",
+                    "Oddy L.G.",
+                    "Pohl C.S.",
+                    "Randall-Maher J.",
+                    "Smith S.M.",
+                    "Wallis J.W.",
+                    "Yang S.-P.",
+                    "Romanov M.N.",
+                    "Rondelli C.M.",
+                    "Paton B.",
+                    "Smith J.",
+                    "Morrice D.",
+                    "Daniels L.",
+                    "Tempest H.G.",
+                    "Robertson L.",
+                    "Masabanda J.S.",
+                    "Griffin D.K.",
+                    "Vignal A.",
+                    "Fillon V.",
+                    "Jacobbson L.",
+                    "Kerje S.",
+                    "Andersson L.",
+                    "Crooijmans R.P.",
+                    "Aerts J.",
+                    "van der Poel J.J.",
+                    "Ellegren H.",
+                    "Caldwell R.B.",
+                    "Hubbard S.J.",
+                    "Grafham D.V.",
+                    "Kierzek A.M.",
+                    "McLaren S.R.",
+                    "Overton I.M.",
+                    "Arakawa H.",
+                    "Beattie K.J.",
+                    "Bezzubov Y.",
+                    "Boardman P.E.",
+                    "Bonfield J.K.",
+                    "Croning M.D.R.",
+                    "Davies R.M.",
+                    "Francis M.D.",
+                    "Humphray S.J.",
+                    "Scott C.E.",
+                    "Taylor R.G.",
+                    "Tickle C.",
+                    "Brown W.R.A.",
+                    "Rogers J.",
+                    "Buerstedde J.-M.",
+                    "Wilson S.A.",
+                    "Stubbs L.",
+                    "Ovcharenko I.",
+                    "Gordon L.",
+                    "Lucas S.",
+                    "Miller M.M.",
+                    "Inoko H.",
+                    "Shiina T.",
+                    "Kaufman J.",
+                    "Salomonsen J.",
+                    "Skjoedt K.",
+                    "Wong G.K.-S.",
+                    "Wang J.",
+                    "Liu B.",
+                    "Wang J.",
+                    "Yu J.",
+                    "Yang H.",
+                    "Nefedov M.",
+                    "Koriabine M.",
+                    "Dejong P.J.",
+                    "Goodstadt L.",
+                    "Webber C.",
+                    "Dickens N.J.",
+                    "Letunic I.",
+                    "Suyama M.",
+                    "Torrents D.",
+                    "von Mering C.",
+                    "Zdobnov E.M.",
+                    "Makova K.",
+                    "Nekrutenko A.",
+                    "Elnitski L.",
+                    "Eswara P.",
+                    "King D.C.",
+                    "Yang S.-P.",
+                    "Tyekucheva S.",
+                    "Radakrishnan A.",
+                    "Harris R.S.",
+                    "Chiaromonte F.",
+                    "Taylor J.",
+                    "He J.",
+                    "Rijnkels M.",
+                    "Griffiths-Jones S.",
+                    "Ureta-Vidal A.",
+                    "Hoffman M.M.",
+                    "Severin J.",
+                    "Searle S.M.J.",
+                    "Law A.S.",
+                    "Speed D.",
+                    "Waddington D.",
+                    "Cheng Z.",
+                    "Tuzun E.",
+                    "Eichler E.",
+                    "Bao Z.",
+                    "Flicek P.",
+                    "Shteynberg D.D.",
+                    "Brent M.R.",
+                    "Bye J.M.",
+                    "Huckle E.J.",
+                    "Chatterji S.",
+                    "Dewey C.",
+                    "Pachter L.",
+                    "Kouranov A.",
+                    "Mourelatos Z.",
+                    "Hatzigeorgiou A.G.",
+                    "Paterson A.H.",
+                    "Ivarie R.",
+                    "Brandstrom M.",
+                    "Axelsson E.",
+                    "Backstrom N.",
+                    "Berlin S.",
+                    "Webster M.T.",
+                    "Pourquie O.",
+                    "Reymond A.",
+                    "Ucla C.",
+                    "Antonarakis S.E.",
+                    "Long M.",
+                    "Emerson J.J.",
+                    "Betran E.",
+                    "Dupanloup I.",
+                    "Kaessmann H.",
+                    "Hinrichs A.S.",
+                    "Bejerano G.",
+                    "Furey T.S.",
+                    "Harte R.A.",
+                    "Raney B.",
+                    "Siepel A.",
+                    "Kent W.J.",
+                    "Haussler D.",
+                    "Eyras E.",
+                    "Castelo R.",
+                    "Abril J.F.",
+                    "Castellano S.",
+                    "Camara F.",
+                    "Parra G.",
+                    "Guigo R.",
+                    "Bourque G.",
+                    "Tesler G.",
+                    "Pevzner P.A.",
+                    "Smit A.",
+                    "Fulton L.A.",
+                    "Mardis E.R.",
+                    "Wilson R.K."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15592404"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/nature03154"
+                    }
+                ],
+                "title": "Sequence and comparative analysis of the chicken genome provide unique perspectives on vertebrate evolution.",
+                "publicationDate": "2004",
+                "journal": "Nature",
+                "firstPage": "695",
+                "lastPage": "716",
+                "volume": "432"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSGALP00000048628"
+                        }
+                    ],
+                    "value": "Red jungle fowl",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSGALP00000048628"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-V6MLJLJTURL7",
+                "citationType": "submission",
+                "authoringGroup": [
+                    "Ensembl"
+                ],
+                "publicationDate": "OCT-2016",
+                "submissionDatabase": "UniProtKB"
+            },
+            "referencePositions": [
+                "IDENTIFICATION"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSGALP00000048628"
+                        }
+                    ],
+                    "value": "Red jungle fowl",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSGALP00000048628"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "AADN05000664",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "-"
+                },
+                {
+                    "key": "Status",
+                    "value": "NOT_ANNOTATED_CDS"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "A0A1D5P7D9",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENSGALT00000059872.2",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSGALP00000048628.1"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSGALG00000041621.2"
+                }
+            ]
+        },
+        {
+            "database": "VEuPathDB",
+            "id": "HostDB:geneid_395550",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OMA",
+            "id": "CSPICPG",
+            "properties": [
+                {
+                    "key": "Fingerprint",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-GGA-163125",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Post-translational modification: synthesis of GPI-anchored proteins"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-GGA-8963889",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Assembly of active LPL and LIPC lipase complexes"
+                }
+            ]
+        },
+        {
+            "database": "Bgee",
+            "id": "ENSGALG00000041621",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Expressed in cerebellum and 13 other tissues"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0009986",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:cell surface"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:AgBase"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "19945479"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016020",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000318",
+                    "source": "PubMed",
+                    "id": "21873635"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005886",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:plasma membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000318",
+                    "source": "PubMed",
+                    "id": "21873635"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0030550",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:acetylcholine receptor inhibitor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000318",
+                    "source": "PubMed",
+                    "id": "21873635"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0048856",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:anatomical structure development"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProt"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0030154",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:cell differentiation"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProt"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00117",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR016054",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LY6_UPA_recep-like"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00021",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "UPAR_LY6"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SMART",
+            "id": "SM00134",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKAFLLAVLAAVLCVERAHTLICFSCSDASSNWACLTPVKCAENEEHCVTTYVGVGIGGKSGQSISKGCSPVCPSAGINLGIAAASVYCCDSFLCNISGSSSVKASYAVLALGILVSFVYVLRARE",
+        "length": 126,
+        "molWeight": 12977,
+        "crc64": "EFBC83E6674C79B8",
+        "md5": "89C2732AFE383D15EE6C890FB3690801"
+    },
+    "extraAttributes": {
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Transmembrane": 1,
+            "Domain": 1
+        },
+        "uniParcId": "UPI00003AC067"
+    }
+}

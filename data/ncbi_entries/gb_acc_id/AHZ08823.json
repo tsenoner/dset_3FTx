@@ -1,0 +1,187 @@
+{
+    "GBSeq_locus": "AHZ08823",
+    "GBSeq_length": "104",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "11-MAY-2014",
+    "GBSeq_create-date": "11-MAY-2014",
+    "GBSeq_definition": "long neurotoxin [Micropechis ikaheca]",
+    "GBSeq_primary-accession": "AHZ08823",
+    "GBSeq_accession-version": "AHZ08823.1",
+    "GBSeq_other-seqids": [
+        "gb|AHZ08823.1|",
+        "gi|630870197"
+    ],
+    "GBSeq_source": "Micropechis ikaheca",
+    "GBSeq_organism": "Micropechis ikaheca",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Notechinae; Micropechis",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..104",
+            "GBReference_authors": [
+                "Paiva,O.K.",
+                "Pla,D.",
+                "Wright,C.E.",
+                "Sanz,L.",
+                "Gutierrez,J.M.",
+                "Williams,D.J.",
+                "Calvete,J.J."
+            ],
+            "GBReference_title": "Combined venom gland cDNA sequencing and venomics of the New Guinea small-eyed snake, Micropechis ikaheka",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..104",
+            "GBReference_authors": [
+                "Paiva,O.K.",
+                "Pla,D.",
+                "Wright,C.E.",
+                "Sanz,L.",
+                "Gutierrez,J.M.",
+                "Williams,D.J.",
+                "Calvete,J.J."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (24-FEB-2014) Charles Campbell Toxinology Centre, School of Medicine & Health Sciences, University of Papua New Guinea, Taurama Road, Boroko, NCD 111, Papua New Guinea"
+        }
+    ],
+    "GBSeq_comment": "Method: conceptual translation supplied by author.",
+    "GBSeq_source-db": "accession KJ495734.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..104",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "104",
+                    "GBInterval_accession": "AHZ08823.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Micropechis ikaheca"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:66188"
+                },
+                {
+                    "GBQualifier_name": "clone",
+                    "GBQualifier_value": "Mi3FTX-4"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..104",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "104",
+                    "GBInterval_accession": "AHZ08823.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "long neurotoxin"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "11336"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "23..85",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "23",
+                    "GBInterval_to": "85",
+                    "GBInterval_accession": "AHZ08823.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "snake_toxin"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Snake toxin domain, present in short and long neurotoxins, cytotoxins and short toxins, and in other miscellaneous venom peptides. The toxin acts by binding to the nicotinic acetylcholine receptors in the postsynaptic membrane of skeletal muscles and...; cd00206"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "order(24,31,46..47,55..60)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "24",
+                    "GBInterval_accession": "AHZ08823.1"
+                },
+                {
+                    "GBInterval_point": "31",
+                    "GBInterval_accession": "AHZ08823.1"
+                },
+                {
+                    "GBInterval_from": "46",
+                    "GBInterval_to": "47",
+                    "GBInterval_accession": "AHZ08823.1"
+                },
+                {
+                    "GBInterval_from": "55",
+                    "GBInterval_to": "60",
+                    "GBInterval_accession": "AHZ08823.1"
+                }
+            ],
+            "GBFeature_operator": "order",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "active"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "receptor binding site [active]"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..104",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "104",
+                    "GBInterval_accession": "AHZ08823.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "KJ495734.1:1..315"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mktllltlvvvtivcldlgytriclstpdvksktcppgenlcytktwcdafcgsrgkvvelgcaatcpipkhyedviccstdncnpfptqrrprvllssimdhp"
+}

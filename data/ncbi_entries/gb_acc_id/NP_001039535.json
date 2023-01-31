@@ -1,0 +1,207 @@
+{
+    "GBSeq_locus": "NP_001039535",
+    "GBSeq_length": "130",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "MAM",
+    "GBSeq_update-date": "25-JUN-2020",
+    "GBSeq_create-date": "06-SEP-2006",
+    "GBSeq_definition": "lymphocyte antigen 6E precursor [Bos taurus]",
+    "GBSeq_primary-accession": "NP_001039535",
+    "GBSeq_accession-version": "NP_001039535.1",
+    "GBSeq_other-seqids": [
+        "ref|NP_001039535.1|",
+        "gi|114051580"
+    ],
+    "GBSeq_secondary-accessions": [
+        "XP_588220"
+    ],
+    "GBSeq_keywords": [
+        "RefSeq"
+    ],
+    "GBSeq_source": "Bos taurus (cattle)",
+    "GBSeq_organism": "Bos taurus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae; Bovinae; Bos",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..130",
+            "GBReference_authors": [
+                "Zimin AV",
+                "Delcher AL",
+                "Florea L",
+                "Kelley DR",
+                "Schatz MC",
+                "Puiu D",
+                "Hanrahan F",
+                "Pertea G",
+                "Van Tassell CP",
+                "Sonstegard TS",
+                "Marcais G",
+                "Roberts M",
+                "Subramanian P",
+                "Yorke JA",
+                "Salzberg SL"
+            ],
+            "GBReference_title": "A whole-genome assembly of the domestic cow, Bos taurus",
+            "GBReference_journal": "Genome Biol. 10 (4), R42 (2009)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1186/gb-2009-10-4-r42"
+                }
+            ],
+            "GBReference_pubmed": "19393038"
+        }
+    ],
+    "GBSeq_comment": "PROVISIONAL REFSEQ: This record has not yet been subject to final NCBI review. The reference sequence was derived from BC114823.1.; On Sep 7, 2006 this sequence version replaced XP_588220.1.; ##Evidence-Data-START## ; Transcript exon combination :: BC114823.1, EV635659.1 [ECO:0000332] ; RNAseq introns :: single sample supports all introns SAMN03145413, SAMN03145419 [ECO:0000348] ; ##Evidence-Data-END##",
+    "GBSeq_source-db": "REFSEQ: accession NM_001046070.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..130",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "130",
+                    "GBInterval_accession": "NP_001039535.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Bos taurus"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:9913"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "14"
+                },
+                {
+                    "GBQualifier_name": "map",
+                    "GBQualifier_value": "14"
+                },
+                {
+                    "GBQualifier_name": "breed",
+                    "GBQualifier_value": "Hereford"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..130",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "130",
+                    "GBInterval_accession": "NP_001039535.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "lymphocyte antigen 6E precursor"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "lymphocyte antigen 6 complex, locus E"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "11592"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "1..20",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "20",
+                    "GBInterval_accession": "NP_001039535.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "inference",
+                    "GBQualifier_value": "COORDINATES: ab initio prediction:SignalP:4.0"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "2179"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MKVFLPLLLAALLGVERAHS"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "21..100",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "21",
+                    "GBInterval_to": "100",
+                    "GBInterval_accession": "NP_001039535.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "LU"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Ly-6 antigen / uPA receptor -like domain; occurs singly in GPI-linked cell-surface glycoproteins (Ly-6 family,CD59, thymocyte B cell antigen, Sgp-2) or as three-fold repeated domain in urokinase-type plasminogen activator receptor. Topology of these...; cd00117"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:238065"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..130",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "130",
+                    "GBInterval_accession": "NP_001039535.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LY6E"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "NM_001046070.1:189..581"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "BGD:BT11653"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:510977"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "VGNC:VGNC:31089"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mkvflplllaallgverahslvcftcqnvqsnwyclkpticsntdsycvtvsasaglknvvdlgyslykfcspicgstslnfgvasmdtsccqsflcnisaagrgprastlvlglglllsllvallrfgp"
+}

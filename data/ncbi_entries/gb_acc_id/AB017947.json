@@ -1,0 +1,114 @@
+{
+    "GBSeq_locus": "AB017947",
+    "GBSeq_length": "469",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "09-MAR-1999",
+    "GBSeq_create-date": "09-MAR-1999",
+    "GBSeq_definition": "Laticauda colubrina mRNA for short chain neurotoxin, clone Lc FIJ-03, complete cds",
+    "GBSeq_primary-accession": "AB017947",
+    "GBSeq_accession-version": "AB017947.1",
+    "GBSeq_other-seqids": [
+        "dbj|AB017947.1|",
+        "gi|4519845"
+    ],
+    "GBSeq_source": "Laticauda colubrina (yellow-lipped sea krait)",
+    "GBSeq_organism": "Laticauda colubrina",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Laticaudinae; Laticauda",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..469",
+            "GBReference_authors": [
+                "Kariya,Y.",
+                "Araki,S.",
+                "Agu,H.",
+                "Tamiya,T.",
+                "Tsuchiya,T."
+            ],
+            "GBReference_title": "Classification of sea snakes in genus Laticauda by nucleotide sequences encoding short chain neurotoxins",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..469",
+            "GBReference_authors": [
+                "Tamiya,T.",
+                "Kariya,Y."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (25-SEP-1998) Toru Tamiya, Sophia University, Department of Chemistry; 7-1, Kioi-cho, Chiyoda-ku, Tokyo 141-8554, Japan (E-mail:t_tamiya@hoffman.cc.sophia.ac.jp, Tel:81-3-3238-3363, Fax:81-3-3238-3361)"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..469",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "469",
+                    "GBInterval_accession": "AB017947.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Laticauda colubrina"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8628"
+                },
+                {
+                    "GBQualifier_name": "clone",
+                    "GBQualifier_value": "Lc FIJ-03"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "snake venom gland"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..252",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "252",
+                    "GBInterval_accession": "AB017947.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "short chain neurotoxin"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "BAA75767.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVVVTMVCLDLAYTRRCYNQQSSQPKTTKSCPPGENSCYNKQWRDHRGSITERGCGCPKVKPGIKLRCCESEDCNN"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctgaccttggtggtggtgacaatggtgtgcctggacttagcatacaccaggagatgttacaaccaacagtcatcgcaacctaaaaccactaaaagttgtccacctggggagaactcttgctataacaagcagtggagagatcaccgtggatctataactgaaaggggatgtggttgccccaaagtgaagcccggaataaaacttagatgttgcgaatcagaggactgcaacaattagctctacgagtggctagattccttgagttttactctcattcatcaaggaccatccttgaaaatttatgcttctggcctttaccaccacatggtccatcatccccctctcccctgctgtctttgacaactcaacatttttcccttttctcttgttctgtaagtttccttctgctagttctgtagtttgagaatcaaataaacctcagcattcaattcaa"
+}

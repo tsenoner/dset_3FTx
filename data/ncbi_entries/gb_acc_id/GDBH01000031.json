@@ -1,0 +1,154 @@
+{
+    "GBSeq_locus": "GDBH01000031",
+    "GBSeq_length": "851",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "RNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "30-JUN-2016",
+    "GBSeq_create-date": "30-JUN-2016",
+    "GBSeq_definition": "TSA: Micrurus tener Mtene_3FTx-19 transcribed RNA sequence",
+    "GBSeq_primary-accession": "GDBH01000031",
+    "GBSeq_accession-version": "GDBH01000031.1",
+    "GBSeq_other-seqids": [
+        "gb|GDBH01000031.1|",
+        "gnl|TSA:GDBH01|Mtene_3FTx-19",
+        "gi|1041578813"
+    ],
+    "GBSeq_project": "PRJNA88989",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly",
+        "Targeted"
+    ],
+    "GBSeq_source": "Micrurus tener (Texas coral snake)",
+    "GBSeq_organism": "Micrurus tener",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Micrurus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..851",
+            "GBReference_authors": [
+                "Rokyta,D.R.",
+                "Margres,M.J.",
+                "Calvin,K."
+            ],
+            "GBReference_title": "Post-transcriptional Mechanisms Contribute Little to Phenotypic Variation in Snake Venoms",
+            "GBReference_journal": "G3 (Bethesda) 5 (11), 2375-2382 (2015)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1534/g3.115.020578"
+                }
+            ],
+            "GBReference_pubmed": "26358130",
+            "GBReference_remark": "Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..851",
+            "GBReference_authors": [
+                "Margres,M.J.",
+                "Rokyta,D.R."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (21-MAY-2015) Department of Biological Science, Florida State University, 319 Stadium Drive, Tallahassee, FL 32306, USA"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: NGen Version 11 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..851",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "851",
+                    "GBInterval_accession": "GDBH01000031.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Micrurus tener"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "transcribed RNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "Mtene_3FTx-19"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "KW1743"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:1114301"
+                },
+                {
+                    "GBQualifier_name": "sex",
+                    "GBQualifier_value": "male"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "Venom gland"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "Adult"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "111..347",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "111",
+                    "GBInterval_to": "347",
+                    "GBInterval_accession": "GDBH01000031.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "Three-finger toxin 19"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "JAS05202.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGHTLQCYVGEGSKFVTCPEGDTHCYTTALAIRITYPIIRGCTSSCCPYYIKCCTTDKCND"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "ctggacatcggattcttttcgtctaatctaattccactagatccaccctttcactttcctccctgatttgtcactgcctgtgtgcatctggctccagagaagatcgcaagatgaaaactctgctgctgactttggtggtggtgacaatcgtgtgcctggacttaggacataccctacaatgttacgttggagaaggttctaaatttgtgacttgtccggagggggacacccattgctataccacggctcttgcaattaggattacatatccgatcattcggggatgtacttcttcttgctgtccgtactatattaagtgttgcacaacagacaaatgcaacgattagctctacgagtttctttgagttttgctctcattcatcatggaccatcctcgaaaatttatgcttgtggcctttacccccaggtggtccataatccccctttccccgctgtctttgacccctcaacgtctttcccttttctcttgttctgtaaatttccttctgctagttctgtagtttgagaatcaaataaacctcagcgttcaattcaagtgttttgattttttaattcccccctcaaaacatccctttcacgaaacccacaggtagagagtctttctccaagacccagcatgcagtgatgctaggatgagtaggattaggtccaaatccctgttgaatcatggcttggattgcctaacgggtaataaccttagattcagacagggtaaagaaagaggagaggcccacagctgagtctttgctcggtgaagcctcgaacttcagggctgctccatccctccctttcttctctctgtgggaagctgggaggaggaggaagatgcg",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA88989"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN03658783"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR2028245"
+        }
+    ]
+}

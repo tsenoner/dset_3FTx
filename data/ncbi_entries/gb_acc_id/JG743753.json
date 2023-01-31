@@ -1,0 +1,92 @@
+{
+    "GBSeq_locus": "JG743753",
+    "GBSeq_length": "497",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "EST",
+    "GBSeq_update-date": "05-NOV-2018",
+    "GBSeq_create-date": "05-APR-2011",
+    "GBSeq_definition": "MAAL04H04.F Coral snake Micrurus altirostris cDNA library Micrurus altirostris cDNA 5', mRNA sequence",
+    "GBSeq_primary-accession": "JG743753",
+    "GBSeq_accession-version": "JG743753.1",
+    "GBSeq_other-seqids": [
+        "gnl|dbEST|73797951",
+        "gb|JG743753.1|",
+        "gi|327507151"
+    ],
+    "GBSeq_keywords": [
+        "EST"
+    ],
+    "GBSeq_source": "Micrurus altirostris",
+    "GBSeq_organism": "Micrurus altirostris",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Micrurus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..497",
+            "GBReference_authors": [
+                "Correa-Netto,C.",
+                "Junqueira-de-Azevedo,I.L.M.",
+                "Silva,D.A.",
+                "Ho,P.L.",
+                "Leitao-De-Araujo,M.",
+                "Alves,M.L.M.",
+                "Sanz,L.",
+                "Foguel,D.",
+                "Zingali,R.B.",
+                "Calvete,J.J."
+            ],
+            "GBReference_title": "Snake venomics and venom gland transcriptomic analysis of Brazilian coral snakes, Micrurus altirostris and M. corallinus",
+            "GBReference_journal": "J Proteomics 74 (9), 1795-1809 (2011)",
+            "GBReference_pubmed": "21515432"
+        }
+    ],
+    "GBSeq_comment": "Contact: Inacio de L. M. Junqueira-de-Azevedo~Centro de Biotecnologia~Instituto Butantan~Av. Vital Brazil, 1500, Sao Paulo SP, BRAZIL, 05503-900.~Tel: 55 11 37 26 7222 ext. 2244~Fax: 55 11 37 26 1505~Email: ijuncaze@butantan.gov.br~Seq primer: M13R.",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..497",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "497",
+                    "GBInterval_accession": "JG743753.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Micrurus altirostris"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:129457"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom glands"
+                },
+                {
+                    "GBQualifier_name": "clone_lib",
+                    "GBQualifier_value": "SAMN00255044 Coral snake Micrurus altirostris cDNA library"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Organ: venom glands; Vector: pSPORT-1; Site_1: SalI; Site_2: NotI; 5ug of mRNA from M. altirostris venom glands were primed with oligo- (dT) Not-I and reverse transcribed to cDNA using Superscript Plasmid System for cDNA Synthesis and Cloning (Invitrogen). The cDNAs were selected by size (350-600 pb and up 600 pb) in agarose gel electrophoresis, linked to Sal I adapters and directionally cloned in pSPORT-1 vector."
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atcgcaagatgaaaactctgctgctgaccttgttggtggtgacaatcgtgtgcctggacttaggatacaccaagacatgttataaatactactcatcgttttggaaaatcactgagacttgtccagatgggcagaacctatgttataaaaggtggcatatgcttgctccagggagatatgatattctcaggggatgtgctgctacttgccctatagcgcaaaaccatgatagcattgagtgttgcgcaaaagacaattgcaacatgtagctctacgagtggctaaattctttgagttttgctctcattcatcatggaacatcctcaaaaatttatgcttgtggcctttaccaccaggtggttcataatcccgcactcccctgctttctttgacatctcgtcatctttcccttttctcttgttctgtaagtttccttcagctagttctgtagtttgagaatcaaataaaattcagcattcaattcgngaganaaaaaa",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN00255044"
+        }
+    ]
+}

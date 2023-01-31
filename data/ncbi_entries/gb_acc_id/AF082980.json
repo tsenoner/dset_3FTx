@@ -1,0 +1,152 @@
+{
+    "GBSeq_locus": "AF082980",
+    "GBSeq_length": "240",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "24-NOV-1999",
+    "GBSeq_create-date": "28-JUN-1999",
+    "GBSeq_definition": "Pseudonaja textilis clone PT-SNTX6 short neurotoxin precursor, mRNA, complete cds",
+    "GBSeq_primary-accession": "AF082980",
+    "GBSeq_accession-version": "AF082980.1",
+    "GBSeq_other-seqids": [
+        "gb|AF082980.1|",
+        "gi|5230709"
+    ],
+    "GBSeq_source": "Pseudonaja textilis",
+    "GBSeq_organism": "Pseudonaja textilis",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Acanthophiinae; Pseudonaja",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..240",
+            "GBReference_authors": [
+                "Gong,N.",
+                "Armugam,A.",
+                "Jeyaseelan,K."
+            ],
+            "GBReference_title": "Postsynaptic short-chain neurotoxins from Pseudonaja textilis. cDNA cloning, expression and protein characterization",
+            "GBReference_journal": "Eur. J. Biochem. 265 (3), 982-989 (1999)",
+            "GBReference_pubmed": "10518793"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..240",
+            "GBReference_authors": [
+                "Jeyaseelan,K.",
+                "Gong,N.L.",
+                "Armugam,A."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (10-AUG-1998) Biochemistry, National University of Singapore, 10 Kent Ridge Crescent, Singapore 119260, Singapore"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..240",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "240",
+                    "GBInterval_accession": "AF082980.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Pseudonaja textilis"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8673"
+                },
+                {
+                    "GBQualifier_name": "clone",
+                    "GBQualifier_value": "PT-SNTX6"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..240",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "240",
+                    "GBInterval_accession": "AF082980.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "short neurotoxin precursor"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "AAD40972.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVMVTIMCLDLGYTLTCYKSLSGTVVCKPHETICYRRLIPATHGNAIIDRGCSTSCPGGNRPVCCSTDLCNK"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "1..63",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "63",
+                    "GBInterval_accession": "AF082980.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MKTLLLTLVMVTIMCLDLGYT"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "mat_peptide",
+            "GBFeature_location": "64..237",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "64",
+                    "GBInterval_to": "237",
+                    "GBInterval_accession": "AF082980.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "short neurotoxin"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "LTCYKSLSGTVVCKPHETICYRRLIPATHGNAIIDRGCSTSCPGGNRPVCCSTDLCNK"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctactgctgaccttggtgatggtgacaatcatgtgcctggacttaggatacaccctaacatgttacaagtctctgagtggtactgtggtttgtaaaccacacgagaccatttgctatcgacgtcttattcctgcaactcatggtaatgcgataatcgacaggggatgtagtacttcttgccctgggggaaaccgccctgtgtgttgcagtacggacctgtgcaacaagtag"
+}

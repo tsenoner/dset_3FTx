@@ -1,0 +1,260 @@
+{
+    "GBSeq_locus": "NP_080947",
+    "GBSeq_length": "127",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "ROD",
+    "GBSeq_update-date": "20-DEC-2022",
+    "GBSeq_create-date": "23-JUL-2006",
+    "GBSeq_definition": "ly6/PLAUR domain-containing protein 2 precursor [Mus musculus]",
+    "GBSeq_primary-accession": "NP_080947",
+    "GBSeq_accession-version": "NP_080947.1",
+    "GBSeq_other-seqids": [
+        "ref|NP_080947.1|",
+        "gi|110625683"
+    ],
+    "GBSeq_secondary-accessions": [
+        "XP_128291",
+        "XP_914692",
+        "XP_996514"
+    ],
+    "GBSeq_keywords": [
+        "RefSeq",
+        "RefSeq Select"
+    ],
+    "GBSeq_source": "Mus musculus (house mouse)",
+    "GBSeq_organism": "Mus musculus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae; Murinae; Mus; Mus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..127",
+            "GBReference_authors": [
+                "Loughner CL",
+                "Bruford EA",
+                "McAndrews MS",
+                "Delp EE",
+                "Swamynathan S",
+                "Swamynathan SK"
+            ],
+            "GBReference_title": "Organization, evolution and functions of the human and mouse Ly6/uPAR family genes",
+            "GBReference_journal": "Hum Genomics 10, 10 (2016)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1186/s40246-016-0074-2"
+                }
+            ],
+            "GBReference_pubmed": "27098205",
+            "GBReference_remark": "Review article; Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..127",
+            "GBReference_authors": [
+                "Tang T",
+                "Li L",
+                "Tang J",
+                "Li Y",
+                "Lin WY",
+                "Martin F",
+                "Grant D",
+                "Solloway M",
+                "Parker L",
+                "Ye W",
+                "Forrest W",
+                "Ghilardi N",
+                "Oravecz T",
+                "Platt KA",
+                "Rice DS",
+                "Hansen GM",
+                "Abuin A",
+                "Eberhart DE",
+                "Godowski P",
+                "Holt KH",
+                "Peterson A",
+                "Zambrowicz BP",
+                "de Sauvage FJ"
+            ],
+            "GBReference_title": "A mouse knockout library for secreted and transmembrane proteins",
+            "GBReference_journal": "Nat Biotechnol 28 (7), 749-755 (2010)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1038/nbt.1644"
+                }
+            ],
+            "GBReference_pubmed": "20562862"
+        }
+    ],
+    "GBSeq_comment": "PROVISIONAL REFSEQ: This record has not yet been subject to final NCBI review. The reference sequence was derived from BC099511.1.; On or before Jul 24, 2006 this sequence version replaced XP_128291.1, XP_914692.1, XP_996514.1.; ##Evidence-Data-START## ; Transcript exon combination :: BC099511.1, CK794492.1 [ECO:0000332] ; RNAseq introns :: single sample supports all introns SAMN00849375, SAMN00849376 [ECO:0000348] ; ##Evidence-Data-END##; ##RefSeq-Attributes-START## ; RefSeq Select criteria :: based on conservation, expression, longest protein ; ##RefSeq-Attributes-END##",
+    "GBSeq_source-db": "REFSEQ: accession NM_026671.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..127",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "127",
+                    "GBInterval_accession": "NP_080947.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Mus musculus"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:10090"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "15"
+                },
+                {
+                    "GBQualifier_name": "map",
+                    "GBQualifier_value": "15"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..127",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "127",
+                    "GBInterval_accession": "NP_080947.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "ly6/PLAUR domain-containing protein 2 precursor"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "ly6/PLAUR domain-containing protein 2; H8C4 protein"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "10931"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "1..22",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "22",
+                    "GBInterval_accession": "NP_080947.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "inference",
+                    "GBQualifier_value": "COORDINATES: ab initio prediction:SignalP:4.0"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "2367"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MQGTWMVLLALILGTFGELAMA"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "23..102",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "23",
+                    "GBInterval_to": "102",
+                    "GBInterval_accession": "NP_080947.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "LU"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Ly-6 antigen / uPA receptor -like domain; occurs singly in GPI-linked cell-surface glycoproteins (Ly-6 family,CD59, thymocyte B cell antigen, Sgp-2) or as three-fold repeated domain in urokinase-type plasminogen activator receptor. Topology of these...; cd00117"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:238065"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "46",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "46",
+                    "GBInterval_accession": "NP_080947.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "glycosylation"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "N-linked (GlcNAc...) asparagine. /evidence=ECO:0000255; propagated from UniProtKB/Swiss-Prot (Q9DD23.1)"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..127",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "127",
+                    "GBInterval_accession": "NP_080947.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "Lypd2"
+                },
+                {
+                    "GBQualifier_name": "gene_synonym",
+                    "GBQualifier_value": "0610005K03Rik; Lypdc2; VLL"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "NM_026671.1:27..410"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CCDS:CCDS27529.1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:68311"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "MGI:MGI:1915561"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mqgtwmvllalilgtfgelamalqcytcanpvsasncvttthchinetmckttlysleivfpflgdstvtkscaskcepsdvdgigqtrpvsccnsdlcnvdgapslgspgglllalalflllgvll"
+}

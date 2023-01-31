@@ -1,0 +1,232 @@
+{
+    "GBSeq_locus": "X91990",
+    "GBSeq_length": "222",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "27-JUN-2018",
+    "GBSeq_create-date": "18-OCT-1995",
+    "GBSeq_definition": "B.multicinctus mRNA for alpha-bungarotoxin protein",
+    "GBSeq_primary-accession": "X91990",
+    "GBSeq_accession-version": "X91990.1",
+    "GBSeq_other-seqids": [
+        "emb|X91990.1|",
+        "gi|3355326"
+    ],
+    "GBSeq_keywords": [
+        "alpha-bungarotoxin"
+    ],
+    "GBSeq_source": "Bungarus multicinctus (many-banded krait)",
+    "GBSeq_organism": "Bungarus multicinctus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Bungarinae; Bungarus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..222",
+            "GBReference_authors": [
+                "Kuo,K.W.",
+                "Chen,Y.C.",
+                "Chang,C.C."
+            ],
+            "GBReference_title": "cDNA sequence analysis and expression of alpha-bungarotoxin from Taiwan banded krait (Bungarus multicinctus)",
+            "GBReference_journal": "Biochem. Biophys. Res. Commun. 216 (3), 1088-1094 (1995)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1006/bbrc.1995.2732"
+                }
+            ],
+            "GBReference_pubmed": "7488184"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..222",
+            "GBReference_authors": [
+                "Kuo,K.W.W."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (05-OCT-1995) K.W. Kuo, Kaohsiung Medical College, Dept. of Biochemistry, Kaohsiung 807, TAIWAN"
+        }
+    ],
+    "GBSeq_comment": "On Jul 30, 1998 this sequence version replaced gi:1027508.",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..222",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "222",
+                    "GBInterval_accession": "X91990.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Bungarus multicinctus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "strain",
+                    "GBQualifier_value": "Taiwan banded krait"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8616"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom glands"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "<1..>222",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "222",
+                    "GBInterval_accession": "X91990.1"
+                }
+            ],
+            "GBFeature_partial5": "",
+            "GBFeature_partial3": "",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "alpha-bungarotoxin"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "CAA63045.1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GOA:P60615"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "InterPro:IPR003571"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "InterPro:IPR018354"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "InterPro:IPR035076"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1ABT"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1BXP"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1HAA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1HAJ"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1HC9"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1HOY"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1IDG"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1IDH"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1IDI"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1IDL"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1IK8"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1IKC"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1JBD"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1KC4"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1KFH"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1KL8"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1L4W"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1LJZ"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1LK1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:1RGJ"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:2ABX"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "PDB:2BTX"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "UniProtKB/Swiss-Prot:P60615"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "IVCHTTATSPISAVTCPPGENLCYRKMWCDAFCSSRGKVVELGCAATCPSKKPYEEVTCCSTDKCNPHPKQRPG"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atcgtatgccacacaacagctacttcgcctattagcgctgtgacttgtccacctggggagaacctatgctatagaaagatgtggtgtgatgcattctgttccagcagaggaaaggtagtcgaattggggtgtgctgctacttgcccttcaaagaagccctatgaggaagttacctgttgctcaacagacaagtgcaacccacatccgaaacagagacctggt"
+}

@@ -1,0 +1,302 @@
+{
+    "GBSeq_locus": "3L21_ACAAN",
+    "GBSeq_length": "73",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "14-DEC-2022",
+    "GBSeq_create-date": "21-JUL-1986",
+    "GBSeq_definition": "RecName: Full=Alpha-elapitoxin-Aa2b; Short=Alpha-EPTX-Aa2b; AltName: Full=Long neurotoxin 1",
+    "GBSeq_primary-accession": "P01385",
+    "GBSeq_accession-version": "P01385.1",
+    "GBSeq_other-seqids": [
+        "sp|P01385.1|3L21_ACAAN",
+        "gi|128920"
+    ],
+    "GBSeq_keywords": [
+        "Acetylcholine receptor inhibiting toxin",
+        "Direct protein sequencing",
+        "Disulfide bond",
+        "Ion channel impairing toxin",
+        "Neurotoxin",
+        "Postsynaptic neurotoxin",
+        "Secreted",
+        "Toxin"
+    ],
+    "GBSeq_source": "Acanthophis antarcticus (death adder)",
+    "GBSeq_organism": "Acanthophis antarcticus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Acanthophiinae; Acanthophis",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..73",
+            "GBReference_authors": [
+                "Kim,H.S.",
+                "Tamiya,N."
+            ],
+            "GBReference_title": "Isolation, properties and amino acid sequence of a long-chain neurotoxin, Acanthophis antarcticus b, from the venom of an Australian snake (the common death adder, Acanthophis antarcticus)",
+            "GBReference_journal": "Biochem J 193 (3), 899-906 (1981)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1042/bj1930899"
+                }
+            ],
+            "GBReference_pubmed": "7305964",
+            "GBReference_remark": "PROTEIN SEQUENCE, TOXIC DOSE, AND SUBCELLULAR LOCATION.;\nTISSUE=Venom"
+        }
+    ],
+    "GBSeq_comment": "On Apr 12, 2005 this sequence version replaced gi:69416.; [FUNCTION] Binds with high affinity to muscular (alpha-1/CHRNA1) and neuronal (alpha-7/CHRNA7) nicotinic acetylcholine receptor (nAChR) and inhibits acetylcholine from binding to the receptor, thereby impairing neuromuscular and neuronal transmission. {ECO:0000250|UniProtKB:P60615}.; [SUBCELLULAR LOCATION] Secreted {ECO:0000269|PubMed:7305964}.; [TISSUE SPECIFICITY] Expressed by the venom gland. {ECO:0000305}.; [TOXIC DOSE] LD(50) is 0.13 mg/kg by intramuscular injection into mice. {ECO:0000269|PubMed:7305964}.; [SIMILARITY] Belongs to the snake three-finger toxin family. Long-chain subfamily. Type II alpha-neurotoxin sub-subfamily. {ECO:0000305}.",
+    "GBSeq_source-db": "UniProtKB: locus 3L21_ACAAN, accession P01385;; class: standard.; created: Jul 21, 1986.; sequence updated: Jul 21, 1986.; annotation updated: Dec 14, 2022.; xrefs: N2AW1; xrefs (non-sequence databases): AlphaFoldDB:P01385, SMR:P01385, GO:0005576, GO:0030550, GO:0099106, GO:0090729, CDD:cd00206, Gene3D:2.10.60.10, InterPro:IPR003571, InterPro:IPR045860, InterPro:IPR018354, SUPFAM:SSF57302, PROSITE:PS00272",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..73",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "73",
+                    "GBInterval_accession": "P01385.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Acanthophis antarcticus"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8605"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..73",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "73",
+                    "GBInterval_accession": "P01385.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "Alpha-elapitoxin-Aa2b"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Alpha-EPTX-Aa2b; Long neurotoxin 1"
+                },
+                {
+                    "GBQualifier_name": "UniProtKB_evidence",
+                    "GBQualifier_value": "Evidence at protein level"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "8135"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "1..73",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "73",
+                    "GBInterval_accession": "P01385.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "Mature chain"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Alpha-elapitoxin-Aa2b. /id=PRO_0000093527."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(3,20)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "3",
+                    "GBInterval_accession": "P01385.1"
+                },
+                {
+                    "GBInterval_point": "20",
+                    "GBInterval_accession": "P01385.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000250."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "<11..63",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "11",
+                    "GBInterval_to": "63",
+                    "GBInterval_accession": "P01385.1"
+                }
+            ],
+            "GBFeature_partial5": "",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "snake_toxin"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Snake toxin domain, present in short and long neurotoxins, cytotoxins and short toxins, and in other miscellaneous venom peptides. The toxin acts by binding to the nicotinic acetylcholine receptors in the postsynaptic membrane of skeletal muscles and...; cd00206"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(13,41)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "13",
+                    "GBInterval_accession": "P01385.1"
+                },
+                {
+                    "GBInterval_point": "41",
+                    "GBInterval_accession": "P01385.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000250."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "order(24..25,33..38)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "24",
+                    "GBInterval_to": "25",
+                    "GBInterval_accession": "P01385.1"
+                },
+                {
+                    "GBInterval_from": "33",
+                    "GBInterval_to": "38",
+                    "GBInterval_accession": "P01385.1"
+                }
+            ],
+            "GBFeature_operator": "order",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "active"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "receptor binding site [active]"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(26,30)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "26",
+                    "GBInterval_accession": "P01385.1"
+                },
+                {
+                    "GBInterval_point": "30",
+                    "GBInterval_accession": "P01385.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000250."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(45,56)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "45",
+                    "GBInterval_accession": "P01385.1"
+                },
+                {
+                    "GBInterval_point": "56",
+                    "GBInterval_accession": "P01385.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000250."
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Bond",
+            "GBFeature_location": "bond(57,62)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "57",
+                    "GBInterval_accession": "P01385.1"
+                },
+                {
+                    "GBInterval_point": "62",
+                    "GBInterval_accession": "P01385.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "bond_type",
+                    "GBQualifier_value": "disulfide"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "/evidence=ECO:0000250."
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "vicyrgynnpqtcppgenvcftrtwcdafcssrgkvvelgcaatcpivksynevkccstdkcnpfpvrprrpp"
+}

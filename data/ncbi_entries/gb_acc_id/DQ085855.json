@@ -1,0 +1,158 @@
+{
+    "GBSeq_locus": "DQ085855",
+    "GBSeq_length": "532",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "23-AUG-2006",
+    "GBSeq_create-date": "27-JUL-2005",
+    "GBSeq_definition": "Oxyuranus scutellatus SNTX-1 precusor mRNA, complete cds",
+    "GBSeq_primary-accession": "DQ085855",
+    "GBSeq_accession-version": "DQ085855.1",
+    "GBSeq_other-seqids": [
+        "gb|DQ085855.1|",
+        "gi|71066801"
+    ],
+    "GBSeq_source": "Oxyuranus scutellatus (coastal taipan)",
+    "GBSeq_organism": "Oxyuranus scutellatus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Acanthophiinae; Oxyuranus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..532",
+            "GBReference_authors": [
+                "St Pierre,L.",
+                "Woods,R.",
+                "Earl,S.",
+                "Masci,P.P.",
+                "Lavin,M.F."
+            ],
+            "GBReference_title": "Identification and analysis of venom gland-specific genes from the coastal taipan (Oxyuranus scutellatus) and related species",
+            "GBReference_journal": "Cell. Mol. Life Sci. 62 (22), 2679-2693 (2005)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1007/s00018-005-5384-9"
+                }
+            ],
+            "GBReference_pubmed": "16261251"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..532",
+            "GBReference_authors": [
+                "St Pierre,L."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (06-JUN-2005) Queensland Institute of Medical Research, 300 Herston Rd, Brisbane, QLD 4006, Australia"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..532",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "532",
+                    "GBInterval_accession": "DQ085855.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Oxyuranus scutellatus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8668"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "common: coastal taipan"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "31..282",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "31",
+                    "GBInterval_to": "282",
+                    "GBInterval_accession": "DQ085855.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "short chain alpha-neurotoxin"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "SNTX-1 precusor"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "AAZ22673.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGYTMTCYNQQSSEAKTTTTCSGGVSSCYKKTWSDGRGTIIERGCGCPSVKKGIERICCRTDKCNN"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "31..81",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "31",
+                    "GBInterval_to": "81",
+                    "GBInterval_accession": "DQ085855.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLD"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "mat_peptide",
+            "GBFeature_location": "82..279",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "82",
+                    "GBInterval_to": "279",
+                    "GBInterval_accession": "DQ085855.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "SNTX-1 precusor"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "LGYTMTCYNQQSSEAKTTTTCSGGVSSCYKKTWSDGRGTIIERGCGCPSVKKGIERICCRTDKCNN"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "cactttacaggttgcagagaagatcgcaagatgaaaactctgctgctgaccttggtggtggtgacaatcgtgtgcctggacttagggtacaccatgacatgttacaaccaacagtcatcggaagctaaaaccactacaacttgttcaggtggggtgagctcttgctataaaaagacttggagtgatggccgtggaactataattgaaaggggatgtggttgccctagcgtgaagaaaggtattgaacgtatatgttgcagaacagacaaatgcaacaattagctctacgagtggctaaattccttgagttttgctctcatccatcgacgaccatccttgaaaatttatgcttctggcctttaccaccagatggtccatcatccccctctcccctgctgtctttgacacctcaacatctttcccttttctctcattctgtaagtttccttctgctagttctgtagtttgagaatcaaataaacctcagcattcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+}

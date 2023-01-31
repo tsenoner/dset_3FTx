@@ -1,0 +1,162 @@
+{
+    "GBSeq_locus": "XM_032222338",
+    "GBSeq_length": "261",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "31-JAN-2020",
+    "GBSeq_create-date": "31-JAN-2020",
+    "GBSeq_definition": "PREDICTED: Thamnophis elegans weak neurotoxin 10-like (LOC116512063), mRNA",
+    "GBSeq_primary-accession": "XM_032222338",
+    "GBSeq_accession-version": "XM_032222338.1",
+    "GBSeq_other-seqids": [
+        "ref|XM_032222338.1|",
+        "gi|1804014664"
+    ],
+    "GBSeq_project": "PRJNA602516",
+    "GBSeq_keywords": [
+        "RefSeq",
+        "includes ab initio"
+    ],
+    "GBSeq_source": "Thamnophis elegans (Western terrestrial garter snake)",
+    "GBSeq_organism": "Thamnophis elegans",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Colubridae; Natricinae; Thamnophis",
+    "GBSeq_comment": "MODEL REFSEQ: This record is predicted by automated computational analysis. This record is derived from a genomic sequence (NC_045548.1) annotated using gene prediction method: Gnomon.~Also see:~ Documentation of NCBI's Annotation Process; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI ; Annotation Status :: Full annotation ; Annotation Name :: Thamnophis elegans Annotation Release 100 ; Annotation Version :: 100 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 8.3 ; Annotation Method :: Best-placed RefSeq; Gnomon ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; ##Genome-Annotation-Data-END##; ##RefSeq-Attributes-START## ; ab initio :: 41% of CDS bases ; ##RefSeq-Attributes-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..261",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "261",
+                    "GBInterval_accession": "XM_032222338.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Thamnophis elegans"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "rThaEle1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:35005"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "8"
+                },
+                {
+                    "GBQualifier_name": "sex",
+                    "GBQualifier_value": "female"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "blood"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "juvenile"
+                },
+                {
+                    "GBQualifier_name": "country",
+                    "GBQualifier_value": "USA: Born in Anne Bronikowsk lab at ISU; MOM, 2012; Eagle Lake; PAP"
+                },
+                {
+                    "GBQualifier_name": "lat_lon",
+                    "GBQualifier_value": "42.02482 N 93.64411 W"
+                },
+                {
+                    "GBQualifier_name": "collection_date",
+                    "GBQualifier_value": "01-Apr-2018"
+                },
+                {
+                    "GBQualifier_name": "collected_by",
+                    "GBQualifier_value": "Anne Bronikowski"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "gene",
+            "GBFeature_location": "1..261",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "261",
+                    "GBInterval_accession": "XM_032222338.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LOC116512063"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Derived by automated computational analysis using gene prediction method: Gnomon. Supporting evidence includes similarity to: 9 Proteins"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:116512063"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..261",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "261",
+                    "GBInterval_accession": "XM_032222338.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LOC116512063"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "weak neurotoxin 10-like"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "XP_032078229.1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:116512063"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLALLVVTVVCLDFGHTLICYTCPGVLCKTKQKCPKGQNLCFRRRKFYDLIGFGASRGCAATCPTVGRSDVIACCSTNRCNF"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctggccttgctggtggtgacagtcgtgtgcctggactttggacacaccctgatatgttacacatgccccggagtactttgtaaaaccaaacagaaatgtcccaaagggcagaatctctgctttagaaggagaaaattttacgatctaatcggattcggggccagcaggggatgtgctgctacctgccctactgtgggacgcagtgatgtcattgcgtgttgctcaacaaaccgctgcaacttttag",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA602516"
+        }
+    ]
+}

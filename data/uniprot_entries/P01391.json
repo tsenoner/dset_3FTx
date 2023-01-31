@@ -1,0 +1,2757 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P01391",
+    "uniProtkbId": "3L21_NAJKA",
+    "entryAudit": {
+        "firstPublicDate": "1986-07-21",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "1986-07-21",
+        "entryVersion": 131,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Naja kaouthia",
+        "commonName": "Monocled cobra",
+        "synonyms": [
+            "Naja siamensis"
+        ],
+        "taxonId": 8649,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Naja"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "1317211"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "1939183"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "2086254"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "2279844"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "6553056"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "6771288"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "6930640"
+                    }
+                ],
+                "value": "Alpha-cobratoxin"
+            },
+            "shortNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "18381281"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "22223648"
+                        }
+                    ],
+                    "value": "Alpha-CT"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "9840221"
+                        }
+                    ],
+                    "value": "Alpha-CbT"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "10574958"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "10852927"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "11867717"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "12133834"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "15791209"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "9305882"
+                        }
+                    ],
+                    "value": "Alpha-Cbtx"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Alpha-Ctx"
+                }
+            ]
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Alpha-elapitoxin-Nk2a"
+                },
+                "shortNames": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000305"
+                            }
+                        ],
+                        "value": "Alpha-EPTX-Nk2a"
+                    }
+                ]
+            },
+            {
+                "fullName": {
+                    "value": "Long neurotoxin 1"
+                }
+            },
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "Reference",
+                            "id": "Ref.1"
+                        }
+                    ],
+                    "value": "Siamensis 3"
+                }
+            }
+        ]
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "18381281"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "22223648"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "26221036"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "30025921"
+                        }
+                    ],
+                    "value": "Monomer: binds with high affinity to muscular (alpha-1-beta-1-gamma-delta/CHRNA1-CHRNB1-CHRNG-CHRND) nAChR (tested on Torpedo californica, Kd=0.2-4.5 nM) and neuronal alpha-7/CHRNA7 nicotinic acetylcholine receptors (Kd=13-105 nM) (PubMed:18381281, PubMed:9305882, PubMed:22223648). Also inhibits GABA(A) channels (PubMed:26221036). Heteropentamer targets studied are composed of alpha-1-beta-3-gamma-2 (GABRA1-GABRB3-GABRG2) subunits (IC(50)=236 nM), alpha-1-beta-2-gamma-2 (GABRA1-GABRB2-GABRG2) subunits (IC(50)=469 nM), alpha-2-beta-2-gamma-2 (GABRA2-GABRB2-GABRG2) subunits (IC(50)=485 nM), alpha-5-beta-3-gamma-2 (GABRA5-GABRB3-GABRG2) subunits (IC(50)=635 nM), and alpha-2-beta-3-gamma-2 (GABRA2-GABRB3-GABRG2) subunits (IC(50)=1099 nM) (activated by 10 uM GABA) (PubMed:26221036)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "18381281"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "22223648"
+                        }
+                    ],
+                    "value": "Homodimer: binds with high affinity (but lower than the monomeric form) to muscular (IC(50)=9.7 nM) and with low affinity to neuronal alpha-7/CHRNA7 nAChRs (IC(50)=1370 nM) (PubMed:22223648). However, it acquires (compared to the monomeric form) the capacity to block alpha-3/beta-2 (CHRNA3/CHRNB2) nAChRs (PubMed:18381281)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "22223648"
+                        }
+                    ],
+                    "value": "Heterodimer with cytotoxin 3 (AC P01446): is slightly more active than the homodimer in inhibiting alpha-7/CHRNA7 nAChR and is considerably more active in blocking the alpha-3-beta-2/CHRNA3-CHRNB2 nAChR"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "12133834"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "1317211"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "15791209"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "18381281"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "1939183"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "22223648"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "2279844"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "6930640"
+                        }
+                    ],
+                    "value": "Monomer, homo- or heterodimer with cytotoxins 1 (P60305), 2 (AC P01445), and 3 (AC P01446); disulfide-linked"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "Reference",
+                                "id": "Ref.1"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "22223648"
+                        }
+                    ],
+                    "value": "In homodimer alpha-cobratoxin, selective reduction of Cys(26)-Cys(30) in one subunit does not affect the activity against the alpha-7/CHRNA7 nAChR, whereas its reduction in both subunits almost prevents alpha-7/CHRNA7 nAChR recognition. On the contrary, reduction of one or both Cys(26)-Cys(30) disulfide bonds in the homodimer considerably potentiates inhibition of the alpha-3-beta-2/CHRNA3-CHRNB2 nAChR by the toxin"
+                }
+            ],
+            "commentType": "PTM"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "18381281"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "9840221"
+                        }
+                    ],
+                    "value": "The monomeric form has no effect on alpha-3/beta-2 (CHRNA3/CHRNB2) nAChR (PubMed:18381281). It does not show any blockade of the nicotine-evoked release of dopamine (PubMed:9840221) and does not affect ACh release"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "22223648"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Exists in two forms, due to cis-trans isomerization at 6-Thr-Pro-7 (Probable). In the dimeric form, the Pro-7 is extended away from the toxin core whereas in the monomeric form, Pro-7 makes a turn (PubMed:22223648)"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Long-chain subfamily. Type II alpha-neurotoxin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 71,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Alpha-cobratoxin",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "Reference",
+                    "id": "Ref.1"
+                }
+            ],
+            "featureId": "PRO_0000093554"
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 23,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 23,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Binds to Torpedo AChR",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10574958"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 25,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 25,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Binds to both neuronal alpha-7/CHRNA7 and Torpedo AChRs",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10574958"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10852927"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Binds to both neuronal alpha-7/CHRNA7 and Torpedo AChRs",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10574958"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10852927"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 28,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 28,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Binds to alpha-7/CHRNA7 AChR",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10852927"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 29,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 29,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Binds to both neuronal alpha-7/CHRNA7 and Torpedo AChRs",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10574958"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10852927"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Binds to both neuronal alpha-7/CHRNA7 and Torpedo AChRs",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10574958"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10852927"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 35,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 35,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Binds to alpha-7/CHRNA7 AChR",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10852927"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 36,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 36,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Binds to both neuronal alpha-7/CHRNA7 and Torpedo AChRs, may be important for inhibition of GABA(A) receptors",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10574958"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10852927"
+                },
+                {
+                    "evidenceCode": "ECO:0000305",
+                    "source": "PubMed",
+                    "id": "26221036"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 49,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 49,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Binds to Torpedo AChR",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10574958"
+                }
+            ]
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 65,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 65,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Binds to both neuronal alpha-7/CHRNA7 and Torpedo AChRs",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10574958"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10852927"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 3,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 20,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "In monomer, partial",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "12133834"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1317211"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "15791209"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1939183"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "2279844"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "6930640"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1CTX"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1LXG"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1LXH"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1YI5"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 3,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 3,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Interchain (with C-20); in homodimer; partial",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "22223648"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "4AEA"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 14,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 41,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "12133834"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1317211"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "15791209"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1939183"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "22223648"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "2279844"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "6930640"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1CTX"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1LXG"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1LXH"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1YI5"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "4AEA"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 20,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 20,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Interchain (with C-3); in homodimer; partial",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "22223648"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "4AEA"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 26,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 30,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "12133834"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1317211"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "15791209"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1939183"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "22223648"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "2279844"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "6930640"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1CTX"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1LXG"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1LXH"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1YI5"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "4AEA"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 45,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 56,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "12133834"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1317211"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "15791209"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1939183"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "22223648"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "2279844"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "6930640"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1CTX"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1LXG"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1LXH"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1YI5"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "4AEA"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 57,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 62,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "12133834"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1317211"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "15791209"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1939183"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "22223648"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "2279844"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "6930640"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1CTX"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1LXG"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1LXH"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "1YI5"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "4AEA"
+                }
+            ]
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 23,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 23,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "2-fold and 28-fold decrease in affinity for Torpedo AChRs.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10574958"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "K",
+                "alternativeSequences": [
+                    "E"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 25,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 25,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "11-fold decrease in affinity for Torpedo AChRs and 6-fold decrease in affinity for neuronal alpha-7/CHRNA7 AChR.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10574958"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10852927"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "W",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "31-fold decrease in affinity for Torpedo AChRs and 50-fold decrease in affinity for neuronal alpha-7/CHRNA7 AChR.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10574958"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10852927"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "D",
+                "alternativeSequences": [
+                    "R"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 28,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 28,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "5-fold decrease in affinity for neuronal alpha-7/CHRNA7 AChR.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10852927"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "A",
+                "alternativeSequences": [
+                    "G"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 29,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 29,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "12-fold decrease in affinity for Torpedo AChRs and 74-fold decrease in affinity for neuronal alpha-7/CHRNA7 AChR.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10574958"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10852927"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "F",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "767-fold decrease in affinity for Torpedo AChRs and 339-fold decrease in affinity for neuronal alpha-7/CHRNA7 AChR.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10574958"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10852927"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "E"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 35,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 35,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "11-fold decrease in affinity for neuronal alpha-7/CHRNA7 AChR.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10852927"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "K",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 36,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 36,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "16-fold decrease in affinity for Torpedo AChRs.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10574958"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10852927"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 49,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 49,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "3-fold and 53-fold decrease in affinity for Torpedo AChRs.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10574958"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "K",
+                "alternativeSequences": [
+                    "E"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 65,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 65,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "7-fold decrease in affinity for Torpedo AChRs and 15-fold decrease in affinity for neuronal alpha-7/CHRNA7 AChR.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10574958"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "10852927"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "F",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 2,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 4,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "6ZFM"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 10,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 13,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "6ZFM"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 19,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 25,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "6ZFM"
+                }
+            ]
+        },
+        {
+            "type": "Turn",
+            "location": {
+                "start": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 29,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1LXG"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 30,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "6ZFM"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 36,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 44,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "6ZFM"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 52,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 57,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "6ZFM"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 59,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 63,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1LXG"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0002",
+            "category": "Technical term",
+            "name": "3D-structure"
+        },
+        {
+            "id": "KW-0008",
+            "category": "Molecular function",
+            "name": "Acetylcholine receptor inhibiting toxin"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0872",
+            "category": "Molecular function",
+            "name": "Ion channel impairing toxin"
+        },
+        {
+            "id": "KW-0528",
+            "category": "Molecular function",
+            "name": "Neurotoxin"
+        },
+        {
+            "id": "KW-0629",
+            "category": "Molecular function",
+            "name": "Postsynaptic neurotoxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "CI-BOK1P580K2RLK",
+                "citationType": "journal article",
+                "authors": [
+                    "Karlsson E."
+                ],
+                "title": "Chemistry of some potent animal toxins.",
+                "publicationDate": "1973",
+                "journal": "Experientia",
+                "firstPage": "1319",
+                "lastPage": "1327",
+                "volume": "29"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE",
+                "SUBCELLULAR LOCATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "18381281",
+                "citationType": "journal article",
+                "authors": [
+                    "Osipov A.V.",
+                    "Kasheverov I.E.",
+                    "Makarova Y.V.",
+                    "Starkov V.G.",
+                    "Vorontsova O.V.",
+                    "Ziganshin R.K.",
+                    "Andreeva T.V.",
+                    "Serebryakova M.V.",
+                    "Benoit A.",
+                    "Hogg R.C.",
+                    "Bertrand D.",
+                    "Tsetlin V.I.",
+                    "Utkin Y.N."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "18381281"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m802085200"
+                    }
+                ],
+                "title": "Naturally occurring disulfide-bound dimers of three-fingered toxins: a paradigm for biological activity diversification.",
+                "publicationDate": "2008",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "14571",
+                "lastPage": "14580",
+                "volume": "283"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE OF 1-17; 24-33 AND 36-68",
+                "IDENTIFICATION BY MASS SPECTROMETRY",
+                "FUNCTION",
+                "SUBUNIT"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "6771288",
+                "citationType": "journal article",
+                "authors": [
+                    "Kang S.",
+                    "Maelicke A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "6771288"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0021-9258(20)79707-3"
+                    }
+                ],
+                "title": "Fluorescein isothiocyanate-labeled alpha-cobratoxin. Biochemical characterization and interaction with acetylcholine receptor from Electrophorus electricus.",
+                "publicationDate": "1980",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "7326",
+                "lastPage": "7332",
+                "volume": "255"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "6553056",
+                "citationType": "journal article",
+                "authors": [
+                    "Martin B.M.",
+                    "Chibber B.A.",
+                    "Maelicke A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "6553056"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0021-9258(18)32115-x"
+                    }
+                ],
+                "title": "The sites of neurotoxicity in alpha-cobratoxin.",
+                "publicationDate": "1983",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "8714",
+                "lastPage": "8722",
+                "volume": "258"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "2086254",
+                "citationType": "journal article",
+                "authors": [
+                    "Alkondon M.",
+                    "Albuquerque E.X."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "2086254"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0014-2999(90)94190-9"
+                    }
+                ],
+                "title": "Alpha-cobratoxin blocks the nicotinic acetylcholine receptor in rat hippocampal neurons.",
+                "publicationDate": "1990",
+                "journal": "Eur. J. Pharmacol.",
+                "firstPage": "505",
+                "lastPage": "506",
+                "volume": "191"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "9053737",
+                "citationType": "journal article",
+                "authors": [
+                    "Apel C.",
+                    "Ricny J.",
+                    "Wagner G.",
+                    "Wessler I."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9053737"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1007/bf00171324"
+                    }
+                ],
+                "title": "Alpha-bungarotoxin, kappa-bungarotoxin, alpha-cobratoxin and erabutoxin-b do not affect [3H]acetylcholine release from the rat isolated left hemidiaphragm.",
+                "publicationDate": "1995",
+                "journal": "Naunyn Schmiedebergs Arch. Pharmacol.",
+                "firstPage": "646",
+                "lastPage": "652",
+                "volume": "352"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "9305882",
+                "citationType": "journal article",
+                "authors": [
+                    "Servent D.",
+                    "Winckler-Dietrich V.",
+                    "Hu H.-Y.",
+                    "Kessler P.",
+                    "Drevet P.",
+                    "Bertrand D.",
+                    "Menez A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9305882"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.272.39.24279"
+                    }
+                ],
+                "title": "Only snake curaremimetic toxins with a fifth disulfide bond have high affinity for the neuronal alpha7 nicotinic receptor.",
+                "publicationDate": "1997",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "24279",
+                "lastPage": "24286",
+                "volume": "272"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "9840221",
+                "citationType": "journal article",
+                "authors": [
+                    "Dajas-Bailador F.",
+                    "Costa G.",
+                    "Dajas F.",
+                    "Emmett S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9840221"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0197-0186(98)00033-3"
+                    }
+                ],
+                "title": "Effects of alpha-erabutoxin, alpha-bungarotoxin, alpha-cobratoxin and fasciculin on the nicotine-evoked release of dopamine in the rat striatum in vivo.",
+                "publicationDate": "1998",
+                "journal": "Neurochem. Int.",
+                "firstPage": "307",
+                "lastPage": "312",
+                "volume": "33"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "10574958",
+                "citationType": "journal article",
+                "authors": [
+                    "Antil S.",
+                    "Servent D.",
+                    "Menez A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "10574958"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.274.49.34851"
+                    }
+                ],
+                "title": "Variability among the sites by which curaremimetic toxins bind to torpedo acetylcholine receptor, as revealed by identification of the functional residues of alpha-cobratoxin.",
+                "publicationDate": "1999",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "34851",
+                "lastPage": "34858",
+                "volume": "274"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "SYNTHESIS",
+                "MUTAGENESIS OF LYS-23; TRP-25; ASP-27; PHE-29; ARG-33; ARG-36; LYS-49 AND PHE-65",
+                "SITES LYS-23; TRP-25; ASP-27; PHE-29; ARG-33; ARG-36; LYS-49 AND PHE-65"
+            ]
+        },
+        {
+            "citation": {
+                "id": "10852927",
+                "citationType": "journal article",
+                "authors": [
+                    "Antil-Delbeke S.",
+                    "Gaillard C.",
+                    "Tamiya T.",
+                    "Corringer P.-J.",
+                    "Changeux J.-P.",
+                    "Servent D.",
+                    "Menez A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "10852927"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m909746199"
+                    }
+                ],
+                "title": "Molecular determinants by which a long chain toxin from snake venom interacts with the neuronal alpha 7-nicotinic acetylcholine receptor.",
+                "publicationDate": "2000",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "29594",
+                "lastPage": "29601",
+                "volume": "275"
+            },
+            "referencePositions": [
+                "MUTAGENESIS OF TRP-25; ASP-27; ALA-28; PHE-29; ARG-33; LYS-35; ARG-36 AND PHE-65",
+                "SITES TRP-25; ASP-27; ALA-28; PHE-29; ARG-33; LYS-35; ARG-36 AND PHE-65"
+            ]
+        },
+        {
+            "citation": {
+                "id": "26221036",
+                "citationType": "journal article",
+                "authors": [
+                    "Kudryavtsev D.S.",
+                    "Shelukhina I.V.",
+                    "Son L.V.",
+                    "Ojomoko L.O.",
+                    "Kryukova E.V.",
+                    "Lyukmanova E.N.",
+                    "Zhmak M.N.",
+                    "Dolgikh D.A.",
+                    "Ivanov I.A.",
+                    "Kasheverov I.E.",
+                    "Starkov V.G.",
+                    "Ramerstorfer J.",
+                    "Sieghart W.",
+                    "Tsetlin V.I.",
+                    "Utkin Y.N."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "26221036"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m115.648824"
+                    }
+                ],
+                "title": "Neurotoxins from snake venoms and alpha-conotoxin ImI inhibit functionally active ionotropic gamma-aminobutyric acid (GABA) receptors.",
+                "publicationDate": "2015",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "22747",
+                "lastPage": "22758",
+                "volume": "290"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "30025921",
+                "citationType": "journal article",
+                "authors": [
+                    "Yu J.",
+                    "Zhu X.",
+                    "Zhang L.",
+                    "Kudryavtsev D.",
+                    "Kasheverov I.",
+                    "Lei Y.",
+                    "Zhangsun D.",
+                    "Tsetlin V.",
+                    "Luo S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "30025921"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.neuropharm.2018.07.019"
+                    }
+                ],
+                "title": "Species specificity of rat and human alpha7 nicotinic acetylcholine receptors towards different classes of peptide and protein antagonists.",
+                "publicationDate": "2018",
+                "journal": "Neuropharmacology",
+                "firstPage": "226",
+                "lastPage": "237",
+                "volume": "139"
+            },
+            "referencePositions": [
+                "FUNCTION ON ALPHA-7/CHRNA7 NACHR",
+                "SYNTHESIS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "11867717",
+                "citationType": "journal article",
+                "authors": [
+                    "Fruchart-Gaillard C.",
+                    "Gilquin B.",
+                    "Antil-Delbeke S.",
+                    "Le Novere N.",
+                    "Tamiya T.",
+                    "Corringer P.-J.",
+                    "Changeux J.-P.",
+                    "Menez A.",
+                    "Servent D."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11867717"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1073/pnas.042699899"
+                    }
+                ],
+                "title": "Experimentally based model of a complex between a snake toxin and the alpha 7 nicotinic receptor.",
+                "publicationDate": "2002",
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "firstPage": "3216",
+                "lastPage": "3221",
+                "volume": "99"
+            },
+            "referencePositions": [
+                "3D-STRUCTURE MODELING"
+            ]
+        },
+        {
+            "citation": {
+                "id": "6930640",
+                "citationType": "journal article",
+                "authors": [
+                    "Walkinshaw M.D.",
+                    "Saenger W.",
+                    "Maelicke A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "6930640"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1073/pnas.77.5.2400"
+                    }
+                ],
+                "title": "Three-dimensional structure of the 'long' neurotoxin from cobra venom.",
+                "publicationDate": "1980",
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "firstPage": "2400",
+                "lastPage": "2404",
+                "volume": "77"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (2.8 ANGSTROMS)",
+                "DISULFIDE BONDS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "1939183",
+                "citationType": "journal article",
+                "authors": [
+                    "Betzel C.",
+                    "Lange G.",
+                    "Pal G.P.",
+                    "Wilson K.S.",
+                    "Maelicke A.",
+                    "Saenger W."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "1939183"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.2210/pdb2ctx/pdb"
+                    }
+                ],
+                "title": "The refined crystal structure of alpha-cobratoxin from Naja naja siamensis at 2.4-A resolution.",
+                "publicationDate": "1991",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "21530",
+                "lastPage": "21536",
+                "volume": "266"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS)",
+                "DISULFIDE BONDS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "2279844",
+                "citationType": "journal article",
+                "authors": [
+                    "Laplante S.R.",
+                    "Mikou A.",
+                    "Robin M.",
+                    "Guittet E.",
+                    "Delsuc M.-A.",
+                    "Charpentier I.",
+                    "Lallemand J.-Y."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "2279844"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1111/j.1399-3011.1990.tb00971.x"
+                    }
+                ],
+                "title": "Rapid determination and NMR assignments of antiparallel sheets and helices of a scorpion and a cobra toxin.",
+                "publicationDate": "1990",
+                "journal": "Int. J. Pept. Protein Res.",
+                "firstPage": "227",
+                "lastPage": "230",
+                "volume": "36"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR",
+                "DISULFIDE BONDS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "1317211",
+                "citationType": "journal article",
+                "authors": [
+                    "le Goas R.",
+                    "Laplante S.R.",
+                    "Mikou A.",
+                    "Delsuc M.-A.",
+                    "Guittet E.",
+                    "Robin M.",
+                    "Charpentier I.",
+                    "Lallemand J.-Y."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "1317211"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/bi00135a018"
+                    }
+                ],
+                "title": "Alpha-cobratoxin: proton NMR assignments and solution structure.",
+                "publicationDate": "1992",
+                "journal": "Biochemistry",
+                "firstPage": "4867",
+                "lastPage": "4875",
+                "volume": "31"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR",
+                "DISULFIDE BONDS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "12133834",
+                "citationType": "journal article",
+                "authors": [
+                    "Zeng H.",
+                    "Hawrot E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "12133834"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m205483200"
+                    }
+                ],
+                "title": "NMR-based binding screen and structural analysis of the complex formed between alpha-cobratoxin and an 18-mer cognate peptide derived from the alpha-1 subunit of the nicotinic acetylcholine receptor from Torpedo californica.",
+                "publicationDate": "2002",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "37439",
+                "lastPage": "37445",
+                "volume": "277"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR",
+                "DISULFIDE BONDS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "15791209",
+                "citationType": "journal article",
+                "authors": [
+                    "Bourne Y.",
+                    "Talley T.T.",
+                    "Hansen S.B.",
+                    "Taylor P.",
+                    "Marchot P."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15791209"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/sj.emboj.7600620"
+                    }
+                ],
+                "title": "Crystal structure of a Cbtx-AChBP complex reveals essential interactions between snake alpha-neurotoxins and nicotinic receptors.",
+                "publicationDate": "2005",
+                "journal": "EMBO J.",
+                "firstPage": "1512",
+                "lastPage": "1522",
+                "volume": "24"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (4.2 ANGSTROMS)",
+                "DISULFIDE BONDS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-5IR3DPUSP5NJ",
+                "citationType": "journal article",
+                "authors": [
+                    "Bourne Y.",
+                    "Talley T.T.",
+                    "Hansen S.B.",
+                    "Taylor P.",
+                    "Marchot P."
+                ],
+                "publicationDate": "2006",
+                "journal": "EMBO J.",
+                "firstPage": "266",
+                "lastPage": "266",
+                "volume": "25"
+            },
+            "referencePositions": [
+                "ERRATUM OF PUBMED:15791209"
+            ]
+        },
+        {
+            "citation": {
+                "id": "22223648",
+                "citationType": "journal article",
+                "authors": [
+                    "Osipov A.V.",
+                    "Rucktooa P.",
+                    "Kasheverov I.E.",
+                    "Filkin S.Y.",
+                    "Starkov V.G.",
+                    "Andreeva T.V.",
+                    "Sixma T.K.",
+                    "Bertrand D.",
+                    "Utkin Y.N.",
+                    "Tsetlin V.I."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "22223648"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m111.322313"
+                    }
+                ],
+                "title": "Dimeric alpha-cobratoxin X-ray structure: localization of intermolecular disulfides and possible mode of binding to nicotinic acetylcholine receptors.",
+                "publicationDate": "2012",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "6725",
+                "lastPage": "6734",
+                "volume": "287"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (1.94 ANGSTROMS)",
+                "DISULFIDE BOND (HOMODIMER)",
+                "FUNCTION",
+                "SUBUNIT"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "PIR",
+            "id": "A01662",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "N2NJ1S"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1CTX",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "2.80 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=1-71"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1LXG",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=1-71"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1LXH",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=1-71"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1YI5",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "4.20 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "F/G/H/I/J=1-71"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "4AEA",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "1.94 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A/B=1-71"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "6ZFM",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "1.90 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A/B/D/E=1-71"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "7PC0",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "EM"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "3.00 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "K/L=1-71"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1CTX",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1LXG",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1LXH",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1YI5",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "4AEA",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "6ZFM",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "7PC0",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "P01391",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P01391",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BindingDB",
+            "id": "P01391",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "ChEMBL",
+            "id": "CHEMBL4739673",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EvolutionaryTrace",
+            "id": "P01391",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0030550",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:acetylcholine receptor inhibitor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0099106",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ion channel regulator activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00206",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "snake_toxin"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003571",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_3FTx"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018354",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin_con_site"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00272",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SNAKE_TOXIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "IRCFITPDITSKDCPNGHVCYTKTWCDAFCSIRGKRVDLGCAATCPTVKTGVDIQCCSTDNCNPFPTRKRP",
+        "length": 71,
+        "molWeight": 7831,
+        "crc64": "6F07ADD885E9AC33",
+        "md5": "A52E75F24303ACD4224DB07BC8B9E220"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 3,
+            "SUBUNIT": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "PTM": 1,
+            "MISCELLANEOUS": 2,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Site": 10,
+            "Disulfide bond": 7,
+            "Mutagenesis": 10,
+            "Beta strand": 6,
+            "Turn": 1,
+            "Helix": 1
+        },
+        "uniParcId": "UPI0000110DD4"
+    }
+}

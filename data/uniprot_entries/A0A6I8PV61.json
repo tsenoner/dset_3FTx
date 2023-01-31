@@ -1,0 +1,556 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A6I8PV61",
+    "uniProtkbId": "A0A6I8PV61_XENTR",
+    "entryAudit": {
+        "firstPublicDate": "2020-08-12",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2020-08-12",
+        "entryVersion": 11,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+        "scientificName": "Xenopus tropicalis",
+        "commonName": "Western clawed frog",
+        "synonyms": [
+            "Silurana tropicalis"
+        ],
+        "taxonId": 8364,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Ensembl",
+                "id": "ENSXETP00000059177"
+            }
+        ],
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Amphibia",
+            "Batrachia",
+            "Anura",
+            "Pipoidea",
+            "Pipidae",
+            "Xenopodinae",
+            "Xenopus",
+            "Silurana"
+        ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+        "submissionNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSXETP00000059177"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "RefSeq",
+                            "id": "XP_004919925.1"
+                        }
+                    ],
+                    "value": "Lymphocyte antigen 6E"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "Ensembl",
+                        "id": "ENSXETP00000059177"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "RefSeq",
+                        "id": "XP_004919925.1"
+                    }
+                ],
+                "value": "LOC101732565"
+            }
+        }
+    ],
+    "features": [
+        {
+            "type": "Transmembrane",
+            "location": {
+                "start": {
+                    "value": 30,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 49,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Helical",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "Phobius"
+                }
+            ]
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 49,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 136,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "UPAR/Ly6",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000259",
+                    "source": "SMART",
+                    "id": "SM00134"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "Phobius"
+                }
+            ],
+            "id": "KW-0472",
+            "category": "Cellular component",
+            "name": "Membrane"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000008143"
+                }
+            ],
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "Phobius"
+                }
+            ],
+            "id": "KW-0812",
+            "category": "Domain",
+            "name": "Transmembrane"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "Phobius"
+                }
+            ],
+            "id": "KW-1133",
+            "category": "Domain",
+            "name": "Transmembrane helix"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "20431018",
+                "citationType": "journal article",
+                "authors": [
+                    "Hellsten U.",
+                    "Harland R.M.",
+                    "Gilchrist M.J.",
+                    "Hendrix D.",
+                    "Jurka J.",
+                    "Kapitonov V.",
+                    "Ovcharenko I.",
+                    "Putnam N.H.",
+                    "Shu S.",
+                    "Taher L.",
+                    "Blitz I.L.",
+                    "Blumberg B.",
+                    "Dichmann D.S.",
+                    "Dubchak I.",
+                    "Amaya E.",
+                    "Detter J.C.",
+                    "Fletcher R.",
+                    "Gerhard D.S.",
+                    "Goodstein D.",
+                    "Graves T.",
+                    "Grigoriev I.V.",
+                    "Grimwood J.",
+                    "Kawashima T.",
+                    "Lindquist E.",
+                    "Lucas S.M.",
+                    "Mead P.E.",
+                    "Mitros T.",
+                    "Ogino H.",
+                    "Ohta Y.",
+                    "Poliakov A.V.",
+                    "Pollet N.",
+                    "Robert J.",
+                    "Salamov A.",
+                    "Sater A.K.",
+                    "Schmutz J.",
+                    "Terry A.",
+                    "Vize P.D.",
+                    "Warren W.C.",
+                    "Wells D.",
+                    "Wills A.",
+                    "Wilson R.K.",
+                    "Zimmerman L.B.",
+                    "Zorn A.M.",
+                    "Grainger R.",
+                    "Grammer T.",
+                    "Khokha M.K.",
+                    "Richardson P.M.",
+                    "Rokhsar D.S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "20431018"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1126/science.1183670"
+                    }
+                ],
+                "title": "The genome of the Western clawed frog Xenopus tropicalis.",
+                "publicationDate": "2010",
+                "journal": "Science",
+                "firstPage": "633",
+                "lastPage": "636",
+                "volume": "328"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSXETP00000059177"
+                        }
+                    ],
+                    "value": "Nigerian",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSXETP00000059177"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-20IMVO6BKKM4H",
+                "citationType": "submission",
+                "authoringGroup": [
+                    "Ensembl"
+                ],
+                "publicationDate": "MAY-2020",
+                "submissionDatabase": "UniProtKB"
+            },
+            "referencePositions": [
+                "IDENTIFICATION"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSXETP00000059177"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-FT6AD0HQEK1C4",
+                "citationType": "submission",
+                "authoringGroup": [
+                    "RefSeq"
+                ],
+                "publicationDate": "APR-2022",
+                "submissionDatabase": "UniProtKB"
+            },
+            "referencePositions": [
+                "IDENTIFICATION"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "RefSeq",
+                            "id": "XP_004919925.1"
+                        }
+                    ],
+                    "value": "Nigerian",
+                    "type": "STRAIN"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "RefSeq",
+                            "id": "XP_004919925.1"
+                        }
+                    ],
+                    "value": "Liver and blood",
+                    "type": "TISSUE"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "RefSeq",
+                    "id": "XP_004919925.1"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "RefSeq",
+            "id": "XP_004919925.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "XM_004919868.3"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "A0A6I8PV61",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENSXETT00000065067",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSXETP00000059177"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSXETG00000037934"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "101732565",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "xtr:101732565",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-XTR-163125",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Post-translational modification: synthesis of GPI-anchored proteins"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-XTR-8963889",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Assembly of active LPL and LIPC lipase complexes"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000008143",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 6"
+                }
+            ]
+        },
+        {
+            "database": "Bgee",
+            "id": "ENSXETG00000037934",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Expressed in neurula embryo and 9 other tissues"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016020",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00117",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR016054",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LY6_UPA_recep-like"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00021",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "UPAR_LY6"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SMART",
+            "id": "SM00134",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MSPYRYKGEYKGELGELGTHSTATPSLTMAALYGSLLLAALCIGTAVPLKCYTCTGESSNANCLNQTNCSDIDTSCQTFVASISLFGVSAKSITKSCTPSCTPGGASFAGATGTVSCCNTDLCNISGAPGVKYSYPALGLSLGFLLVLLRGSAL",
+        "length": 154,
+        "molWeight": 15666,
+        "crc64": "352766D6B05C3A28",
+        "md5": "95DC960A939EC8A74A8F9E3F52E15C5F"
+    },
+    "extraAttributes": {
+        "countByFeatureType": {
+            "Transmembrane": 1,
+            "Domain": 1
+        },
+        "uniParcId": "UPI0003502B59"
+    }
+}

@@ -1,0 +1,355 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A6I8PP56",
+    "uniProtkbId": "A0A6I8PP56_XENTR",
+    "entryAudit": {
+        "firstPublicDate": "2020-08-12",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2020-08-12",
+        "entryVersion": 8,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+        "scientificName": "Xenopus tropicalis",
+        "commonName": "Western clawed frog",
+        "synonyms": [
+            "Silurana tropicalis"
+        ],
+        "taxonId": 8364,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Ensembl",
+                "id": "ENSXETP00000060996"
+            }
+        ],
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Amphibia",
+            "Batrachia",
+            "Anura",
+            "Pipoidea",
+            "Pipidae",
+            "Xenopodinae",
+            "Xenopus",
+            "Silurana"
+        ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+        "submissionNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSXETP00000060996"
+                        }
+                    ],
+                    "value": "Lymphocyte antigen 6E"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "Ensembl",
+                        "id": "ENSXETP00000060996"
+                    }
+                ],
+                "value": "LOC101732565"
+            }
+        }
+    ],
+    "features": [
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 40,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 127,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "UPAR/Ly6",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000259",
+                    "source": "SMART",
+                    "id": "SM00134"
+                }
+            ]
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "20431018",
+                "citationType": "journal article",
+                "authors": [
+                    "Hellsten U.",
+                    "Harland R.M.",
+                    "Gilchrist M.J.",
+                    "Hendrix D.",
+                    "Jurka J.",
+                    "Kapitonov V.",
+                    "Ovcharenko I.",
+                    "Putnam N.H.",
+                    "Shu S.",
+                    "Taher L.",
+                    "Blitz I.L.",
+                    "Blumberg B.",
+                    "Dichmann D.S.",
+                    "Dubchak I.",
+                    "Amaya E.",
+                    "Detter J.C.",
+                    "Fletcher R.",
+                    "Gerhard D.S.",
+                    "Goodstein D.",
+                    "Graves T.",
+                    "Grigoriev I.V.",
+                    "Grimwood J.",
+                    "Kawashima T.",
+                    "Lindquist E.",
+                    "Lucas S.M.",
+                    "Mead P.E.",
+                    "Mitros T.",
+                    "Ogino H.",
+                    "Ohta Y.",
+                    "Poliakov A.V.",
+                    "Pollet N.",
+                    "Robert J.",
+                    "Salamov A.",
+                    "Sater A.K.",
+                    "Schmutz J.",
+                    "Terry A.",
+                    "Vize P.D.",
+                    "Warren W.C.",
+                    "Wells D.",
+                    "Wills A.",
+                    "Wilson R.K.",
+                    "Zimmerman L.B.",
+                    "Zorn A.M.",
+                    "Grainger R.",
+                    "Grammer T.",
+                    "Khokha M.K.",
+                    "Richardson P.M.",
+                    "Rokhsar D.S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "20431018"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1126/science.1183670"
+                    }
+                ],
+                "title": "The genome of the Western clawed frog Xenopus tropicalis.",
+                "publicationDate": "2010",
+                "journal": "Science",
+                "firstPage": "633",
+                "lastPage": "636",
+                "volume": "328"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSXETP00000060996"
+                        }
+                    ],
+                    "value": "Nigerian",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSXETP00000060996"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-20IMVO6BKKM4H",
+                "citationType": "submission",
+                "authoringGroup": [
+                    "Ensembl"
+                ],
+                "publicationDate": "MAY-2020",
+                "submissionDatabase": "UniProtKB"
+            },
+            "referencePositions": [
+                "IDENTIFICATION"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSXETP00000060996"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "AlphaFoldDB",
+            "id": "A0A6I8PP56",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENSXETT00000061850",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSXETP00000060996"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSXETG00000037934"
+                }
+            ]
+        },
+        {
+            "database": "Bgee",
+            "id": "ENSXETG00000037934",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Expressed in neurula embryo and 9 other tissues"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00117",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR016054",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LY6_UPA_recep-like"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00021",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "UPAR_LY6"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SMART",
+            "id": "SM00134",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MTIYSKDMGSHSTATLSLTMAALYVSLLLAALCIGTAVPLKCYTCTGESSNANCLNQTNCSDIDTSCQTFVASISLFGVSAKSITKSCTPSCTPGGASFAGATGTVSCCNTDLCNISGAPGVKYSYPALGLSLGFLLVLLRGSAL",
+        "length": 145,
+        "molWeight": 14678,
+        "crc64": "E11F310434D5856C",
+        "md5": "33ABB6008360BD78A46EC865D91DEB53"
+    },
+    "extraAttributes": {
+        "countByFeatureType": {
+            "Domain": 1
+        },
+        "uniParcId": "UPI001234A0E8"
+    }
+}

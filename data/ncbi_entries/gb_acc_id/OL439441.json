@@ -1,0 +1,102 @@
+{
+    "GBSeq_locus": "OL439441",
+    "GBSeq_length": "267",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "13-MAR-2022",
+    "GBSeq_create-date": "13-MAR-2022",
+    "GBSeq_definition": "Vipera transcaucasiana three-finger toxin mRNA, complete cds",
+    "GBSeq_primary-accession": "OL439441",
+    "GBSeq_accession-version": "OL439441.1",
+    "GBSeq_other-seqids": [
+        "gb|OL439441.1|",
+        "gi|2205502116"
+    ],
+    "GBSeq_source": "Vipera transcaucasiana",
+    "GBSeq_organism": "Vipera transcaucasiana",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Viperidae; Viperinae; Vipera",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..267",
+            "GBReference_authors": [
+                "Xie,B."
+            ],
+            "GBReference_title": "The dynamic genetic evolutions underpinning the widespread structural and functional convergences of snake venom proteinaceous toxins",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..267",
+            "GBReference_authors": [
+                "Xie,B."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (07-NOV-2021) Birney Group, European Bioinformatics Institute, Wellcome Genome Campus, Cambridge CB10 1SD, United Kingdom"
+        }
+    ],
+    "GBSeq_comment": "##Assembly-Data-START## ; Assembly Method :: Trinity v. 2.5.1; SoapDenovo-trans v. 1.03; Extender v. 1.0; BinPacker v. 1.0 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..267",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "267",
+                    "GBInterval_accession": "OL439441.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Vipera transcaucasiana"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:235552"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..267",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "267",
+                    "GBInterval_accession": "OL439441.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "three-finger toxin"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "UMW88251.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLILGVVAFVYLDSGYSLTCASCPSVKCMVTPNVQCTEGSNQCFKKWTGSEGLRTKYERGCAANCSNVTGEERVMYCATDNCNN"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgttgatcctgggggtggtggcattcgtgtacctggactcaggatactccctgacatgtgcatcatgccctagtgtgaagtgtatggtgactcctaatgtgcagtgcacagaaggttctaatcaatgctttaaaaagtggactggatctgaagggttacgtacgaagtacgaaaggggatgtgctgcaaattgcagtaatgtgacaggcgaagagagagttatgtattgcgcaacagacaactgcaacaactag"
+}

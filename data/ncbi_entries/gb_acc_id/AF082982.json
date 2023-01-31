@@ -1,0 +1,164 @@
+{
+    "GBSeq_locus": "AF082982",
+    "GBSeq_length": "377",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "19-NOV-2001",
+    "GBSeq_create-date": "28-JUN-1999",
+    "GBSeq_definition": "Pseudonaja textilis clone PT-LNTX long neurotoxin precursor, mRNA, complete cds",
+    "GBSeq_primary-accession": "AF082982",
+    "GBSeq_accession-version": "AF082982.1",
+    "GBSeq_other-seqids": [
+        "gb|AF082982.1|",
+        "gi|5230713"
+    ],
+    "GBSeq_source": "Pseudonaja textilis",
+    "GBSeq_organism": "Pseudonaja textilis",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Acanthophiinae; Pseudonaja",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..377",
+            "GBReference_authors": [
+                "Gong,N.",
+                "Armugam,A.",
+                "Mirtschin,P.",
+                "Jeyaseelan,K."
+            ],
+            "GBReference_title": "Cloning and characterization of the pseudonajatoxin b precursor",
+            "GBReference_journal": "Biochem. J. 358 (Pt 3), 647-656 (2001)",
+            "GBReference_pubmed": "11535126"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..377",
+            "GBReference_authors": [
+                "Gong,N.L.",
+                "Armugam,A.",
+                "Jeyaseelan,K."
+            ],
+            "GBReference_title": "Cloning and expression of cDNA encoding unique long neurotoxin in Pseudonaja textilis venom",
+            "GBReference_journal": "Unpublished"
+        },
+        {
+            "GBReference_reference": "3",
+            "GBReference_position": "1..377",
+            "GBReference_authors": [
+                "Jeyaseelan,K.",
+                "Gong,N.L.",
+                "Armugam,A."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (10-AUG-1998) Biochemistry, National University of Singapore, 10 Kent Ridge Crescent, Singapore 119260, Singapore"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..377",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "377",
+                    "GBInterval_accession": "AF082982.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Pseudonaja textilis"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8673"
+                },
+                {
+                    "GBQualifier_name": "clone",
+                    "GBQualifier_value": "PT-LNTX"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..312",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "312",
+                    "GBInterval_accession": "AF082982.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "long neurotoxin precursor"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "AAD40974.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGYTRTCFITPDVKSKPCPPGQEVCYTKTWCDGFCGIRGKRVDLGCAATCPTPKKTGIDIICCSTDDCNTFPLRPRGRLSSIKDHP"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "1..63",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "63",
+                    "GBInterval_accession": "AF082982.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGYT"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "mat_peptide",
+            "GBFeature_location": "64..309",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "64",
+                    "GBInterval_to": "309",
+                    "GBInterval_accession": "AF082982.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "long neurotoxin"
+                },
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "RTCFITPDVKSKPCPPGQEVCYTKTWCDGFCGIRGKRVDLGCAATCPTPKKTGIDIICCSTDDCNTFPLRPRGRLSSIKDHP"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "atgaaaactctgctgctgaccttggtggtggtgacaatcgtgtgcctggacttaggatacaccaggacatgcttcataacacctgatgttaaatctaagccttgtccacctgggcaggaggtatgctacacaaagacttggtgtgatggtttttgtggcatcagaggaaagcgagtcgatttgggatgtgctgctacttgccctactccaaagaagaccggtatagatattatctgttgctccacagacgattgcaacacatttccattacgtcctcgagggaggctctcatccatcaaggaccatccttgaaaaattatgcttgtggcctttaccgcagatggtccatcatcccctgctgtctttgacatctcgac"
+}

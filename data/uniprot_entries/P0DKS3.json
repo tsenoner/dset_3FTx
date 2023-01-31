@@ -1,0 +1,848 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P0DKS3",
+    "secondaryAccessions": [
+        "B3EWQ4"
+    ],
+    "uniProtkbId": "3SX2_DENPO",
+    "entryAudit": {
+        "firstPublicDate": "2012-11-28",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2012-11-28",
+        "entryVersion": 35,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 3.0,
+    "organism": {
+        "scientificName": "Dendroaspis polylepis polylepis",
+        "commonName": "Black mamba",
+        "taxonId": 8620,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Dendroaspis"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "23034652"
+                    }
+                ],
+                "value": "Mambalgin-2"
+            },
+            "shortNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "24323786"
+                        }
+                    ],
+                    "value": "Ma-2"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "23034652"
+                        }
+                    ],
+                    "value": "Mamb-2"
+                }
+            ]
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "23034652"
+                        }
+                    ],
+                    "value": "Pi-Dp2"
+                }
+            }
+        ]
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P0DKR6"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "23034652"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "23624383"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "24323786"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "24695733"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "26991634"
+                        }
+                    ],
+                    "value": "This three-finger toxin inhibits ASIC channels. It acts as a gating modifier toxin by decreasing the apparent proton sensitivity of activation and by slightly increasing the apparent proton sensitivity for inactivation (PubMed:24695733). It binds more tightly to the closed state and to a much lesser extent the inactivated/desensitized state of ASIC1a isoform of ASIC1 (PubMed:24695733). It interacts directly with the outside surface of the thumb domain of chicken ASIC1a (ASIC1a), but does not insert into the acidic pocket as suggested previously (By similarity). This binding leads to relocation of the thumb domain that could disrupt the acidic pocket of cASIC1a (By similarity). The peptide exerts both stimulatory and inhibitory effects on ASIC1a (PubMed:24695733). It reversibly inhibits rat ASIC1a (IC(50)=21-55 nM), rat ASIC1b (IC(50)=103-192 nM), rat ASIC1a-ASIC1b (IC(50)=72 nM), rat ASIC1a-ASIC2a (IC(50)=246-252 nM) and rat ASIC1a-ASIC2b (IC(50)=61 nM) (PubMed:23034652, PubMed:23624383, PubMed:24323786, PubMed:24695733, PubMed:26991634). In vivo, it shows a potent naloxone-resistant analgesic effect against acute and inflammatory pain upon central and peripheral injection (By similarity). In addition, it also has an opioid-independent effect on both thermal and mechanical inflammatory pain after systemic administration and is effective against neuropathic pain (By similarity)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "23034652"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "commentType": "MASS SPECTROMETRY",
+            "method": "MALDI",
+            "molWeight": 6538.4,
+            "molWeightError": 0.0,
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23034652"
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P0DKR6"
+                        }
+                    ],
+                    "value": "Promising peptide that shows a potent analgesic effect against acute and inflammatory pain that can be as strong as morphine but resistant to naloxone, with much less tolerance and no respiratory distress"
+                }
+            ],
+            "commentType": "PHARMACEUTICAL"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P0DKR6"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "24695733"
+                        }
+                    ],
+                    "value": "Has no effect on rat ASIC2a (PubMed:24695733). Has no effect on rat ASIC3, rat ASIC1a-ASIC3 and rat ASIC1b-ASIC3 channels, as well as on TRPV1, P2RX2 (P2X2), HTR3A (5-HT3A), Nav1.8 (SCN10A), Cav3.2 (CACNA1H) and Kv1.2 (KCNA2) channels (By similarity). Does not produce motor dysfunction, apathy, flaccid paralysis, convulsions or death upon central injections (intrathecal or intracerebroventricular) in mice (By similarity)"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily. Mambalgin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 57,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Mambalgin-2",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23034652"
+                }
+            ],
+            "featureId": "PRO_0000420416"
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 3,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 19,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24323786"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2MFA"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 12,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 37,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24323786"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2MFA"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 41,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 49,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24323786"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2MFA"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 50,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 55,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24323786"
+                },
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "PDB",
+                    "id": "2MFA"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 5,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 8,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "2MFA"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 18,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "2MFA"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 34,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 40,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "2MFA"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 45,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 50,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "2MFA"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0002",
+            "category": "Technical term",
+            "name": "3D-structure"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0872",
+            "category": "Molecular function",
+            "name": "Ion channel impairing toxin"
+        },
+        {
+            "id": "KW-0582",
+            "category": "Technical term",
+            "name": "Pharmaceutical"
+        },
+        {
+            "id": "KW-1275",
+            "category": "Molecular function",
+            "name": "Proton-gated sodium channel impairing toxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "23034652",
+                "citationType": "journal article",
+                "authors": [
+                    "Diochot S.",
+                    "Baron A.",
+                    "Salinas M.",
+                    "Douguet D.",
+                    "Scarzello S.",
+                    "Dabert-Gay A.-S.",
+                    "Debayle D.",
+                    "Friend V.",
+                    "Alloui A.",
+                    "Lazdunski M.",
+                    "Lingueglia E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "23034652"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/nature11494"
+                    }
+                ],
+                "title": "Black mamba venom peptides target acid-sensing ion channels to abolish pain.",
+                "publicationDate": "2012",
+                "journal": "Nature",
+                "firstPage": "552",
+                "lastPage": "555",
+                "volume": "490"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE",
+                "MASS SPECTROMETRY",
+                "PHARMACEUTICAL",
+                "FUNCTION",
+                "SUBCELLULAR LOCATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "23624383",
+                "citationType": "journal article",
+                "authors": [
+                    "Baron A.",
+                    "Diochot S.",
+                    "Salinas M.",
+                    "Deval E.",
+                    "Noel J.",
+                    "Lingueglia E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "23624383"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.toxicon.2013.04.008"
+                    }
+                ],
+                "title": "Venom toxins in the exploration of molecular, physiological and pathophysiological functions of acid-sensing ion channels.",
+                "publicationDate": "2013",
+                "journal": "Toxicon",
+                "firstPage": "187",
+                "lastPage": "204",
+                "volume": "75"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "REVIEW"
+            ]
+        },
+        {
+            "citation": {
+                "id": "24695733",
+                "citationType": "journal article",
+                "authors": [
+                    "Salinas M.",
+                    "Besson T.",
+                    "Delettre Q.",
+                    "Diochot S.",
+                    "Boulakirba S.",
+                    "Douguet D.",
+                    "Lingueglia E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "24695733"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m114.561076"
+                    }
+                ],
+                "title": "Binding site and inhibitory mechanism of the mambalgin-2 pain-relieving peptide on acid-sensing ion channel 1a.",
+                "publicationDate": "2014",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "13363",
+                "lastPage": "13373",
+                "volume": "289"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "26991634",
+                "citationType": "journal article",
+                "authors": [
+                    "Lan H.",
+                    "Wu K.",
+                    "Zheng Y.",
+                    "Pan M.",
+                    "Huang Y.C.",
+                    "Gao S.",
+                    "Zheng Q.Y.",
+                    "Zheng J.S.",
+                    "Li Y.M.",
+                    "Xiao B.",
+                    "Liu L."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "26991634"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1002/psc.2868"
+                    }
+                ],
+                "title": "Total synthesis of mambalgin-1/2/3 by two-segment hydrazide-based native chemical ligation.",
+                "publicationDate": "2016",
+                "journal": "J. Pept. Sci.",
+                "firstPage": "320",
+                "lastPage": "326",
+                "volume": "22"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "SYNTHESIS"
+            ]
+        },
+        {
+            "citation": {
+                "id": "24323786",
+                "citationType": "journal article",
+                "authors": [
+                    "Schroeder C.I.",
+                    "Rash L.D.",
+                    "Vila-Farres X.",
+                    "Rosengren K.J.",
+                    "Mobli M.",
+                    "King G.F.",
+                    "Alewood P.F.",
+                    "Craik D.J.",
+                    "Durek T."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "24323786"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1002/anie.201308898"
+                    }
+                ],
+                "title": "Chemical synthesis, 3D structure, and ASIC binding site of the toxin mambalgin-2.",
+                "publicationDate": "2014",
+                "journal": "Angew. Chem. Int. Ed.",
+                "firstPage": "1017",
+                "lastPage": "1020",
+                "volume": "53"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR",
+                "SYNTHESIS",
+                "DISULFIDE BONDS"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "PDB",
+            "id": "2MFA",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=1-57"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "2MFA",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "P0DKS3",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BMRB",
+            "id": "P0DKS3",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P0DKS3",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "TCDB",
+            "id": "8.B.23.1.2",
+            "properties": [
+                {
+                    "key": "FamilyName",
+                    "value": "the mambalgin (mambalgin) family"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0099106",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ion channel regulator activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "LKCFQHGKVVTCHRDMKFCYHNTGMPFRNLKLILQGCSSSCSETENNKCCSTDRCNK",
+        "length": 57,
+        "molWeight": 6547,
+        "crc64": "004881FC91EEC5BA",
+        "md5": "B3299EDD19A09E7994897CA084B1B029"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "MASS SPECTROMETRY": 1,
+            "PHARMACEUTICAL": 1,
+            "MISCELLANEOUS": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Disulfide bond": 4,
+            "Beta strand": 4
+        },
+        "uniParcId": "UPI000292D260"
+    }
+}

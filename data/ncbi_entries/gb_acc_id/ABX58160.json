@@ -1,0 +1,192 @@
+{
+    "GBSeq_locus": "ABX58160",
+    "GBSeq_length": "88",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "29-MAR-2008",
+    "GBSeq_create-date": "29-MAR-2008",
+    "GBSeq_definition": "putative long neurotoxin [Austrelaps labialis]",
+    "GBSeq_primary-accession": "ABX58160",
+    "GBSeq_accession-version": "ABX58160.1",
+    "GBSeq_other-seqids": [
+        "gb|ABX58160.1|",
+        "gi|161138388"
+    ],
+    "GBSeq_source": "Austrelaps labialis",
+    "GBSeq_organism": "Austrelaps labialis",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Acanthophiinae; Austrelaps",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..88",
+            "GBReference_authors": [
+                "Doley,R.",
+                "Tram,N.N.",
+                "Reza,M.A.",
+                "Kini,R.M."
+            ],
+            "GBReference_title": "Unusual accelerated rate of deletions and insertions in toxin genes in the venom glands of the pygmy copperhead (Austrelaps labialis) from Kangaroo island",
+            "GBReference_journal": "BMC Evol. Biol. 8, 70 (2008)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1186/1471-2148-8-70"
+                }
+            ],
+            "GBReference_pubmed": "18307759",
+            "GBReference_remark": "Publication Status: Online-Only"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..88",
+            "GBReference_authors": [
+                "Tram,N.B.",
+                "Doley,R.",
+                "Kini,R.M."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (19-JUN-2007) Department of Biological Sciences, National University of Singapore, 14 Science Drive 4 117543, Singapore"
+        }
+    ],
+    "GBSeq_comment": "Method: conceptual translation supplied by author.",
+    "GBSeq_source-db": "accession EU003094.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..88",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "88",
+                    "GBInterval_accession": "ABX58160.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Austrelaps labialis"
+                },
+                {
+                    "GBQualifier_name": "isolation_source",
+                    "GBQualifier_value": "venom"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:471292"
+                },
+                {
+                    "GBQualifier_name": "clone",
+                    "GBQualifier_value": "10B"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..88",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "88",
+                    "GBInterval_accession": "ABX58160.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "putative long neurotoxin"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "9519"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "22..85",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "22",
+                    "GBInterval_to": "85",
+                    "GBInterval_accession": "ABX58160.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "snake_toxin"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Snake toxin domain, present in short and long neurotoxins, cytotoxins and short toxins, and in other miscellaneous venom peptides. The toxin acts by binding to the nicotinic acetylcholine receptors in the postsynaptic membrane of skeletal muscles and...; cd00206"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "order(24,31,46..47,55..60)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "24",
+                    "GBInterval_accession": "ABX58160.1"
+                },
+                {
+                    "GBInterval_point": "31",
+                    "GBInterval_accession": "ABX58160.1"
+                },
+                {
+                    "GBInterval_from": "46",
+                    "GBInterval_to": "47",
+                    "GBInterval_accession": "ABX58160.1"
+                },
+                {
+                    "GBInterval_from": "55",
+                    "GBInterval_to": "60",
+                    "GBInterval_accession": "ABX58160.1"
+                }
+            ],
+            "GBFeature_operator": "order",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "active"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "receptor binding site [active]"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..88",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "88",
+                    "GBInterval_accession": "ABX58160.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "EU003094.1:1..267"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mktllltlvvvtivcldlgnsfscyktphvksepcapgqnlcytktwcdrfcsirlkvielgcaatcppaepkkditccstdncnphp"
+}

@@ -1,0 +1,116 @@
+{
+    "GBSeq_locus": "DQ902574",
+    "GBSeq_length": "525",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "10-NOV-2007",
+    "GBSeq_create-date": "10-NOV-2007",
+    "GBSeq_definition": "Ophiophagus hannah long chain neurotoxin 2-like protein mRNA, complete cds",
+    "GBSeq_primary-accession": "DQ902574",
+    "GBSeq_accession-version": "DQ902574.1",
+    "GBSeq_other-seqids": [
+        "gb|DQ902574.1|",
+        "gi|117606603"
+    ],
+    "GBSeq_source": "Ophiophagus hannah (king cobra)",
+    "GBSeq_organism": "Ophiophagus hannah",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Ophiophagus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..525",
+            "GBReference_authors": [
+                "Rajagopalan,N.",
+                "Pung,Y.F.",
+                "Zhu,Y.Z.",
+                "Wong,P.T.",
+                "Kumar,P.P.",
+                "Kini,R.M."
+            ],
+            "GBReference_title": "Beta-cardiotoxin: a new three-finger toxin from Ophiophagus hannah (king cobra) venom with beta-blocker activity",
+            "GBReference_journal": "FASEB J. 21 (13), 3685-3695 (2007)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1096/fj.07-8658com"
+                }
+            ],
+            "GBReference_pubmed": "17616557"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..525",
+            "GBReference_authors": [
+                "Rajagopalan,N.",
+                "Pung,Y.F.",
+                "Kumar,P.P.",
+                "Kini,R.M."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (15-AUG-2006) Department of Biological Sciences, National University of Singapore, 14 Science Drive 4, Singapore 117543, Singapore"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..525",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "525",
+                    "GBInterval_accession": "DQ902574.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Ophiophagus hannah"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8665"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "33..314",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "33",
+                    "GBInterval_to": "314",
+                    "GBInterval_accession": "DQ902574.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "long chain neurotoxin 2-like protein"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "ABK41954.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLTLVVVTIVCLDLGYTTKCYVTPDATSQTCPDGENICYTKSWCDVFCSSRGKRIDLGCAATCPKVKPGVDIKCCSTDNCNPFTPWKRH"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "gacacattgcaggctccagagaaggtcgcaagatgaaaactctgctgctgaccttggtggtggtgacaatcgtgtgcctggacttaggatacaccacgaaatgctatgtaacacctgatgctacctctcagacttgtccagatggggagaacatatgctatacaaagtcttggtgtgacgttttttgtagctccagaggaaaaagaattgatttgggctgtgctgctacttgccctaaagtgaagcccggtgtggatattaaatgttgctcaacagacaattgcaacccatttacaccatggaaacgtcattgagttttgcactcatccatcatggaccatccttgaaaatttatgcttgtggcctttaccaccagatggtccatcatccccttctcccctgctgtctttgacatctcaacatctttcccttttctctcattctgtaagtttccttctgctagttctgtagtttgagaatcaaataaaaatcagcatcaaaaaaaaaaaaaaaaaaaataaaaaa"
+}

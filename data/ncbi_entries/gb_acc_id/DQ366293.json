@@ -1,0 +1,189 @@
+{
+    "GBSeq_locus": "DQ366293",
+    "GBSeq_length": "672",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "mRNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "25-SEP-2006",
+    "GBSeq_create-date": "25-SEP-2006",
+    "GBSeq_definition": "Boiga dendrophila denmotoxin precursor, mRNA, complete cds",
+    "GBSeq_primary-accession": "DQ366293",
+    "GBSeq_accession-version": "DQ366293.1",
+    "GBSeq_other-seqids": [
+        "gb|DQ366293.1|",
+        "gi|110264418"
+    ],
+    "GBSeq_source": "Boiga dendrophila",
+    "GBSeq_organism": "Boiga dendrophila",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Colubridae; Colubrinae; Boiga",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..672",
+            "GBReference_authors": [
+                "Pawlak,J.",
+                "Mackessy,S.P.",
+                "Fry,B.G.",
+                "Bhatia,M.",
+                "Mourier,G.",
+                "Fruchart-Gaillard,C.",
+                "Servent,D.",
+                "Menez,R.",
+                "Stura,E.",
+                "Menez,A.",
+                "Kini,R.M."
+            ],
+            "GBReference_title": "Denmotoxin, a three-finger toxin from the colubrid snake Boiga dendrophila (Mangrove Catsnake) with bird-specific activity",
+            "GBReference_journal": "J. Biol. Chem. 281 (39), 29030-29041 (2006)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1074/jbc.M605850200"
+                }
+            ],
+            "GBReference_pubmed": "16864572"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..672",
+            "GBReference_authors": [
+                "Pawlak,J.",
+                "Kini,M.R."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (17-JAN-2006) Biological Sciences, National University of Singapore, Science Drive 4, Singapore 117543, Singapore"
+        }
+    ],
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..672",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "672",
+                    "GBInterval_accession": "DQ366293.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Boiga dendrophila"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "mRNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:46286"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "5'UTR",
+            "GBFeature_location": "1..32",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "32",
+                    "GBInterval_accession": "DQ366293.1"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "33..368",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "33",
+                    "GBInterval_to": "368",
+                    "GBInterval_accession": "DQ366293.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "neurotoxin"
+                },
+                {
+                    "GBQualifier_name": "codon_start",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "denmotoxin precursor"
+                },
+                {
+                    "GBQualifier_name": "protein_id",
+                    "GBQualifier_value": "ABC95749.1"
+                },
+                {
+                    "GBQualifier_name": "translation",
+                    "GBQualifier_value": "MKTLLLAVAVVAFVCLGSADQLGLGRQQIDWGQGQAVGLPHGFCIQCNRKTWSNCSIGHRCLPYHMTCYTLYKPDENGEMKWAVKGCARMCPTAKSGERVKCCTGASCNSD"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "sig_peptide",
+            "GBFeature_location": "33..101",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "33",
+                    "GBInterval_to": "101",
+                    "GBInterval_accession": "DQ366293.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "peptide",
+                    "GBQualifier_value": "MKTLLLAVAVVAFVCLGSADQLG"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "3'UTR",
+            "GBFeature_location": "369..672",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "369",
+                    "GBInterval_to": "672",
+                    "GBInterval_accession": "DQ366293.1"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "regulatory",
+            "GBFeature_location": "620..625",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "620",
+                    "GBInterval_to": "625",
+                    "GBInterval_accession": "DQ366293.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "regulatory_class",
+                    "GBQualifier_value": "polyA_signal_sequence"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "polyA_site",
+            "GBFeature_location": "639",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "639",
+                    "GBInterval_accession": "DQ366293.1"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "tacactttgaaggctgcagagaagatcgcaagatgaaaactctgctgctggccgtggcggtggtggcattcgtgtgcctgggctcagctgatcagctgggactcggaaggcagcaaatagattgggggcaaggccaagcagtaggtctaccccatggattttgtattcaatgcaatcgaaagacttggtctaactgttccatcggtcatagatgtctgccatatcacatgacgtgctacactttgtacaaacctgatgagaatggtgaaatgaaatgggctgtcaagggatgtgctagaatgtgccctaccgcgaagtctggtgagagggtgaagtgttgcactggagcaagctgcaatagtgattgaaaaagagtacactgagctttgatcttcgtcttcacgaggaagcctccatgctgctccggtattttcaacaactgttatcatcctatcaaacaatatattacaattaccatgtagatgcaaatgatagaagctgaatgattatattagacatacttgaatagtattattactgttattagtattgtctataaagtaaattgatcattattaaagctattattttaactactattattaatctcacaatgattattaaatactttgtgaatctaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+}
