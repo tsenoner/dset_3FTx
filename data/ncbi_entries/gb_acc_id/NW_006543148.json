@@ -1,0 +1,143 @@
+{
+    "GBSeq_locus": "NW_006543148",
+    "GBSeq_length": "9440",
+    "GBSeq_strandedness": "double",
+    "GBSeq_moltype": "DNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "CON",
+    "GBSeq_update-date": "24-MAY-2018",
+    "GBSeq_create-date": "01-APR-2014",
+    "GBSeq_definition": "Python bivittatus unplaced genomic scaffold, Python_molurus_bivittatus-5.0.2 Scaffold11134, whole genome shotgun sequence",
+    "GBSeq_primary-accession": "NW_006543148",
+    "GBSeq_accession-version": "NW_006543148.1",
+    "GBSeq_other-seqids": [
+        "gnl|ASM:GCF_000186315.1|Scaffold11134",
+        "ref|NW_006543148.1|",
+        "gpp|GPS_003475204.1|",
+        "gi|588462329"
+    ],
+    "GBSeq_project": "PRJNA238085",
+    "GBSeq_keywords": [
+        "WGS",
+        "RefSeq"
+    ],
+    "GBSeq_source": "Python bivittatus (Burmese python)",
+    "GBSeq_organism": "Python bivittatus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Henophidia; Pythonidae; Python",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..9440",
+            "GBReference_authors": [
+                "Castoe,T.A.",
+                "de Koning,A.P.",
+                "Hall,K.T.",
+                "Card,D.C.",
+                "Schield,D.R.",
+                "Fujita,M.K.",
+                "Ruggiero,R.P.",
+                "Degner,J.F.",
+                "Daza,J.M.",
+                "Gu,W.",
+                "Reyes-Velasco,J.",
+                "Shaney,K.J.",
+                "Castoe,J.M.",
+                "Fox,S.E.",
+                "Poole,A.W.",
+                "Polanco,D.",
+                "Dobry,J.",
+                "Vandewege,M.W.",
+                "Li,Q.",
+                "Schott,R.K.",
+                "Kapusta,A.",
+                "Minx,P.",
+                "Feschotte,C.",
+                "Uetz,P.",
+                "Ray,D.A.",
+                "Hoffmann,F.G.",
+                "Bogden,R.",
+                "Smith,E.N.",
+                "Chang,B.S.",
+                "Vonk,F.J.",
+                "Casewell,N.R.",
+                "Henkel,C.V.",
+                "Richardson,M.K.",
+                "Mackessy,S.P.",
+                "Bronikowski,A.M.",
+                "Yandell,M.",
+                "Warren,W.C.",
+                "Secor,S.M.",
+                "Pollock,D.D."
+            ],
+            "GBReference_title": "The Burmese python genome reveals the molecular basis for extreme adaptation in snakes",
+            "GBReference_journal": "Proc. Natl. Acad. Sci. U.S.A. 110 (51), 20645-20650 (2013)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1073/pnas.1314475110"
+                }
+            ],
+            "GBReference_pubmed": "24297902",
+            "GBReference_remark": "Erratum:[Proc Natl Acad Sci U S A. 2013 Dec 17;110(51). doi:10.1073/pnas.1324133111. Bronikowsi, Anne M [corrected to Bronikowski, Anne M]]"
+        }
+    ],
+    "GBSeq_comment": "REFSEQ INFORMATION: The reference sequence is identical to KE964105.1.; Assembly name: Python_molurus_bivittatus-5.0.2~The genomic sequence for this RefSeq record is from the whole-genome assembly released by The Consortium for Comparative Genomics, UC Denver on 2013/09/15. The original whole-genome shotgun project has the accession AEQU00000000.2.; ##Genome-Assembly-Data-START## ; Assembly Provider :: The Consortium for Comparative Genomics, UC Denver ; Assembly Method :: Soap deNovo v. March 2012 ; Assembly Name :: Python_molurus_bivittatus-5.0.2 ; Genome Coverage :: 20x ; Sequencing Technology :: Illumina; 454 ; ##Genome-Assembly-Data-END##; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI ; Annotation Status :: Full annotation ; Annotation Name :: Python bivittatus Annotation Release 102 ; Annotation Version :: 102 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 8.0 ; Annotation Method :: Best-placed RefSeq; Gnomon ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; ##Genome-Annotation-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..9440",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "9440",
+                    "GBInterval_accession": "NW_006543148.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Python bivittatus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "genomic DNA"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:176946"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "Unknown"
+                },
+                {
+                    "GBQualifier_name": "sex",
+                    "GBQualifier_value": "female"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "liver"
+                },
+                {
+                    "GBQualifier_name": "country",
+                    "GBQualifier_value": "USA: Texas"
+                }
+            ]
+        }
+    ],
+    "GBSeq_contig": "join(AEQU02238659.1:1..3536,gap(218),AEQU02238660.1:1..5686)",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA238085"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN02981298"
+        },
+        {
+            "GBXref_dbname": "Assembly",
+            "GBXref_id": "GCF_000186305.1"
+        }
+    ]
+}

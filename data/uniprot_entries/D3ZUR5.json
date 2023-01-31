@@ -1,0 +1,1114 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "D3ZUR5",
+    "uniProtkbId": "D3ZUR5_RAT",
+    "entryAudit": {
+        "firstPublicDate": "2010-04-20",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2010-04-20",
+        "entryVersion": 96,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 2.0,
+    "organism": {
+        "scientificName": "Rattus norvegicus",
+        "commonName": "Rat",
+        "taxonId": 10116,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Ensembl",
+                "id": "ENSRNOP00000032576.3"
+            },
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Proteomes",
+                "id": "UP000002494"
+            }
+        ],
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Eutheria",
+            "Euarchontoglires",
+            "Glires",
+            "Rodentia",
+            "Myomorpha",
+            "Muroidea",
+            "Muridae",
+            "Murinae",
+            "Rattus"
+        ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+        "submissionNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSRNOP00000032576.3"
+                        }
+                    ],
+                    "value": "Secreted LY6/PLAUR domain-containing 2"
+                }
+            },
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "EDM16091.1"
+                        }
+                    ],
+                    "value": "Similar to secreted Ly6/uPAR related protein 2 (Predicted), isoform CRA_a"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "Ensembl",
+                        "id": "ENSRNOP00000032576.3"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "RGD",
+                        "id": "1308195"
+                    }
+                ],
+                "value": "Slurp2"
+            },
+            "synonyms": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "RGD",
+                            "id": "1308195"
+                        }
+                    ],
+                    "value": "RGD1308195"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "EDM16091.1"
+                        }
+                    ],
+                    "value": "RGD1308195_predicted"
+                }
+            ],
+            "orfNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "EDM16091.1"
+                        }
+                    ],
+                    "value": "rCG_59801"
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 23,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 97,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "featureId": "PRO_5014087738"
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 25,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 95,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "UPAR/Ly6",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000259",
+                    "source": "Pfam",
+                    "id": "PF00021"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000002494"
+                }
+            ],
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "15057822",
+                "citationType": "journal article",
+                "authoringGroup": [
+                    "Rat Genome Sequencing Project Consortium"
+                ],
+                "authors": [
+                    "Gibbs R.A.",
+                    "Weinstock G.M.",
+                    "Metzker M.L.",
+                    "Muzny D.M.",
+                    "Sodergren E.J.",
+                    "Scherer S.",
+                    "Scott G.",
+                    "Steffen D.",
+                    "Worley K.C.",
+                    "Burch P.E.",
+                    "Okwuonu G.",
+                    "Hines S.",
+                    "Lewis L.",
+                    "Deramo C.",
+                    "Delgado O.",
+                    "Dugan-Rocha S.",
+                    "Miner G.",
+                    "Morgan M.",
+                    "Hawes A.",
+                    "Gill R.",
+                    "Holt R.A.",
+                    "Adams M.D.",
+                    "Amanatides P.G.",
+                    "Baden-Tillson H.",
+                    "Barnstead M.",
+                    "Chin S.",
+                    "Evans C.A.",
+                    "Ferriera S.",
+                    "Fosler C.",
+                    "Glodek A.",
+                    "Gu Z.",
+                    "Jennings D.",
+                    "Kraft C.L.",
+                    "Nguyen T.",
+                    "Pfannkoch C.M.",
+                    "Sitter C.",
+                    "Sutton G.G.",
+                    "Venter J.C.",
+                    "Woodage T.",
+                    "Smith D.",
+                    "Lee H.-M.",
+                    "Gustafson E.",
+                    "Cahill P.",
+                    "Kana A.",
+                    "Doucette-Stamm L.",
+                    "Weinstock K.",
+                    "Fechtel K.",
+                    "Weiss R.B.",
+                    "Dunn D.M.",
+                    "Green E.D.",
+                    "Blakesley R.W.",
+                    "Bouffard G.G.",
+                    "De Jong P.J.",
+                    "Osoegawa K.",
+                    "Zhu B.",
+                    "Marra M.",
+                    "Schein J.",
+                    "Bosdet I.",
+                    "Fjell C.",
+                    "Jones S.",
+                    "Krzywinski M.",
+                    "Mathewson C.",
+                    "Siddiqui A.",
+                    "Wye N.",
+                    "McPherson J.",
+                    "Zhao S.",
+                    "Fraser C.M.",
+                    "Shetty J.",
+                    "Shatsman S.",
+                    "Geer K.",
+                    "Chen Y.",
+                    "Abramzon S.",
+                    "Nierman W.C.",
+                    "Havlak P.H.",
+                    "Chen R.",
+                    "Durbin K.J.",
+                    "Egan A.",
+                    "Ren Y.",
+                    "Song X.-Z.",
+                    "Li B.",
+                    "Liu Y.",
+                    "Qin X.",
+                    "Cawley S.",
+                    "Cooney A.J.",
+                    "D'Souza L.M.",
+                    "Martin K.",
+                    "Wu J.Q.",
+                    "Gonzalez-Garay M.L.",
+                    "Jackson A.R.",
+                    "Kalafus K.J.",
+                    "McLeod M.P.",
+                    "Milosavljevic A.",
+                    "Virk D.",
+                    "Volkov A.",
+                    "Wheeler D.A.",
+                    "Zhang Z.",
+                    "Bailey J.A.",
+                    "Eichler E.E.",
+                    "Tuzun E.",
+                    "Birney E.",
+                    "Mongin E.",
+                    "Ureta-Vidal A.",
+                    "Woodwark C.",
+                    "Zdobnov E.",
+                    "Bork P.",
+                    "Suyama M.",
+                    "Torrents D.",
+                    "Alexandersson M.",
+                    "Trask B.J.",
+                    "Young J.M.",
+                    "Huang H.",
+                    "Wang H.",
+                    "Xing H.",
+                    "Daniels S.",
+                    "Gietzen D.",
+                    "Schmidt J.",
+                    "Stevens K.",
+                    "Vitt U.",
+                    "Wingrove J.",
+                    "Camara F.",
+                    "Mar Alba M.",
+                    "Abril J.F.",
+                    "Guigo R.",
+                    "Smit A.",
+                    "Dubchak I.",
+                    "Rubin E.M.",
+                    "Couronne O.",
+                    "Poliakov A.",
+                    "Huebner N.",
+                    "Ganten D.",
+                    "Goesele C.",
+                    "Hummel O.",
+                    "Kreitler T.",
+                    "Lee Y.-A.",
+                    "Monti J.",
+                    "Schulz H.",
+                    "Zimdahl H.",
+                    "Himmelbauer H.",
+                    "Lehrach H.",
+                    "Jacob H.J.",
+                    "Bromberg S.",
+                    "Gullings-Handley J.",
+                    "Jensen-Seaman M.I.",
+                    "Kwitek A.E.",
+                    "Lazar J.",
+                    "Pasko D.",
+                    "Tonellato P.J.",
+                    "Twigger S.",
+                    "Ponting C.P.",
+                    "Duarte J.M.",
+                    "Rice S.",
+                    "Goodstadt L.",
+                    "Beatson S.A.",
+                    "Emes R.D.",
+                    "Winter E.E.",
+                    "Webber C.",
+                    "Brandt P.",
+                    "Nyakatura G.",
+                    "Adetobi M.",
+                    "Chiaromonte F.",
+                    "Elnitski L.",
+                    "Eswara P.",
+                    "Hardison R.C.",
+                    "Hou M.",
+                    "Kolbe D.",
+                    "Makova K.",
+                    "Miller W.",
+                    "Nekrutenko A.",
+                    "Riemer C.",
+                    "Schwartz S.",
+                    "Taylor J.",
+                    "Yang S.",
+                    "Zhang Y.",
+                    "Lindpaintner K.",
+                    "Andrews T.D.",
+                    "Caccamo M.",
+                    "Clamp M.",
+                    "Clarke L.",
+                    "Curwen V.",
+                    "Durbin R.M.",
+                    "Eyras E.",
+                    "Searle S.M.",
+                    "Cooper G.M.",
+                    "Batzoglou S.",
+                    "Brudno M.",
+                    "Sidow A.",
+                    "Stone E.A.",
+                    "Payseur B.A.",
+                    "Bourque G.",
+                    "Lopez-Otin C.",
+                    "Puente X.S.",
+                    "Chakrabarti K.",
+                    "Chatterji S.",
+                    "Dewey C.",
+                    "Pachter L.",
+                    "Bray N.",
+                    "Yap V.B.",
+                    "Caspi A.",
+                    "Tesler G.",
+                    "Pevzner P.A.",
+                    "Haussler D.",
+                    "Roskin K.M.",
+                    "Baertsch R.",
+                    "Clawson H.",
+                    "Furey T.S.",
+                    "Hinrichs A.S.",
+                    "Karolchik D.",
+                    "Kent W.J.",
+                    "Rosenbloom K.R.",
+                    "Trumbower H.",
+                    "Weirauch M.",
+                    "Cooper D.N.",
+                    "Stenson P.D.",
+                    "Ma B.",
+                    "Brent M.",
+                    "Arumugam M.",
+                    "Shteynberg D.",
+                    "Copley R.R.",
+                    "Taylor M.S.",
+                    "Riethman H.",
+                    "Mudunuri U.",
+                    "Peterson J.",
+                    "Guyer M.",
+                    "Felsenfeld A.",
+                    "Old S.",
+                    "Mockrin S.",
+                    "Collins F.S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15057822"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/nature02426"
+                    }
+                ],
+                "title": "Genome sequence of the Brown Norway rat yields insights into mammalian evolution.",
+                "publicationDate": "2004",
+                "journal": "Nature",
+                "firstPage": "493",
+                "lastPage": "521",
+                "volume": "428"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSRNOP00000032576.3"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Proteomes",
+                            "id": "UP000002494"
+                        }
+                    ],
+                    "value": "Brown Norway",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSRNOP00000032576.3"
+                },
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000002494"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "15632090",
+                "citationType": "journal article",
+                "authors": [
+                    "Florea L.",
+                    "Di Francesco V.",
+                    "Miller J.",
+                    "Turner R.",
+                    "Yao A.",
+                    "Harris M.",
+                    "Walenz B.",
+                    "Mobarry C.",
+                    "Merkulov G.V.",
+                    "Charlab R.",
+                    "Dew I.",
+                    "Deng Z.",
+                    "Istrail S.",
+                    "Li P.",
+                    "Sutton G."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15632090"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1101/gr.2889405"
+                    }
+                ],
+                "title": "Gene and alternative splicing annotation with AIR.",
+                "publicationDate": "2005",
+                "journal": "Genome Res.",
+                "firstPage": "54",
+                "lastPage": "66",
+                "volume": "15"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "EDM16091.1"
+                        }
+                    ],
+                    "value": "BN",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "EMBL",
+                    "id": "EDM16091.1"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-3UHECGEEFD9H4",
+                "citationType": "submission",
+                "authors": [
+                    "Mural R.J.",
+                    "Li P.W.",
+                    "Adams M.D.",
+                    "Amanatides P.G.",
+                    "Baden-Tillson H.",
+                    "Barnstead M.",
+                    "Chin S.H.",
+                    "Dew I.",
+                    "Evans C.A.",
+                    "Ferriera S.",
+                    "Flanigan M.",
+                    "Fosler C.",
+                    "Glodek A.",
+                    "Gu Z.",
+                    "Holt R.A.",
+                    "Jennings D.",
+                    "Kraft C.L.",
+                    "Lu F.",
+                    "Nguyen T.",
+                    "Nusskern D.R.",
+                    "Pfannkoch C.M.",
+                    "Sitter C.",
+                    "Sutton G.G.",
+                    "Venter J.C.",
+                    "Wang Z.",
+                    "Woodage T.",
+                    "Zheng X.H.",
+                    "Zhong F."
+                ],
+                "publicationDate": "SEP-2005",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "EDM16091.1"
+                        }
+                    ],
+                    "value": "BN",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "EMBL",
+                    "id": "EDM16091.1"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-20IMDPQG5Q1VJ",
+                "citationType": "submission",
+                "authoringGroup": [
+                    "Ensembl"
+                ],
+                "publicationDate": "AUG-2022",
+                "submissionDatabase": "UniProtKB"
+            },
+            "referencePositions": [
+                "IDENTIFICATION"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSRNOP00000032576.3"
+                        }
+                    ],
+                    "value": "Brown Norway",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSRNOP00000032576.3"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "CH473950",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "EDM16091.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_001124023.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_001130551.1"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "D3ZUR5",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "10116.ENSRNOP00000032576",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENSRNOT00000036549.5",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSRNOP00000032576.3"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSRNOG00000031437.4"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "315074",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "rno:315074",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "UCSC",
+            "id": "RGD:1308195",
+            "properties": [
+                {
+                    "key": "OrganismName",
+                    "value": "rat"
+                }
+            ]
+        },
+        {
+            "database": "AGR",
+            "id": "RGD:1308195",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "CTD",
+            "id": "432355",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "RGD",
+            "id": "1308195",
+            "properties": [
+                {
+                    "key": "GeneName",
+                    "value": "Slurp2"
+                }
+            ]
+        },
+        {
+            "database": "eggNOG",
+            "id": "ENOG502T3MN",
+            "properties": [
+                {
+                    "key": "ToxonomicScope",
+                    "value": "Eukaryota"
+                }
+            ]
+        },
+        {
+            "database": "GeneTree",
+            "id": "ENSGT00730000111571",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HOGENOM",
+            "id": "CLU_161471_1_0_1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OMA",
+            "id": "LMCHQCK",
+            "properties": [
+                {
+                    "key": "Fingerprint",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "1544318at2759",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000002494",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 7"
+                }
+            ]
+        },
+        {
+            "database": "Bgee",
+            "id": "ENSRNOG00000031437",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Expressed in esophagus and 4 other tissues"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005615",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular space"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISO:RGD"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016020",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000318",
+                    "source": "PubMed",
+                    "id": "21873635"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005886",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:plasma membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000318",
+                    "source": "PubMed",
+                    "id": "21873635"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0045202",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:synapse"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:GOC"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0033130",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:acetylcholine receptor binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISO:RGD"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0030550",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:acetylcholine receptor inhibitor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000318",
+                    "source": "PubMed",
+                    "id": "21873635"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0030548",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:acetylcholine receptor regulator activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISO:RGD"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0095500",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:acetylcholine receptor signaling pathway"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISO:RGD"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0043616",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:keratinocyte proliferation"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISO:RGD"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0099601",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:regulation of neurotransmitter receptor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISO:RGD"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00117",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR016054",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LY6_UPA_recep-like"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00021",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "UPAR_LY6"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MRLLFWFLLAVVLSMELAVTQGMFCHLCKGFGGCSHPFRCPGNTTHCVIIATRSPISFTDLPLVTKMCYNTCPDVPSLGLGPHVSIVCCQSNLCNRD",
+        "length": 97,
+        "molWeight": 10637,
+        "crc64": "D884AB98AEC12AC8",
+        "md5": "6C1388FC9322387ECABEFB12817CF8E3"
+    },
+    "extraAttributes": {
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Domain": 1
+        },
+        "uniParcId": "UPI00001CA04E"
+    }
+}

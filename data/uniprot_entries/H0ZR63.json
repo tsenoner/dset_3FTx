@@ -1,0 +1,619 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "H0ZR63",
+    "uniProtkbId": "H0ZR63_TAEGU",
+    "entryAudit": {
+        "firstPublicDate": "2012-02-22",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2020-06-17",
+        "entryVersion": 38,
+        "sequenceVersion": 2
+    },
+    "annotationScore": 1.0,
+    "organism": {
+        "scientificName": "Taeniopygia guttata",
+        "commonName": "Zebra finch",
+        "synonyms": [
+            "Poephila guttata"
+        ],
+        "taxonId": 59729,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Ensembl",
+                "id": "ENSTGUP00000013105.2"
+            },
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Proteomes",
+                "id": "UP000007754"
+            }
+        ],
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Archelosauria",
+            "Archosauria",
+            "Dinosauria",
+            "Saurischia",
+            "Theropoda",
+            "Coelurosauria",
+            "Aves",
+            "Neognathae",
+            "Passeriformes",
+            "Passeroidea",
+            "Estrildidae",
+            "Estrildinae",
+            "Taeniopygia"
+        ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+        "submissionNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSTGUP00000013105.2"
+                        }
+                    ],
+                    "value": "Lymphocyte antigen 6E-like"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "Ensembl",
+                        "id": "ENSTGUP00000013105.2"
+                    }
+                ],
+                "value": "LOC100224284"
+            }
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 20,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 126,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "featureId": "PRO_5025522713"
+        },
+        {
+            "type": "Transmembrane",
+            "location": {
+                "start": {
+                    "value": 105,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 125,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Helical",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "Phobius"
+                }
+            ]
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 110,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "UPAR/Ly6",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000259",
+                    "source": "SMART",
+                    "id": "SM00134"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022475"
+                }
+            ],
+            "id": "KW-1003",
+            "category": "Cellular component",
+            "name": "Cell membrane"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00023136"
+                },
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "Phobius"
+                }
+            ],
+            "id": "KW-0472",
+            "category": "Cellular component",
+            "name": "Membrane"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000007754"
+                }
+            ],
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "Phobius"
+                }
+            ],
+            "id": "KW-0812",
+            "category": "Domain",
+            "name": "Transmembrane"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "Phobius"
+                }
+            ],
+            "id": "KW-1133",
+            "category": "Domain",
+            "name": "Transmembrane helix"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "20360741",
+                "citationType": "journal article",
+                "authors": [
+                    "Warren W.C.",
+                    "Clayton D.F.",
+                    "Ellegren H.",
+                    "Arnold A.P.",
+                    "Hillier L.W.",
+                    "Kunstner A.",
+                    "Searle S.",
+                    "White S.",
+                    "Vilella A.J.",
+                    "Fairley S.",
+                    "Heger A.",
+                    "Kong L.",
+                    "Ponting C.P.",
+                    "Jarvis E.D.",
+                    "Mello C.V.",
+                    "Minx P.",
+                    "Lovell P.",
+                    "Velho T.A.",
+                    "Ferris M.",
+                    "Balakrishnan C.N.",
+                    "Sinha S.",
+                    "Blatti C.",
+                    "London S.E.",
+                    "Li Y.",
+                    "Lin Y.C.",
+                    "George J.",
+                    "Sweedler J.",
+                    "Southey B.",
+                    "Gunaratne P.",
+                    "Watson M.",
+                    "Nam K.",
+                    "Backstrom N.",
+                    "Smeds L.",
+                    "Nabholz B.",
+                    "Itoh Y.",
+                    "Whitney O.",
+                    "Pfenning A.R.",
+                    "Howard J.",
+                    "Volker M.",
+                    "Skinner B.M.",
+                    "Griffin D.K.",
+                    "Ye L.",
+                    "McLaren W.M.",
+                    "Flicek P.",
+                    "Quesada V.",
+                    "Velasco G.",
+                    "Lopez-Otin C.",
+                    "Puente X.S.",
+                    "Olender T.",
+                    "Lancet D.",
+                    "Smit A.F.",
+                    "Hubley R.",
+                    "Konkel M.K.",
+                    "Walker J.A.",
+                    "Batzer M.A.",
+                    "Gu W.",
+                    "Pollock D.D.",
+                    "Chen L.",
+                    "Cheng Z.",
+                    "Eichler E.E.",
+                    "Stapley J.",
+                    "Slate J.",
+                    "Ekblom R.",
+                    "Birkhead T.",
+                    "Burke T.",
+                    "Burt D.",
+                    "Scharff C.",
+                    "Adam I.",
+                    "Richard H.",
+                    "Sultan M.",
+                    "Soldatov A.",
+                    "Lehrach H.",
+                    "Edwards S.V.",
+                    "Yang S.P.",
+                    "Li X.",
+                    "Graves T.",
+                    "Fulton L.",
+                    "Nelson J.",
+                    "Chinwalla A.",
+                    "Hou S.",
+                    "Mardis E.R.",
+                    "Wilson R.K."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "20360741"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/nature08819"
+                    }
+                ],
+                "title": "The genome of a songbird.",
+                "publicationDate": "2010",
+                "journal": "Nature",
+                "firstPage": "757",
+                "lastPage": "762",
+                "volume": "464"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSTGUP00000013105.2"
+                },
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000007754"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-20IMDPQG5Q1VJ",
+                "citationType": "submission",
+                "authoringGroup": [
+                    "Ensembl"
+                ],
+                "publicationDate": "AUG-2022",
+                "submissionDatabase": "UniProtKB"
+            },
+            "referencePositions": [
+                "IDENTIFICATION"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSTGUP00000013105.2"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "AlphaFoldDB",
+            "id": "H0ZR63",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENSTGUT00000013254.2",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSTGUP00000013105.2"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSTGUG00000012733.2"
+                }
+            ]
+        },
+        {
+            "database": "GeneTree",
+            "id": "ENSGT00940000153378",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HOGENOM",
+            "id": "CLU_141358_0_1_1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "InParanoid",
+            "id": "H0ZR63",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000007754",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 2"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005886",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:plasma membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0048856",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:anatomical structure development"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProt"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0030154",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:cell differentiation"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProt"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00117",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR016054",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LY6_UPA_recep-like"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR035076",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Toxin/TOLIP"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00087",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Toxin_TOLIP"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SMART",
+            "id": "SM00134",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKAFLVALLAAVLCAQQASSLFCYICDNEHSNWNCMKTYKCEDHEKFCTTTYSTTGVGKDMAHRITKKCSVDCPETNVNFGLAAYSTKCCSTSLCNFSGANSIRINYAVVLLGIVGSLICVLRVGL",
+        "length": 126,
+        "molWeight": 13714,
+        "crc64": "E502C74872B46DB4",
+        "md5": "33E7B23CFEAFBEC39618E338D21E3359"
+    },
+    "extraAttributes": {
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Transmembrane": 1,
+            "Domain": 1
+        },
+        "uniParcId": "UPI000194BDEF"
+    }
+}

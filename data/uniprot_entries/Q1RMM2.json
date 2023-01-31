@@ -1,0 +1,740 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "Q1RMM2",
+    "secondaryAccessions": [
+        "F1MFG5"
+    ],
+    "uniProtkbId": "Q1RMM2_BOVIN",
+    "entryAudit": {
+        "firstPublicDate": "2006-05-16",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2006-05-16",
+        "entryVersion": 96,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+        "scientificName": "Bos taurus",
+        "commonName": "Bovine",
+        "taxonId": 9913,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "AAI14824.1"
+            }
+        ],
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Eutheria",
+            "Laurasiatheria",
+            "Artiodactyla",
+            "Ruminantia",
+            "Pecora",
+            "Bovidae",
+            "Bovinae",
+            "Bos"
+        ]
+    },
+    "proteinExistence": "2: Evidence at transcript level",
+    "proteinDescription": {
+        "submissionNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "AAI14824.1"
+                        }
+                    ],
+                    "value": "Lymphocyte antigen 6 complex, locus E"
+                }
+            },
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSBTAP00000022654.4"
+                        }
+                    ],
+                    "value": "Lymphocyte antigen 6 family member E"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "EMBL",
+                        "id": "AAI14824.1"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "Ensembl",
+                        "id": "ENSBTAP00000022654.4"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "VGNC",
+                        "id": "VGNC:31089"
+                    }
+                ],
+                "value": "LY6E"
+            }
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 20,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 130,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "featureId": "PRO_5014104050"
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 111,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "UPAR/Ly6",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000259",
+                    "source": "SMART",
+                    "id": "SM00134"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000009136"
+                }
+            ],
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "CI-BNM58SCEBBK9I",
+                "citationType": "submission",
+                "authors": [
+                    "Moore S.",
+                    "Alexander L.",
+                    "Brownstein M.",
+                    "Guan L.",
+                    "Lobo S.",
+                    "Meng Y.",
+                    "Tanaguchi M.",
+                    "Wang Z.",
+                    "Yu J.",
+                    "Prange C.",
+                    "Schreiber K.",
+                    "Shenmen C.",
+                    "Wagner L.",
+                    "Bala M.",
+                    "Barbazuk S.",
+                    "Barber S.",
+                    "Babakaiff R.",
+                    "Beland J.",
+                    "Chun E.",
+                    "Del Rio L.",
+                    "Gibson S.",
+                    "Hanson R.",
+                    "Kirkpatrick R.",
+                    "Liu J.",
+                    "Matsuo C.",
+                    "Mayo M.",
+                    "Santos R.R.",
+                    "Stott J.",
+                    "Tsai M.",
+                    "Wong D.",
+                    "Siddiqui A.",
+                    "Holt R.",
+                    "Jones S.J.",
+                    "Marra M.A."
+                ],
+                "publicationDate": "APR-2006",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "AAI14824.1"
+                        }
+                    ],
+                    "value": "Hereford",
+                    "type": "STRAIN"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "AAI14824.1"
+                        }
+                    ],
+                    "value": "Thymus",
+                    "type": "TISSUE"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "EMBL",
+                    "id": "AAI14824.1"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-DV49K6FT0EEMD",
+                "citationType": "submission",
+                "authors": [
+                    "Rosen B.D.",
+                    "Bickhart D.M.",
+                    "Koren S.",
+                    "Schnabel R.D.",
+                    "Hall R.",
+                    "Zimin A.",
+                    "Dreischer C.",
+                    "Schultheiss S.",
+                    "Schroeder S.G.",
+                    "Elsik C.G.",
+                    "Couldrey C.",
+                    "Liu G.E.",
+                    "Van Tassell C.P.",
+                    "Phillippy A.M.",
+                    "Smith T.P.L.",
+                    "Medrano J.F."
+                ],
+                "title": "ARS-UCD1.2.",
+                "publicationDate": "MAR-2018",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSBTAP00000022654.4"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Proteomes",
+                            "id": "UP000009136"
+                        }
+                    ],
+                    "value": "Hereford",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSBTAP00000022654.4"
+                },
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000009136"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-20IMDPQG5Q1VJ",
+                "citationType": "submission",
+                "authoringGroup": [
+                    "Ensembl"
+                ],
+                "publicationDate": "AUG-2022",
+                "submissionDatabase": "UniProtKB"
+            },
+            "referencePositions": [
+                "IDENTIFICATION"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Ensembl",
+                            "id": "ENSBTAP00000022654.4"
+                        }
+                    ],
+                    "value": "Hereford",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Ensembl",
+                    "id": "ENSBTAP00000022654.4"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "BC114823",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAI14824.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_001039535.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_001046070.1"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "9913.ENSBTAP00000022654",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENSBTAT00000022654.5",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSBTAP00000022654.4"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSBTAG00000017040.6"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "510977",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "bta:510977",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "CTD",
+            "id": "4061",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "VEuPathDB",
+            "id": "HostDB:ENSBTAG00000017040",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "VGNC",
+            "id": "VGNC:31089",
+            "properties": [
+                {
+                    "key": "GeneName",
+                    "value": "LY6E"
+                }
+            ]
+        },
+        {
+            "database": "eggNOG",
+            "id": "ENOG502SRPS",
+            "properties": [
+                {
+                    "key": "ToxonomicScope",
+                    "value": "Eukaryota"
+                }
+            ]
+        },
+        {
+            "database": "GeneTree",
+            "id": "ENSGT00940000153378",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HOGENOM",
+            "id": "CLU_141358_0_0_1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OMA",
+            "id": "CSPICPG",
+            "properties": [
+                {
+                    "key": "Fingerprint",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "1493078at2759",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "TreeFam",
+            "id": "TF336080",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-163125",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Post-translational modification: synthesis of GPI-anchored proteins"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000009136",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 14"
+                }
+            ]
+        },
+        {
+            "database": "Bgee",
+            "id": "ENSBTAG00000017040",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Expressed in oviduct epithelium and 104 other tissues"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016020",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000318",
+                    "source": "PubMed",
+                    "id": "21873635"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005886",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:plasma membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000318",
+                    "source": "PubMed",
+                    "id": "21873635"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0030550",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:acetylcholine receptor inhibitor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000318",
+                    "source": "PubMed",
+                    "id": "21873635"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0046597",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:negative regulation of viral entry into host cell"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:Ensembl"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00117",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR016054",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LY6_UPA_recep-like"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00021",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "UPAR_LY6"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SMART",
+            "id": "SM00134",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MKVFLPLLLAALLGVERAHSLVCFTCQNVQSNWYCLKPTICSNTDSYCVTVSASAGLKNVVDLGYSLYKFCSPICGSTSLNFGVASMDTSCCQSFLCNISAAGRGPRASTLVLGLGLLLSLLVALLRFGP",
+        "length": 130,
+        "molWeight": 13752,
+        "crc64": "F535731ACFDDDBF4",
+        "md5": "D93B4D8B0B0D7BFCE89DFC46B7B7AADB"
+    },
+    "extraAttributes": {
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Domain": 1
+        },
+        "uniParcId": "UPI00004F47C4"
+    }
+}

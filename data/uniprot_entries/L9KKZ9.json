@@ -1,0 +1,454 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "L9KKZ9",
+    "uniProtkbId": "L9KKZ9_TUPCH",
+    "entryAudit": {
+        "firstPublicDate": "2013-04-03",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2013-04-03",
+        "entryVersion": 25,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+        "scientificName": "Tupaia chinensis",
+        "commonName": "Chinese tree shrew",
+        "taxonId": 246437,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "ELW63431.1"
+            },
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Proteomes",
+                "id": "UP000011518"
+            }
+        ],
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Eutheria",
+            "Euarchontoglires",
+            "Scandentia",
+            "Tupaiidae",
+            "Tupaia"
+        ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+        "submissionNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "ELW63431.1"
+                        }
+                    ],
+                    "value": "Secreted Ly-6/uPAR-related protein 2"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "orfNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "ELW63431.1"
+                        }
+                    ],
+                    "value": "TREES_T100016063"
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "type": "Signal",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 23,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 97,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "featureId": "PRO_5003999511"
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 25,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 95,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "UPAR/Ly6",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000259",
+                    "source": "Pfam",
+                    "id": "PF00021"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000011518"
+                }
+            ],
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "SignalP"
+                }
+            ],
+            "id": "KW-0732",
+            "category": "Domain",
+            "name": "Signal"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "CI-A8MEQTABIG5NJ",
+                "citationType": "submission",
+                "authors": [
+                    "Zhang G.",
+                    "Fan Y.",
+                    "Yao Y.",
+                    "Huang Z."
+                ],
+                "title": "Genome of the Chinese tree shrew, a rising model animal genetically related to primates.",
+                "publicationDate": "JUL-2012",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000011518"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "23385571",
+                "citationType": "journal article",
+                "authors": [
+                    "Fan Y.",
+                    "Huang Z.Y.",
+                    "Cao C.C.",
+                    "Chen C.S.",
+                    "Chen Y.X.",
+                    "Fan D.D.",
+                    "He J.",
+                    "Hou H.L.",
+                    "Hu L.",
+                    "Hu X.T.",
+                    "Jiang X.T.",
+                    "Lai R.",
+                    "Lang Y.S.",
+                    "Liang B.",
+                    "Liao S.G.",
+                    "Mu D.",
+                    "Ma Y.Y.",
+                    "Niu Y.Y.",
+                    "Sun X.Q.",
+                    "Xia J.Q.",
+                    "Xiao J.",
+                    "Xiong Z.Q.",
+                    "Xu L.",
+                    "Yang L.",
+                    "Zhang Y.",
+                    "Zhao W.",
+                    "Zhao X.D.",
+                    "Zheng Y.T.",
+                    "Zhou J.M.",
+                    "Zhu Y.B.",
+                    "Zhang G.J.",
+                    "Wang J.",
+                    "Yao Y.G."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "23385571"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/ncomms2416"
+                    }
+                ],
+                "title": "Genome of the Chinese tree shrew.",
+                "publicationDate": "2013",
+                "journal": "Nat. Commun.",
+                "firstPage": "1426",
+                "lastPage": "1426",
+                "volume": "4"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000011518"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "KB320776",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ELW63431.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "XP_006152158.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "XM_006152096.1"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "L9KKZ9",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "246437.XP_006152156.1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "114004421",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "CTD",
+            "id": "432355",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "InParanoid",
+            "id": "L9KKZ9",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "1544318at2759",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000011518",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Unassembled WGS sequence"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00117",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LU"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR016054",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "LY6_UPA_recep-like"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00021",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "UPAR_LY6"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MRLLAGLLLAAALSLKIAASQAMWCHQCKGFGGCSQEASCPQDTTHCIAIATPAPINFPGVPVVTKMCYRGCPDSHSLGLGPYVSIICCQASLCNHD",
+        "length": 97,
+        "molWeight": 10136,
+        "crc64": "91A26F8283DDF260",
+        "md5": "3DAC7B44A5022A5A137A5BADB510E638"
+    },
+    "extraAttributes": {
+        "countByFeatureType": {
+            "Signal": 1,
+            "Chain": 1,
+            "Domain": 1
+        },
+        "uniParcId": "UPI0002B2FBE8"
+    }
+}

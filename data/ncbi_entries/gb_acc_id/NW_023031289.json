@@ -1,0 +1,106 @@
+{
+    "GBSeq_locus": "NW_023031289",
+    "GBSeq_length": "3870",
+    "GBSeq_strandedness": "double",
+    "GBSeq_moltype": "DNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "CON",
+    "GBSeq_update-date": "15-MAY-2020",
+    "GBSeq_create-date": "15-MAY-2020",
+    "GBSeq_definition": "Pantherophis guttatus isolate EG266 unplaced genomic scaffold, UNIGE_PanGut_3.0 136593, whole genome shotgun sequence",
+    "GBSeq_primary-accession": "NW_023031289",
+    "GBSeq_accession-version": "NW_023031289.1",
+    "GBSeq_other-seqids": [
+        "gnl|ASM:GCF_001185375.1|136593",
+        "ref|NW_023031289.1|",
+        "gpp|GPS_019797090.1|",
+        "gi|1841365406"
+    ],
+    "GBSeq_project": "PRJNA632598",
+    "GBSeq_keywords": [
+        "WGS",
+        "RefSeq"
+    ],
+    "GBSeq_source": "Pantherophis guttatus",
+    "GBSeq_organism": "Pantherophis guttatus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Colubridae; Colubrinae; Pantherophis",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..3870",
+            "GBReference_authors": [
+                "Ullate-Agote,A.",
+                "Milinkovitch,M.C.",
+                "Tzika,A.C."
+            ],
+            "GBReference_title": "The genome sequence of the corn snake (Pantherophis guttatus), a valuable resource for EvoDevo studies in squamates",
+            "GBReference_journal": "Int. J. Dev. Biol. 58 (10-12), 881-888 (2014)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1387/ijdb.150060at"
+                }
+            ],
+            "GBReference_pubmed": "26154328"
+        }
+    ],
+    "GBSeq_comment": "REFSEQ INFORMATION: The reference sequence is identical to JTLQ02020603.1.; Assembly name: UNIGE_PanGut_3.0~The genomic sequence for this RefSeq record is from the whole-genome assembly released by the University of Geneva on 2020/04/13. The original whole-genome shotgun project has the accession JTLQ00000000.2.; ##Genome-Assembly-Data-START## ; Assembly Provider :: University of Geneva ; Assembly Method :: Supernova v. 2.0.1; BioNano Solve v. 3.2.1 ; Assembly Name :: UNIGE_PanGut_3.0 ; Genome Representation :: Full ; Expected Final Version :: Yes ; Genome Coverage :: 75.0x ; Sequencing Technology :: Illumina HiSeq; BioNano genome maps ; ##Genome-Assembly-Data-END##; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI ; Annotation Status :: Full annotation ; Annotation Name :: Pantherophis guttatus Annotation Release 100 ; Annotation Version :: 100 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 8.4 ; Annotation Method :: Best-placed RefSeq; Gnomon ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; ##Genome-Annotation-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..3870",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "3870",
+                    "GBInterval_accession": "NW_023031289.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Pantherophis guttatus"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "genomic DNA"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "EG266"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:94885"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "Unknown"
+                },
+                {
+                    "GBQualifier_name": "sex",
+                    "GBQualifier_value": "male"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "blood"
+                }
+            ]
+        }
+    ],
+    "GBSeq_contig": "join(JTLQ02020603.1:1..3870)",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA632598"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN12106767"
+        },
+        {
+            "GBXref_dbname": "Assembly",
+            "GBXref_id": "GCF_001185365.1"
+        }
+    ]
+}

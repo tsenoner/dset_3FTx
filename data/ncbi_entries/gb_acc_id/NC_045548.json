@@ -1,0 +1,107 @@
+{
+    "GBSeq_locus": "NC_045548",
+    "GBSeq_length": "80819035",
+    "GBSeq_strandedness": "double",
+    "GBSeq_moltype": "DNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "CON",
+    "GBSeq_update-date": "31-JAN-2020",
+    "GBSeq_create-date": "31-JAN-2020",
+    "GBSeq_definition": "Thamnophis elegans isolate rThaEle1 chromosome 8, rThaEle1.pri, whole genome shotgun sequence",
+    "GBSeq_primary-accession": "NC_045548",
+    "GBSeq_accession-version": "NC_045548.1",
+    "GBSeq_other-seqids": [
+        "gnl|ASM:GCF_009769635|Super_Scaffold_9",
+        "ref|NC_045548.1|",
+        "gpp|GPC_000005877.1|",
+        "gnl|NCBI_GENOMES|90914",
+        "gi|1799127152"
+    ],
+    "GBSeq_project": "PRJNA602516",
+    "GBSeq_keywords": [
+        "WGS",
+        "RefSeq"
+    ],
+    "GBSeq_source": "Thamnophis elegans (Western terrestrial garter snake)",
+    "GBSeq_organism": "Thamnophis elegans",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Colubridae; Natricinae; Thamnophis",
+    "GBSeq_comment": "REFSEQ INFORMATION: The reference sequence is identical to CM020103.1.; Assembly name: rThaEle1.pri~The genomic sequence for this RefSeq record is from the whole-genome assembly released by the Vertebrate Genomes Project on 2019/12/23. The original whole-genome shotgun project has the accession WNNA00000000.1.; ##Genome-Assembly-Data-START## ; Assembly Provider :: Vertebrate Genomes Project ; Assembly Date :: 20-AUG-2019 ; Assembly Method :: FALCON v. DNANexus 1.9.0; FALCON-Unzip v. DNANexus 1.0.6; purge_haplotigs v. v1.0.3+ 1.Nov.2018; scaff10x v. 4.1.0; Bionano Solve DLS v. 3.2.1; Salsa HiC v. 2.2; Arrow smrtanalysis Pacbio polishSing & gap filling v. 6.0.0.47841; longranger align v. 2.2.2; freebayes Illumina polishing v. 1.3.1; gEVAL manual curation v. 2019-08-20; VGP assembly pipeline individual v. 1.5 ; Assembly Name :: rThaEle1.pri ; Diploid :: Principal pseudohaplotype ; Genome Representation :: Full ; Expected Final Version :: No ; Genome Coverage :: 62.12x ; Sequencing Technology :: PacBio Sequel I CLR; Illumina NovaSeq; Arima Genomics Hi-C; Bionano Genomics DLS ; ##Genome-Assembly-Data-END##; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI ; Annotation Status :: Full annotation ; Annotation Name :: Thamnophis elegans Annotation Release 100 ; Annotation Version :: 100 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 8.3 ; Annotation Method :: Best-placed RefSeq; Gnomon ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; ##Genome-Annotation-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..80819035",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "80819035",
+                    "GBInterval_accession": "NC_045548.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Thamnophis elegans"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "genomic DNA"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "rThaEle1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:35005"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "8"
+                },
+                {
+                    "GBQualifier_name": "sex",
+                    "GBQualifier_value": "female"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "blood"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "juvenile"
+                },
+                {
+                    "GBQualifier_name": "country",
+                    "GBQualifier_value": "USA: Born in Anne Bronikowsk lab at ISU; MOM, 2012; Eagle Lake; PAP"
+                },
+                {
+                    "GBQualifier_name": "lat_lon",
+                    "GBQualifier_value": "42.02482 N 93.64411 W"
+                },
+                {
+                    "GBQualifier_name": "collection_date",
+                    "GBQualifier_value": "01-Apr-2018"
+                },
+                {
+                    "GBQualifier_name": "collected_by",
+                    "GBQualifier_value": "Anne Bronikowski"
+                }
+            ]
+        }
+    ],
+    "GBSeq_contig": "join(NW_022473563.1:1..80819035)",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA602516"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN12629499"
+        },
+        {
+            "GBXref_dbname": "Assembly",
+            "GBXref_id": "GCF_009769535.1"
+        }
+    ]
+}

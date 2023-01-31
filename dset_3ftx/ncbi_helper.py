@@ -1,9 +1,11 @@
 import json
 import re
+import sys
 from pathlib import Path
+from typing import Union
 
-from Bio import Entrez
 import idmapping
+from Bio import Entrez
 
 # documentation: https://www.nlm.nih.gov/dataguide/eutilities/utilities.html
 # book: https://www.ncbi.nlm.nih.gov/books/NBK25501/
@@ -113,14 +115,16 @@ class NcbiDataGatherer:
                     db2use = db_name
                 # else:
                 #     raise Exception(f"{db_name} found {res_count} entries.")
-        if db2use is None:
-            raise Exception(
+        if db2use is not None:
+            # make query to dedicated DB
+            with Entrez.efetch(db=db2use, id=acc_id, **kwargs) as handle:
+                for record in Entrez.parse(handle=handle):
+                    record = dict(record)
+        else:
+            print(
                 f"No NCBI entries found for '{acc_id}' in dbs: {', '.join(dbs)}"
             )
-        # make query to dedicated DB
-        with Entrez.efetch(db=db2use, id=acc_id, **kwargs) as handle:
-            for record in Entrez.parse(handle=handle):
-                record = dict(record)
+            record = None
         return record
 
     @staticmethod
@@ -129,7 +133,7 @@ class NcbiDataGatherer:
             data = json.load(json_handle)
         return data
 
-    def get_record(self, gb_id: str) -> dict:
+    def get_record(self, gb_id: str) -> Union[dict, None]:
         json_file = self._search_json_file_locally(acc_id=gb_id)
         if json_file is None:
             data = self._fetch_entry(
@@ -138,7 +142,8 @@ class NcbiDataGatherer:
                 rettype="gb",
                 retmode="xml",
             )
-            self._save_entry(rec=data)
+            if data is not None:
+                self._save_entry(rec=data)
         else:
             data = self._load_json_file(json_file=json_file)
         return data
@@ -186,60 +191,86 @@ class NcbiDataGatherer:
 
     def parse_seq(self, rec: dict) -> str:
         # TODO: quality check when sequence can be trusted
+        entry_type = rec["GBSeq_moltype"]
+        # if entry_type not in ["mRNA", "AA"]:
+        #     print(entry_type, rec["GBSeq_length"], rec["GBSeq_primary-accession"])
         full_seq = None
+        prot_id = None
         for feature in rec["GBSeq_feature-table"]:
             if feature["GBFeature_key"] == "CDS":
                 for qual in feature["GBFeature_quals"]:
                     if qual["GBQualifier_name"] == "translation":
                         full_seq = qual["GBQualifier_value"]
+                    elif qual["GBQualifier_name"] == "protein_id":
+                        prot_id = qual["GBQualifier_value"]
             if not "GBFeature_quals" in feature:
                 continue
 
         if (rec["GBSeq_moltype"] == "AA") and ("GBSeq_sequence" in rec):
             full_seq = rec["GBSeq_sequence"].upper()
+
+        if (full_seq is not None) and (entry_type not in ["mRNA", "AA"]) and (prot_id is None):
+            print(
+                entry_type, rec["GBSeq_length"], rec["GBSeq_primary-accession"], prot_id
+            )
+        elif (full_seq is None) and (entry_type in ["mRNA", "AA"]):
+            pass
         return full_seq
 
-    def add_id2mapper(self, gb_id: str, new_id: dict[str, str]) -> None:
+    def _update_mapper(self, gb_id: str, new_id: dict[str, str]) -> None:
         self.mapper[gb_id].update(new_id)
         self._save_mapper()
 
-    def get_uniprot_acc_id(self, rec: dict) -> tuple[str, str]:
-        gb_id = self.parse_acc_id(rec=rec)
-        crossfref = self.get_crossref(gb_id=gb_id)
-        if "sp" in crossfref:
-            acc_id, db = crossfref["sp"], "SP"
-        elif "tr" in crossfref:
-            acc_id, db = crossfref["tr"], "TR"
-        elif "up_no" in crossfref:
-            acc_id, db = None, None
-        else:
-            # Map IDs from GeneBank to UniProt using `idmapping`
-            for from_db in ["EMBL-GenBank-DDBJ", "EMBL-GenBank-DDBJ_CDS"]:
+    def map_uniprot_acc_ids(self, ncbi_ids: list[str], from_dbs: list[str] = ["EMBL-GenBank-DDBJ", "EMBL-GenBank-DDBJ_CDS"]) -> None:
+        # check which entries don't have a UniProt mapping (sp, tr, no_uniprot)
+        gb_ids = list()
+        for ncbi_id in ncbi_ids:
+            ncbi_rec = self.get_record(ncbi_id)
+            gb_id = self.parse_acc_id(rec=ncbi_rec)
+            crossref = self.get_crossref(gb_id=gb_id)
+            if not (set(["sp", "tr", "no_uniprot"]) & set(crossref.keys())):
+                gb_ids.append(gb_id)
+
+        # Map IDs from GeneBank to UniProt using `idmapping`
+        if gb_ids:
+            for from_db in from_dbs:
                 # get request: id_mapping
                 job_id = idmapping.submit_id_mapping(
-                    from_db=from_db, to_db="UniProtKB", ids=[gb_id]
+                    from_db=from_db, to_db="UniProtKB", ids=gb_ids
                 )
                 if idmapping.check_id_mapping_results_ready(job_id):
                     link = idmapping.get_id_mapping_results_link(job_id)
                     results = idmapping.get_id_mapping_results_search(link)
-                if "failedIds" in results:
-                    continue
-                result = results["results"][0]
+                for result in results["results"]:
+                    entry_type = result["to"]["entryType"]
+                    if "TrEMBL" in entry_type:
+                        db = "TR"
+                    elif "Swiss-Prot" in entry_type:
+                        db = "SP"
+                    else:
+                        raise Exception(f"Not SP or TR, but {entry_type}")
+                    acc_id = result["to"]["primaryAccession"]
+                    gb_id = result["from"]
+                    if "no_uniprot" in self.mapper[gb_id]:
+                        self.mapper[gb_id].pop("no_uniprot")
+                    self._update_mapper(gb_id=gb_id, new_id={db.lower(): acc_id})
+                gb_ids = results["failedIds"] if "failedIds" in results else []
+            for failed_entry in gb_ids:
+                # if no UniProt entry was found
+                self._update_mapper(gb_id=failed_entry, new_id={"no_uniprot": None})
 
-                # parse DataBase
-                entry_type = result["to"]["entryType"]
-                if "TrEMBL" in entry_type:
-                    db = "TR"
-                elif "Swiss-Prot" in entry_type:
-                    db = "SP"
-                else:
-                    raise Exception(f"Entry type isn't SP or TR, but {entry_type}")
-                acc_id = result["to"]["primaryAccession"]
-                acc_id, db = [acc_id, db]
-                self.add_id2mapper(gb_id=gb_id, new_id={db.lower(): acc_id})
-                break
-            else:
-                # if no entry was found
-                acc_id = None
-                self.add_id2mapper(gb_id=gb_id, new_id={"up_no": None})
+    def get_uniprot_acc_id(self, gb_id: str) -> tuple[str, str]:
+        ncbi_rec = self.get_record(gb_id=gb_id)
+        gb_id = self.parse_acc_id(rec=ncbi_rec)
+        crossref = self.get_crossref(gb_id=gb_id)
+        if "sp" in crossref:
+            acc_id, db = crossref["sp"], "SP"
+        elif "tr" in crossref:
+            acc_id, db = crossref["tr"], "TR"
+        elif "no_uniprot" in crossref:
+            acc_id, db = None, None
+        else:
+            print(crossref)
+            raise Exception(f"Map {gb_id} first to UniProt.")
+
         return acc_id, db

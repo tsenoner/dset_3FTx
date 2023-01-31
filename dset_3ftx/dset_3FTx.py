@@ -116,7 +116,62 @@ def setup_arguments() -> argparse.Namespace:
     )
 
 
-def construct_df(csv_path, fasta_path):
+def _extract_uniprot_acc_ids(df: pd.DataFrame) -> pd.DataFrame:
+    # get UniProt ids
+    for idx, row in df.iterrows():
+        uid = "blank"
+        header = row["original_fasta_header"]
+        # 1. check for patterns that have no UniProt ID
+        # - `3FTx_\d{3}`. E.g.: Cbivi_3FTx_000
+        match1 = re.match(pattern=r".*(3FTx_\d{2,3})", string=header)
+        # -`unigene\d*`. E.g.: Heterodon_nasicus_unigene14895
+        match2 = re.match(pattern=r".*(unigene\d{4,6})", string=header)
+        if match1 or match2:
+            uid = None
+        # 2. check for regular UniProt entry
+        elif header.startswith("sp") or header.startswith("tr"):
+            uid = header.split("|")[1]
+        # 3. check for odd manually descriptive naming
+        elif " " in header:
+            uid = None
+        # 4. check if last element of sequence is UID
+        else:
+            header_last_part = header.split("_")[-1]
+            # UniProt regular expression for accession nummers: https://www.uniprot.org/help/accession_numbers
+            uniprot_accession_pattern = r"[OPQ][0-9][A-Z0-9]{3}[0-9]|[A-NR-Z][0-9]([A-Z][A-Z0-9]{2}[0-9]){1,2}"
+            match_accession = re.match(
+                pattern=uniprot_accession_pattern, string=header_last_part
+            )
+            if match_accession:
+                uid = header_last_part
+            if not match_accession:
+                uid = None
+        df.loc[idx, "acc_id"] = uid
+    print(f"- {df['acc_id'].count()} Acc IDs extracted ")
+    print(f"- {df['acc_id'].isna().sum()} Acc IDs unknown")
+    return df
+
+
+def _add_genomic_full_seq(df: pd.DataFrame, fasta_path: Path) -> pd.DataFrame:
+    genomic_fasta = Fasta(fasta_path)
+    for header, seq in genomic_fasta.items():
+        uid = header.split("_-_")[-1]
+        # exclude sequences that do not start with M
+        if not str(seq).startswith("M"):
+            continue
+        df.loc[df["genomic_id"] == uid, "full_seq"] = str(seq)
+
+    nr_full_seq = len(df["full_seq"].dropna())
+    print(
+        f"- {nr_full_seq} full sequences information added by genomic supported"
+        " alignment"
+    )
+    return df
+
+
+def construct_df(
+    csv_path: Path, fasta_path: Path, genomic_fasta_path: Path
+) -> pd.DataFrame:
     df = pd.read_csv(csv_path, sep=",")
     # remove rows with `snake genomic` as `Major group``
     # df = df.loc[~df["Major group"].isin(["snake genomic"]), :]
@@ -172,65 +227,153 @@ def construct_df(csv_path, fasta_path):
         r"^([a-zA-Z]{4}\w+) "
     )
     df.loc[df["genomic_id"].notna(), "data_origin"] = "genomic"
+    df = _extract_uniprot_acc_ids(df=df)
+    df = _add_genomic_full_seq(df=df, fasta_path=genomic_fasta_path)
     print(f"- {len(df)} sequences from original analysis")
     return df
 
 
-def add_genomic_full_seq(df: pd.DataFrame, fasta_path: Path) -> pd.DataFrame:
-    genomic_fasta = Fasta(fasta_path)
-    for header, seq in genomic_fasta.items():
-        uid = header.split("_-_")[-1]
-        # exclude sequences that do not start with M
-        if not str(seq).startswith("M"):
-            continue
-        df.loc[df["genomic_id"] == uid, "full_seq"] = str(seq)
+def _get_metadata(
+    ncbi_id: str,
+    ncbi_collector: ncbi_helper.NcbiDataGatherer,
+    uniprot_collector: uniprot_helper.UniProtDataGatherer,
+):
+    acc_id, db = ncbi_collector.get_uniprot_acc_id(gb_id=ncbi_id)
+    if acc_id is not None:
+        data = uniprot_collector.get_entry(acc_id=acc_id)
+        species, taxon_id = uniprot_collector.parse_taxon(rec=data)
+        full_seq, mature_peptide = uniprot_collector.parse_seq(rec=data)
+    if (acc_id is None) or ((acc_id is not None) and (full_seq is None)):
+        ncbi_rec = ncbi_collector.get_record(ncbi_id)
+        species, taxon_id = ncbi_collector.parse_taxon(rec=ncbi_rec)
+        full_seq = ncbi_collector.parse_seq(rec=ncbi_rec)
+        mature_peptide = None
+    return acc_id, db, species, taxon_id, full_seq, mature_peptide
 
-    nr_full_seq = len(df["full_seq"].dropna())
-    print(
-        f"- {nr_full_seq} full sequences information added by genomic supported"
-        " alignment"
-    )
-    return df
 
-
-def add_zhang_data(df: pd.DataFrame, fasta_path: Path) -> pd.DataFrame:
+def get_zhang_data(
+    fasta_path: Path,
+    uniprot_collector: uniprot_helper.UniProtDataGatherer,
+    ncbi_collector: ncbi_helper.NcbiDataGatherer,
+) -> pd.DataFrame:
     """Add Bungarus multicinctus sequences from Zhang Zhi paper"""
     zhang_fasta = Fasta(fasta_path)
+    taxon_mapper = {
+        "Bmul": "Bungarus multicinctus",
+        "Cvir": "Crotalus viridis",
+        "Dacu": "Deinagkistrodon acutus",
+        "Hcur": "Hydrophis curtus",
+        "Nnaj": "Naja naja",
+        # "Pbiv": "Python bivittatus",
+        # "Pgut": "Pantherophis guttatus",
+        # "Tele": "Thamnophis elegans",
+    }
 
-    data = {}
+    # --- patterns ---
+    # UniProt ID confined: https://www.uniprot.org/help/accession_numbers
+    pattern_uniprot = r"(?:_|^)([OPQ][0-9][A-Z0-9]{3}[0-9]|[A-NR-Z][0-9]([A-Z][A-Z0-9]{2}[0-9]){1,2})(?:\.|_|$)"
+    # RefSeq ID: https://www.ncbi.nlm.nih.gov/books/NBK21091/table/ch18.T.refseq_accession_numbers_and_mole/?report=objectonly
+    pattern_refseq = r"([CMNPRXW]{2}_\d{6,9})"
+    # GenBank ID, 3.4.6 ACCESSION Format: https://www.ncbi.nlm.nih.gov/genbank/release/current/
+    pattern_genbank = r"([A-Z]{1,4}\d{5,8})"
+    # found by GenBank pattern, however there are no entries retrieved through API
+    exclusion_lst = [
+        "PDHV02000066",
+        "PDHV02000188",
+        "SOZL01001066",
+        "SS00042983",
+        "SS00017057",
+    ]
+
+    # --- map NCBI entries to UniProt
+    ncbi_ids = []
+    refseq_ids = []
+    for header, _ in zhang_fasta.items():
+        uniprot_match = re.search(pattern_uniprot, header)
+        refseq_match = re.search(pattern_refseq, header)
+        genbank_match = re.search(pattern_genbank, header)
+        if uniprot_match:
+            continue
+        elif refseq_match:
+            refseq_id = refseq_match[1]
+            refseq_ids.append(refseq_id)
+        elif (
+            (genbank_match is not None)
+            and (genbank_match[1] not in exclusion_lst)
+            and ("scaffold" not in header)
+        ):
+            ncbi_id = genbank_match[0]
+            ncbi_ids.append(ncbi_id)
+    ncbi_collector.map_uniprot_acc_ids(
+        ncbi_ids=refseq_ids, from_dbs=["RefSeq_Nucleotide", "RefSeq_Protein"]
+    )
+    ncbi_collector.map_uniprot_acc_ids(ncbi_ids=ncbi_ids)
+
+    # --- create entries
+    entries = []
     for header, seq in zhang_fasta.items():
         seq = str(seq).replace("-", "")
-        if header.startswith("Bmul"):
-            data.setdefault("fasta_id", []).append(header)
-            data.setdefault("full_seq", []).append(seq)
-    df_zhang = pd.DataFrame(data=data)
-    meta_data = {
-        "species": "Bungarus multicinctus",
-        "major_group": "3FTx",
-        "major_taxon": "Elapidae",
-        "data_origin": "paper_zhang",
-    }
-    df_zhang = df_zhang.assign(**meta_data)
-    # df_zhang = df_zhang.drop_duplicates(subset="full_seq")
-    df = pd.concat([df, df_zhang], ignore_index=True)
+        uniprot_match = re.search(pattern_uniprot, header)
+        refseq_match = re.search(pattern_refseq, header)
+        genbank_match = re.search(pattern_genbank, header)
+        # match in UniProt
+        if uniprot_match:
+            acc_id = uniprot_match[1]
+            data = uniprot_collector.get_entry(acc_id=acc_id)
+            species, taxon_id = uniprot_collector.parse_taxon(rec=data)
+            full_seq, mature_seq = uniprot_collector.parse_seq(rec=data)
+        # match in NCBI nuccore or protein DB
+        elif refseq_match or (
+            (genbank_match is not None)
+            and (genbank_match[1] not in exclusion_lst)
+            and ("scaffold" not in header)
+        ):
+            ncbi_id = (
+                refseq_match[1] if genbank_match is None else genbank_match[1]
+            )
+            acc_id, db, species, taxon_id, full_seq, mature_seq = _get_metadata(
+                ncbi_id=ncbi_id,
+                ncbi_collector=ncbi_collector,
+                uniprot_collector=uniprot_collector,
+            )
+        else:
+            # BLASTp sequences
+            taxa_abb = list(set(header.split("_")) & set(taxon_mapper.keys()))
+            species = taxon_mapper[taxa_abb[0]]
+            full_seq = seq
+            acc_id, taxon_id, mature_seq = None, None, None
+
+        entry = dict(
+            fasta_id=header,
+            acc_id=acc_id,
+            db=db,
+            full_seq=full_seq,
+            seq=mature_seq,
+            species=species,
+            taxon_id=taxon_id,
+            data_origin="paper_zhang",
+        )
+        entries.append(entry)
+
+    df_zhang = pd.DataFrame(entries)
+    df_zhang = df_zhang.dropna(subset=["seq", "full_seq"], how="all")
     print(
         f"- {len(df_zhang)} `Bungarus multicinctus` seqs added from Zhang paper"
     )
-    return df
+    return df_zhang
 
 
-def add_ritu_data(
-    df: pd.DataFrame,
+def get_ritu_data(
     csv_path: Path,
     uniprot_collector: uniprot_helper.UniProtDataGatherer,
     ncbi_collector: ncbi_helper.NcbiDataGatherer,
 ) -> pd.DataFrame:
-    """Add Drysdalia coronoides sequences from Ritu Chandna paper"""
+    """Return parsed Drysdalia coronoides sequences from Ritu Chandna paper"""
 
     # --- load data
     df_ritu = pd.read_csv(csv_path)
     df_ritu = df_ritu.rename(
-        columns={"uid": "fasta_id", "type": "cystein_group"}
+        columns={"uid": "fasta_id", "type": "ritu_class"}
     )
     df_ritu = df_ritu.assign(**{"data_origin": "paper_RituChandna"})
 
@@ -250,16 +393,22 @@ def add_ritu_data(
         species = data["organism"]["scientificName"]
         df_ritu.at[idx, "species"] = species
     # get NCBI entries using GI number and gather metadata
+    ncbi_collector.map_uniprot_acc_ids(
+        ncbi_ids=df_ritu[df_ritu["gi_number"].notna()]["gi_number"].to_list()
+    )
     for idx, row in df_ritu[df_ritu["gi_number"].notna()].iterrows():
         gi_nr = row["gi_number"]
-        ncbi_rec = ncbi_collector.get_record(gb_id=gi_nr)
-        acc_id, db = ncbi_collector.get_uniprot_acc_id(rec=ncbi_rec)
-        species, _ = ncbi_collector.parse_taxon(rec=ncbi_rec)
-        df_ritu.loc[idx, ["acc_id", "db", "species"]] = [acc_id, db, species]
+        acc_id, db, species, taxon_id, full_seq, mature_seq = _get_metadata(
+            ncbi_id=gi_nr,
+            ncbi_collector=ncbi_collector,
+            uniprot_collector=uniprot_collector,
+        )
+        df_ritu.loc[
+            idx, ["acc_id", "db", "species", "taxon_id", "full_seq", "seq"]
+        ] = [acc_id, db, species, taxon_id, full_seq, mature_seq]
 
-    df = pd.concat([df, df_ritu], ignore_index=True)
     print(f"- {len(df_ritu)} `Drysdalia coronoides` seqs added from Ritu paper")
-    return df
+    return df_ritu
 
 
 def create_taxon_mapper(taxas):
@@ -294,42 +443,8 @@ def add_taxon_id(df: pd.DataFrame, taxon_mapper_file: Path) -> pd.DataFrame:
 
     # add taxon ids to DataFrame
     df["taxon_id"] = df["species"].map(taxon_mapper)
-    return df
-
-
-def get_uniprot_acc_ids(df) -> tuple[list, dict]:
-    # get UniProt ids
-    for idx, row in df.iterrows():
-        uid = "blank"
-        header = row["original_fasta_header"]
-        # 1. check for patterns that have no UniProt ID
-        # - `3FTx_\d{3}`. E.g.: Cbivi_3FTx_000
-        match1 = re.match(pattern=r".*(3FTx_\d{2,3})", string=header)
-        # -`unigene\d*`. E.g.: Heterodon_nasicus_unigene14895
-        match2 = re.match(pattern=r".*(unigene\d{4,6})", string=header)
-        if match1 or match2:
-            uid = None
-        # 2. check for regular UniProt entry
-        elif header.startswith("sp") or header.startswith("tr"):
-            uid = header.split("|")[1]
-        # 3. check for odd manually descriptive naming
-        elif " " in header:
-            uid = None
-        # 4. check if last element of sequence is UID
-        else:
-            header_last_part = header.split("_")[-1]
-            # UniProt regular expression for accession nummers: https://www.uniprot.org/help/accession_numbers
-            uniprot_accession_pattern = r"[OPQ][0-9][A-Z0-9]{3}[0-9]|[A-NR-Z][0-9]([A-Z][A-Z0-9]{2}[0-9]){1,2}"
-            match_accession = re.match(
-                pattern=uniprot_accession_pattern, string=header_last_part
-            )
-            if match_accession:
-                uid = header_last_part
-            if not match_accession:
-                uid = None
-        df.loc[idx, "acc_id"] = uid
-    print(f"- {df['acc_id'].count()} Acc IDs extracted ")
-    print(f"- {df['acc_id'].isna().sum()} Acc IDs unknown")
+    # TODO get family Rank of taxon
+    # e.g. https://www.ebi.ac.uk/proteins/api/taxonomy/lineage/8633
     return df
 
 
@@ -357,59 +472,46 @@ def run_blast(
 
     # extract ACC IDs
     for idx, row in df.iterrows():
-        if not pd.isna(row["acc_id"]):
-            continue
+        # if not pd.isna(row["acc_id"]):
+        #     continue
 
         # get accession IDs
-        acc_id, db = ncbi_blaster.get_acc_id(
+        acc_id = ncbi_blaster.get_acc_id(
             fasta_id=row["fasta_id"], uniprot_collector=uniprot_collector
         )
-        df.loc[idx, ["acc_id", "db"]] = [acc_id, db]
+        df.loc[idx, "acc_id"] = acc_id
 
     return df
 
 
-def get_uniprot_data(
+def get_uniprot_metadata(
     df: pd.DataFrame, uniprot_collector: uniprot_helper.UniProtDataGatherer
 ) -> pd.DataFrame:
     data = []
-    for idx, row in df.iterrows():
+    for idx, row in df[df["acc_id"].notna()].iterrows():
         data = uniprot_collector.get_entry(acc_id=row["acc_id"])
-        # check if a full sequence exists
-        # - features: Signal + Chain
-        # - different from existing sequence
-        # - start with residue M
-        features = set()
-        if "features" in data:
-            for feature in data["features"]:
-                feature_type = feature["type"]
-                features.add(feature_type)
-        if set(["Signal", "Chain"]).issubset(features):
-            json_seq = data["sequence"]["value"]
-            if (json_seq != row["seq"]) and (json_seq.startswith("M")):
-                row["full_seq"] = data["sequence"]["value"]
-
-        # TODO: get the mature sequence add `Propeptide` if it is there
-        # if "Propeptide" in features:
-        #     print(acc_id, features)
-
         # get recomended name from entry
         for name_type, values in data["proteinDescription"].items():
             if name_type == "recommendedName":
                 name = values["fullName"]["value"]
-                df.loc[idx, "row"] = name
+                df.loc[idx, "name"] = name
 
         # add other metadata
         metadata = [
+            data["primaryAccession"],
             data["uniProtkbId"],
+            uniprot_collector.parse_prot_evi(rec=data),
+            data["annotationScore"]
         ]
         df.loc[idx, ["acc_id", "entry", "prot_evi", "annot_score"]] = metadata
+    return df
 
 
 def manual_curation(df: pd.DataFrame) -> pd.DataFrame:
+    # TODO: remove sequences with a protein evidence level greater than 2
     # remove unneded column
     df = df.drop(columns="original_fasta_header")
-    # remove duplicates
+    # TODO: merge duplicates to one record
     len_before = len(df)
     df = df.drop_duplicates(subset=["acc_id", "species", "seq", "full_seq"])
     len_after = len(df)
@@ -445,10 +547,10 @@ def main():
     ) = setup_arguments()
 
     df = construct_df(csv_path=csv_in, fasta_path=fasta_in)
-    df = get_uniprot_acc_ids(df=df)
-    df = add_genomic_full_seq(df=df, fasta_path=genomic_fasta)
-    df = add_zhang_data(df=df, fasta_path=zhang_fasta)
-    df = add_ritu_data(df=df, csv_path=ritu_csv)
+    # df = get_uniprot_acc_ids(df=df)
+    # df = add_genomic_full_seq(df=df, fasta_path=genomic_fasta)
+    # df = add_zhang_data(df=df, fasta_path=zhang_fasta)
+    # df = add_ritu_data(df=df, csv_path=ritu_csv)
     df = add_taxon_id(df=df, taxon_mapper_file=taxon_mapper_file)
     df = run_blast(df=df, blast_dir=blast_dir)
     df = manual_curation(df=df)

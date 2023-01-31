@@ -16,6 +16,7 @@ PROTEINS_API = "https://www.ebi.ac.uk/proteins/api"
 # Documentation here https://www.ebi.ac.uk/seqdb/confluence/pages/viewpage.action?pageId=94147939#NCBIBLAST+HelpandDocumentation-RESTAPI
 BLAST_API = "https://www.ebi.ac.uk/Tools/services/rest/ncbiblast"
 
+# https://www.ebi.ac.uk/proteins/api/doc/
 TAXA_API = "https://www.ebi.ac.uk/proteins/api/taxonomy"
 
 # Helper function to download data
@@ -173,24 +174,28 @@ class UniProtDataGatherer:
         full_seq = Signal + mature_seq
         mature_seq = (Propeptide) + Chain + (Propeptide)
         """
-        # TODO: discuss
+        # UniProt options for 3FTx
         # signal + chain: https://www.uniprot.org/uniprotkb/P19959/entry#ptm_processing
-        # propeptide: https://www.uniprot.org/uniprotkb/A0S865/entry#ptm_processing
-        #             https://www.uniprot.org/uniprotkb/Q8IV16/entry#ptm_processing
-        # chain: https://www.uniprot.org/uniprotkb/A0A4P1LYC9/entry#ptm_processing
-        # peptide: https://www.uniprot.org/uniprotkb/C0HJT4/entry#ptm_processing
-        full_seq, mature_peptide = None, None
-        # get sequence feature indices
+        #     propeptide: https://www.uniprot.org/uniprotkb/A0S865/entry#ptm_processing
+        #                 https://www.uniprot.org/uniprotkb/Q8IV16/entry#ptm_processing
+        #          chain: https://www.uniprot.org/uniprotkb/A0A4P1LYC9/entry#ptm_processing
+        #        peptide: https://www.uniprot.org/uniprotkb/C0HJT4/entry#ptm_processing
+        #           None: https://www.uniprot.org/uniprotkb/A0A6P9C7G6/entry#ptm_processing
+
+        # --- get sequence feature indices
         seq_featurs = {}
         seq_value = rec["sequence"]["value"]
-        for feature in rec["features"]:
-            feature_type = feature["type"]
-            if feature_type in ["Chain", "Peptide", "Propeptide", "Signal"]:
-                start = feature["location"]["start"]["value"]
-                end = feature["location"]["end"]["value"]
-                seq_featurs.setdefault(feature_type, []).extend([start, end])
+        if "features" in rec:
+            for feature in rec["features"]:
+                feature_type = feature["type"]
+                if feature_type in ["Chain", "Peptide", "Propeptide", "Signal"]:
+                    start = feature["location"]["start"]["value"]
+                    end = feature["location"]["end"]["value"]
+                    seq_featurs.setdefault(feature_type, []).extend(
+                        [start, end]
+                    )
 
-        # get mature peptide
+        # --- get mature peptide
         if "Propeptide" in seq_featurs:
             mature_pep_idx = seq_featurs["Propeptide"] + seq_featurs["Chain"]
             mature_pep_idx = self._get_start_end_idx(seq_idx=mature_pep_idx)
@@ -198,19 +203,39 @@ class UniProtDataGatherer:
             mature_pep_idx = seq_featurs["Chain"]
         elif "Peptide" in seq_featurs:
             mature_pep_idx = seq_featurs["Peptide"]
-        # else:
-        #     mature_pep_idx = [0]
-        if len(mature_pep_idx) == 2:
+        elif seq_featurs == {}:
+            mature_pep_idx = None
+        else:
+            print(f"Sequence features: {seq_featurs}")
+            raise Exception(f"Odd seq features for {rec['primaryAccession']}")
+        if mature_pep_idx is None:
+            mature_peptide = None
+        elif len(mature_pep_idx) == 2:
             mature_peptide = seq_value[
                 mature_pep_idx[0] - 1 : mature_pep_idx[1]
             ]
+        else:
+            print(f"Sequence features: {seq_featurs}")
+            raise Exception(f"Odd seq features for {rec['primaryAccession']}")
 
-            # get full sequence
-            if "Signal" in seq_featurs:
-                full_seq_idx = seq_featurs["Signal"] + mature_pep_idx
-                full_seq_idx = self._get_start_end_idx(seq_idx=full_seq_idx)
-                if len(mature_pep_idx) == 2:
-                    full_seq = seq_value[full_seq_idx[0] - 1 : full_seq_idx[1]]
+        # --- get full sequence
+        if "Signal" in seq_featurs:
+            full_seq_idx = seq_featurs["Signal"] + mature_pep_idx
+            full_seq_idx = self._get_start_end_idx(seq_idx=full_seq_idx)
+            if len(full_seq_idx) == 1:
+                full_seq = None
+            elif len(full_seq_idx) == 2:
+                full_seq = seq_value[full_seq_idx[0] - 1 : full_seq_idx[1]]
+                if not full_seq.startswith("M"):
+                    full_seq = None
+            else:
+                print(f"Sequence features: {seq_featurs}")
+                print(f"Sequence indices: {full_seq_idx}")
+                raise Exception(
+                    f"Odd seq features for {rec['primaryAccession']}"
+                )
+        else:
+            full_seq = None
 
         return full_seq, mature_peptide
 
@@ -328,17 +353,26 @@ class UniProtBlaster:
             prot_evi = uniprot_collector.parse_prot_evi(rec=rec)
             matches[idx].update(dict(prot_evi=prot_evi))
         matches = [
-            match for match in matches if match["prot_evi"] < prot_evi_threshold
+            match
+            for match in matches
+            if match["prot_evi"] <= prot_evi_threshold
         ]
+        if len(matches) > 0:
+            match = min(matches, key=lambda match: match["prot_evi"])
+            matches = [m for m in matches if m["prot_evi"] == match["prot_evi"]]
 
         if len(matches) == 0:
-            acc_id, db = None, None
+            acc_id = None
         elif len(matches) == 1:
-            acc_id, db = matches[0]["acc_id"], matches[0]["db"]
+            acc_id = matches[0]["acc_id"]
         else:
-            print(matches)
-            raise Exception(
-                "More than one BLASTp match over the protein evidence"
-                f" threshold `{prot_evi_threshold}` found."
-            )
-        return acc_id, db
+            # get matches with better protein evidence
+            match = min(matches, key=lambda match: match["prot_evi"])
+            matches = [m for m in matches if m["prot_evi"] == match["prot_evi"]]
+            # take "SP" entries if "TR" and "SP" are available
+            dbs = [m["db"] for m in matches]
+            if ("SP" in dbs) and "TR" in dbs:
+                matches = [m for m in matches if m["db"] == "SP"]
+            # if there are still more than 2 matches take the first one
+            acc_id= matches[0]["acc_id"]
+        return acc_id
