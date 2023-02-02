@@ -3,6 +3,7 @@ import re
 import sys
 from pathlib import Path
 from typing import Union
+import pandas as pd
 
 import idmapping
 from Bio import Entrez
@@ -59,36 +60,41 @@ from Bio import Entrez
 class NcbiDataGatherer:
     def __init__(self, ncbi_dir: Path) -> None:
         self.ncbi_dir = ncbi_dir
-        self.gb_acc_id = self.ncbi_dir / "gb_acc_id"
-        self.mapper_path = self.ncbi_dir / "mapper.json"
-
-        with open(self.mapper_path, "r") as json_handle:
-            self.mapper = json.load(json_handle)
+        self.gb_dir = self.ncbi_dir / "gb_entries"
+        self.mapper_path = self.ncbi_dir / "mapper.csv"
+        self.mapper = pd.read_csv(self.mapper_path)
 
         # let NCBI know who you are
         Entrez.email = "tobias.senoner@tum.de"
         Entrez.tool = "Biopython"
         Entrez.api_key = "cd66bc099e5133c5509d14b068ff8fa7bf08"
 
-    def _get_json_path(self, acc_id: str) -> Path:
-        return self.gb_acc_id / f"{acc_id}.json"
+    def _save_mapper(self) -> None:
+        self.mapper.to_csv(self.mapper_path, index=False)
+
+    def _get_json_path(self, gb_id: str) -> Path:
+        return self.gb_dir / f"{gb_id}.json"
+
+    def _map_uid(self, query_id: str, to_id_type: str ="gb") -> str:
+        to_id = None
+        for col in self.mapper.columns:
+            condition = (self.mapper[col] == query_id)
+            if condition.sum():
+                to_id = self.mapper.loc[condition, to_id_type].values[0]
+                break
+        return to_id
 
     def _search_json_file_locally(self, acc_id: str):
         json_file = None
         # if acc_id is in self.mapper
-        if acc_id in self.mapper:
-            json_file = self._get_json_path(acc_id=acc_id)
-        # otherwise search number in crossreferences
+        if acc_id in self.mapper["gb"]:
+            json_file = self._get_json_path(gb_id=gb_id)
+        # otherwise search number in mapping file
         else:
-            for gb_id, crossrefs in self.mapper.items():
-                for _, db_uid in crossrefs.items():
-                    if acc_id == db_uid:
-                        json_file = self._get_json_path(acc_id=gb_id)
+            gb_id = self._map_uid(query_id=acc_id, to_id_type="gb")
+            if gb_id is not None:
+                json_file = self._get_json_path(gb_id=gb_id)
         return json_file
-
-    def _save_mapper(self) -> None:
-        with open(self.mapper_path, "w") as json_handle:
-            json.dump(self.mapper, fp=json_handle, indent=4, sort_keys=True)
 
     def _save_entry(self, rec: dict) -> None:
         # save file
@@ -99,7 +105,7 @@ class NcbiDataGatherer:
 
         # update mapper
         crossrefs = self.parse_crossref_ids(rec=rec)
-        self.mapper[acc_id] = crossrefs
+        self.mapper = pd.concat([self.mapper, pd.DataFrame([crossrefs])])
         self._save_mapper()
 
     def _fetch_entry(self, acc_id: str, dbs: list[str], **kwargs) -> list[dict]:
@@ -149,10 +155,10 @@ class NcbiDataGatherer:
         return data
 
     def get_crossref(self, gb_id: str) -> dict[str, str]:
-        if gb_id in self.mapper:
-            crossref = self.mapper[gb_id]
+        if gb_id in self.mapper["gb"]:
+            crossref = self.mapper[self.mapper["gb"] == "gb"].to_dict("records")[0]
         else:
-            rec = self.get_record(acc_id=gb_id)
+            rec = self.get_record(gb_id=gb_id)
             crossref = self.parse_crossref_ids(rec=rec)
         return crossref
 
@@ -259,9 +265,8 @@ class NcbiDataGatherer:
                 # if no UniProt entry was found
                 self._update_mapper(gb_id=failed_entry, new_id={"no_uniprot": None})
 
-    def get_uniprot_acc_id(self, gb_id: str) -> tuple[str, str]:
-        ncbi_rec = self.get_record(gb_id=gb_id)
-        gb_id = self.parse_acc_id(rec=ncbi_rec)
+    def get_uniprot_acc_id(self, acc_id: str) -> tuple[str, str]:
+        gb_id = self._map_uid(query_id=acc_id, to_id_type="gb")
         crossref = self.get_crossref(gb_id=gb_id)
         if "sp" in crossref:
             acc_id, db = crossref["sp"], "SP"
