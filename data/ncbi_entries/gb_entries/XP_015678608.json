@@ -1,0 +1,187 @@
+{
+    "GBSeq_locus": "XP_015678608",
+    "GBSeq_length": "89",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "23-MAY-2019",
+    "GBSeq_create-date": "02-MAR-2016",
+    "GBSeq_definition": "LOW QUALITY PROTEIN: three-finger toxin 3-like [Protobothrops mucrosquamatus]",
+    "GBSeq_primary-accession": "XP_015678608",
+    "GBSeq_accession-version": "XP_015678608.1",
+    "GBSeq_other-seqids": [
+        "ref|XP_015678608.1|",
+        "gi|1002599151"
+    ],
+    "GBSeq_project": "PRJNA313429",
+    "GBSeq_keywords": [
+        "RefSeq",
+        "corrected model"
+    ],
+    "GBSeq_source": "Protobothrops mucrosquamatus",
+    "GBSeq_organism": "Protobothrops mucrosquamatus",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Viperidae; Crotalinae; Protobothrops",
+    "GBSeq_comment": "MODEL REFSEQ: This record is predicted by automated computational analysis. This record is derived from a genomic sequence (NW_015387915.1) annotated using gene prediction method: Gnomon.~Also see:~ Documentation of NCBI's Annotation Process; ##Genome-Annotation-Data-START## ; Annotation Provider :: NCBI ; Annotation Status :: Full annotation ; Annotation Name :: Protobothrops mucrosquamatus Annotation Release 101 ; Annotation Version :: 101 ; Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline ; Annotation Software Version :: 8.2 ; Annotation Method :: Best-placed RefSeq; Gnomon ; Features Annotated :: Gene; mRNA; CDS; ncRNA ; ##Genome-Annotation-Data-END##; ##RefSeq-Attributes-START## ; frameshifts :: corrected 1 indel ; ##RefSeq-Attributes-END##; COMPLETENESS: full length.",
+    "GBSeq_source-db": "REFSEQ: accession XM_015823122.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..89",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "89",
+                    "GBInterval_accession": "XP_015678608.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Protobothrops mucrosquamatus"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "PMUCROS"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:103944"
+                },
+                {
+                    "GBQualifier_name": "chromosome",
+                    "GBQualifier_value": "Unknown"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..89",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "89",
+                    "GBInterval_accession": "XP_015678608.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "LOW QUALITY PROTEIN: three-finger toxin 3-like"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "9889"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "22..88",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "22",
+                    "GBInterval_to": "88",
+                    "GBInterval_accession": "XP_015678608.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "snake_toxin"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Snake toxin domain, present in short and long neurotoxins, cytotoxins and short toxins, and in other miscellaneous venom peptides. The toxin acts by binding to the nicotinic acetylcholine receptors in the postsynaptic membrane of skeletal muscles and...; cd00206"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "order(27,36,51..52,57..60,62..63)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "27",
+                    "GBInterval_accession": "XP_015678608.1"
+                },
+                {
+                    "GBInterval_point": "36",
+                    "GBInterval_accession": "XP_015678608.1"
+                },
+                {
+                    "GBInterval_from": "51",
+                    "GBInterval_to": "52",
+                    "GBInterval_accession": "XP_015678608.1"
+                },
+                {
+                    "GBInterval_from": "57",
+                    "GBInterval_to": "60",
+                    "GBInterval_accession": "XP_015678608.1"
+                },
+                {
+                    "GBInterval_from": "62",
+                    "GBInterval_to": "63",
+                    "GBInterval_accession": "XP_015678608.1"
+                }
+            ],
+            "GBFeature_operator": "order",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "active"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "receptor binding site [active]"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..89",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "89",
+                    "GBInterval_accession": "XP_015678608.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "gene",
+                    "GBQualifier_value": "LOC107293933"
+                },
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "XM_015823122.1:32..301"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "The sequence of the model RefSeq protein was modified relative to its source genomic sequence to represent the inferred CDS: deleted 1 base in 1 codon"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "GeneID:107293933"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mktlllilgvvafvylepgytrnccicpswtlscrsfqkcpadegmcfkmwnstvrvmertyirgcaaacpdpvgdekvyccvtdncnk",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA313429"
+        }
+    ]
+}

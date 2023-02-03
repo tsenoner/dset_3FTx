@@ -1,0 +1,427 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P0DQH4",
+    "uniProtkbId": "3SBB_HEMHA",
+    "entryAudit": {
+        "firstPublicDate": "2019-06-05",
+        "lastAnnotationUpdateDate": "2022-05-25",
+        "lastSequenceUpdateDate": "2019-06-05",
+        "entryVersion": 7,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 4.0,
+    "organism": {
+        "scientificName": "Hemachatus haemachatus",
+        "commonName": "Rinkhals",
+        "synonyms": [
+            "Sepedon haemachatus"
+        ],
+        "taxonId": 8626,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Hemachatus"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "16204244"
+                    }
+                ],
+                "value": "Hemextin B"
+            }
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "16204244"
+                        }
+                    ],
+                    "value": "Hemachatus extrinsic tenase inhibitor B"
+                }
+            }
+        ],
+        "flag": "Fragment"
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "16204244"
+                        }
+                    ],
+                    "value": "Hemextin B (monomer): does not show anticoagulant activity. Seems only to synergitically enhance hemextin A activity"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "16204244"
+                        }
+                    ],
+                    "value": "Hemextin AB complex: specifically inhibits the activation of FX (F10) by the TF-FVIIa complex (extrinsic tenase complex (ETC)) (IC(50)= 100 nM, Ki=50 nM) by non-competitively inhibiting the enzymatic activity of FVIIa"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "16204244"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "17704148"
+                        }
+                    ],
+                    "value": "Heterotetramer composed of 2 hemextin A and 2 hemextin B chains; non-covalently linked. Does not exists as a complex in the crude venom"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "16204244"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "May contain several disulfide bonds"
+                }
+            ],
+            "commentType": "PTM"
+        },
+        {
+            "commentType": "MASS SPECTROMETRY",
+            "method": "Electrospray",
+            "molWeight": 6792.56,
+            "molWeightError": 0.0,
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "16204244"
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily. Type IB cytotoxin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 37,
+                    "modifier": "OUTSIDE"
+                }
+            },
+            "description": "Hemextin B",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "16204244"
+                }
+            ],
+            "featureId": "PRO_0000447302"
+        },
+        {
+            "type": "Non-terminal residue",
+            "location": {
+                "start": {
+                    "value": 37,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 37,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": ""
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-1203",
+            "category": "Molecular function",
+            "name": "Blood coagulation cascade inhibiting toxin"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-1199",
+            "category": "Molecular function",
+            "name": "Hemostasis impairing toxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "16204244",
+                "citationType": "journal article",
+                "authors": [
+                    "Banerjee Y.",
+                    "Mizuguchi J.",
+                    "Iwanaga S.",
+                    "Kini R.M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "16204244"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m508987200"
+                    }
+                ],
+                "title": "Hemextin AB complex, a unique anticoagulant protein complex from Hemachatus haemachatus (African Ringhals cobra) venom that inhibits clot initiation and factor VIIa activity.",
+                "publicationDate": "2005",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "42601",
+                "lastPage": "42611",
+                "volume": "280"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE",
+                "SUBCELLULAR LOCATION",
+                "FUNCTION",
+                "MASS SPECTROMETRY",
+                "SUBUNIT"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "CI-1M3LDTPBS2TA2",
+                "citationType": "journal article",
+                "authors": [
+                    "Banerjee Y.",
+                    "Mizuguchi J.",
+                    "Iwanaga S.",
+                    "Kini R.M."
+                ],
+                "publicationDate": "2006",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "22427",
+                "lastPage": "22427",
+                "volume": "281"
+            },
+            "referencePositions": [
+                "ERRATUM OF PUBMED:16204244"
+            ]
+        },
+        {
+            "citation": {
+                "id": "17704148",
+                "citationType": "journal article",
+                "authors": [
+                    "Banerjee Y.",
+                    "Lakshminarayanan R.",
+                    "Vivekanandan S.",
+                    "Anand G.S.",
+                    "Valiyaveettil S.",
+                    "Kini R.M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "17704148"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1529/biophysj.106.100164"
+                    }
+                ],
+                "title": "Biophysical characterization of anticoagulant hemextin AB complex from the venom of snake Hemachatus haemachatus.",
+                "publicationDate": "2007",
+                "journal": "Biophys. J.",
+                "firstPage": "3963",
+                "lastPage": "3976",
+                "volume": "93"
+            },
+            "referencePositions": [
+                "SUBUNIT"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "AlphaFoldDB",
+            "id": "P0DQH4",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "LKCKNKVVPFLKCKNKVVPFLCYKMTLKKVTPKIKRG",
+        "length": 37,
+        "molWeight": 4323,
+        "crc64": "3464247DBB688B77",
+        "md5": "F7AE57D02A7E82F03CB05655668D72CB"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 2,
+            "SUBUNIT": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "PTM": 1,
+            "MASS SPECTROMETRY": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Non-terminal residue": 1
+        },
+        "uniParcId": "UPI0010BC95BD"
+    }
+}

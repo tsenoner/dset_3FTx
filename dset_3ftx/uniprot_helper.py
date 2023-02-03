@@ -78,7 +78,7 @@ def post_blast_job(seq, taxa_id):
     return job_id
 
 
-def get_tax_id(taxa: str) -> str:
+def get_taxa_id(taxa: str) -> Union[None, str]:
     """For a given taxa name, search and return its taxa ID.
 
     Return the taxa ID as an integer if it exists, else return None.
@@ -94,6 +94,7 @@ def get_tax_id(taxa: str) -> str:
         else:
             raise Exception(err)
 
+    tax_id = None
     if taxonomies is None:
         tax_id = None
     elif len(taxonomies) == 1:
@@ -101,6 +102,14 @@ def get_tax_id(taxa: str) -> str:
     else:
         raise Exception(f"{taxa} found more than one taxa.")
     return tax_id
+
+
+def get_taxa_rank(taxa_id: Union[str, int], rank: str = "family") -> str:
+    response = requests.get(url=f"{TAXA_API}/lineage/{taxa_id}")
+    for taxonomy in response.json()["taxonomies"]:
+        if taxonomy["rank"] == rank:
+            rank_name = taxonomy["scientificName"]
+    return rank_name
 
 
 def get_job_status(job_id):
@@ -168,7 +177,15 @@ class UniProtDataGatherer:
                 new_idx.append(idx)
         return new_idx
 
-    def parse_seq(self, rec: dict) -> tuple[str, str]:
+    def parse_name(self, rec: dict) -> Union[str, None]:
+        # get recomended name from entry
+        name = None
+        for name_type, values in rec["proteinDescription"].items():
+            if name_type == "recommendedName":
+                name = values["fullName"]["value"]
+        return name
+
+    def parse_seq(self, rec: dict) -> tuple[Union[str, None], Union[str, None]]:
         """return full_seq (Signal + mature_seq) and mature_seq (Chain + Propeptide)
 
         full_seq = Signal + mature_seq
@@ -181,8 +198,10 @@ class UniProtDataGatherer:
         #          chain: https://www.uniprot.org/uniprotkb/A0A4P1LYC9/entry#ptm_processing
         #        peptide: https://www.uniprot.org/uniprotkb/C0HJT4/entry#ptm_processing
         #           None: https://www.uniprot.org/uniprotkb/A0A6P9C7G6/entry#ptm_processing
+        #   non-terminal: https://www.uniprot.org/uniprotkb/A1IVR8/entry#sequences
 
         # --- get sequence feature indices
+        non_term_pos, non_adj_pos = None, None
         seq_featurs = {}
         seq_value = rec["sequence"]["value"]
         if "features" in rec:
@@ -194,6 +213,15 @@ class UniProtDataGatherer:
                     seq_featurs.setdefault(feature_type, []).extend(
                         [start, end]
                     )
+                elif feature_type == "Non-terminal residue":
+                    non_term_pos = feature["location"]["start"]["value"]
+                elif feature_type == "Non-adjacent residue":
+                    non_adj_pos = feature["location"]["start"]["value"]
+
+        acc_id = rec["primaryAccession"]
+        # if acc_id == "A1IVR8":
+        #     print(seq_featurs)
+        #     print(non_term_pos, non_adj_pos)
 
         # --- get mature peptide
         if "Propeptide" in seq_featurs:
@@ -207,8 +235,21 @@ class UniProtDataGatherer:
             mature_pep_idx = None
         else:
             print(f"Sequence features: {seq_featurs}")
-            raise Exception(f"Odd seq features for {rec['primaryAccession']}")
-        if mature_pep_idx is None:
+            raise Exception(
+                f"Odd seq features for {rec['primaryAccession']}"
+            )  #
+
+        if (
+            (mature_pep_idx is None)
+            or (
+                (non_term_pos is not None)
+                and (mature_pep_idx[0] <= non_term_pos >= mature_pep_idx[1])
+            )
+            or (
+                (non_adj_pos is not None)
+                and (non_adj_pos[0] <= non_adj_pos >= non_adj_pos[1])
+            )
+        ):
             mature_peptide = None
         elif len(mature_pep_idx) == 2:
             mature_peptide = seq_value[
@@ -219,12 +260,17 @@ class UniProtDataGatherer:
             raise Exception(f"Odd seq features for {rec['primaryAccession']}")
 
         # --- get full sequence
-        if "Signal" in seq_featurs:
+        if (
+            (mature_pep_idx is None)
+            or (non_term_pos is not None)
+            or (non_adj_pos is not None)
+            or ("Signal" not in seq_featurs)
+        ):
+            full_seq = None
+        else:
             full_seq_idx = seq_featurs["Signal"] + mature_pep_idx
             full_seq_idx = self._get_start_end_idx(seq_idx=full_seq_idx)
-            if len(full_seq_idx) == 1:
-                full_seq = None
-            elif len(full_seq_idx) == 2:
+            if len(full_seq_idx) == 2:
                 full_seq = seq_value[full_seq_idx[0] - 1 : full_seq_idx[1]]
                 if not full_seq.startswith("M"):
                     full_seq = None
@@ -234,8 +280,6 @@ class UniProtDataGatherer:
                 raise Exception(
                     f"Odd seq features for {rec['primaryAccession']}"
                 )
-        else:
-            full_seq = None
 
         return full_seq, mature_peptide
 
@@ -249,6 +293,19 @@ class UniProtDataGatherer:
         5. Protein uncertain
         """
         return int(rec["proteinExistence"].split(":")[0])
+
+    def parse_db(self, rec: dict) -> str:
+        entry_type = rec["entryType"]
+        if "Swiss-Prot" in entry_type:
+            db = "SP"
+        elif "TrEMBL" in entry_type:
+            db = "TR"
+        else:
+            raise Exception(f"Not SP or TR, but {entry_type}")
+        return db
+
+    def parse_species(self, rec: dict) -> str:
+        return rec["organism"]["scientificName"]
 
 
 class UniProtBlaster:
@@ -329,7 +386,7 @@ class UniProtBlaster:
         fasta_id: str,
         uniprot_collector: UniProtDataGatherer,
         prot_evi_threshold: int = 2,
-    ) -> tuple[str, str]:
+    ) -> Union[str, None]:
         json_file = self._get_json_path(fasta_id=fasta_id)
         json_data = load_data(json_path=json_file)
 
@@ -374,5 +431,5 @@ class UniProtBlaster:
             if ("SP" in dbs) and "TR" in dbs:
                 matches = [m for m in matches if m["db"] == "SP"]
             # if there are still more than 2 matches take the first one
-            acc_id= matches[0]["acc_id"]
+            acc_id = matches[0]["acc_id"]
         return acc_id

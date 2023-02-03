@@ -1,0 +1,523 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P0CJ35",
+    "uniProtkbId": "3L2L_OXYSC",
+    "entryAudit": {
+        "firstPublicDate": "2011-05-31",
+        "lastAnnotationUpdateDate": "2022-02-23",
+        "lastSequenceUpdateDate": "2011-05-31",
+        "entryVersion": 26,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 3.0,
+    "organism": {
+        "scientificName": "Oxyuranus scutellatus scutellatus",
+        "commonName": "Australian taipan",
+        "synonyms": [
+            "Coastal taipan"
+        ],
+        "taxonId": 8667,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Acanthophiinae",
+            "Oxyuranus"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "Taicatoxin, alpha-neurotoxin-like component"
+            },
+            "shortNames": [
+                {
+                    "value": "TCX, alpha-neurotoxin-like component"
+                }
+            ]
+        },
+        "flag": "Fragment"
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "15855042"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "8901456"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "9242659"
+                        }
+                    ],
+                    "value": "The heterotrimer blocks the voltage-dependent L-type calcium channels (Cav1/CACNA1) from the heart, and the small conductance calcium-activated potassium channels (KCa2/KCNN) in the chromaffin cells and in the brain. Is very toxic to mice"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "1485334"
+                        }
+                    ],
+                    "value": "Heterotrimer composed of this alpha-neurotoxin-like peptide of 8 kDa, a neurotoxic phospholipase of 16 kDa (AC Q7LZG2) and a serine protease inhibitor of 7 kDa (AC B7S4N9) at an approximate stoichiometry of 1:1:4; non-covalently linked"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "1485334"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "1485334"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "1485334"
+                        }
+                    ],
+                    "value": "LD(50) of the heterotrimer is 50-100 ug/kg to mice"
+                }
+            ],
+            "commentType": "TOXIC DOSE"
+        },
+        {
+            "texts": [
+                {
+                    "value": "Is composed of 65-68 amino acid residues"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Long-chain subfamily. Type II alpha-neurotoxin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        },
+        {
+            "commentType": "WEB RESOURCE",
+            "resourceName": "Wikipedia",
+            "resourceUrl": "https://en.wikipedia.org/wiki/Taicatoxin",
+            "ftp": false,
+            "note": "Taicatoxin entry"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 28,
+                    "modifier": "OUTSIDE"
+                }
+            },
+            "description": "Taicatoxin, alpha-neurotoxin-like component",
+            "featureId": "PRO_0000408516"
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 3,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Non-terminal residue",
+            "location": {
+                "start": {
+                    "value": 28,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 28,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": ""
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0108",
+            "category": "Molecular function",
+            "name": "Calcium channel impairing toxin"
+        },
+        {
+            "id": "KW-1221",
+            "category": "Molecular function",
+            "name": "Calcium-activated potassium channel impairing toxin"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0872",
+            "category": "Molecular function",
+            "name": "Ion channel impairing toxin"
+        },
+        {
+            "id": "KW-0528",
+            "category": "Molecular function",
+            "name": "Neurotoxin"
+        },
+        {
+            "id": "KW-0632",
+            "category": "Molecular function",
+            "name": "Potassium channel impairing toxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        },
+        {
+            "id": "KW-1218",
+            "category": "Molecular function",
+            "name": "Voltage-gated calcium channel impairing toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "1485334",
+                "citationType": "journal article",
+                "authors": [
+                    "Possani L.D.",
+                    "Martin B.M.",
+                    "Yatani A.",
+                    "Mochca-Morales J.",
+                    "Zamudio F.Z.",
+                    "Gurrola G.B.",
+                    "Brown A.M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "1485334"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0041-0101(92)90511-3"
+                    }
+                ],
+                "title": "Isolation and physiological characterization of taicatoxin, a complex toxin with specific effects on calcium channels.",
+                "publicationDate": "1992",
+                "journal": "Toxicon",
+                "firstPage": "1343",
+                "lastPage": "1364",
+                "volume": "30"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE",
+                "SUBUNIT",
+                "SUBCELLULAR LOCATION",
+                "TOXIC DOSE"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "8901456",
+                "citationType": "journal article",
+                "authors": [
+                    "Fantini E.",
+                    "Athias P.",
+                    "Tirosh R.",
+                    "Pinson A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8901456"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1007/bf00240032"
+                    }
+                ],
+                "title": "Effect of TaiCatoxin (TCX) on the electrophysiological, mechanical and biochemical characteristics of spontaneously beating ventricular cardiomyocytes.",
+                "publicationDate": "1996",
+                "journal": "Mol. Cell. Biochem.",
+                "firstPage": "61",
+                "lastPage": "66",
+                "volume": "160"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "9242659",
+                "citationType": "journal article",
+                "authors": [
+                    "Doorty K.B.",
+                    "Bevan S.",
+                    "Wadsworth J.D.F.",
+                    "Strong P.N."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9242659"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.272.32.19925"
+                    }
+                ],
+                "title": "A novel small conductance Ca2+-activated K+ channel blocker from Oxyuranus scutellatus taipan venom. Re-evaluation of taicatoxin as a selective Ca2+ channel probe.",
+                "publicationDate": "1997",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "19925",
+                "lastPage": "19930",
+                "volume": "272"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "citation": {
+                "id": "15855042",
+                "citationType": "journal article",
+                "authors": [
+                    "Su M.-C.",
+                    "Lee S.-Y.",
+                    "Tan C.-T.",
+                    "Su C.-C.",
+                    "Li S.-Y.",
+                    "Lin R.-H.",
+                    "Hung C.-C.",
+                    "Lin M.-J."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15855042"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.heares.2004.12.003"
+                    }
+                ],
+                "title": "Taicatoxin inhibits the calcium-dependent slow motility of mammalian outer hair cells.",
+                "publicationDate": "2005",
+                "journal": "Hear. Res.",
+                "firstPage": "172",
+                "lastPage": "179",
+                "volume": "203"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005246",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:calcium channel regulator activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0015459",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:potassium channel regulator activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "RRCFITPNVRSERCPPGQEVCFTKTXDG",
+        "length": 28,
+        "molWeight": 3209,
+        "crc64": "6AB874D006914C79",
+        "md5": "543E6C8466F42C918DB0061E2560D10A"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBUNIT": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "TOXIC DOSE": 1,
+            "MISCELLANEOUS": 1,
+            "SIMILARITY": 1,
+            "WEB RESOURCE": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Disulfide bond": 1,
+            "Non-terminal residue": 1
+        },
+        "uniParcId": "UPI00001766B2"
+    }
+}

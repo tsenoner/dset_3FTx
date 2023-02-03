@@ -1,0 +1,449 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P0DMV6",
+    "uniProtkbId": "3SA12_DABRR",
+    "entryAudit": {
+        "firstPublicDate": "2015-05-27",
+        "lastAnnotationUpdateDate": "2022-10-12",
+        "lastSequenceUpdateDate": "2015-05-27",
+        "entryVersion": 11,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 3.0,
+    "organism": {
+        "scientificName": "Daboia russelii",
+        "commonName": "Russel's viper",
+        "synonyms": [
+            "Vipera russelii"
+        ],
+        "taxonId": 8707,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Viperidae",
+            "Viperinae",
+            "Daboia"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "16997639"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "17499831"
+                    }
+                ],
+                "value": "7.2 kDa cytotoxin RVV-7"
+            }
+        },
+        "flag": "Fragment"
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "16997639"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "17499831"
+                        }
+                    ],
+                    "value": "This three-finger cytotoxin shows cytotoxicity and direct nephrotoxicity. The cytotoxicity has been observed on B16F10 melanoma cells (EC(50)=2.56 uM) (PubMed:16997639) and on kidney proximal tubular epithelium LLCPK1 cells (EC(50)=4.79 uM); it is due to necrotic cell death and not to apoptosis. Direct nephrotoxicity has been deduced from binding to LLCPK1 cell line and to kidney membranes. In addition, after intravenous injection into mice tail vein, the toxin principally accumulates in kidney, but only minimally in blood, liver and brain (PubMed:17499831)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "16997639"
+                        }
+                    ],
+                    "value": "Monomer. Homodimerizes during storage at 30 degrees Celsius (observed after 3 days)"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "16997639"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P60301"
+                            }
+                        ],
+                        "value": "Target cell membrane",
+                        "id": "SL-0451"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "commentType": "MASS SPECTROMETRY",
+            "method": "Electrospray",
+            "molWeight": 7201.0,
+            "molWeightError": 0.0,
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "16997639"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "17499831"
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily. Type IA cytotoxin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "16997639"
+                        }
+                    ],
+                    "value": "Surprinsingly, this toxin has also been observed to have phospholipase A2 and trypsin inhibitory activities"
+                }
+            ],
+            "commentType": "CAUTION"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 20,
+                    "modifier": "OUTSIDE"
+                }
+            },
+            "description": "7.2 kDa cytotoxin RVV-7",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "16997639"
+                }
+            ],
+            "featureId": "PRO_0000433034"
+        },
+        {
+            "type": "Sequence uncertainty",
+            "location": {
+                "start": {
+                    "value": 14,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 14,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Assigned by comparison with orthologs",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ]
+        },
+        {
+            "type": "Non-terminal residue",
+            "location": {
+                "start": {
+                    "value": 20,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 20,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": ""
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-0472",
+            "category": "Cellular component",
+            "name": "Membrane"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-1052",
+            "category": "Cellular component",
+            "name": "Target cell membrane"
+        },
+        {
+            "id": "KW-1053",
+            "category": "Cellular component",
+            "name": "Target membrane"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "16997639",
+                "citationType": "journal article",
+                "authors": [
+                    "Maity G.",
+                    "Mandal S.",
+                    "Chatterjee A.",
+                    "Bhattacharyya D."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "16997639"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.jchromb.2006.08.038"
+                    }
+                ],
+                "title": "Purification and characterization of a low molecular weight multifunctional cytotoxic phospholipase A2 from Russell's viper venom.",
+                "publicationDate": "2007",
+                "journal": "J. Chromatogr. B",
+                "firstPage": "232",
+                "lastPage": "243",
+                "volume": "845"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE",
+                "FUNCTION",
+                "SUBUNIT",
+                "SUBCELLULAR LOCATION",
+                "MASS SPECTROMETRY"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "17499831",
+                "citationType": "journal article",
+                "authors": [
+                    "Mandal S.",
+                    "Bhattacharyya D."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "17499831"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.toxicon.2007.03.018"
+                    }
+                ],
+                "title": "Ability of a small, basic protein isolated from Russell's viper venom (Daboia russelli russelli) to induce renal tubular necrosis in mice.",
+                "publicationDate": "2007",
+                "journal": "Toxicon",
+                "firstPage": "236",
+                "lastPage": "250",
+                "volume": "50"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE OF 1-15",
+                "FUNCTION",
+                "MASS SPECTROMETRY"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "AlphaFoldDB",
+            "id": "P0DMV6",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016020",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0044218",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:other organism cell membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "LECNKLVDIAYITCPAGKNL",
+        "length": 20,
+        "molWeight": 2179,
+        "crc64": "1FFF0FE2DE91BE85",
+        "md5": "ACCE37FA6F93940C7C244DB18BA84438"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBUNIT": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "MASS SPECTROMETRY": 1,
+            "SIMILARITY": 1,
+            "CAUTION": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Sequence uncertainty": 1,
+            "Non-terminal residue": 1
+        },
+        "uniParcId": "UPI00061CDBE9"
+    }
+}

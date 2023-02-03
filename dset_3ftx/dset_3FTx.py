@@ -235,7 +235,7 @@ class OriginalDset:
                     ncbi_search = header.split(" ", maxsplit=1)[1]
 
         print(
-            f"{len(df)} entries: {df['uniprot_id'].count()} UniProt"
+            f"Original - {len(df)} entries: {df['uniprot_id'].count()} UniProt"
             f" IDs; {df['refseq_id'].count()} RefSeq IDs;"
             f" {df['genbank_id'].count()} GenBank IDs identified."
         )
@@ -273,10 +273,10 @@ class ZhangDset:
         df["data_origin"] = "paper_zhang"
 
         # differentiate between full & mature sequences
-        # full seq starts with M and in this alignment is before position 20
+        # full seq starts with M and in this alignment is before position 31
         full_seq_condition = (
             df["mature_seq"].str.replace("-", "").str.startswith("M")
-        ) & (df["mature_seq"].str.find("M") <= 18)
+        ) & (df["mature_seq"].str.find("M") <= 30)
         df["mature_seq"] = df["mature_seq"].str.replace("-", "")
         df.loc[full_seq_condition, "full_seq"] = df.loc[
             full_seq_condition, "mature_seq"
@@ -316,7 +316,7 @@ class ZhangDset:
                 df.loc[idx, ["genbank_id"]] = genbank_match[1]
 
         print(
-            f"{len(df)} entries: {df['uniprot_id'].count()} UniProt"
+            f"Zhang - {len(df)} entries: {df['uniprot_id'].count()} UniProt"
             f" IDs; {df['refseq_id'].count()} RefSeq IDs;"
             f" {df['genbank_id'].count()} GenBank IDs identified."
         )
@@ -340,13 +340,14 @@ class RituDset:
         df = df.assign(**{"data_origin": "paper_ritu"})
 
         # --- separate identifiers (gi_number and acc_id)
-        df[["gi_number", "fasta_id"]] = df["fasta_id"].str.split(
+        df[["gi_number", "tmp"]] = df["fasta_id"].str.split(
             "|", n=1, expand=True
         )
+        df = df.drop(columns="tmp")
         df["uniprot_id"] = df["gi_number"].str.extract(r"(^[^\d].+)")
         df["gi_number"] = df.loc[df["gi_number"].str.match(r"^\d"), "gi_number"]
         print(
-            f"{len(df)} entries: {df['uniprot_id'].count()} UniProt"
+            f"Ritu - {len(df)} entries: {df['uniprot_id'].count()} UniProt"
             f" IDs, {df['gi_number'].count()} GI numbers identified"
         )
         return df
@@ -383,6 +384,11 @@ class FrenchDset:
         df["representative"] = df["representative"].astype(bool)
         df["groups"] = df["groups"].astype(int)
         df["data_origin"] = "french_guys"
+        df["fasta_id"] = df["uniprot_entry"]
+        print(
+            f"French - {len(df)} entries: {df['uniprot_id'].count()} UniProt"
+            " IDs, identified"
+        )
 
         return df
 
@@ -399,28 +405,116 @@ def parse_uniprot_ids_file(uniprot_uids_files: list[Path]) -> pd.DataFrame:
                 acc_ids.append(acc_id)
         df = pd.DataFrame(acc_ids, columns=["uniprot_id"])
         df["data_origin"] = uniprot_uid_file.stem
+        df["fasta_id"] = uniprot_uid_file.stem + "_" + df["uniprot_id"]
         dfs.append(df)
     df_uniprot = pd.concat(dfs)
+
+    print(
+        f"UniProt - {len(df_uniprot)} entries:"
+        f" {df_uniprot['uniprot_id'].count()} UniProt IDs identified"
+    )
     return df_uniprot
 
 
 def map_ids2uniprot(df: pd.DataFrame) -> pd.DataFrame:
     # GI numbers to GenBank
-    # df_map = NCBI_COLLECTOR.mapper
-    # for idx, row in df.loc[df["gi_number"].notna(), :].iterrows():
-    #     gb_id = df_map[df_map["gi"] == row["gi_number"]].values[0]
-    #     df.loc[idx, "genbank_id"] = gb_id
-
+    df_map = NCBI_COLLECTOR.mapper
     for idx, row in df.loc[df["gi_number"].notna(), :].iterrows():
-        acc_id = ""
-        NCBI_COLLECTOR.get_uniprot_acc_id(acc_id=acc_id)
+        gb_id = df_map[df_map["gi"] == int(row["gi_number"])]["gb"].iloc[0]
+        df.loc[idx, "genbank_id"] = gb_id
+
+    # GenBank
+    gb_cond = df["genbank_id"].notna()
+    gb_ids = df.loc[gb_cond, "genbank_id"].to_list()
+    NCBI_COLLECTOR.map_uniprot_acc_ids(ncbi_ids=gb_ids)
+    for idx, row in df.loc[gb_cond, :].iterrows():
+        gb_id = row["genbank_id"]
+        if pd.notna(row["uniprot_id"]):
+            raise Exception(f"GenBank ID {gb_id} has already UniProt ID")
+        uniprot_id = NCBI_COLLECTOR.get_uniprot_acc_id(acc_id=gb_id)
+        df.loc[idx, "uniprot_id"] = uniprot_id
+
+    rs_cond = df["refseq_id"].notna()
+    rs_ids = df.loc[rs_cond, "refseq_id"].to_list()
+    NCBI_COLLECTOR.map_uniprot_acc_ids(ncbi_ids=rs_ids)
+    for idx, row in df.loc[rs_cond, :].iterrows():
+        rs_id = row["refseq_id"]
+        if pd.notna(row["uniprot_id"]):
+            raise Exception(f"RefSeq ID {rs_id} has already UniProt ID")
+        uniprot_id = NCBI_COLLECTOR.get_uniprot_acc_id(acc_id=rs_id)
+        df.loc[idx, "uniprot_id"] = uniprot_id
+    return df
 
 
-def create_taxon_mapper(taxas):
+def get_uniprot_metadata(df: pd.DataFrame) -> pd.DataFrame:
+    df["seq"] = df["mature_seq"]
+    for idx, row in df[df["uniprot_id"].notna()].iterrows():
+        rec = UNIPROT_COLLECTOR.get_entry(acc_id=row["uniprot_id"])
+        full_seq, mature_seq = UNIPROT_COLLECTOR.parse_seq(rec=rec)
+        if (
+            pd.notna(row["mature_seq"])
+            and pd.isna(mature_seq)
+            and (row["data_origin"] == "original")
+        ):
+            mature_seq = row["mature_seq"]
+
+        # add other metadata
+        metadata = [
+            rec["primaryAccession"],
+            rec["uniProtkbId"],
+            UNIPROT_COLLECTOR.parse_species(rec=rec),
+            full_seq,
+            mature_seq,
+            UNIPROT_COLLECTOR.parse_name(rec=rec),
+            UNIPROT_COLLECTOR.parse_db(rec=rec),
+            UNIPROT_COLLECTOR.parse_prot_evi(rec=rec),
+            rec["annotationScore"],
+        ]
+        df.loc[
+            idx,
+            [
+                "uniprot_id",
+                "uniprot_entry",
+                "species",
+                "full_seq",
+                "mature_seq",
+                "name",
+                "db",
+                "prot_evi",
+                "annot_score",
+            ],
+        ] = metadata
+    return df
+
+
+def get_ncbi_metadata(df: pd.DataFrame) -> pd.DataFrame:
+    for idx, row in df[df["uniprot_id"].isna()].iterrows():
+        if pd.notna(row["refseq_id"]):
+            ncbi_id = row["refseq_id"]
+        elif pd.notna(row["genbank_id"]):
+            ncbi_id = row["genbank_id"]
+        else:
+            # ignore sequences with no identifier
+            continue
+        rec = NCBI_COLLECTOR.get_record(gb_id=ncbi_id)
+        full_seq = NCBI_COLLECTOR.parse_seq(rec=rec)
+        species = NCBI_COLLECTOR.parse_taxon(rec=rec)
+        db = "NCBI"
+        if row["data_origin"] == "original":
+            # do not change original dataset
+            if pd.notna(row["full_seq"]):
+                full_seq = row["full_seq"]
+            if species != row["species"]:
+                species = row["species"]
+        df.loc[idx, ["species", "full_seq", "db"]] = [species, full_seq, db]
+    return df
+
+
+def _create_taxon_mapper(taxas):
     taxon_mapper = {}
     for taxa in taxas:
         if taxa not in taxon_mapper:
-            taxa_id = uniprot_helper.get_tax_id(taxa)
+            taxa_id = uniprot_helper.get_taxa_id(taxa)
             if taxa_id is None:
                 raise Exception(f"'{taxa}' not found")
             taxon_mapper[taxa] = taxa_id
@@ -430,26 +524,39 @@ def create_taxon_mapper(taxas):
 def add_taxon_id(df: pd.DataFrame, taxon_mapper_file: Path) -> pd.DataFrame:
     # read in already mapped taxon
     if taxon_mapper_file.is_file():
-        with open(taxon_mapper_file, "r") as json_file:
-            taxon_mapper = json.load(json_file)
-    else:
-        taxon_mapper = dict()
+        df_taxon_mapper = pd.read_csv(taxon_mapper_file)
+    species_lst = df_taxon_mapper["species"].to_list()
     unknown_taxon_ids = df.loc[
-        ~df["species"].isin(taxon_mapper.keys()), "species"
+        ~df["species"].isin(species_lst), "species"
     ].unique()
 
     # get taxon_id that arn't in `taxon_mapper` yet
-    novel_taxon_mapper = create_taxon_mapper(taxas=unknown_taxon_ids)
-    taxon_mapper.update(novel_taxon_mapper)
+    novel_taxon_mapper = _create_taxon_mapper(taxas=unknown_taxon_ids)
 
-    # update json file
-    with open(taxon_mapper_file, "w") as json_file:
-        json.dump(taxon_mapper, fp=json_file, indent=4)
+    # update file
+    new_df = (
+        pd.Series(novel_taxon_mapper, dtype=int)
+        .to_frame(name="taxon_id")
+        .reset_index(names="species")
+    )
+    df_taxon_mapper = pd.concat([df_taxon_mapper, new_df], ignore_index=True)
+    df_taxon_mapper.to_csv(taxon_mapper_file, index=False)
+
+    # get taxon family
+    for idx, row in df_taxon_mapper.iterrows():
+        if pd.isna(row["family"]):
+            family = uniprot_helper.get_taxa_rank(
+                taxa_id=row["taxon_id"], rank="family"
+            )
+            df_taxon_mapper.loc[idx, "family"] = family
 
     # add taxon ids to DataFrame
-    df["taxon_id"] = df["species"].map(taxon_mapper)
-    # TODO get family Rank of taxon
-    # e.g. https://www.ebi.ac.uk/proteins/api/taxonomy/lineage/8633
+    df["taxon_id"] = df["species"].map(
+        df_taxon_mapper.set_index("species")["taxon_id"]
+    )
+    df["family"] = df["species"].map(
+        df_taxon_mapper.set_index("species")["family"]
+    )
     return df
 
 
@@ -489,55 +596,74 @@ def run_blast(
     return df
 
 
-def get_uniprot_metadata(
-    df: pd.DataFrame, uniprot_collector: uniprot_helper.UniProtDataGatherer
-) -> pd.DataFrame:
-    data = []
-    for idx, row in df[df["acc_id"].notna()].iterrows():
-        data = uniprot_collector.get_entry(acc_id=row["acc_id"])
-        # get recomended name from entry
-        for name_type, values in data["proteinDescription"].items():
-            if name_type == "recommendedName":
-                name = values["fullName"]["value"]
-                df.loc[idx, "name"] = name
-
-        # add other metadata
-        metadata = [
-            data["primaryAccession"],
-            data["uniProtkbId"],
-            uniprot_collector.parse_prot_evi(rec=data),
-            data["annotationScore"],
-        ]
-        df.loc[idx, ["acc_id", "entry", "prot_evi", "annot_score"]] = metadata
+def remove_low_quality_entries(df: pd.DataFrame) -> pd.DataFrame:
+    """Remove entries not satisfying inclusion criterion"""
+    # remove entries with a protein_evidence level above 2 (transcript level)
+    # keep original dataset
+    df = df[
+        ((df["prot_evi"] <= 2) | pd.isna(df["prot_evi"]))
+        | (df["data_origin"] == "original")
+    ]
+    # remove entries that have no full or mature swequence
+    df = df[pd.notna(df["full_seq"]) | pd.notna(df["mature_seq"])]
+    # remove entries having X in sequence
+    df = df[pd.isna(df["full_seq"]) | ~(df["full_seq"].str.find("X") != -1)]
     return df
 
 
 def manual_curation(df: pd.DataFrame) -> pd.DataFrame:
-    # TODO: remove sequences with a protein evidence level greater than 2
-    # remove unneded column
-    df = df.drop(columns="original_fasta_header")
-    # TODO: merge duplicates to one record
+    # clean up
+    df.loc[df["name"] == "-", "name"] = None
+
+    # merge duplicates to one record
     len_before = len(df)
-    df = df.drop_duplicates(
-        subset=["acc_id", "species", "mature_seq", "full_seq"]
-    )
+    id_cols = ["full_seq", "mature_seq", "species", "uniprot_id"]
+    df = df.groupby(id_cols, dropna=False).first().reset_index()
     len_after = len(df)
-    if len_before > len_after:
-        print(f"{len_before-len_after} duplicate sequences were removed.")
+    print(f"{len_before-len_after} duplicate sequences were merged.")
 
     return df
 
 
 def save_data(df: pd.DataFrame, csv_file: Path, fasta_file: Path) -> None:
+    mature_path = fasta_file.with_stem(f"{fasta_file.stem}_mature")
+    full_path = fasta_file.with_stem(f"{fasta_file.stem}_full")
     # move column `fasta_id` to the front
     col_data = df.pop("fasta_id")
     df.insert(loc=0, column="fasta_id", value=col_data)
 
-    df.to_csv(csv_file, index=False)
-    with open(fasta_file, "w") as fasta_handler:
+    df.to_csv(csv_file.with_stem(f"{csv_file.stem}2"), index=False)
+    with (
+        open(mature_path, "w") as handle_mature,
+        open(full_path, "w") as handle_full,
+    ):
         for _, row in df.iterrows():
-            fasta_handler.write(f">{row['fasta_id']}\n")
-            fasta_handler.write(f"{row['seq']}\n")
+            handle_mature.write(f">{row['fasta_id']}\n")
+            handle_mature.write(f"{row['mature_seq']}\n")
+            handle_full.write(f">{row['fasta_id']}\n")
+            handle_full.write(f"{row['full_seq']}\n")
+
+    df = df[
+        [
+            "fasta_id",
+            "db",
+            "data_origin",
+            "family",
+            "species",
+            "ritu_class",
+            "evolutionary_order",
+            "cystein_group",
+            "name",
+            "activity",
+            "receptor",
+            "groups",
+            "representative",
+            "full_seq",
+            "mature_seq",
+            "seq",
+        ]
+    ].copy()
+    df.to_csv(csv_file, index=False)
 
 
 def main():

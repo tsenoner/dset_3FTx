@@ -1,0 +1,1011 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P60305",
+    "secondaryAccessions": [
+        "P01449",
+        "P01450"
+    ],
+    "uniProtkbId": "3SA8_NAJKA",
+    "entryAudit": {
+        "firstPublicDate": "1986-07-21",
+        "lastAnnotationUpdateDate": "2022-12-14",
+        "lastSequenceUpdateDate": "2004-02-02",
+        "entryVersion": 71,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Naja kaouthia",
+        "commonName": "Monocled cobra",
+        "synonyms": [
+            "Naja siamensis"
+        ],
+        "taxonId": 8649,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Lepidosauria",
+            "Squamata",
+            "Bifurcata",
+            "Unidentata",
+            "Episquamata",
+            "Toxicofera",
+            "Serpentes",
+            "Colubroidea",
+            "Elapidae",
+            "Elapinae",
+            "Naja"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "18381281"
+                    }
+                ],
+                "value": "Cytotoxin 1"
+            },
+            "shortNames": [
+                {
+                    "value": "CTX1"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "18381281"
+                        }
+                    ],
+                    "value": "CX1"
+                }
+            ]
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "1148180"
+                        }
+                    ],
+                    "value": "Cardiotoxin F8"
+                }
+            },
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "22807058"
+                        }
+                    ],
+                    "value": "Cardiotoxin-I"
+                },
+                "shortNames": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000303",
+                                "source": "PubMed",
+                                "id": "22807058"
+                            }
+                        ],
+                        "value": "CTX-I"
+                    }
+                ]
+            },
+            {
+                "fullName": {
+                    "value": "Toxin CM-6"
+                }
+            }
+        ]
+    },
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "18381281"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "22807058"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "24552570"
+                        }
+                    ],
+                    "value": "Monomer: shows cytolytic activity (apoptosis is induced in C2C12 cells, but no cytotoxicity is observed on INS-1E) (PubMed:18381281, PubMed:22807058). In addition, this toxin shows insulinotropic activity that may be mediated by the modulation of potassium channels (Kv) (PubMed:22807058). It induces the increase of intracellular calcium release (PubMed:24552570). It induces insulin secretion from rat INS-1E cells in absence and in presence of glucose, without affecting cell viability and integrity (PubMed:22807058). In presence of glucose, the insulinotropic activity is increased, suggesting a possible synergistic effect with glucose (PubMed:22807058). Its insulinotropic activity does not involve GLP-1R signaling (PubMed:22807058, PubMed:24552570)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "18381281"
+                        }
+                    ],
+                    "value": "Heterodimer: has no cytolytic activity, but retains most of the alpha-cobratoxin capacity to compete with alpha-bungarotoxin for binding to Torpedo and alpha-7/CHRNA7 nicotinic acetylcholine receptors (nAChRs) as well as to Lymnea stagnalis acetylcholine-binding protein"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "18381281"
+                        }
+                    ],
+                    "value": "Monomer, or heterodimer with alpha-cobratoxin (AC P01391); disulfide-linked"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "1148180"
+                            }
+                        ],
+                        "value": "Secreted",
+                        "id": "SL-0243"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P60301"
+                            }
+                        ],
+                        "value": "Target cell membrane",
+                        "id": "SL-0451"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305",
+                            "source": "PubMed",
+                            "id": "1148180"
+                        }
+                    ],
+                    "value": "Expressed by the venom gland"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "1148180"
+                        }
+                    ],
+                    "value": "LD(100) is 0.75 mg/kg by intravenous injection and 2.25 mg/kg by intraperitoneal injection"
+                }
+            ],
+            "commentType": "TOXIC DOSE"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "22807058"
+                        }
+                    ],
+                    "value": "This toxin does not induce direct hemolysis of human erythrocytes and it also does not induce potent vasoconstriction"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Is classified as a S-type cytotoxin, since a serine residue stands at position 28 (Ser-29 in standard classification)"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the snake three-finger toxin family. Short-chain subfamily. Type IA cytotoxin sub-subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 60,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Cytotoxin 1",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "1148180"
+                }
+            ],
+            "featureId": "PRO_0000093498"
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 3,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 14,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 38,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 42,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        },
+        {
+            "type": "Disulfide bond",
+            "location": {
+                "start": {
+                    "value": 54,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 59,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P60301"
+                }
+            ]
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 40,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "In CTX-I(41-60); No change in cytotoxic activity on INS-1E cells, decrease in intracellular calcium release, no change in insulin secretion in absence of glucose, decrease in insulin secretion in presence of glucose. In [Lys(52)]-CTX-I(41-60); No change in cytotoxic activity on INS-1E cells, no change in intracellular calcium release, no change in insulin secretion in absence of glucose, decrease in insulin secretion in presence of glucose.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24552570"
+                }
+            ],
+            "alternativeSequence": {}
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 40,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 60,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "In CTX-I(1-39); gain in cytotoxic activity on INS-1E cells.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24552570"
+                }
+            ],
+            "alternativeSequence": {}
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 52,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 52,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "In [Lys(52)]-CTX-I(41-60); No change in cytotoxic activity on INS-1E cells, no change in intracellular calcium release, no change in insulin secretion in absence of glucose, decrease in insulin secretion in presence of glucose.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "24552570"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "V",
+                "alternativeSequences": [
+                    "K"
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0123",
+            "category": "Molecular function",
+            "name": "Cardiotoxin"
+        },
+        {
+            "id": "KW-0204",
+            "category": "Biological process",
+            "name": "Cytolysis"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-1015",
+            "category": "PTM",
+            "name": "Disulfide bond"
+        },
+        {
+            "id": "KW-0872",
+            "category": "Molecular function",
+            "name": "Ion channel impairing toxin"
+        },
+        {
+            "id": "KW-0472",
+            "category": "Cellular component",
+            "name": "Membrane"
+        },
+        {
+            "id": "KW-0632",
+            "category": "Molecular function",
+            "name": "Potassium channel impairing toxin"
+        },
+        {
+            "id": "KW-0964",
+            "category": "Cellular component",
+            "name": "Secreted"
+        },
+        {
+            "id": "KW-1052",
+            "category": "Cellular component",
+            "name": "Target cell membrane"
+        },
+        {
+            "id": "KW-1053",
+            "category": "Cellular component",
+            "name": "Target membrane"
+        },
+        {
+            "id": "KW-0800",
+            "category": "Molecular function",
+            "name": "Toxin"
+        },
+        {
+            "id": "KW-1220",
+            "category": "Molecular function",
+            "name": "Voltage-gated potassium channel impairing toxin"
+        }
+    ],
+    "references": [
+        {
+            "citation": {
+                "id": "1148180",
+                "citationType": "journal article",
+                "authors": [
+                    "Fryklund L.",
+                    "Eaker D."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "1148180"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/bi00684a011"
+                    }
+                ],
+                "title": "The complete amino acid sequence of a cardiotoxin from the venom of Naja naja (Cambodian Cobra).",
+                "publicationDate": "1975",
+                "journal": "Biochemistry",
+                "firstPage": "2860",
+                "lastPage": "2865",
+                "volume": "14"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE",
+                "SUBCELLULAR LOCATION",
+                "TOXIC DOSE"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "7210030",
+                "citationType": "journal article",
+                "authors": [
+                    "Joubert F.J.",
+                    "Taljaard N."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "7210030"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0041-0101(80)90053-7"
+                    }
+                ],
+                "title": "The complete primary structures of three cytotoxins (CM-6, CM-7 and CM-7A) from Naja naja kaouthia (Siamese cobra) snake venom.",
+                "publicationDate": "1980",
+                "journal": "Toxicon",
+                "firstPage": "455",
+                "lastPage": "467",
+                "volume": "18"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "3365434",
+                "citationType": "journal article",
+                "authors": [
+                    "Ohkura K.",
+                    "Inoue S.",
+                    "Ikeda K.",
+                    "Hayashi K."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "3365434"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0167-4838(88)90065-9"
+                    }
+                ],
+                "title": "Amino-acid sequences of four cytotoxins (cytotoxins I, II, III and IV) purified from the venom of the Thailand cobra, Naja naja siamensis.",
+                "publicationDate": "1988",
+                "journal": "Biochim. Biophys. Acta",
+                "firstPage": "148",
+                "lastPage": "153",
+                "volume": "954"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "18381281",
+                "citationType": "journal article",
+                "authors": [
+                    "Osipov A.V.",
+                    "Kasheverov I.E.",
+                    "Makarova Y.V.",
+                    "Starkov V.G.",
+                    "Vorontsova O.V.",
+                    "Ziganshin R.K.",
+                    "Andreeva T.V.",
+                    "Serebryakova M.V.",
+                    "Benoit A.",
+                    "Hogg R.C.",
+                    "Bertrand D.",
+                    "Tsetlin V.I.",
+                    "Utkin Y.N."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "18381281"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m802085200"
+                    }
+                ],
+                "title": "Naturally occurring disulfide-bound dimers of three-fingered toxins: a paradigm for biological activity diversification.",
+                "publicationDate": "2008",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "14571",
+                "lastPage": "14580",
+                "volume": "283"
+            },
+            "referencePositions": [
+                "PARTIAL PROTEIN SEQUENCE",
+                "IDENTIFICATION BY MASS SPECTROMETRY",
+                "FUNCTION",
+                "SUBUNIT"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "22807058",
+                "citationType": "journal article",
+                "authors": [
+                    "Nguyen T.T.",
+                    "Folch B.",
+                    "Letourneau M.",
+                    "Vaudry D.",
+                    "Truong N.H.",
+                    "Doucet N.",
+                    "Chatenet D.",
+                    "Fournier A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "22807058"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1002/cbic.201200081"
+                    }
+                ],
+                "title": "Cardiotoxin-I: an unexpectedly potent insulinotropic agent.",
+                "publicationDate": "2012",
+                "journal": "ChemBioChem",
+                "firstPage": "1805",
+                "lastPage": "1812",
+                "volume": "13"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "IDENTIFICATION BY MASS SPECTROMETRY"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Venom",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "citation": {
+                "id": "24552570",
+                "citationType": "journal article",
+                "authors": [
+                    "Nguyen T.T.",
+                    "Folch B.",
+                    "Letourneau M.",
+                    "Truong N.H.",
+                    "Doucet N.",
+                    "Fournier A.",
+                    "Chatenet D."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "24552570"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/jm401904q"
+                    }
+                ],
+                "title": "Design of a truncated cardiotoxin-I analogue with potent insulinotropic activity.",
+                "publicationDate": "2014",
+                "journal": "J. Med. Chem.",
+                "firstPage": "2623",
+                "lastPage": "2633",
+                "volume": "57"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "MUTAGENESIS OF 1-LEU--ASP-40; 40-ASP--ASN-60 AND VAL-52",
+                "SYNTHESIS"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "PIR",
+            "id": "A90389",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "H3NJ1K"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "P60305",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P60305",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "TCDB",
+            "id": "1.C.74.1.1",
+            "properties": [
+                {
+                    "key": "FamilyName",
+                    "value": "the snake cytotoxin (sct) family"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005576",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:extracellular region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016020",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0044218",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:other organism cell membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0015459",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:potassium channel regulator activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:toxin activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0019835",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:cytolysis"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00206",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "snake_toxin"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.10.60.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003572",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Cytotoxin_Cobra"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR003571",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_3FTx"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR045860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018354",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake_toxin_con_site"
+                }
+            ]
+        },
+        {
+            "database": "PRINTS",
+            "id": "PR00282",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CYTOTOXIN"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57302",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Snake toxin-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00272",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SNAKE_TOXIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "LKCNKLIPIASKTCPAGKNLCYKMFMMSDLTIPVKRGCIDVCPKNSLLVKYVCCNTDRCN",
+        "length": 60,
+        "molWeight": 6701,
+        "crc64": "2FFA15E7789A7028",
+        "md5": "6840BF7087FB4D442A64C0E3712A26CE"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 2,
+            "SUBUNIT": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "TISSUE SPECIFICITY": 1,
+            "TOXIC DOSE": 1,
+            "MISCELLANEOUS": 2,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Disulfide bond": 4,
+            "Mutagenesis": 3
+        },
+        "uniParcId": "UPI0000110C16"
+    }
+}

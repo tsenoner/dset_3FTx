@@ -1,0 +1,201 @@
+{
+    "GBSeq_locus": "AED89572",
+    "GBSeq_length": "86",
+    "GBSeq_moltype": "AA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "VRT",
+    "GBSeq_update-date": "07-MAY-2011",
+    "GBSeq_create-date": "07-MAY-2011",
+    "GBSeq_definition": "putative three finger toxin precursor [Micrurus altirostris]",
+    "GBSeq_primary-accession": "AED89572",
+    "GBSeq_accession-version": "AED89572.1",
+    "GBSeq_other-seqids": [
+        "gb|AED89572.1|",
+        "gi|331691459"
+    ],
+    "GBSeq_source": "Micrurus altirostris",
+    "GBSeq_organism": "Micrurus altirostris",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Micrurus",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..86",
+            "GBReference_authors": [
+                "Correa-Netto,C.",
+                "Junqueira-de-Azevedo,I.D.",
+                "Silva,D.A.",
+                "Ho,P.L.",
+                "Leitao-de-Araujo,M.",
+                "Alves,M.L.",
+                "Sanz,L.",
+                "Foguel,D.",
+                "Zingali,R.B.",
+                "Calvete,J.J."
+            ],
+            "GBReference_title": "Snake venomics and venom gland transcriptomic analysis of Brazilian coral snakes, Micrurus altirostris and M. corallinus",
+            "GBReference_journal": "J Proteomics (2011) In press",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/j.jprot.2011.04.003"
+                }
+            ],
+            "GBReference_pubmed": "21515432",
+            "GBReference_remark": "Publication Status: Available-Online prior to print"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..86",
+            "GBReference_authors": [
+                "Correa-Netto,C.",
+                "Ho,P.",
+                "Junqueira de Azevedo,I.L.M."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (31-MAR-2011) Centro de Biotecnologia, Instituto Butantan, Av Vital Brasil, 1500, Sao Paulo, SP 05503900, Brazil"
+        }
+    ],
+    "GBSeq_source-db": "accession JF754483.1",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..86",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "86",
+                    "GBInterval_accession": "AED89572.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Micrurus altirostris"
+                },
+                {
+                    "GBQualifier_name": "isolate",
+                    "GBQualifier_value": "MALT0069C"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:129457"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Protein",
+            "GBFeature_location": "1..86",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "86",
+                    "GBInterval_accession": "AED89572.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "product",
+                    "GBQualifier_value": "putative three finger toxin precursor"
+                },
+                {
+                    "GBQualifier_name": "name",
+                    "GBQualifier_value": "3FTx"
+                },
+                {
+                    "GBQualifier_name": "calculated_mol_wt",
+                    "GBQualifier_value": "9705"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Region",
+            "GBFeature_location": "23..85",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "23",
+                    "GBInterval_to": "85",
+                    "GBInterval_accession": "AED89572.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "region_name",
+                    "GBQualifier_value": "snake_toxin"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "Snake toxin domain, present in short and long neurotoxins, cytotoxins and short toxins, and in other miscellaneous venom peptides. The toxin acts by binding to the nicotinic acetylcholine receptors in the postsynaptic membrane of skeletal muscles and...; cd00206"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "Site",
+            "GBFeature_location": "order(27,34,49..50,55..60)",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_point": "27",
+                    "GBInterval_accession": "AED89572.1"
+                },
+                {
+                    "GBInterval_point": "34",
+                    "GBInterval_accession": "AED89572.1"
+                },
+                {
+                    "GBInterval_from": "49",
+                    "GBInterval_to": "50",
+                    "GBInterval_accession": "AED89572.1"
+                },
+                {
+                    "GBInterval_from": "55",
+                    "GBInterval_to": "60",
+                    "GBInterval_accession": "AED89572.1"
+                }
+            ],
+            "GBFeature_operator": "order",
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "site_type",
+                    "GBQualifier_value": "active"
+                },
+                {
+                    "GBQualifier_name": "note",
+                    "GBQualifier_value": "receptor binding site [active]"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "CDD:119411"
+                }
+            ]
+        },
+        {
+            "GBFeature_key": "CDS",
+            "GBFeature_location": "1..86",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "86",
+                    "GBInterval_accession": "AED89572.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "coded_by",
+                    "GBQualifier_value": "JF754483.1:9..269"
+                },
+                {
+                    "GBQualifier_name": "transl_table",
+                    "GBQualifier_value": "1"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "mktllltllvvtivcldlgytktcykyyssfwkitetcpdgqnlcykrwhmlapgrydilrgcaatcpiaqnhdsieccakdncnm"
+}

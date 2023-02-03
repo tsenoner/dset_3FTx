@@ -1,0 +1,137 @@
+{
+    "GBSeq_locus": "GHPC01002050",
+    "GBSeq_length": "369",
+    "GBSeq_strandedness": "single",
+    "GBSeq_moltype": "RNA",
+    "GBSeq_topology": "linear",
+    "GBSeq_division": "TSA",
+    "GBSeq_update-date": "29-JUL-2019",
+    "GBSeq_create-date": "29-JUL-2019",
+    "GBSeq_definition": "TSA: Dendroaspis viridis DenVirTGO006T2055_R_0.0538_L_369, transcribed RNA sequence",
+    "GBSeq_primary-accession": "GHPC01002050",
+    "GBSeq_accession-version": "GHPC01002050.1",
+    "GBSeq_other-seqids": [
+        "gb|GHPC01002050.1|",
+        "gnl|TSA:GHPC01|DenVirTGO006T2055_R_0.0538_L_369"
+    ],
+    "GBSeq_project": "PRJNA374679",
+    "GBSeq_keywords": [
+        "TSA",
+        "Transcriptome Shotgun Assembly"
+    ],
+    "GBSeq_source": "Dendroaspis viridis (western green mamba)",
+    "GBSeq_organism": "Dendroaspis viridis",
+    "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Dendroaspis",
+    "GBSeq_references": [
+        {
+            "GBReference_reference": "1",
+            "GBReference_position": "1..369",
+            "GBReference_authors": [
+                "Ainsworth,S.",
+                "Petras,D.",
+                "Engmark,M.",
+                "Sussmuth,R.D.",
+                "Whiteley,G.",
+                "Albulescu,L.O.",
+                "Kazandjian,T.D.",
+                "Wagstaff,S.C.",
+                "Rowley,P.",
+                "Wuster,W.",
+                "Dorrestein,P.C.",
+                "Arias,A.S.",
+                "Gutierrez,J.M.",
+                "Harrison,R.A.",
+                "Casewell,N.R.",
+                "Calvete,J.J."
+            ],
+            "GBReference_title": "The medical threat of mamba envenoming in sub-Saharan Africa revealed by genus-wide analysis of venom composition, toxicity and antivenomics profiling of available antivenoms",
+            "GBReference_journal": "J Proteomics 172, 173-189 (2018)",
+            "GBReference_xref": [
+                {
+                    "GBXref_dbname": "doi",
+                    "GBXref_id": "10.1016/j.jprot.2017.08.016"
+                }
+            ],
+            "GBReference_pubmed": "28843532"
+        },
+        {
+            "GBReference_reference": "2",
+            "GBReference_position": "1..369",
+            "GBReference_authors": [
+                "Ainsworth,S.",
+                "Petras,D.",
+                "Engmark,M.",
+                "Smussmuth,R.D.",
+                "Whiteley,G.",
+                "Albulescu,L.-O.",
+                "Kazandjian,T.D.",
+                "Wagstaff,S.C.",
+                "Rowley,P.",
+                "Wuster,W.",
+                "Dorrestein,P.C.",
+                "Arias,A.S.",
+                "Gutierrez,J.M.",
+                "Harrison,R.A.",
+                "Caswell,N.R.",
+                "Calvete,J."
+            ],
+            "GBReference_title": "Direct Submission",
+            "GBReference_journal": "Submitted (12-JUL-2019) Parasitology, Liverpool school of tropical medicine, LSTM, Pembroke Place, Liverpool, England L35QA, United Kingdom"
+        }
+    ],
+    "GBSeq_comment": "Please see: John Archer, Gareth Whiteley, Nicholas R Casewell, Robert A Harrison and Simon C Wagstaff. VTBuilder: a tool for the assembly of multi isoform transcriptomes. BMC Bioinformatics, 2014, 15:389. https://doi.org/10.1186/s12859-014-0389-8.; ##Assembly-Data-START## ; Assembly Method :: Velvet VTBuilder ; Assembly Name :: Dendroaspis virids (western-green mamba) venom-gland transcriptome ; Sequencing Technology :: Illumina MiSeq ; ##Assembly-Data-END##",
+    "GBSeq_feature-table": [
+        {
+            "GBFeature_key": "source",
+            "GBFeature_location": "1..369",
+            "GBFeature_intervals": [
+                {
+                    "GBInterval_from": "1",
+                    "GBInterval_to": "369",
+                    "GBInterval_accession": "GHPC01002050.1"
+                }
+            ],
+            "GBFeature_quals": [
+                {
+                    "GBQualifier_name": "organism",
+                    "GBQualifier_value": "Dendroaspis viridis"
+                },
+                {
+                    "GBQualifier_name": "mol_type",
+                    "GBQualifier_value": "transcribed RNA"
+                },
+                {
+                    "GBQualifier_name": "submitter_seqid",
+                    "GBQualifier_value": "DenVirTGO006T2055_R_0.0538_L_369"
+                },
+                {
+                    "GBQualifier_name": "db_xref",
+                    "GBQualifier_value": "taxon:8621"
+                },
+                {
+                    "GBQualifier_name": "tissue_type",
+                    "GBQualifier_value": "venom gland"
+                },
+                {
+                    "GBQualifier_name": "dev_stage",
+                    "GBQualifier_value": "adult"
+                }
+            ]
+        }
+    ],
+    "GBSeq_sequence": "aaaaaaaaaagcaaaagggggattgtggaagataaaggccacaagcataaatctgcaaggatgatccttgatggaggacagcaaaacacaaaaggatattttaagtattgcaaaggtcagttgtgcaacatttcctgtagaaccaccggttgtcttcttcaatgcaggttttggcacatccacgccacttgagttttgatattctattaagccgcttagaacagaactttccttctgtggaacatgtaattttgaggcgacaaccagatgcaccacatttgtaacattccagactctttactggattcttgaacaggaatgcgaccaacagcaacgcaaatagcaaagttttcatcttgcaatctcctt",
+    "GBSeq_xrefs": [
+        {
+            "GBXref_dbname": "BioProject",
+            "GBXref_id": "PRJNA374679"
+        },
+        {
+            "GBXref_dbname": "BioSample",
+            "GBXref_id": "SAMN06330254"
+        },
+        {
+            "GBXref_dbname": "Sequence Read Archive",
+            "GBXref_id": "SRR5485230"
+        }
+    ]
+}

@@ -1,11 +1,12 @@
 import json
 import re
 import sys
+import urllib
 from pathlib import Path
 from typing import Union
-import pandas as pd
 
 import idmapping
+import pandas as pd
 from Bio import Entrez
 
 # documentation: https://www.nlm.nih.gov/dataguide/eutilities/utilities.html
@@ -62,7 +63,7 @@ class NcbiDataGatherer:
         self.ncbi_dir = ncbi_dir
         self.gb_dir = self.ncbi_dir / "gb_entries"
         self.mapper_path = self.ncbi_dir / "mapper.csv"
-        self.mapper = pd.read_csv(self.mapper_path)
+        self.mapper: pd.DataFrame = pd.read_csv(self.mapper_path)
 
         # let NCBI know who you are
         Entrez.email = "tobias.senoner@tum.de"
@@ -75,10 +76,13 @@ class NcbiDataGatherer:
     def _get_json_path(self, gb_id: str) -> Path:
         return self.gb_dir / f"{gb_id}.json"
 
-    def _map_uid(self, query_id: str, to_id_type: str ="gb") -> str:
+    # def _get_map_value(self, gb_id: str, col: str):
+    #     self.mapper.loc[self.mapper[], col].values[0]
+
+    def _map_uid(self, query_id: str, to_id_type: str = "gb") -> str:
         to_id = None
         for col in self.mapper.columns:
-            condition = (self.mapper[col] == query_id)
+            condition = self.mapper[col] == query_id
             if condition.sum():
                 to_id = self.mapper.loc[condition, to_id_type].values[0]
                 break
@@ -87,8 +91,8 @@ class NcbiDataGatherer:
     def _search_json_file_locally(self, acc_id: str):
         json_file = None
         # if acc_id is in self.mapper
-        if acc_id in self.mapper["gb"]:
-            json_file = self._get_json_path(gb_id=gb_id)
+        if acc_id in self.mapper["gb"].to_list():
+            json_file = self._get_json_path(gb_id=acc_id)
         # otherwise search number in mapping file
         else:
             gb_id = self._map_uid(query_id=acc_id, to_id_type="gb")
@@ -98,39 +102,58 @@ class NcbiDataGatherer:
 
     def _save_entry(self, rec: dict) -> None:
         # save file
-        acc_id = self.parse_acc_id(rec=rec)
-        json_file = self._get_json_path(acc_id=acc_id)
+        gb_id = self.parse_gb_id(rec=rec)
+        json_file = self._get_json_path(gb_id=gb_id)
         with open(json_file, "w") as json_handle:
             json.dump(rec, json_handle, indent=4)
 
         # update mapper
         crossrefs = self.parse_crossref_ids(rec=rec)
+        gb_id = self.parse_gb_id(rec=rec)
+        crossrefs.update({"gb": gb_id})
         self.mapper = pd.concat([self.mapper, pd.DataFrame([crossrefs])])
         self._save_mapper()
 
-    def _fetch_entry(self, acc_id: str, dbs: list[str], **kwargs) -> list[dict]:
-        # find out in which DB the entry can be found
-        db2use = None
-        with Entrez.egquery(term=acc_id) as handle:
-            response = Entrez.read(handle=handle)
-            for db_result in response["eGQueryResult"]:
-                db_name, res_count = db_result["DbName"], db_result["Count"]
-                if (res_count == "Error") or (res_count == "0"):
-                    continue
-                elif res_count == "1" and (db_name in dbs):
-                    db2use = db_name
-                # else:
-                #     raise Exception(f"{db_name} found {res_count} entries.")
-        if db2use is not None:
-            # make query to dedicated DB
-            with Entrez.efetch(db=db2use, id=acc_id, **kwargs) as handle:
-                for record in Entrez.parse(handle=handle):
-                    record = dict(record)
-        else:
-            print(
-                f"No NCBI entries found for '{acc_id}' in dbs: {', '.join(dbs)}"
-            )
-            record = None
+    def _fetch_entry(self, acc_id: str, **kwargs) -> list[dict]:
+        try:
+            handle = Entrez.efetch(db="nuccore", id=acc_id, **kwargs)
+        except urllib.error.HTTPError:
+            try:
+                handle = Entrez.efetch(db="protein", id=acc_id, **kwargs)
+            except urllib.error.HTTPError:
+                print(acc_id)
+                print(
+                    f"No NCBI entries found for '{acc_id}' in dbs: nuccore,"
+                    " protein"
+                )
+                handle, record = None, None
+        if handle is not None:
+            for record in Entrez.parse(handle=handle):
+                record = dict(record)
+            handle.close()
+
+        # # find out in which DB the entry can be found
+        # db2use = None
+        # with Entrez.egquery(term=acc_id) as handle:
+        #     response = Entrez.read(handle=handle)
+        #     for db_result in response["eGQueryResult"]:
+        #         db_name, res_count = db_result["DbName"], db_result["Count"]
+        #         if (res_count == "Error") or (res_count == "0"):
+        #             continue
+        #         elif res_count == "1" and (db_name in dbs):
+        #             db2use = db_name
+        #         # else:
+        #         #     raise Exception(f"{db_name} found {res_count} entries.")
+        # if db2use is not None:
+        #     # make query to dedicated DB
+        #     with Entrez.efetch(db=db2use, id=acc_id, **kwargs) as handle:
+        #         for record in Entrez.parse(handle=handle):
+        #             record = dict(record)
+        # else:
+        #     print(
+        #         f"No NCBI entries found for '{acc_id}' in dbs: {', '.join(dbs)}"
+        #     )
+        #     record = None
         return record
 
     @staticmethod
@@ -141,6 +164,7 @@ class NcbiDataGatherer:
 
     def get_record(self, gb_id: str) -> Union[dict, None]:
         json_file = self._search_json_file_locally(acc_id=gb_id)
+        # print(gb_id, json_file)
         if json_file is None:
             data = self._fetch_entry(
                 acc_id=gb_id,
@@ -155,9 +179,12 @@ class NcbiDataGatherer:
         return data
 
     def get_crossref(self, gb_id: str) -> dict[str, str]:
-        if gb_id in self.mapper["gb"]:
-            crossref = self.mapper[self.mapper["gb"] == "gb"].to_dict("records")[0]
+        if gb_id in self.mapper["gb"].to_list():
+            crossref = self.mapper[self.mapper["gb"] == gb_id].to_dict(
+                "records"
+            )[0]
         else:
+            print(gb_id)
             rec = self.get_record(gb_id=gb_id)
             crossref = self.parse_crossref_ids(rec=rec)
         return crossref
@@ -174,9 +201,9 @@ class NcbiDataGatherer:
         return seq_ids
 
     @staticmethod
-    def parse_acc_id(rec: dict) -> str:
-        acc_id = rec["GBSeq_primary-accession"]
-        return acc_id
+    def parse_gb_id(rec: dict) -> str:
+        gb_id = rec["GBSeq_primary-accession"]
+        return gb_id
 
     @staticmethod
     def _loop_quals(rec: dict):
@@ -187,21 +214,17 @@ class NcbiDataGatherer:
                 yield qual
 
     def parse_taxon(self, rec: dict) -> tuple[str, str]:
-        species, taxon_id = None, None
-        for qual in self._loop_quals(rec=rec):
-            if qual["GBQualifier_name"] == "organism":
-                species = qual["GBQualifier_value"]
-            if qual["GBQualifier_name"] == "db_xref":
-                taxon_id = qual["GBQualifier_value"].split(":")[1]
-        return species, taxon_id
+        species = rec["GBSeq_organism"]
+        if species == "Sistrurus catenatus edwardsi":
+            species = "Sistrurus catenatus edwardsii"
+        return species
 
     def parse_seq(self, rec: dict) -> str:
-        # TODO: quality check when sequence can be trusted
-        entry_type = rec["GBSeq_moltype"]
-        # if entry_type not in ["mRNA", "AA"]:
-        #     print(entry_type, rec["GBSeq_length"], rec["GBSeq_primary-accession"])
+        """Get seqs having a translation + are mRNA, AA, or RNA with a prot_id
+        """
         full_seq = None
         prot_id = None
+        # get translation
         for feature in rec["GBSeq_feature-table"]:
             if feature["GBFeature_key"] == "CDS":
                 for qual in feature["GBFeature_quals"]:
@@ -209,34 +232,46 @@ class NcbiDataGatherer:
                         full_seq = qual["GBQualifier_value"]
                     elif qual["GBQualifier_name"] == "protein_id":
                         prot_id = qual["GBQualifier_value"]
-            if not "GBFeature_quals" in feature:
-                continue
 
+        # get protein entry
+        entry_type = rec["GBSeq_moltype"]
         if (rec["GBSeq_moltype"] == "AA") and ("GBSeq_sequence" in rec):
             full_seq = rec["GBSeq_sequence"].upper()
 
-        if (full_seq is not None) and (entry_type not in ["mRNA", "AA"]) and (prot_id is None):
-            print(
-                entry_type, rec["GBSeq_length"], rec["GBSeq_primary-accession"], prot_id
-            )
-        elif (full_seq is None) and (entry_type in ["mRNA", "AA"]):
-            pass
+        # remove entries that have a translstion but no proten_id
+        if (
+            (full_seq is not None)
+            and (entry_type not in ["mRNA", "AA"])
+            and (prot_id is None)
+        ):
+            full_seq = None
         return full_seq
 
-    def _update_mapper(self, gb_id: str, new_id: dict[str, str]) -> None:
-        self.mapper[gb_id].update(new_id)
+    def _update_mapper(self, gb_id: str, col: str, value: str) -> None:
+        self.mapper.loc[self.mapper["gb"] == gb_id, col] = value
         self._save_mapper()
 
-    def map_uniprot_acc_ids(self, ncbi_ids: list[str], from_dbs: list[str] = ["EMBL-GenBank-DDBJ", "EMBL-GenBank-DDBJ_CDS"]) -> None:
+    def map_uniprot_acc_ids(
+        self,
+        ncbi_ids: list[str],
+        from_dbs: list[str] = [
+            # "EMBL-GenBank-DDBJ",
+            # "EMBL-GenBank-DDBJ_CDS",
+            "RefSeq_Nucleotide",
+            "RefSeq_Protein",
+        ],
+    ) -> None:
         # check which entries don't have a UniProt mapping (sp, tr, no_uniprot)
         gb_ids = list()
         for ncbi_id in ncbi_ids:
             ncbi_rec = self.get_record(ncbi_id)
-            gb_id = self.parse_acc_id(rec=ncbi_rec)
-            crossref = self.get_crossref(gb_id=gb_id)
-            if not (set(["sp", "tr", "no_uniprot"]) & set(crossref.keys())):
+            gb_id = self.parse_gb_id(rec=ncbi_rec)
+            sp, tr, no_uniprot = self.mapper.loc[
+                self.mapper["gb"] == gb_id, ["sp", "tr", "no_uniprot"]
+            ].iloc[0]
+            if pd.isna(sp) and pd.isna(tr) and (no_uniprot != "yes"):
                 gb_ids.append(gb_id)
-
+        print(" ".join(gb_ids))
         # Map IDs from GeneBank to UniProt using `idmapping`
         if gb_ids:
             for from_db in from_dbs:
@@ -257,25 +292,35 @@ class NcbiDataGatherer:
                         raise Exception(f"Not SP or TR, but {entry_type}")
                     acc_id = result["to"]["primaryAccession"]
                     gb_id = result["from"]
-                    if "no_uniprot" in self.mapper[gb_id]:
-                        self.mapper[gb_id].pop("no_uniprot")
-                    self._update_mapper(gb_id=gb_id, new_id={db.lower(): acc_id})
+                    if pd.notna(self._map_uid(gb_id, "no_uniprot")):
+                        self._update_mapper(
+                            gb_id=gb_id, col="no_uniprot", value=None
+                        )
+                    self._update_mapper(
+                        gb_id=gb_id, col=db.lower(), value=acc_id
+                    )
                 gb_ids = results["failedIds"] if "failedIds" in results else []
             for failed_entry in gb_ids:
                 # if no UniProt entry was found
-                self._update_mapper(gb_id=failed_entry, new_id={"no_uniprot": None})
+                self._update_mapper(
+                    gb_id=failed_entry, col="no_uniprot", value="yes"
+                )
 
-    def get_uniprot_acc_id(self, acc_id: str) -> tuple[str, str]:
+    def get_uniprot_acc_id(self, acc_id: str) -> Union[str, None]:
         gb_id = self._map_uid(query_id=acc_id, to_id_type="gb")
+        if not gb_id:
+            print(acc_id)
+        # if gb_id is None:
+        #     self.get_record(gb_id=acc_id)
         crossref = self.get_crossref(gb_id=gb_id)
-        if "sp" in crossref:
+        if pd.notna(crossref["sp"]):
             acc_id, db = crossref["sp"], "SP"
-        elif "tr" in crossref:
+        elif pd.notna(crossref["tr"]):
             acc_id, db = crossref["tr"], "TR"
-        elif "no_uniprot" in crossref:
+        elif pd.notna(crossref["no_uniprot"]):
             acc_id, db = None, None
         else:
             print(crossref)
             raise Exception(f"Map {gb_id} first to UniProt.")
 
-        return acc_id, db
+        return acc_id
