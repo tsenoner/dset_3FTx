@@ -540,23 +540,26 @@ def add_taxon_id(df: pd.DataFrame, taxon_mapper_file: Path) -> pd.DataFrame:
         .reset_index(names="species")
     )
     df_taxon_mapper = pd.concat([df_taxon_mapper, new_df], ignore_index=True)
-    df_taxon_mapper.to_csv(taxon_mapper_file, index=False)
 
-    # get taxon family
-    for idx, row in df_taxon_mapper.iterrows():
-        if pd.isna(row["family"]):
-            family = uniprot_helper.get_taxa_rank(
-                taxa_id=row["taxon_id"], rank="family"
-            )
-            df_taxon_mapper.loc[idx, "family"] = family
+    # get additional taxonomies
+    ranks = ["family", "subfamily", "genus"]
+    for rank in ranks:
+        for idx, row in df_taxon_mapper.iterrows():
+            if pd.isna(row[rank]):
+                taxa = uniprot_helper.get_taxa_rank(
+                    taxa_id=row["taxon_id"], rank=rank
+                )
+                df_taxon_mapper.loc[idx, rank] = taxa
+
+    # save updated taxon mapper file
+    df_taxon_mapper.to_csv(taxon_mapper_file, index=False)
 
     # add taxon ids to DataFrame
     df["taxon_id"] = df["species"].map(
         df_taxon_mapper.set_index("species")["taxon_id"]
     )
-    df["family"] = df["species"].map(
-        df_taxon_mapper.set_index("species")["family"]
-    )
+    for rank in ranks:
+        df[rank] = df["species"].map(df_taxon_mapper.set_index("species")[rank])
     return df
 
 
@@ -567,13 +570,25 @@ def run_blast(
 ) -> pd.DataFrame:
     # for entries having the full sequence use the full sequence to BLAST
     full_seq2blast = (
-        df.loc[df["full_seq"].notna(), ["fasta_id", "full_seq", "taxon_id"]]
-        .rename(columns={"full_seq": "mature_seq"})
+        df.loc[
+            df["full_seq"].notna() & df["uniprot_id"].isna(),
+            ["fasta_id", "full_seq", "taxon_id"],
+        ]
+        .rename(columns={"full_seq": "seq"})
         .to_dict("records")
     )
-    entries2blast = df.loc[
-        df["full_seq"].isna(), ["fasta_id", "mature_seq", "taxon_id"]
-    ].to_dict("records")
+    entries2blast = (
+        df.loc[
+            (
+                df["full_seq"].isna()
+                & df["mature_seq"].notna()
+                & df["uniprot_id"].isna()
+            ),
+            ["fasta_id", "mature_seq", "taxon_id"],
+        ]
+        .rename(columns={"mature_seq": "seq"})
+        .to_dict("records")
+    )
     entries2blast.extend(full_seq2blast)
 
     # run BLASTp
@@ -583,15 +598,17 @@ def run_blast(
     ncbi_blaster.run_batch()
 
     # extract ACC IDs
-    for idx, row in df.iterrows():
-        # if not pd.isna(row["acc_id"]):
-        #     continue
-
+    for idx, row in df[
+        (
+            df["uniprot_id"].isna()
+            & (df["full_seq"].notna() | df["mature_seq"].notna())
+        )
+    ].iterrows():
         # get accession IDs
         acc_id = ncbi_blaster.get_acc_id(
             fasta_id=row["fasta_id"], uniprot_collector=uniprot_collector
         )
-        df.loc[idx, "acc_id"] = acc_id
+        df.loc[idx, "uniprot_id"] = acc_id
 
     return df
 
@@ -638,10 +655,12 @@ def save_data(df: pd.DataFrame, csv_file: Path, fasta_file: Path) -> None:
         open(full_path, "w") as handle_full,
     ):
         for _, row in df.iterrows():
-            handle_mature.write(f">{row['fasta_id']}\n")
-            handle_mature.write(f"{row['mature_seq']}\n")
-            handle_full.write(f">{row['fasta_id']}\n")
-            handle_full.write(f"{row['full_seq']}\n")
+            if pd.notna(row["mature_seq"]):
+                handle_mature.write(f">{row['fasta_id']}\n")
+                handle_mature.write(f"{row['mature_seq']}\n")
+            if pd.notna(row["full_seq"]):
+                handle_full.write(f">{row['fasta_id']}\n")
+                handle_full.write(f"{row['full_seq']}\n")
 
     df = df[
         [

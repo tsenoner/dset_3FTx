@@ -105,10 +105,13 @@ def get_taxa_id(taxa: str) -> Union[None, str]:
 
 
 def get_taxa_rank(taxa_id: Union[str, int], rank: str = "family") -> str:
-    response = requests.get(url=f"{TAXA_API}/lineage/{taxa_id}")
+    url = f"{TAXA_API}/lineage/{taxa_id}"
+    response = requests.get(url=url)
+    rank_name = "NA"
     for taxonomy in response.json()["taxonomies"]:
         if taxonomy["rank"] == rank:
             rank_name = taxonomy["scientificName"]
+            break
     return rank_name
 
 
@@ -169,7 +172,7 @@ class UniProtDataGatherer:
         new_idx = []
         skip_flag = False
         for idx, jdx in zip(seq_idx, seq_idx[1:]):
-            if idx + 1 == jdx:
+            if (idx + 1 == jdx) or (idx == jdx):
                 skip_flag = True
             elif skip_flag:
                 skip_flag = False
@@ -180,9 +183,11 @@ class UniProtDataGatherer:
     def parse_name(self, rec: dict) -> Union[str, None]:
         # get recomended name from entry
         name = None
-        for name_type, values in rec["proteinDescription"].items():
-            if name_type == "recommendedName":
-                name = values["fullName"]["value"]
+        prot_descr = rec["proteinDescription"]
+        if "recommendedName" in prot_descr:
+            name = prot_descr["recommendedName"]["fullName"]["value"]
+        # elif "submissionNames" in prot_descr:
+        #     name = prot_descr["submissionNames"][0]["fullName"]["value"]
         return name
 
     def parse_seq(self, rec: dict) -> tuple[Union[str, None], Union[str, None]]:
