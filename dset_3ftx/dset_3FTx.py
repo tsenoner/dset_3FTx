@@ -668,6 +668,8 @@ def save_data(df: pd.DataFrame, csv_file: Path, fasta_file: Path) -> None:
             "db",
             "data_origin",
             "family",
+            "subfamily",
+            "genus",
             "species",
             "ritu_class",
             "evolutionary_order",

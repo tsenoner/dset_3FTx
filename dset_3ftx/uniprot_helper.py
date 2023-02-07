@@ -107,7 +107,7 @@ def get_taxa_id(taxa: str) -> Union[None, str]:
 def get_taxa_rank(taxa_id: Union[str, int], rank: str = "family") -> str:
     url = f"{TAXA_API}/lineage/{taxa_id}"
     response = requests.get(url=url)
-    rank_name = "NA"
+    rank_name = "None"
     for taxonomy in response.json()["taxonomies"]:
         if taxonomy["rank"] == rank:
             rank_name = taxonomy["scientificName"]
