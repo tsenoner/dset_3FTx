@@ -544,8 +544,7 @@ TR|A0A898IPM2|Calliophis bivirgatus,,Elapidae,Calliophis,Calliophis bivirgatus,4
 SP|P01412|Ophiophagus hannah,Weak toxin,Elapidae,Ophiophagus,Ophiophagus hannah,4.0,Short-chain,3FTx,,,,,,,,
 SP|Q2VBN3|Ophiophagus hannah,Weak neurotoxin,Elapidae,Ophiophagus,Ophiophagus hannah,4.0,Short-chain,3FTx,,,,,,,,
 SP|Q2VBN2|Ophiophagus hannah,Weak neurotoxin,Elapidae,Ophiophagus,Ophiophagus hannah,3.0,Basal,3FTx,,,,,,,,
-SP|P43445|Bungarus multicinctus,Short neurotoxin,Elapidae,Bungarus,Bungarus multicinctus,4.0,Short-chain,3FTx,,,,,,,,
-None|Bmul_scaffold7_G00738_t1|Bungarus multicinctus,,Elapidae,Bungarus,Bungarus multicinctus,,,3FTX,Orphan VII,maybe cytotoxin,short chain,,,,,
+SP|P43445|Bungarus multicinctus,Short neurotoxin,Elapidae,Bungarus,Bungarus multicinctus,4.0,Short-chain,3FTx,Orphan VII,maybe cytotoxin,short chain,,,,,
 SP|Q7T3J2|Bungarus candidus,Alpha-bungarotoxin,Elapidae,Bungarus,Bungarus candidus,,,,,,,class2a,,,,
 SP|P60615|Bungarus multicinctus,Alpha-bungarotoxin,Elapidae,Bungarus,Bungarus multicinctus,5.0,Long-chain,3FTx,IIalpha,neurotoxin,long chain,class2a,Competitive antagonist,Nicotinic ACh receptor (nAChR),12.0,False
 SP|P60616|Bungarus multicinctus,Alpha-bungarotoxin,Elapidae,Bungarus,Bungarus multicinctus,5.0,Long-chain,3FTx,IIalpha,neurotoxin,long chain,class2a,,,,
@@ -1134,7 +1133,6 @@ SP|P86541|Naja naja,Cytotoxin,Elapidae,Naja,Naja naja,4.0,Short-chain,3FTx,,,,,,
 SP|P07525|Naja atra,Cytotoxin,Elapidae,Naja,Naja atra,4.0,Short-chain,3FTx,,,,,,,,
 SP|P0CH80|Naja kaouthia,Cytotoxin,Elapidae,Naja,Naja kaouthia,4.0,Short-chain,3FTx,,,,,,,,
 SP|A0A0U5AUY6|Naja naja,Cytotoxin,Elapidae,Naja,Naja naja,,,,,,,,,,,
-NCBI|CM019150|Naja naja,,Elapidae,Naja,Naja naja,,,,,,,,,,,
 SP|P01440|Naja naja,Cytotoxin,Elapidae,Naja,Naja naja,4.0,Short-chain,3FTx,,,,,,,,
 SP|P01468|Naja pallida,Cytotoxin,Elapidae,Naja,Naja pallida,4.0,Short-chain,3FTx,,,,,,,,
 SP|P01467|Naja mossambica,Cytotoxin,Elapidae,Naja,Naja mossambica,4.0,Short-chain,3FTx,,,,,Cell lysis,Cell membrane,5.0,False
