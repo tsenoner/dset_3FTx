@@ -1,0 +1,89 @@
+{
+    "program": "blastp",
+    "version": "BLASTP 2.12.0+",
+    "command": "$APPBIN/ncbi-blast-2.9.0+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-R20230209-143813-0840-12820498-p2m.sequence  -num_threads 32 -outfmt 11 -out ncbiblast-R20230209-143813-0840-12820498-p2m.archive -matrix BLOSUM62 -max_target_seqs 5 -seg no -ungapped -taxidlist ncbiblast-R20230209-143813-0840-12820498-p2m.taxidlist -comp_based_stats F",
+    "query_def": "EMBOSS_001",
+    "query_stype": "protein",
+    "query_len": 59,
+    "db_count": 1,
+    "db_num": 230190369,
+    "db_len": 81010115241,
+    "dbs": [
+        {
+            "name": "uniprotkb",
+            "stype": "protein",
+            "created": "2022-12-14T02:19:00+00:00"
+        }
+    ],
+    "alignments": 5,
+    "scores": 5,
+    "expect_upper": 10.0,
+    "filter": "F",
+    "gap_extend": 1.0,
+    "gap_open": 11.0,
+    "matrix": "BLOSUM62",
+    "start": "2023-02-09T14:38:13+00:00",
+    "end": "2023-02-09T14:41:25+00:00",
+    "search": "P0Y0M0DT0H0M192.000S",
+    "hits": [
+        {
+            "hit_num": 1,
+            "hit_def": "TR:A0A2R4N5J7 A0A2R4N5J7_9SAUR V(D)J recombination-activating protein 1 (Fragment) OS=Atractaspis aterrima OX=1355159 PE=4 SV=1",
+            "hit_db": "TR",
+            "hit_id": "A0A2R4N5J7_9SAUR",
+            "hit_acc": "A0A2R4N5J7",
+            "hit_desc": "V(D)J recombination-activating protein 1 (Fragment) OS=Atractaspis aterrima OX=1355159 PE=4 SV=1",
+            "hit_url": "https://www.uniprot.org/uniprot/A0A2R4N5J7",
+            "hit_xref_url": "https://www.ebi.ac.uk/ebisearch/search.ebi?db=uniprot&query=A0A2R4N5J7",
+            "hit_os": "Atractaspis aterrima",
+            "hit_uni_de": "V(D)J recombination-activating protein 1 (Fragment)",
+            "hit_uni_os": "Atractaspis aterrima",
+            "hit_uni_ox": "1355159",
+            "hit_uni_pe": "4",
+            "hit_uni_sv": "1",
+            "hit_len": 336,
+            "hit_hsps": [
+                {
+                    "hsp_num": 1,
+                    "hsp_score": 21,
+                    "hsp_bit_score": 12.7298,
+                    "hsp_expect": 2.1,
+                    "hsp_align_len": 9,
+                    "hsp_identity": 33.3,
+                    "hsp_positive": 55.6,
+                    "hsp_gaps": 0,
+                    "hsp_query_frame": "0",
+                    "hsp_hit_frame": "0",
+                    "hsp_strand": "none/none",
+                    "hsp_query_from": 17,
+                    "hsp_query_to": 25,
+                    "hsp_hit_from": 282,
+                    "hsp_hit_to": 290,
+                    "hsp_qseq": "CPDGQNLCY",
+                    "hsp_mseq": "CP  +  C+",
+                    "hsp_hseq": "CPSCRYPCF"
+                },
+                {
+                    "hsp_num": 2,
+                    "hsp_score": 17,
+                    "hsp_bit_score": 10.8453,
+                    "hsp_expect": 7.7,
+                    "hsp_align_len": 9,
+                    "hsp_identity": 44.4,
+                    "hsp_positive": 44.4,
+                    "hsp_gaps": 0,
+                    "hsp_query_frame": "0",
+                    "hsp_hit_frame": "0",
+                    "hsp_strand": "none/none",
+                    "hsp_query_from": 48,
+                    "hsp_query_to": 56,
+                    "hsp_hit_from": 39,
+                    "hsp_hit_to": 47,
+                    "hsp_qseq": "KNVFCCSKD",
+                    "hsp_mseq": "KN     KD",
+                    "hsp_hseq": "KNSLAREKD"
+                }
+            ]
+        }
+    ]
+}
