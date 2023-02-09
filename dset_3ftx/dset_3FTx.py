@@ -39,101 +39,6 @@ UNIPROT_COLLECTOR = uniprot_helper.UniProtDataGatherer(uniprot_dir=UNIPROT_DIR)
 NCBI_COLLECTOR = ncbi_helper.NcbiDataGatherer(ncbi_dir=NCBI_DIR)
 
 
-def setup_arguments() -> argparse.Namespace:
-    """Defines and parses required and optional arguments for the script"""
-    parser = argparse.ArgumentParser(
-        description="Merge & reshape PPIHP files output to a single CSV file"
-    )
-
-    parser.add_argument(
-        "-ci",
-        "--csv_file_in",
-        required=True,
-        type=str,
-        help="Path to CSV file",
-    )
-    parser.add_argument(
-        "-fi",
-        "--fasta_file_in",
-        required=True,
-        type=str,
-        help="Path to FASTA file",
-    )
-    parser.add_argument(
-        "-co",
-        "--csv_file_out",
-        required=True,
-        type=str,
-        help="Path to CSV output file",
-    )
-    parser.add_argument(
-        "-fo",
-        "--fasta_file_out",
-        required=True,
-        type=str,
-        help="Path to FASTA output file",
-    )
-    parser.add_argument(
-        "-fg",
-        "--genomic_fasta",
-        required=True,
-        type=str,
-        help="FASTA file containing full sequences supported by genomic data",
-    )
-    parser.add_argument(
-        "-fz",
-        "--zhang_fasta",
-        required=True,
-        type=str,
-        help="FASTA file with Bungarus multicinctus seqs from Zhang paper",
-    )
-    parser.add_argument(
-        "-cr",
-        "--ritu_csv",
-        required=True,
-        type=str,
-        help="CSV file with mature sequences from Ritu paper",
-    )
-    parser.add_argument(
-        "-t",
-        "--taxon_mapper",
-        required=True,
-        type=str,
-        help="Path to JSON file which maps species to taxon ids",
-    )
-    parser.add_argument(
-        "-b",
-        "--blast_dir",
-        required=True,
-        type=str,
-        help="Path to directory where BLASTed JSON files are saved",
-    )
-
-    args = parser.parse_args()
-    csv_in = Path(args.csv_file_in)
-    fasta_in = Path(args.fasta_file_in)
-    csv_out = Path(args.csv_file_out)
-    fasta_out = Path(args.fasta_file_out)
-    # additional fasta data
-    genomic_fasta = Path(args.genomic_fasta)
-    zhang_fasta = Path(args.zhang_fasta)
-    ritu_csv = Path(args.ritu_csv)
-    # paths to save tmp data
-    taxon_mapper_file = Path(args.taxon_mapper)
-    blast_dir = Path(args.out_dir)
-    return (
-        csv_in,
-        fasta_in,
-        csv_out,
-        fasta_out,
-        genomic_fasta,
-        zhang_fasta,
-        ritu_csv,
-        taxon_mapper_file,
-        blast_dir,
-    )
-
-
 class OriginalDset:
     def __init__(
         self, csv_path: Path, fasta_path: Path, genomic_fasta_path: Path
@@ -259,11 +164,60 @@ class OriginalDset:
 
 
 class ZhangDset:
-    def __init__(self, fasta_path: Path) -> None:
+    def __init__(
+        self,
+        fasta_path: Path,
+        mature_fasta_path: Path,
+        annotation_excel_path: Path,
+    ) -> None:
         self.fasta_path = fasta_path
+        self.mature_path = mature_fasta_path
+        self.annotation_excel_path = annotation_excel_path
+        self.zhang_map = {
+            "Bmul": "Bungarus multicinctus",
+            "Cvir": "Crotalus viridis",
+            "Dacu": "Deinagkistrodon acutus",
+            "Hcur": "Hydrophis curtus",
+            "Nnaj": "Naja naja",
+            "Pgut": "Pantherophis guttatus",
+            "Pbiv": "Python bivittatus",
+            "Tele": "Thamnophis elegans",
+        }
 
         df = self._create_dset()
         self.df = self._extract_acc_ids(df=df)
+
+    def _parse_annotations(self) -> pd.DataFrame:
+        df_annot = pd.read_excel(self.annotation_excel_path, header=1)
+        df_annot = df_annot.rename(
+            columns={
+                "Transcript ID": "fasta_id",
+                "Toxin family": "major_group",
+                "Subfamily": "zhang_subfamily",
+                "Toxin type": "zhang_toxinType",
+                "Conformation": "zhang_conformation",
+            }
+        )
+        df_annot = df_annot[df_annot["major_group"] == "3FTX"]
+        df_annot["fasta_id"] = (
+            df_annot["fasta_id"]
+            .str.replace(pat=r"B.multicinctus_HiC", repl="Bmul", regex=True)
+            .str.replace(".", "_", regex=True)
+        )
+        cols2keep = [
+            "fasta_id",
+            "major_group",
+            "zhang_subfamily",
+            "zhang_toxinType",
+            "zhang_conformation",
+        ]
+        df_annot = df_annot[cols2keep]
+        df_annot.loc[
+            df_annot["zhang_subfamily"].str.startswith("Uncharacterized"),
+            "zhang_subfamily",
+        ] = None
+        df_annot = df_annot.replace("unknown", None)
+        return df_annot
 
     def _create_dset(self) -> pd.DataFrame:
         data = []
@@ -272,7 +226,7 @@ class ZhangDset:
         df = pd.DataFrame(data=data, columns=["fasta_id", "mature_seq"])
         df["data_origin"] = "paper_zhang"
 
-        # differentiate between full & mature sequences
+        # --- differentiate between full & mature sequences
         # full seq starts with M and in this alignment is before position 31
         full_seq_condition = (
             df["mature_seq"].str.replace("-", "").str.startswith("M")
@@ -282,6 +236,26 @@ class ZhangDset:
             full_seq_condition, "mature_seq"
         ]
         df.loc[full_seq_condition, "mature_seq"] = None
+
+        # --- add species information with `zhang_map`
+        for idx, row in df.iterrows():
+            fasta_id = row["fasta_id"]
+            for abbr in self.zhang_map.keys():
+                if abbr in fasta_id:
+                    df.loc[idx, "species"] = self.zhang_map[abbr]
+
+        # --- add mature sequences predicted by SignalP
+        for header, seq in Fasta(self.mature_path).items():
+            df.loc[df["fasta_id"] == header, "mature_seq"] = str(seq)
+
+        # --- remove Ly6 entries (33 entries)
+        for ly6_identifier in ["ly6e", "lypd2", "lynx1", "slurp2"]:
+            df = df[~df["fasta_id"].str.startswith(ly6_identifier)]
+
+        # --- add annotations
+        df_annot = self._parse_annotations()
+        df = df.join(df_annot.set_index("fasta_id"), on="fasta_id")
+
         return df
 
     def _extract_acc_ids(self, df: pd.DataFrame) -> pd.DataFrame:
@@ -401,6 +375,8 @@ def parse_uniprot_ids_file(uniprot_uids_files: list[Path]) -> pd.DataFrame:
             raise Exception(f"{uniprot_uid_file} does not exist.")
         with open(uniprot_uid_file, "r") as handle:
             for line in handle:
+                if line.startswith("#"):
+                    continue
                 acc_id = line.strip()
                 acc_ids.append(acc_id)
         df = pd.DataFrame(acc_ids, columns=["uniprot_id"])
@@ -448,7 +424,7 @@ def map_ids2uniprot(df: pd.DataFrame) -> pd.DataFrame:
 
 def get_uniprot_metadata(df: pd.DataFrame) -> pd.DataFrame:
     df["seq"] = df["mature_seq"]
-    for idx, row in df[df["uniprot_id"].notna()].iterrows():
+    for idx, row in df[pd.notna(df["uniprot_id"])].iterrows():
         rec = UNIPROT_COLLECTOR.get_entry(acc_id=row["uniprot_id"])
         full_seq, mature_seq = UNIPROT_COLLECTOR.parse_seq(rec=rec)
         if (
@@ -500,9 +476,9 @@ def get_ncbi_metadata(df: pd.DataFrame) -> pd.DataFrame:
         full_seq = NCBI_COLLECTOR.parse_seq(rec=rec)
         species = NCBI_COLLECTOR.parse_taxon(rec=rec)
         db = "NCBI"
-        if row["data_origin"] == "original":
-            # do not change original dataset
-            if pd.notna(row["full_seq"]):
+        # do not change original dataset
+        if row["data_origin"] in ["original"]:
+            if pd.notna(row["full_seq"]) and (full_seq is None):
                 full_seq = row["full_seq"]
             if species != row["species"]:
                 species = row["species"]
@@ -542,7 +518,7 @@ def add_taxon_id(df: pd.DataFrame, taxon_mapper_file: Path) -> pd.DataFrame:
     df_taxon_mapper = pd.concat([df_taxon_mapper, new_df], ignore_index=True)
 
     # get additional taxonomies
-    ranks = ["family", "subfamily", "genus"]
+    ranks = ["family", "genus"]
     for rank in ranks:
         for idx, row in df_taxon_mapper.iterrows():
             if pd.isna(row[rank]):
@@ -615,16 +591,21 @@ def run_blast(
 
 def remove_low_quality_entries(df: pd.DataFrame) -> pd.DataFrame:
     """Remove entries not satisfying inclusion criterion"""
-    # remove entries with a protein_evidence level above 2 (transcript level)
+    inital_dset_len = len(df)
+
+    # keep entries with a protein_evidence level above 2 (transcript level)
     # keep original dataset
     df = df[
         ((df["prot_evi"] <= 2) | pd.isna(df["prot_evi"]))
-        | (df["data_origin"] == "original")
+        | (df["data_origin"].isin(["original", "paper_zhang"]))
     ]
-    # remove entries that have no full or mature swequence
+    # keep entries that have either a full or a mature sequence
     df = df[pd.notna(df["full_seq"]) | pd.notna(df["mature_seq"])]
-    # remove entries having X in sequence
+    # keep entries that do not have X in their sequence
     df = df[pd.isna(df["full_seq"]) | ~(df["full_seq"].str.find("X") != -1)]
+    df = df[pd.isna(df["mature_seq"]) | ~(df["mature_seq"].str.find("X") != -1)]
+    final_dset_len = len(df)
+    print(f"{inital_dset_len-final_dset_len} low quality sequences removed")
     return df
 
 
@@ -634,10 +615,38 @@ def manual_curation(df: pd.DataFrame) -> pd.DataFrame:
 
     # merge duplicates to one record
     len_before = len(df)
-    id_cols = ["full_seq", "mature_seq", "species", "uniprot_id"]
+    id_cols = ["full_seq", "mature_seq", "species"]
     df = df.groupby(id_cols, dropna=False).first().reset_index()
     len_after = len(df)
+
+    # --- create unified identifier
+    # DB|ID(uniprot, ncbi, genomic, fasta)|species name
+    identifier = (
+        df["uniprot_id"]
+        # .fillna(df["genbank_id"])
+        # .fillna(df["refseq_id"])
+        .fillna(df["genomic_id"])
+        .fillna(df["fasta_id"])
+    )
+    col_id_vals = df["db"].astype(str) + "|" + identifier + "|" + df["species"]
+    df.insert(loc=0, column="identifier", value=col_id_vals)
+
     print(f"{len_before-len_after} duplicate sequences were merged.")
+    return df
+
+
+def infer_activit_from_name(
+    df: pd.DataFrame, name_activity_file: Path
+) -> pd.DataFrame:
+    with open(name_activity_file, "r") as json_handle:
+        new_names_dict = json.load(json_handle)
+
+    for new_name, old_name_lst in new_names_dict.items():
+        for old_name in old_name_lst:
+            df.loc[
+                df["name"].str.startswith(old_name, na=False),
+                "name_infered_activity",
+            ] = new_name
 
     return df
 
@@ -645,71 +654,87 @@ def manual_curation(df: pd.DataFrame) -> pd.DataFrame:
 def save_data(df: pd.DataFrame, csv_file: Path, fasta_file: Path) -> None:
     mature_path = fasta_file.with_stem(f"{fasta_file.stem}_mature")
     full_path = fasta_file.with_stem(f"{fasta_file.stem}_full")
-    # move column `fasta_id` to the front
-    col_data = df.pop("fasta_id")
-    df.insert(loc=0, column="fasta_id", value=col_data)
 
-    df.to_csv(csv_file.with_stem(f"{csv_file.stem}2"), index=False)
+    df = df[
+        [
+            "identifier",
+            "fasta_id",
+            "data_origin",
+            "db",
+            "name",
+            "name_infered_activity",
+            # --- taxonomy ---
+            "family",
+            "genus",
+            "species",
+            "taxon_id",
+            # --- identifiers ---
+            "uniprot_id",
+            "uniprot_entry",
+            "genbank_id",
+            "refseq_id",
+            "gi_number",
+            "genomic_id",
+            # --- dset specific ---
+            # original
+            "evolutionary_order",
+            "cystein_group",
+            "major_group",
+            # zhang
+            "zhang_subfamily",
+            "zhang_toxinType",
+            "zhang_conformation",
+            # ritu
+            "ritu_class",
+            # french
+            "activity",
+            "receptor",
+            "groups",
+            "representative",
+            # --- sequences ---
+            "full_seq",
+            "mature_seq",
+        ]
+    ].copy()
+
+    df.to_csv(csv_file.with_stem(f"{csv_file.stem}_all"), index=False)
     with (
         open(mature_path, "w") as handle_mature,
         open(full_path, "w") as handle_full,
     ):
         for _, row in df.iterrows():
             if pd.notna(row["mature_seq"]):
-                handle_mature.write(f">{row['fasta_id']}\n")
+                handle_mature.write(f">{row['identifier']}\n")
                 handle_mature.write(f"{row['mature_seq']}\n")
             if pd.notna(row["full_seq"]):
-                handle_full.write(f">{row['fasta_id']}\n")
+                handle_full.write(f">{row['identifier']}\n")
                 handle_full.write(f"{row['full_seq']}\n")
 
     df = df[
         [
-            "fasta_id",
-            "db",
-            "data_origin",
+            "identifier",
+            "name_infered_activity",
+            # taxonomy
             "family",
-            "subfamily",
             "genus",
             "species",
-            "ritu_class",
+            # --- dset specific ---
+            # original
             "evolutionary_order",
             "cystein_group",
-            "name",
+            "major_group",
+            # zhang
+            "zhang_subfamily",
+            "zhang_toxinType",
+            "zhang_conformation",
+            # ritu
+            "ritu_class",
+            # french
             "activity",
             "receptor",
             "groups",
             "representative",
-            "full_seq",
-            "mature_seq",
-            "seq",
         ]
     ].copy()
+
     df.to_csv(csv_file, index=False)
-
-
-def main():
-    (
-        csv_in,
-        fasta_in,
-        csv_out,
-        fasta_out,
-        genomic_fasta,
-        zhang_fasta,
-        ritu_csv,
-        taxon_mapper_file,
-        blast_dir,
-    ) = setup_arguments()
-
-    # df = construct_df(csv_path=csv_in, fasta_path=fasta_in)
-    # df = get_uniprot_acc_ids(df=df)
-    # df = add_genomic_full_seq(df=df, fasta_path=genomic_fasta)
-    # df = add_zhang_data(df=df, fasta_path=zhang_fasta)
-    # df = add_ritu_data(df=df, csv_path=ritu_csv)
-    # df = add_taxon_id(df=df, taxon_mapper_file=taxon_mapper_file)
-    # df = run_blast(df=df, blast_dir=blast_dir)
-    # df = manual_curation(df=df)
-    # save_data(df=df, csv_file=csv_out, fasta_file=fasta_out)
-
-
-if __name__ == "__main__":
-    main()
