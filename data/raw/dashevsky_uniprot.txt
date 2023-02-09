@@ -1,3 +1,5 @@
+# UniProt search: (lit_author:"Dashevsky D.") AND (protein_name:"Three-finger toxin")
+# https://www.uniprot.org/uniprotkb?query=(lit_author:%22Dashevsky%20D.%22)%20AND%20(protein_name:%22Three-finger%20toxin%22)
 P0DL82
 A0A481MQJ1
 A0A481MQJ6

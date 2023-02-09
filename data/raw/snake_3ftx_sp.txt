@@ -1,3 +1,5 @@
+# Uniprot search: (family:"snake three-finger toxin family") AND (reviewed:true)
+# https://www.uniprot.org/uniprotkb?query=(family:%22snake%20three-finger%20toxin%20family%22)%20AND%20(reviewed:true)
 A0S864
 A0S865
 B3EWF8
