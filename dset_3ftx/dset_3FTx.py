@@ -216,6 +216,9 @@ class ZhangDset:
             df_annot["zhang_subfamily"].str.startswith("Uncharacterized"),
             "zhang_subfamily",
         ] = None
+        df_annot["major_group"] = df_annot["major_group"].replace(
+            "3FTX", "3FTx"
+        )
         df_annot = df_annot.replace("unknown", None)
         return df_annot
 
@@ -625,8 +628,7 @@ def manual_curation(df: pd.DataFrame) -> pd.DataFrame:
         df["uniprot_id"]
         # .fillna(df["genbank_id"])
         # .fillna(df["refseq_id"])
-        .fillna(df["genomic_id"])
-        .fillna(df["fasta_id"])
+        .fillna(df["genomic_id"]).fillna(df["fasta_id"])
     )
     col_id_vals = df["db"].astype(str) + "|" + identifier + "|" + df["species"]
     df.insert(loc=0, column="identifier", value=col_id_vals)
