@@ -1,0 +1,17 @@
+SLURP2:
+P0DP57
+H0YB12
+
+LYNX1:
+P0DP58
+
+SLURP2-LYNX1:
+NP_076435.1
+
+Ly6K:
+Q17RY6 - LSLS
+Q17RY6-2 - PQVL (https://www.uniprot.org/uniparc/UPI0000E5AF83/entry)
+E5RGJ8 - LVGC
+NP_001153826.1 - TVHL
+A0A0A8K8F0 - up-regulated in lung cancer 10
+
