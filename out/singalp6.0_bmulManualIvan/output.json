@@ -1,0 +1,498 @@
+{
+  "INFO": {
+    "failedjobs": 0,
+    "size": 30,
+    "Time tabular output done": "20230310112414",
+    "Time plotting done": "20230310112419"
+  },
+  "CSV_FILE": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/prediction_results.txt",
+  "MATURE_FILE": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/processed_entries.fasta",
+  "GFF_FILE": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output.gff3",
+  "ZIP_FILE": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_all_results.zip",
+  "SEQUENCES": {
+    "B.multicinctus_HiC_scaffold6_G00174.t1": {
+      "Name": "B.multicinctus_HiC_scaffold6_G00174.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold6_G00174.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold6_G00174.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold6_G00174.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.978121"
+    },
+    "B.multicinctus_HiC_scaffold7_G00718.t1": {
+      "Name": "B.multicinctus_HiC_scaffold7_G00718.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00718.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00718.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00718.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 22 and 23. Probability 0.979467"
+    },
+    "B.multicinctus_HiC_scaffold7_G00738.t1": {
+      "Name": "B.multicinctus_HiC_scaffold7_G00738.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00738.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00738.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00738.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.703998"
+    },
+    "B.multicinctus_HiC_scaffold7_G00790.t1": {
+      "Name": "B.multicinctus_HiC_scaffold7_G00790.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00790.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00790.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00790.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.980956"
+    },
+    "B.multicinctus_HiC_scaffold7_G00795.t1": {
+      "Name": "B.multicinctus_HiC_scaffold7_G00795.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00795.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00795.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00795.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 20 and 21. Probability 0.980508"
+    },
+    "B.multicinctus_HiC_scaffold7_G00800.t1": {
+      "Name": "B.multicinctus_HiC_scaffold7_G00800.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00800.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00800.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00800.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 24 and 25. Probability 0.982136"
+    },
+    "B.multicinctus_HiC_scaffold7_G00801.t1": {
+      "Name": "B.multicinctus_HiC_scaffold7_G00801.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00801.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00801.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00801.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0031,
+        0.9969
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 45 and 46. Probability 0.851702"
+    },
+    "B.multicinctus_HiC_scaffold7_G00802.t1": {
+      "Name": "B.multicinctus_HiC_scaffold7_G00802.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00802.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00802.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00802.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 20 and 21. Probability 0.980002"
+    },
+    "B.multicinctus_HiC_scaffold7_G00803.t1": {
+      "Name": "B.multicinctus_HiC_scaffold7_G00803.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00803.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00803.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00803.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.979168"
+    },
+    "B.multicinctus_HiC_scaffold7_G00805.t1": {
+      "Name": "B.multicinctus_HiC_scaffold7_G00805.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00805.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00805.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00805.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.980725"
+    },
+    "B.multicinctus_HiC_scaffold7_G00807.t1": {
+      "Name": "B.multicinctus_HiC_scaffold7_G00807.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00807.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00807.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00807.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.972570"
+    },
+    "B.multicinctus_HiC_scaffold7_G00808.t1": {
+      "Name": "B.multicinctus_HiC_scaffold7_G00808.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00808.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00808.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00808.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.974701"
+    },
+    "B.multicinctus_HiC_scaffold7_G00809.t1": {
+      "Name": "B.multicinctus_HiC_scaffold7_G00809.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00809.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00809.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00809.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.977788"
+    },
+    "B.multicinctus_HiC_scaffold7_G00810.t1": {
+      "Name": "B.multicinctus_HiC_scaffold7_G00810.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00810.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00810.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00810.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.979922"
+    },
+    "B.multicinctus_HiC_scaffold7_G00815.t1": {
+      "Name": "B.multicinctus_HiC_scaffold7_G00815.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00815.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00815.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00815.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.979350"
+    },
+    "B.multicinctus_HiC_scaffold7_G00816.t1": {
+      "Name": "B.multicinctus_HiC_scaffold7_G00816.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00816.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00816.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00816.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.979374"
+    },
+    "B.multicinctus_HiC_scaffold7_G00817.t1": {
+      "Name": "B.multicinctus_HiC_scaffold7_G00817.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00817.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00817.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00817.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 19 and 20. Probability 0.978126"
+    },
+    "B.multicinctus_HiC_scaffold7_G00819.t1": {
+      "Name": "B.multicinctus_HiC_scaffold7_G00819.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00819.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00819.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00819.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.791938"
+    },
+    "B.multicinctus_HiC_scaffold7_G00905.t1": {
+      "Name": "B.multicinctus_HiC_scaffold7_G00905.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00905.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00905.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold7_G00905.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.980079"
+    },
+    "B.multicinctus_HiC_scaffold9_G00036.t1": {
+      "Name": "B.multicinctus_HiC_scaffold9_G00036.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold9_G00036.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold9_G00036.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold9_G00036.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.975276"
+    },
+    "B.multicinctus_HiC_scaffold27_G00001.t1": {
+      "Name": "B.multicinctus_HiC_scaffold27_G00001.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold27_G00001.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold27_G00001.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold27_G00001.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.969253"
+    },
+    "B.multicinctus_HiC_scaffold27_G00003.t1": {
+      "Name": "B.multicinctus_HiC_scaffold27_G00003.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold27_G00003.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold27_G00003.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold27_G00003.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.979449"
+    },
+    "B.multicinctus_HiC_scaffold52_G00002.t1": {
+      "Name": "B.multicinctus_HiC_scaffold52_G00002.t1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold52_G00002.t1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold52_G00002.t1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_B.multicinctus_HiC_scaffold52_G00002.t1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.964443"
+    },
+    "denovo_1_scaffold7": {
+      "Name": "denovo_1_scaffold7",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_denovo_1_scaffold7_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_denovo_1_scaffold7_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_denovo_1_scaffold7_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.978117"
+    },
+    "denovo_2_scaffold7": {
+      "Name": "denovo_2_scaffold7",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_denovo_2_scaffold7_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_denovo_2_scaffold7_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_denovo_2_scaffold7_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.973354"
+    },
+    "denovo_scaffold35": {
+      "Name": "denovo_scaffold35",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_denovo_scaffold35_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_denovo_scaffold35_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_denovo_scaffold35_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 19 and 20. Probability 0.982678"
+    },
+    "ScVE01q_1072_HRSCAF_1231_-_30": {
+      "Name": "ScVE01q_1072_HRSCAF_1231_-_30",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_ScVE01q_1072_HRSCAF_1231_-_30_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_ScVE01q_1072_HRSCAF_1231_-_30_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_ScVE01q_1072_HRSCAF_1231_-_30_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.835331"
+    },
+    "ScVE01q_1072_HRSCAF_1231_-_31": {
+      "Name": "ScVE01q_1072_HRSCAF_1231_-_31",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_ScVE01q_1072_HRSCAF_1231_-_31_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_ScVE01q_1072_HRSCAF_1231_-_31_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_ScVE01q_1072_HRSCAF_1231_-_31_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.975486"
+    },
+    "ScVE01q_1072_HRSCAF_1231_-_32": {
+      "Name": "ScVE01q_1072_HRSCAF_1231_-_32",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_ScVE01q_1072_HRSCAF_1231_-_32_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_ScVE01q_1072_HRSCAF_1231_-_32_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_ScVE01q_1072_HRSCAF_1231_-_32_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.973514"
+    },
+    "ScVE01q_1072_HRSCAF_1231_-_33": {
+      "Name": "ScVE01q_1072_HRSCAF_1231_-_33",
+      "Plot_eps": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_ScVE01q_1072_HRSCAF_1231_-_33_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_ScVE01q_1072_HRSCAF_1231_-_33_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/output_ScVE01q_1072_HRSCAF_1231_-_33_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.972944"
+    }
+  },
+  "FORMAT": "long",
+  "ORG": "Eukarya",
+  "MODE": "slow-sequential",
+  "REGION_GFF_FILE": "/services/SignalP-6.0/tmp/640B04F60000696FF940CAA8/region_output.gff3"
+}

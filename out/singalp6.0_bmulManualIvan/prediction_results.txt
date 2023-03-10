@@ -1,0 +1,32 @@
+# SignalP-6.0	Organism: Eukarya	Timestamp: 20230310112414
+# ID	Prediction	OTHER	SP(Sec/SPI)	CS Position
+B.multicinctus_HiC_scaffold6_G00174.t1	SP	0.000147	0.999865	CS pos: 21-22. Pr: 0.9781
+B.multicinctus_HiC_scaffold7_G00718.t1	SP	0.000142	0.999873	CS pos: 22-23. Pr: 0.9795
+B.multicinctus_HiC_scaffold7_G00738.t1	SP	0.000148	0.999839	CS pos: 21-22. Pr: 0.7040
+B.multicinctus_HiC_scaffold7_G00790.t1	SP	0.000144	0.999855	CS pos: 21-22. Pr: 0.9810
+B.multicinctus_HiC_scaffold7_G00795.t1	SP	0.000160	0.999819	CS pos: 20-21. Pr: 0.9805
+B.multicinctus_HiC_scaffold7_G00800.t1	SP	0.000160	0.999848	CS pos: 24-25. Pr: 0.9821
+B.multicinctus_HiC_scaffold7_G00801.t1	SP	0.003104	0.996897	CS pos: 45-46. Pr: 0.8517
+B.multicinctus_HiC_scaffold7_G00802.t1	SP	0.000148	0.999841	CS pos: 20-21. Pr: 0.9800
+B.multicinctus_HiC_scaffold7_G00803.t1	SP	0.000143	0.999874	CS pos: 21-22. Pr: 0.9792
+B.multicinctus_HiC_scaffold7_G00805.t1	SP	0.000147	0.999833	CS pos: 21-22. Pr: 0.9807
+B.multicinctus_HiC_scaffold7_G00807.t1	SP	0.000147	0.999868	CS pos: 21-22. Pr: 0.9726
+B.multicinctus_HiC_scaffold7_G00808.t1	SP	0.000152	0.999869	CS pos: 21-22. Pr: 0.9747
+B.multicinctus_HiC_scaffold7_G00809.t1	SP	0.000148	0.999854	CS pos: 21-22. Pr: 0.9778
+B.multicinctus_HiC_scaffold7_G00810.t1	SP	0.000144	0.999852	CS pos: 21-22. Pr: 0.9799
+B.multicinctus_HiC_scaffold7_G00815.t1	SP	0.000144	0.999866	CS pos: 21-22. Pr: 0.9793
+B.multicinctus_HiC_scaffold7_G00816.t1	SP	0.000145	0.999853	CS pos: 21-22. Pr: 0.9794
+B.multicinctus_HiC_scaffold7_G00817.t1	SP	0.000154	0.999855	CS pos: 19-20. Pr: 0.9781
+B.multicinctus_HiC_scaffold7_G00819.t1	SP	0.000143	0.999882	CS pos: 21-22. Pr: 0.7919
+B.multicinctus_HiC_scaffold7_G00905.t1	SP	0.000147	0.999841	CS pos: 21-22. Pr: 0.9801
+B.multicinctus_HiC_scaffold9_G00036.t1	SP	0.000150	0.999859	CS pos: 21-22. Pr: 0.9753
+B.multicinctus_HiC_scaffold27_G00001.t1	SP	0.000156	0.999835	CS pos: 21-22. Pr: 0.9693
+B.multicinctus_HiC_scaffold27_G00003.t1	SP	0.000149	0.999845	CS pos: 21-22. Pr: 0.9794
+B.multicinctus_HiC_scaffold52_G00002.t1	SP	0.000156	0.999841	CS pos: 21-22. Pr: 0.9644
+denovo_1_scaffold7	SP	0.000143	0.999855	CS pos: 21-22. Pr: 0.9781
+denovo_2_scaffold7	SP	0.000147	0.999861	CS pos: 21-22. Pr: 0.9734
+denovo_scaffold35	SP	0.000145	0.999855	CS pos: 19-20. Pr: 0.9827
+ScVE01q_1072_HRSCAF_1231_-_30	SP	0.000141	0.999858	CS pos: 21-22. Pr: 0.8353
+ScVE01q_1072_HRSCAF_1231_-_31	SP	0.000149	0.999868	CS pos: 21-22. Pr: 0.9755
+ScVE01q_1072_HRSCAF_1231_-_32	SP	0.000146	0.999863	CS pos: 21-22. Pr: 0.9735
+ScVE01q_1072_HRSCAF_1231_-_33	SP	0.000162	0.999852	CS pos: 21-22. Pr: 0.9729
