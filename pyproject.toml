@@ -24,6 +24,7 @@ matplotlib = "^3.7.0"
 jupyter-black = "^0.3.3"
 jupyter = "^1.0.0"
 xlrd = "^2.0.1"
+pycairo = "^1.23.0"
 
 [build-system]
 requires = ["poetry-core"]
